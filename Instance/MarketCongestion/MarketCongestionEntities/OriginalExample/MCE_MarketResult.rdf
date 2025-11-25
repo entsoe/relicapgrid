@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cim="http://iec.ch/TC57/CIM100#"
+   xmlns:nc="https://example.org/market#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="urn:uuid:d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenueProduct"/>
+    <cim:IdentifiedObject.mRID>d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2 aFRR Energy</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.marketVenue rdf:resource="urn:uuid:6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1"/>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://example.org/market#MarketMatchingMethodKind.evaluation"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://example.org/market#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://example.org/market#MarketAreaKind.biddingZone"/>
+    <nc:MarketVenueProduct.marketAreaName>NO2</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef rdf:resource="urn:eic:10YNO-2--------T"/>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://example.org/market#DayOfWeekKind.all"/>
+    <nc:MarketVenueProduct.productType rdf:resource="urn:uuid:b611f88e-d2bd-4a3d-bb8e-4d317e1ff933"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:7f56c17d-1289-48c2-9385-fcc1da40a243">
+    <rdf:type rdf:resource="https://example.org/market#MarketProductType"/>
+    <cim:IdentifiedObject.mRID>7f56c17d-1289-48c2-9385-fcc1da40a243</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Power Forward – Monthly</cim:IdentifiedObject.name>
+    <nc:MarketProductType.kind rdf:resource="https://example.org/market#MarketProductKind.forward"/>
+    <nc:MarketProductType.commodity rdf:resource="https://example.org/market#MarketCommodityKind.electricity"/>
+    <nc:MarketProductType.productResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</nc:MarketProductType.productResolution>
+    <nc:MarketProductType.applicabilityLead rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1M</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.clearingLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P0D</nc:MarketProductType.clearingLag>
+    <nc:MarketProductType.settlementLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</nc:MarketProductType.settlementLag>
+    <nc:MarketProductType.isSettlementFromEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</nc:MarketProductType.isSettlementFromEnd>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f72107e2-b8bc-4e3d-856a-04e49bb84694">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>f72107e2-b8bc-4e3d-856a-04e49bb84694</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>FWD_NORDIC_M01-26</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:be8bd28c-953f-4b54-b23e-0137b86f4a30"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.price"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-01-01T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">55.30</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>Nordic System</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenueProduct"/>
+    <cim:IdentifiedObject.mRID>e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TTF Gas Spot</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.marketVenue rdf:resource="urn:uuid:2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb"/>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://example.org/market#MarketMatchingMethodKind.continuous"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://example.org/market#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://example.org/market#MarketAreaKind.hub"/>
+    <nc:MarketVenueProduct.marketAreaName>TTF</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef rdf:resource="https://example.org/marketareas/ttf"/>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://example.org/market#DayOfWeekKind.all"/>
+    <nc:MarketVenueProduct.productType rdf:resource="urn:uuid:af8b65bb-9b44-4a2f-8af3-11660238e5b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:0a43b9aa-b2e1-4c3c-9d26-9dd2bdd7e6a5">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>0a43b9aa-b2e1-4c3c-9d26-9dd2bdd7e6a5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2_aFRR_2025-11-11T10:00_UP_VOLUME</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.regulationVolume"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-11T10:00:00+01:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7.5</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>NO2</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:af8b65bb-9b44-4a2f-8af3-11660238e5b2">
+    <rdf:type rdf:resource="https://example.org/market#MarketProductType"/>
+    <cim:IdentifiedObject.mRID>af8b65bb-9b44-4a2f-8af3-11660238e5b2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Gas Spot – Daily</cim:IdentifiedObject.name>
+    <nc:MarketProductType.kind rdf:resource="https://example.org/market#MarketProductKind.spot"/>
+    <nc:MarketProductType.commodity rdf:resource="https://example.org/market#MarketCommodityKind.naturalGas"/>
+    <nc:MarketProductType.productResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</nc:MarketProductType.productResolution>
+    <nc:MarketProductType.applicabilityLead rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P0D</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.clearingLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P0D</nc:MarketProductType.clearingLag>
+    <nc:MarketProductType.settlementLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</nc:MarketProductType.settlementLag>
+    <nc:MarketProductType.isSettlementFromEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</nc:MarketProductType.isSettlementFromEnd>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:be8bd28c-953f-4b54-b23e-0137b86f4a30">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenueProduct"/>
+    <cim:IdentifiedObject.mRID>be8bd28c-953f-4b54-b23e-0137b86f4a30</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nord Pool Forward – Nordic System</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.marketVenue rdf:resource="urn:uuid:1a5bb7c2-a527-4bba-9c9a-21b62b848f40"/>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://example.org/market#MarketMatchingMethodKind.auction"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://example.org/market#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://example.org/market#MarketAreaKind.system"/>
+    <nc:MarketVenueProduct.marketAreaName>Nordic System</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef rdf:resource="https://example.org/marketareas/nordic-system"/>
+    <nc:MarketVenueProduct.gateClosureClock rdf:datatype="http://www.w3.org/2001/XMLSchema#time">12:00:00+00:00</nc:MarketVenueProduct.gateClosureClock>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://example.org/market#DayOfWeekKind.businessDay"/>
+    <nc:MarketVenueProduct.productType rdf:resource="urn:uuid:7f56c17d-1289-48c2-9385-fcc1da40a243"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5b492f4d-0cf9-4c1e-97e2-c7b7f949be27">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>5b492f4d-0cf9-4c1e-97e2-c7b7f949be27</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2_DA_2025-11-11T05:00Z</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:aa44f6c5-8821-4a39-b115-5d3b6f98c618"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.price"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-11T05:00:00+00:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">72.34</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>NO2</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:37c54e3c-6282-4afc-8f07-85ece4c890e5">
+    <rdf:type rdf:resource="https://example.org/market#MarketProductType"/>
+    <cim:IdentifiedObject.mRID>37c54e3c-6282-4afc-8f07-85ece4c890e5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Day-Ahead – 15-min</cim:IdentifiedObject.name>
+    <nc:MarketProductType.kind rdf:resource="https://example.org/market#MarketProductKind.spot"/>
+    <nc:MarketProductType.commodity rdf:resource="https://example.org/market#MarketCommodityKind.electricity"/>
+    <nc:MarketProductType.productResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT15M</nc:MarketProductType.productResolution>
+    <nc:MarketProductType.applicabilityLead rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.clearingLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P0D</nc:MarketProductType.clearingLag>
+    <nc:MarketProductType.settlementLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</nc:MarketProductType.settlementLag>
+    <nc:MarketProductType.isSettlementFromEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</nc:MarketProductType.isSettlementFromEnd>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenue"/>
+    <cim:IdentifiedObject.mRID>6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Statnett – Reserve and Balancing Markets</cim:IdentifiedObject.name>
+    <nc:MarketVenue.rulebookRef rdf:resource="https://www.statnett.no/en/for-aktorer-i-kraftsystemet/marked/reservemarkeder/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:9ed65e8a-313d-4fb2-be1f-0d9c91f3a9b0">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>9ed65e8a-313d-4fb2-be1f-0d9c91f3a9b0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2_aFRR_2025-11-11T10:00_UP_PRICE</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.regulationPrice"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-11T10:00:00+01:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">145.00</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>NO2</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:1a5bb7c2-a527-4bba-9c9a-21b62b848f40">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenue"/>
+    <cim:IdentifiedObject.mRID>1a5bb7c2-a527-4bba-9c9a-21b62b848f40</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nord Pool</cim:IdentifiedObject.name>
+    <nc:MarketVenue.rulebookRef rdf:resource="https://www.nordpoolgroup.com/en/trading/Rules-and-regulations/"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:b611f88e-d2bd-4a3d-bb8e-4d317e1ff933">
+    <rdf:type rdf:resource="https://example.org/market#MarketProductType"/>
+    <cim:IdentifiedObject.mRID>b611f88e-d2bd-4a3d-bb8e-4d317e1ff933</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>aFRR Energy Activation – 15min</cim:IdentifiedObject.name>
+    <nc:MarketProductType.kind rdf:resource="https://example.org/market#MarketProductKind.spot"/>
+    <nc:MarketProductType.commodity rdf:resource="https://example.org/market#MarketCommodityKind.electricity"/>
+    <nc:MarketProductType.productResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT15M</nc:MarketProductType.productResolution>
+    <nc:MarketProductType.applicabilityLead rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT1H</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.clearingLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P0D</nc:MarketProductType.clearingLag>
+    <nc:MarketProductType.settlementLag rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</nc:MarketProductType.settlementLag>
+    <nc:MarketProductType.isSettlementFromEnd rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</nc:MarketProductType.isSettlementFromEnd>
+    <nc:MarketProductType.regulationDirection rdf:resource="https://example.org/market#MarketRegulationDirectionKind.upAndDown"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:4d4cfbdc-7a36-4dc8-b211-96f46d56cb90">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>4d4cfbdc-7a36-4dc8-b211-96f46d56cb90</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TTF_GAS_SPOT_2025-11-12_PRICE</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.price"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.75</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>TTF</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:aa44f6c5-8821-4a39-b115-5d3b6f98c618">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenueProduct"/>
+    <cim:IdentifiedObject.mRID>aa44f6c5-8821-4a39-b115-5d3b6f98c618</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2 Day-Ahead 15-min</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.marketVenue rdf:resource="urn:uuid:1a5bb7c2-a527-4bba-9c9a-21b62b848f40"/>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://example.org/market#MarketMatchingMethodKind.auction"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://example.org/market#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://example.org/market#MarketAreaKind.biddingZone"/>
+    <nc:MarketVenueProduct.marketAreaName>NO2</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef rdf:resource="urn:eic:10YNO-2--------T"/>
+    <nc:MarketVenueProduct.gateClosureClock rdf:datatype="http://www.w3.org/2001/XMLSchema#time">12:00:00+00:00</nc:MarketVenueProduct.gateClosureClock>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://example.org/market#DayOfWeekKind.all"/>
+    <nc:MarketVenueProduct.productType rdf:resource="urn:uuid:37c54e3c-6282-4afc-8f07-85ece4c890e5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb">
+    <rdf:type rdf:resource="https://example.org/market#MarketVenue"/>
+    <cim:IdentifiedObject.mRID>2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>EEX</cim:IdentifiedObject.name>
+    <nc:MarketVenue.rulebookRef rdf:resource="https://www.eex.com/en/rules-regulations"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8adc7b9b-7eee-4bd5-b132-7c44c669fe1b">
+    <rdf:type rdf:resource="https://example.org/market#MarketInstrument"/>
+    <cim:IdentifiedObject.mRID>8adc7b9b-7eee-4bd5-b132-7c44c669fe1b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TTF_GAS_SPOT_2025-11-12_VOLUME</cim:IdentifiedObject.name>
+    <nc:MarketInstrument.venueProduct rdf:resource="urn:uuid:e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31"/>
+    <nc:MarketInstrument.observedProperty rdf:resource="https://example.org/market#MarketObservedPropertyKind.volume"/>
+    <nc:MarketInstrument.temporalApplicability rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-11-12T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
+    <nc:MarketInstrument.unitCode>MWH</nc:MarketInstrument.unitCode>
+    <nc:MarketInstrument.value rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">125000.0</nc:MarketInstrument.value>
+    <nc:MarketInstrument.marketAreaName>TTF</nc:MarketInstrument.marketAreaName>
+  </rdf:Description>
+</rdf:RDF>
