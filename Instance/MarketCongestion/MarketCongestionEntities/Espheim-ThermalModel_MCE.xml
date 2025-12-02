@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:b6cc8fd9-0f3a-43ca-9dd3-3012a602b7bd">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/MarketCongestionEntities/1.0"/>
+    <dcterms:description xml:lang="en">"This is an example of market congestion entities dataset."@en</dcterms:description>
+    <dcat:endDate>20271125_Espheim_MCE_1.0.0</dcat:endDate>
+    <prov:generatedAtTime>2025-11-25T15:17:00Z</prov:generatedAtTime>
+    <dcterms:identifier>b6cc8fd9-0f3a-43ca-9dd3-3012a602b7bd</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Espheim-MCE"/>
+    <dcat:keyword>MCE</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Espheim"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcat:startDate>2025-11-25T15:17:00Z</dcat:startDate>
+    <dcterms:title>20251125_Espheim_MCE_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/MS-ERAA"/>
+  </dcat:Dataset>
+  <nc:UnitFuelCharacteristic rdf:ID="_0af69aa7-32d2-4f75-8e55-b749ccef3121">
+    <cim:IdentifiedObject.mRID>0af69aa7-32d2-4f75-8e55-b749ccef3121</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Fuel characteristics (secondary fuel) of the Torrey SM thermal unit from Espheim grid model.</cim:IdentifiedObject.name>
+    <nc:UnitFuelCharacteristic.ThermalGeneratingUnit rdf:resource="#056a01e9-090b-1288-cc12-fc8cdaca9ed0"/>
+    <nc:UnitFuelCharacteristic.carbonCaptureTechnology rdf:resource="https://cim4.eu/ns/nc#CarbonCaptureTechnologyKind.greenHouseGas"/>
+    <nc:UnitFuelCharacteristic.conversionTechnology rdf:resource="https://cim4.eu/ns/nc#ThermalConversionTechnologyKind.rankineCondensing"/>
+    <nc:UnitFuelCharacteristic.fuel rdf:resource="https://cim4.eu/ns/nc#FuelKind.lignite"/>
+    <nc:UnitFuelCharacteristic.fuelMixture>0.4</nc:UnitFuelCharacteristic.fuelMixture>
+    <nc:UnitFuelCharacteristic.solidFuel rdf:resource="https://cim4.eu/ns/nc#SolidFuelKind.coke"/>
+    <nc:UnitFuelCharacteristic.chemicalMaterial rdf:resource="https://cim4.eu/ns/nc#ChemicalMaterialKind.ammonia"/>
+  </nc:UnitFuelCharacteristic>
+  <nc:UnitFuelCharacteristic rdf:ID="_8138c5c9-e94a-4f8e-94ad-ada9fac46872">
+    <cim:IdentifiedObject.mRID>8138c5c9-e94a-4f8e-94ad-ada9fac46872</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Fuel characteristics (main fuel) of the Torrey SM thermal unit from Espheim grid model.</cim:IdentifiedObject.name>
+    <nc:UnitFuelCharacteristic.ThermalGeneratingUnit rdf:resource="#056a01e9-090b-1288-cc12-fc8cdaca9ed0"/>
+    <nc:UnitFuelCharacteristic.carbonCaptureTechnology rdf:resource="https://cim4.eu/ns/nc#CarbonCaptureTechnologyKind.greenHouseGas"/>
+    <nc:UnitFuelCharacteristic.conversionTechnology rdf:resource="https://cim4.eu/ns/nc#ThermalConversionTechnologyKind.rankineCondensing"/>
+    <nc:UnitFuelCharacteristic.fuel rdf:resource="https://cim4.eu/ns/nc#FuelKind.coal"/>
+    <nc:UnitFuelCharacteristic.fuelMixture>0.6</nc:UnitFuelCharacteristic.fuelMixture>
+    <nc:UnitFuelCharacteristic.solidFuel rdf:resource="https://cim4.eu/ns/nc#SolidFuelKind.hardCoal"/>
+    <nc:UnitFuelCharacteristic.chemicalMaterial rdf:resource="https://cim4.eu/ns/nc#ChemicalMaterialKind.ammonia"/>
+  </nc:UnitFuelCharacteristic>
+</rdf:RDF>
