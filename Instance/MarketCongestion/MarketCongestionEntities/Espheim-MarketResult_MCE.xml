@@ -28,9 +28,7 @@
     <cim:IdentifiedObject.description>Regulation volume (UP) – same interval</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>0a43b9aa-b2e1-4c3c-9d26-9dd2bdd7e6a5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NO2_aFRR_2025-11-11T10:00_UP_VOLUME</cim:IdentifiedObject.name>
-    <nc:MarketInstrument.MarketVenueProduct rdf:resource="#d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3"/>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#NO2"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.regulationVolume"/>
+    <nc:MarketInstrument.MarketVenueProduct rdf:resource="#807d6544-5e73-4353-8088-2d9fcc91404c"/>
     <nc:MarketInstrument.temporalApplicability>2025-11-11T10:00:00+01:00</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>7.5</nc:MarketInstrument.value>
@@ -41,8 +39,6 @@
     <cim:IdentifiedObject.name>NO2_aFRR_2025-11-11T10:00_UP_PRICE</cim:IdentifiedObject.name>
     <nc:MarketInstrument.MarketVenueProduct rdf:resource="#d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3"/>
     <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#NO2"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.regulationPrice"/>
     <nc:MarketInstrument.temporalApplicability>2025-11-11T10:00:00+01:00</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>145.0</nc:MarketInstrument.value>
@@ -53,8 +49,6 @@
     <cim:IdentifiedObject.name>NO2_DA_2025-11-11T05:00Z</cim:IdentifiedObject.name>
     <nc:MarketInstrument.MarketVenueProduct rdf:resource="#aa44f6c5-8821-4a39-b115-5d3b6f98c618"/>
     <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#NO2"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketInstrument.temporalApplicability>2025-11-11T05:00:00Z</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>72.34</nc:MarketInstrument.value>
@@ -63,9 +57,7 @@
     <cim:IdentifiedObject.description>Volume instrument for 2025-11-12</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>8adc7b9b-7eee-4bd5-b132-7c44c669fe1b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TTF_GAS_SPOT_2025-11-12_VOLUME</cim:IdentifiedObject.name>
-    <nc:MarketInstrument.MarketVenueProduct rdf:resource="#e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31"/>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#TTF"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.volume"/>
+    <nc:MarketInstrument.MarketVenueProduct rdf:resource="#86349d15-641c-40e7-a1e7-061b157e12f5"/>
     <nc:MarketInstrument.temporalApplicability>2025-11-12T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>125000.0</nc:MarketInstrument.value>
@@ -76,8 +68,6 @@
     <cim:IdentifiedObject.name>TTF_GAS_SPOT_2025-11-12_PRICE</cim:IdentifiedObject.name>
     <nc:MarketInstrument.MarketVenueProduct rdf:resource="#e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31"/>
     <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#TTF"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketInstrument.temporalApplicability>2025-11-12T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>39.75</nc:MarketInstrument.value>
@@ -88,71 +78,136 @@
     <cim:IdentifiedObject.name>FWD_NORDIC_M01-26</cim:IdentifiedObject.name>
     <nc:MarketInstrument.MarketVenueProduct rdf:resource="#be8bd28c-953f-4b54-b23e-0137b86f4a30"/>
     <nc:MarketInstrument.currency>EUR</nc:MarketInstrument.currency>
-    <nc:MarketInstrument.marketAreaName rdf:resource="#Nordic System"/>
-    <nc:MarketInstrument.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketInstrument.temporalApplicability>2026-01-01T00:00:00+01:00</nc:MarketInstrument.temporalApplicability>
     <nc:MarketInstrument.unitCode>EUR/MWH</nc:MarketInstrument.unitCode>
     <nc:MarketInstrument.value>55.3</nc:MarketInstrument.value>
   </nc:MarketInstrument>
+  <nc:MarketParticipant rdf:ID="_bd837e79-6911-49b1-9336-271f658afe31">
+    <cim:IdentifiedObject.description>This is a market participant of EEX described in their website
+https://www.eex.com/en/trading-resources/participants/list-of-trading-participants</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.energyIdentCodeEic>bd837e79-6911-49b1-9336-271f658afe31</cim:IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>01 Futura Solar Logistica Global SL</cim:IdentifiedObject.name>
+    <nc:MarketParticipant.MarketVenue rdf:resource="#2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb"/>
+  </nc:MarketParticipant>
+  <nc:MarketParticipant rdf:ID="_65cb54e3-26e9-4706-ad1e-aeb39a7218d0">
+    <cim:IdentifiedObject.description>This is a market participant of Nord Pool described in their website
+https://www.nordpoolgroup.com/en/trading/join-our-markets/membership/</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.energyIdentCodeEic>65cb54e3-26e9-4706-ad1e-aeb39a7218d0</cim:IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.name>Arcane Energy ApS</cim:IdentifiedObject.name>
+    <nc:MarketParticipant.MarketVenue rdf:resource="#1a5bb7c2-a527-4bba-9c9a-21b62b848f40"/>
+  </nc:MarketParticipant>
   <nc:MarketProductType rdf:ID="_b611f88e-d2bd-4a3d-bb8e-4d317e1ff933">
     <cim:IdentifiedObject.description>ProductType – aFRR energy activation, 15-min, bidirectional</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>b611f88e-d2bd-4a3d-bb8e-4d317e1ff933</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>aFRR Energy Activation – 15min</cim:IdentifiedObject.name>
+    <nc:MarketProductType.applicabilityLead>PT60M</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.chargeKind rdf:resource="https://cim4.eu/ns/nc#ChargeKind.other"/>
+    <nc:MarketProductType.clearingLag>PT0S</nc:MarketProductType.clearingLag>
     <nc:MarketProductType.commodity rdf:resource="https://cim4.eu/ns/nc#MarketCommodityKind.electricity"/>
     <nc:MarketProductType.isSettlementFromEnd rdf:resource="#false"/>
     <nc:MarketProductType.kind rdf:resource="https://cim4.eu/ns/nc#MarketProductKind.spot"/>
+    <nc:MarketProductType.productResolution>PT15M</nc:MarketProductType.productResolution>
     <nc:MarketProductType.regulationDirection rdf:resource="https://cim4.eu/ns/nc#MarketRegulationDirectionKind.upAndDown"/>
   </nc:MarketProductType>
   <nc:MarketProductType rdf:ID="_37c54e3c-6282-4afc-8f07-85ece4c890e5">
     <cim:IdentifiedObject.description>ProductType – Day-ahead 15-min</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>37c54e3c-6282-4afc-8f07-85ece4c890e5</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Day-Ahead – 15-min</cim:IdentifiedObject.name>
+    <nc:MarketProductType.applicabilityLead>P1D</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.chargeKind rdf:resource="https://cim4.eu/ns/nc#ChargeKind.fee"/>
+    <nc:MarketProductType.clearingLag>PT0S</nc:MarketProductType.clearingLag>
     <nc:MarketProductType.commodity rdf:resource="https://cim4.eu/ns/nc#MarketCommodityKind.electricity"/>
     <nc:MarketProductType.isSettlementFromEnd rdf:resource="#false"/>
     <nc:MarketProductType.kind rdf:resource="https://cim4.eu/ns/nc#MarketProductKind.spot"/>
+    <nc:MarketProductType.productResolution>PT15M</nc:MarketProductType.productResolution>
   </nc:MarketProductType>
   <nc:MarketProductType rdf:ID="_af8b65bb-9b44-4a2f-8af3-11660238e5b2">
     <cim:IdentifiedObject.description>ProductType – Gas spot daily product</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>af8b65bb-9b44-4a2f-8af3-11660238e5b2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Gas Spot – Daily</cim:IdentifiedObject.name>
+    <nc:MarketProductType.applicabilityLead>PT0S</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.chargeKind rdf:resource="https://cim4.eu/ns/nc#ChargeKind.tax"/>
+    <nc:MarketProductType.clearingLag>PT0S</nc:MarketProductType.clearingLag>
     <nc:MarketProductType.commodity rdf:resource="https://cim4.eu/ns/nc#MarketCommodityKind.naturalGas"/>
     <nc:MarketProductType.isSettlementFromEnd rdf:resource="#false"/>
     <nc:MarketProductType.kind rdf:resource="https://cim4.eu/ns/nc#MarketProductKind.spot"/>
+    <nc:MarketProductType.productResolution>P1D</nc:MarketProductType.productResolution>
   </nc:MarketProductType>
   <nc:MarketProductType rdf:ID="_7f56c17d-1289-48c2-9385-fcc1da40a243">
     <cim:IdentifiedObject.description>MarketProductType – Forward electricity (monthly)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7f56c17d-1289-48c2-9385-fcc1da40a243</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Power Forward – Monthly</cim:IdentifiedObject.name>
+    <nc:MarketProductType.applicabilityLead>PT0S</nc:MarketProductType.applicabilityLead>
+    <nc:MarketProductType.chargeKind rdf:resource="https://cim4.eu/ns/nc#ChargeKind.tax"/>
+    <nc:MarketProductType.clearingLag>PT0S</nc:MarketProductType.clearingLag>
     <nc:MarketProductType.commodity rdf:resource="https://cim4.eu/ns/nc#MarketCommodityKind.electricity"/>
     <nc:MarketProductType.isSettlementFromEnd rdf:resource="#true"/>
     <nc:MarketProductType.kind rdf:resource="https://cim4.eu/ns/nc#MarketProductKind.forward"/>
+    <nc:MarketProductType.productResolution>P1M</nc:MarketProductType.productResolution>
   </nc:MarketProductType>
   <nc:MarketVenue rdf:ID="_6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1">
     <cim:IdentifiedObject.mRID>6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Statnett – Reserve and Balancing Markets</cim:IdentifiedObject.name>
+    <nc:MarketVenue.MarketVenueOperator rdf:resource="#eea9fcb3-dc1b-4937-8fdb-732d03fd3adb"/>
     <nc:MarketVenue.rulebookRef rdf:resource="https://www.statnett.no/en/for-aktorer-i-kraftsystemet/marked/reservemarkeder/"/>
   </nc:MarketVenue>
   <nc:MarketVenue rdf:ID="_2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb">
     <cim:IdentifiedObject.mRID>2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>EEX</cim:IdentifiedObject.name>
+    <nc:MarketVenue.MarketVenueOperator rdf:resource="#224ac108-2f11-49a2-bd72-4cd3fe164465"/>
     <nc:MarketVenue.rulebookRef rdf:resource="https://www.eex.com/en/rules-regulations"/>
   </nc:MarketVenue>
   <nc:MarketVenue rdf:ID="_1a5bb7c2-a527-4bba-9c9a-21b62b848f40">
     <cim:IdentifiedObject.mRID>1a5bb7c2-a527-4bba-9c9a-21b62b848f40</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Nord Pool</cim:IdentifiedObject.name>
+    <nc:MarketVenue.MarketVenueOperator rdf:resource="#5c716dd2-84c6-4149-af86-e91e03efed12"/>
     <nc:MarketVenue.rulebookRef rdf:resource="https://www.nordpoolgroup.com/en/trading/Rules-and-regulations/"/>
   </nc:MarketVenue>
-  <nc:MarketVenueProduct rdf:ID="_d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3">
+  <nc:MarketVenueOperator rdf:ID="_eea9fcb3-dc1b-4937-8fdb-732d03fd3adb">
+    <cim:IdentifiedObject.description>This is Statnett as a company and as described in their website
+https://www.statnett.no/en/about-statnett/contact-us/</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>eea9fcb3-dc1b-4937-8fdb-732d03fd3adb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Statnett SF</cim:IdentifiedObject.name>
+  </nc:MarketVenueOperator>
+  <nc:MarketVenueOperator rdf:ID="_224ac108-2f11-49a2-bd72-4cd3fe164465">
+    <cim:IdentifiedObject.description>This is EEX as a company and as described in their website
+https://www.eex.com/en/</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>224ac108-2f11-49a2-bd72-4cd3fe164465</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>European Energy Exchange AG</cim:IdentifiedObject.name>
+  </nc:MarketVenueOperator>
+  <nc:MarketVenueOperator rdf:ID="_5c716dd2-84c6-4149-af86-e91e03efed12">
+    <cim:IdentifiedObject.description>This is Nord Pool as a company and as described in their website
+https://www.nordpoolgroup.com/en/About-us/</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5c716dd2-84c6-4149-af86-e91e03efed12</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nord Pool AS</cim:IdentifiedObject.name>
+  </nc:MarketVenueOperator>
+  <nc:MarketVenueProduct rdf:ID="_807d6544-5e73-4353-8088-2d9fcc91404c">
     <cim:IdentifiedObject.description>VenueProduct – NO2 aFRR energy</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.energyIdentCodeEic>10YNO-2--------T</cim:IdentifiedObject.energyIdentCodeEic>
-    <cim:IdentifiedObject.mRID>d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>NO2 aFRR Energy</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>807d6544-5e73-4353-8088-2d9fcc91404c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2 aFRR Energy (volume regulation)</cim:IdentifiedObject.name>
     <nc:MarketVenueProduct.MarketProductType>b611f88e-d2bd-4a3d-bb8e-4d317e1ff933</nc:MarketVenueProduct.MarketProductType>
     <nc:MarketVenueProduct.MarketVenue rdf:resource="#6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1"/>
     <nc:MarketVenueProduct.marketArea rdf:resource="https://cim4.eu/ns/nc#MarketAreaKind.biddingZone"/>
     <nc:MarketVenueProduct.marketAreaName>NO2</nc:MarketVenueProduct.marketAreaName>
     <nc:MarketVenueProduct.marketAreaRef>10YNO-2--------T</nc:MarketVenueProduct.marketAreaRef>
     <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.evaluation"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.regulationVolume"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.all"/>
+  </nc:MarketVenueProduct>
+  <nc:MarketVenueProduct rdf:ID="_d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3">
+    <cim:IdentifiedObject.description>VenueProduct – NO2 aFRR energy</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.energyIdentCodeEic>10YNO-2--------T</cim:IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.mRID>d0210f5e-3cd1-4d91-9f40-8f6a5ab04fa3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NO2 aFRR Energy (price regulation)</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.MarketProductType>b611f88e-d2bd-4a3d-bb8e-4d317e1ff933</nc:MarketVenueProduct.MarketProductType>
+    <nc:MarketVenueProduct.MarketVenue rdf:resource="#6e226f32-6f0c-4cbd-9da8-3f14a9cbe1a1"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://cim4.eu/ns/nc#MarketAreaKind.biddingZone"/>
+    <nc:MarketVenueProduct.marketAreaName>NO2</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef>10YNO-2--------T</nc:MarketVenueProduct.marketAreaRef>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.evaluation"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.regulationPrice"/>
     <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
     <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.all"/>
   </nc:MarketVenueProduct>
@@ -167,19 +222,35 @@
     <nc:MarketVenueProduct.marketAreaName>NO2</nc:MarketVenueProduct.marketAreaName>
     <nc:MarketVenueProduct.marketAreaRef>10YNO-2--------T</nc:MarketVenueProduct.marketAreaRef>
     <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.auction"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
     <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.all"/>
   </nc:MarketVenueProduct>
-  <nc:MarketVenueProduct rdf:ID="_e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31">
+  <nc:MarketVenueProduct rdf:ID="_86349d15-641c-40e7-a1e7-061b157e12f5">
     <cim:IdentifiedObject.description>VenueProduct – TTF Gas Spot</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TTF Gas Spot</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.mRID>86349d15-641c-40e7-a1e7-061b157e12f5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TTF Gas Spot (volume)</cim:IdentifiedObject.name>
     <nc:MarketVenueProduct.MarketProductType>af8b65bb-9b44-4a2f-8af3-11660238e5b2</nc:MarketVenueProduct.MarketProductType>
     <nc:MarketVenueProduct.MarketVenue rdf:resource="#2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb"/>
     <nc:MarketVenueProduct.marketArea rdf:resource="https://cim4.eu/ns/nc#MarketAreaKind.hub"/>
     <nc:MarketVenueProduct.marketAreaName>TTF</nc:MarketVenueProduct.marketAreaName>
     <nc:MarketVenueProduct.marketAreaRef>https://example.org/marketareas/ttf</nc:MarketVenueProduct.marketAreaRef>
     <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.continuous"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.volume"/>
+    <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
+    <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.all"/>
+  </nc:MarketVenueProduct>
+  <nc:MarketVenueProduct rdf:ID="_e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31">
+    <cim:IdentifiedObject.description>VenueProduct – TTF Gas Spot</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e5b7bd1a-b696-4b0b-9b33-37a24c3c4e31</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TTF Gas Spot (price)</cim:IdentifiedObject.name>
+    <nc:MarketVenueProduct.MarketProductType>af8b65bb-9b44-4a2f-8af3-11660238e5b2</nc:MarketVenueProduct.MarketProductType>
+    <nc:MarketVenueProduct.MarketVenue rdf:resource="#2c0ef0dd-95dd-4e63-9a4d-4b739b9f55fb"/>
+    <nc:MarketVenueProduct.marketArea rdf:resource="https://cim4.eu/ns/nc#MarketAreaKind.hub"/>
+    <nc:MarketVenueProduct.marketAreaName>TTF</nc:MarketVenueProduct.marketAreaName>
+    <nc:MarketVenueProduct.marketAreaRef>https://example.org/marketareas/ttf</nc:MarketVenueProduct.marketAreaRef>
+    <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.continuous"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
     <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.all"/>
   </nc:MarketVenueProduct>
@@ -193,6 +264,7 @@
     <nc:MarketVenueProduct.marketAreaName>Nordic System</nc:MarketVenueProduct.marketAreaName>
     <nc:MarketVenueProduct.marketAreaRef>https://example.org/marketareas/nordic-system</nc:MarketVenueProduct.marketAreaRef>
     <nc:MarketVenueProduct.matchingMethod rdf:resource="https://cim4.eu/ns/nc#MarketMatchingMethodKind.auction"/>
+    <nc:MarketVenueProduct.observedProperty rdf:resource="https://cim4.eu/ns/nc#MarketObservedPropertyKind.price"/>
     <nc:MarketVenueProduct.productStatus rdf:resource="https://cim4.eu/ns/nc#VenueProductStatusKind.active"/>
     <nc:MarketVenueProduct.tradingDayOfWeek rdf:resource="https://cim4.eu/ns/nc#DayOfWeekKind.weekday"/>
   </nc:MarketVenueProduct>
