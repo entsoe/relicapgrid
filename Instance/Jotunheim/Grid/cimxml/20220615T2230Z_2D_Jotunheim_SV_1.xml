@@ -56583,4 +56583,22 @@
     <cim:VsConverter.delta>0</cim:VsConverter.delta>
     <cim:VsConverter.uv>300</cim:VsConverter.uv>
   </cim:VsConverter>
+  <cim:SvStatus rdf:ID="_c95d9aa4-315e-4459-a7dc-08cb3abfad7b">
+    <cim:SvStatus.ConductingEquipment rdf:resource="#_e349f93c-3685-4ea9-a791-a8c1ed359737"/>
+    <cim:SvStatus.inService>true</cim:SvStatus.inService>
+  </cim:SvStatus>
+  <cim:SvPowerFlow rdf:ID="_2f610b88-ff0e-4a50-b847-0e2c10d04eae">
+    <cim:SvPowerFlow.Terminal rdf:resource="#_d089b6ae-b343-4fee-b541-914b73ac559e"/>
+    <cim:SvPowerFlow.p>1</cim:SvPowerFlow.p>
+    <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
+  </cim:SvPowerFlow>
+  <cim:SvStatus rdf:ID="_b4b40bc2-0a07-4468-87dd-40f0b74cd5b2">
+    <cim:SvStatus.ConductingEquipment rdf:resource="#_6843c26a-5265-4cc7-b88b-6346257770bd"/>
+    <cim:SvStatus.inService>true</cim:SvStatus.inService>
+  </cim:SvStatus>
+  <cim:SvPowerFlow rdf:ID="_8fcc588a-4279-4b70-9290-34312912c54c">
+    <cim:SvPowerFlow.Terminal rdf:resource="#_a1a444e9-d063-4b56-9c81-13c217703deb"/>
+    <cim:SvPowerFlow.p>-1</cim:SvPowerFlow.p>
+    <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
+  </cim:SvPowerFlow>
 </rdf:RDF>
