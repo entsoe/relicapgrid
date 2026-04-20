@@ -228,13 +228,13 @@
     <cim:IdentifiedObject.name>TDC A plus</cim:IdentifiedObject.name>
   </cim:DCBusbar>
   <cim:DCBusbar rdf:ID="_9b828844-4098-f2ed-ac49-710ae66bec66">
-    <cim:DCConductingEquipment.ratedUdc>-150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e047e95b-93f2-4a86-8564-66440b23c754"/>
     <cim:IdentifiedObject.mRID>9b828844-4098-f2ed-ac49-710ae66bec66</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TDC A minus</cim:IdentifiedObject.name>
   </cim:DCBusbar>
   <cim:DCBusbar rdf:ID="_df9dbdfe-0573-355a-e660-c71bd6ed4688">
-    <cim:DCConductingEquipment.ratedUdc>-150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
     <cim:Equipment.EquipmentContainer rdf:resource="#_97990f51-8104-41b8-9be7-2a984d2ea8f6"/>
     <cim:IdentifiedObject.mRID>df9dbdfe-0573-355a-e660-c71bd6ed4688</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TDC B minus</cim:IdentifiedObject.name>
