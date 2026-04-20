@@ -31844,4 +31844,10 @@
   <cim:DCNode rdf:about="#_ebc6fdf0-5ea7-4795-9c51-1800777793bf">
     <cim:DCNode.DCTopologicalNode rdf:resource="#_560d3516-93b2-de9d-db4b-011bbe0cea64" />
   </cim:DCNode>
+  <cim:Terminal rdf:about="#_d089b6ae-b343-4fee-b541-914b73ac559e">
+    <cim:Terminal.TopologicalNode rdf:resource="#_1c5efa3e-fbce-31a7-aef1-8fabff676146"/>
+  </cim:Terminal>
+  <cim:Terminal rdf:about="#_a1a444e9-d063-4b56-9c81-13c217703deb">
+    <cim:Terminal.TopologicalNode rdf:resource="#_1c5efa3e-fbce-31a7-aef1-8fabff676146"/>
+  </cim:Terminal>
 </rdf:RDF>
