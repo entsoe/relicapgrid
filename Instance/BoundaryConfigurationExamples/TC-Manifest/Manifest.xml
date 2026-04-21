@@ -9,7 +9,8 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:cim="http://iec.ch/TC57/CIM100#"
-    xmlns:dcterms="http://purl.org/dc/terms/#" > 
+    xmlns:dcterms="http://purl.org/dc/terms/#"
+    xmlns:adms="http://www.w3.org/ns/adms#" > 
   
   <dcat:Catalog rdf:about="urn:uuid:3d40111f-fc40-439e-a9f3-1670715392ca"> 
     <dcterms:identifier>3d40111f-fc40-439e-a9f3-1670715392ca</dcterms:identifier>
@@ -37,7 +38,7 @@
   </dcat:Dataset>  
   <dcat:Distribution rdf:about="urn:uuid:03a949c0-de8e-4018-b63c-5b594091d962">
     <dcterms:description xml:lang="en">CIMXML serialisation of the boundary EQ</dcterms:description>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media748 types/application/rdf+xml"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
     <dcat:accessURL rdf:resource="file://BORDER-Galia-AMPRION.xml"/>
   </dcat:Distribution >
@@ -54,7 +55,7 @@
   </dcat:Dataset>  
   <dcat:Distribution rdf:about="urn:uuid:76193d72-3b8c-4d1d-bd32-916fa72127e3">
     <dcterms:description xml:lang="en">CIMXML serialisation of the boundary EQ</dcterms:description>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media748 types/application/rdf+xml"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
     <dcat:accessURL rdf:resource="file://BORDER-Galia-AMPRION.xml"/>
   </dcat:Distribution >
@@ -71,7 +72,7 @@
   </dcat:Dataset>  
   <dcat:Distribution rdf:about="urn:uuid:c5caa2e3-f994-4241-a13e-bc557ca39cb0">
     <dcterms:description xml:lang="en">CIMXML serialisation of the boundary EQ</dcterms:description>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media748 types/application/rdf+xml"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
     <dcat:accessURL rdf:resource="file://BORDER-Galia-AMPRION.xml"/>
   </dcat:Distribution >
@@ -88,7 +89,7 @@
   </dcat:Dataset>  
   <dcat:Distribution rdf:about="urn:uuid:4c090a67-dac7-46b0-8455-4c923d80df37">
     <dcterms:description xml:lang="en">CIMXML serialisation of the common data</dcterms:description>
-    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media748 types/application/rdf+xml"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/rdf+xml"/>
     <dcterms:conformsTo>urn:iso:std:iec:61970-552:2016</dcterms:conformsTo>
     <dcat:accessURL rdf:resource="file://BORDER-Galia-AMPRION.xml"/>
   </dcat:Distribution >
