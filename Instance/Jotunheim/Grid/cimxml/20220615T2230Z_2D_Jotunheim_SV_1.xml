@@ -56523,7 +56523,7 @@
     <cim:ACDCConverter.idc>0</cim:ACDCConverter.idc>
     <cim:ACDCConverter.poleLossP>0.0056366</cim:ACDCConverter.poleLossP>
     <cim:ACDCConverter.uc>125.2</cim:ACDCConverter.uc>
-    <cim:ACDCConverter.udc>0</cim:ACDCConverter.udc>
+    <cim:ACDCConverter.udc>1</cim:ACDCConverter.udc>
     <cim:CsConverter.alpha>90</cim:CsConverter.alpha>
     <cim:CsConverter.gamma>89.9999</cim:CsConverter.gamma>
   </cim:CsConverter>
@@ -56531,7 +56531,7 @@
     <cim:ACDCConverter.idc>0</cim:ACDCConverter.idc>
     <cim:ACDCConverter.poleLossP>0.00563679</cim:ACDCConverter.poleLossP>
     <cim:ACDCConverter.uc>148.422</cim:ACDCConverter.uc>
-    <cim:ACDCConverter.udc>0</cim:ACDCConverter.udc>
+    <cim:ACDCConverter.udc>1</cim:ACDCConverter.udc>
     <cim:CsConverter.alpha>90</cim:CsConverter.alpha>
     <cim:CsConverter.gamma>89.9999</cim:CsConverter.gamma>
   </cim:CsConverter>
