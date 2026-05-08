@@ -46,7 +46,7 @@ It must be mentioned that the synthetic grid model *Svedala* is based on [Svensk
 
 ### How to Assemble File Packages for Import
 
-Each TSO's grid model files are organized under [Instance/*TSO*/Grid](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance) folders, serialized in multiple formats, with **CIM XML** being the primary format under active development. Similarly, the test Network Code Profiles instance datasets can be found under [Instance/*TSO*/NetworkCode](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance).
+Each TSO's grid model files are organized under [Instance/*TSO*/Grid](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance) folders, serialized in multiple forms, with **CIMXML** being the primary serialization under active development. Similarly, the test Network Code Profiles instance datasets can be found under [Instance/*TSO*/NetworkCode](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance).
 The following guidance describes which files to combine when creating import packages for your tooling.
 
 **Individual Grid Model import with individual boundary files - IGM**
