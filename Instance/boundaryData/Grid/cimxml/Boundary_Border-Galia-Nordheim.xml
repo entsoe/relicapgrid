@@ -1,33 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
-    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
-    xmlns:cim="http://iec.ch/TC57/CIM100#" > 
-  <md:FullModel rdf:about="urn:uuid:5f8c11a8-c61c-42c9-925d-8cdbc0146c1a">
-    <md:Model.DependentOn rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
-    <md:Model.created>2025-02-06T14:18:22Z</md:Model.created>
-    <md:Model.description>The equipment dataset of the boundary that is used in the ReliCapGrid.</md:Model.description>
-    <md:Model.modelingAuthoritySet>http://ninerealms.nr/boundary</md:Model.modelingAuthoritySet>
-    <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
-    <md:Model.scenarioTime>2022-06-16T23:30:00Z</md:Model.scenarioTime>
-    <md:Model.version>1</md:Model.version>
-  </md:FullModel>
-  <eu:BoundaryPoint rdf:ID="_f55e441a-6fef-2657-4229-355ca95df87e">
-    <eu:BoundaryPoint.ConnectivityNode rdf:resource="#_d9574184-b375-45f6-8fcc-20ec0470bf93"/>
-    <eu:BoundaryPoint.fromEndIsoCode>GA</eu:BoundaryPoint.fromEndIsoCode>
-    <eu:BoundaryPoint.fromEndName>Alfheim7</eu:BoundaryPoint.fromEndName>
-    <eu:BoundaryPoint.fromEndNameTso>TSO-Galia</eu:BoundaryPoint.fromEndNameTso>
-    <eu:BoundaryPoint.isExcludedFromAreaInterchange>false</eu:BoundaryPoint.isExcludedFromAreaInterchange>
-    <eu:BoundaryPoint.toEndIsoCode>NH</eu:BoundaryPoint.toEndIsoCode>
-    <eu:BoundaryPoint.toEndName>Oldissa1</eu:BoundaryPoint.toEndName>
-    <eu:BoundaryPoint.toEndNameTso>TSO-Nordheim</eu:BoundaryPoint.toEndNameTso>
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
+    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
+    <dcterms:description xml:lang="en">The equipment dataset of the boundary that is used in the ReliCapGrid.</dcterms:description>
+    <prov:generatedAtTime>2026-03-20T15:53:36Z</prov:generatedAtTime>
+    <dcterms:identifier>d921d79d-19ce-4dbb-ba26-8febc6e842ab</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Nordheim_BD"/>
+    <dcat:keyword>BD</dcat:keyword>
+    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+    <dcterms:publisher>https://energy.referencedata.eu/test/party/RCC-Jotunheim</dcterms:publisher>
+    <dcterms:requires rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Nordheim-Transmission"/>
+    <dcat:startDate>2022-06-16T23:30:00Z</dcat:startDate>
+    <dcat:version>1</dcat:version>
+    <prov:wasGeneratedBy>https://energy.referencedata.eu/activity/BD</prov:wasGeneratedBy>
+  </dcat:Dataset>
+  <nc:BoundaryPoint rdf:ID="_a7745865-bc9e-4352-98fc-98c7f44669a4">
+    <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_19b9d35f-e1f0-88f0-47a0-b45792961d66"/>
+    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_892ef502-162b-469f-b93f-266aae828227"/>
+    <nc:BoundaryPoint.partyOneResourceName>Alfheim7</nc:BoundaryPoint.partyOneResourceName>
+    <nc:BoundaryPoint.partyTwoResourceName>Oldissa1</nc:BoundaryPoint.partyTwoResourceName>
+    <cim:IdentifiedObject.description>BP_GA-NH2</cim:IdentifiedObject.description>
+    <eu:IdentifiedObject.energyIdentCodeEic>10T-AT-SI-00001T</eu:IdentifiedObject.energyIdentCodeEic>
+    <cim:IdentifiedObject.mRID>a7745865-bc9e-4352-98fc-98c7f44669a4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Alfheim7-Oldissa1</cim:IdentifiedObject.name>
+    <eu:IdentifiedObject.shortName>BP_GA-NH2</eu:IdentifiedObject.shortName>
+  </nc:BoundaryPoint>
+  <nc:BoundaryPoint rdf:ID="_f55e441a-6fef-2657-4229-355ca95df87e">
+    <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_19b9d35f-e1f0-88f0-47a0-b45792961d66"/>
+    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_d9574184-b375-45f6-8fcc-20ec0470bf93"/>
+    <nc:BoundaryPoint.partyOneResourceName>Alfheim7</nc:BoundaryPoint.partyOneResourceName>
+    <nc:BoundaryPoint.partyTwoResourceName>Oldissa1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Nordheim (substation name) (220kV).</cim:IdentifiedObject.description>
     <eu:IdentifiedObject.energyIdentCodeEic>10T-AT-SI-00001T</eu:IdentifiedObject.energyIdentCodeEic>
     <cim:IdentifiedObject.mRID>f55e441a-6fef-2657-4229-355ca95df87e</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BP_GA-NH1</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Alfheim7-Oldissa1</cim:IdentifiedObject.name>
     <eu:IdentifiedObject.shortName>BP_GA-NH1</eu:IdentifiedObject.shortName>
-  </eu:BoundaryPoint>
+  </nc:BoundaryPoint>
+  <nc:BoundaryPointBorder rdf:ID="_19b9d35f-e1f0-88f0-47a0-b45792961d66">
+    <nc:BoundaryPointBorder.partyOneDesignatorRef rdf:resource="https://vocabulary.uncefact.org/unlocode-countries#GA"/>
+    <nc:BoundaryPointBorder.partyOneName>TSO-Galia</nc:BoundaryPointBorder.partyOneName>
+    <nc:BoundaryPointBorder.partyOneRef rdf:resource="https://energy.referencedata.eu/party/TSO-Galia"/>
+    <nc:BoundaryPointBorder.partyTwoDesignatorRef rdf:resource="https://vocabulary.uncefact.org/unlocode-countries#NH"/>
+    <nc:BoundaryPointBorder.partyTwoName>TSO-Nordheim</nc:BoundaryPointBorder.partyTwoName>
+    <nc:BoundaryPointBorder.partyTwoRef rdf:resource="https://energy.referencedata.eu/party/TSO-Nordheim"/>
+    <cim:IdentifiedObject.mRID>19b9d35f-e1f0-88f0-47a0-b45792961d66</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Galia-TSO-Nordheim</cim:IdentifiedObject.name>
+  </nc:BoundaryPointBorder>
   <cim:ConnectivityNode rdf:ID="_d9574184-b375-45f6-8fcc-20ec0470bf93">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Nordheim (substation name) (220kV).</cim:IdentifiedObject.description>
@@ -35,6 +65,11 @@
     <cim:IdentifiedObject.mRID>d9574184-b375-45f6-8fcc-20ec0470bf93</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BP_GA-NH1</cim:IdentifiedObject.name>
     <eu:IdentifiedObject.shortName>BP_GA-NH1</eu:IdentifiedObject.shortName>
+  </cim:ConnectivityNode>
+  <cim:ConnectivityNode rdf:ID="_892ef502-162b-469f-b93f-266aae828227">
+    <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_e61f8ecf-8129-4702-a3a2-826bdf5ad13d"/>
+    <cim:IdentifiedObject.mRID>892ef502-162b-469f-b93f-266aae828227</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP HVDC GA-NH NH side</cim:IdentifiedObject.name>
   </cim:ConnectivityNode>
   <cim:Line rdf:ID="_82abfaf2-36df-44ac-b4e5-e40a535affa4">
     <cim:IdentifiedObject.description>Line BP_GA-NH1</cim:IdentifiedObject.description>
@@ -44,35 +79,15 @@
     <eu:IdentifiedObject.shortName>BP_GA-NH1</eu:IdentifiedObject.shortName>
     <cim:Line.Region rdf:resource="#_fbcc6679-6da5-4cfd-b50c-8ce23f450c78"/>
   </cim:Line>
-  <eu:BoundaryPoint rdf:ID="_a7745865-bc9e-4352-98fc-98c7f44669a4">
-    <eu:BoundaryPoint.ConnectivityNode rdf:resource="#_892ef502-162b-469f-b93f-266aae828227"/>
-    <eu:BoundaryPoint.fromEndIsoCode>GA</eu:BoundaryPoint.fromEndIsoCode>
-    <eu:BoundaryPoint.fromEndName>Alfheim7</eu:BoundaryPoint.fromEndName>
-    <eu:BoundaryPoint.fromEndNameTso>TSO-Galia</eu:BoundaryPoint.fromEndNameTso>
-    <eu:BoundaryPoint.isExcludedFromAreaInterchange>false</eu:BoundaryPoint.isExcludedFromAreaInterchange>
-    <eu:BoundaryPoint.toEndIsoCode>NH</eu:BoundaryPoint.toEndIsoCode>
-    <eu:BoundaryPoint.toEndName>Oldissa1</eu:BoundaryPoint.toEndName>
-    <eu:BoundaryPoint.toEndNameTso>TSO-Nordheim</eu:BoundaryPoint.toEndNameTso>
-    <cim:IdentifiedObject.description>BP_GA-NH2</cim:IdentifiedObject.description>
-    <eu:IdentifiedObject.energyIdentCodeEic>10T-AT-SI-00001T</eu:IdentifiedObject.energyIdentCodeEic>
-    <cim:IdentifiedObject.mRID>a7745865-bc9e-4352-98fc-98c7f44669a4</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BP_GA-NH2</cim:IdentifiedObject.name>
-    <eu:IdentifiedObject.shortName>BP_GA-NH2</eu:IdentifiedObject.shortName>
-  </eu:BoundaryPoint>
-  <cim:ConnectivityNode rdf:ID="_892ef502-162b-469f-b93f-266aae828227">
-    <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_e61f8ecf-8129-4702-a3a2-826bdf5ad13d" />
-    <cim:IdentifiedObject.mRID>892ef502-162b-469f-b93f-266aae828227</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BP HVDC GA-NH NH side</cim:IdentifiedObject.name>
-  </cim:ConnectivityNode>  
-  <cim:VoltageLevel rdf:ID="_e61f8ecf-8129-4702-a3a2-826bdf5ad13d">
-    <cim:IdentifiedObject.mRID>e61f8ecf-8129-4702-a3a2-826bdf5ad13d</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>VL 220 kV</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1" />
-    <cim:VoltageLevel.Substation rdf:resource="#_c39c3eb8-9cce-4778-9069-6952a117ba2b" />
-  </cim:VoltageLevel>
   <cim:Substation rdf:ID="_c39c3eb8-9cce-4778-9069-6952a117ba2b">
     <cim:IdentifiedObject.mRID>c39c3eb8-9cce-4778-9069-6952a117ba2b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HVDV Station</cim:IdentifiedObject.name>
-    <cim:Substation.Region rdf:resource="#_77467625-a8fe-8792-7cf2-06c5dfd5fba9" />
+    <cim:Substation.Region rdf:resource="#_77467625-a8fe-8792-7cf2-06c5dfd5fba9"/>
   </cim:Substation>
+  <cim:VoltageLevel rdf:ID="_e61f8ecf-8129-4702-a3a2-826bdf5ad13d">
+    <cim:IdentifiedObject.mRID>e61f8ecf-8129-4702-a3a2-826bdf5ad13d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>VL 220 kV</cim:IdentifiedObject.name>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:VoltageLevel.Substation rdf:resource="#_c39c3eb8-9cce-4778-9069-6952a117ba2b"/>
+  </cim:VoltageLevel>
 </rdf:RDF>

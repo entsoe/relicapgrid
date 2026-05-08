@@ -1,32 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
-    xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
-    xmlns:cim="http://iec.ch/TC57/CIM100#" > 
-  <md:FullModel rdf:about="urn:uuid:7205352b-3af5-4bb1-a008-aba810e8a35d">
-    <md:Model.DependentOn rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
-    <md:Model.created>2025-02-06T14:18:22Z</md:Model.created>
-    <md:Model.description>The equipment dataset of the boundary that is used in the ReliCapGrid.</md:Model.description>
-    <md:Model.modelingAuthoritySet>http://ninerealms.nr/boundary</md:Model.modelingAuthoritySet>
-    <md:Model.profile>http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0</md:Model.profile>
-    <md:Model.scenarioTime>2022-06-16T23:30:00Z</md:Model.scenarioTime>
-    <md:Model.version>1</md:Model.version>
-  </md:FullModel>
-  <eu:BoundaryPoint rdf:ID="_e364f3e7-a2a8-3561-5540-6e74801a20ff">
-    <eu:BoundaryPoint.ConnectivityNode rdf:resource="#_4905819a-7927-4112-8e3b-4e8178b7daa5"/>
-    <eu:BoundaryPoint.fromEndIsoCode>GA</eu:BoundaryPoint.fromEndIsoCode>
-    <eu:BoundaryPoint.fromEndName>Alfheim6</eu:BoundaryPoint.fromEndName>
-    <eu:BoundaryPoint.fromEndNameTso>TSO-Galia</eu:BoundaryPoint.fromEndNameTso>
-    <eu:BoundaryPoint.isExcludedFromAreaInterchange>false</eu:BoundaryPoint.isExcludedFromAreaInterchange>
-    <eu:BoundaryPoint.toEndIsoCode>BH</eu:BoundaryPoint.toEndIsoCode>
-    <eu:BoundaryPoint.toEndName>Londgard1</eu:BoundaryPoint.toEndName>
-    <eu:BoundaryPoint.toEndNameTso>TSO-Britheim</eu:BoundaryPoint.toEndNameTso>
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
+    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
+    <dcterms:description xml:lang="en">The equipment dataset of the boundary that is used in the ReliCapGrid.</dcterms:description>
+    <prov:generatedAtTime>2026-03-20T15:53:10Z</prov:generatedAtTime>
+    <dcterms:identifier>e93aa4de-4f3a-401e-991e-8b6c47d05b76</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Britheim_BD"/>
+    <dcat:keyword>BD</dcat:keyword>
+    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+    <dcterms:publisher>https://energy.referencedata.eu/test/party/RCC-Jotunheim</dcterms:publisher>
+    <dcterms:requires rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Britheim-Transmission"/>
+    <dcat:startDate>2022-06-16T23:30:00Z</dcat:startDate>
+    <dcat:version>1</dcat:version>
+    <prov:wasGeneratedBy>https://energy.referencedata.eu/activity/BD</prov:wasGeneratedBy>
+  </dcat:Dataset>
+  <nc:BoundaryPoint rdf:ID="_e364f3e7-a2a8-3561-5540-6e74801a20ff">
+    <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f9ff9a61-68ab-9b05-b850-45e03e7c7483"/>
+    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_4905819a-7927-4112-8e3b-4e8178b7daa5"/>
+    <nc:BoundaryPoint.partyOneResourceName>Alfheim6</nc:BoundaryPoint.partyOneResourceName>
+    <nc:BoundaryPoint.partyTwoResourceName>Londgard1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Britheim (substation name) (220kV).</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>e364f3e7-a2a8-3561-5540-6e74801a20ff</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BP_GA-BH1</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>Alfheim6-Londgard1</cim:IdentifiedObject.name>
     <eu:IdentifiedObject.shortName>BP_GA-BH1</eu:IdentifiedObject.shortName>
-  </eu:BoundaryPoint>
+  </nc:BoundaryPoint>
+  <nc:BoundaryPointBorder rdf:ID="_f9ff9a61-68ab-9b05-b850-45e03e7c7483">
+    <nc:BoundaryPointBorder.partyOneDesignatorRef rdf:resource="https://vocabulary.uncefact.org/unlocode-countries#GA"/>
+    <nc:BoundaryPointBorder.partyOneName>TSO-Galia</nc:BoundaryPointBorder.partyOneName>
+    <nc:BoundaryPointBorder.partyOneRef rdf:resource="https://energy.referencedata.eu/party/TSO-Galia"/>
+    <nc:BoundaryPointBorder.partyTwoDesignatorRef rdf:resource="https://vocabulary.uncefact.org/unlocode-countries#BH"/>
+    <nc:BoundaryPointBorder.partyTwoName>TSO-Britheim</nc:BoundaryPointBorder.partyTwoName>
+    <nc:BoundaryPointBorder.partyTwoRef rdf:resource="https://energy.referencedata.eu/party/TSO-Britheim"/>
+    <cim:IdentifiedObject.mRID>f9ff9a61-68ab-9b05-b850-45e03e7c7483</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Galia-TSO-Britheim</cim:IdentifiedObject.name>
+  </nc:BoundaryPointBorder>
   <cim:ConnectivityNode rdf:ID="_4905819a-7927-4112-8e3b-4e8178b7daa5">
     <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_dbd82264-a684-4b87-946d-a5a02714daa9"/>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Britheim (substation name) (220kV).</cim:IdentifiedObject.description>
