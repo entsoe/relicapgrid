@@ -41,14 +41,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "51592d48-9943-4e13-9ce3-51b79db43109" .
     
     <urn:uuid:c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee>
-            rdf:type  nc:RemedialActionScheduleAcceptance;
-            nc:RemedialActionScheduleAcceptance.RemedialActionSchedule
+            rdf:type  nc:RemedialActionScheduleResponse;
+            nc:RemedialActionScheduleResponse.RemedialActionSchedule
                     <urn:uuid:17527637-6099-4ee6-8b21-fea8dfec4c75>;
-            nc:RemedialActionScheduleAcceptance.RespondingEntity
+            nc:RemedialActionScheduleResponse.RespondingEntity
                     <https://energy.referencedata.eu/test/party/22XSvedala-----S>;
-            nc:RemedialActionScheduleAcceptance.kind
-                    nc:RemedialActionScheduleAcceptanceKind.waiting;
-            nc:RemedialActionScheduleAcceptance.mRID
+            nc:RemedialActionScheduleResponse.kind
+                    nc:RemedialActionScheduleResponseKInd.waiting;
+            nc:RemedialActionScheduleResponse.mRID
                     "c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee" .
     
     <urn:uuid:679f1be4-e50c-464a-be4a-3462b0edc9d6>
