@@ -61,15 +61,15 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     nc:RemedialActionScheduleDependencyKind.none .
     
     <urn:uuid:c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee>
-            rdf:type  nc:RemedialActionScheduleAcceptance;
-            cim:RemedialActionScheduleAcceptance.mRID
+            rdf:type  nc:RemedialActionScheduleResponse;
+            cim:RemedialActionScheduleResponse.mRID
                     "c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee";
-            nc:RemedialActionScheduleAcceptance.RemedialActionSchedule
+            nc:RemedialActionScheduleResponse.RemedialActionSchedule
                     <urn:uuid:17527637-6099-4ee6-8b21-fea8dfec4c75>;
-            nc:RemedialActionScheduleAcceptance.RespondingEntity
+            nc:RemedialActionScheduleResponse.RespondingEntity
                     <https://energy.referencedata.eu/test/party/22XSvedala-----S>;
-            nc:RemedialActionScheduleAcceptance.kind
-                    nc:RemedialActionScheduleAcceptanceKind.accepted .
+            nc:RemedialActionScheduleResponse.kind
+                    nc:RemedialActionScheduleResponseKInd.accepted .
     
     <urn:uuid:091f8931-34c1-40ad-8e14-af493bcc8bda>
             rdf:type                   nc:RemedialActionSchedule;
