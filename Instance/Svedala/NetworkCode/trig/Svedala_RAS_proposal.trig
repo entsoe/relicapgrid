@@ -37,14 +37,14 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     <urn:uuid:51361821-0a40-4e5a-a49d-29c266ea2ecc> .
     
     <urn:uuid:96f93b71-420f-456f-932e-9ac3f724b683>
-            rdf:type  nc:RemedialActionScheduleAcceptance;
-            nc:RemedialActionScheduleAcceptance.RemedialActionSchedule
+            rdf:type  nc:RemedialActionScheduleResponse;
+            nc:RemedialActionScheduleResponse.RemedialActionSchedule
                     <urn:uuid:17527637-6099-4ee6-8b21-fea8dfec4c75>;
-            nc:RemedialActionScheduleAcceptance.RespondingEntity
+            nc:RemedialActionScheduleResponse.RespondingEntity
                     <https://energy.referencedata.eu/Test/Party/Svedala>;
-            nc:RemedialActionScheduleAcceptance.kind
-                    nc:RemedialActionScheduleAcceptanceKind.refused;
-            nc:RemedialActionScheduleAcceptance.mRID
+            nc:RemedialActionScheduleResponse.kind
+                    nc:RemedialActionScheduleResponseKInd.refused;
+            nc:RemedialActionScheduleResponse.mRID
                     "96f93b71-420f-456f-932e-9ac3f724b683" .
     
     <urn:uuid:f7231aa5-d497-41f3-a5d5-9d4af74444f0>
