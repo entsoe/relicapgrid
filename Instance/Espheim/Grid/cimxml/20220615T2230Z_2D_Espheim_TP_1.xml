@@ -14571,7 +14571,7 @@
     <cim:IdentifiedObject.mRID>5ee2f76f-d4f0-d789-2752-ee25f5c2a45f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>EH_31</cim:IdentifiedObject.name>
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
-    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_4da02ca4-ccdb-0e71-a8ae-86d6343108b4"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_f8025dcb-09a5-c5b6-58db-bc9ce65ebd3f"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_44d17a52-7b15-5581-58e2-7fe32e3a61ca">
     <cim:IdentifiedObject.mRID>44d17a52-7b15-5581-58e2-7fe32e3a61ca</cim:IdentifiedObject.mRID>
