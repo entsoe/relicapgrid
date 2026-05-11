@@ -22258,10 +22258,10 @@
     <cim:VoltageLimit.value>121.5</cim:VoltageLimit.value>
   </cim:VoltageLimit>
   <!--Power Transfer Corridor for UseCaseNCP436 -->
-  <cim:ActivePowerLimit rdf:about="_a331310f-a6b9-4e30-be2e-a6f62b0b5430">
+  <cim:ActivePowerLimit rdf:about="#_a331310f-a6b9-4e30-be2e-a6f62b0b5430">
 		<cim:ActivePowerLimit.value>2500</cim:ActivePowerLimit.value>
 	</cim:ActivePowerLimit>
-	<cim:ActivePowerLimit rdf:about="_ec2a2385-872d-4cf7-b50b-f9e8a7210dbb">
+	<cim:ActivePowerLimit rdf:about="#_ec2a2385-872d-4cf7-b50b-f9e8a7210dbb">
 		<cim:ActivePowerLimit.value>-2500</cim:ActivePowerLimit.value>
 	</cim:ActivePowerLimit>
 </rdf:RDF>

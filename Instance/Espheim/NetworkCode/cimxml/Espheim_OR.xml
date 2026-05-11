@@ -32,7 +32,7 @@
     <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
 
-  <cim:IdentifiedObject rdf:about="_0b23d814-7559-4edf-8c55-40af585209e6">
+  <cim:IdentifiedObject rdf:about="#_0b23d814-7559-4edf-8c55-40af585209e6">
     <nc:IdentifiedObject.ObjectType rdf:resource="#_3dacaa80-ee35-458c-bccd-7b6530a292c9"/>
     <cim:IdentifiedObject.mRID>_0b23d814-7559-4edf-8c55-40af585209e6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>EquivalentGeneratingUnit</cim:IdentifiedObject.name>

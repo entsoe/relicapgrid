@@ -125,10 +125,10 @@
     <cim:IdentifiedObject.mRID>c31ae69b-423d-47c0-bacc-083d64e34d4a</cim:IdentifiedObject.mRID>
     <nc:Circuit.positiveFlowIn>true</nc:Circuit.positiveFlowIn>
   </nc:PowerTransformerCircuit>
-  <cim:ACLineSegment rdf:about="_ffbabc27-1ccd-4fdc-b037-e341706c8d29">
+  <cim:ACLineSegment rdf:about="#_ffbabc27-1ccd-4fdc-b037-e341706c8d29">
     <nc:Equipment.Circuit rdf:resource="#_cef9011e-3753-453b-93bd-fb36eb3daac1"/>
   </cim:ACLineSegment>
-  <cim:PowerTransformer rdf:about="_b94318f6-6d24-4f56-96b9-df2531ad6543">
+  <cim:PowerTransformer rdf:about="#_b94318f6-6d24-4f56-96b9-df2531ad6543">
     <nc:Equipment.Circuit rdf:resource="#_c31ae69b-423d-47c0-bacc-083d64e34d4a"/>
   </cim:PowerTransformer>
   <nc:OrdinaryPowerTransferCorridor rdf:ID="_0863ac0c-b6af-4553-a00b-cde463a8a7d4">
@@ -136,17 +136,17 @@
     <cim:IdentifiedObject.name>PTC</cim:IdentifiedObject.name>
     <nc:PowerTransferCorridor.normalEnabled>true</nc:PowerTransferCorridor.normalEnabled>
   </nc:OrdinaryPowerTransferCorridor>
-  <cim:OperationalLimitSet rdf:about="_ee1e0ee2-edf6-8968-9c4c-83fa12446800">
+  <cim:OperationalLimitSet rdf:about="#_ee1e0ee2-edf6-8968-9c4c-83fa12446800">
     <nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_0863ac0c-b6af-4553-a00b-cde463a8a7d4"/>
     <cim:OperationalLimitSet.Terminal rdf:resource="#_131b654f-eec6-eb63-5084-3fcc46921cfe"/>
   </cim:OperationalLimitSet>
-  <nc:CircuitShare rdf:about="_09a22042-04a9-4414-8a93-a19b5702fca3">
+  <nc:CircuitShare rdf:about="#_09a22042-04a9-4414-8a93-a19b5702fca3">
     <cim:IdentifiedObject.mRID>09a22042-04a9-4414-8a93-a19b5702fca3</cim:IdentifiedObject.mRID>
     <nc:CircuitShare.Circuit rdf:resource="#_cef9011e-3753-453b-93bd-fb36eb3daac1"/>
     <nc:CircuitShare.PowerTransferCorridor rdf:resource="#_0863ac0c-b6af-4553-a00b-cde463a8a7d4"/>
     <nc:CircuitShare.normalContributionFactor>50</nc:CircuitShare.normalContributionFactor>
   </nc:CircuitShare>
-  <nc:CircuitShare rdf:about="_83a19891-4f1b-4eed-ab7d-7c9040b36df2">
+  <nc:CircuitShare rdf:about="#_83a19891-4f1b-4eed-ab7d-7c9040b36df2">
     <cim:IdentifiedObject.mRID>83a19891-4f1b-4eed-ab7d-7c9040b36df2</cim:IdentifiedObject.mRID>
     <nc:CircuitShare.Circuit rdf:resource="#_c31ae69b-423d-47c0-bacc-083d64e34d4a"/>
     <nc:CircuitShare.PowerTransferCorridor rdf:resource="#_0863ac0c-b6af-4553-a00b-cde463a8a7d4"/>

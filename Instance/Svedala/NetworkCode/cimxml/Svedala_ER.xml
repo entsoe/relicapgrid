@@ -65,11 +65,11 @@
 		<nc:Circuit.positiveFlowIn>false</nc:Circuit.positiveFlowIn>
 	</nc:LineCircuit>
 	
-  <cim:OperationalLimitSet rdf:about="_f11220b0-3c3c-cc6a-105c-8ffd33f5a790">
+  <cim:OperationalLimitSet rdf:about="#_f11220b0-3c3c-cc6a-105c-8ffd33f5a790">
 		<nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_1ad441fe-e557-4e7b-8286-91bd8029c3ff"/>
   </cim:OperationalLimitSet>
 
-	<cim:OperationalLimitSet rdf:about="_89de3c44-8a85-3cb9-6d7c-af2339a5a047">
+	<cim:OperationalLimitSet rdf:about="#_89de3c44-8a85-3cb9-6d7c-af2339a5a047">
 		<nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_1ad441fe-e557-4e7b-8286-91bd8029c3ff"/>
 	</cim:OperationalLimitSet>
 	

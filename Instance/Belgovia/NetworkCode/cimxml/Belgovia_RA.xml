@@ -613,7 +613,7 @@
     <cim:IdentifiedObject.mRID>9d72d12a-f135-437a-83fa-ef3e5b23f41f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RD RA1</cim:IdentifiedObject.name>
   </nc:RedispatchRemedialAction>
-  <nc:PowerShiftKeyStrategy rdf:about="_9287b1c3-3747-47e6-8918-d82c7a0d7718">
+  <nc:PowerShiftKeyStrategy rdf:about="#_9287b1c3-3747-47e6-8918-d82c7a0d7718">
     <nc:PowerShiftKeyStrategy.PowerRemedialAction rdf:resource="#_9d72d12a-f135-437a-83fa-ef3e5b23f41f"/>
     <cim:IdentifiedObject.mRID>9287b1c3-3747-47e6-8918-d82c7a0d7718</cim:IdentifiedObject.mRID>
   </nc:PowerShiftKeyStrategy>
