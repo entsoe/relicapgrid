@@ -46,16 +46,16 @@
     <cim:NameType.name>Long Name</cim:NameType.name>
   </cim:NameType>
 
-  <cim:NamingAuthority rdf:ID="_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34">
+  <nc:NamingAuthority rdf:ID="_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34">
     <nc:NamingAuthority.description>This is the authority for Element ID.</nc:NamingAuthority.description>
     <nc:NamingAuthority.mRID>ae7f97f4-dc2d-4960-b61b-b75ac9dafb34</nc:NamingAuthority.mRID>
     <nc:NamingAuthority.name>NineRealms</nc:NamingAuthority.name>
-  </cim:NamingAuthority>
-  <cim:NamingAuthority rdf:ID="_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e">
+  </nc:NamingAuthority>
+  <nc:NamingAuthority rdf:ID="_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e">
     <nc:NamingAuthority.description>The authority that issues NineRealms Codes.</nc:NamingAuthority.description>
     <nc:NamingAuthority.mRID>2fdd0646-4b9c-484b-b7cd-24d497fdfa8e</nc:NamingAuthority.mRID>
     <nc:NamingAuthority.name>Jotunheim</nc:NamingAuthority.name>
-  </cim:NamingAuthority>
+  </nc:NamingAuthority>
 
   <nc:ObjectType rdf:ID="_3dacaa80-ee35-458c-bccd-7b6530a292c9">
     <nc:ObjectType.type>DSO_Injection</nc:ObjectType.type>
