@@ -23,9 +23,9 @@
     <dcat:keyword>FAP</dcat:keyword>
     <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
     <dcterms:publisher>https://energy.referencedata.eu/test/party/TSO-Svedala</dcterms:publisher>
-      <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
-      <dcterms:title>20250615_Svedala_IGM-FAP_RAS_v3-0-0-beta-1</dcterms:title> 
+    <dcterms:title>20250615_Svedala_IGM-FAP_RAS_v3-0-0-beta-1</dcterms:title> 
     <dcterms:requires rdf:resource="urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507"/> <!--This is refering to the RA dataset instance-->
     <dcat:startDate>2025-06-15T22:30:00Z</dcat:startDate>
     <dcat:version>3.0.0-beta-1</dcat:version>
@@ -33,7 +33,6 @@
     <prov:wasGeneratedBy>https://energy.referencedata.eu/Activity/CGM-RAS-FAP</prov:wasGeneratedBy>
     <!--Additions to reflect provenance information in the RAS header-->
     <prov:wasAssociatedWith rdf:resource="https://energy.referencedata.eu/CGM/SoftwareAgent/3f4ed5cb-b627-4922-b9ea-19ba419a1c7a"/>
-    <prov:wasInfluencedBy rdf:resource="urn:uuid:4129d214-f57e-4a2b-b14c-c5ef458b6703" /> <!--Point to SAR dataset-->
     <dcterms:spatial>https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System</dcterms:spatial>
     <dcterms:issued>2025-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
