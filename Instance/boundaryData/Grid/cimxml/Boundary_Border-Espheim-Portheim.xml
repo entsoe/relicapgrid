@@ -9,22 +9,22 @@
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
     <dcterms:description xml:lang="en">The equipment dataset of the boundary that is used in the ReliCapGrid.</dcterms:description>
     <prov:generatedAtTime>2026-03-20T15:51:39Z</prov:generatedAtTime>
     <dcterms:identifier>1098ae28-1133-4536-a3dc-e8f62bfe5fcf</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/model/TSO-Espheim-TSO-Portheim_BD"/>
     <dcat:keyword>BD</dcat:keyword>
-    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
-    <dcterms:publisher>https://energy.referencedata.eu/test/party/RCC-Jotunheim</dcterms:publisher>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/RCC-Jotunheim"/>
     <dcterms:requires rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Portheim-Transmission"/>
     <dcat:startDate>2022-06-16T23:30:00Z</dcat:startDate>
     <dcat:version>1</dcat:version>
-    <prov:wasGeneratedBy>https://energy.referencedata.eu/activity/BD</prov:wasGeneratedBy>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/activity/BD"/>
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_7ab6767d-9ca1-9972-8c25-13c831c95b93">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>

@@ -9,10 +9,10 @@
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:2667b32c-d94c-4198-96a2-e9f288cc8e3d">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
-    <dcterms:conformsTo>https://ap.cim4.eu/EquipmentReliability/2.4</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/2013/CIM-schema-cim16#</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">Common data the NineRealms responsibility are as part of the ReliCapGrid ENTSO-E test model.</dcterms:description>
     <prov:generatedAtTime>2026-03-31T10:00:00Z</prov:generatedAtTime>
     <dcterms:identifier>2667b32c-d94c-4198-96a2-e9f288cc8e3d</dcterms:identifier>
@@ -21,7 +21,7 @@
     <dcat:keyword>CommonData</dcat:keyword>
     <dcat:keyword>CD</dcat:keyword>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:publisher>https://energy.referencedata.eu/test/party/Org-NineRealms</dcterms:publisher>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Org-NineRealms"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/NineRealms-Transmission"/>
@@ -29,7 +29,7 @@
     <dcterms:title>20260331_Org-NineRealms_CD_v2-1-0</dcterms:title>
     <dcat:version>2.1.0</dcat:version>
     <adms:versionNotes xml:lang="en">Include BZB for Britheim and related borders, and fixing SchedulingArea.ControlArea associations</adms:versionNotes>
-    <prov:wasGeneratedBy>https://energy.referencedata.eu/activity/CD</prov:wasGeneratedBy>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/activity/CD"/>
   </dcat:Dataset>
   <nc:BiddingZone rdf:ID="_cf8a8cc9-4b94-4983-8a36-e3f84888f461">
     <nc:BiddingZone.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>

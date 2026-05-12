@@ -14,18 +14,18 @@ xmlns:prov="http://www.w3.org/ns/prov#"
 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <dcat:Dataset rdf:about="urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671">
     <dcterms:identifier>c1413a88-1f17-4b9e-9afe-cd089605c671</dcterms:identifier>
-    <dcterms:conformsTo>https://ap.cim4.eu/RemedialAction/2.4</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/2013/CIM-schema-cim16#</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description>Svedala - HVDC - Espheim  - NC profile</dcterms:description>
     <prov:generatedAtTime>2025-06-19T14:00:00Z</prov:generatedAtTime>
-    <dcterms:publisher>https://ap.cim4.eu/RemedialAction/2.4</dcterms:publisher>
+    <dcterms:publisher rdf:resource="https://ap.cim4.eu/RemedialAction/2.4"/>
     <prov:references rdf:resource="urn:uuid:105893e4-668b-4b00-a351-0e436b53cbc9"/>
     <dcat:startDate>2025-06-19T14:00:00Z</dcat:startDate>
     <dcat:keyword>RA</dcat:keyword>
     <dcat:version>1</dcat:version>
-    <dcterms:spatial>https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System</dcterms:spatial>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System"/>
     <dcterms:issued>2025-06-19T14:00:00Z</dcterms:issued>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Svedala-Espheim-RA"/>
     <prov:wasGeneratedBy>"https://energy.referencedata.eu/Activity/CGM-RA</prov:wasGeneratedBy>

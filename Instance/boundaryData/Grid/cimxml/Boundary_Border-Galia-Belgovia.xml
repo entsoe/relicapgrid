@@ -9,22 +9,22 @@
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:e71699f7-e467-4200-accd-8c408a597576">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
     <dcterms:description xml:lang="en">The equipment dataset of the boundary that is used in the ReliCapGrid.</dcterms:description>
     <prov:generatedAtTime>2026-03-20T15:52:36Z</prov:generatedAtTime>
     <dcterms:identifier>e71699f7-e467-4200-accd-8c408a597576</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Belgovia_BD"/>
     <dcat:keyword>BD</dcat:keyword>
-    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
-    <dcterms:publisher>https://energy.referencedata.eu/test/party/RCC-Jotunheim</dcterms:publisher>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/RCC-Jotunheim"/>
     <dcterms:requires rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Belgovia-Transmission"/>
     <dcat:startDate>2022-06-16T23:30:00Z</dcat:startDate>
     <dcat:version>1</dcat:version>
-    <prov:wasGeneratedBy>https://energy.referencedata.eu/activity/BD</prov:wasGeneratedBy>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/activity/BD"/>
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_af1d901f-98de-574f-abc3-6c3025e7a685">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>

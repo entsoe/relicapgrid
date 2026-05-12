@@ -10,19 +10,19 @@
     xmlns:dcatcim="https://cim4.eu/ns/dcatcim#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5">
-    <dcterms:accessRights>https://energy.referencedata.eu/Confidentiality/Public</dcterms:accessRights>
-    <dcterms:conformsTo>https://ap.cim4.eu/RemedialActionSchedule/2.4</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/2013/CIM-schema-cim16#</dcterms:conformsTo>
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialActionSchedule/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">This is an example of remedial action schedule profile that Svedala proposes for the FAP process.</dcterms:description>
     <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
     <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
     <dcterms:identifier>aa129d49-f7af-4b87-942d-aa1e8e4e14a5</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS-FAP"/>
     <dcat:keyword>FAP</dcat:keyword>
-    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
-    <dcterms:publisher>https://energy.referencedata.eu/test/party/TSO-Svedala</dcterms:publisher>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
     <dcterms:title>20250615_Svedala_IGM-FAP_RAS_v3-0-0-beta-1</dcterms:title> 
@@ -30,10 +30,10 @@
     <dcat:startDate>2025-06-15T22:30:00Z</dcat:startDate>
     <dcat:version>3.0.0-beta-1</dcat:version>
     <!--The name of the action might need to be adjusted. For the moment it is called "IGM-FAP"-->
-    <prov:wasGeneratedBy>https://energy.referencedata.eu/Activity/CGM-RAS-FAP</prov:wasGeneratedBy>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-RAS-FAP"/>
     <!--Additions to reflect provenance information in the RAS header-->
     <prov:wasAssociatedWith rdf:resource="https://energy.referencedata.eu/CGM/SoftwareAgent/3f4ed5cb-b627-4922-b9ea-19ba419a1c7a"/>
-    <dcterms:spatial>https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System</dcterms:spatial>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System"/>
     <dcterms:issued>2025-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
 

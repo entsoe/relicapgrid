@@ -9,26 +9,26 @@
       xmlns:adms="http://www.w3.org/ns/adms#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" >
   <dcat:Dataset rdf:about="urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a">
-    <dcterms:accessRights>https://energy.referencedata.eu/Confidentiality/Public</dcterms:accessRights>
-    <dcterms:conformsTo>https://ap.cim4.eu/Contingency/2.3</dcterms:conformsTo>
-    <dcterms:conformsTo>https://cim4.eu/ns/nc/2.4#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/CIM100#</dcterms:conformsTo>
-    <dcterms:conformsTo>http://iec.ch/TC57/2013/CIM-schema-cim16#</dcterms:conformsTo>
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">This is an example of Svedala's exporting contingency dataset (i.e. defining external contingencies) of the neighbour Belgovia.</dcterms:description>
     <prov:generatedAtTime>2025-05-15T07:06:25Z</prov:generatedAtTime>
     <dcterms:identifier>de29a7aa-989c-4c0c-9cea-807b38fd533a</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/TSO-Svedala-HV-Belgovia_CO"/>
     <dcat:keyword>CO</dcat:keyword>
-    <dcterms:license>https://creativecommons.org/licenses/by/4.0/</dcterms:license>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:requires rdf:resource="urn:uuid:886d71fa-6ca7-4be9-a55d-04c3c49c987c"/>
     <dcat:startDate>2025-05-20T18:00:00Z</dcat:startDate>
-    <dcterms:publisher>https://energy.referencedata.eu/Test/Party/Svedala</dcterms:publisher>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/Test/Party/Svedala"/>
     <dcat:version>1.0.0</dcat:version>
     <dcterms:title>202505_TSO-Svedala_HV-Belgovia_IGMx-CO</dcterms:title>
     <adms:versionNotes>Inital version.</adms:versionNotes>
-    <prov:wasGeneratedBy>https://energy.referencedata.eu/Activity/IGMx-CO</prov:wasGeneratedBy>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/IGMx-CO"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/HV-Belgovia"/>
     <dcterms:issued>2025-05-20T18:00:00Z</dcterms:issued>
   </dcat:Dataset>
