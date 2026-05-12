@@ -85,7 +85,7 @@
   <nc:PowerBidDependency.mRID>_0ba48b90-9ce6-4a38-8b11-ab66cc23f04e</nc:PowerBidDependency.mRID>
   <nc:PowerBidDependency.kind rdf:resource="https://cim4.eu/ns/nc#PowerBidDependencyKind.inclusive"/>
   <nc:PowerBidDependency.delay>PT1H</nc:PowerBidDependency.delay>
-  <nc:PowerBidDependency.MainPowerBidSchedule rdf:resource="#_ae6a5ddd-fe7e-40b2-bcb6-cbd2882434e7"/>
+  <nc:PowerBidDependency.DependeePowerBidSchedule rdf:resource="#_ae6a5ddd-fe7e-40b2-bcb6-cbd2882434e7"/>
   <nc:PowerBidDependency.DependentPowerBidSchedule rdf:resource="#_5e08ba42-c0b5-45ed-bc8b-dbb854ed0897"/>
  </nc:PowerBidDependency>
 
@@ -93,7 +93,7 @@
   <nc:PowerBidDependency.mRID>_9439f6fe-3da6-428b-95aa-9fac541e6a7b</nc:PowerBidDependency.mRID>
   <nc:PowerBidDependency.kind rdf:resource="https://cim4.eu/ns/nc#PowerBidDependencyKind.restrictive"/>
   <nc:PowerBidDependency.delay>PT1H</nc:PowerBidDependency.delay>
-  <nc:PowerBidDependency.MainPowerBidSchedule rdf:resource="#_ae6a5ddd-fe7e-40b2-bcb6-cbd2882434e7"/>
+  <nc:PowerBidDependency.DependeePowerBidSchedule rdf:resource="#_ae6a5ddd-fe7e-40b2-bcb6-cbd2882434e7"/>
   <nc:PowerBidDependency.DependentPowerBidSchedule rdf:resource="#_42f85661-6877-4d5c-a87b-a97938642835"/>
 </nc:PowerBidDependency>
 
@@ -131,7 +131,7 @@
 <nc:ParticipationFactorTimePoint rdf:ID="_06dea5a7-512e-48da-a2fc-5e0ec83a5b8e">
     <nc:ParticipationFactorTimePoint.atTime>2024-02-22T17:30:00Z</nc:ParticipationFactorTimePoint.atTime>
     <nc:ParticipationFactorTimePoint.participationFactor>0.5</nc:ParticipationFactorTimePoint.participationFactor>
-    <nc:PowerBidScheduleTimePoint.PowerShiftKeySchedule rdf:resource="#_3b5748de-39f2-45d7-9a66-65819c667e91"/>
+    <nc:ParticipationFactorTimePoint.PowerShiftKeySchedule rdf:resource="#_3b5748de-39f2-45d7-9a66-65819c667e91"/>
 </nc:ParticipationFactorTimePoint>
 
 <!-- 7.1.8.3.3 Redispatch Remedial Action - example 2 -->
@@ -146,11 +146,12 @@
   <cim:IdentifiedObject.description>Power Shift Key Schedule Option 4</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.mRID>853f94cd-a6d6-4edd-bc83-4a2bf937590d</cim:IdentifiedObject.mRID>
   <cim:IdentifiedObject.name>PSKS Option 4</cim:IdentifiedObject.name>
+  <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.none"/>
 </nc:PowerShiftKeySchedule>
 <nc:ParticipationFactorTimePoint rdf:ID="_31e2e93e-47d4-47e4-b5b4-fbbee7efb0c3">
   <nc:ParticipationFactorTimePoint.atTime>2024-02-22T17:30:00Z</nc:ParticipationFactorTimePoint.atTime>
   <nc:ParticipationFactorTimePoint.participationFactor>0.5</nc:ParticipationFactorTimePoint.participationFactor>
-  <nc:PowerBidScheduleTimePoint.PowerShiftKeySchedule rdf:resource="#_853f94cd-a6d6-4edd-bc83-4a2bf937590d"/>
+  <nc:ParticipationFactorTimePoint.PowerShiftKeySchedule rdf:resource="#_853f94cd-a6d6-4edd-bc83-4a2bf937590d"/>
 </nc:ParticipationFactorTimePoint>
 
 </rdf:RDF>
