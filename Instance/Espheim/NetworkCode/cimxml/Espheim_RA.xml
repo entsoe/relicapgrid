@@ -79,6 +79,7 @@
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
     <nc:RemedialAction.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionKind.curative"/>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
+    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:GridStateAlterationRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_d856a2a2-3de4-4a7b-aea4-d363c13d9014">
     <cim:IdentifiedObject.description>This is an example of Curative RA: TopologyAction (generator trip)</cim:IdentifiedObject.description>
@@ -88,6 +89,7 @@
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
     <nc:RemedialAction.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionKind.curative"/>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
+    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:GridStateAlterationRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_fb487cc2-0f7b-4958-8f66-1d3fabf7840d">
     <cim:IdentifiedObject.description>This is an example of Curative RA: TopologyAction (transformer trip)</cim:IdentifiedObject.description>
@@ -97,6 +99,7 @@
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
     <nc:RemedialAction.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionKind.curative"/>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
+    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:GridStateAlterationRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_5898c268-9b32-4ab5-9cfc-64546135a337">
     <cim:IdentifiedObject.description>This is an example. Curative RA: TapPositionAction on PST (Tap position = 6). TapChangerID: f6e8823f-d431-6fc7-37cf-b7a0d80035dd</cim:IdentifiedObject.description>
@@ -126,6 +129,7 @@
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
     <nc:RemedialAction.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionKind.curative"/>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
+    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:GridStateAlterationRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_1fd630a9-b9d8-414b-ac84-b47a093af936">
     <cim:IdentifiedObject.description>This is an example Curative RA: TopologyAction (wind generator trip)</cim:IdentifiedObject.description>
