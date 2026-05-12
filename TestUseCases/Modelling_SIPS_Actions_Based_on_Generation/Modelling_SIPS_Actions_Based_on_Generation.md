@@ -4,11 +4,11 @@ The test case should be performed as follows:
 
 1)  Open the CGM model or [IGM Belgovia](https://github.com/entsoe/relicapgrid/tree/archive-main-do-not-use/Instance/Belgovia/Grid/cimxml).
 
-2)  Import the list of SIPS from Remedial Action Profile ([SIPS_UC6_Anti-Swing_Belgovia.xml](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/NetworkCode/Belgovia/Belgovia_instance/SIPS/SIPS_UC6_Anti-swing_Belgovia.xml)).
+2)  Import the list of SIPS from Remedial Action Profile ([Belgovia_RA.xml](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.5_tc-2.0/Instance/Belgovia/NetworkCode/cimxml/Belgovia_RA.xml)).
 
 3)  Check if SIPS was uploaded correctly and the logic is as expected.
 
-4)  Import the Contingency List from Contingency Profile ([Belgovia_CO_SIPS.xml](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/NetworkCode/Belgovia/Belgovia_instance/Belgovia_CO_SIPS.xml)).
+4)  Import the Contingency List from Contingency Profile ([Belgovia_CO.xml](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.5_tc-2.0/Instance/Belgovia/NetworkCode/cimxml/Belgovia_CO.xml)).
 
 5)  Run contingency analysis including SIPS activation.
 
