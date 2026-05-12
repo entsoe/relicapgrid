@@ -62,12 +62,12 @@
   <nc:EventTimePoint rdf:ID="_389a8f82-cb8e-4b8c-8aa7-3b26a4957eba">
     <nc:EventTimePoint.EventSchedule rdf:resource="#_7acbe49b-be64-4dd8-a02e-87778468d55a"/>
     <nc:EventTimePoint.atTime>2025-03-30T23:50:00Z</nc:EventTimePoint.atTime>
-    <nc:EventTimePoint.isActive>false</nc:EventTimePoint.isActive>
+    <nc:EventTimePoint.isActive>true</nc:EventTimePoint.isActive>
   </nc:EventTimePoint>
   <nc:EventTimePoint rdf:ID="_4a69b9d3-39ac-44e7-a68d-1d76657202b4">
     <nc:EventTimePoint.EventSchedule rdf:resource="#_7acbe49b-be64-4dd8-a02e-87778468d55a"/>
     <nc:EventTimePoint.atTime>2025-02-27T23:50:00Z</nc:EventTimePoint.atTime>
-    <nc:EventTimePoint.isActive>true</nc:EventTimePoint.isActive>
+    <nc:EventTimePoint.isActive>false</nc:EventTimePoint.isActive>
   </nc:EventTimePoint>
   <nc:EventTimePoint rdf:ID="_ab81932c-9fc9-4d1b-a770-36e5e6bfbb9e">
     <nc:EventTimePoint.EventSchedule rdf:resource="#_7acbe49b-be64-4dd8-a02e-87778468d55a"/>
