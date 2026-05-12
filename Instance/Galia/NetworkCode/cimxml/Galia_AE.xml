@@ -24,6 +24,7 @@
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
     <dcterms:requires rdf:resource="urn:uuid:2ea55b46-ad48-4408-be72-734b475ba18f"/>
+    <dcterms:requires rdf:resource="urn:uuid:a2c02149-a114-4b5e-9de5-74dcccd9793a"/>
     <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
     <dcterms:title>20220615_Galia_AE_1.0.0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>

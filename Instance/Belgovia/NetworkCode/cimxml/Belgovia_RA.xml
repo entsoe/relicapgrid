@@ -24,6 +24,7 @@
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
     <dcterms:requires rdf:resource="urn:uuid:b2d1215a-a124-4b6e-9df5-85ecdce9793b"/>
+    <dcterms:requires rdf:resource="urn:uuid:886d71fa-6ca7-4be9-a55d-04c3c49c987c"/>
     <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
     <dcterms:title>20220615_Belgovia_RA_1.0.0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>
