@@ -34,7 +34,7 @@
   <nc:GenericValueTimePoint rdf:ID="_3bf7b894-12e6-401b-83db-4bb3d35da4b1">
     <nc:GenericValueTimePoint.GenericValueSchedule rdf:resource="#_2391985f-1e21-4184-a2ca-99ec573e5aaf"/>
     <nc:GenericValueTimePoint.atTime>2022-06-15T15:30:00Z</nc:GenericValueTimePoint.atTime>
-    <nc:GenericValueTimePoint.value>0.7</nc:GenericValueTimePoint.value>
+    <nc:GenericValueTimePoint.value>667.7734</nc:GenericValueTimePoint.value>
   </nc:GenericValueTimePoint>
   <nc:GridStateIntensitySchedule rdf:ID="_2391985f-1e21-4184-a2ca-99ec573e5aaf">
     <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.next"/>

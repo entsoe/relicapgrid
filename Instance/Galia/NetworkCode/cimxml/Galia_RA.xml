@@ -54,7 +54,7 @@
     <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/EnergyConsumer.p"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <nc:GridStateAlteration.timePerStage>PT1S</nc:GridStateAlteration.timePerStage>
-    <cim:IdentifiedObject.description>Curative RA: LoadAction (15 percent load shed - Scaling factor to 0.7), a new ID is generated for the bidding zone, don't know if we already have an ID for this Bidding zone)</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Curative RA: LoadAction (30 percent load shed)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7bbb3343-e48b-42dd-9ca5-6ff8945ca5b0</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RA15</cim:IdentifiedObject.name>
     <nc:LoadAction.EnergyConsumer rdf:resource="#_b1e03a8f-6a11-4454-af58-4a4a680e857f"/>
