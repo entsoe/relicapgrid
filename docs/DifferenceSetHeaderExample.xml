@@ -18,7 +18,7 @@
 		<dcterms:description xml:lang ="en">Remedial Action dataset including the project PSP-101, PSP-102 and PSR-106.</dcterms:description>
 		<!-- This should be a valid UUID, but it can be open to support all URN namespaces or a subset like eic -->
 		<dcat:endDate>2025-01-28T06:00:00Z</dcat:endDate>
-		<dcterms:identifier>urn:uuid:3a7bfef2-52df-4152-8b2d-1fff40cd0e8f</dcterms:identifier>
+		<dcterms:identifier>3a7bfef2-52df-4152-8b2d-1fff40cd0e8f</dcterms:identifier>
 		<dcterms:issued>2025-01-20T06:00:00Z<</dcterms:issued>
 		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
 		<dcat:keyword>RA</dcat:keyword>

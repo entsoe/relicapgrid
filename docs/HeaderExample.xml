@@ -23,7 +23,7 @@
 		<!-- There is currently now use case for hasPart, but we would like to include it in the vocabulary -->
 		<dcterms:hasPart rdf:resource="urn:uuid:17a2b5a2-6931-47e8-bd88-6b22fb43c2da"/>
 		<dcterms:hasPart rdf:resource="urn:uuid:9e6c886d-33c8-4bb5-ab7a-16be777750c2"/>
-		<dcterms:identifier>urn:uuid:6b7387f2-c7f9-11ed-afa1-0242ac120002</dcterms:identifier>
+		<dcterms:identifier>6b7387f2-c7f9-11ed-afa1-0242ac120002</dcterms:identifier>
 		<dcterms:issued>2024-04-10T10:00:00Z</dcterms:issued>
 		<dcat:inSeries rdf:resource="urn:uuid:3242e483-9884-438f-85bb-29aac6b00e52"/>
 		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
