@@ -1,0 +1,69 @@
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+	xmlns:dcterms="http://purl.org/dc/terms/" 
+	xmlns:nc="https://cim4.eu/ns/nc#"
+	xmlns:prov="http://www.w3.org/ns/prov#"
+	xmlns:adms="http://www.w3.org/ns/adms#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+	<dcat:Dataset rdf:about="urn:uuid:6b7387f2-c7f9-11ed-afa1-0242ac120002">
+		<!-- ENTSO-E extension to handle alternative project into the future -->
+		<dcatcim:alternativeVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
+		<dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/OPDEConfidential"/>
+		<dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+		<!-- There is only one profile reference. The reference is to an instance that include all the relevant profile, vocabulary and constraints, for validation -->
+		<dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
+		<!-- It is still support for national, vendor and utility extension. For tools that does not support the extension profile should ignore it. -->
+		<dcterms:conformsTo rdf:resource="https://ap-no.cim4.eu/RemedialAction/1.0"/>
+		<!-- This is opening for mutliple language support. All description shall be tagged with "en" and be in english. -->
+		<dcterms:description xml:lang ="en">Statnett Remedial Action dataset</dcterms:description>
+		<!-- This should be a valid UUID, but it can be open to support all URN namespaces or a subset like eic -->
+		<dcat:endDate>2024-04-10T06:00:00Z</dcat:endDate>
+		<!-- There is currently now use case for hasPart, but we would like to include it in the vocabulary -->
+		<dcterms:hasPart rdf:resource="urn:uuid:17a2b5a2-6931-47e8-bd88-6b22fb43c2da"/>
+		<dcterms:hasPart rdf:resource="urn:uuid:9e6c886d-33c8-4bb5-ab7a-16be777750c2"/>
+		<dcterms:identifier>urn:uuid:6b7387f2-c7f9-11ed-afa1-0242ac120002</dcterms:identifier>
+		<dcterms:issued>2024-04-10T10:00:00Z</dcterms:issued>
+		<dcat:inSeries rdf:resource="urn:uuid:3242e483-9884-438f-85bb-29aac6b00e52"/>
+		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
+		<dcat:keyword>RA</dcat:keyword>
+		<dcat:keyword>RemedialAction</dcat:keyword>
+		<dcat:temporalResolution>PT15M</dcat:temporalResolution>
+		<!-- Note that this is the license for the test data. There will be another license for the real model. -->
+		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+		<!-- ENTSO-E extension to handle alternative project into the future and point to the preferred dataset -->
+		<dcatcim:preferredVersionOf rdf:resource="urn:uuid:174f8c17-f312-4f46-8168-e63de562585e"/>
+		<!-- This was missed. This replaces the md:Model.Supersedes -->
+		<dcat:previousVersion rdf:resource="urn:uuid:536f9bf1-3f8f-a546-87e3-7af2272f29b7"/>
+		<dcat:nextVersion rdf:resource="urn:uuid:3e9cfdd3-3e69-4be9-a12d-f0b89aae72e1"/>
+		<dcterms:publisher rdf:resource="https://energy.referencedata.eu/EIC/10X1001A1001A38Y"/>
+		<!-- We have replaced the use of dcterms:references with dcterms:requires - to make it clear for the validation engine that the instance that is required. 
+		dcterms:references can still be used. -->
+		<dcterms:references rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
+		<dcterms:references rdf:resource="urn:uuid:a532e6ae-75d5-4216-9404-aab9e5e37242"/>
+		<dcterms:requires rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
+		<dcterms:requires rdf:resource="urn:uuid:778913bf-6ee2-4554-8542-0002e954918c"/>
+		<dcterms:replaces rdf:resource="urn:uuid:0ef20711-9a91-47ce-9e51-7dc503e960dc"/>
+		<dcterms:replaces rdf:resource="urn:uuid:5abf0a0c-c043-4644-bf5f-830b4a0baffb"/>
+		<dcterms:rights>Copyright</dcterms:rights>
+		<dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+		<dcterms:spatial rdf:resource="https://energy.referencedata.eu/Frame/NO-Power-Transmission-System"/>
+		<dcat:startDate>2024-04-10T05:00:00Z</dcat:startDate>
+		<dcterms:title>20240410_NO_CGM-RA</dcterms:title>
+		<!-- Follow the example of DCAT to refere to a contolled vocabulary -->
+		<dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+		<dcat:version>1.0.0</dcat:version>
+		<adms:versionNotes xml:lang ="en">This is the first version.</adms:versionNotes>
+		<!-- prov:wasGeneratedBy and prov:generatedAtTime belongs ot he distribution and not the dataset. 
+		it is therefor tagged as "Deprecated". The plan is to include it in the manifest. -->
+		<prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Action/CGM-RA"/>
+		<prov:generatedAtTime>2024-04-08T05:00:00Z</prov:generatedAtTime>
+		<!-- Deprecated - the plan is to include them in a provenance profile -->
+		<eumd:applicationSoftware>BestPowerFlow Application v2.4.2</eumd:applicationSoftware>
+		<dcterms:source rdf:resource="urn:uuid:1faa6263-d57d-40df-a08b-6d88d2be18d7"/>
+		<dcterms:source rdf:resource="urn:uuid:3aa6e138-fb6e-4c5f-b78f-fad993db2526"/>
+		<eumd:usedSettings rdf:resource="https://energy.referencedata.eu/PowerFlowSettings/IGM-Convergence"/>
+		<eumd:usedSettings rdf:resource="https://energy.referencedata.eu/PowerFlowSettings/CGM-Releax-1"/>
+	</dcat:Dataset>
+</rdf:RDF>

@@ -1,0 +1,44 @@
+	
+	<!-- Changes to the instance data conforming to NCP shall be -->
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
+	xmlns:dcat="http://www.w3.org/ns/dcat#"
+	xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 	
+	xmlns:dcterms="http://purl.org/dc/terms/" 
+	xmlns:nc="https://cim4.eu/ns/nc#"
+	xmlns:prov="http://www.w3.org/ns/prov#" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	
+   <dcatcim:DifferenceSet rdf:about="urn:uuid:3a7bfef2-52df-4152-8b2d-1fff40cd0e8f">
+   <!-- All attribute for the Dataset is also valid for DifferenceSet
+	This example include the mandetory and most relevant attributes are included -->
+		<dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/OPDEConfidential"/>
+		<!-- The DifferenceSet is not conforming but the resolution Dataset shall conform to the refered profile -->
+		<dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
+		<dcterms:description xml:lang ="en">Remedial Action dataset including the project PSP-101, PSP-102 and PSR-106.</dcterms:description>
+		<!-- This should be a valid UUID, but it can be open to support all URN namespaces or a subset like eic -->
+		<dcat:endDate>2025-01-28T06:00:00Z</dcat:endDate>
+		<dcterms:identifier>urn:uuid:3a7bfef2-52df-4152-8b2d-1fff40cd0e8f</dcterms:identifier>
+		<dcterms:issued>2025-01-20T06:00:00Z<</dcterms:issued>
+		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
+		<dcat:keyword>RA</dcat:keyword>
+		<dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+		<dcterms:publisher rdf:resource="https://energy.referencedata.eu/EIC/10X1001A1001A38Y"/>
+		<dcterms:requires rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
+		<dcterms:spatial rdf:resource="https://energy.referencedata.eu/Frame/NO-Power-Transmission-System"/>
+		<dcat:startDate>2025-01-28T05:00:00Z</dcat:startDate>
+		<dcterms:title>20250128_NO_CGM-RA</dcterms:title>
+		<dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+		<dcat:version>1.1.0</dcat:version>
+		<adms:versionNotes xml:lang ="en">This is the minor update of version 1.0.</adms:versionNotes>
+		<prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Action/CGM-RA"/>
+		<!-- This replaces the Supersedes. -->
+		<dcat:previousVersion rdf:resource="urn:uuid:536f9bf1-3f8f-a546-87e3-7af2272f29b7"/>
+		<!-- This replaces the dm:reverseDifferences. -->
+      <dcatcim:reverseDifferences rdf:parseType="Statements">
+      </dcatcim:reverseDifferences>
+      <dcatcim:forwardDifferences rdf:parseType="Statements">
+	  <!-- The changes statemenst are included -->
+      </dcatcim:forwardDifferences>
+   </dcatcim:DifferenceSet>
+</rdf:RDF>
