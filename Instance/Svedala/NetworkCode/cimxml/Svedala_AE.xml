@@ -127,7 +127,6 @@
     <nc:AssessedElement.ConductingEquipment rdf:resource="#_2ab1b800-0c93-4517-86b5-8fd6a3a24ee7"/>
     <nc:AssessedElement.OperationalLimit rdf:resource="#_27b21fb5-7b8b-9818-dc11-7053f69b7aaf"/>
     <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
-    <nc:AssessedElement.CrossBorderRelevance rdf:resource = "#_43587d4c-c6fa-4949-9c3b-466d1cf2a693"/>
     <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
     <nc:AssessedElement.isCombinableWithRemedialAction>true</nc:AssessedElement.isCombinableWithRemedialAction>
     <cim:IdentifiedObject.description>This is an example of Assessed Element (XNE) that can only be solved with a specific Curative Remedial Action.</cim:IdentifiedObject.description>
