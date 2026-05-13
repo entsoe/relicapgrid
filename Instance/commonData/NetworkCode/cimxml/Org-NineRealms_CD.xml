@@ -55,7 +55,7 @@
   <nc:BiddingZone rdf:ID="_87fb9f56-fd86-446f-b35d-c0abba19925f">
     <nc:BiddingZone.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZone.isTradeEnabled>true</nc:BiddingZone.isTradeEnabled>
-    <cim:IdentifiedObject.description>Bidding Zone for Belgovia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone for Belgovia. Duplicated instance definition in CommonData and ER file.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>87fb9f56-fd86-446f-b35d-c0abba19925f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BZ-Belgovia</cim:IdentifiedObject.name>
   </nc:BiddingZone>
@@ -384,7 +384,7 @@
     <nc:SchedulingArea.SystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
   </nc:SchedulingArea>
   <nc:SchedulingArea rdf:ID="_297f533e-77a7-42d9-a683-32babcf6c82f">
-    <cim:IdentifiedObject.description>Scheduling Area (SA) for Belgovia.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Scheduling Area (SA) for Belgovia. Duplicated instance definition in CommonData and ER file.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>297f533e-77a7-42d9-a683-32babcf6c82f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SA-Belgovia</cim:IdentifiedObject.name>
     <nc:SchedulingArea.BiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>

@@ -54,9 +54,28 @@
     <nc:GeneratingUnit.maxRampDownCountPerDay>2</nc:GeneratingUnit.maxRampDownCountPerDay>
   </cim:GeneratingUnit>
 
+<!-- Definitions from CommonData -->
+  <nc:BiddingZone rdf:ID="_87fb9f56-fd86-446f-b35d-c0abba19925f">
+    <nc:BiddingZone.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:BiddingZone.isTradeEnabled>true</nc:BiddingZone.isTradeEnabled>
+    <cim:IdentifiedObject.description>Bidding Zone for Belgovia. Duplicated instance definition in CommonData and ER file.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>87fb9f56-fd86-446f-b35d-c0abba19925f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BZ-Belgovia</cim:IdentifiedObject.name>
+  </nc:BiddingZone>
+  <nc:SchedulingArea rdf:ID="_297f533e-77a7-42d9-a683-32babcf6c82f">
+    <cim:IdentifiedObject.description>Scheduling Area (SA) for Belgovia. Duplicated instance definition in CommonData and ER file.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>297f533e-77a7-42d9-a683-32babcf6c82f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>SA-Belgovia</cim:IdentifiedObject.name>
+    <nc:SchedulingArea.BiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
+    <nc:SchedulingArea.ControlArea rdf:resource="#_50487bb8-be6d-42a8-9358-cc0bbfe6cfa7"/>
+    <nc:SchedulingArea.LoadFrequencyControlArea rdf:resource="#_27bd4e95-602b-4db5-815e-e8ccf77dd1ec"/>
+    <nc:SchedulingArea.SynchronousArea rdf:resource="#_9c94e9e9-f499-4a9e-9a49-55cfa6afacd9"/>
+    <nc:SchedulingArea.SystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+  </nc:SchedulingArea>
+
   <!-- 7.1.8.3.3 Redispatch Remedial Action - example 2 -->
   <nc:PowerShiftKeyStrategy rdf:ID="_9287b1c3-3747-47e6-8918-d82c7a0d7718">
-    <nc:PowerShiftKeyStrategy.SchedulingArea rdf:resource="#_58f0bd4b-c949-4189-8319-1a5f5bb3a1ce"/>
+    <nc:PowerShiftKeyStrategy.SchedulingArea rdf:resource="#_297f533e-77a7-42d9-a683-32babcf6c82f"/>
     <nc:PowerShiftKeyStrategy.method rdf:resource="https://cim4.eu/ns/nc#ShiftMethodKind.shared"/>
     <nc:PowerShiftKeyStrategy.powerShiftKey rdf:resource="https://cim4.eu/ns/nc#PowerShiftKeyKind.explicitDistribution"/>
     <nc:PowerShiftKeyStrategy.dispatchableUnitOnly>true</nc:PowerShiftKeyStrategy.dispatchableUnitOnly>
@@ -65,19 +84,11 @@
     <cim:IdentifiedObject.mRID>9287b1c3-3747-47e6-8918-d82c7a0d7718</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>PSKS1</cim:IdentifiedObject.name>
   </nc:PowerShiftKeyStrategy>
-  <nc:SchedulingArea rdf:ID="_58f0bd4b-c949-4189-8319-1a5f5bb3a1ce">
-    <nc:SchedulingArea.isMeteringGridArea>true</nc:SchedulingArea.isMeteringGridArea>
-    <nc:SchedulingArea.isIslandingEnabled>false</nc:SchedulingArea.isIslandingEnabled>
-    <nc:SchedulingArea.normalParticipationFactor>0.1</nc:SchedulingArea.normalParticipationFactor>
-    <nc:SchedulingArea.BiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
-    <cim:IdentifiedObject.description>Scheduling Area 1</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>58f0bd4b-c949-4189-8319-1a5f5bb3a1ce</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>SA 1</cim:IdentifiedObject.name>
-  </nc:SchedulingArea>
+
   <nc:AreaDispatchableUnit rdf:ID="_4a053fac-126a-4a13-8a74-781c11517fae">
     <nc:AreaDispatchableUnit.GeneratingUnit rdf:resource="#_413bbc8a-683c-7e07-4fb9-aa6ec83278e0"/>
     <nc:AreaDispatchableUnit.normalEnabled>true</nc:AreaDispatchableUnit.normalEnabled>
-    <nc:AreaDispatchableUnit.SchedulingArea rdf:resource="#_58f0bd4b-c949-4189-8319-1a5f5bb3a1ce"/>
+    <nc:AreaDispatchableUnit.SchedulingArea rdf:resource="#_297f533e-77a7-42d9-a683-32babcf6c82f"/>
     <cim:IdentifiedObject.description>Area Dispatchable Unit 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4a053fac-126a-4a13-8a74-781c11517fae</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ADU 1</cim:IdentifiedObject.name>
