@@ -31,12 +31,7 @@
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Belgovia-Power-Transmission-System"/>
     <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
-  <nc:BiddingZone rdf:ID="_91e89a38-ca68-44c1-8ed4-a7db8e435f4f">
-    <nc:BiddingZone.isTradeEnabled>true</nc:BiddingZone.isTradeEnabled>
-    <cim:IdentifiedObject.description>BZ_BO</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>91e89a38-ca68-44c1-8ed4-a7db8e435f4f</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Bidding Zone BO</cim:IdentifiedObject.name>
-  </nc:BiddingZone>
+
   <cim:ReactiveCapabilityCurve rdf:ID="_59ff1e53-0e1a-44c0-ada5-7a0b3a660170">
     <nc:ReactiveCapabilityCurve.referenceVoltage>10</nc:ReactiveCapabilityCurve.referenceVoltage>
 	  <cim:IdentifiedObject.mRID>59ff1e53-0e1a-44c0-ada5-7a0b3a660170</cim:IdentifiedObject.mRID>
@@ -52,13 +47,7 @@
     <cim:CurveData.y1value>100</cim:CurveData.y1value>
     <cim:CurveData.Curve rdf:resource="#_59ff1e53-0e1a-44c0-ada5-7a0b3a660170"/>
   </cim:CurveData>
-  <nc:SchedulingArea rdf:ID="_349f0364-d28d-442e-abbb-c868255abc92">
-    <cim:IdentifiedObject.description>Belgovia</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>349f0364-d28d-442e-abbb-c868255abc92</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Belgovia</cim:IdentifiedObject.name>
-    <nc:SchedulingArea.BiddingZone rdf:resource="#_91e89a38-ca68-44c1-8ed4-a7db8e435f4f"/>
-    <nc:SchedulingArea.ControlArea rdf:resource="#_50487bb8-be6d-42a8-9358-cc0bbfe6cfa7"/>
-  </nc:SchedulingArea>
+
   <cim:GeneratingUnit rdf:about="#_413bbc8a-683c-7e07-4fb9-aa6ec83278e0">
     <cim:IdentifiedObject.mRID>413bbc8a-683c-7e07-4fb9-aa6ec83278e0</cim:IdentifiedObject.mRID>
     <nc:GeneratingUnit.rampLockTime>PT2H</nc:GeneratingUnit.rampLockTime>
@@ -80,6 +69,7 @@
     <nc:SchedulingArea.isMeteringGridArea>true</nc:SchedulingArea.isMeteringGridArea>
     <nc:SchedulingArea.isIslandingEnabled>false</nc:SchedulingArea.isIslandingEnabled>
     <nc:SchedulingArea.normalParticipationFactor>0.1</nc:SchedulingArea.normalParticipationFactor>
+    <nc:SchedulingArea.BiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
     <cim:IdentifiedObject.description>Scheduling Area 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>58f0bd4b-c949-4189-8319-1a5f5bb3a1ce</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SA 1</cim:IdentifiedObject.name>

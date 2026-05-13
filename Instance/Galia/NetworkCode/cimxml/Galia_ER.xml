@@ -31,19 +31,6 @@
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Galia-Power-Transmission-System"/>
     <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
-  <nc:BiddingZone rdf:ID="_dec4c660-c30d-425f-bbb4-6a3939f3fec2">
-    <nc:BiddingZone.isTradeEnabled>true</nc:BiddingZone.isTradeEnabled>
-    <cim:IdentifiedObject.description>BZ_GA</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>dec4c660-c30d-425f-bbb4-6a3939f3fec2</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Bidding Zone GA</cim:IdentifiedObject.name>
-  </nc:BiddingZone>
-  <nc:SchedulingArea rdf:ID="_64e9a19a-e28c-495c-94c6-b7819ca0e6c4">
-    <cim:IdentifiedObject.description>Galia</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>64e9a19a-e28c-495c-94c6-b7819ca0e6c4</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Galia</cim:IdentifiedObject.name>
-    <nc:SchedulingArea.BiddingZone rdf:resource="#_dec4c660-c30d-425f-bbb4-6a3939f3fec2"/>
-    <nc:SchedulingArea.ControlArea rdf:resource="#_b20c892a-a5d2-4378-8744-c2cfea79d0be"/>
-  </nc:SchedulingArea>
     <cim:GeneratingUnit rdf:about="#_2a2d438f-41b3-a9ea-f897-20ae9f28fbec">
     <cim:IdentifiedObject.mRID>2a2d438f-41b3-a9ea-f897-20ae9f28fbec</cim:IdentifiedObject.mRID>
     <nc:GeneratingUnit.rampLockTime>P0Y0M0DT2H0M0S</nc:GeneratingUnit.rampLockTime>

@@ -31,19 +31,6 @@
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Espheim-Power-Transmission-System"/>
     <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
   </dcat:Dataset>
-  <nc:BiddingZone rdf:ID="_7acbe48a-be54-4cd7-af2e-87768468c55a">
-    <nc:BiddingZone.isTradeEnabled>true</nc:BiddingZone.isTradeEnabled>
-    <cim:IdentifiedObject.description>BZ_EH</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>7acbe48a-be54-4cd7-af2e-87768468c55a</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Bidding Zone EH</cim:IdentifiedObject.name>
-  </nc:BiddingZone>
-  <nc:SchedulingArea rdf:ID="_3da1dae2-cc95-4c48-a6b7-81cca0e6c465">
-    <cim:IdentifiedObject.description>Espheim</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>3da1dae2-cc95-4c48-a6b7-81cca0e6c465</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>Espheim</cim:IdentifiedObject.name>
-    <nc:SchedulingArea.BiddingZone rdf:resource="#_7acbe48a-be54-4cd7-af2e-87768468c55a"/>
-    <nc:SchedulingArea.ControlArea rdf:resource="#_1f9ecd81-e069-4040-bd64-f34b0fac3a60"/>
-  </nc:SchedulingArea>
 
   <nc:EquivalentGeneratingUnit rdf:ID="_0b23d814-7559-4edf-8c55-40af585209e6">
     <cim:IdentifiedObject.mRID>0b23d814-7559-4edf-8c55-40af585209e6</cim:IdentifiedObject.mRID>
