@@ -11,7 +11,7 @@
 	
    <dcatcim:DifferenceSet rdf:about="urn:uuid:3a7bfef2-52df-4152-8b2d-1fff40cd0e8f">
    <!-- All attribute for the Dataset is also valid for DifferenceSet
-	This example include the mandetory and most relevant attributes are included -->
+	This example include the mandatory and most relevant attributes are included -->
 		<dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/OPDEConfidential"/>
 		<!-- The DifferenceSet is not conforming but the resolution Dataset shall conform to the refered profile -->
 		<dcterms:conformsTo rdf:resource="https://ap.cim4.eu/RemedialAction/2.3"/>
