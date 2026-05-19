@@ -53,10 +53,10 @@
   <nc:CountertradeRemedialAction rdf:ID="_30f6377d-5e35-4dd0-a53d-c1992043855e">
     <nc:CountertradeRemedialAction.powerShiftKey rdf:resource="https://cim4.eu/ns/nc#GLSKStrategyKind.generatorPmax"/>
     <nc:CountertradeRemedialAction.method rdf:resource="https://cim4.eu/ns/nc#ShiftMethodKind.shared"/>
-    <cim:IdentifiedObject.description>Curative RA: Countertrading, BO:-205.5-&gt;-251, GA:-438.25-&gt;-392.8</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Curative RA: Countertrading, BO:-205.5-gt;-251, GA:-438.25-gt;-392.8</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>30f6377d-5e35-4dd0-a53d-c1992043855e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RA18</cim:IdentifiedObject.name>
-    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_91e89a38-ca68-44c1-8ed4-a7db8e435f4f"/>
+    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <nc:RemedialAction.AppointedToRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:RemedialAction.RemedialActionSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
@@ -592,7 +592,7 @@
 <!-- 7.1.8.3.3 Redispatch Remedial Action -->
 
   <nc:RedispatchRemedialAction rdf:ID="_fa73cfee-ff54-43cd-816b-51394cd76f0f">
-    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_91e89a38-ca68-44c1-8ed4-a7db8e435f4f"/>
+    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <cim:IdentifiedObject.description>Redispatch RA sample</cim:IdentifiedObject.description>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
@@ -605,7 +605,7 @@
 <!-- 7.1.8.3.3 Redispatch Remedial Action - example 2 -->
 
   <nc:RedispatchRemedialAction rdf:ID="_9d72d12a-f135-437a-83fa-ef3e5b23f41f">
-    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_91e89a38-ca68-44c1-8ed4-a7db8e435f4f"/>
+    <nc:PowerRemedialAction.BiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <cim:IdentifiedObject.description>Redispatch RA sample</cim:IdentifiedObject.description>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
     <nc:RemedialAction.isCrossBorderRelevant>true</nc:RemedialAction.isCrossBorderRelevant>
