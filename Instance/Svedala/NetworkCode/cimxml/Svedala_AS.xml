@@ -75,7 +75,16 @@
     <nc:EventTimePoint.isActive>true</nc:EventTimePoint.isActive>
   </nc:EventTimePoint>
 
+  
   <!-- 7.1.8.4	Availability Remedial Action  -->
+  <nc:AvailabilityEquipment rdf:ID="_12d82418-69c5-43c7-9ba5-645a8b3561f0"> 
+    <nc:AvailabilityEquipment.Equipment rdf:resource="#_536f4b84-db4c-4545-96e9-bb5a87f65d13"/>
+    <nc:AvailabilityPowerSystemFunction.AvailabilitySchedule rdf:resource="#_d394295f-9d18-4d9f-9808-bd23282bf60f"/>
+    <nc:AvailabilityPowerSystemFunction.kind rdf:resource="https://cim4.eu/ns/nc#AvailabilityFunctionKind.outOfService"/>
+    <cim:IdentifiedObject.description>Sample Availability Equipment</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>12d82418-69c5-43c7-9ba5-645a8b3561f0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Availability Equipment 1</cim:IdentifiedObject.name>
+  </nc:AvailabilityEquipment>
   <nc:AvailabilitySchedule rdf:ID="_d394295f-9d18-4d9f-9808-bd23282bf60f">
     <cim:IdentifiedObject.mRID>d394295f-9d18-4d9f-9808-bd23282bf60f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Availability Schedule 1</cim:IdentifiedObject.name>
@@ -98,7 +107,7 @@
     <cim:IdentifiedObject.description>Commissioning of new station</cim:IdentifiedObject.description> 
   </nc:AvailabilityContainer>
   <nc:AvailabilitySchedule rdf:ID="_9fa5e26d-d64e-4bfb-afb8-fb6dbe884b48">
-    <nc:AvailabilitySchedule.PlannedSchedule rdf:resource="#_7acbe49b-be64-4dd8-a02e-87778468d55a"/>
+    <nc:AvailabilitySchedule.PlannedSchedule rdf:resource="#_7591824a-2694-4dbc-b9ec-c1613ff81814"/>
     <nc:AvailabilitySchedule.causeDescription>Preparation to start Project B</nc:AvailabilitySchedule.causeDescription>
     <nc:AvailabilitySchedule.causeKind rdf:resource="https://cim4.eu/ns/nc#AvailabilityScheduleCauseKind.maintenance"/>
     <nc:AvailabilitySchedule.priority>1</nc:AvailabilitySchedule.priority>
@@ -106,5 +115,18 @@
     <cim:IdentifiedObject.mRID>9fa5e26d-d64e-4bfb-afb8-fb6dbe884b48</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Test schedule for Availability Container example</cim:IdentifiedObject.name>
   </nc:AvailabilitySchedule>
+    <nc:EventSchedule rdf:ID="_7591824a-2694-4dbc-b9ec-c1613ff81814">
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+    <nc:BaseTimeSeries.kind rdf:resource="https://cim4.eu/ns/nc#BaseTimeSeriesKind.schedule"/>
+    <cim:IdentifiedObject.description>event schedule example</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>7591824a-2694-4dbc-b9ec-c1613ff81814</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>event </cim:IdentifiedObject.name>
+  </nc:EventSchedule>
+  <!-- Event Time Point example  -->
+  <nc:EventTimePoint rdf:ID="d934f699-7835-46ec-88bb-7268b4671d8a">
+    <nc:EventTimePoint.EventSchedule rdf:resource="#_7591824a-2694-4dbc-b9ec-c1613ff81814"/>
+    <nc:EventTimePoint.atTime>2025-03-30T23:50:00Z</nc:EventTimePoint.atTime>
+    <nc:EventTimePoint.isActive>true</nc:EventTimePoint.isActive>
+  </nc:EventTimePoint>
 
 </rdf:RDF>
