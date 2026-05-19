@@ -120,7 +120,7 @@
   <cim:IdentifiedObject.description>Power Shift Key Schedule 1</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.mRID>3b5748de-39f2-45d7-9a66-65819c667e91</cim:IdentifiedObject.mRID>
   <cim:IdentifiedObject.name>PSKS1</cim:IdentifiedObject.name>
-  <cim:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.none"/>
+  <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.none"/>
 </nc:PowerShiftKeySchedule>
 <nc:PowerBidScheduleTimePoint rdf:ID="_250e37a5-50e0-44b7-9bd7-7284c04116db">
   <nc:PowerBidScheduleTimePoint.atTime>2024-02-22T17:30:00Z</nc:PowerBidScheduleTimePoint.atTime>

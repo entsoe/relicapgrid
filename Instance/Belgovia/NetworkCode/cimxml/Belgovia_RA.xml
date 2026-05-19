@@ -207,7 +207,6 @@
     <nc:PinTerminal.Terminal rdf:resource="#_73ae8a3c-8217-9467-638f-cf007f229852" />
     <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower" />
     <!-- Added attribute, which says this pin is controllable for if it should be a possible input or not. True means that it is possible that this input activates the SIPS in default settings. -->
-    <nc:GateInputPin.normalEnabled>true</nc:GateInputPin.normalEnabled> 
   </nc:PinTerminal>
   <nc:PinGate rdf:ID="_0578c33a-f74a-44c4-99fb-74fa6f4d6e58">
     <nc:GateInputPin.Gate rdf:resource="#_23ef64de-0f0c-490f-b771-e48b5bd247c5" />
@@ -219,7 +218,6 @@
     <cim:IdentifiedObject.name>One of the lines tripped</cim:IdentifiedObject.name>
     <nc:PinGate.GateOutput rdf:resource="#_b73c5258-2fb6-4e8a-8b0a-61d84a52ee27" />
     <!-- Added attribute, which says this pin is controllable for if it should be a possible input or not. False means that it is not possible that this input activates the SIPS in default settings (but could be possible if we change current settings in attribute "enabled" SSI profile). -->
-    <nc:GateInputPin.normalEnabled>false</nc:GateInputPin.normalEnabled> 
   </nc:PinGate>
     <!-- in case of export on TieLine_GA_BO2 decprease the power to 10 MW--> 
   <nc:Stage rdf:ID="_89705a24-34bd-493e-a572-c32f25106e3b">
