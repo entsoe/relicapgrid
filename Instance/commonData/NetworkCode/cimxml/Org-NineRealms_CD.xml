@@ -84,97 +84,97 @@
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_28c20a8b-917f-41e0-8562-54b6b1044d48"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Nordheim to Galia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Nordheim</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>f31b779f-6058-4719-8aff-80d96c7b5fbb</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Nordheim-Galia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Galia-Nordheim</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_07565540-a4ad-45b2-a313-3e093bce9f30">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_cf8a8cc9-4b94-4983-8a36-e3f84888f461"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_23cadd6e-47f2-42f4-b2b5-3b59e7e700a7"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Portheim to Espheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Espheim to Portheim</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>07565540-a4ad-45b2-a313-3e093bce9f30</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Portheim-Espheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Espheim-Portheim</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_17f1bb3a-d222-4565-95a1-89b5c3204ce5">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_f8d26efa-aaaf-49d2-97f8-24de7660047b"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_cf8a8cc9-4b94-4983-8a36-e3f84888f461"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Espheim to Svedala</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Svedala to Espheim</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>17f1bb3a-d222-4565-95a1-89b5c3204ce5</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Espheim-Svedala</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Svedala-Espheim</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_c1540280-a038-4d7f-ba5c-52e1f908d20d">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Belgovia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Belgovia to Galia</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>c1540280-a038-4d7f-ba5c-52e1f908d20d</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Galia-Belgovia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Belgovia-Galia</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_9377bdae-ac1a-44f5-a619-4e71af22e0a4">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Belgovia to Galia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Belgovia</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>9377bdae-ac1a-44f5-a619-4e71af22e0a4</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Belgovia-Galia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Galia-Belgovia</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_f8566f29-9f1b-4484-b738-1f7bc8f31f0b">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_f8d26efa-aaaf-49d2-97f8-24de7660047b"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Belgovia to Svedala</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Svedala to Belgovia</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>f8566f29-9f1b-4484-b738-1f7bc8f31f0b</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Belgovia-Svedala</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Svedala-Belgovia</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_488ac74b-7c1d-41ac-b2d8-2108ff754752">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_cf8a8cc9-4b94-4983-8a36-e3f84888f461"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_f8d26efa-aaaf-49d2-97f8-24de7660047b"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Svedala to Espheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Espheim to Svedala</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>488ac74b-7c1d-41ac-b2d8-2108ff754752</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Svedala-Espheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Espheim-Svedala</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_45909aac-a6be-441e-8847-c952ba94b0d0">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_f8d26efa-aaaf-49d2-97f8-24de7660047b"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Svedala to Belgovia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Belgovia to Svedala</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>45909aac-a6be-441e-8847-c952ba94b0d0</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Svedala-Belgovia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Belgovia-Svedala</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_06c9f0bb-26a4-4e83-af1d-d2166c414b94">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_28c20a8b-917f-41e0-8562-54b6b1044d48"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Nordheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Nordheim to Galia</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>06c9f0bb-26a4-4e83-af1d-d2166c414b94</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Galia-Nordheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Nordheim-Galia</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_1e93200d-0279-4aa4-9baa-136dcf242458">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_23cadd6e-47f2-42f4-b2b5-3b59e7e700a7"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_cf8a8cc9-4b94-4983-8a36-e3f84888f461"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Espheim to Portheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Portheim to Espheim</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>1e93200d-0279-4aa4-9baa-136dcf242458</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Espheim-Portheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Portheim-Espheim</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_20a47715-dc1f-48ca-9db4-b99dbecc8221">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_d220bcdc-0ab8-44ce-bb17-1c154f02adcd"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Britheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Britheim to Galia</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>20a47715-dc1f-48ca-9db4-b99dbecc8221</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Galia-Britheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Britheim-Galia</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:BiddingZoneBorder rdf:ID="_a7b0705b-8046-44e4-9f83-01b0aed73e90">
     <nc:BiddingZoneBorder.CapacityCalculationRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
     <nc:BiddingZoneBorder.FromBiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
     <nc:BiddingZoneBorder.ToBiddingZone rdf:resource="#_d220bcdc-0ab8-44ce-bb17-1c154f02adcd"/>
-    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Britheim to Galia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Bidding Zone Border for the direction from Galia to Britheim</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>a7b0705b-8046-44e4-9f83-01b0aed73e90</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>BZB-Britheim-Galia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>BZB-Galia-Britheim</cim:IdentifiedObject.name>
   </nc:BiddingZoneBorder>
   <nc:CapacityCalculationRegion rdf:ID="_56d81c91-4fb8-47a2-9d7c-baa13dedd605">
     <nc:CapacityCalculationRegion.CoordinatedCapacityCalculator rdf:resource="#_427e7b56-b81a-4703-a018-c7e53a61c006"/>
@@ -448,63 +448,63 @@
     <nc:SynchronousArea.nominalFrequency>50.0</nc:SynchronousArea.nominalFrequency>
   </nc:SynchronousArea>
   <nc:TieCorridor rdf:ID="_b7fee594-75e4-40d0-9008-7e192b75b1cb">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Galia Control Area and Nordheim Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Nordheim Control Area and Galia Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>b7fee594-75e4-40d0-9008-7e192b75b1cb</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Galia-Nordheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Nordheim-Galia</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_06c9f0bb-26a4-4e83-af1d-d2166c414b94"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_a3fbc7eb-3f3d-4b15-ba90-b94b3eb4d9e1">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Galia Control Area and Belgovia Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Belgovia Control Area and Galia Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>a3fbc7eb-3f3d-4b15-ba90-b94b3eb4d9e1</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Galia-Belgovia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Belgovia-Galia</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_c1540280-a038-4d7f-ba5c-52e1f908d20d"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_69a4f038-dfa7-4978-8d49-140c7570b9ac">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Belgovia Control Area and Svedala Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Svedala Control Area and Belgovia Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>69a4f038-dfa7-4978-8d49-140c7570b9ac</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Belgovia-Svedala</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Svedala-Belgovia</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_f8566f29-9f1b-4484-b738-1f7bc8f31f0b"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_d6f19e28-4461-4e56-922b-8891767dd4d0">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Svedala Control Area and Belgovia Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Belgovia Control Area and Svedala Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>d6f19e28-4461-4e56-922b-8891767dd4d0</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Svedala-Belgovia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Belgovia-Svedala</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_45909aac-a6be-441e-8847-c952ba94b0d0"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_ebcf2e91-11c0-49c1-8c1c-0f58c73f8ab7">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Espheim Control Area and Svedala Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Svedala Control Area and Espheim Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>ebcf2e91-11c0-49c1-8c1c-0f58c73f8ab7</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Espheim-Svedala</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Svedala-Espheim</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_17f1bb3a-d222-4565-95a1-89b5c3204ce5"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_51c2059d-ac3c-45b6-b6c1-ac59dfa4da12">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Espheim Control Area and Portheim Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Portheim Control Area and Espheim Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>51c2059d-ac3c-45b6-b6c1-ac59dfa4da12</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Espheim-Portheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Portheim-Espheim</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_1e93200d-0279-4aa4-9baa-136dcf242458"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_fb695a5b-72b7-434c-b7db-f27167b951af">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Belgovia Control Area and Galia Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Galia Control Area and Belgovia Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>fb695a5b-72b7-434c-b7db-f27167b951af</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Belgovia-Galia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Galia-Belgovia</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_9377bdae-ac1a-44f5-a619-4e71af22e0a4"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_b50a7b3d-49aa-4ab8-a75e-4a90f8439b25">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Nordheim Control Area and Galia Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Galia Control Area and Nordheim Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>b50a7b3d-49aa-4ab8-a75e-4a90f8439b25</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Nordheim-Galia</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Galia-Nordheim</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_f31b779f-6058-4719-8aff-80d96c7b5fbb"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_4b418cee-109e-4789-8de3-3d66b58ea11f">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Portheim Control Area and Espheim Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Espheim Control Area and Portheim Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4b418cee-109e-4789-8de3-3d66b58ea11f</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Portheim-Espheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Espheim-Portheim</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_07565540-a4ad-45b2-a313-3e093bce9f30"/>
   </nc:TieCorridor>
   <nc:TieCorridor rdf:ID="_3fcc353a-fe97-4413-86c0-6d3e7135be09">
-    <cim:IdentifiedObject.description>Tie Corridor (TC) between Svedala Control Area and Espheim Control Area.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>Tie Corridor (TC) between Espheim Control Area and Svedala Control Area.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>3fcc353a-fe97-4413-86c0-6d3e7135be09</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>TC-Svedala-Espheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.name>TC-Espheim-Svedala</cim:IdentifiedObject.name>
     <nc:TieCorridor.BiddingZoneBorder rdf:resource="#_488ac74b-7c1d-41ac-b2d8-2108ff754752"/>
   </nc:TieCorridor>
   <nc:TransmissionSystemOperator rdf:ID="_0410eff4-6268-4b83-860e-0f9f425f6c6c">
