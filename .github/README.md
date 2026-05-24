@@ -76,6 +76,9 @@ The following guidance describes which files to combine when creating import pac
 The load flow calculation parameters are documented in the [power flow settings document](../docs/PowerFlowCalculationSettings.adoc).
 
 
+The [sematic-tools](../semantic-tools) folder includes some scripts to convert CIMXML to Trig (Turtle with named graphs) and fix some instance data problems, and it describes the location of Trig files and how to zip them up together with all manifest.ttl files, for direct loading to a semantic graph database.
+
+
 ---
 
 ### The Grid Test Model
