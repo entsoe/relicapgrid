@@ -66,7 +66,7 @@
     <cim:IdentifiedObject.description>Scheduling Area (SA) for Belgovia. Duplicated instance definition in CommonData and ER file.</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>297f533e-77a7-42d9-a683-32babcf6c82f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SA-Belgovia</cim:IdentifiedObject.name>
-    <nc:SchedulingArea.BiddingZone rdf:resource="#_4d4166a4-c0dc-4c77-9b67-a04a7e68ddf2"/>
+    <nc:SchedulingArea.BiddingZone rdf:resource="#_87fb9f56-fd86-446f-b35d-c0abba19925f"/>
     <nc:SchedulingArea.ControlArea rdf:resource="#_50487bb8-be6d-42a8-9358-cc0bbfe6cfa7"/>
     <nc:SchedulingArea.LoadFrequencyControlArea rdf:resource="#_27bd4e95-602b-4db5-815e-e8ccf77dd1ec"/>
     <nc:SchedulingArea.SynchronousArea rdf:resource="#_9c94e9e9-f499-4a9e-9a49-55cfa6afacd9"/>
