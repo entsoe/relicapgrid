@@ -63,6 +63,15 @@
     <cim:IdentifiedObject.mRID>ed90cae2-cc84-4c37-a6b7-80cb9fe5c464</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Gate 1</cim:IdentifiedObject.name>
   </nc:Gate>
+  <nc:PinContingency rdf:ID="_7b09ac5a-abeb-4d70-87a9-423f0d8cbabc">
+    <nc:GateInputPin.Gate rdf:resource="#_ed90cae2-cc84-4c37-a6b7-80cb9fe5c464"/>
+    <nc:GateInputPin.absoluteValue>false</nc:GateInputPin.absoluteValue>
+    <nc:GateInputPin.duration>P0Y0M0DT0H0M0S</nc:GateInputPin.duration>
+    <nc:GateInputPin.negate>false</nc:GateInputPin.negate>
+    <cim:IdentifiedObject.mRID>7b09ac5a-abeb-4d70-87a9-423f0d8cbabc</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Contingency occurred</cim:IdentifiedObject.name>
+    <nc:PinContingency.Contingency rdf:resource="#_e05bbe20-9d4a-40da-9777-8424d216785d"/>
+</nc:PinContingency>
   <nc:GridStateAlterationCollection rdf:ID="_8739648b-662d-46c1-9f51-2965398e6ded">
     <cim:IdentifiedObject.mRID>8739648b-662d-46c1-9f51-2965398e6ded</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>collection 1</cim:IdentifiedObject.name>
