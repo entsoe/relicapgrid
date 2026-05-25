@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" >
+  <dcat:Dataset rdf:about="urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
+    <dcterms:description xml:lang="en">This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid.</dcterms:description>
+    <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
+    <prov:generatedAtTime>2026-05-25T00:00:00Z</prov:generatedAtTime>
+    <dcterms:identifier>d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/DC-Espheim-Svedala-CO"/>
+    <dcat:keyword>CO</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/DC-Espheim-Svedala"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:requires rdf:resource="urn:uuid:105893e4-668b-4b00-a351-0e436b53cbc9"/>
+    <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
+    <dcterms:title>20220615_DC-Espheim-Svedala_CO_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-CO"/>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System"/>
+    <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
+  </dcat:Dataset>
+  <cim:ContingencyEquipment rdf:ID="_b994b74c-7539-4e1e-9985-7d7a20d55ba9">
+    <cim:ContingencyElement.Contingency rdf:resource="#_66627b36-aecd-4141-ab99-4bd8a74d18a8"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_038ce404-30dc-4289-b9db-7076cb870b8e"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency is the DC-3P-Convert-1 in between Espheim and Svedala (CsConverter); Loss of a single component of a HVDC system (single HVDC converter unit) </cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b994b74c-7539-4e1e-9985-7d7a20d55ba9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>HVDC_1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <cim:ContingencyEquipment rdf:ID="_4ec61835-cdf9-4fd5-93ee-37aa4caee337">
+    <cim:ContingencyElement.Contingency rdf:resource="#_504b48fb-de1f-4f7e-928f-8585daaf7b72"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_be09fc02-de3f-49e4-aa84-94803bcc5d76"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency is the DCLine in between Espheim and Svedala (DCLineSegment); Loss of a single component of a HVDC system (line or cable) </cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4ec61835-cdf9-4fd5-93ee-37aa4caee337</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>HVDC_2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_66627b36-aecd-4141-ab99-4bd8a74d18a8">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an example of an ordinary contingency;Loss of HVDC converter</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>66627b36-aecd-4141-ab99-4bd8a74d18a8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO_HVDC1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <nc:OrdinaryContingency rdf:ID="_504b48fb-de1f-4f7e-928f-8585daaf7b72">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an example of an ordinary contingency;Loss of HVDC line</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>504b48fb-de1f-4f7e-928f-8585daaf7b72</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO_HVDC2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+</rdf:RDF>
