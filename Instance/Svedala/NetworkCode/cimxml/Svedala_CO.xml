@@ -172,6 +172,23 @@
   <nc:ExceptionalContingency.kind rdf:resource="https://cim4.eu/ns/nc#ContingencyConditionKind.operational"/>
 </nc:ExceptionalContingency>
 
+<!-- OrdinaryContingency - loss of a single demand facility -->
+<cim:ContingencyEquipment rdf:ID="_c2d7b853-9e46-4f81-a3e5-7d1b4c8f6a29">
+  <cim:ContingencyElement.Contingency rdf:resource="#_f3a8c241-7b5e-4d92-b1c6-8e3f092a4d71"/>
+  <cim:ContingencyEquipment.Equipment rdf:resource="#_ebf0cd8b-a357-4e97-aa67-de5b263733d6"/>
+  <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+  <cim:IdentifiedObject.description>The equipment for this contingency is the ConformLoad "CT72_T1_LAST" in Svedala; Loss of a single demand facility</cim:IdentifiedObject.description>
+  <cim:IdentifiedObject.mRID>c2d7b853-9e46-4f81-a3e5-7d1b4c8f6a29</cim:IdentifiedObject.mRID>
+  <cim:IdentifiedObject.name>CT72_T1_LAST</cim:IdentifiedObject.name>
+</cim:ContingencyEquipment>
+<nc:OrdinaryContingency rdf:ID="_f3a8c241-7b5e-4d92-b1c6-8e3f092a4d71">
+  <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+  <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+  <cim:IdentifiedObject.description>This is an example of an ordinary contingency; Loss of a single demand facility</cim:IdentifiedObject.description>
+  <cim:IdentifiedObject.mRID>f3a8c241-7b5e-4d92-b1c6-8e3f092a4d71</cim:IdentifiedObject.mRID>
+  <cim:IdentifiedObject.name>CO_ConformLoad_1</cim:IdentifiedObject.name>
+</nc:OrdinaryContingency>
+
 <!-- OutOfRangeContingency example-->
 <cim:ContingencyEquipment rdf:ID="_4198a663-b8e6-4ed1-9212-db1448cc6018">
   <cim:IdentifiedObject.name>CE1</cim:IdentifiedObject.name>

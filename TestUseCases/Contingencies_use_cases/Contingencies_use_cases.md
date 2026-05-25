@@ -24,7 +24,7 @@ This use case validates the handling of contingency data **Contingency (CO) Prof
 | CO_UC7 | ″ | Ordinary – loss of HVDC converter | HVDC Espheim–Svedala CsConverter | `038ce404-30dc-4289-b9db-7076cb870b8e` | Loss of HVDC converter DC-3P-Convert-1 | `66627b36-aecd-4141-ab99-4bd8a74d18a8` |
 | CO_UC8 | ″ | Ordinary – loss of HVDC line | HVDC Espheim–Svedala DCLineSegment | `be09fc02-de3f-49e4-aa84-94803bcc5d76` | Loss of HVDC line | `504b48fb-de1f-4f7e-928f-8585daaf7b72` |
 | CO_UC9 | ″ | Ordinary – loss of generation unit | Belgovia SynchronousMachine | `550ebe0d-f2b2-48c1-991f-cebea43a21aa` | Loss of synchronous machine | `37997e71-cb7d-4a8c-baa6-2a1594956da9` |
-| CO_UC10 | ″ | Ordinary – loss of demand facility | Belgovia NonConformLoad | `cb459405-cc14-4215-a45c-416789205904` | Loss of demand facility | `65582e87-5035-4465-8dd9-cb655224b29f` |
+| CO_UC10 | ″ | Ordinary – loss of demand facility | Svedala ConformLoad CT72_T1_LAST | `ebf0cd8b-a357-4e97-aa67-de5b263733d6` | Loss of demand facility | `f3a8c241-7b5e-4d92-b1c6-8e3f092a4d71` |
 | CO_UC11 | ″ | Out‑of‑range – N‑2 loss of lines | Espheim two independent tie-lines | `04566cf8-c766-11e1-8775-005056c00008`, `0475dbd8-c766-11e1-8775-005056c00008` | N‑2 loss of two tie-lines | `9d17b84c-33b5-4a68-b8b9-ed5b31038d40`, `13334fdf-9cc2-4341-adb6-1281269040b4` |
 
 
