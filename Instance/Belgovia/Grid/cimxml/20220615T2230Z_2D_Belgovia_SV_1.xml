@@ -340,8 +340,8 @@
   </cim:SvPowerFlow>
   <cim:SvPowerFlow rdf:ID="_211e4a73-dddb-4685-ba53-77111e7248b7">
     <cim:SvPowerFlow.Terminal rdf:resource="#_515bd41d-c5bc-4d0c-bf0f-449875c7bd9b"/>
-    <cim:SvPowerFlow.p>-26.7316</cim:SvPowerFlow.p>
-    <cim:SvPowerFlow.q>2.1787</cim:SvPowerFlow.q>
+    <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
+    <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
   <cim:SvPowerFlow rdf:ID="_461b009b-4ee1-46d5-807d-b04f01f9d539">
     <cim:SvPowerFlow.Terminal rdf:resource="#_ca0f7e2e-3442-4ada-a704-91f319c0ebe3"/>
