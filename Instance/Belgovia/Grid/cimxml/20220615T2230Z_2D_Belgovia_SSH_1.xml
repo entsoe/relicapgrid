@@ -386,6 +386,11 @@
     <cim:EquivalentInjection.p>-26.7316</cim:EquivalentInjection.p>
     <cim:EquivalentInjection.q>2.1787</cim:EquivalentInjection.q>
   </cim:EquivalentInjection>
+  <cim:EquivalentInjection rdf:about="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:EquivalentInjection.p>-26.7316</cim:EquivalentInjection.p>
+    <cim:EquivalentInjection.q>2.1787</cim:EquivalentInjection.q>
+  </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:about="#_579381e6-1e32-457b-a208-32f905b1e19e">
     <cim:Equipment.inService>true</cim:Equipment.inService>
     <cim:EquivalentInjection.p>-576.42</cim:EquivalentInjection.p>

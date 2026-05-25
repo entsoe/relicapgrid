@@ -146,11 +146,11 @@
     <nc:RemedialActionScheme.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionSchemeKind.sips" />
     <nc:RemedialActionScheme.normalArmed>true</nc:RemedialActionScheme.normalArmed>
   </nc:RemedialActionScheme>
-    <!-- in case of import on TieLine_GA_BO2 decprease the power to 10 MW--> 
+    <!-- in case of import on TieLine_GA_BO2 decrease the power to 10 MW--> 
   <nc:Stage rdf:ID="_215c0331-cf8e-4499-b9b5-bc3cffd3f3b3">
     <cim:IdentifiedObject.mRID>215c0331-cf8e-4499-b9b5-bc3cffd3f3b3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SIPS_UC2_Runback_import.</cim:IdentifiedObject.name>
-    <cim:IdentifiedObject.description>SIPS_UC2_Runback_import. In case of import on TieLine_GA_BO2 decprease the power to 10 MW</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.description>SIPS_UC2_Runback_import. In case of import on TieLine_GA_BO2 decrease the power to 10 MW</cim:IdentifiedObject.description>
     <nc:Stage.GridStateAlterationCollection rdf:resource="#_d91f1368-bd8c-456a-9088-0dd4b9620b21" />
     <nc:Stage.RemedialActionScheme rdf:resource="#_3ecde63d-c87f-4947-a1f2-3622dc2092ba" />
     <nc:Stage.priority>0</nc:Stage.priority>
@@ -166,7 +166,7 @@
     <cim:IdentifiedObject.mRID>b591f3b9-e7e6-4625-b1d2-f53dec63ced1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Set EI to 10</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Set power on EquivalentInjection to 10 MW</cim:IdentifiedObject.description>
-    <nc:EquivalentInjectionAction.EquivalentInjection rdf:resource="#_9dc33660-e284-4c74-bb9a-44604390634e" />
+    <nc:EquivalentInjectionAction.EquivalentInjection rdf:resource="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c" />
   </nc:EquivalentInjectionAction>
    <nc:StaticPropertyRange rdf:ID="_de394860-8c5f-48b4-869c-c09f5247a6ec">
     <cim:IdentifiedObject.mRID>de394860-8c5f-48b4-869c-c09f5247a6ec</cim:IdentifiedObject.mRID>
@@ -221,7 +221,7 @@
     <nc:PinGate.normalEnabled>true</nc:PinGate.normalEnabled>
     <!-- Added attribute, which says this pin is controllable for if it should be a possible input or not. False means that it is not possible that this input activates the SIPS in default settings (but could be possible if we change current settings in attribute "enabled" SSI profile). -->
   </nc:PinGate>
-    <!-- in case of export on TieLine_GA_BO2 decprease the power to 10 MW--> 
+    <!-- in case of export on TieLine_GA_BO2 decrease the power to 10 MW--> 
   <nc:Stage rdf:ID="_89705a24-34bd-493e-a572-c32f25106e3b">
     <cim:IdentifiedObject.mRID>89705a24-34bd-493e-a572-c32f25106e3b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TL decrease 10 MW</cim:IdentifiedObject.name>
@@ -240,7 +240,7 @@
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.mRID>12b3c4e6-2104-4499-b003-1248ef533e13</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Set power on EquivalentInjection to -10 MW</cim:IdentifiedObject.name>
-    <nc:EquivalentInjectionAction.EquivalentInjection rdf:resource="#_9dc33660-e284-4c74-bb9a-44604390634e" />
+    <nc:EquivalentInjectionAction.EquivalentInjection rdf:resource="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c" />
   </nc:EquivalentInjectionAction>
    <nc:StaticPropertyRange rdf:ID="_bcc5cc7d-1c60-4014-9c5f-fb16af94bba8">
     <cim:IdentifiedObject.mRID>bcc5cc7d-1c60-4014-9c5f-fb16af94bba8</cim:IdentifiedObject.mRID>

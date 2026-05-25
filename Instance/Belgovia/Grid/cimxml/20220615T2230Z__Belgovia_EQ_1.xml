@@ -893,6 +893,14 @@
     <cim:IdentifiedObject.name>Injection_GA_BO2</cim:IdentifiedObject.name>
     <eu:IdentifiedObject.shortName>BO-I-XCA_AL1</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
+  <cim:EquivalentInjection rdf:ID="_7c43d75f-f169-4525-9a55-ef54c6f95f3c">
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:Equipment.EquipmentContainer rdf:resource="#_69ef0dbd-da79-4eef-a02f-690cb8a28361"/>
+    <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
+    <cim:IdentifiedObject.description>Internal-side EquivalentInjection for the HVDC link TieLine_GA_BO2 at the Belgovia internal bus N1230991550. Used by SIPS_UC_2 run-back actions instead of the boundary-point injection Injection_GA_BO2.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>7c43d75f-f169-4525-9a55-ef54c6f95f3c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Injection_GA_BO2_internal</cim:IdentifiedObject.name>
+  </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_14b352cb-5574-40c5-bf83-0ed3574554a3">
     <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_54a2e470-ef70-443f-ae81-bcf2d117caa2"/>
@@ -2067,6 +2075,13 @@
     <cim:IdentifiedObject.mRID>27f8309f-fa32-9a5a-4673-6a65cce3e2f9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Cub_1</cim:IdentifiedObject.name>
     <cim:Terminal.ConductingEquipment rdf:resource="#_17086487-56ba-4979-b8de-064025a6b4da"/>
+    <cim:Terminal.ConnectivityNode rdf:resource="#_29a37807-af63-402d-ac87-2e248d844793"/>
+  </cim:Terminal>
+  <cim:Terminal rdf:ID="_515bd41d-c5bc-4d0c-bf0f-449875c7bd9b">
+    <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+    <cim:IdentifiedObject.mRID>515bd41d-c5bc-4d0c-bf0f-449875c7bd9b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Terminal_Injection_GA_BO2_internal</cim:IdentifiedObject.name>
+    <cim:Terminal.ConductingEquipment rdf:resource="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c"/>
     <cim:Terminal.ConnectivityNode rdf:resource="#_29a37807-af63-402d-ac87-2e248d844793"/>
   </cim:Terminal>
   <cim:Terminal rdf:ID="_22af3121-1a66-4546-bd80-4371f417c644">

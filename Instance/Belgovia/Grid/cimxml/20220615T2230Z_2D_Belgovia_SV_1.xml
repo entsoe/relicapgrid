@@ -338,6 +338,11 @@
     <cim:SvPowerFlow.p>-26.7316</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>2.1787</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  <cim:SvPowerFlow rdf:ID="_211e4a73-dddb-4685-ba53-77111e7248b7">
+    <cim:SvPowerFlow.Terminal rdf:resource="#_515bd41d-c5bc-4d0c-bf0f-449875c7bd9b"/>
+    <cim:SvPowerFlow.p>-26.7316</cim:SvPowerFlow.p>
+    <cim:SvPowerFlow.q>2.1787</cim:SvPowerFlow.q>
+  </cim:SvPowerFlow>
   <cim:SvPowerFlow rdf:ID="_461b009b-4ee1-46d5-807d-b04f01f9d539">
     <cim:SvPowerFlow.Terminal rdf:resource="#_ca0f7e2e-3442-4ada-a704-91f319c0ebe3"/>
     <cim:SvPowerFlow.p>78.9071</cim:SvPowerFlow.p>
@@ -510,6 +515,10 @@
   </cim:SvStatus>
   <cim:SvStatus rdf:ID="_9faef913-ca08-4368-87f8-6d9eef94eb4a">
     <cim:SvStatus.ConductingEquipment rdf:resource="#_9dc33660-e284-4c74-bb9a-44604390634e"/>
+    <cim:SvStatus.inService>true</cim:SvStatus.inService>
+  </cim:SvStatus>
+  <cim:SvStatus rdf:ID="_ccb70d1c-4630-47c7-a4e5-656b9f6796bf">
+    <cim:SvStatus.ConductingEquipment rdf:resource="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c"/>
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
   <cim:SvStatus rdf:ID="_6de0ac22-0ee3-40f3-8343-c8fede7024cc">
