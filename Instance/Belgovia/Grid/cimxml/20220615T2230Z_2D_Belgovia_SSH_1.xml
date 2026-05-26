@@ -767,6 +767,9 @@
   <cim:Terminal rdf:about="#_77f04391-aa23-49b6-b3e9-6089130bb5d5">
     <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
   </cim:Terminal>
+  <cim:Terminal rdf:ID="_515bd41d-c5bc-4d0c-bf0f-449875c7bd9b">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
   <cim:VoltageLimit rdf:about="#_f4546d12-7aa2-14ec-f126-944c963b97ed">
     <cim:VoltageLimit.value>247.5</cim:VoltageLimit.value>
   </cim:VoltageLimit>
