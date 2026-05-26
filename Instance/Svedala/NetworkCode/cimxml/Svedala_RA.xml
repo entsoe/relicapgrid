@@ -237,6 +237,7 @@
     <nc:RemedialActionScheme.GateArmed rdf:resource="#_ed90cae2-cc84-4c37-a6b7-80cb9fe5c464"/>
     <nc:RemedialActionScheme.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionSchemeKind.sips"/>
     <nc:RemedialActionScheme.normalArmed>true</nc:RemedialActionScheme.normalArmed>
+    <nc:RemedialActionScheme.SchemeRemedialAction rdf:resource="#_31d41e36-11c8-417b-bafb-c410d4391898"/>
   </nc:RemedialActionScheme>
   <nc:SchemeRemedialAction rdf:ID="_31d41e36-11c8-417b-bafb-c410d4391898">
     <cim:IdentifiedObject.description>Curative RA: SIPS (Substation split). Coupler ID: _2db971f1-ed3d-4ea6-acf5-983c4289d51b</cim:IdentifiedObject.description>
