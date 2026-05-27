@@ -21117,9 +21117,11 @@
     <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
   </cim:SynchronousMachine>
   <cim:Equipment rdf:ID="_4b62e70e-41fd-3615-d8b0-36d0adf2e35b">
+    <cim:IdentifiedObject.mRID>4b62e70e-41fd-3615-d8b0-36d0adf2e35b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:ID="_9c97f017-0cae-4011-ad66-2637cb96b8b6">
+    <cim:IdentifiedObject.mRID>9c97f017-0cae-4011-ad66-2637cb96b8b6</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:RegulatingControl rdf:about="#_17d0a4c9-7451-b629-9ac5-6de970664c23">
