@@ -150,7 +150,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for Britheim, which is part of the ReliCapGrid.";
             dct:identifier           "c9d01d20-0a67-4b37-9a8c-90cc7a0f9f2c";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T14:27:41Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:de6abe0a-a247-47ab-8ba1-026bca8a9b6e>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

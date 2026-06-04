@@ -21,7 +21,7 @@
     dcterms:publisher <https://www.entsoe.eu/> ;
     dcterms:rights "Copyright" ;
     dcterms:rightsHolder "ENTSO-E" ;
-    dcterms:issued "2026-03-22"^^xsd:date ;
+    dcterms:issued "2026-03-22T00:00:00Z"^^xsd:dateTime ;
     prov:generatedAtTime "2026-03-22T00:00:00Z"^^xsd:dateTime ;
     dcat:version "1.0.0" ;
     adms:versionNotes "Initial version of the Energy Reference Data Activity Scheme for ReliCapGrid."@en ;

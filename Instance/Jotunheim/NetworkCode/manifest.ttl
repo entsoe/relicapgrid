@@ -22,10 +22,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:2496de1d-4c9c-4f87-9117-ea9615d94ba1>;
-        dcat:endDate          "2023-06-16T15:30:00Z";
+        dcat:endDate          "2023-06-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T15:30:00Z";
+        dcat:startDate        "2022-06-16T15:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:bec228e6-436b-4173-9db5-5f679613334b>
@@ -43,10 +43,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:9b3d7def-1f83-42e5-9c99-beb0d76a9887>;
-        dcat:endDate          "2023-06-16T08:30:00Z";
+        dcat:endDate          "2023-06-16T08:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T08:30:00Z";
+        dcat:startDate        "2022-06-16T08:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:758b08d5-e2ba-48a6-8a10-2a81a9b1fb6b>
@@ -74,10 +74,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:d544280e-07f6-489f-9c6c-86399590f34d>;
-        dcat:endDate          "2023-06-16T06:30:00Z";
+        dcat:endDate          "2023-06-16T06:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T06:30:00Z";
+        dcat:startDate        "2022-06-16T06:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:43e52f47-22d9-428c-8b1c-d521e54a29b9>
@@ -95,10 +95,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:0f9d5bb8-8f62-4cfd-b13f-adfc11a5acf5>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-15T22:30:00Z";
+        dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:e4a4bf78-e639-47e3-addf-a377347dd717>
@@ -126,10 +126,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:a534c578-22fa-4385-b48f-cc21c572e812>;
-        dcat:endDate          "2023-06-16T18:30:00Z";
+        dcat:endDate          "2023-06-16T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T18:30:00Z";
+        dcat:startDate        "2022-06-16T18:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:b631d410-f7fc-45cc-b5c1-e562ed7a3f6c>
@@ -157,10 +157,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:6043c1d7-728c-4c30-93c3-8dca630f9307>;
-        dcat:endDate          "2023-06-16T01:30:00Z";
+        dcat:endDate          "2023-06-16T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T01:30:00Z";
+        dcat:startDate        "2022-06-16T01:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:37339ba2-062d-42fa-93ab-77615447da5b>
@@ -208,10 +208,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:e4a4bf78-e639-47e3-addf-a377347dd717>;
-        dcat:endDate          "2023-06-16T14:30:00Z";
+        dcat:endDate          "2023-06-16T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T14:30:00Z";
+        dcat:startDate        "2022-06-16T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:a901b7f9-b774-4577-b0a6-3aa86d692ef0>
@@ -239,10 +239,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:a901b7f9-b774-4577-b0a6-3aa86d692ef0>;
-        dcat:endDate          "2023-06-16T12:30:00Z";
+        dcat:endDate          "2023-06-16T12:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T12:30:00Z";
+        dcat:startDate        "2022-06-16T12:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:d544280e-07f6-489f-9c6c-86399590f34d>
@@ -270,10 +270,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:0d3ee29f-fb93-4474-b04c-a356a2e7cfa8>;
-        dcat:endDate          "2023-06-16T03:30:00Z";
+        dcat:endDate          "2023-06-16T03:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T03:30:00Z";
+        dcat:startDate        "2022-06-16T03:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:b59f6b96-1333-44fd-b9cc-23419db61281>
@@ -288,10 +288,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "2D_SAR_1030Z_Jotunheim";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:11c20ce6-e957-4a0a-a004-e2f64dcbf422>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-SAR>;
         dcat:keyword          "SAR";
-        dcat:startDate        "2022-06-15T10:30:00Z";
+        dcat:startDate        "2022-06-15T10:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:270bcf8d-00b7-4d2c-946b-e77f5a8f963d>
@@ -319,10 +319,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "2D_IAM_1530Z_IAM_";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:dba2f1c1-bb53-4634-870b-519d35184acf>;
-        dcat:endDate          "2023-06-16T13:30:00Z";
+        dcat:endDate          "2023-06-16T13:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T13:30:00Z";
+        dcat:startDate        "2022-06-16T13:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:6043c1d7-728c-4c30-93c3-8dca630f9307>
@@ -370,10 +370,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:37339ba2-062d-42fa-93ab-77615447da5b>;
-        dcat:endDate          "2023-06-16T11:30:00Z";
+        dcat:endDate          "2023-06-16T11:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T11:30:00Z";
+        dcat:startDate        "2022-06-16T11:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:0d6e382c-1e8a-488b-96b5-97372c32b5cc>
@@ -401,10 +401,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "2D_IAM_0930Z_IAM_";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:e5b9a1b8-2eff-4bba-90ee-89afabc616b8>;
-        dcat:endDate          "2023-06-16T07:30:00Z";
+        dcat:endDate          "2023-06-16T07:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T07:30:00Z";
+        dcat:startDate        "2022-06-16T07:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:2496de1d-4c9c-4f87-9117-ea9615d94ba1>
@@ -470,10 +470,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:2590470e-1857-43ee-998e-570690f41f67>;
-        dcat:endDate          "2023-06-16T21:30:00Z";
+        dcat:endDate          "2023-06-16T21:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T21:30:00Z";
+        dcat:startDate        "2022-06-16T21:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:845cf3c2-b38c-4886-aa2c-021499114b5e>
@@ -491,10 +491,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:d3060a98-dfbe-4e3a-863a-01b44a35f075>;
-        dcat:endDate          "2023-06-16T20:30:00Z";
+        dcat:endDate          "2023-06-16T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T20:30:00Z";
+        dcat:startDate        "2022-06-16T20:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:34e3b964-b2e8-40b0-bc86-908592922808>
@@ -522,10 +522,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:758b08d5-e2ba-48a6-8a10-2a81a9b1fb6b>;
-        dcat:endDate          "2023-06-16T05:30:00Z";
+        dcat:endDate          "2023-06-16T05:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T05:30:00Z";
+        dcat:startDate        "2022-06-16T05:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:237de243-b16c-431d-9aa9-b7470448aa80>
@@ -543,10 +543,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:64b4ce22-1358-4852-8859-19c26ce9286a>;
-        dcat:endDate          "2023-06-15T23:30:00Z";
+        dcat:endDate          "2023-06-15T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-15T23:30:00Z";
+        dcat:startDate        "2022-06-15T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:290b2730-b939-4da6-9bcf-23a8fc63a0ed>
@@ -584,10 +584,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:34e3b964-b2e8-40b0-bc86-908592922808>;
-        dcat:endDate          "2023-06-16T02:30:00Z";
+        dcat:endDate          "2023-06-16T02:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T02:30:00Z";
+        dcat:startDate        "2022-06-16T02:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:7d128c8e-a1c0-4dc0-aea6-23686adc75e0>
@@ -625,10 +625,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:270bcf8d-00b7-4d2c-946b-e77f5a8f963d>;
-        dcat:endDate          "2023-06-16T09:30:00Z";
+        dcat:endDate          "2023-06-16T09:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T09:30:00Z";
+        dcat:startDate        "2022-06-16T09:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:42d78e78-c06a-473b-82a4-957e7a8dd4a3>
@@ -646,10 +646,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:0d6e382c-1e8a-488b-96b5-97372c32b5cc>;
-        dcat:endDate          "2023-06-16T00:30:00Z";
+        dcat:endDate          "2023-06-16T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T00:30:00Z";
+        dcat:startDate        "2022-06-16T00:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:6d697c8e-aded-426b-bd18-6f0ac252b999>
@@ -667,10 +667,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:290b2730-b939-4da6-9bcf-23a8fc63a0ed>;
-        dcat:endDate          "2023-06-16T10:30:00Z";
+        dcat:endDate          "2023-06-16T10:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T10:30:00Z";
+        dcat:startDate        "2022-06-16T10:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:ab91933c-9fca-4e2c-a881-37f6f6c0cb9f>
@@ -688,10 +688,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:b631d410-f7fc-45cc-b5c1-e562ed7a3f6c>;
-        dcat:endDate          "2023-06-16T04:30:00Z";
+        dcat:endDate          "2023-06-16T04:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T04:30:00Z";
+        dcat:startDate        "2022-06-16T04:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:b03c34c1-96ce-4938-9506-bcca1619153b>
@@ -719,10 +719,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:07747d34-241d-4865-965c-4d9668dc7d25>;
-        dcat:endDate          "2023-06-16T17:30:00Z";
+        dcat:endDate          "2023-06-16T17:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T17:30:00Z";
+        dcat:startDate        "2022-06-16T17:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:0d3ee29f-fb93-4474-b04c-a356a2e7cfa8>
@@ -750,10 +750,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:b03c34c1-96ce-4938-9506-bcca1619153b>;
-        dcat:endDate          "2023-06-16T16:30:00Z";
+        dcat:endDate          "2023-06-16T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T16:30:00Z";
+        dcat:startDate        "2022-06-16T16:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:f585ecdc-e9bd-43bb-8cdb-3b55eb2eb03d>
@@ -771,10 +771,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_IAM_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:7d128c8e-a1c0-4dc0-aea6-23686adc75e0>;
-        dcat:endDate          "2023-06-16T19:30:00Z";
+        dcat:endDate          "2023-06-16T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Jotunheim-IAM>;
         dcat:keyword          "IAM";
-        dcat:startDate        "2022-06-16T19:30:00Z";
+        dcat:startDate        "2022-06-16T19:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:version          "1.0.0" .
 
 <urn:uuid:677938a0-a00c-4c46-adef-a677ae1c982b>

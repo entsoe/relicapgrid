@@ -13,7 +13,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <urn:placeholder:conformsTo>;
         dcterms:description   ""@en;
         dcterms:identifier    "f265a46b-36d3-433d-ac6f-170d4a5c5315";
-        dcterms:issued        "2025-02-14T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-14T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <http://example.org/license> , <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://energy.referencedata.eu/test/party/NineRealms> , <http://example.org/publisher> , <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -47,7 +47,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing recognized activity identities for use in provenance references."@en;
         dcterms:identifier    "afab3d78-d706-466e-931a-db0bf847b904";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -64,7 +64,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en;
         dcterms:identifier    "f4f9cafc-d146-4275-92b5-6d04f9b26b56";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -100,7 +100,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing recognized frame identities for use area of responsebility."@en;
         dcterms:identifier    "50cc303c-df37-4b86-80a6-f6d312268661";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -117,7 +117,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en;
         dcterms:identifier    "b77fe0ff-9907-4943-90a7-6e35a178a8ab";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";

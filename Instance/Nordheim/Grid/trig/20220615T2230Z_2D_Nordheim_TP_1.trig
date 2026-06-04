@@ -49,7 +49,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for Nordheim, which is part of the ReliCapGrid.";
             dct:identifier           "74def37a-c099-4e6a-85b4-edd7c43a5a7a";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T10:43:06Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:994972cb-891c-4ad3-a06d-abaa9a5c4a03>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

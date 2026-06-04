@@ -21,7 +21,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en;
         dcterms:identifier    "b2348853-06c1-401e-b845-193ffa948919";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -38,7 +38,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
         dcterms:identifier    "e64345cc-016b-4cc2-a5d1-8beabf97beab";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -56,7 +56,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <urn:placeholder:conformsTo>;
         dcterms:description   ""@en;
         dcterms:identifier    "d3c7a4-da4c-436b-8b37-34b4bee9de3a";
-        dcterms:issued        "2026-03-22"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";

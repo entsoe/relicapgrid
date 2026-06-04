@@ -17899,7 +17899,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for ReliCapGrid, updated by Jotunheim.";
             dct:identifier           "caa8f19b-7502-4046-befd-815242483fee";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T21:20:31Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:468fc202-2423-4aeb-9998-e366a05ae9b0> , <urn:uuid:cce234eb-ec10-4252-a4fb-6c41c4988440> , <urn:uuid:957210cd-d30b-4d7a-a0c3-ab6ad918646e> , <urn:uuid:426926c8-0cd9-4b0d-9fa8-ddeb1a966c75> , <urn:uuid:5ecd2a3e-2330-4b21-9be1-c26ec1ab5f38> , <urn:uuid:14b4410c-e040-4147-b148-aed1f7a4337f> , <urn:uuid:03e76bc6-be5b-4436-8eea-27eae2dcbf9d> , <urn:uuid:0d009e1e-210c-46fb-963d-93f1adc69342>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

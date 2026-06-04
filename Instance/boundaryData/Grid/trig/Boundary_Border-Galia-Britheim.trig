@@ -23,7 +23,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
             dct:description    "The equipment dataset of the boundary that is used in the ReliCapGrid.";
             dct:identifier     "7205352b-3af5-4bb1-a008-aba810e8a35d";
-            dct:issued         "2025-02-06"^^xsd:date;
+            dct:issued         "2025-02-06T14:18:22Z"^^xsd:dateTime;
             dct:requires       <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
             dct:temporal       [ rdf:type        dct:PeriodOfTime;
                                  dcat:startDate  "2022-06-16T23:30:00Z"^^xsd:dateTime

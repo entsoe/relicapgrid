@@ -324,7 +324,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
             dct:identifier           "1ab737dc-05d1-4a7f-a5a9-51552cef33ba";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T12:21:20Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:05861a09-75d6-487d-bad3-9a94f312b9a5>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

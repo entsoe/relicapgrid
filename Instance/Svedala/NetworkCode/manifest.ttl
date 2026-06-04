@@ -23,7 +23,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_SSI_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:99648dd9-75e2-4583-8dcb-719bf23b5829>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-SSI>;
         dcat:keyword          "SSI";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -45,7 +45,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_CO_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:2ac3b12a-b7d7-412c-9971-c38c021f7b22>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-CO>;
         dcat:keyword          "CO";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -67,7 +67,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20250615_Svedala_IGM-FAP_RAS_v3-0-0-beta-1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:57162112-5365-47c2-be31-01a89e1ca123>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS-FAP>;
         dcat:keyword          "FAP";
         dcat:startDate        "2025-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -140,7 +140,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_SIS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:5d899425-399c-459c-a49b-b31a29364eb8>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-SIS>;
         dcat:keyword          "SIS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -172,7 +172,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:34781d0a-8d52-4ac8-bbcb-bc0a27f849a8>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -235,7 +235,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:db374266-f517-489f-b45e-ed742d79e0f3>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -274,7 +274,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_RA_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:61ad9802-348d-4bdd-9727-8dfbb535e64b>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-RA>;
         dcat:keyword          "RA";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -316,7 +316,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_ER_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:c4497f6d-02f8-4a95-9446-2d2fb40cc02b>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-ER>;
         dcat:keyword          "ER";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -338,7 +338,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_AE_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:1ec454ed-ef41-40e8-ac48-b8712fbbdb47>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-AE>;
         dcat:keyword          "AE";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -420,7 +420,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:85f26065-0bd7-4cf1-87d6-71a0aa118df1>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;

@@ -1926,7 +1926,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Svedala, which is part of the ReliCapGrid.";
             dct:identifier           "5102429b-f699-482b-97b4-214c8b06dc7c";
-            dct:issued               "2025-02-06"^^xsd:date;
+            dct:issued               "2025-02-06T14:18:22Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:bea45848-a05d-496b-9ab2-f42c6714183e>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

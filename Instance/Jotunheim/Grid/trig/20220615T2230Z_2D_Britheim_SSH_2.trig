@@ -251,7 +251,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Britheim, updated by Jotunheim.";
             dct:identifier           "14b4410c-e040-4147-b148-aed1f7a4337f";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T21:20:31Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:33bd4875-01b7-4442-a5a2-dc04419143bf>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

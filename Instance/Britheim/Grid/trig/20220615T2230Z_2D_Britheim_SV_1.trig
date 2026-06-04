@@ -257,7 +257,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
             dct:description          "The state variables dataset for Britheim, which is part of the ReliCapGrid.";
             dct:identifier           "bc112df8-1df7-4f54-9175-b7035a8b1108";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T14:27:41Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:c9d01d20-0a67-4b37-9a8c-90cc7a0f9f2c>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

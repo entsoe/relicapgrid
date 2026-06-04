@@ -23,7 +23,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Nordheim-Galia HVDC, updated by Jotunheim.";
             dct:identifier           "468fc202-2423-4aeb-9998-e366a05ae9b0";
-            dct:issued               "2025-02-09"^^xsd:date;
+            dct:issued               "2025-02-09T04:53:56Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

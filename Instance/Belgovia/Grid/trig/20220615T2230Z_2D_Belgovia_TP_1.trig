@@ -66,7 +66,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for Belgovia, which is part of the ReliCapGrid.";
             dct:identifier           "f2d3f250-f39f-4545-86fe-d3bdbe1dea0b";
-            dct:issued               "2025-02-07"^^xsd:date;
+            dct:issued               "2025-02-07T19:27:57Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

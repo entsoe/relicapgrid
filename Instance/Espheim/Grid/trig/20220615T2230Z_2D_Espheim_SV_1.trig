@@ -5705,7 +5705,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
             dct:description          "The state variables dataset for Espeheim, which is part of the ReliCapGrid.";
             dct:identifier           "82f11493-0ad0-447c-bc05-66e0529db971";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T19:39:48Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:33e0fdb1-f02d-4a5c-a599-850f549df998>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

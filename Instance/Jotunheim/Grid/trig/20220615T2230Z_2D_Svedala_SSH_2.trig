@@ -9343,7 +9343,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Svedala, updated by Jotunheim.";
             dct:identifier           "426926c8-0cd9-4b0d-9fa8-ddeb1a966c75";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T21:20:31Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:bea45848-a05d-496b-9ab2-f42c6714183e>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

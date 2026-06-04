@@ -761,7 +761,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Galia, updated by Jotunheim.";
             dct:identifier           "0d009e1e-210c-46fb-963d-93f1adc69342";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T21:20:31Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:b89a6150-43bd-442c-8c58-9efd3d537d11>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

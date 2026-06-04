@@ -16755,7 +16755,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
             dct:description          "The steady-state hypothesis dataset for Espheim, updated by Jotunheim.";
             dct:identifier           "5ecd2a3e-2330-4b21-9be1-c26ec1ab5f38";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T21:20:31Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:e3beb946-afc6-4304-9660-517d5115cbb0>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

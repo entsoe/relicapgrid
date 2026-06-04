@@ -23,7 +23,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Galia_CO_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:2ba81eef-32b3-4b77-b9a4-6fc4fe9e3288>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-CO>;
         dcat:keyword          "CO";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -65,7 +65,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Galia_ER_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:5e37d209-e905-4db5-ae70-d8843811e2c1>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-ER>;
         dcat:keyword          "ER";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -97,7 +97,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Galia_RA_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:7c57b405-e020-4ce0-83d5-cd04425918c0>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-RA>;
         dcat:keyword          "RA";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -146,7 +146,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Galia_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:163588cd-7a55-45f7-b7bf-154fdb6593af>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -178,7 +178,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Galia_AE_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:16fe6b89-4005-4db7-9973-7c8f6d2d2b51>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Galia-AE>;
         dcat:keyword          "AE";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;

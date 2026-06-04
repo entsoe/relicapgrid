@@ -33,7 +33,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_AE_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:6dc5161d-b734-4acb-b304-12d1938c856a>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-AE>;
         dcat:keyword          "AE";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -65,7 +65,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_ER_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:dc863830-2740-4ea7-a3f1-ed494795bb01>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-ER>;
         dcat:keyword          "ER";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -87,7 +87,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:8b9e1b0d-ccaa-40d3-9b8b-8c6e90324441>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -119,7 +119,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_SHS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:626c6ebf-1015-4bca-a34c-0b662bb38419>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-SHS>;
         dcat:keyword          "SHS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -141,7 +141,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_RA_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:1109855c-d568-4acf-abcb-37ee03ed7830>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-RA>;
         dcat:keyword          "RA";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -163,7 +163,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_RAS-FAP_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:15429290-91f0-4014-ac27-4496fe8f473d>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -212,7 +212,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20230722_Belgovia_SIS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:210e0195-7791-40a1-9901-455c075ca56c>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-SIS>;
         dcat:keyword          "SIS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
@@ -274,7 +274,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:title         "20220615_Belgovia_AE_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
         dcat:distribution     <urn:uuid:ff0afbaf-736f-492d-8e58-56f9805fec4e>;
-        dcat:endDate          "2023-06-15T22:30:00Z";
+        dcat:endDate          "2023-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Belgovia-PS>;
         dcat:keyword          "PS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;

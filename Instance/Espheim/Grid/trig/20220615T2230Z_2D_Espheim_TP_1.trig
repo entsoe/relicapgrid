@@ -11354,7 +11354,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
             dct:description          "The topology dataset for Espheim, which is part of the ReliCapGrid.";
             dct:identifier           "33e0fdb1-f02d-4a5c-a599-850f549df998";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T19:39:48Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:17a58fba-a783-427f-99f5-e464a80c3ec3>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

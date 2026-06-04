@@ -132,7 +132,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
             dct:description          "The state variables dataset for Espheim-Svedala, which is part of the ReliCapGrid.";
             dct:identifier           "2ce17c9e-40d5-4530-bf85-d2ffd31d84a0";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T20:17:23Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:af335a8e-b8da-4c6e-9ecb-63164f71f9b6>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

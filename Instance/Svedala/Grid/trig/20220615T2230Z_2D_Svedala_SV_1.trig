@@ -30362,7 +30362,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
             dct:description          "The state variables dataset for Svedala, which is part of the ReliCapGrid.";
             dct:identifier           "2ffd3555-f572-494e-b35e-e56ae740eeb2";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T17:47:28Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:2cb25d37-92c8-4b4c-9efb-d1e1b0448dad>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;

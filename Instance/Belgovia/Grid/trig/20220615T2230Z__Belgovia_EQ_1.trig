@@ -2996,7 +2996,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
             dct:description    "The equipment dataset of Belgovia, which is part of the ReliCapGrid.";
             dct:identifier     "15c8a8ad-08d5-4b59-8417-db80e273bd1a";
-            dct:issued         "2025-02-06"^^xsd:date;
+            dct:issued         "2025-02-06T14:18:22Z"^^xsd:dateTime;
             dct:requires       <urn:uuid:d11b06e3-b709-4d45-9b49-188b2089be16> , <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3> , <urn:uuid:7e5e27b6-cb5a-4168-88bf-f395a19cbec1>;
             dct:temporal       [ rdf:type        dct:PeriodOfTime;
                                  dcat:startDate  "2022-06-16T23:30:00Z"^^xsd:dateTime

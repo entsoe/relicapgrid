@@ -180,7 +180,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
             dct:description    "BD test data.";
             dct:identifier     "1b65ada7-39ca-42b8-a278-39c457ed82c3";
-            dct:issued         "2025-02-06"^^xsd:date;
+            dct:issued         "2025-02-06T14:18:22Z"^^xsd:dateTime;
             dct:temporal       [ rdf:type        dct:PeriodOfTime;
                                  dcat:startDate  "2022-06-16T23:30:00Z"^^xsd:dateTime
                                ];

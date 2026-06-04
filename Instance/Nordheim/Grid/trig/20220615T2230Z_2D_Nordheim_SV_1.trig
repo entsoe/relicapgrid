@@ -35,7 +35,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dct:conformsTo           <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
             dct:description          "The state variables dataset for Nordheim, which is part of the ReliCapGrid.";
             dct:identifier           "e6534100-413c-4dff-8c27-b0a757c254a9";
-            dct:issued               "2025-02-08"^^xsd:date;
+            dct:issued               "2025-02-08T10:43:06Z"^^xsd:dateTime;
             dct:requires             <urn:uuid:74def37a-c099-4e6a-85b4-edd7c43a5a7a>;
             dct:temporal             [ rdf:type        dct:PeriodOfTime;
                                        dcat:endDate    "2022-06-17T00:30:00Z"^^xsd:dateTime;
