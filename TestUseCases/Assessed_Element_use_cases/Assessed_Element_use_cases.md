@@ -25,6 +25,11 @@ The example is indicative and may not cover all regional specificities.
    - `AssessedElement.inBaseCase = true`
 2. Confirm that the element is included in the base‑case assessment.
 
+#### Step 3: Secured for region configuration
+1. Verify that:
+   - there is a reference to `nc:AssessedElement.SecuredForRegion` to the region with ID: `56d81c91-4fb8-47a2-9d7c-baa13dedd605`
+2. Confirm that the element is assigned to be secured for the region's assessment.
+
 ### Expected Outcome
 - The assessed element is evaluated in the base case.
 - The element is treated as secured for the relevant region.
