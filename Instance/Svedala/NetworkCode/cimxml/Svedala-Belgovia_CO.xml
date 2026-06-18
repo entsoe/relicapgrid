@@ -32,64 +32,64 @@
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/HV-Belgovia"/>
     <dcterms:issued>2025-05-20T18:00:00Z</dcterms:issued>
   </dcat:Dataset>
-  <cim:ContingencyEquipment rdf:ID="_19bfe9d5-5d04-4c3c-9919-ca1b2d1215ae">
-    <cim:ContingencyElement.Contingency rdf:resource="#_37997e71-cb7d-4a8c-baa6-2a1594956da9"/>
+  <cim:ContingencyEquipment rdf:ID="_a851b256-fe75-4dd7-a3f5-899cd1b2e2a7">
+    <cim:ContingencyElement.Contingency rdf:resource="#_ee6365ea-2277-422a-a70b-182280debf27"/>
     <cim:ContingencyEquipment.Equipment rdf:resource="#_550ebe0d-f2b2-48c1-991f-cebea43a21aa"/>
     <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
     <cim:IdentifiedObject.description>The equipment for this contingency; Loss of generation</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>19bfe9d5-5d04-4c3c-9919-ca1b2d1215ae</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>a851b256-fe75-4dd7-a3f5-899cd1b2e2a7</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>G1</cim:IdentifiedObject.name>
   </cim:ContingencyEquipment>
-  <cim:ContingencyEquipment rdf:ID="_7ec56068-a714-4445-ae19-dd34429ec722">
-    <cim:ContingencyElement.Contingency rdf:resource="#_7e31c67d-67ba-4592-8ac1-9e806d697c8e"/>
+  <cim:ContingencyEquipment rdf:ID="_f70382ec-434e-4187-becc-162d9daff3fb">
+    <cim:ContingencyElement.Contingency rdf:resource="#_5ebda6cf-8f63-4bdb-9159-1ab6fd14174b"/>
     <cim:ContingencyEquipment.Equipment rdf:resource="#_d9622e7f-5bf0-4e7e-b766-b8596c6fe4ae"/>
     <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
     <cim:IdentifiedObject.description>The equipment for this contingency; Tie Line loss</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>7ec56068-a714-4445-ae19-dd34429ec722</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>f70382ec-434e-4187-becc-162d9daff3fb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>L2</cim:IdentifiedObject.name>
   </cim:ContingencyEquipment>
-  <cim:ContingencyEquipment rdf:ID="_667313c5-0567-45c5-b985-b859c774f7e3">
-    <cim:ContingencyElement.Contingency rdf:resource="#_e9eab3fe-c328-4f78-9bc1-77adb59f6ba7"/>
+  <cim:ContingencyEquipment rdf:ID="_2061e122-5b8a-4cde-a526-9eb8b0824f5b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_ef85f6be-8877-4773-a650-d2b827ea955b"/>
     <cim:ContingencyEquipment.Equipment rdf:resource="#_ed0c5d75-4a54-43c8-b782-b20d7431630b"/>
     <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
     <cim:IdentifiedObject.description>The equipment for this contingency; Tie Line loss</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>667313c5-0567-45c5-b985-b859c774f7e3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>2061e122-5b8a-4cde-a526-9eb8b0824f5b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>L1</cim:IdentifiedObject.name>
   </cim:ContingencyEquipment>
-  <cim:ContingencyEquipment rdf:ID="_96c83c1b-df9e-44d2-adfb-a759975ada49">
-    <cim:ContingencyElement.Contingency rdf:resource="#_65582e87-5035-4465-8dd9-cb655224b29f"/>
+  <cim:ContingencyEquipment rdf:ID="_6588349f-10fc-450f-8270-fb3c9dace17b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_547ad193-4a0e-4a91-9c1e-c338349b8398"/>
     <cim:ContingencyEquipment.Equipment rdf:resource="#_cb459405-cc14-4215-a45c-416789205904"/>
     <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
     <cim:IdentifiedObject.description>The equipment for this contingency is a NonConformLoad "BE-Load_1" in Belgovia; Loss of a single demand facility</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>96c83c1b-df9e-44d2-adfb-a759975ada49</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>6588349f-10fc-450f-8270-fb3c9dace17b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>L1</cim:IdentifiedObject.name>
   </cim:ContingencyEquipment>
-  <nc:OrdinaryContingency rdf:ID="_37997e71-cb7d-4a8c-baa6-2a1594956da9">
+  <nc:OrdinaryContingency rdf:ID="_ee6365ea-2277-422a-a70b-182280debf27">
     <nc:Contingency.EquipmentOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
     <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
     <cim:IdentifiedObject.description>This is an example of an ordinary contingency; Loss of generation</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>37997e71-cb7d-4a8c-baa6-2a1594956da9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>ee6365ea-2277-422a-a70b-182280debf27</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CO3</cim:IdentifiedObject.name>
   </nc:OrdinaryContingency>
-  <nc:OrdinaryContingency rdf:ID="_7e31c67d-67ba-4592-8ac1-9e806d697c8e">
+  <nc:OrdinaryContingency rdf:ID="_5ebda6cf-8f63-4bdb-9159-1ab6fd14174b">
     <nc:Contingency.EquipmentOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
     <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
     <cim:IdentifiedObject.description>This is an example of an ordinary contingency;Tie Line loss</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>7e31c67d-67ba-4592-8ac1-9e806d697c8e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>5ebda6cf-8f63-4bdb-9159-1ab6fd14174b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CO2</cim:IdentifiedObject.name>
   </nc:OrdinaryContingency>
-  <nc:OrdinaryContingency rdf:ID="_e9eab3fe-c328-4f78-9bc1-77adb59f6ba7">
+  <nc:OrdinaryContingency rdf:ID="_ef85f6be-8877-4773-a650-d2b827ea955b">
     <nc:Contingency.EquipmentOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
     <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
     <cim:IdentifiedObject.description>This is an example of an ordinary contingency;Tie Line loss</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>e9eab3fe-c328-4f78-9bc1-77adb59f6ba7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>ef85f6be-8877-4773-a650-d2b827ea955b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CO1</cim:IdentifiedObject.name>
   </nc:OrdinaryContingency>
-  <nc:OrdinaryContingency rdf:ID="_65582e87-5035-4465-8dd9-cb655224b29f">
+  <nc:OrdinaryContingency rdf:ID="_547ad193-4a0e-4a91-9c1e-c338349b8398">
     <nc:Contingency.EquipmentOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
     <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
     <cim:IdentifiedObject.description>This is an example of an ordinary contingency; Loss of a single demand facility</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>65582e87-5035-4465-8dd9-cb655224b29f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>547ad193-4a0e-4a91-9c1e-c338349b8398</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>CO1</cim:IdentifiedObject.name>
   </nc:OrdinaryContingency>
 </rdf:RDF>
