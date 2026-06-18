@@ -34,13 +34,13 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     
     <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>
             rdf:type                 dcat:Dataset;
-            dct:accessRights         "https://energy.referencedata.eu/Confidentiality/Public";
-            dct:conformsTo           "https://cim.ucaiug.io/ns#" , "https://ap.cim4.eu/AvailabilitySchedule/2.3" , "https://cim4.eu/ns/nc/2.4#" , "http://iec.ch/TC57/2013/CIM-schema-cim16#";
+            dct:accessRights         <https://energy.referencedata.eu/Confidentiality/Public>;
+            dct:conformsTo           cim: , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AvailabilitySchedule/2.3>;
             dct:description          "This is the example for availability schedule dataset for Svedala part of ReliCapGrid";
             dct:identifier           "dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354";
             dct:issued               "2024-12-03T10:00:00Z"^^xsd:dateTime;
-            dct:license              "https://creativecommons.org/licenses/by/4.0/";
-            dct:publisher            "https://energy.referencedata.eu/test/party/Svedala";
+            dct:license              <https://creativecommons.org/licenses/by/4.0/>;
+            dct:publisher            <https://energy.referencedata.eu/test/party/Svedala>;
             dct:requires             <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
             dct:rights               "Copyright";
             dct:rightsHolder         "ENTSO-E";
@@ -51,8 +51,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dcat:keyword             "AS";
             dcat:startDate           "2024-12-03T10:00:00Z"^^xsd:dateTime;
             dcat:version             "1.0.0";
-            prov:wasGeneratedAtTime  "2024-12-03T10:00:00Z";
-            prov:wasGeneratedBy      "https://energy.referencedata.eu/Activity/OPC-AS" .
+            prov:generatedAtTime     "2024-12-03T10:00:00Z"^^xsd:dateTime;
+            prov:wasGeneratedBy      <https://energy.referencedata.eu/Activity/OPC-AS> .
     
     <urn:uuid:0d4d4078-f3ad-409d-8882-73dafef11b80>
             rdf:type                   nc:AvailabilityContainer;
@@ -61,7 +61,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0d4d4078-f3ad-409d-8882-73dafef11b80";
             cim:IdentifiedObject.name  "Availability Container example";
             nc:AvailabilityContainer.EquipmentContainer
-                    <urn:uuid:1b629878-2c6f-41e9-b562-04b4782a5e1c>;
+                    <urn:uuid:2e08aa26-2719-4b3e-a0eb-a9bd0ddbcae1>;
             nc:AvailabilityPowerSystemFunction.AvailabilitySchedule
                     <urn:uuid:9fa5e26d-d64e-4bfb-afb8-fb6dbe884b48>;
             nc:AvailabilityPowerSystemFunction.kind
@@ -87,7 +87,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:EventTimePoint.EventSchedule
                     <urn:uuid:7acbe49b-be64-4dd8-a02e-87778468d55a>;
             nc:EventTimePoint.atTime    "2025-02-27T23:50:00Z"^^xsd:dateTime;
-            nc:EventTimePoint.isActive  true .
+            nc:EventTimePoint.isActive  false .
     
     <urn:uuid:7acbe49b-be64-4dd8-a02e-87778468d55a>
             rdf:type                   nc:EventSchedule;
@@ -104,7 +104,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:EventTimePoint.EventSchedule
                     <urn:uuid:7acbe49b-be64-4dd8-a02e-87778468d55a>;
             nc:EventTimePoint.atTime    "2025-03-30T23:50:00Z"^^xsd:dateTime;
-            nc:EventTimePoint.isActive  false .
+            nc:EventTimePoint.isActive  true .
     
     <urn:uuid:ab81932c-9fc9-4d1b-a770-36e5e6bfbb9e>
             rdf:type                    nc:EventTimePoint;

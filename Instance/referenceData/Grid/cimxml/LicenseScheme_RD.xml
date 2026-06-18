@@ -16,7 +16,7 @@
     <dcterms:hasPart rdf:resource="https://energy.referencedata.eu/LicenseScheme/NCP/1.0#collection_ncp_license"/>
     <dcterms:identifier>e64345cc-016b-4cc2-a5d1-8beabf97beab</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/LicenseScheme"/>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-22</dcterms:issued>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-03-22T00:00:00Z</dcterms:issued>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
     <skos:prefLabel xml:lang="en">Energy Reference Data License Scheme</skos:prefLabel>
     <dcterms:publisher rdf:resource="https://www.entsoe.eu/"/>

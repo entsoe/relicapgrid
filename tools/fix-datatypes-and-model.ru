@@ -3689,7 +3689,7 @@ insert {
   graph ?g {
     ?model a ?type_new, rdfg:Graph;
       dct:identifier                                     ?model_id                ;
-      dct:issued                                         ?created_date            ;
+      dct:issued                                         ?created_dateTime        ;
       dcat:distribution [a dcat:Distribution; dct:issued ?created_dateTime      ] ;
       dct:temporal [a dct:PeriodOfTime; dcat:startDate   ?scenario_start          ;        
                                         dcat:endDate     ?scenario_end          ] ;
@@ -3718,7 +3718,6 @@ where {
     ?model a ?type
     bind(strafter(str(?model),"urn:uuid:") as ?model_id)
     optional {?model md:Model.created              ?created
-      bind(strdt(strbefore(str(?created),"T"),xsd:date) as ?created_date)
       bind(iri(concat(str(?model),"/distribution")) as ?distribution)
       bind(strdt(str(?created),xsd:dateTime) as ?created_dateTime)}
     optional {?model md:Model.scenarioTime         ?scenarioTime.

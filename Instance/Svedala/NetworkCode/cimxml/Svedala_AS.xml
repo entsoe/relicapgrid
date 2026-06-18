@@ -31,7 +31,7 @@
     <dcat:version>1.0.0</dcat:version>
     <adms:versionNotes>This is an example of Availability schedule dataset for SvK.</adms:versionNotes>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/OPC-AS"/>
-    <prov:wasGeneratedAtTime>2024-12-03T10:00:00Z</prov:wasGeneratedAtTime>
+    <prov:generatedAtTime>2024-12-03T10:00:00Z</prov:generatedAtTime>
   </dcat:Dataset>
   <nc:AvailabilityEquipment rdf:ID="_cbe49fbe-64dd-48e0-8e9b-bbc468265abc">
     <nc:AvailabilityEquipment.Equipment rdf:resource="#_536f4b84-db4c-4545-96e9-bb5a87f65d13"/>
