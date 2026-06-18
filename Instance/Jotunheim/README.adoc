@@ -1,0 +1,69 @@
+= Jotunheim Regional Coordination Centre Model Package
+:author: ENTSO-E / Contributors
+:revnumber: CGMES 3.0 – NCP 2.4
+:revdate: {docdate}
+
+== Introduction
+
+This README complements the machine-readable link:https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/Jotunheim/Grid/manifest.ttl[manifest] and provides a human-readable description of the **Jotunheim RCC Model** within the *ReliCapGrid* repository.
+
+Jotunheim represents the synthetic Regional Coordination Centre (RCC) for the Nine Realms synchronous area.
+It does not represent a real RCC.
+
+Unlike the Individual Grid Model (IGM) folders, Jotunheim does not model a single TSO control area.
+Instead, it holds the datasets assembled and used by the RCC to form the Common Grid Model (CGM) and to perform regional security assessment.
+
+The datasets are compliant with the *IEC Common Grid Model Exchange Standard (CGMES)* and *ENTSO-E Network Code data exchange specifications* (profiles).
+The datasets are validated with SHACL constraints available in link:https://github.com/entsoe/application-profiles-library[ENTSO-E Application Profiles Library] repository and are subject to review by the ENTSO-E Standard Vetting Interoperability Tests (SV-IOP).
+
+== Model Scope and Content
+
+The Jotunheim RCC model includes datasets organised into the following folders:
+
+* *Grid* – Datasets used to assemble the Common Grid Model (CGM) for the Nine Realms region:
+** TP – Topology (Jotunheim own topology)
+** SV – State Variables (Jotunheim own state variables)
+** SSH – Steady-State Hypothesis datasets collected from all connected IGMs:
+   Belgovia, Britheim, Espheim, Galia, Nordheim, Svedala, DC Espheim–Svedala, DC Nordheim–Galia, and Portheim
+
+* *NetworkCode* – Intra-Area Monitoring (IAM) datasets: 24 hourly snapshots (0030Z–2330Z) and a Security Assessment Report (SAR).
+
+* *GridSituation* – Intra-Area Monitoring (IAM) hourly snapshots and Security Assessment Report (SAR) representing specific operational states of the grid.
+
+* *ChangeSet* – Planned for future development; will contain incremental model updates (deltas) representing objects added, modified, or deleted relative to a base model.
+
+== Purpose and Intended Use
+
+The Jotunheim RCC model is intended for:
+
+* Testing CGM assembly and RCC operational workflows
+* Interoperability and conformance testing of regional coordination processes
+* Toolchain validation for security assessment and capacity calculation
+* Training, documentation, and demonstration purposes
+
+== Package Structure and Serializations
+
+The package is provided in multiple serializations:
+
+* `cimxml/` – According to *IEC 61970-552:2016* which is the main serialization used for *IEC 61970-600-1* (CGMES) datasets and for ENTSO-E Network Code profiles.
+
+* `jsonld/` –
+  CIM JSON-LD representations aligned with *IEC 61970-553* (under development), enabling integration with semantic and data-driven tooling.
+  This serialization is not currently provided and may be added in the future. (CIM JSON-LD is generated from CIMXML.)
+
+* `trig/` – link:https://www.w3.org/TR/trig/[TriG] representation for improved readability and semantic inspection. (TriG is generated from CIMXML.)
+
+[quote]
+____
+CIMXML SHALL be treated as the primary data exchange serialization for this package unless otherwise explicitly stated.
+____
+
+== Changelog
+
+Changes to this package follow the governance and release practices of the ReliCapGrid repository.
+
+Updates may include:
+
+* Structural adjustments aligned with the evolution of data exchange specifications and standards
+* Corrections and clarifications of existing data
+* Additions to support new test scenarios

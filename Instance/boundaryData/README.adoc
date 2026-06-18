@@ -1,0 +1,68 @@
+= ReliCapGrid Boundary Data Package
+:author: ENTSO-E / Contributors
+:revnumber: CGMES 3.0 – NCP 2.4
+:revdate: {docdate}
+
+== Introduction
+
+This README complements the machine-readable link:https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/boundaryData/Grid/manifest.ttl[manifest] and provides a human-readable description of the **ReliCapGrid Boundary Data** within the *ReliCapGrid* repository.
+
+The boundary data contains synthetic inter-TSO boundary equipment definitions — the coupling points between adjacent control areas in the Nine Realms synchronous region.
+It does not represent real TSO interconnections.
+
+Boundary datasets are shared reference data used by all connected TSO models to correctly represent the tie-lines and boundary points at which their individual grid models interface with one another.
+
+The datasets are compliant with the *IEC Common Grid Model Exchange Standard (CGMES)*.
+The datasets are validated with SHACL constraints available in link:https://github.com/entsoe/application-profiles-library[ENTSO-E Application Profiles Library] repository and are subject to review by the ENTSO-E Standard Vetting Interoperability Tests (SV-IOP).
+
+== Model Scope and Content
+
+The boundary data includes datasets organised into the following folders:
+
+* *Grid* – Inter-TSO boundary equipment definitions (EQ profile only), covering the following borders:
+** Border-Espheim-Portheim
+** Border-Galia-Belgovia
+** Border-Galia-Britheim
+** Border-Galia-Nordheim
+** Border-Svedala-Belgovia
+** Border-Svedala-Espheim
+
+* *NetworkCode* – No Network Code profile datasets are currently provided.
+
+* *ChangeSet* – Planned for future development; will contain incremental updates to boundary definitions.
+
+== Purpose and Intended Use
+
+The ReliCapGrid boundary data is intended for:
+
+* Providing the shared boundary topology required for CGM assembly
+* Interoperability and conformance testing of boundary model exchange
+* Toolchain validation (boundary handling, tie-line modelling)
+* Training, documentation, and demonstration purposes
+
+== Package Structure and Serializations
+
+The package is provided in multiple serializations:
+
+* `cimxml/` – According to *IEC 61970-552:2016* which is the main serialization used for *IEC 61970-600-1* (CGMES) datasets.
+
+* `jsonld/` –
+  CIM JSON-LD representations aligned with *IEC 61970-553* (under development), enabling integration with semantic and data-driven tooling.
+  This serialization is not currently provided and may be added in the future. (CIM JSON-LD is generated from CIMXML.)
+
+* `trig/` – link:https://www.w3.org/TR/trig/[TriG] representation for improved readability and semantic inspection. (TriG is generated from CIMXML.)
+
+[quote]
+____
+CIMXML SHALL be treated as the primary data exchange serialization for this package unless otherwise explicitly stated.
+____
+
+== Changelog
+
+Changes to this package follow the governance and release practices of the ReliCapGrid repository.
+
+Updates may include:
+
+* Structural adjustments aligned with the evolution of data exchange specifications and standards
+* Corrections and clarifications of existing boundary definitions
+* Additions to support new test scenarios

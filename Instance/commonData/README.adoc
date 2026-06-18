@@ -1,0 +1,64 @@
+= ReliCapGrid Common Data Package
+:author: ENTSO-E / Contributors
+:revnumber: CGMES 3.0 – NCP 2.4
+:revdate: {docdate}
+
+== Introduction
+
+This README complements the machine-readable link:https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/commonData/Grid/manifest.ttl[manifest] and provides a human-readable description of the **ReliCapGrid Common Data** within the *ReliCapGrid* repository.
+
+The common data contains synthetic shared organizational and regional metadata for the Nine Realms synchronous area.
+It does not represent real organizational or regional data.
+
+Common data is referenced by all TSO individual grid models and Network Code datasets to ensure consistent identification of regions, synchronous areas, coordination areas, bidding zones, voltage levels, and parties across the entire ReliCapGrid model set.
+
+The datasets are compliant with the *IEC Common Grid Model Exchange Standard (CGMES)* and *ENTSO-E Network Code data exchange specifications* (profiles).
+The datasets are validated with SHACL constraints available in link:https://github.com/entsoe/application-profiles-library[ENTSO-E Application Profiles Library] repository and are subject to review by the ENTSO-E Standard Vetting Interoperability Tests (SV-IOP).
+
+== Model Scope and Content
+
+The common data includes datasets organised into the following folders:
+
+* *Grid* – Shared regional metadata for the Nine Realms synchronous area:
+** CD – Common Data (voltage levels, synchronous areas, coordination regions, bidding zone borders)
+
+* *NetworkCode* – Organizational reference data for the Nine Realms region:
+** OR – Object Registry (party and organizational identities for all Nine Realms TSOs and the RCC)
+
+* *ChangeSet* – Planned for future development; will contain incremental updates to common data definitions.
+
+== Purpose and Intended Use
+
+The ReliCapGrid common data is intended for:
+
+* Providing the shared organizational and regional context required by all TSO models and Network Code datasets
+* Interoperability and conformance testing of common data exchange
+* Toolchain validation (region, voltage level, and party reference handling)
+* Training, documentation, and demonstration purposes
+
+== Package Structure and Serializations
+
+The package is provided in multiple serializations:
+
+* `cimxml/` – According to *IEC 61970-552:2016* which is the main serialization used for *IEC 61970-600-1* (CGMES) datasets and for ENTSO-E Network Code profiles.
+
+* `jsonld/` –
+  CIM JSON-LD representations aligned with *IEC 61970-553* (under development), enabling integration with semantic and data-driven tooling.
+  This serialization is not currently provided and may be added in the future. (CIM JSON-LD is generated from CIMXML.)
+
+* `trig/` – link:https://www.w3.org/TR/trig/[TriG] representation for improved readability and semantic inspection. (TriG is generated from CIMXML.)
+
+[quote]
+____
+CIMXML SHALL be treated as the primary data exchange serialization for this package unless otherwise explicitly stated.
+____
+
+== Changelog
+
+Changes to this package follow the governance and release practices of the ReliCapGrid repository.
+
+Updates may include:
+
+* Structural adjustments aligned with the evolution of data exchange specifications and standards
+* Corrections and clarifications of existing organizational and regional definitions
+* Additions to support new test scenarios

@@ -1,0 +1,65 @@
+= Portheim Grid Model Package
+:author: ENTSO-E / Contributors
+:revnumber: CGMES 3.0 – NCP 2.4
+:revdate: {docdate}
+
+== Introduction
+
+This README complements the machine-readable link:https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/Instance/Portheim/Grid/manifest.ttl[manifest] and provides a human-readable description of the **Portheim Grid Model** within the *ReliCapGrid* repository.
+
+Portheim is a synthetic power system model (Individual Grid Model, IGM) created for testing, demonstration, and interoperability purposes.
+It does not represent a real TSO grid.
+
+The model is compliant with the *IEC Common Grid Model Exchange Standard (CGMES)*, as well as *ENTSO-E Network Code data exchange specifications* (profiles).
+The datasets are validated with SHACL constraints available in link:https://github.com/entsoe/application-profiles-library[ENTSO-E Application Profiles Library] repository and are subject to review by the ENTSO-E Standard Vetting Interoperability Tests (SV-IOP).
+
+== Model Scope and Content
+
+The Portheim model represents a single control area and includes datasets organised into the following folders:
+
+* *Grid* – Static and operational grid model datasets, covering the following CGMES profiles:
+** EQ – Equipment
+** SSH – Steady-State Hypothesis
++
+_Note: TP (Topology) and SV (State Variables) profiles are not yet provided for Portheim._
+
+* *NetworkCode* – No Network Code profile datasets are currently provided.
+
+* *GridSituation* – Planned for future development; will describe specific operational snapshots of the grid.
+
+* *ChangeSet* – Planned for future development; will contain incremental model updates (deltas) representing objects added, modified, or deleted relative to a base model.
+
+== Purpose and Intended Use
+
+The Portheim Grid model is intended for:
+
+* Interoperability and conformance testing
+* Toolchain validation (import/export, profile support)
+* Training, documentation, and demonstration purposes
+
+== Package Structure and Serializations
+
+The package is provided in multiple serializations:
+
+* `cimxml/` – According to *IEC 61970-552:2016* which is the main serialization used for *IEC 61970-600-1* (CGMES) datasets and for ENTSO-E Network Code profiles.
+
+* `jsonld/` –
+  CIM JSON-LD representations aligned with *IEC 61970-553* (under development), enabling integration with semantic and data-driven tooling.
+  This serialization is not currently provided and may be added in the future. (CIM JSON-LD is generated from CIMXML.)
+
+* `trig/` – link:https://www.w3.org/TR/trig/[TriG] representation for improved readability and semantic inspection. (TriG is generated from CIMXML.)
+
+[quote]
+____
+CIMXML SHALL be treated as the primary data exchange serialization for this package unless otherwise explicitly stated.
+____
+
+== Changelog
+
+Changes to this package follow the governance and release practices of the ReliCapGrid repository.
+
+Updates may include:
+
+* Structural adjustments aligned with the evolution of data exchange specifications and standards
+* Corrections and clarifications of existing data
+* Additions to support new test scenarios
