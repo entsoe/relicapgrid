@@ -9,7 +9,7 @@
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:d5aea98d-c4e2-4436-ab23-6c705e17960e">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
-    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/ImpactAssessmentMatrix/2.4""/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/ImpactAssessmentMatrix/2.4"/>
     <dcterms:description xml:lang="en">This is the impact assessment matrix dataset for Jotunheim part of ReliCapGrid.</dcterms:description>
     <dcat:endDate>2023-06-16T12:30:00Z</dcat:endDate>
     <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
