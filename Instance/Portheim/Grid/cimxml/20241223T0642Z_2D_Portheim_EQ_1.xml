@@ -1616,13 +1616,6 @@
     <cim:Switch.normalOpen>false</cim:Switch.normalOpen>
     <cim:Switch.retained>false</cim:Switch.retained>
   </cim:Breaker>
-  <cim:BaseVoltage rdf:ID="_b24b9d86-f141-b4b0-a0c9-c154d5d6fb88">
-    <cim:BaseVoltage.nominalVoltage>10.5</cim:BaseVoltage.nominalVoltage>
-    <cim:IdentifiedObject.description>BaseVoltage 10.50 kV</cim:IdentifiedObject.description>
-    <cim:IdentifiedObject.mRID>b24b9d86-f141-b4b0-a0c9-c154d5d6fb88</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>10.50 kV</cim:IdentifiedObject.name>
-    <eu:IdentifiedObject.shortName>10.50 kV</eu:IdentifiedObject.shortName>
-  </cim:BaseVoltage>
   <cim:Bay rdf:ID="_1b7fa571-bb76-4daf-aa93-e75b3a46f6e1">
     <cim:Bay.VoltageLevel rdf:resource="#_0c4f41f8-9797-44eb-bdbe-1a28efa083b9" />
     <cim:IdentifiedObject.mRID>1b7fa571-bb76-4daf-aa93-e75b3a46f6e1</cim:IdentifiedObject.mRID>
@@ -1703,13 +1696,13 @@
     <cim:IdentifiedObject.mRID>0c4f41f8-9797-44eb-bdbe-1a28efa083b9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Portheim-Espheim Voltage Level 400kV</cim:IdentifiedObject.name>
     <eu:IdentifiedObject.shortName>PH-EH-400kV</eu:IdentifiedObject.shortName>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14" />
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e" />
     <cim:VoltageLevel.Substation rdf:resource="#_42b7f03a-db7a-415a-9e15-25f634f5ea9c" />
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3615f98b-c1c3-4d47-82ae-0edfc22b4680">
     <cim:IdentifiedObject.mRID>3615f98b-c1c3-4d47-82ae-0edfc22b4680</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VL10.5</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_b24b9d86-f141-b4b0-a0c9-c154d5d6fb88" />
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_862a4658-6b03-4550-9de2-b5c413912b75" />
     <cim:VoltageLevel.Substation rdf:resource="#_42b7f03a-db7a-415a-9e15-25f634f5ea9c" />
   </cim:VoltageLevel>
   <cim:EquivalentInjection rdf:ID="_7df8b72b-0734-4d6c-9366-313819b808d1">
@@ -1743,7 +1736,7 @@
     <cim:PowerTransformerEnd.ratedS>255</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>10.5</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_b24b9d86-f141-b4b0-a0c9-c154d5d6fb88" />
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_862a4658-6b03-4550-9de2-b5c413912b75" />
     <cim:TransformerEnd.Terminal rdf:resource="#_e5ad31c8-447f-6b4a-6c57-ad8b45073658" />
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1758,7 +1751,7 @@
     <cim:PowerTransformerEnd.ratedS>255</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>100.389</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14" />
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e" />
     <cim:TransformerEnd.Terminal rdf:resource="#_1fd813c3-d5aa-a645-b4db-d4e7b4fc2736" />
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>

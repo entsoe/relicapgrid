@@ -211,7 +211,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "e61f8ecf-8129-4702-a3a2-826bdf5ad13d";
             cim:IdentifiedObject.name     "VL 220 kV";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:VoltageLevel.Substation   <urn:uuid:c39c3eb8-9cce-4778-9069-6952a117ba2b> .
     
     <urn:uuid:268f6633-bdfa-a1ea-2540-7eb10502a9d5>

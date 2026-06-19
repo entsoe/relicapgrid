@@ -83,7 +83,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1e6e5fcc-d3a9-e0ee-dbd1-a49a2a76d6ef";
             cim:IdentifiedObject.name  "BP_EH-SD_DC1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c06d67a0-4984-4661-846c-f42a9b29c049> .
     
@@ -113,7 +113,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a4f1438f-63b8-c5e1-f1b4-efab368e8219";
             cim:IdentifiedObject.name  "Terminal_SD_125";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:54191047-8b9e-8735-ed0d-5e1421d2e9dc>;
+                    <urn:uuid:2798b33d-c534-45f2-9252-a1ea9b3247c6>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3d1874ee-827e-4038-aba2-a5a4a748ff8a> .
     
@@ -126,7 +126,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "092457d1-1f90-ecef-d473-8aa8911b521c";
             cim:IdentifiedObject.name  "Terminal_EH_125";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:54191047-8b9e-8735-ed0d-5e1421d2e9dc>;
+                    <urn:uuid:2798b33d-c534-45f2-9252-a1ea9b3247c6>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3d1874ee-827e-4038-aba2-a5a4a748ff8a> .
     
@@ -202,7 +202,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "183725e6-2ba8-0463-5e45-0ec83292fbe9";
             cim:IdentifiedObject.name  "BP_SD-EH_DC1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0> .
     
@@ -230,7 +230,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "06212812-ddc0-43e8-cacf-ce01ca9d0d13";
             cim:IdentifiedObject.name  "Terminal_EH_400";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:800afa6a-9910-4fb7-a88b-9fb1e66920ff> .
     
@@ -239,7 +239,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "30ff280f-5147-a877-e592-5d322c50ec79";
             cim:IdentifiedObject.name  "Terminal_SD_400";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:800afa6a-9910-4fb7-a88b-9fb1e66920ff> .
     

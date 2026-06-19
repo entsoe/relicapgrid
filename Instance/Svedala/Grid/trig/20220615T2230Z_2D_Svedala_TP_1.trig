@@ -54,7 +54,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "62541b9f-0069-580e-98cd-eb6f88864c0d";
             cim:IdentifiedObject.name  "FT43_A400_UPPMAR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:40333bc5-7223-47c4-9ab1-c299b68f3608> .
     
@@ -63,7 +63,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ffeba6a9-e993-45d5-7fc2-7bfacb236605";
             cim:IdentifiedObject.name  "$BUS_1460";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1303c35a-11c7-43cb-8906-24654c204ab9> .
     
@@ -168,7 +168,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e22d2cca-9e97-7309-bf48-7f88a8cd4678";
             cim:IdentifiedObject.name  "ST3_A10_HAMMARVA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+                    <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:33fd5b67-4812-45a6-8fc6-59e694cc702a> .
     
@@ -301,7 +301,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ab2a0628-b6a4-d98f-f7d6-f27a91b66993";
             cim:IdentifiedObject.name  "FT43_C400_UPPMAR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:40333bc5-7223-47c4-9ab1-c299b68f3608> .
     
@@ -348,7 +348,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7effaee4-9462-084f-b034-a1437ca8710d";
             cim:IdentifiedObject.name  "FT50_C400_SYDKÖP";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -458,7 +458,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "420e95f7-6d64-0c2c-7015-5e7756801367";
             cim:IdentifiedObject.name  "CT32_A400_TORNÅ";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -624,7 +624,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "601f99c3-c5e8-f3f3-f8c1-dfcc1085fc6e";
             cim:IdentifiedObject.name  "ST34-Q_10_KABOLS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e> .
     
@@ -732,7 +732,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ac675b80-380f-545f-ad6a-5770cec4d130";
             cim:IdentifiedObject.name  "$BUS_1165";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -741,7 +741,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8224a560-a094-b6a5-ef09-88b0a2dc7631";
             cim:IdentifiedObject.name  "ST30_10_ÄRKEBO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4a237813-ed80-44d8-a1eb-d0c08765a486> .
     
@@ -758,7 +758,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c7fccc43-f5c8-4159-f6e7-743db6efe2ea";
             cim:IdentifiedObject.name  "YTTERFORSEN_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:04bc67f0-fc8e-4c6a-a63a-56ccc4595875> .
     
@@ -842,7 +842,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d0acf05f-aba8-50f4-ad1a-f88eaa495368";
             cim:IdentifiedObject.name  "FT51_A400_BLOCKE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -910,7 +910,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "941bac85-9a3b-8bcf-a7d8-3cb084268d50";
             cim:IdentifiedObject.name  "STORFORS_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:823140d0-197f-4baa-a560-25ac59c3a4ab> .
     
@@ -1048,7 +1048,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2dba0ab6-8c34-e03e-652c-63dc0fe0f9d7";
             cim:IdentifiedObject.name  "CT31_A400_STENFO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -1062,7 +1062,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0959ffd8-cea6-515b-f86d-e99777f548cc";
             cim:IdentifiedObject.name  "CT31_A220_STENFO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c21b8ade-8404-45cf-8e52-6920bd0f85fc> .
     
@@ -1118,7 +1118,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7039a968-c620-1290-d51b-c4dd4fc3e639";
             cim:IdentifiedObject.name  "$BUS_86";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:aef13842-6453-4919-b5b7-2a514e6e8427> .
     
@@ -1205,7 +1205,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "869b16b8-1070-2153-5705-cad0a4d57599";
             cim:IdentifiedObject.name  "ST5_A50_VÄSTBORG";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:25bd8e7a-4757-494c-b0d8-b2cc120d2372> .
     
@@ -1248,7 +1248,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4cda43f4-28b8-3047-146c-d69eca54e761";
             cim:IdentifiedObject.name  "$BUS_283";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de7ff3a-9e57-4f63-ae19-e890a16d141b> .
     
@@ -1397,7 +1397,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "919c7528-4c6d-7683-01fc-2bd94f257d7a";
             cim:IdentifiedObject.name  "$BUS_298";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:eaa25262-839d-4abf-ad2c-62e2e252bfee> .
     
@@ -1423,7 +1423,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6430bca6-dd02-827e-0f7a-a4cd00ca703c";
             cim:IdentifiedObject.name  "$BUS_518";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -1457,7 +1457,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "91d57b12-89df-b7ad-6956-beb583380bea";
             cim:IdentifiedObject.name  "BP_SD-EH2";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3> .
     
@@ -1957,7 +1957,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "058e7b45-abb7-50e5-50fe-b08775809218";
             cim:IdentifiedObject.name  "VATTENDRAGET_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4c868189-4779-4983-a8ec-01bdd81f0a67> .
     
@@ -1983,7 +1983,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "cad0e97e-5dd3-1d72-972f-ea3b7128da79";
             cim:IdentifiedObject.name  "$BUS_1554";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c3c8c9df-229b-4895-b34f-b27f58485969> .
     
@@ -2225,7 +2225,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0193764d-cce1-1f31-1ec4-aa7f8ad30cea";
             cim:IdentifiedObject.name  "AT131_C130_STORF";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b5ba054c-f8d4-434b-a2b2-24555417e0ef> .
     
@@ -2279,7 +2279,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "726c9d3c-34d8-6637-cf9a-f8f4d1e44e96";
             cim:IdentifiedObject.name  "CT31_C220_STENFO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c21b8ade-8404-45cf-8e52-6920bd0f85fc> .
     
@@ -2353,7 +2353,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7bf3cbdc-899c-8475-fc51-5aacecf97eb5";
             cim:IdentifiedObject.name  "$BUS_660";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:aef13842-6453-4919-b5b7-2a514e6e8427> .
     
@@ -2417,7 +2417,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f25f4cdd-853a-8299-b66e-b02d55288219";
             cim:IdentifiedObject.name  "$BUS_1053";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:9695abb1-3f41-4f62-982f-57de584e5897> .
     
@@ -2588,7 +2588,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6648ae85-7c91-cfcb-a258-f9bcd4fd89b9";
             cim:IdentifiedObject.name  "ST18_10_ASAGÅRD";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e7203547-5923-40e1-b6bd-c480b38d1490> .
     
@@ -2627,7 +2627,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7d49a2cb-d0e7-f74c-03ff-a2d1885596e6";
             cim:IdentifiedObject.name  "FT62_A400_RUTHUV";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -2762,7 +2762,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "46adad23-9bcc-09d5-4d7b-fd57d22a8cbc";
             cim:IdentifiedObject.name  "DALBO_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a630ec0b-5a41-44bc-ae66-85df1044cddc> .
     
@@ -2806,7 +2806,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "5e507268-2331-9fe1-c63d-eb529480bc9a";
             cim:IdentifiedObject.name  "ST9_10_TORSHAMMA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:0662b9c3-85fe-4704-8dad-892fe1e4cfad> .
     
@@ -2837,7 +2837,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e2b0ab10-8704-a8b3-efd8-56690cb41b69";
             cim:IdentifiedObject.name  "$BUS_1074";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -3061,7 +3061,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "80c27276-16a2-67f3-88c1-b03984cc6a17";
             cim:IdentifiedObject.name  "CT12_A130_STUPET";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:aef13842-6453-4919-b5b7-2a514e6e8427> .
     
@@ -3125,7 +3125,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "43271de4-346a-84a0-62eb-3f47e3781857";
             cim:IdentifiedObject.name  "$BUS_538";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:007dedc8-ce4f-4f2c-b424-bc7b8fe1da30> .
     
@@ -3309,7 +3309,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b1a542ea-a420-9bb5-99df-eb8c46d332b5";
             cim:IdentifiedObject.name  "OLMÅFALLET_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3ce6ce82-fc23-4f0e-917a-05cff79840d0> .
     
@@ -3326,7 +3326,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a6695507-b890-8f11-6521-da9b5a7ccf20";
             cim:IdentifiedObject.name  "$BUS_450";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -3505,7 +3505,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "37b80f4c-2166-4af3-570e-c93b0ab0186e";
             cim:IdentifiedObject.name  "$BUS_818";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -3673,7 +3673,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "34a23176-d9bf-e175-45bf-b26f6416a054";
             cim:IdentifiedObject.name  "$BUS_823";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -3876,7 +3876,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4a66e6e2-203c-0f82-38f7-5bbb5ec0de27";
             cim:IdentifiedObject.name  "$BUS_297";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:eaa25262-839d-4abf-ad2c-62e2e252bfee> .
     
@@ -3946,7 +3946,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1dd07917-468f-f4ae-06fc-6cca72f8a6e5";
             cim:IdentifiedObject.name  "AT241_C220_NORRS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a21d1ab3-0657-4920-ad26-6851e1a26aa4> .
     
@@ -4012,7 +4012,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a7e13889-ffec-ec3a-4e14-8a3995517f11";
             cim:IdentifiedObject.name  "$BUS_643";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -4290,7 +4290,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "abed9569-eba2-941d-8929-e429a727556e";
             cim:IdentifiedObject.name  "AT111_A130_VATTE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3cbe822c-292d-4e10-87d8-9924adf7df55> .
     
@@ -4406,7 +4406,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ff133923-9efd-3f57-93b9-491e08da0d2d";
             cim:IdentifiedObject.name  "CT22_C130_STORTR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c6db21bf-8950-4aa5-aa46-3a47375f6ef3> .
     
@@ -4535,7 +4535,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2422c539-2bc2-5d12-174f-cc2a699cab46";
             cim:IdentifiedObject.name  "$BUS_285";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -4644,7 +4644,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2a8d4603-106d-7b51-aeca-2debabcce1f1";
             cim:IdentifiedObject.name  "FT50_C130_SYDKÖP";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1d45923a-5286-447f-a173-4bc88b6f3fbc> .
     
@@ -4685,7 +4685,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "62093fb5-ae95-0e20-05a3-15b3c510c2f9";
             cim:IdentifiedObject.name  "AT111_C130_VATTE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3cbe822c-292d-4e10-87d8-9924adf7df55> .
     
@@ -4830,7 +4830,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0234f62e-d222-235b-1ddd-b46635714779";
             cim:IdentifiedObject.name  "STUPET_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4145e899-51e1-4375-a641-df1daf45fa48> .
     
@@ -4839,7 +4839,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ecdd14ab-569b-a1c0-80b7-83d4f3f6a380";
             cim:IdentifiedObject.name  "CT72_A400_HÄLLAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -4969,7 +4969,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "240e5476-741b-5c37-3928-3ee1adfdad69";
             cim:IdentifiedObject.name  "CT11_C400_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -4978,7 +4978,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "195b66fa-accb-58bd-25eb-b670ff81e8cf";
             cim:IdentifiedObject.name  "RT133_A130_NYSTA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:55479a78-192e-4b76-ba4b-cbbd31690cba> .
     
@@ -5008,7 +5008,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "27cdd3f8-04fe-98e3-a110-284f770b398a";
             cim:IdentifiedObject.name  "HÄSTSJÖ_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:57d46e9c-5bb5-45ab-844d-2ba69f4bb427> .
     
@@ -5166,7 +5166,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8c461955-24f5-9bae-2e0c-8e673ddb07dc";
             cim:IdentifiedObject.name  "CT31_A17_STENFOR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4d89ff1b-ab26-4b34-a4a2-7b998e709b28> .
     
@@ -5214,7 +5214,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b6c5d13d-2e68-eace-b91f-b66a40543757";
             cim:IdentifiedObject.name  "$BUS_385";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -5291,7 +5291,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "de93d5ec-ef29-1613-9f5b-af71e8fad149";
             cim:IdentifiedObject.name  "ST16_10_SOLSTAD";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:338905d0-7dc9-4f92-a269-ad14fb9fd751> .
     
@@ -5313,7 +5313,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b28e0576-72b1-d9a0-6456-f1dfb94e6495";
             cim:IdentifiedObject.name  "FT63_C400_SYDBÄC";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3d6577f-4db0-4939-aec9-7168cb89a502> .
     
@@ -5386,7 +5386,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "008e9db2-e692-604b-ad28-0e75e8c593a8";
             cim:IdentifiedObject.name  "NORRSELE_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a7f5e1c1-d18a-473d-905f-cb13d4711d89> .
     
@@ -5413,7 +5413,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1c598474-2460-4898-ac64-6b620367d5de";
             cim:IdentifiedObject.name  "$BUS_296";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:eaa25262-839d-4abf-ad2c-62e2e252bfee> .
     
@@ -5512,7 +5512,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a4d18cf4-efd3-b176-c76a-180e8002897d";
             cim:IdentifiedObject.name  "ST25_10_LIGAUNDA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:95ce43c9-f46d-46ba-84d9-383e122fdbbf> .
     
@@ -5591,7 +5591,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d4b42d41-bd0f-9ba7-7274-cc0bf9a5a211";
             cim:IdentifiedObject.name  "BLOCKET_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:08f02d38-7bf1-439e-8feb-a85a8037b6ff> .
     
@@ -5732,7 +5732,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e1625bb7-1116-e1ca-edc8-545914301cfe";
             cim:IdentifiedObject.name  "$BUS_820";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -5833,7 +5833,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "555dea69-804e-8112-0d17-80d479b76b98";
             cim:IdentifiedObject.name  "JAURAS_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de0f9f8-a18d-4b2c-b861-c2c1331cc71b> .
     
@@ -5907,7 +5907,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4dedaf63-7c39-d346-bb95-6ad2e216e6a0";
             cim:IdentifiedObject.name  "$BUS_689";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -6039,7 +6039,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "59a19a27-ca70-8542-ae26-6b09438e2649";
             cim:IdentifiedObject.name  "CT11_B17_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f825d10b-a202-44e8-85d1-e4f78dc3dcf7> .
     
@@ -6085,7 +6085,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "798ce44d-69da-a8d4-92f0-b2cbd81d09d5";
             cim:IdentifiedObject.name  "CT11_C130_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fcad8062-867d-4020-8b9c-de5924e80357> .
     
@@ -6158,7 +6158,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "af0979d4-8b4b-d12b-1a63-b9cfa210e0a6";
             cim:IdentifiedObject.name  "BP_SD-BO2";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:54a2e470-ef70-443f-ae81-bcf2d117caa3> .
     
@@ -6198,7 +6198,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "481f58fd-3c1c-44e7-e33e-72d6f783fe1d";
             cim:IdentifiedObject.name  "$BUS_269";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d5c5954a-cf35-434a-bf34-08132592eef9> .
     
@@ -6890,7 +6890,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b2a8fbe7-6b13-085c-7520-c5de35d46622";
             cim:IdentifiedObject.name  "ST24_10_LILLBORG";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:cd63ee3d-7629-47fa-8e0f-ebd9b7de106e> .
     
@@ -6903,7 +6903,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d7eff648-39a7-0037-d3e1-4ca0d34cd2f4";
             cim:IdentifiedObject.name  "CT11_A400_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -6973,7 +6973,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ac0b46be-e161-6127-57be-936baf7495ba";
             cim:IdentifiedObject.name  "ST13_10_FISKBÄCK";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:87ed786a-a507-4ea5-9630-f0c136ec53a6> .
     
@@ -7085,7 +7085,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2e102448-bc25-5b4f-cf5f-cb3c3dc0f132";
             cim:IdentifiedObject.name  "AT121_C130_OLMÅF";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2eb7e9fd-b643-435d-81d4-bf0e553538c3> .
     
@@ -7098,7 +7098,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d55c6315-f607-7daa-f235-9333a66fa917";
             cim:IdentifiedObject.name  "ST17_10_ÖVERGÅRD";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7cd0b58c-70a2-464a-a6a9-f828e19292f9> .
     
@@ -7266,7 +7266,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c2e7a564-131d-fff2-11b3-e63fe1f919b9";
             cim:IdentifiedObject.name  "$BUS_705";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -7348,7 +7348,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6d0e75c4-1bce-ecbe-281f-e7d5b21ec8f2";
             cim:IdentifiedObject.name  "BLOCKET_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:08f02d38-7bf1-439e-8feb-a85a8037b6ff> .
     
@@ -7379,7 +7379,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "412c1173-00b5-2992-91c2-79a77b3e7324";
             cim:IdentifiedObject.name  "FT47_A20_ERIKSHA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c073e1af-7549-4ea0-8860-96b47d021872> .
     
@@ -7392,7 +7392,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "3dfbe75a-190b-7e45-cb27-9a22603f37d3";
             cim:IdentifiedObject.name  "AT131_A130_STORF";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b5ba054c-f8d4-434b-a2b2-24555417e0ef> .
     
@@ -7550,7 +7550,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d44b1a37-d304-6609-5bdc-b4ffd1d04ff3";
             cim:IdentifiedObject.name  "$BUS_434";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3cbe822c-292d-4e10-87d8-9924adf7df55> .
     
@@ -7615,7 +7615,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2c415669-acf5-50e2-26b8-d0318ac21512";
             cim:IdentifiedObject.name  "$BUS_893";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -7753,7 +7753,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "96e3cb88-1a1c-2275-16e3-4bc9a696b9bd";
             cim:IdentifiedObject.name  "FT44_C400_KÄRNAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -7855,7 +7855,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1ae190da-6b44-a41b-8030-3cec22ddfad9";
             cim:IdentifiedObject.name  "FT63_B20_SYDBÄCK";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3f1939a1-f6a6-4a6c-a03f-2a62e4e4e97b> .
     
@@ -7991,7 +7991,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "020717c0-db25-126c-f786-240926ad793f";
             cim:IdentifiedObject.name  "$BUS_1167";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -8025,7 +8025,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "97a60528-edec-58c5-01af-8934715cf05b";
             cim:IdentifiedObject.name  "CT32_C400_TORNÅ";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -8155,7 +8155,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "dcc80b2e-249d-9065-8808-5a6c8896bb1e";
             cim:IdentifiedObject.name  "$BUS_274";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -8205,7 +8205,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "dc88dabf-7d4e-f207-fe8b-834998f32899";
             cim:IdentifiedObject.name  "$BUS_437";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3cbe822c-292d-4e10-87d8-9924adf7df55> .
     
@@ -8242,7 +8242,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ddba5f4c-7778-4a09-91ee-4ca98d22099f";
             cim:IdentifiedObject.name  "$BUS_452";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -8290,7 +8290,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "122828b0-39b3-8714-f1c5-30e6886ae569";
             cim:IdentifiedObject.name  "$BUS_289";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -8446,7 +8446,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "61a28fc4-92ad-8a97-75e0-afb03d1fd520";
             cim:IdentifiedObject.name  "CT21_A400_NJAGGO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de7ff3a-9e57-4f63-ae19-e890a16d141b> .
     
@@ -8481,7 +8481,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8dde7ad2-9778-9450-7039-9aae92e9f08e";
             cim:IdentifiedObject.name  "CT12_C130_STUPET";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:aef13842-6453-4919-b5b7-2a514e6e8427> .
     
@@ -8524,7 +8524,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4f374835-25e3-69fc-f96b-ffa5e2585380";
             cim:IdentifiedObject.name  "ST23_10_SEGELSTA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1edc0517-bd63-4b8d-9276-394a42cf61ed> .
     
@@ -8923,7 +8923,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4d01df7e-38c9-4a63-ce00-de716b222533";
             cim:IdentifiedObject.name  "HÄLLAN_G3_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fc4d076c-3e12-4c05-ad72-42b090d114a0> .
     
@@ -8942,7 +8942,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "48b51c7f-f9d1-6047-8a7e-2734b6e975e9";
             cim:IdentifiedObject.name  "$BUS_87";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3cbe822c-292d-4e10-87d8-9924adf7df55> .
     
@@ -9180,7 +9180,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a39a3605-518a-00a4-58d4-878991cd465a";
             cim:IdentifiedObject.name  "RT133_A50_NYSTAD";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:9512b02d-9d17-4af3-8ced-f13d94186c2b> .
     
@@ -9247,7 +9247,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f5f81ed0-2de5-1a3c-4d2c-c653a4f74385";
             cim:IdentifiedObject.name  "$BUS_284";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -9260,7 +9260,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "12bf7608-b8c3-6c3d-3ca4-554b1db88b7b";
             cim:IdentifiedObject.name  "FT47_A400_ERIKSH";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8bb9206e-ba47-4ce1-9d10-8a1c8913f2ff> .
     
@@ -9460,7 +9460,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2ad2b439-5dc3-8360-889d-9193b362b191";
             cim:IdentifiedObject.name  "CT21_C400_NJAGGO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de7ff3a-9e57-4f63-ae19-e890a16d141b> .
     
@@ -9530,7 +9530,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "df4e0ee5-e0c6-5285-951f-1264c1cb8e38";
             cim:IdentifiedObject.name  "$BUS_693";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -9713,7 +9713,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8b52f03e-e42c-6ed4-d660-e724f15b84b8";
             cim:IdentifiedObject.name  "$BUS_641";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -10218,7 +10218,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "30eab29d-582e-941a-f7d4-918bdc41fafe";
             cim:IdentifiedObject.name  "RT132_C130_HÄSTS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:15c457f1-e9c1-4997-9fc1-6d9e56024df2> .
     
@@ -10235,7 +10235,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4c404a08-7071-c943-fbb3-fb151741289f";
             cim:IdentifiedObject.name  "ST11_10_KALLBO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c4f7bafb-f7c7-4404-b7c6-7632d1b1e534> .
     
@@ -10311,7 +10311,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "fe48cbdb-df08-e0e0-1026-f95c4f872cb9";
             cim:IdentifiedObject.name  "$BUS_810";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -10426,7 +10426,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b54c0eb9-8dab-3e26-fbdc-a63d2a5015f4";
             cim:IdentifiedObject.name  "FT63_B400_SYDBÄC";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3d6577f-4db0-4939-aec9-7168cb89a502> .
     
@@ -10451,7 +10451,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9b840b87-6495-ddc3-f1a2-a344eb00c771";
             cim:IdentifiedObject.name  "$BUS_1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -10506,7 +10506,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7e87adf7-9ff1-f4e9-d625-93aa0999b66a";
             cim:IdentifiedObject.name  "$BUS_390";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -10648,7 +10648,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "29286a21-2270-d629-ad4a-4bd64831c349";
             cim:IdentifiedObject.name  "$BUS_1478";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:df857ed5-4456-4af5-b180-6de923e5b00f> .
     
@@ -10734,7 +10734,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "971c49db-94d7-768c-5fc2-b5b4d2994877";
             cim:IdentifiedObject.name  "ST14_10_KUBBON";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:73aa8d29-03a0-44fc-9d7d-ee222ea80f68> .
     
@@ -10784,7 +10784,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "33ae0e59-f204-b544-8f9f-6be9cf3e9b5e";
             cim:IdentifiedObject.name  "$BUS_1093";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c6db21bf-8950-4aa5-aa46-3a47375f6ef3> .
     
@@ -10798,7 +10798,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "05d47af8-de1e-e127-a3ee-383a4c178ce9";
             cim:IdentifiedObject.name  "$BUS_1467";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e> .
     
@@ -10937,7 +10937,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "42773f6b-0aaf-ccf4-096a-1823069e7cda";
             cim:IdentifiedObject.name  "ST19_10_HEMMARYD";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:44fe583a-0d20-40fd-a5be-2901ab012e0a> .
     
@@ -10976,7 +10976,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "14205e9c-156e-c722-3a8f-5d22b7343c89";
             cim:IdentifiedObject.name  "RUTHUVUD_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4cec73c4-a641-4045-86ba-48801b8cad9a> .
     
@@ -11339,7 +11339,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "5dc7d2a6-ce27-5302-e214-566263811153";
             cim:IdentifiedObject.name  "FT45_A400_MITTLA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a> .
     
@@ -11348,7 +11348,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2901bb9c-0930-285e-8616-aa959ecb967d";
             cim:IdentifiedObject.name  "$BUS_85";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:007dedc8-ce4f-4f2c-b424-bc7b8fe1da30> .
     
@@ -11375,7 +11375,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "134fce6d-e42e-3484-fa49-da6b984d5538";
             cim:IdentifiedObject.name  "ST29_10_ANNORLUN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58> .
     
@@ -11393,7 +11393,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "cbfd045e-7b2a-ca70-f099-0ad6a80f0bea";
             cim:IdentifiedObject.name  "FT41_A400_DALBO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -11411,7 +11411,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2c8b6c87-92a3-1ffb-7460-3a12dd7d5241";
             cim:IdentifiedObject.name  "$BUS_1634";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58> .
     
@@ -11494,7 +11494,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a8b71ac8-e892-18d9-08a3-e78757278c0c";
             cim:IdentifiedObject.name  "ST3_A50_HAMMARVA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5c9c64e1-c22a-449e-9ef6-96a8324e78f4> .
     
@@ -11511,7 +11511,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b56d1de5-51d7-3296-0edf-e498fab8f1ad";
             cim:IdentifiedObject.name  "ST33_A10_TROLLFA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:bb22add2-334b-483b-8d34-91bb602f14bd> .
     
@@ -11657,7 +11657,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "846f9a0f-b854-79b4-e120-b503fb2d0ca6";
             cim:IdentifiedObject.name  "$BUS_895";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -11717,7 +11717,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "629f3f34-23a6-a2ac-cfd3-cc88023eefbe";
             cim:IdentifiedObject.name  "$BUS_267";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:15c457f1-e9c1-4997-9fc1-6d9e56024df2> .
     
@@ -11903,7 +11903,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7f76fd2f-b4e7-b232-b954-923af45c16c9";
             cim:IdentifiedObject.name  "ST26_10_STACKMYR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d2c0c4ad-4068-4e11-b867-8c79fe5ab7dc> .
     
@@ -12363,7 +12363,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6ad9c305-41b4-97c6-c2b1-8ba3cbba6a08";
             cim:IdentifiedObject.name  "ST21_10_TRASTHOL";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c3c8c9df-229b-4895-b34f-b27f58485969> .
     
@@ -12437,7 +12437,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6cea2612-f942-85de-0848-edfadadd182c";
             cim:IdentifiedObject.name  "$BUS_1545";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:95ce43c9-f46d-46ba-84d9-383e122fdbbf> .
     
@@ -12524,7 +12524,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "548f4804-1184-ac9b-d49a-3040ed45e2cc";
             cim:IdentifiedObject.name  "$BUS_789";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -12558,7 +12558,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0c0d8c48-5d18-ddfe-500b-e03d6fca973e";
             cim:IdentifiedObject.name  "FT50_A10_SYDKÖPI";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8eb93370-c564-4279-9b11-57b6a3f95e5c> .
     
@@ -12654,7 +12654,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ad13edc0-3c90-39d9-2999-d6c6c082ca58";
             cim:IdentifiedObject.name  "$BUS_280";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -12675,7 +12675,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d259ddcf-868d-080a-7b64-41e8a3743107";
             cim:IdentifiedObject.name  "$BUS_1470";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e> .
     
@@ -12705,7 +12705,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ce1f6322-0978-55b8-6ad2-65c8f289aad4";
             cim:IdentifiedObject.name  "FT47_B20_ERIKSHA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c073e1af-7549-4ea0-8860-96b47d021872> .
     
@@ -12723,7 +12723,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "eeb5a160-407e-8e75-c51e-a5cd9ae7ee01";
             cim:IdentifiedObject.name  "$BUS_805";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -12798,7 +12798,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7adc3227-1f1e-70ac-89c4-2531e31a22d5";
             cim:IdentifiedObject.name  "$BUS_1461";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:9512b02d-9d17-4af3-8ced-f13d94186c2b> .
     
@@ -12911,7 +12911,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "74881782-5692-d1b0-42d1-0d1c7a1bab8c";
             cim:IdentifiedObject.name  "ST6_A50_MELLBRO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:885b9cc7-e3d8-4868-8b4c-a6975d63649c> .
     
@@ -13191,7 +13191,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "24a4439c-354c-a90e-7135-cd5179fe355c";
             cim:IdentifiedObject.name  "RT131_A50_YTTERF";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1303c35a-11c7-43cb-8906-24654c204ab9> .
     
@@ -13216,7 +13216,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "19ecb673-9d0a-1a0a-f4f2-b1767e260127";
             cim:IdentifiedObject.name  "BP_SD-EH3";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:78525c97-a5b6-4cbb-8028-1236ca2f4a37> .
     
@@ -13290,7 +13290,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "046fc069-1f8d-f9c4-fcb2-cc621d8f919d";
             cim:IdentifiedObject.name  "$BUS_834";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de7ff3a-9e57-4f63-ae19-e890a16d141b> .
     
@@ -13303,7 +13303,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "cbfea527-339f-5d1f-98bc-0a95ab2c8c95";
             cim:IdentifiedObject.name  "STUPET_G4_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4145e899-51e1-4375-a641-df1daf45fa48> .
     
@@ -13400,7 +13400,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a2be4630-be6d-61f1-3261-ace38fce3f19";
             cim:IdentifiedObject.name  "ST10-Q_10_UPPHAL";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:df857ed5-4456-4af5-b180-6de923e5b00f> .
     
@@ -13425,7 +13425,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a179b718-389e-081a-5883-b1cbee30c2e6";
             cim:IdentifiedObject.name  "$BUS_1059";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -13501,7 +13501,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c3ed2137-69de-e4e1-3b47-2bc18a03cdc6";
             cim:IdentifiedObject.name  "$BUS_807";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -13543,7 +13543,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a6ad1619-a9ca-4cc8-6dee-160ae7c32954";
             cim:IdentifiedObject.name  "RUTHUVUD_G3_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4cec73c4-a641-4045-86ba-48801b8cad9a> .
     
@@ -13569,7 +13569,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2a7ef985-128f-ee84-1885-d37e74c66b19";
             cim:IdentifiedObject.name  "$BUS_288";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -13714,7 +13714,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4fa4ed2f-d4b7-1e5b-7186-81d75cdefb0d";
             cim:IdentifiedObject.name  "CT22_A400_STORTR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -13744,7 +13744,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0737732f-1700-b9f4-7c28-9c855c6d6c04";
             cim:IdentifiedObject.name  "FT44_C20_KÄRNAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d5c5954a-cf35-434a-bf34-08132592eef9> .
     
@@ -13946,7 +13946,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "336d636d-2c64-b119-1761-55c4e83d7e28";
             cim:IdentifiedObject.name  "$BUS_737";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -13992,7 +13992,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d530d119-0188-1711-b0cf-90a3cfe7c54c";
             cim:IdentifiedObject.name  "$BUS_1037";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:15c457f1-e9c1-4997-9fc1-6d9e56024df2> .
     
@@ -14059,7 +14059,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "73aa92a0-3b9b-ba77-303e-3f36cd3dbcce";
             cim:IdentifiedObject.name  "CT12_A400_STUPET";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b56c87cd-496b-4830-9037-b0e1a396652f> .
     
@@ -14103,7 +14103,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "de983e78-ce6e-eb0b-b06b-cf640203c685";
             cim:IdentifiedObject.name  "RT132_A130_HÄSTS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:15c457f1-e9c1-4997-9fc1-6d9e56024df2> .
     
@@ -14205,7 +14205,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "fd7a01b9-8fb5-cf0f-c7d0-1ea6754a1c62";
             cim:IdentifiedObject.name  "$BUS_84";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -14382,7 +14382,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "161749ff-c9ed-77c8-b141-324d39381955";
             cim:IdentifiedObject.name  "FT50_B10_SYDKÖPI";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8eb93370-c564-4279-9b11-57b6a3f95e5c> .
     
@@ -14391,7 +14391,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a90f6d7c-ae9f-e806-6299-1dce468cd576";
             cim:IdentifiedObject.name  "ST7_10_SAMMALUND";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:482fd241-efde-4b10-9a19-e6ae0c1b2c37> .
     
@@ -14463,7 +14463,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4c8d6be3-87e4-d41e-0dcf-dbde5635c83e";
             cim:IdentifiedObject.name  "$BUS_300";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -14602,7 +14602,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f96c84b3-0304-d8d0-0093-f0e050881f1a";
             cim:IdentifiedObject.name  "$BUS_295";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -14639,7 +14639,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ac378764-abc0-d081-ffbb-fd79b916a108";
             cim:IdentifiedObject.name  "ST8_10_HEDHABORG";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:bc92b1da-3878-46fc-ad98-51ceb5d59a4e> .
     
@@ -14672,7 +14672,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "95e0d2f4-2899-44f3-a70e-1ec47fb1e211";
             cim:IdentifiedObject.name  "$BUS_1555";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1edc0517-bd63-4b8d-9276-394a42cf61ed> .
     
@@ -14755,7 +14755,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2ba06aaf-7c3d-ef70-f6da-c87fc2b721c5";
             cim:IdentifiedObject.name  "$BUS_520";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -14797,7 +14797,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b1e23f72-566e-263a-2ff2-6ee61a72212d";
             cim:IdentifiedObject.name  "$BUS_824";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2eb7e9fd-b643-435d-81d4-bf0e553538c3> .
     
@@ -14870,7 +14870,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "fe3a8782-d68a-d7df-c209-4d0787db3c0c";
             cim:IdentifiedObject.name  "CT22_C400_STORTR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -15005,7 +15005,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7eb9a812-b863-1a70-07ae-1fe4f7ee7a55";
             cim:IdentifiedObject.name  "CT22_A130_STORTR";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c6db21bf-8950-4aa5-aa46-3a47375f6ef3> .
     
@@ -15197,7 +15197,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2b112922-2dad-02e1-7f52-8237c20f8bc5";
             cim:IdentifiedObject.name  "$BUS_272";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -15210,7 +15210,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "99161d9c-f4d8-20dc-ff30-bd6c759a451d";
             cim:IdentifiedObject.name  "$BUS_1569";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7cd0b58c-70a2-464a-a6a9-f828e19292f9> .
     
@@ -15281,7 +15281,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ee313f89-9745-30d0-116d-a73cf6838cd0";
             cim:IdentifiedObject.name  "$BUS_279";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1eed5c53-4894-4ace-b0ad-fe0bea6eeccd> .
     
@@ -15399,7 +15399,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9833e74e-0d3f-32a7-07b5-8010596b6e3c";
             cim:IdentifiedObject.name  "FT61_A400_ATOMSB";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:9695abb1-3f41-4f62-982f-57de584e5897> .
     
@@ -15432,7 +15432,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "fb939d55-0d1b-4b45-f7ff-1a9306a1c120";
             cim:IdentifiedObject.name  "FT41_C400_DALBO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -15458,7 +15458,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7ec2801e-aa57-6f07-87d4-9e2ca7fb19f5";
             cim:IdentifiedObject.name  "HÄLLAN_G4_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fc4d076c-3e12-4c05-ad72-42b090d114a0> .
     
@@ -15516,7 +15516,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f9afab2f-3592-a5c3-e9f0-4e8419e72c6d";
             cim:IdentifiedObject.name  "HÄLLAN_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fc4d076c-3e12-4c05-ad72-42b090d114a0> .
     
@@ -15560,7 +15560,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "bf75ce1b-4308-56a8-bb90-5a1e0b5619b8";
             cim:IdentifiedObject.name  "ST22_10_KVÄLLSGÅ";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8dc4bc0e-0d26-441d-93fb-c640526fb258> .
     
@@ -15594,7 +15594,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "53f1ce55-fcad-14ee-288f-467047e396b4";
             cim:IdentifiedObject.name  "ST15_10_NYLADA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:acf39328-87dd-40f3-8206-63740d051815> .
     
@@ -15619,7 +15619,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "000d5254-7bcb-1315-12f7-398b1e5400b3";
             cim:IdentifiedObject.name  "FT45_C400_MITTLA";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a> .
     
@@ -15688,7 +15688,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6ef1fd16-86a2-678d-7635-a09202918580";
             cim:IdentifiedObject.name  "CT12_C400_STUPET";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b56c87cd-496b-4830-9037-b0e1a396652f> .
     
@@ -15706,7 +15706,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b3bda3c9-057f-3634-9ea3-c485752e62b2";
             cim:IdentifiedObject.name  "FT42_A400_NORRÅS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:eaa25262-839d-4abf-ad2c-62e2e252bfee> .
     
@@ -15773,7 +15773,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "3eebdace-b367-c9b4-dbb1-5fabbea0d309";
             cim:IdentifiedObject.name  "STUPET_G3_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4145e899-51e1-4375-a641-df1daf45fa48> .
     
@@ -15940,7 +15940,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "39ddf732-9a92-dd6f-e3d7-54432bc353a2";
             cim:IdentifiedObject.name  "RUTHUVUD_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4cec73c4-a641-4045-86ba-48801b8cad9a> .
     
@@ -15969,7 +15969,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "3e5d7b45-f083-4d17-994d-7b2feeaef3b5";
             cim:IdentifiedObject.name  "CT11_A17_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f825d10b-a202-44e8-85d1-e4f78dc3dcf7> .
     
@@ -16031,7 +16031,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "710032de-8ade-8b96-c3c4-afeb788636d3";
             cim:IdentifiedObject.name  "$BUS_286";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -16112,7 +16112,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "500e5d0c-64ba-0c68-d112-52c6326e0ebc";
             cim:IdentifiedObject.name  "ATOMSBORG_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2b3dfc6e-b9db-4c2f-8075-e4b7c0c3080c> .
     
@@ -16134,7 +16134,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "91c7ecf4-3640-4a1d-3e73-d6ba1f239b37";
             cim:IdentifiedObject.name  "ST56_5_VÄSTERDAL";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7b29b41f-a3e7-426c-aa38-06e9253b50ff> .
     
@@ -16160,7 +16160,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "3ce8ad53-c307-c72e-f9a7-78bcaa43dc8f";
             cim:IdentifiedObject.name  "HÄLLAN_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fc4d076c-3e12-4c05-ad72-42b090d114a0> .
     
@@ -16240,7 +16240,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9b911499-edd6-f538-1ba5-331c937e8a70";
             cim:IdentifiedObject.name  "ST5_A10_VÄSTBORG";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5b56e969-b4e9-44b3-8512-fbfb0dbdb601> .
     
@@ -16375,7 +16375,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "efc9a9ec-2122-7b4f-6816-ff069ed7f115";
             cim:IdentifiedObject.name  "$BUS_290";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -16527,7 +16527,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "30a9fa4a-e51b-0777-766d-f4956b86a8b8";
             cim:IdentifiedObject.name  "RT131_C130_YTTER";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b8e4bf45-72bb-42aa-9b61-22fb69ce014a> .
     
@@ -16600,7 +16600,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "966dc21a-3058-0579-a282-a401a7a1c019";
             cim:IdentifiedObject.name  "$BUS_302";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -16609,7 +16609,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "dcb00202-ef7c-16b4-6c3f-1ef86dcfa21a";
             cim:IdentifiedObject.name  "$BUS_1640";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:95ce43c9-f46d-46ba-84d9-383e122fdbbf> .
     
@@ -16773,7 +16773,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e43c5ecc-475f-1298-b831-e988ff2d0656";
             cim:IdentifiedObject.name  "HÄSTSJÖ_G2_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:57d46e9c-5bb5-45ab-844d-2ba69f4bb427> .
     
@@ -16812,7 +16812,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "657df6e2-93f6-753b-7f77-86f199780c0f";
             cim:IdentifiedObject.name  "NORRSELE_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a7f5e1c1-d18a-473d-905f-cb13d4711d89> .
     
@@ -16885,7 +16885,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ad395ef6-6e72-375b-179c-0a457773b752";
             cim:IdentifiedObject.name  "FT44_A400_KÄRNAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -16935,7 +16935,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "25d6f487-1968-aa3f-bc7f-6f669b460a55";
             cim:IdentifiedObject.name  "FT63_A20_SYDBÄCK";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3f1939a1-f6a6-4a6c-a03f-2a62e4e4e97b> .
     
@@ -16978,7 +16978,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "5eb0d41d-ac32-ef27-769e-26d405f56657";
             cim:IdentifiedObject.name  "$BUS_537";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:007dedc8-ce4f-4f2c-b424-bc7b8fe1da30> .
     
@@ -17155,7 +17155,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6bb1fe1a-e65c-82f7-6719-7450ce459938";
             cim:IdentifiedObject.name  "$BUS_829";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fcad8062-867d-4020-8b9c-de5924e80357> .
     
@@ -17239,7 +17239,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "991d0507-cc33-c40b-efd9-43f250cbf952";
             cim:IdentifiedObject.name  "$BUS_275";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -17252,7 +17252,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8a7e8b57-c71e-b422-c0f4-96e85920615c";
             cim:IdentifiedObject.name  "$BUS_81";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     
@@ -17290,7 +17290,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "05694751-016b-6edf-3da9-2cf13d38a317";
             cim:IdentifiedObject.name  "FT44_B20_KÄRNAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d5c5954a-cf35-434a-bf34-08132592eef9> .
     
@@ -17345,7 +17345,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7b534651-a94a-e295-0788-82c6dfae9b9a";
             cim:IdentifiedObject.name  "AT121_A130_OLMÅF";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2eb7e9fd-b643-435d-81d4-bf0e553538c3> .
     
@@ -17407,7 +17407,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "318a095c-10d1-35e2-7190-3b7fde02b3be";
             cim:IdentifiedObject.name  "$BUS_1078";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -17605,7 +17605,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "936ea3f6-27dc-1693-15e5-11a7f59106e8";
             cim:IdentifiedObject.name  "$BUS_833";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c21b8ade-8404-45cf-8e52-6920bd0f85fc> .
     
@@ -17774,7 +17774,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1a25b2a1-33ae-1187-114c-5463f46dda1c";
             cim:IdentifiedObject.name  "FT50_A130_SYDKÖP";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1d45923a-5286-447f-a173-4bc88b6f3fbc> .
     
@@ -17800,7 +17800,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a8cd2d9e-849b-2369-6f97-17dfb54e085f";
             cim:IdentifiedObject.name  "STORTRÄSK_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f41af37d-1fcc-4d2c-abc6-acfc2ad02457> .
     
@@ -17838,7 +17838,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "64ce6880-4d8b-723f-6b66-ab9ecffadcf8";
             cim:IdentifiedObject.name  "ST4_A10_STORÅN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+                    <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:415d60ab-bcab-4b83-a415-721545370220> .
     
@@ -18029,7 +18029,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "04241a35-59b6-19e5-05a6-1e878e0f5b01";
             cim:IdentifiedObject.name  "$BUS_293";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -18150,7 +18150,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1d76efba-7625-3cd7-b723-eff26fa8e65b";
             cim:IdentifiedObject.name  "$BUS_1504";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7b29b41f-a3e7-426c-aa38-06e9253b50ff> .
     
@@ -18202,7 +18202,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "eb1bd744-1920-cf9b-9c34-f621efbda833";
             cim:IdentifiedObject.name  "ST28_10_LÅNGÅKER";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:ac2aff62-67d9-405d-9cfb-60bd0147a33d> .
     
@@ -18314,7 +18314,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d46cff19-efc9-55bc-0109-0d1523f88551";
             cim:IdentifiedObject.name  "CT72_C400_HÄLLAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:de40b9b9-c35d-454b-8e3d-d72eb380ff4b> .
     
@@ -18349,7 +18349,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ac3c7059-a5fa-5280-f82c-33e88b02dea0";
             cim:IdentifiedObject.name  "$BUS_736";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -18374,7 +18374,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "183725e6-2ba8-0463-5e45-0ec83292fbe9";
             cim:IdentifiedObject.name  "BP_SD-EH_DC1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0> .
     
@@ -18508,7 +18508,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ac926244-526d-5d96-1f4e-1b49bb3d9cbc";
             cim:IdentifiedObject.name  "$BUS_294";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:1e19c684-6c9c-41a8-93ef-873e18ebba71> .
     
@@ -18728,7 +18728,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2d56a66a-b8f4-c33a-82e2-dcd4debb39b2";
             cim:IdentifiedObject.name  "FT50_A400_SYDKÖP";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -18779,7 +18779,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "5961198e-6f27-9a51-d3ea-cff2045bd878";
             cim:IdentifiedObject.name  "FT44_A20_KÄRNAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d5c5954a-cf35-434a-bf34-08132592eef9> .
     
@@ -18928,7 +18928,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f0a7280d-9ba0-652b-3407-a26567053cc8";
             cim:IdentifiedObject.name  "RT131_A130_YTTER";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b8e4bf45-72bb-42aa-9b61-22fb69ce014a> .
     
@@ -18978,7 +18978,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e824bcad-5ed5-aa79-383a-a2f23f6fb12b";
             cim:IdentifiedObject.name  "FT42_A130_NORRÅS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:435fcfa7-c9d2-4208-9328-502f314bd723> .
     
@@ -19019,7 +19019,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "6c771d0c-25bd-8be3-f6cb-f7f90bc3ed65";
             cim:IdentifiedObject.name  "ST6_A10_MELLBRO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4d5a6a5b-afd6-442b-877d-f4371f3369dd> .
     
@@ -19319,7 +19319,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "021a8aa7-3f0b-abb4-0502-9515861bef3f";
             cim:IdentifiedObject.name  "STUPET_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:4145e899-51e1-4375-a641-df1daf45fa48> .
     
@@ -19412,7 +19412,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "50950dd2-a582-961c-22c9-6d0063370114";
             cim:IdentifiedObject.name  "$BUS_1072";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c86ea45f-52d0-474a-a386-0028e6de9e56> .
     
@@ -19608,7 +19608,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7219939e-6ac4-d21c-fef0-86bc5a1b1a8b";
             cim:IdentifiedObject.name  "CT71_A400_JAURAS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:007dedc8-ce4f-4f2c-b424-bc7b8fe1da30> .
     
@@ -19818,7 +19818,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "1aaf53d0-88f7-edaf-3ed3-9dabce596193";
             cim:IdentifiedObject.name  "ST4_A50_STORÅN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:567b4585-e951-4540-9512-22a05e88ea77> .
     
@@ -19941,7 +19941,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "66d7840c-d371-3af8-6b9c-68153b176c00";
             cim:IdentifiedObject.name  "$BUS_730";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -20068,7 +20068,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "534b72f9-6851-afc0-ebeb-bf6b8111c009";
             cim:IdentifiedObject.name  "$BUS_938";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a> .
     
@@ -20106,7 +20106,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e19f1adf-53f7-c361-b1ff-d21916438fb9";
             cim:IdentifiedObject.name  "FT42_C130_NORRÅS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:435fcfa7-c9d2-4208-9328-502f314bd723> .
     
@@ -20227,7 +20227,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "dfca29bc-1827-c9a7-e598-7edf5f7da9ca";
             cim:IdentifiedObject.name  "$BUS_291";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:691f4e54-ee0f-4302-8504-f54c943e814d> .
     
@@ -20380,7 +20380,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d8e0bf2c-c18c-24f8-3832-c29772291d8f";
             cim:IdentifiedObject.name  "$BUS_386";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -20509,7 +20509,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c1071813-2ec9-8979-51aa-b5d416f1729b";
             cim:IdentifiedObject.name  "$BUS_273";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:9695abb1-3f41-4f62-982f-57de584e5897> .
     
@@ -20522,7 +20522,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "226d6298-3fe5-9bb6-7da2-7de4c167fd2f";
             cim:IdentifiedObject.name  "$BUS_1588";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:df857ed5-4456-4af5-b180-6de923e5b00f> .
     
@@ -20584,7 +20584,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "5907d7f2-315c-cd41-f59d-3b7463932625";
             cim:IdentifiedObject.name  "$BUS_304";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:f31ff570-44e0-45bc-b21f-49d29b627fdb> .
     
@@ -20680,7 +20680,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "08eadb59-54a9-8107-8dbb-6d39cb64ec10";
             cim:IdentifiedObject.name  "RT132_A10_HÄSTSJ";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b56e0cd2-cb58-4d1d-8e6f-fba527f33fdb> .
     
@@ -20770,7 +20770,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e5c5d205-c70c-f529-77af-be347ee4eaf0";
             cim:IdentifiedObject.name  "$BUS_556";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3de7ff3a-9e57-4f63-ae19-e890a16d141b> .
     
@@ -20791,7 +20791,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e3b5944e-d66b-aea3-70ab-fc5aae09e95a";
             cim:IdentifiedObject.name  "ST12_10_BITTERBO";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:ed287439-8118-42e4-ac38-4a582f64f9a1> .
     
@@ -20813,7 +20813,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "00f2e0f3-70d2-7897-b9bf-92f584735014";
             cim:IdentifiedObject.name  "AT241_A220_NORRS";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a21d1ab3-0657-4920-ad26-6851e1a26aa4> .
     
@@ -20984,7 +20984,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "cce23998-dd77-35d7-a4c7-0cc15c3e139c";
             cim:IdentifiedObject.name  "$BUS_1526";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58> .
     
@@ -20993,7 +20993,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9309e00d-d36b-c781-aced-8e3292af8a45";
             cim:IdentifiedObject.name  "$BUS_299";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:6168cd36-d13e-477f-9f8f-8f2e5ee09d5d> .
     
@@ -21109,7 +21109,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d08391d0-8daf-043a-a4dc-226836b60b84";
             cim:IdentifiedObject.name  "FT63_A400_SYDBÄC";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e3d6577f-4db0-4939-aec9-7168cb89a502> .
     
@@ -21165,7 +21165,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "0409906f-5bc6-5e6b-cf76-4e7038fb812f";
             cim:IdentifiedObject.name  "$BUS_830";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:aef13842-6453-4919-b5b7-2a514e6e8427> .
     
@@ -21269,7 +21269,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9f0dfab5-0ce4-1cc2-9ab7-426503b29a3a";
             cim:IdentifiedObject.name  "$BUS_389";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:5f349efd-156f-4431-a1b6-fb6e17ad5148> .
     
@@ -21332,7 +21332,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "948b985f-f64b-26e7-a10b-d40be0ce4ce1";
             cim:IdentifiedObject.name  "BP_SD-BO1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:35cf638d-9a9d-4ae5-ae90-2f01ef898cb6>;
+                    <urn:uuid:b88e6bde11264fea83355102cd4f182c>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:77ca5612-67a1-4a52-a180-86560777ab4a> .
     
@@ -21498,7 +21498,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ef19526e-6b32-46d6-f310-941be6d9d67d";
             cim:IdentifiedObject.name  "FT47_C400_ERIKSH";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8bb9206e-ba47-4ce1-9d10-8a1c8913f2ff> .
     
@@ -21612,7 +21612,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "11108d60-b837-2921-7f1f-6a0da3ddcf98";
             cim:IdentifiedObject.name  "CT11_A130_AGGAN";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fcad8062-867d-4020-8b9c-de5924e80357> .
     
@@ -21764,7 +21764,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "8d40ea9a-586c-6d14-f924-1349c33b41b8";
             cim:IdentifiedObject.name  "$BUS_301";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -21859,7 +21859,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "83429171-e6bb-29ac-aefd-43535526ebbf";
             cim:IdentifiedObject.name  "NJAGGO_G1_CNODE";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+                    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2f7598d2-f3e2-490c-bb0c-72a10dc31bed> .
     
@@ -21962,7 +21962,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ee083427-18e6-bfa8-eef0-1cf0a3bdebb5";
             cim:IdentifiedObject.name  "$BUS_826";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a21d1ab3-0657-4920-ad26-6851e1a26aa4> .
     
@@ -22014,7 +22014,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "d78e73a0-b161-38d3-45e7-1da925980c1f";
             cim:IdentifiedObject.name  "$BUS_1567";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7cd0b58c-70a2-464a-a6a9-f828e19292f9> .
     
@@ -22114,7 +22114,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "e40c2169-6d14-d9c0-7127-3824ce77b6ce";
             cim:IdentifiedObject.name  "$BUS_729";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:7e1770b2-6e55-4590-9fa3-66f56b6b395a> .
     
@@ -22193,7 +22193,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "61e58ca7-fd1d-2ae1-5aa3-a84d0328abb0";
             cim:IdentifiedObject.name  "ST31_10_MÅNSVIK";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:ecf191a7-b93d-4619-ad24-52a8369be577> .
     
@@ -22258,7 +22258,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2421fc84-ed81-7767-76e9-cee5b61eab99";
             cim:IdentifiedObject.name  "$BUS_292";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:fde246b9-5515-487e-ae4a-152132b1abb2> .
     

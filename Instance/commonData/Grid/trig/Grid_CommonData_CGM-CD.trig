@@ -18,12 +18,12 @@ PREFIX rdfg:     <http://www.w3.org/2004/03/trix/rdfg-1/>
 PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3> {
-    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>
+    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "50"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 50.00 kV";
-            cim:IdentifiedObject.mRID       "48b1ff5c-a806-a525-91f9-c7284c2441b1";
+            cim:IdentifiedObject.mRID       "ea1227e9-1547-ed65-cd87-ed85a8674758";
             cim:IdentifiedObject.name       "50.00 kV";
             eu:IdentifiedObject.shortName   "50.00 kV" .
     
@@ -47,25 +47,25 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:BaseVoltage.nominalVoltage  "15.75"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 15.75 kV";
-            cim:IdentifiedObject.mRID       "f61a400c-1523-9ab0-b15a-aeb120740bae";
+            cim:IdentifiedObject.mRID       "c1d5bff18f8011e08e4d00247eb1f55e";
             cim:IdentifiedObject.name       "15.75 kV";
             eu:IdentifiedObject.shortName   "15.75 kV" .
     
-    <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>
+    <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "10"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 10.00 kV";
-            cim:IdentifiedObject.mRID       "bfebf309-31ec-6347-b252-1761b35a5dc0";
+            cim:IdentifiedObject.mRID       "45b9413e-a116-4952-8cf8-aeb4b2e53348";
             cim:IdentifiedObject.name       "10.00 kV";
             eu:IdentifiedObject.shortName   "10.00 kV" .
     
-    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>
+    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "135"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 135.00 kV";
-            cim:IdentifiedObject.mRID       "9890dee4-2395-9dde-fde9-7089b80923da";
+            cim:IdentifiedObject.mRID       "eb0254c2727143979b93e4d1bb1d59d8";
             cim:IdentifiedObject.name       "135.00 kV";
             eu:IdentifiedObject.shortName   "135.00 kV" .
     
@@ -77,12 +77,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "Marine";
             eu:IdentifiedObject.shortName  "EH-Marine" .
     
-    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>
+    <urn:uuid:7891a026ba2c42098556665efd13ba94>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "220"^^xsd:float;
             cim:IdentifiedObject.description
                     "Base Voltage 220 kV";
-            cim:IdentifiedObject.mRID       "a7f1d8de-d658-428a-821b-3a5ae5965fd1";
+            cim:IdentifiedObject.mRID       "7891a026ba2c42098556665efd13ba94";
             cim:IdentifiedObject.name       "220 kV";
             eu:IdentifiedObject.shortName   "220" .
     
@@ -94,12 +94,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "Waste";
             eu:IdentifiedObject.shortName  "EHT-Waste" .
     
-    <urn:uuid:54191047-8b9e-8735-ed0d-5e1421d2e9dc>
+    <urn:uuid:2798b33d-c534-45f2-9252-a1ea9b3247c6>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "125"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 125.00 kV";
-            cim:IdentifiedObject.mRID       "54191047-8b9e-8735-ed0d-5e1421d2e9dc";
+            cim:IdentifiedObject.mRID       "2798b33d-c534-45f2-9252-a1ea9b3247c6";
             cim:IdentifiedObject.name       "125.00 kV";
             eu:IdentifiedObject.shortName   "125.00 kV" .
     
@@ -112,12 +112,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name       "225 kV";
             eu:IdentifiedObject.shortName   "225" .
     
-    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>
+    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "20"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 20.00 kV";
-            cim:IdentifiedObject.mRID       "5ad52fa6-29ea-57c1-d7c0-c286b152994b";
+            cim:IdentifiedObject.mRID       "4ace87c9-16c7-4097-914f-d4551d7d8cd5";
             cim:IdentifiedObject.name       "20.00 kV";
             eu:IdentifiedObject.shortName   "20.00 kV" .
     
@@ -129,12 +129,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "Other renewable";
             eu:IdentifiedObject.shortName  "OtherRenew" .
     
-    <urn:uuid:0753bbfb-6f92-863c-67b6-5bee9d3f96d1>
+    <urn:uuid:4bd4054c530445289e31df0770d1c939>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "132"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 132.00 kV";
-            cim:IdentifiedObject.mRID       "0753bbfb-6f92-863c-67b6-5bee9d3f96d1";
+            cim:IdentifiedObject.mRID       "4bd4054c530445289e31df0770d1c939";
             cim:IdentifiedObject.name       "132.00 kV";
             eu:IdentifiedObject.shortName   "132.00 kV" .
     
@@ -157,21 +157,21 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     "10T-NR-NR-000001";
             eu:IdentifiedObject.shortName  "NR" .
     
-    <urn:uuid:9a73490b-5902-c619-abc0-27a2dcd5fc08>
+    <urn:uuid:1cefd53a-79bd-4ad4-aa9a-5a4ad0191ce2>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "21"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 21.00 kV";
-            cim:IdentifiedObject.mRID       "9a73490b-5902-c619-abc0-27a2dcd5fc08";
+            cim:IdentifiedObject.mRID       "1cefd53a-79bd-4ad4-aa9a-5a4ad0191ce2";
             cim:IdentifiedObject.name       "21.00 kV";
             eu:IdentifiedObject.shortName   "21.00 kV" .
     
-    <urn:uuid:b9c742b7-c44a-98ba-aa4b-032717c19b2f>
+    <urn:uuid:c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "33"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 33.00 kV";
-            cim:IdentifiedObject.mRID       "b9c742b7-c44a-98ba-aa4b-032717c19b2f";
+            cim:IdentifiedObject.mRID       "c6dd6dc7-d8b0-4beb-b78d-9e472b038ffc";
             cim:IdentifiedObject.name       "33.00 kV";
             eu:IdentifiedObject.shortName   "33.00 kV" .
     
@@ -191,39 +191,63 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             dcat:version       "1";
             json-ld:base       "http://ninerealms.nr/CommonData#" .
     
-    <urn:uuid:06ce9549-acf6-8660-f06e-cb39aa8c1000>
+    <urn:uuid:b8e17237e0ca4fca9e4e285b80ab30d0>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "110"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 110.00 kV";
-            cim:IdentifiedObject.mRID       "06ce9549-acf6-8660-f06e-cb39aa8c1000";
+            cim:IdentifiedObject.mRID       "b8e17237e0ca4fca9e4e285b80ab30d0";
             cim:IdentifiedObject.name       "110.00 kV";
             eu:IdentifiedObject.shortName   "110.00 kV" .
     
-    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>
+    <urn:uuid:65dd04e792584b3b912374e35dec032e>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "400"^^xsd:float;
             cim:IdentifiedObject.description
                     "Base Voltage 400 kV";
-            cim:IdentifiedObject.mRID       "597e44dc-2a6e-4c62-82f3-f82cc46e0e14";
+            cim:IdentifiedObject.mRID       "65dd04e792584b3b912374e35dec032e";
             cim:IdentifiedObject.name       "400 kV";
             eu:IdentifiedObject.shortName   "400" .
     
+<<<<<<< HEAD
     <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>
+=======
+    <urn:uuid:7bf89875-1476-4d1a-a56d-a2965cce3575>
+            rdf:type                       cim:GeographicalRegion;
+            cim:IdentifiedObject.description
+                    "Belgovia geographical region";
+            cim:IdentifiedObject.mRID      "7bf89875-1476-4d1a-a56d-a2965cce3575";
+            cim:IdentifiedObject.name      "Belgovia";
+            eu:IdentifiedObject.shortName  "BO" .
+    
+    <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>
+>>>>>>> 2428ce1 (Merge pull request #305 from entsoe/base-voltage-id-fix)
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "17"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 17.00 kV";
-            cim:IdentifiedObject.mRID       "08a35d61-b276-247a-1f63-1bbfabcdb4a8";
+            cim:IdentifiedObject.mRID       "55ecbc58-19e7-41ba-84e3-094b57b66fc3";
             cim:IdentifiedObject.name       "17.00 kV";
             eu:IdentifiedObject.shortName   "17.00 kV" .
     
+<<<<<<< HEAD
     <urn:uuid:5ff755c5-dd8d-b345-1221-44482d996bb3>
+=======
+    <urn:uuid:efc79870-d704-485e-a37b-0cf2e8e7657b>
+            rdf:type                       cim:GeographicalRegion;
+            cim:IdentifiedObject.description
+                    "Galia geographical region";
+            cim:IdentifiedObject.mRID      "efc79870-d704-485e-a37b-0cf2e8e7657b";
+            cim:IdentifiedObject.name      "Galia";
+            eu:IdentifiedObject.shortName  "GA" .
+    
+    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>
+>>>>>>> 2428ce1 (Merge pull request #305 from entsoe/base-voltage-id-fix)
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "150"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 150.00 kV";
-            cim:IdentifiedObject.mRID       "5ff755c5-dd8d-b345-1221-44482d996bb3";
+            cim:IdentifiedObject.mRID       "e50ca4bd591d4c30bd6eca3635f70516";
             cim:IdentifiedObject.name       "150.00 kV";
             eu:IdentifiedObject.shortName   "150.00 kV" .
     
@@ -235,12 +259,12 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name      "Co-generation";
             eu:IdentifiedObject.shortName  "CoGen" .
     
-    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>
+    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "11"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 11.00 kV";
-            cim:IdentifiedObject.mRID       "4e4ee30c-99eb-427c-d658-50a770c2b346";
+            cim:IdentifiedObject.mRID       "c8f7a2b8-a325-461f-a6d4-e74a1476ba2a";
             cim:IdentifiedObject.name       "11.00 kV";
             eu:IdentifiedObject.shortName   "11.00 kV" .
     
@@ -257,30 +281,30 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "9356077b-f716-0d6c-0cac-32c074bd8fa3";
             cim:IdentifiedObject.name  "NH" .
     
-    <urn:uuid:a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac>
+    <urn:uuid:2f42290332354b55b66aa149044ffdb2>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "300"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 300.00 kV";
-            cim:IdentifiedObject.mRID       "a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac";
+            cim:IdentifiedObject.mRID       "2f42290332354b55b66aa149044ffdb2";
             cim:IdentifiedObject.name       "300.00 kV";
             eu:IdentifiedObject.shortName   "300.00 kV" .
     
-    <urn:uuid:35cf638d-9a9d-4ae5-ae90-2f01ef898cb6>
+    <urn:uuid:b88e6bde11264fea83355102cd4f182c>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "380"^^xsd:float;
             cim:IdentifiedObject.description
                     "Base Voltage 380 kV";
-            cim:IdentifiedObject.mRID       "35cf638d-9a9d-4ae5-ae90-2f01ef898cb6";
+            cim:IdentifiedObject.mRID       "b88e6bde11264fea83355102cd4f182c";
             cim:IdentifiedObject.name       "380 kV";
             eu:IdentifiedObject.shortName   "380" .
     
-    <urn:uuid:6173a8a3-9ede-c7b9-4d0d-c6f11725bc99>
+    <urn:uuid:862a4658-6b03-4550-9de2-b5c413912b75>
             rdf:type                        cim:BaseVoltage;
             cim:BaseVoltage.nominalVoltage  "10.5"^^xsd:float;
             cim:IdentifiedObject.description
                     "BaseVoltage 10.50 kV";
-            cim:IdentifiedObject.mRID       "6173a8a3-9ede-c7b9-4d0d-c6f11725bc99";
+            cim:IdentifiedObject.mRID       "862a4658-6b03-4550-9de2-b5c413912b75";
             cim:IdentifiedObject.name       "10.50 kV";
             eu:IdentifiedObject.shortName   "10.50 kV" .
     

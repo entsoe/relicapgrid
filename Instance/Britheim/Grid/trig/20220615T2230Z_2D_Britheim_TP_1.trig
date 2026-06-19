@@ -74,7 +74,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "232c1486-9c30-f45b-399c-2c3fe489670b";
             cim:IdentifiedObject.name  "Terminal_GA-BH_A220";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2a1a7497-5dbe-4f36-8779-db1b1a4c37e2> .
     
@@ -178,7 +178,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f2e0b01a-112b-51ff-fc9e-27551521d5ab";
             cim:IdentifiedObject.name  "TAC A";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac>;
+                    <urn:uuid:2f42290332354b55b66aa149044ffdb2>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:100482f8-7d76-4682-a4b3-40795bf55656> .
     
@@ -192,7 +192,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "344411c7-d5e4-59bc-419b-b4e1ab483a2e";
             cim:IdentifiedObject.name  "TerminalBH1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:3f5f9f0a-351f-ddbc-fbc9-8ecb130812f8> .
     
@@ -201,7 +201,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b4c57b86-875d-da4a-d6d1-1b30101eaaab";
             cim:IdentifiedObject.name  "BP_GA-BH1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:dbd82264-a684-4b87-946d-a5a02714daa9> .
     
@@ -210,7 +210,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c3d081d4-3414-a753-24d6-4e93d0f01d89";
             cim:IdentifiedObject.name  "Terminal_BH-GA_B220";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:2a1a7497-5dbe-4f36-8779-db1b1a4c37e2> .
     
@@ -242,7 +242,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "06972def-239c-97c3-1dfe-d8b394a3084a";
             cim:IdentifiedObject.name  "TAC B";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac>;
+                    <urn:uuid:2f42290332354b55b66aa149044ffdb2>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:100482f8-7d76-4682-a4b3-40795bf55656> .
     

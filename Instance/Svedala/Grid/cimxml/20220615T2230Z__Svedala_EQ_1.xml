@@ -20,7 +20,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>9.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>128</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bd564e64-0f49-4f47-8f9a-9c1757d94c69"/>
     <cim:IdentifiedObject.mRID>c77668c9-6993-4391-8c03-29fc802ad605</cim:IdentifiedObject.mRID>
@@ -31,7 +31,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.5351</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>20.2808</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_72617dff-0a85-44c8-b864-0823765e3291"/>
     <cim:IdentifiedObject.mRID>b2a3ba57-d592-4bc9-b4cb-8a78cf8a0bb6</cim:IdentifiedObject.mRID>
@@ -42,7 +42,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_80de0e8a-10c2-4063-82cf-a5e1e50e5a2c"/>
     <cim:IdentifiedObject.mRID>c74e2c04-c55f-46b5-839a-a38d09653d2a</cim:IdentifiedObject.mRID>
@@ -53,7 +53,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>32</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_90dd0484-6f93-443a-949b-6fc6f8c4f21c"/>
     <cim:IdentifiedObject.mRID>628cee38-ba9c-4fdd-915d-1dd7857a8f66</cim:IdentifiedObject.mRID>
@@ -64,7 +64,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.3551</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.5373</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bc709ae4-f10c-4f63-8c17-a46b245079e7"/>
     <cim:IdentifiedObject.mRID>f9afd596-8e07-433a-9256-0f12f71c1603</cim:IdentifiedObject.mRID>
@@ -75,7 +75,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.62596</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>49.702</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_074cc2d5-7bf9-473c-8813-0ab93c0d91b3"/>
     <cim:IdentifiedObject.mRID>f044d5f4-5fba-4eb4-be7b-a7625fda85e4</cim:IdentifiedObject.mRID>
@@ -86,7 +86,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>12.8</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4e146ade-9310-4818-a301-50f419ff5e34"/>
     <cim:IdentifiedObject.mRID>2fee64cd-e920-4858-a96f-0bf81be36124</cim:IdentifiedObject.mRID>
@@ -97,7 +97,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>4.8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>48</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_98288844-5f4e-4152-9891-f0ff04486b33"/>
     <cim:IdentifiedObject.mRID>c30585bb-fe3f-404f-91c6-c5cb91948418</cim:IdentifiedObject.mRID>
@@ -108,7 +108,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_558f0309-bb35-4049-9ecb-ccb52a6f53c6"/>
     <cim:IdentifiedObject.mRID>9d0a03df-2f49-42cb-86a7-3476fbf7766b</cim:IdentifiedObject.mRID>
@@ -119,7 +119,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4cfadb98-4269-4c34-a3eb-b26fc1c38b1b"/>
     <cim:IdentifiedObject.mRID>b13ae298-dcdb-4600-810f-c0adc11dbb3b</cim:IdentifiedObject.mRID>
@@ -130,7 +130,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.22968</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>3.90497</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_35254854-8813-45e9-9989-13dc9b22deb9"/>
     <cim:IdentifiedObject.mRID>acb7d38e-ef2f-431a-bcef-232539693dc4</cim:IdentifiedObject.mRID>
@@ -141,7 +141,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ddb2b234-25ae-43e1-8a46-8285fea9a6ee"/>
     <cim:IdentifiedObject.mRID>61a16c63-5938-47fc-8648-13275aae3140</cim:IdentifiedObject.mRID>
@@ -152,7 +152,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.42249</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>47.3194</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e2840723-9d13-4460-b437-a683b31c5843"/>
     <cim:IdentifiedObject.mRID>08464663-7dbf-4195-9754-a6ff63c421d6</cim:IdentifiedObject.mRID>
@@ -163,7 +163,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>16</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e2ff5640-b35c-45ad-aaf5-806d306e8b02"/>
     <cim:IdentifiedObject.mRID>5da94c86-8568-4013-88a1-55551e425a1e</cim:IdentifiedObject.mRID>
@@ -174,7 +174,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>9.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>96</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_9c763114-4fc7-4460-a5c0-ccd87c11e4cc"/>
     <cim:IdentifiedObject.mRID>ef11fdd0-7dc8-4df7-a635-251ff310d171</cim:IdentifiedObject.mRID>
@@ -196,7 +196,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_49d0ceb1-fb33-454e-9e9a-8e6f72f3883e"/>
     <cim:IdentifiedObject.mRID>75a3b7bd-65e4-4e35-b0e5-f5b21c3c4977</cim:IdentifiedObject.mRID>
@@ -207,7 +207,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>8.44911</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>50.7001</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_751e7004-9dda-4f23-b16e-aee6c4b62941"/>
     <cim:IdentifiedObject.mRID>268d6965-c800-4aa8-8b54-bd80a7c21058</cim:IdentifiedObject.mRID>
@@ -218,7 +218,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>32</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_305dab12-afc9-4357-9310-da2c54ec83bb"/>
     <cim:IdentifiedObject.mRID>52a29d0b-d382-4a5e-ba4e-84d8fa606246</cim:IdentifiedObject.mRID>
@@ -229,7 +229,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.3551</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.5373</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_c1a75785-debe-400a-ba0a-3570facf8e48"/>
     <cim:IdentifiedObject.mRID>ce123500-56ec-4101-b876-aff2e9abf5c3</cim:IdentifiedObject.mRID>
@@ -240,7 +240,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_462cfc08-cfef-4f6c-9e90-663ebbcc76bc"/>
     <cim:IdentifiedObject.mRID>96a5fd18-e4cc-4a64-b146-46b1d4c1a909</cim:IdentifiedObject.mRID>
@@ -251,7 +251,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>4.8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>48</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_c088308d-bce2-40af-95fc-d1a947f23019"/>
     <cim:IdentifiedObject.mRID>f0dee14e-aa43-411e-a2ea-b9879c20f3be</cim:IdentifiedObject.mRID>
@@ -262,7 +262,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_42a90dd8-c7c3-48a2-94d6-2a4e33efbd5e"/>
     <cim:IdentifiedObject.mRID>e4a69d52-39eb-4add-988c-cc864e50e5ff</cim:IdentifiedObject.mRID>
@@ -273,7 +273,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>9.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>133.28</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_aa3f0804-560a-4205-8430-1905fb46e7be"/>
     <cim:IdentifiedObject.mRID>b7ebe594-e470-4a2f-9cbe-c83e4dbb9379</cim:IdentifiedObject.mRID>
@@ -284,7 +284,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>32</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_9c4c7d8b-cb1e-491e-9283-47cf8fb75031"/>
     <cim:IdentifiedObject.mRID>91ac9bdf-784d-405b-8b51-e5cb76cf8745</cim:IdentifiedObject.mRID>
@@ -295,7 +295,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.05445</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.2057</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e6b53c8d-12d8-49b9-9202-8fe1f057aa6d"/>
     <cim:IdentifiedObject.mRID>409e3cb7-f24c-4abb-899a-9c83f685d114</cim:IdentifiedObject.mRID>
@@ -306,7 +306,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4666c97a-dffc-45a0-b5e6-77731d6ece08"/>
     <cim:IdentifiedObject.mRID>ebe26128-0b1e-409c-841f-0c1bd4829039</cim:IdentifiedObject.mRID>
@@ -317,7 +317,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.10316</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>10.5122</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_53ba0471-0328-482b-986b-a987c0f3132a"/>
     <cim:IdentifiedObject.mRID>877b0778-89f2-4a78-89f0-6391553b97d9</cim:IdentifiedObject.mRID>
@@ -328,7 +328,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_48098558-ea00-454d-8485-4f1586bd1e2b"/>
     <cim:IdentifiedObject.mRID>31e184a9-e736-41d8-8c64-d1c230021303</cim:IdentifiedObject.mRID>
@@ -339,7 +339,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_a4e81402-8862-48c8-bf60-027a880ac166"/>
     <cim:IdentifiedObject.mRID>3dd0b210-c76e-4f8a-a430-caa2a6c8ba20</cim:IdentifiedObject.mRID>
@@ -350,7 +350,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_971f75a6-27b5-4d8e-abaf-1cbbeb1f1745"/>
     <cim:IdentifiedObject.mRID>c8cdfc99-55e9-413b-8c5b-6904d8ced67d</cim:IdentifiedObject.mRID>
@@ -361,7 +361,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.68946</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>13.5193</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_7c0279b5-c3cd-4a3c-8a93-0ea64b148794"/>
     <cim:IdentifiedObject.mRID>45d46be7-6419-4054-817b-f0423329b51b</cim:IdentifiedObject.mRID>
@@ -372,7 +372,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>16</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>106.72</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_970ba5f7-656d-4a91-88ad-b61608857a79"/>
     <cim:IdentifiedObject.mRID>20119a6d-5ad3-4d08-aed7-79b476537602</cim:IdentifiedObject.mRID>
@@ -383,7 +383,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.68946</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>10.1404</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e9f0d2c3-17a7-4217-a9f0-4a0b10af26e3"/>
     <cim:IdentifiedObject.mRID>c6278b38-b777-4ad9-b395-50c4009afdff</cim:IdentifiedObject.mRID>
@@ -394,7 +394,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.10316</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>14.7167</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ea51e176-9327-405f-8ed5-c5c00ab37886"/>
     <cim:IdentifiedObject.mRID>d78418ce-7741-48a3-9301-18661647c908</cim:IdentifiedObject.mRID>
@@ -405,7 +405,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ca144243-b197-45f4-affe-d437a80ee881"/>
     <cim:IdentifiedObject.mRID>5a864c5e-6581-49c6-8dc4-bf0378ab3a22</cim:IdentifiedObject.mRID>
@@ -416,7 +416,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.22968</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>3.90497</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_a51c8f2a-7456-429c-ae13-bc54d97e04b7"/>
     <cim:IdentifiedObject.mRID>ff86a9e9-808f-43d1-b441-eb6614c88db7</cim:IdentifiedObject.mRID>
@@ -427,7 +427,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_fb2b26fd-b31e-459d-866c-156a8115901d"/>
     <cim:IdentifiedObject.mRID>81345924-7369-431a-aefb-35f14ad8c0c6</cim:IdentifiedObject.mRID>
@@ -438,7 +438,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_8a738027-5d01-4b3e-81c8-bb967bc074e1"/>
     <cim:IdentifiedObject.mRID>8122c574-0501-483c-9cf4-1a8e74325a7c</cim:IdentifiedObject.mRID>
@@ -449,7 +449,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>4.8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>48</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_88c87801-8ebb-4e87-80c4-4501e868bfbc"/>
     <cim:IdentifiedObject.mRID>b676e63f-e89a-4bd7-b786-95fe458298eb</cim:IdentifiedObject.mRID>
@@ -460,7 +460,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_9b237690-d340-47a7-958f-5d7110c53a6f"/>
     <cim:IdentifiedObject.mRID>ed362cb5-c16b-47cc-9a3e-d994b504d5a8</cim:IdentifiedObject.mRID>
@@ -471,7 +471,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_27f27bb8-c07b-4cda-a94c-97ab301f6446"/>
     <cim:IdentifiedObject.mRID>3fb0eb88-7c1e-4cfd-94e4-a70f591191de</cim:IdentifiedObject.mRID>
@@ -482,7 +482,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.62596</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>49.702</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ec007cd5-edd7-4800-97e3-aa2ae1f6a505"/>
     <cim:IdentifiedObject.mRID>b267ac72-2096-431f-882a-8139bc5c4615</cim:IdentifiedObject.mRID>
@@ -493,7 +493,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4a692d85-3340-480c-b0de-f7dbc297b91b"/>
     <cim:IdentifiedObject.mRID>fc724d3d-846d-4db7-92e8-08f5b29f5355</cim:IdentifiedObject.mRID>
@@ -504,7 +504,7 @@
     <cim:ACLineSegment.gch>1e-6</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.034</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.4</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>1</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_78525c97-a5b6-4cbb-8028-1236ca2f4a37"/>
     <cim:IdentifiedObject.mRID>4c390dab-3499-4a9f-9cee-5877081479ab</cim:IdentifiedObject.mRID>
@@ -515,7 +515,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>9.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>128</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_35df9a0a-cbe9-4b0b-a2e9-5151ce829644"/>
     <cim:IdentifiedObject.mRID>8455f014-d0a0-4712-ad70-8275de3b2ee8</cim:IdentifiedObject.mRID>
@@ -526,7 +526,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_d4a12294-a41e-4ed9-88e6-5e24eae2037b"/>
     <cim:IdentifiedObject.mRID>840bb6ae-8734-454d-b00e-00873fe3c412</cim:IdentifiedObject.mRID>
@@ -537,7 +537,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>17.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>128</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ba7edf50-7416-48af-b455-718f5974b8d6"/>
     <cim:IdentifiedObject.mRID>c1324554-fa88-4259-9782-b3aaf0cb97d2</cim:IdentifiedObject.mRID>
@@ -548,7 +548,7 @@
     <cim:ACLineSegment.gch>5e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.7</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>20</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>50</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3"/>
     <cim:IdentifiedObject.mRID>891e77ff-39c6-4648-8eda-d81f730271f9</cim:IdentifiedObject.mRID>
@@ -559,7 +559,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4f5e7034-312e-4846-b5c3-85ccd4ba691b"/>
     <cim:IdentifiedObject.mRID>5db4c69e-6da5-416e-920a-04910c408848</cim:IdentifiedObject.mRID>
@@ -570,7 +570,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>16</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_3204a51f-58e4-4a27-a947-91ea907aa471"/>
     <cim:IdentifiedObject.mRID>26f7a4d5-60b8-4864-bb5e-311f20242300</cim:IdentifiedObject.mRID>
@@ -581,7 +581,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>80</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_cccc7d1b-c2bc-4e20-a825-1dfaf354dc40"/>
     <cim:IdentifiedObject.mRID>134e7e0a-4c7e-4faf-923f-6c15e53792d3</cim:IdentifiedObject.mRID>
@@ -592,7 +592,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_b5213e8b-a918-4a71-b2aa-db3c8610feb8"/>
     <cim:IdentifiedObject.mRID>f9359686-3f5f-45e1-8122-0c677d0e366b</cim:IdentifiedObject.mRID>
@@ -603,7 +603,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.94334</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>18.923</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_8f8ed7dc-012f-4edc-9b9f-c26e7471da3a"/>
     <cim:IdentifiedObject.mRID>a41edad5-0610-4ac5-bcfc-d46bea6f9d4e</cim:IdentifiedObject.mRID>
@@ -614,7 +614,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.22968</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>3.90497</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_40234320-1071-4945-9e72-e75a09bf1d39"/>
     <cim:IdentifiedObject.mRID>18d5cc2d-20f6-4f20-93cc-9e97fefc3597</cim:IdentifiedObject.mRID>
@@ -625,7 +625,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>56</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e4f22acd-7410-42e7-84bb-848487ec8184"/>
     <cim:IdentifiedObject.mRID>385facd6-d38a-4778-a93c-7b32b071b5ee</cim:IdentifiedObject.mRID>
@@ -636,7 +636,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_651c8852-2310-4b2b-af51-dc383d9a99ea"/>
     <cim:IdentifiedObject.mRID>cc663ad5-16a2-42d5-8cbb-7043d34825b8</cim:IdentifiedObject.mRID>
@@ -647,7 +647,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.10316</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>10.5122</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bfc571b6-7dd7-491e-8b0e-2f381eff5fc1"/>
     <cim:IdentifiedObject.mRID>f2df8633-f95a-410c-bc0f-2a1abaf92880</cim:IdentifiedObject.mRID>
@@ -658,7 +658,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>16</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>160</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bf72c08f-ca8a-4dd6-98c4-395e2a92f534"/>
     <cim:IdentifiedObject.mRID>d5c0d6d6-b846-4406-9739-066ee473d945</cim:IdentifiedObject.mRID>
@@ -669,7 +669,7 @@
     <cim:ACLineSegment.gch>0.0001</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>5</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_35cf638d-9a9d-4ae5-ae90-2f01ef898cb6"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_b88e6bde11264fea83355102cd4f182c"/>
     <cim:Conductor.length>100</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_54a2e470-ef70-443f-ae81-bcf2d117caa3"/>
     <cim:IdentifiedObject.mRID>ce3112ee-bb8d-48b3-a1b0-689cf7585fd6</cim:IdentifiedObject.mRID>
@@ -680,7 +680,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>24</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_4e10a7e2-ab9d-43e6-a1b1-77af2bfad76e"/>
     <cim:IdentifiedObject.mRID>498410ba-8b68-4418-91ae-e0848698bf06</cim:IdentifiedObject.mRID>
@@ -691,7 +691,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_90bb8d7b-270f-4da1-a9eb-dd53c3fdf43d"/>
     <cim:IdentifiedObject.mRID>ff8f255b-7395-4cfc-a258-141c2e520b64</cim:IdentifiedObject.mRID>
@@ -702,7 +702,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_0a0d704c-50e8-4499-9cee-35c4fcf2f260"/>
     <cim:IdentifiedObject.mRID>92d29b33-1d7f-4b36-bda0-e1ffa053bf06</cim:IdentifiedObject.mRID>
@@ -713,7 +713,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.94334</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>18.923</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_59040595-aad8-4a88-a3e7-700b03dd102b"/>
     <cim:IdentifiedObject.mRID>68576ea0-50b7-4484-997c-e18bc4feee91</cim:IdentifiedObject.mRID>
@@ -724,7 +724,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e832c92c-7b49-47c9-8ddc-c0718272bf9c"/>
     <cim:IdentifiedObject.mRID>846117e4-d436-4b37-a4b3-6a8d6eaae2bc</cim:IdentifiedObject.mRID>
@@ -735,7 +735,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>32</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_cf3719bb-b0d8-40b7-ae33-70ffd1bc8a1f"/>
     <cim:IdentifiedObject.mRID>7ee13d9a-ada9-4272-b3e8-c4a8c57d3dc4</cim:IdentifiedObject.mRID>
@@ -746,7 +746,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_1c22af8a-c9b4-4105-87f8-da12e944c463"/>
     <cim:IdentifiedObject.mRID>889ff644-5a23-4de5-98d4-9de939e688c0</cim:IdentifiedObject.mRID>
@@ -757,7 +757,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>3.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>32</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_674e275e-b9aa-4965-a148-89c0a6050f61"/>
     <cim:IdentifiedObject.mRID>f6bc0b3b-7e66-428f-bffd-dc09f3ae3c65</cim:IdentifiedObject.mRID>
@@ -768,7 +768,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_391aa915-3a77-427e-9f0e-0adb99b9418d"/>
     <cim:IdentifiedObject.mRID>e43c6518-376c-4907-9e31-7ae4d87468aa</cim:IdentifiedObject.mRID>
@@ -779,7 +779,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.42249</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>47.3194</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_0868276f-8b82-47d2-a641-95cab0ab68eb"/>
     <cim:IdentifiedObject.mRID>fb096d3d-b18c-475a-bc2f-29344c55715f</cim:IdentifiedObject.mRID>
@@ -790,7 +790,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.30767</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>42.0505</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_58499c12-2b24-4437-9375-352350499a84"/>
     <cim:IdentifiedObject.mRID>eec142b7-df7b-4276-87d7-613662be7dd1</cim:IdentifiedObject.mRID>
@@ -801,7 +801,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>4.8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>48</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bc911d00-63b3-47c3-ab33-e05b8fa3f3d1"/>
     <cim:IdentifiedObject.mRID>77672b4f-7be7-4b8a-bef2-8ff06908ae96</cim:IdentifiedObject.mRID>
@@ -812,7 +812,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.5351</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>20.2808</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_aaf63004-8c8b-4c23-bff9-f382d587e0f0"/>
     <cim:IdentifiedObject.mRID>b2dc8985-174a-4e4e-970c-65ee87af809d</cim:IdentifiedObject.mRID>
@@ -823,7 +823,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_8bddd868-8494-4d47-a091-f599a43158f0"/>
     <cim:IdentifiedObject.mRID>f91005a2-26f6-4478-9454-adc4bb014a01</cim:IdentifiedObject.mRID>
@@ -845,7 +845,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.30767</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>42.0505</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_73885d5c-76eb-4dcf-8da1-acc920e500b9"/>
     <cim:IdentifiedObject.mRID>dec54c37-c666-4193-8ffe-a9754d0e2753</cim:IdentifiedObject.mRID>
@@ -856,7 +856,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>72</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e0985c75-3035-4172-9155-b9622cecf818"/>
     <cim:IdentifiedObject.mRID>e02e1166-1c43-4a4d-8c5a-82298ee0c8f5</cim:IdentifiedObject.mRID>
@@ -867,7 +867,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.68946</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>10.1404</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_615eeefb-219a-410a-8a62-4405ea04ab7d"/>
     <cim:IdentifiedObject.mRID>75ed9ad2-4ff8-4a41-b664-f4064378c1cb</cim:IdentifiedObject.mRID>
@@ -878,7 +878,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>16</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_2eebfac5-800f-412d-9908-c39a45ebd72a"/>
     <cim:IdentifiedObject.mRID>4a4edd66-b2d4-4ebd-82fa-b42cdad91f3f</cim:IdentifiedObject.mRID>
@@ -889,7 +889,7 @@
     <cim:ACLineSegment.gch>1e-6</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.034</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.4</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>1</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ba130a7b-fb46-4c73-a6cf-ec41812a14c0"/>
     <cim:IdentifiedObject.mRID>7b858bec-17c8-4cab-bfcb-6bbd645af2db</cim:IdentifiedObject.mRID>
@@ -900,7 +900,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_911406d6-70ff-4e19-946c-5d433b8dbb60"/>
     <cim:IdentifiedObject.mRID>5ff7e158-bcca-4a90-8019-b64b6b9337f0</cim:IdentifiedObject.mRID>
@@ -911,7 +911,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_2ddae08b-e801-42cd-bef8-5fad347d5fad"/>
     <cim:IdentifiedObject.mRID>e34994fb-d12c-408a-a016-b2148c6d28e3</cim:IdentifiedObject.mRID>
@@ -922,7 +922,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_f1c68f2f-93fa-4448-8345-776e97cca45a"/>
     <cim:IdentifiedObject.mRID>4bc85579-c7e8-4a75-b834-95fbe9549acf</cim:IdentifiedObject.mRID>
@@ -933,7 +933,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_910c5c51-9e3c-405e-b457-d8a8126ba233"/>
     <cim:IdentifiedObject.mRID>a9edebec-edc1-44e4-9961-a5aae919ede7</cim:IdentifiedObject.mRID>
@@ -944,7 +944,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.68946</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>13.5193</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_f1322ca8-8628-4f31-8ad5-6d65fa7d65b1"/>
     <cim:IdentifiedObject.mRID>d3ee04cf-e36c-48fd-8048-e40a963625b2</cim:IdentifiedObject.mRID>
@@ -955,7 +955,7 @@
     <cim:ACLineSegment.gch>5e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.3</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>2.5</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_35cf638d-9a9d-4ae5-ae90-2f01ef898cb6"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_b88e6bde11264fea83355102cd4f182c"/>
     <cim:Conductor.length>50</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_77ca5612-67a1-4a52-a180-86560777ab4a"/>
     <cim:IdentifiedObject.mRID>20f3f6ca-906f-4c6c-bc12-89ffff80b03b</cim:IdentifiedObject.mRID>
@@ -966,7 +966,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.3551</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.5373</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_c463adbb-f278-464e-ab8e-fd74feff3c3f"/>
     <cim:IdentifiedObject.mRID>baa1e091-7c9f-469c-ab5b-33ebbe376600</cim:IdentifiedObject.mRID>
@@ -977,7 +977,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.2904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.97405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e8835e11-2013-431f-9376-987cadc7a625"/>
     <cim:IdentifiedObject.mRID>21a24799-d0f7-467e-9676-1a523633bf13</cim:IdentifiedObject.mRID>
@@ -988,7 +988,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>24</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_71dc5fff-838f-4982-921d-a6c3a256f472"/>
     <cim:IdentifiedObject.mRID>3ef4b5d3-e80b-4626-b1ce-be0f8d8139fa</cim:IdentifiedObject.mRID>
@@ -999,7 +999,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>9.6</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>72</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_5f3f44ae-62f6-490d-b491-0476fdb989b7"/>
     <cim:IdentifiedObject.mRID>7f2ab29f-606d-42c7-af86-9d659b650c0a</cim:IdentifiedObject.mRID>
@@ -1010,7 +1010,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.3551</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.5373</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_cb7f9bf6-8291-4766-ac2a-05bde6fbf5bb"/>
     <cim:IdentifiedObject.mRID>5b576d07-99a4-4ca0-bdb6-5407c80ace2c</cim:IdentifiedObject.mRID>
@@ -1021,7 +1021,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_396cd556-6ffe-414e-ad9d-99e7fe7b3663"/>
     <cim:IdentifiedObject.mRID>2ca00f1a-d839-4b72-b754-eb666f063ff4</cim:IdentifiedObject.mRID>
@@ -1032,7 +1032,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>4.8</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>48</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_46130072-6168-42a9-98c9-88d98f9c2a88"/>
     <cim:IdentifiedObject.mRID>48485857-d388-4d24-8e5c-02a68ec905e9</cim:IdentifiedObject.mRID>
@@ -1043,7 +1043,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.14278</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.53845</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_84076bc2-d8b1-4175-b1b8-09df10e650f7"/>
     <cim:IdentifiedObject.mRID>e90ba1a6-2889-4ddd-bc6f-f2a86e63c522</cim:IdentifiedObject.mRID>
@@ -1054,7 +1054,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.02904</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>0.097405</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ff7c8b31-6f53-41d0-a98c-ab52d2a9019e"/>
     <cim:IdentifiedObject.mRID>68ff1db6-29ec-4e03-9a47-fd6810f27a0a</cim:IdentifiedObject.mRID>
@@ -1065,7 +1065,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>6.4</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>64</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_94495e94-c233-4810-9ff6-4b746b0370cc"/>
     <cim:IdentifiedObject.mRID>b6750099-1ff2-4dc9-98de-041392bb1287</cim:IdentifiedObject.mRID>
@@ -1076,7 +1076,7 @@
     <cim:ACLineSegment.gch>0</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.10316</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>14.7167</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:Conductor.length>0.01</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_5b6bdd95-6c44-48d1-bbdf-80a74ab05b33"/>
     <cim:IdentifiedObject.mRID>9e29b829-b840-4d5d-ad7b-4721c59a58e2</cim:IdentifiedObject.mRID>
@@ -21994,14 +21994,14 @@
     <cim:Switch.retained>false</cim:Switch.retained>
   </cim:Disconnector>
   <cim:EquivalentInjection rdf:ID="_e8cef25f-c0e1-4e8a-a55b-60a7cad81b20">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_35cf638d-9a9d-4ae5-ae90-2f01ef898cb6"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_b88e6bde11264fea83355102cd4f182c"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_77ca5612-67a1-4a52-a180-86560777ab4a"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>e8cef25f-c0e1-4e8a-a55b-60a7cad81b20</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Injection_SD_BO1</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_bfe2d3b9-21c4-44fd-b86f-a0bb381afafb">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_78525c97-a5b6-4cbb-8028-1236ca2f4a37"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>bfe2d3b9-21c4-44fd-b86f-a0bb381afafb</cim:IdentifiedObject.mRID>
@@ -22015,14 +22015,14 @@
     <cim:IdentifiedObject.name>Injection_SD_EH1</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_6538ee49-99fd-4150-80a1-ba7dca295214">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_54a2e470-ef70-443f-ae81-bcf2d117caa3"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>6538ee49-99fd-4150-80a1-ba7dca295214</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Injection_SD_BO2</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_24c845f6-ad68-4472-8d01-6491769a2f31">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>24c845f6-ad68-4472-8d01-6491769a2f31</cim:IdentifiedObject.mRID>
@@ -22036,7 +22036,7 @@
     <cim:IdentifiedObject.name>Injection_SD_BO3</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_46f50bf7-4f81-efb5-1b8e-667cad94dfd4">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_ba130a7b-fb46-4c73-a6cf-ec41812a14c0"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>46f50bf7-4f81-efb5-1b8e-667cad94dfd4</cim:IdentifiedObject.mRID>
@@ -25179,7 +25179,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>120</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_091014d9-184b-4ae5-881a-decb12a59351"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25194,7 +25194,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_26a1891d-6a1c-40b9-9cb7-7eb8b1738937"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25209,7 +25209,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>120</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_f3591702-82b2-4259-961a-761d218eab12"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25224,7 +25224,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>13.6687</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_85468589-adc2-46c0-a1fb-a4fab869728f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25239,7 +25239,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_82f0930f-e8c5-412d-a82d-ab1ca790477f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25254,7 +25254,7 @@
     <cim:PowerTransformerEnd.ratedS>1500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>16</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_9be0a2ba-2cf0-433e-a225-b2b322a175fa"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25269,7 +25269,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>14.52</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e940b460-6577-41d9-8c27-92968eeced7c"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25284,7 +25284,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_a6517102-e157-4f82-aa08-8e5da6fe7cd5"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25299,7 +25299,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>11</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_db98555c-ec78-42e7-9b35-02c12f36220c"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25314,7 +25314,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_895fe122-1e54-40c5-bc88-71e3938f93d0"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25329,7 +25329,7 @@
     <cim:PowerTransformerEnd.ratedS>350</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b6dae7e2-678f-4878-be13-a3b1d0c3be33"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25344,7 +25344,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ef581eee-269b-4004-bde2-ffe1b581ec6b"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25359,7 +25359,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_2bf394da-5e17-41ba-86b3-0a9ad3f9503e"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25374,7 +25374,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>60.1425</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_404e9fc7-6d2a-401f-b5c4-04fed760f0b1"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25389,7 +25389,7 @@
     <cim:PowerTransformerEnd.ratedS>1500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>16</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_05cb343b-f9ae-43d2-831e-f5d00c08af16"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25404,7 +25404,7 @@
     <cim:PowerTransformerEnd.ratedS>750</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>32</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_058a4482-6a47-4a3a-81fa-2aebe09f085a"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25419,7 +25419,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>2.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_f59ff3f8-4a24-4f9e-883c-382707c4f188"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25434,7 +25434,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>136.445</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_24d60b9a-f9bb-4479-8923-afacee1e847d"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25449,7 +25449,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>4.8</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5e261e87-e731-477f-8e02-018d855646bf"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25464,7 +25464,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>40</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_62a1cd42-a772-4f0f-ba8e-aa643d078e28"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25479,7 +25479,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_95c873cb-bc6d-4a05-8e6a-bb361c2dcb61"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25494,7 +25494,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_7b4aad57-129d-479a-859d-98a97895d5d6"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25509,7 +25509,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5c48abf2-1404-4293-8a74-faf074f00b7d"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25524,7 +25524,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>3.90536</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_895f0fed-44d1-4be2-b1f9-c54f9e9ddc37"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25539,7 +25539,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>17.16</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_97f00284-c809-42b7-ba4e-b6dd1688b92f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25554,7 +25554,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ef81bc62-1eba-48b0-acd3-4f2d7d8dae77"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25569,7 +25569,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_cb3f9b8e-36c6-4802-be0d-54613283c79b"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25584,7 +25584,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>120</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_c7e939b3-1e27-4db8-b214-6aed3753ff27"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25599,7 +25599,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>3.2</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_af54ae4f-9daa-492b-b706-0be826710d33"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25614,7 +25614,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>10</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_bfebf309-31ec-6347-b252-1761b35a5dc0"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_45b9413e-a116-4952-8cf8-aeb4b2e53348"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bcab6539-a446-44b4-b60c-27bafeeea8eb"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25629,7 +25629,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>4</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_56cb5c7b-8685-4204-b978-18a809b8c4dc"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25644,7 +25644,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e19e1f5b-3408-4eba-8804-72fdfdd0362b"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25659,7 +25659,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>40</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bbf96e5e-a6ff-4f0c-acbe-c47510279eba"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25674,7 +25674,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e3244a1a-30e4-4c8f-a16e-bc8cf7d70ca1"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25689,7 +25689,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>4.89143</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_70601300-499d-4e7c-8488-7a6abc65bb82"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25704,7 +25704,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>13.6687</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_dde072ef-514f-40c9-9cac-245d765d8f7b"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25719,7 +25719,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>11</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_48cb520a-e5ef-4ac1-8c39-7f3a40434b53"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25734,7 +25734,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>2.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_2d0850f2-1385-4a43-9df5-d0d061d848af"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25749,7 +25749,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_7c6026e7-7310-4d6b-9140-82c62502dc04"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25764,7 +25764,7 @@
     <cim:PowerTransformerEnd.ratedS>160</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>142.965</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_9502d1e5-2804-47bf-b3f7-62b378ccde57"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25779,7 +25779,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b2df5562-b084-4e41-97cb-8edb3b56c2b8"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25794,7 +25794,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_af05b805-ba78-4b32-a282-dcff96ef3ef3"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25809,7 +25809,7 @@
     <cim:PowerTransformerEnd.ratedS>90</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>134.244</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>18.7717</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_59f61b59-a651-44b3-8192-ffc93ae87d98"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25824,7 +25824,7 @@
     <cim:PowerTransformerEnd.ratedS>1500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_f5a708c7-8b2e-47ef-8fc9-d131dba40996"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25839,7 +25839,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_c3ecea91-35fe-4c03-87ec-69dd8376f3e1"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25854,7 +25854,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b4922fd6-9214-45e7-9b59-5f37bf6f24f8"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25869,7 +25869,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>10</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_bfebf309-31ec-6347-b252-1761b35a5dc0"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_45b9413e-a116-4952-8cf8-aeb4b2e53348"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_97e1e9f0-cea6-46a0-b194-d4a66568b7b6"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25884,7 +25884,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>9.1125</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_866fc32a-f850-4b5e-b968-c7b3a2ff9fdb"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25899,7 +25899,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_cc7daf69-9f04-4ae2-99d9-5877d2d52fed"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25914,7 +25914,7 @@
     <cim:PowerTransformerEnd.ratedS>750</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>32</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_c9b33ae9-efdf-4a8c-9283-262fdaf5c660"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25929,7 +25929,7 @@
     <cim:PowerTransformerEnd.ratedS>10</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>11</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_9e0704f9-e3bd-46e9-b792-88c5dae6d262"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25944,7 +25944,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>80</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ccaa413d-a610-4c9a-89e4-3e025b273dc8"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25959,7 +25959,7 @@
     <cim:PowerTransformerEnd.ratedS>250</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>10.935</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_7b2ba98a-59b3-4ca8-8eea-0511748e838d"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25974,7 +25974,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>34.2857</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_0bca2f55-7f25-49c4-8221-d0ab3005d6da"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -25989,7 +25989,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e6ab5d10-e87c-4b58-a851-ba8cf1e5dc32"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26004,7 +26004,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>60.1425</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_9d5e67dd-f6c9-4a11-8c27-3d08c25c3032"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26019,7 +26019,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>80</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_0006811f-1505-4595-91c8-87848839bd74"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26034,7 +26034,7 @@
     <cim:PowerTransformerEnd.ratedS>1500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_4b677c1d-43c3-4522-97db-c959d3a6b5a0"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26049,7 +26049,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_a3d65b24-0a9f-4176-8f60-8ea54764fb4e"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26064,7 +26064,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_1aa2fc72-8ba5-4426-bc52-09c6085b43f8"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26079,7 +26079,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>30</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_1bc3196b-24d9-41bf-858b-2cda26a85ee3"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26094,7 +26094,7 @@
     <cim:PowerTransformerEnd.ratedS>750</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_2c5d0e6e-c382-41c9-9e49-6dce136511c2"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26109,7 +26109,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_398228f9-6b4b-4b20-8ecc-ddd6abbfe848"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26124,7 +26124,7 @@
     <cim:PowerTransformerEnd.ratedS>90</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_09a14ca7-b62e-43d0-878f-2540731e553f"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26139,7 +26139,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>4.55625</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_fae011e2-1158-44d4-9991-7656224928c1"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26154,7 +26154,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>48</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ed42696c-b2fc-49b6-95bf-7561d656e91a"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26169,7 +26169,7 @@
     <cim:PowerTransformerEnd.ratedS>700</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>34.2857</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5b73e2c7-0092-42b2-8ffb-960e700e90b8"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26184,7 +26184,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>48</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_69f40fa5-0e84-40a7-a1fd-88e0903842c9"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26199,7 +26199,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_1d6c2973-0d05-4554-9ba2-33a60a0a19a9"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26214,7 +26214,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_77a22396-bec1-448a-9c13-40156754a598"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26229,7 +26229,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5040785f-58fd-465b-ba3a-779c9df50d4e"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26244,7 +26244,7 @@
     <cim:PowerTransformerEnd.ratedS>10</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>18.75</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_6fb4bece-e4aa-49dd-a967-41cf402d7188"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26259,7 +26259,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>2.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_d5959fac-3ea7-445a-8cfd-096a70d8df88"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26274,7 +26274,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.83437</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_703db687-38a6-4253-b04a-5b31c477f08e"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26289,7 +26289,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>5.4675</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_0cee0da2-6644-43a8-b8c8-789f194ea8de"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26304,7 +26304,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>10</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_8f96f230-2866-4a90-85bf-4085ec250755"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26319,7 +26319,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_3122e69b-0ed1-457b-87ac-882784b9a878"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26334,7 +26334,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_9c0a1823-8e83-40ce-8e93-4524eae92ebb"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26349,7 +26349,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>37.5</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bc8821e9-864f-4873-af45-df20af46088e"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26364,7 +26364,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>2.66667</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_6f4b4d1b-6061-4312-a30d-cf0fbcf850ef"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26379,7 +26379,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b41a4c97-2f7e-4aae-b626-0156f13b2700"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26394,7 +26394,7 @@
     <cim:PowerTransformerEnd.ratedS>400</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ad64a5a5-33f5-4a8e-8b80-09e38b9b9430"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26409,7 +26409,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>120</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_2c549253-4fba-4a85-86da-d47ce7ed8d57"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26424,7 +26424,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.25</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_7727101c-624a-40b5-8916-77969fa7da56"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26439,7 +26439,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_12f19406-3933-4271-88fe-dbafe60e2ac8"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26454,7 +26454,7 @@
     <cim:PowerTransformerEnd.ratedS>350</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>20.7429</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e7df6b9a-a265-4cd8-a321-4330963dce26"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26469,7 +26469,7 @@
     <cim:PowerTransformerEnd.ratedS>300</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>53.3333</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_28d5b143-c7ab-4cec-8e26-927614a3b463"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26484,7 +26484,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>142.965</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_a5722ddc-dbc6-4988-8a55-973cb5eec8f1"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26499,7 +26499,7 @@
     <cim:PowerTransformerEnd.ratedS>160</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>8</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_604902f0-ed19-4a7d-bb4a-6c07c9a27458"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26514,7 +26514,7 @@
     <cim:PowerTransformerEnd.ratedS>90</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>134.244</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>18.7717</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5c7d0e18-5ccc-4225-99d4-88f12d59a412"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26529,7 +26529,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>11</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ad93480f-c24e-46dc-98a1-0be19af8d52e"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26544,7 +26544,7 @@
     <cim:PowerTransformerEnd.ratedS>750</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_26824b59-98b2-4774-b122-71a610bc80b0"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26559,7 +26559,7 @@
     <cim:PowerTransformerEnd.ratedS>250</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bfc551c5-1736-402a-9770-a7dc68dee124"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26574,7 +26574,7 @@
     <cim:PowerTransformerEnd.ratedS>10</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>11</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5a3246ea-13f1-43a7-86b5-fdf148153584"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26589,7 +26589,7 @@
     <cim:PowerTransformerEnd.ratedS>10</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>18.75</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_c0e8ba0b-fb36-4d3d-9ac1-a13840a603c4"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26604,7 +26604,7 @@
     <cim:PowerTransformerEnd.ratedS>90</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b40d19fb-c741-4661-b594-ef9ce569d117"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26619,7 +26619,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>50</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>6.25</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_d6ceab59-8b92-45e0-950a-7110f08b6b4c"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26634,7 +26634,7 @@
     <cim:PowerTransformerEnd.ratedS>100</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_44edadb7-ecca-4d19-be05-057d97b4e579"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26649,7 +26649,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>4.55625</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_faa09b87-230d-4eb2-8752-f6537557f20f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26664,7 +26664,7 @@
     <cim:PowerTransformerEnd.ratedS>30</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>135</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>60.1425</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_83006b0d-7b1c-4991-ba6f-572d5dba6a22"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26679,7 +26679,7 @@
     <cim:PowerTransformerEnd.ratedS>500</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bda9af0f-6cbb-467a-aecb-2111477a826c"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26694,7 +26694,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>17</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ae5ebe6f-ac9f-40e6-a4c7-cbe86f7f7124"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26709,7 +26709,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_1ff510b8-a239-4647-9c86-66224e17f171"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26724,7 +26724,7 @@
     <cim:PowerTransformerEnd.ratedS>600</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>226.534</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_b2dbc2ad-833a-448d-b8c3-b576183b85f4"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26739,7 +26739,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_aefd6508-c743-407c-b787-4cea19b16c06"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -26754,7 +26754,7 @@
     <cim:PowerTransformerEnd.ratedS>200</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>20</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_3373d572-bb39-4dfa-8497-472c9274cdcf"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -55374,541 +55374,541 @@
   <cim:VoltageLevel rdf:ID="_c6db21bf-8950-4aa5-aa46-3a47375f6ef3">
     <cim:IdentifiedObject.mRID>c6db21bf-8950-4aa5-aa46-3a47375f6ef3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORTRÄSK_1_CT22</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ab05c6bb-2b8e-43f1-b04c-c96b4237bc95"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_6168cd36-d13e-477f-9f8f-8f2e5ee09d5d">
     <cim:IdentifiedObject.mRID>6168cd36-d13e-477f-9f8f-8f2e5ee09d5d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SYDKÖPING_4_FT50</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_97a2eca6-bf41-447c-8786-ca82736395d9"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4d5a6a5b-afd6-442b-877d-f4371f3369dd">
     <cim:IdentifiedObject.mRID>4d5a6a5b-afd6-442b-877d-f4371f3369dd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>MELLBRO_11_ST6</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_9c18dfa4-7d26-45a0-acb7-1c62fc3be5b3"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c4f7bafb-f7c7-4404-b7c6-7632d1b1e534">
     <cim:IdentifiedObject.mRID>c4f7bafb-f7c7-4404-b7c6-7632d1b1e534</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KALLBO_P11_ST11</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_d9d7e8c4-6dbb-4f4b-8aeb-1a67ec44f5fe"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3de7ff3a-9e57-4f63-ae19-e890a16d141b">
     <cim:IdentifiedObject.mRID>3de7ff3a-9e57-4f63-ae19-e890a16d141b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NJAGGO_4_CT21</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_896f3f0a-04aa-4e70-a610-d2f5ff00bf8c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_885b9cc7-e3d8-4868-8b4c-a6975d63649c">
     <cim:IdentifiedObject.mRID>885b9cc7-e3d8-4868-8b4c-a6975d63649c</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>MELLBRO_5_ST6</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_9c18dfa4-7d26-45a0-acb7-1c62fc3be5b3"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_44fe583a-0d20-40fd-a5be-2901ab012e0a">
     <cim:IdentifiedObject.mRID>44fe583a-0d20-40fd-a5be-2901ab012e0a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HEMMARYD_11_ST19</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_e3094e7c-a712-4985-9ac7-18c58e7670a1"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c21b8ade-8404-45cf-8e52-6920bd0f85fc">
     <cim:IdentifiedObject.mRID>c21b8ade-8404-45cf-8e52-6920bd0f85fc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STENFORSE_2_CT31</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:VoltageLevel.Substation rdf:resource="#_23007e2f-ff5a-44d2-9648-de278923942e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_ed287439-8118-42e4-ac38-4a582f64f9a1">
     <cim:IdentifiedObject.mRID>ed287439-8118-42e4-ac38-4a582f64f9a1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BITTERB_P11_ST12</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_0cacc20e-aee8-43d5-b837-3fc03e85f499"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_a21d1ab3-0657-4920-ad26-6851e1a26aa4">
     <cim:IdentifiedObject.mRID>a21d1ab3-0657-4920-ad26-6851e1a26aa4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NORRSELE_2_AT241</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:VoltageLevel.Substation rdf:resource="#_7c56f1c0-7323-45ec-afad-3a9bb3476270"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_2b3dfc6e-b9db-4c2f-8075-e4b7c0c3080c">
     <cim:IdentifiedObject.mRID>2b3dfc6e-b9db-4c2f-8075-e4b7c0c3080c</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ATOMSBORG_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_27a0569f-7c2f-4833-bd35-17574b68246e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_1e19c684-6c9c-41a8-93ef-873e18ebba71">
     <cim:IdentifiedObject.mRID>1e19c684-6c9c-41a8-93ef-873e18ebba71</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KÄRNAN_4_FT44</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c56052d6-6cf4-4880-aaca-53f680a6a28f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3ce6ce82-fc23-4f0e-917a-05cff79840d0">
     <cim:IdentifiedObject.mRID>3ce6ce82-fc23-4f0e-917a-05cff79840d0</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>OLMÅFALLET_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_2719f11d-8c8b-4e0f-8f35-7d362a3279f8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_cd63ee3d-7629-47fa-8e0f-ebd9b7de106e">
     <cim:IdentifiedObject.mRID>cd63ee3d-7629-47fa-8e0f-ebd9b7de106e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>LILLBORG_11_ST24</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_084f3223-e06e-4923-83b6-a9a74ea21f10"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_415d60ab-bcab-4b83-a415-721545370220">
     <cim:IdentifiedObject.mRID>415d60ab-bcab-4b83-a415-721545370220</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORÅN_G_ST4</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_bfebf309-31ec-6347-b252-1761b35a5dc0"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_45b9413e-a116-4952-8cf8-aeb4b2e53348"/>
     <cim:VoltageLevel.Substation rdf:resource="#_7a2ecd68-9507-46c4-b76c-fdbb8046c1e4"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_04bc67f0-fc8e-4c6a-a63a-56ccc4595875">
     <cim:IdentifiedObject.mRID>04bc67f0-fc8e-4c6a-a63a-56ccc4595875</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>YTTERFORSEN_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_01021d8d-7e36-4c1a-bcd3-8555179699b8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_1d45923a-5286-447f-a173-4bc88b6f3fbc">
     <cim:IdentifiedObject.mRID>1d45923a-5286-447f-a173-4bc88b6f3fbc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SYDKÖPING_1_FT50</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_97a2eca6-bf41-447c-8786-ca82736395d9"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_8bb9206e-ba47-4ce1-9d10-8a1c8913f2ff">
     <cim:IdentifiedObject.mRID>8bb9206e-ba47-4ce1-9d10-8a1c8913f2ff</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ERIKSHAMN_4_FT47</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_559b1d7b-721a-4195-953c-dc793939aaf6"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_b5ba054c-f8d4-434b-a2b2-24555417e0ef">
     <cim:IdentifiedObject.mRID>b5ba054c-f8d4-434b-a2b2-24555417e0ef</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORFORS_1_AT131</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_1b8936e8-00e9-468e-8638-0b1e5b931fa5"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_482fd241-efde-4b10-9a19-e6ae0c1b2c37">
     <cim:IdentifiedObject.mRID>482fd241-efde-4b10-9a19-e6ae0c1b2c37</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SAMMALUND_11_ST7</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_bb22f816-0ffa-47ff-8b92-38026fd7701f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c073e1af-7549-4ea0-8860-96b47d021872">
     <cim:IdentifiedObject.mRID>c073e1af-7549-4ea0-8860-96b47d021872</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ERIKSHAMN_G_FT47</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_559b1d7b-721a-4195-953c-dc793939aaf6"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_57d46e9c-5bb5-45ab-844d-2ba69f4bb427">
     <cim:IdentifiedObject.mRID>57d46e9c-5bb5-45ab-844d-2ba69f4bb427</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HÄSTSJÖ_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_61467669-cca4-40b5-98d7-6e5d15b5fbec"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_2eb7e9fd-b643-435d-81d4-bf0e553538c3">
     <cim:IdentifiedObject.mRID>2eb7e9fd-b643-435d-81d4-bf0e553538c3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>OLMÅFALL_1_AT121</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_2719f11d-8c8b-4e0f-8f35-7d362a3279f8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58">
     <cim:IdentifiedObject.mRID>fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ANNORLUN_11_ST29</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_8d2f5d14-da3f-41be-9500-7c2f68e4d859"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_d5c5954a-cf35-434a-bf34-08132592eef9">
     <cim:IdentifiedObject.mRID>d5c5954a-cf35-434a-bf34-08132592eef9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KÄRNAN_G_FT44</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c56052d6-6cf4-4880-aaca-53f680a6a28f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_0662b9c3-85fe-4704-8dad-892fe1e4cfad">
     <cim:IdentifiedObject.mRID>0662b9c3-85fe-4704-8dad-892fe1e4cfad</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TORSHAMM_P11_ST9</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_aa528f3a-1854-4a09-bee8-d5c8a2451259"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_a7f5e1c1-d18a-473d-905f-cb13d4711d89">
     <cim:IdentifiedObject.mRID>a7f5e1c1-d18a-473d-905f-cb13d4711d89</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NORRSELE_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_7c56f1c0-7323-45ec-afad-3a9bb3476270"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_f41af37d-1fcc-4d2c-abc6-acfc2ad02457">
     <cim:IdentifiedObject.mRID>f41af37d-1fcc-4d2c-abc6-acfc2ad02457</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORTRÄSK_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ab05c6bb-2b8e-43f1-b04c-c96b4237bc95"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_5c9c64e1-c22a-449e-9ef6-96a8324e78f4">
     <cim:IdentifiedObject.mRID>5c9c64e1-c22a-449e-9ef6-96a8324e78f4</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HAMMARVATT_5_ST3</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_090b0ce5-64cc-4cd5-a0b6-e81bb3ba6ba5"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_8eb93370-c564-4279-9b11-57b6a3f95e5c">
     <cim:IdentifiedObject.mRID>8eb93370-c564-4279-9b11-57b6a3f95e5c</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SYDKÖPIN_11_FT50</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_97a2eca6-bf41-447c-8786-ca82736395d9"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_e7203547-5923-40e1-b6bd-c480b38d1490">
     <cim:IdentifiedObject.mRID>e7203547-5923-40e1-b6bd-c480b38d1490</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ASAGÅRD_P11_ST18</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_89b3fc1c-fe2d-4f60-a64f-37a2c79b8750"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_25bd8e7a-4757-494c-b0d8-b2cc120d2372">
     <cim:IdentifiedObject.mRID>25bd8e7a-4757-494c-b0d8-b2cc120d2372</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VÄSTBORG_5_ST5</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_83f755ac-12c6-4a5f-86e5-000a56a468ec"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_7cd0b58c-70a2-464a-a6a9-f828e19292f9">
     <cim:IdentifiedObject.mRID>7cd0b58c-70a2-464a-a6a9-f828e19292f9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ÖVERGÅR_P11_ST17</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_b425238a-670e-40d1-b03e-4b3bd041a81f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_15c457f1-e9c1-4997-9fc1-6d9e56024df2">
     <cim:IdentifiedObject.mRID>15c457f1-e9c1-4997-9fc1-6d9e56024df2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HÄSTSJÖ_1_RT132</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_61467669-cca4-40b5-98d7-6e5d15b5fbec"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_acf39328-87dd-40f3-8206-63740d051815">
     <cim:IdentifiedObject.mRID>acf39328-87dd-40f3-8206-63740d051815</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NYLADA_P11_ST15</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_d600916d-706e-4e22-a422-27ad320c8e82"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_2f7598d2-f3e2-490c-bb0c-72a10dc31bed">
     <cim:IdentifiedObject.mRID>2f7598d2-f3e2-490c-bb0c-72a10dc31bed</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NJAGGO_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_896f3f0a-04aa-4e70-a610-d2f5ff00bf8c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4cec73c4-a641-4045-86ba-48801b8cad9a">
     <cim:IdentifiedObject.mRID>4cec73c4-a641-4045-86ba-48801b8cad9a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RUTHUVUD_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_63352d22-c703-43d3-ba17-54221f9c66bc"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_73aa8d29-03a0-44fc-9d7d-ee222ea80f68">
     <cim:IdentifiedObject.mRID>73aa8d29-03a0-44fc-9d7d-ee222ea80f68</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KUBBON_11_ST14</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_925baaf0-de0b-4528-821a-08490054ec7f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c3c8c9df-229b-4895-b34f-b27f58485969">
     <cim:IdentifiedObject.mRID>c3c8c9df-229b-4895-b34f-b27f58485969</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TRASTHO_P11_ST21</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_89ec1126-b46a-417e-b0ed-8c51457d8c2a"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_55479a78-192e-4b76-ba4b-cbbd31690cba">
     <cim:IdentifiedObject.mRID>55479a78-192e-4b76-ba4b-cbbd31690cba</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NYSTAD_1_RT133</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_434653b6-d399-418b-aa9e-8869ae4c6a1c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_b56e0cd2-cb58-4d1d-8e6f-fba527f33fdb">
     <cim:IdentifiedObject.mRID>b56e0cd2-cb58-4d1d-8e6f-fba527f33fdb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HÄSTSJÖ_11_RT132</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_61467669-cca4-40b5-98d7-6e5d15b5fbec"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_1303c35a-11c7-43cb-8906-24654c204ab9">
     <cim:IdentifiedObject.mRID>1303c35a-11c7-43cb-8906-24654c204ab9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>YTTERFOR_5_RT131</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_01021d8d-7e36-4c1a-bcd3-8555179699b8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_df857ed5-4456-4af5-b180-6de923e5b00f">
     <cim:IdentifiedObject.mRID>df857ed5-4456-4af5-b180-6de923e5b00f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>UPPHA_P11_ST10</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_9102f082-9ddd-4ad4-9228-4da09ade88b0"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_8dc4bc0e-0d26-441d-93fb-c640526fb258">
     <cim:IdentifiedObject.mRID>8dc4bc0e-0d26-441d-93fb-c640526fb258</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KVÄLLSGÅ_11_ST22</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_d46131aa-07f1-45da-be0d-68133adbdeea"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3cbe822c-292d-4e10-87d8-9924adf7df55">
     <cim:IdentifiedObject.mRID>3cbe822c-292d-4e10-87d8-9924adf7df55</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VATTENDR_1_AT111</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c887b647-a157-467e-843f-3d33f2a543f0"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_ecf191a7-b93d-4619-ad24-52a8369be577">
     <cim:IdentifiedObject.mRID>ecf191a7-b93d-4619-ad24-52a8369be577</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>MÅNSVIK_11_ST31</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_b2e2e6a6-9e94-406a-bd5b-9bbe3a23c35a"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_fde246b9-5515-487e-ae4a-152132b1abb2">
     <cim:IdentifiedObject.mRID>fde246b9-5515-487e-ae4a-152132b1abb2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DALBO_4_FT41</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_21c71808-547d-4548-b473-85a9806f1bea"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_08f02d38-7bf1-439e-8feb-a85a8037b6ff">
     <cim:IdentifiedObject.mRID>08f02d38-7bf1-439e-8feb-a85a8037b6ff</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BLOCKET_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_3cfb1471-bebc-42a0-88e0-cfe20067c2da"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4145e899-51e1-4375-a641-df1daf45fa48">
     <cim:IdentifiedObject.mRID>4145e899-51e1-4375-a641-df1daf45fa48</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STUPET_G4_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_5b7d9de5-4b04-4aa5-a668-7c34970db355"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_9512b02d-9d17-4af3-8ced-f13d94186c2b">
     <cim:IdentifiedObject.mRID>9512b02d-9d17-4af3-8ced-f13d94186c2b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NYSTAD_5_RT133</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_434653b6-d399-418b-aa9e-8869ae4c6a1c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4a237813-ed80-44d8-a1eb-d0c08765a486">
     <cim:IdentifiedObject.mRID>4a237813-ed80-44d8-a1eb-d0c08765a486</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ÄRKEBO_11_ST30</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_23d450c5-a44d-4467-865c-4afedd9da4e3"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_bb22add2-334b-483b-8d34-91bb602f14bd">
     <cim:IdentifiedObject.mRID>bb22add2-334b-483b-8d34-91bb602f14bd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TROLLFAL_11_ST33</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_16fa0367-f702-43f3-8462-f1ed5be6c112"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_95ce43c9-f46d-46ba-84d9-383e122fdbbf">
     <cim:IdentifiedObject.mRID>95ce43c9-f46d-46ba-84d9-383e122fdbbf</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>LIGAUNDA_11_ST25</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_d4154fbe-7330-4c64-b4a6-563e463e3f2f"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_1eed5c53-4894-4ace-b0ad-fe0bea6eeccd">
     <cim:IdentifiedObject.mRID>1eed5c53-4894-4ace-b0ad-fe0bea6eeccd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AGGAN_4_CT11</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ef2904b4-5f04-472b-9d1f-3011a18621dc"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4d89ff1b-ab26-4b34-a4a2-7b998e709b28">
     <cim:IdentifiedObject.mRID>4d89ff1b-ab26-4b34-a4a2-7b998e709b28</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STENFORSE_G_CT31</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_23007e2f-ff5a-44d2-9648-de278923942e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_fc4d076c-3e12-4c05-ad72-42b090d114a0">
     <cim:IdentifiedObject.mRID>fc4d076c-3e12-4c05-ad72-42b090d114a0</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HÄLLAN_G4_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_25945b5c-9820-48e5-b4c6-4688ab34e6d7"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_a630ec0b-5a41-44bc-ae66-85df1044cddc">
     <cim:IdentifiedObject.mRID>a630ec0b-5a41-44bc-ae66-85df1044cddc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>DALBO_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_21c71808-547d-4548-b473-85a9806f1bea"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3f1939a1-f6a6-4a6c-a03f-2a62e4e4e97b">
     <cim:IdentifiedObject.mRID>3f1939a1-f6a6-4a6c-a03f-2a62e4e4e97b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SYDBÄCK_G_FT63</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ad52fa6-29ea-57c1-d7c0-c286b152994b"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4ace87c9-16c7-4097-914f-d4551d7d8cd5"/>
     <cim:VoltageLevel.Substation rdf:resource="#_af20666a-d0bf-4b10-ba7f-749d12a365ff"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_691f4e54-ee0f-4302-8504-f54c943e814d">
     <cim:IdentifiedObject.mRID>691f4e54-ee0f-4302-8504-f54c943e814d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TORNÅ_4_CT32</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_92cf8eb6-8f46-4dbc-a83d-9f882547d36b"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_ac2aff62-67d9-405d-9cfb-60bd0147a33d">
     <cim:IdentifiedObject.mRID>ac2aff62-67d9-405d-9cfb-60bd0147a33d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>LÅNGÅKER_11_ST28</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_fe14ea90-40d2-4a37-b1a6-e2406b1e24be"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_7e1770b2-6e55-4590-9fa3-66f56b6b395a">
     <cim:IdentifiedObject.mRID>7e1770b2-6e55-4590-9fa3-66f56b6b395a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BLOCKET_4_FT51</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_3cfb1471-bebc-42a0-88e0-cfe20067c2da"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_f31ff570-44e0-45bc-b21f-49d29b627fdb">
     <cim:IdentifiedObject.mRID>f31ff570-44e0-45bc-b21f-49d29b627fdb</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RUTHUVUD_4_FT62</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_63352d22-c703-43d3-ba17-54221f9c66bc"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_7b29b41f-a3e7-426c-aa38-06e9253b50ff">
     <cim:IdentifiedObject.mRID>7b29b41f-a3e7-426c-aa38-06e9253b50ff</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VÄSTERDA_P5_ST56</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_fbf8550d-9447-46a8-b9d8-c960983075ae"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_007dedc8-ce4f-4f2c-b424-bc7b8fe1da30">
     <cim:IdentifiedObject.mRID>007dedc8-ce4f-4f2c-b424-bc7b8fe1da30</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>JAURAS_4_CT71</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_eb3b03b0-d562-47d9-ad7a-90a433ddc0ac"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_de40b9b9-c35d-454b-8e3d-d72eb380ff4b">
     <cim:IdentifiedObject.mRID>de40b9b9-c35d-454b-8e3d-d72eb380ff4b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HÄLLAN_4_CT72</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_25945b5c-9820-48e5-b4c6-4688ab34e6d7"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_4c868189-4779-4983-a8ec-01bdd81f0a67">
     <cim:IdentifiedObject.mRID>4c868189-4779-4983-a8ec-01bdd81f0a67</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VATTENDRAGET_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c887b647-a157-467e-843f-3d33f2a543f0"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_1edc0517-bd63-4b8d-9276-394a42cf61ed">
     <cim:IdentifiedObject.mRID>1edc0517-bd63-4b8d-9276-394a42cf61ed</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SEGELSTA_11_ST23</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_4981eafc-a1d3-4f43-b101-234b945847a8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_5f349efd-156f-4431-a1b6-fb6e17ad5148">
     <cim:IdentifiedObject.mRID>5f349efd-156f-4431-a1b6-fb6e17ad5148</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STENFORSE_4_CT31</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_23007e2f-ff5a-44d2-9648-de278923942e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_3de0f9f8-a18d-4b2c-b861-c2c1331cc71b">
     <cim:IdentifiedObject.mRID>3de0f9f8-a18d-4b2c-b861-c2c1331cc71b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>JAURAS_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_eb3b03b0-d562-47d9-ad7a-90a433ddc0ac"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e">
     <cim:IdentifiedObject.mRID>e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>KABOLST_P11_ST34</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_3b3fb73c-f916-4145-b659-2da245f0463a"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_eaa25262-839d-4abf-ad2c-62e2e252bfee">
     <cim:IdentifiedObject.mRID>eaa25262-839d-4abf-ad2c-62e2e252bfee</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NORRÅS_4_FT42</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_f181518f-6e7b-4942-8b86-32a5d5c1564e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_33fd5b67-4812-45a6-8fc6-59e694cc702a">
     <cim:IdentifiedObject.mRID>33fd5b67-4812-45a6-8fc6-59e694cc702a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HAMMARVATT_G_ST3</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_bfebf309-31ec-6347-b252-1761b35a5dc0"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_45b9413e-a116-4952-8cf8-aeb4b2e53348"/>
     <cim:VoltageLevel.Substation rdf:resource="#_090b0ce5-64cc-4cd5-a0b6-e81bb3ba6ba5"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_435fcfa7-c9d2-4208-9328-502f314bd723">
     <cim:IdentifiedObject.mRID>435fcfa7-c9d2-4208-9328-502f314bd723</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NORRÅS_1_FT42</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_f181518f-6e7b-4942-8b86-32a5d5c1564e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_f825d10b-a202-44e8-85d1-e4f78dc3dcf7">
     <cim:IdentifiedObject.mRID>f825d10b-a202-44e8-85d1-e4f78dc3dcf7</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AGGAN_G_CT11</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ef2904b4-5f04-472b-9d1f-3011a18621dc"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_b56c87cd-496b-4830-9037-b0e1a396652f">
     <cim:IdentifiedObject.mRID>b56c87cd-496b-4830-9037-b0e1a396652f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STUPET_4_CT12</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_5b7d9de5-4b04-4aa5-a668-7c34970db355"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_fcad8062-867d-4020-8b9c-de5924e80357">
     <cim:IdentifiedObject.mRID>fcad8062-867d-4020-8b9c-de5924e80357</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>AGGAN_1_CT11</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ef2904b4-5f04-472b-9d1f-3011a18621dc"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_e3d6577f-4db0-4939-aec9-7168cb89a502">
     <cim:IdentifiedObject.mRID>e3d6577f-4db0-4939-aec9-7168cb89a502</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SYDBÄCK_4_FT63</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_af20666a-d0bf-4b10-ba7f-749d12a365ff"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_567b4585-e951-4540-9512-22a05e88ea77">
     <cim:IdentifiedObject.mRID>567b4585-e951-4540-9512-22a05e88ea77</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORÅN_5_ST4</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_48b1ff5c-a806-a525-91f9-c7284c2441b1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_ea1227e9-1547-ed65-cd87-ed85a8674758"/>
     <cim:VoltageLevel.Substation rdf:resource="#_7a2ecd68-9507-46c4-b76c-fdbb8046c1e4"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_40333bc5-7223-47c4-9ab1-c299b68f3608">
     <cim:IdentifiedObject.mRID>40333bc5-7223-47c4-9ab1-c299b68f3608</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>UPPMARK_4_FT43</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_22e8a59a-016e-4714-be8e-9837a2e856d8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_b8e4bf45-72bb-42aa-9b61-22fb69ce014a">
     <cim:IdentifiedObject.mRID>b8e4bf45-72bb-42aa-9b61-22fb69ce014a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>YTTERFOR_1_RT131</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_01021d8d-7e36-4c1a-bcd3-8555179699b8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_d2c0c4ad-4068-4e11-b867-8c79fe5ab7dc">
     <cim:IdentifiedObject.mRID>d2c0c4ad-4068-4e11-b867-8c79fe5ab7dc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STACKMYR_11_ST26</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_40b4dcd0-0b88-4649-8ad7-623ca6a2767a"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c86ea45f-52d0-474a-a386-0028e6de9e56">
     <cim:IdentifiedObject.mRID>c86ea45f-52d0-474a-a386-0028e6de9e56</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORTRÄSK_4_CT22</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_ab05c6bb-2b8e-43f1-b04c-c96b4237bc95"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_823140d0-197f-4baa-a560-25ac59c3a4ab">
     <cim:IdentifiedObject.mRID>823140d0-197f-4baa-a560-25ac59c3a4ab</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STORFORS_G1_SWY</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_08a35d61-b276-247a-1f63-1bbfabcdb4a8"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_55ecbc58-19e7-41ba-84e3-094b57b66fc3"/>
     <cim:VoltageLevel.Substation rdf:resource="#_1b8936e8-00e9-468e-8638-0b1e5b931fa5"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_5b56e969-b4e9-44b3-8512-fbfb0dbdb601">
     <cim:IdentifiedObject.mRID>5b56e969-b4e9-44b3-8512-fbfb0dbdb601</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VÄSTBORG_11_ST5</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_83f755ac-12c6-4a5f-86e5-000a56a468ec"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_87ed786a-a507-4ea5-9630-f0c136ec53a6">
     <cim:IdentifiedObject.mRID>87ed786a-a507-4ea5-9630-f0c136ec53a6</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>FISKBÄCK_11_ST13</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_7c4b0c0c-1188-4777-9fdd-7381eb5c85d1"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a">
     <cim:IdentifiedObject.mRID>c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>MITTLANDA_4_FT45</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_486f89bc-db08-40a6-8422-39db2eb49404"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_9695abb1-3f41-4f62-982f-57de584e5897">
     <cim:IdentifiedObject.mRID>9695abb1-3f41-4f62-982f-57de584e5897</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ATOMSBORG_4_FT61</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_27a0569f-7c2f-4833-bd35-17574b68246e"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_aef13842-6453-4919-b5b7-2a514e6e8427">
     <cim:IdentifiedObject.mRID>aef13842-6453-4919-b5b7-2a514e6e8427</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>STUPET_1_CT12</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_9890dee4-2395-9dde-fde9-7089b80923da"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_eb0254c2727143979b93e4d1bb1d59d8"/>
     <cim:VoltageLevel.Substation rdf:resource="#_5b7d9de5-4b04-4aa5-a668-7c34970db355"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_bc92b1da-3878-46fc-ad98-51ceb5d59a4e">
     <cim:IdentifiedObject.mRID>bc92b1da-3878-46fc-ad98-51ceb5d59a4e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>HEDHABORG_11_ST8</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_5954967b-fe78-4c92-acad-ffdb5ea365d8"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_338905d0-7dc9-4f92-a269-ad14fb9fd751">
     <cim:IdentifiedObject.mRID>338905d0-7dc9-4f92-a269-ad14fb9fd751</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>SOLSTAD_11_ST16</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_4e4ee30c-99eb-427c-d658-50a770c2b346"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:VoltageLevel.Substation rdf:resource="#_f3029872-4c9e-4240-9e6d-9c23be6ba96d"/>
   </cim:VoltageLevel>
   <cim:VoltageLimit rdf:ID="_a8078f99-e0ae-4ba4-0cbd-a1d1e2dccbd3">

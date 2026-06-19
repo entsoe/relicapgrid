@@ -415,7 +415,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "fcad8062-867d-4020-8b9c-de5924e80357";
             cim:IdentifiedObject.name     "AGGAN_1_CT11";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:ef2904b4-5f04-472b-9d1f-3011a18621dc> .
     
     <urn:uuid:d16ba42a-4d2c-497c-9ff4-a4297bbdcedc>
@@ -927,7 +927,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "95ce43c9-f46d-46ba-84d9-383e122fdbbf";
             cim:IdentifiedObject.name     "LIGAUNDA_11_ST25";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:d4154fbe-7330-4c64-b4a6-563e463e3f2f> .
     
     <urn:uuid:e64ee848-ccd0-411d-91a2-296f2acc6ad7>
@@ -1197,7 +1197,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4a692d85-3340-480c-b0de-f7dbc297b91b>;
@@ -1534,7 +1534,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ca144243-b197-45f4-affe-d437a80ee881>;
@@ -1807,7 +1807,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4cec73c4-a641-4045-86ba-48801b8cad9a";
             cim:IdentifiedObject.name     "RUTHUVUD_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:63352d22-c703-43d3-ba17-54221f9c66bc> .
     
     <urn:uuid:6e0721d9-30e5-3d8b-1b07-d7b971f971a9>
@@ -1952,7 +1952,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.6"^^xsd:float;
             cim:ACLineSegment.x        "16"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e2ff5640-b35c-45ad-aaf5-806d306e8b02>;
@@ -2117,7 +2117,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "25bd8e7a-4757-494c-b0d8-b2cc120d2372";
             cim:IdentifiedObject.name     "VÄSTBORG_5_ST5";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:83f755ac-12c6-4a5f-86e5-000a56a468ec> .
     
     <urn:uuid:b9c0ba29-733b-48c9-abcd-2b84fc1826f2>
@@ -2468,7 +2468,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "a630ec0b-5a41-44bc-ae66-85df1044cddc";
             cim:IdentifiedObject.name     "DALBO_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:21c71808-547d-4548-b473-85a9806f1bea> .
     
     <urn:uuid:34bf1bb6-3a5f-4a28-b975-ebbc628199b9>
@@ -3061,7 +3061,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "2.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:6f4b4d1b-6061-4312-a30d-cf0fbcf850ef>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -3624,7 +3624,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "160"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "8"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:604902f0-ed19-4a7d-bb4a-6c07c9a27458>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -3705,7 +3705,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "1eed5c53-4894-4ace-b0ad-fe0bea6eeccd";
             cim:IdentifiedObject.name     "AGGAN_4_CT11";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:ef2904b4-5f04-472b-9d1f-3011a18621dc> .
     
     <urn:uuid:7ef29d49-b384-4524-adf6-24f48902da06>
@@ -3811,7 +3811,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:26a1891d-6a1c-40b9-9cb7-7eb8b1738937>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -3858,7 +3858,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.94334"^^xsd:float;
             cim:ACLineSegment.x        "18.923"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:59040595-aad8-4a88-a3e7-700b03dd102b>;
@@ -4177,7 +4177,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ff7c8b31-6f53-41d0-a98c-ab52d2a9019e>;
@@ -4556,7 +4556,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "4.8"^^xsd:float;
             cim:ACLineSegment.x        "48"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:bc911d00-63b3-47c3-ab33-e05b8fa3f3d1>;
@@ -4898,7 +4898,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "17.6"^^xsd:float;
             cim:ACLineSegment.x        "128"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ba7edf50-7416-48af-b455-718f5974b8d6>;
@@ -4955,7 +4955,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "435fcfa7-c9d2-4208-9328-502f314bd723";
             cim:IdentifiedObject.name     "NORRÅS_1_FT42";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:f181518f-6e7b-4942-8b86-32a5d5c1564e> .
     
     <urn:uuid:8c0c2cf9-54d1-4b29-a2cf-87a21baacc8f>
@@ -5384,7 +5384,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:7b4aad57-129d-479a-859d-98a97895d5d6>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -5612,7 +5612,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.6"^^xsd:float;
             cim:ACLineSegment.x        "16"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:2eebfac5-800f-412d-9908-c39a45ebd72a>;
@@ -5726,7 +5726,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "90"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "134.244"^^xsd:float;
             cim:PowerTransformerEnd.x       "18.7717"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:59f61b59-a651-44b3-8192-ffc93ae87d98>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -5939,7 +5939,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:c3ecea91-35fe-4c03-87ec-69dd8376f3e1>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -6278,7 +6278,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "4.55625"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:faa09b87-230d-4eb2-8752-f6537557f20f>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -6340,7 +6340,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:af05b805-ba78-4b32-a282-dcff96ef3ef3>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -6905,7 +6905,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:a6517102-e157-4f82-aa08-8e5da6fe7cd5>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -7118,7 +7118,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:27f27bb8-c07b-4cda-a94c-97ab301f6446>;
@@ -7562,7 +7562,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:5040785f-58fd-465b-ba3a-779c9df50d4e>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -7937,7 +7937,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "40"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:62a1cd42-a772-4f0f-ba8e-aa643d078e28>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -7957,7 +7957,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "9.6"^^xsd:float;
             cim:ACLineSegment.x        "72"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:5f3f44ae-62f6-490d-b491-0476fdb989b7>;
@@ -8324,7 +8324,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "9.6"^^xsd:float;
             cim:ACLineSegment.x        "128"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:bd564e64-0f49-4f47-8f9a-9c1757d94c69>;
@@ -8963,7 +8963,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "bb22add2-334b-483b-8d34-91bb602f14bd";
             cim:IdentifiedObject.name     "TROLLFAL_11_ST33";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:16fa0367-f702-43f3-8462-f1ed5be6c112> .
     
     <urn:uuid:3acf0be3-1d6c-4523-8457-5b4c631da3fb>
@@ -9243,7 +9243,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:a4e81402-8862-48c8-bf60-027a880ac166>;
@@ -9778,7 +9778,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "9.1125"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:866fc32a-f850-4b5e-b968-c7b3a2ff9fdb>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -10542,7 +10542,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:2bf394da-5e17-41ba-86b3-0a9ad3f9503e>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -10727,7 +10727,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:1ff510b8-a239-4647-9c86-66224e17f171>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -11531,7 +11531,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.62596"^^xsd:float;
             cim:ACLineSegment.x        "49.702"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ec007cd5-edd7-4800-97e3-aa2ae1f6a505>;
@@ -11621,7 +11621,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "2.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:d5959fac-3ea7-445a-8cfd-096a70d8df88>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -11717,7 +11717,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "56"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e4f22acd-7410-42e7-84bb-848487ec8184>;
@@ -11817,7 +11817,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+                    <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:651c8852-2310-4b2b-af51-dc383d9a99ea>;
@@ -12064,7 +12064,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:80de0e8a-10c2-4063-82cf-a5e1e50e5a2c>;
@@ -12145,7 +12145,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.7"^^xsd:float;
             cim:ACLineSegment.x        "20"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "50"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3>;
@@ -12375,7 +12375,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:24c845f6-ad68-4472-8d01-6491769a2f31>
             rdf:type                   cim:EquivalentInjection;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:41d4fafe-e4ce-4ca3-86d9-f181ae3f8ea3>;
             cim:EquivalentInjection.regulationCapability
@@ -12605,7 +12605,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "48"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:69f40fa5-0e84-40a7-a1fd-88e0903842c9>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -13043,7 +13043,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "11"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TransformerEnd.Terminal     <urn:uuid:db98555c-ec78-42e7-9b35-02c12f36220c>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -13135,7 +13135,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ddb2b234-25ae-43e1-8a46-8285fea9a6ee>;
@@ -13310,7 +13310,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "5c9c64e1-c22a-449e-9ef6-96a8324e78f4";
             cim:IdentifiedObject.name     "HAMMARVATT_5_ST3";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:090b0ce5-64cc-4cd5-a0b6-e81bb3ba6ba5> .
     
     <urn:uuid:552de1be-b533-0c29-dbdf-7c4994a469db>
@@ -13388,7 +13388,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "55479a78-192e-4b76-ba4b-cbbd31690cba";
             cim:IdentifiedObject.name     "NYSTAD_1_RT133";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:434653b6-d399-418b-aa9e-8869ae4c6a1c> .
     
     <urn:uuid:e4a69d52-39eb-4add-988c-cc864e50e5ff>
@@ -13398,7 +13398,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:42a90dd8-c7c3-48a2-94d6-2a4e33efbd5e>;
@@ -13831,7 +13831,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "120"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:f3591702-82b2-4259-961a-761d218eab12>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -13900,7 +13900,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "120"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:c7e939b3-1e27-4db8-b214-6aed3753ff27>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -13948,7 +13948,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "750"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:26824b59-98b2-4774-b122-71a610bc80b0>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -14166,7 +14166,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "220"^^xsd:float;
             cim:PowerTransformerEnd.x       "14.52"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TransformerEnd.Terminal     <urn:uuid:e940b460-6577-41d9-8c27-92968eeced7c>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -14263,7 +14263,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "10"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "18.75"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:6fb4bece-e4aa-49dd-a967-41cf402d7188>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -14385,7 +14385,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.68946"^^xsd:float;
             cim:ACLineSegment.x        "10.1404"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e9f0d2c3-17a7-4217-a9f0-4a0b10af26e3>;
@@ -14551,7 +14551,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "57d46e9c-5bb5-45ab-844d-2ba69f4bb427";
             cim:IdentifiedObject.name     "HÄSTSJÖ_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:61467669-cca4-40b5-98d7-6e5d15b5fbec> .
     
     <urn:uuid:32acf8dc-6e77-46d3-9d5c-100ae3a61217>
@@ -14663,7 +14663,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "338905d0-7dc9-4f92-a269-ad14fb9fd751";
             cim:IdentifiedObject.name     "SOLSTAD_11_ST16";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:f3029872-4c9e-4240-9e6d-9c23be6ba96d> .
     
     <urn:uuid:0ab7e373-eff0-4a7e-a82f-9b6112fcf18d>
@@ -14680,7 +14680,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:f1c68f2f-93fa-4448-8345-776e97cca45a>;
@@ -14859,7 +14859,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:558f0309-bb35-4049-9ecb-ccb52a6f53c6>;
@@ -15202,7 +15202,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "7e1770b2-6e55-4590-9fa3-66f56b6b395a";
             cim:IdentifiedObject.name     "BLOCKET_4_FT51";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:3cfb1471-bebc-42a0-88e0-cfe20067c2da> .
     
     <urn:uuid:96dcaa47-0c45-49a9-a739-1c8f594ba479>
@@ -16398,7 +16398,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4145e899-51e1-4375-a641-df1daf45fa48";
             cim:IdentifiedObject.name     "STUPET_G4_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:5b7d9de5-4b04-4aa5-a668-7c34970db355> .
     
     <urn:uuid:30ea8a19-c87f-4183-85ee-9aea6e82b024>
@@ -16603,7 +16603,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:1aa2fc72-8ba5-4426-bc52-09c6085b43f8>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -16638,7 +16638,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.62596"^^xsd:float;
             cim:ACLineSegment.x        "49.702"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:074cc2d5-7bf9-473c-8813-0ab93c0d91b3>;
@@ -16708,7 +16708,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "4.8"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:5e261e87-e731-477f-8e02-018d855646bf>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -16772,7 +16772,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4a237813-ed80-44d8-a1eb-d0c08765a486";
             cim:IdentifiedObject.name     "ÄRKEBO_11_ST30";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:23d450c5-a44d-4467-865c-4afedd9da4e3> .
     
     <urn:uuid:2e3f7823-af7a-4bab-80c7-3eb7c65b05cf>
@@ -16800,7 +16800,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.10316"^^xsd:float;
             cim:ACLineSegment.x        "14.7167"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:5b6bdd95-6c44-48d1-bbdf-80a74ab05b33>;
@@ -16985,7 +16985,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c6db21bf-8950-4aa5-aa46-3a47375f6ef3";
             cim:IdentifiedObject.name     "STORTRÄSK_1_CT22";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:ab05c6bb-2b8e-43f1-b04c-c96b4237bc95> .
     
     <urn:uuid:00f0b5e1-8fb6-4c91-85c0-6b4497b87a0f>
@@ -17082,7 +17082,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "2f7598d2-f3e2-490c-bb0c-72a10dc31bed";
             cim:IdentifiedObject.name     "NJAGGO_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:896f3f0a-04aa-4e70-a610-d2f5ff00bf8c> .
     
     <urn:uuid:ef581eee-269b-4004-bde2-ffe1b581ec6b>
@@ -17313,7 +17313,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "8eb93370-c564-4279-9b11-57b6a3f95e5c";
             cim:IdentifiedObject.name     "SYDKÖPIN_11_FT50";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:97a2eca6-bf41-447c-8786-ca82736395d9> .
     
     <urn:uuid:15ad2f72-60fd-4f98-8088-234e627125e4>
@@ -17387,7 +17387,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:971f75a6-27b5-4d8e-abaf-1cbbeb1f1745>;
@@ -17565,7 +17565,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "ac2aff62-67d9-405d-9cfb-60bd0147a33d";
             cim:IdentifiedObject.name     "LÅNGÅKER_11_ST28";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:fe14ea90-40d2-4a37-b1a6-e2406b1e24be> .
     
     <urn:uuid:86fdc167-a36f-4097-af3b-cb37c3adfeed>
@@ -17632,7 +17632,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:94495e94-c233-4810-9ff6-4b746b0370cc>;
@@ -17752,7 +17752,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "32"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:305dab12-afc9-4357-9310-da2c54ec83bb>;
@@ -17890,7 +17890,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:84076bc2-d8b1-4175-b1b8-09df10e650f7>;
@@ -17982,7 +17982,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:396cd556-6ffe-414e-ad9d-99e7fe7b3663>;
@@ -18043,7 +18043,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "4.55625"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:fae011e2-1158-44d4-9991-7656224928c1>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -18355,7 +18355,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "3f1939a1-f6a6-4a6c-a03f-2a62e4e4e97b";
             cim:IdentifiedObject.name     "SYDBÄCK_G_FT63";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:af20666a-d0bf-4b10-ba7f-749d12a365ff> .
     
     <urn:uuid:ee86fb01-7906-478d-98cd-ac143a6e4bf0>
@@ -18399,7 +18399,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "32"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:9c4c7d8b-cb1e-491e-9283-47cf8fb75031>;
@@ -18795,7 +18795,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:9c0a1823-8e83-40ce-8e93-4524eae92ebb>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -19056,7 +19056,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "320"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "142.965"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:a5722ddc-dbc6-4988-8a55-973cb5eec8f1>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -19064,7 +19064,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "1edc0517-bd63-4b8d-9276-394a42cf61ed";
             cim:IdentifiedObject.name     "SEGELSTA_11_ST23";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:4981eafc-a1d3-4f43-b101-234b945847a8> .
     
     <urn:uuid:6bb92247-582c-4ad6-bd6c-535c14128a98>
@@ -19285,7 +19285,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "6168cd36-d13e-477f-9f8f-8f2e5ee09d5d";
             cim:IdentifiedObject.name     "SYDKÖPING_4_FT50";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:97a2eca6-bf41-447c-8786-ca82736395d9> .
     
     <urn:uuid:db11600a-8c03-41b1-a006-b54bc5826aeb>
@@ -19351,7 +19351,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:44edadb7-ecca-4d19-be05-057d97b4e579>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -19770,7 +19770,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.42249"^^xsd:float;
             cim:ACLineSegment.x        "47.3194"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:0868276f-8b82-47d2-a641-95cab0ab68eb>;
@@ -20696,7 +20696,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:7c6026e7-7310-4d6b-9140-82c62502dc04>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -21117,7 +21117,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4d5a6a5b-afd6-442b-877d-f4371f3369dd";
             cim:IdentifiedObject.name     "MELLBRO_11_ST6";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:9c18dfa4-7d26-45a0-acb7-1c62fc3be5b3> .
     
     <urn:uuid:b93609f1-1fb6-4232-bc08-73cd1170b9f1>
@@ -21260,7 +21260,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "11"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TransformerEnd.Terminal     <urn:uuid:48cb520a-e5ef-4ac1-8c39-7f3a40434b53>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -21499,7 +21499,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.034"^^xsd:float;
             cim:ACLineSegment.x        "0.4"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "1"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:78525c97-a5b6-4cbb-8028-1236ca2f4a37>;
@@ -22270,7 +22270,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "a21d1ab3-0657-4920-ad26-6851e1a26aa4";
             cim:IdentifiedObject.name     "NORRSELE_2_AT241";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:VoltageLevel.Substation   <urn:uuid:7c56f1c0-7323-45ec-afad-3a9bb3476270> .
     
     <urn:uuid:f0062efa-d0e8-4e2f-9cc7-0b2b81da5bf2>
@@ -22316,7 +22316,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:cb3f9b8e-36c6-4802-be0d-54613283c79b>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -22509,7 +22509,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c86ea45f-52d0-474a-a386-0028e6de9e56";
             cim:IdentifiedObject.name     "STORTRÄSK_4_CT22";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:ab05c6bb-2b8e-43f1-b04c-c96b4237bc95> .
     
     <urn:uuid:39f6d7a9-3569-41a4-bfad-50f46ddf3e25>
@@ -22648,7 +22648,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "0662b9c3-85fe-4704-8dad-892fe1e4cfad";
             cim:IdentifiedObject.name     "TORSHAMM_P11_ST9";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:aa528f3a-1854-4a09-bee8-d5c8a2451259> .
     
     <urn:uuid:2ed21251-ddee-45b7-86bf-41581c24ede8>
@@ -22891,7 +22891,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "5.4675"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:0cee0da2-6644-43a8-b8c8-789f194ea8de>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -23163,7 +23163,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:3122e69b-0ed1-457b-87ac-882784b9a878>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -23239,7 +23239,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "17.16"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:97f00284-c809-42b7-ba4e-b6dd1688b92f>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -23257,7 +23257,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.25"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:d6ceab59-8b92-45e0-950a-7110f08b6b4c>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -23311,7 +23311,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "1500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "16"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:9be0a2ba-2cf0-433e-a225-b2b322a175fa>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -23373,7 +23373,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:cc7daf69-9f04-4ae2-99d9-5877d2d52fed>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -23419,7 +23419,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4666c97a-dffc-45a0-b5e6-77731d6ece08>;
@@ -23817,7 +23817,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:911406d6-70ff-4e19-946c-5d433b8dbb60>;
@@ -24043,7 +24043,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:ad64a5a5-33f5-4a8e-8b80-09e38b9b9430>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -24081,7 +24081,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.30767"^^xsd:float;
             cim:ACLineSegment.x        "42.0505"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:58499c12-2b24-4437-9375-352350499a84>;
@@ -24561,7 +24561,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "acf39328-87dd-40f3-8206-63740d051815";
             cim:IdentifiedObject.name     "NYLADA_P11_ST15";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:d600916d-706e-4e22-a422-27ad320c8e82> .
     
     <urn:uuid:c1a75785-debe-400a-ba0a-3570facf8e48>
@@ -24603,7 +24603,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "10"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "18.75"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:c0e8ba0b-fb36-4d3d-9ac1-a13840a603c4>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -25068,7 +25068,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "87ed786a-a507-4ea5-9630-f0c136ec53a6";
             cim:IdentifiedObject.name     "FISKBÄCK_11_ST13";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:7c4b0c0c-1188-4777-9fdd-7381eb5c85d1> .
     
     <urn:uuid:b0f7d097-fa0b-40fa-9e70-5b3b16514a70>
@@ -25302,7 +25302,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:ef581eee-269b-4004-bde2-ffe1b581ec6b>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -25983,7 +25983,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "f31ff570-44e0-45bc-b21f-49d29b627fdb";
             cim:IdentifiedObject.name     "RUTHUVUD_4_FT62";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:63352d22-c703-43d3-ba17-54221f9c66bc> .
     
     <urn:uuid:6f7d128c-7b35-4a10-a71f-6dda418475cb>
@@ -26056,7 +26056,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:aefd6508-c743-407c-b787-4cea19b16c06>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -26073,7 +26073,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "d2c0c4ad-4068-4e11-b867-8c79fe5ab7dc";
             cim:IdentifiedObject.name     "STACKMYR_11_ST26";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:40b4dcd0-0b88-4649-8ad7-623ca6a2767a> .
     
     <urn:uuid:be1397eb-c0dd-1d5b-857c-9ce7c547b148>
@@ -26257,7 +26257,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c3c8c9df-229b-4895-b34f-b27f58485969";
             cim:IdentifiedObject.name     "TRASTHO_P11_ST21";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:89ec1126-b46a-417e-b0ed-8c51457d8c2a> .
     
     <urn:uuid:e4902659-34ca-478c-9a11-7506b11f583b>
@@ -26490,7 +26490,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "823140d0-197f-4baa-a560-25ac59c3a4ab";
             cim:IdentifiedObject.name     "STORFORS_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:1b8936e8-00e9-468e-8638-0b1e5b931fa5> .
     
     <urn:uuid:cfefbccc-8b6e-4dcb-a266-4ca352a706be>
@@ -26716,7 +26716,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.30767"^^xsd:float;
             cim:ACLineSegment.x        "42.0505"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:73885d5c-76eb-4dcf-8da1-acc920e500b9>;
@@ -26786,7 +26786,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "1500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:f5a708c7-8b2e-47ef-8fc9-d131dba40996>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -27029,7 +27029,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:a3d65b24-0a9f-4176-8f60-8ea54764fb4e>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -27070,7 +27070,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:9b237690-d340-47a7-958f-5d7110c53a6f>;
@@ -27091,7 +27091,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "7cd0b58c-70a2-464a-a6a9-f828e19292f9";
             cim:IdentifiedObject.name     "ÖVERGÅR_P11_ST17";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:b425238a-670e-40d1-b03e-4b3bd041a81f> .
     
     <urn:uuid:e5a9a380-f5f2-62e7-1a01-f3bdc7c01d65>
@@ -27682,7 +27682,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.6"^^xsd:float;
             cim:ACLineSegment.x        "16"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:3204a51f-58e4-4a27-a947-91ea907aa471>;
@@ -27842,7 +27842,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.68946"^^xsd:float;
             cim:ACLineSegment.x        "13.5193"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:f1322ca8-8628-4f31-8ad5-6d65fa7d65b1>;
@@ -27930,7 +27930,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "250"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "10.935"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:7b2ba98a-59b3-4ca8-8eea-0511748e838d>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -28581,7 +28581,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.42249"^^xsd:float;
             cim:ACLineSegment.x        "47.3194"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e2840723-9d13-4460-b437-a683b31c5843>;
@@ -29197,7 +29197,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4c868189-4779-4983-a8ec-01bdd81f0a67";
             cim:IdentifiedObject.name     "VATTENDRAGET_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:c887b647-a157-467e-843f-3d33f2a543f0> .
     
     <urn:uuid:c78cc7af-9ab9-38f2-6b68-9810b52b03da>
@@ -29248,7 +29248,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c073e1af-7549-4ea0-8860-96b47d021872";
             cim:IdentifiedObject.name     "ERIKSHAMN_G_FT47";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:559b1d7b-721a-4195-953c-dc793939aaf6> .
     
     <urn:uuid:7877f561-fe71-70a6-f73d-148bfd0edf61>
@@ -29575,7 +29575,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "10"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "11"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TransformerEnd.Terminal     <urn:uuid:5a3246ea-13f1-43a7-86b5-fdf148153584>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -29864,7 +29864,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "b8e4bf45-72bb-42aa-9b61-22fb69ce014a";
             cim:IdentifiedObject.name     "YTTERFOR_1_RT131";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:01021d8d-7e36-4c1a-bcd3-8555179699b8> .
     
     <urn:uuid:89be059f-f43f-4378-9348-00cb838cbf54>
@@ -29890,7 +29890,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "aef13842-6453-4919-b5b7-2a514e6e8427";
             cim:IdentifiedObject.name     "STUPET_1_CT12";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:5b7d9de5-4b04-4aa5-a668-7c34970db355> .
     
     <urn:uuid:fa0ea1fe-a16e-4431-b2c4-bae45f12f32a>
@@ -29975,7 +29975,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "40"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:bbf96e5e-a6ff-4f0c-acbe-c47510279eba>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -30031,7 +30031,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "30"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:1bc3196b-24d9-41bf-858b-2cda26a85ee3>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -30770,7 +30770,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:b5213e8b-a918-4a71-b2aa-db3c8610feb8>;
@@ -31037,7 +31037,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c2dfcb14-2f43-4717-9a74-5fe36ce3fa4a";
             cim:IdentifiedObject.name     "MITTLANDA_4_FT45";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:486f89bc-db08-40a6-8422-39db2eb49404> .
     
     <urn:uuid:fb98255f-3904-c358-ff62-07ba320de9a3>
@@ -31510,7 +31510,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.3"^^xsd:float;
             cim:ACLineSegment.x        "2.5"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:35cf638d-9a9d-4ae5-ae90-2f01ef898cb6>;
+                    <urn:uuid:b88e6bde11264fea83355102cd4f182c>;
             cim:Conductor.length       "50"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:77ca5612-67a1-4a52-a180-86560777ab4a>;
@@ -31692,7 +31692,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:8a738027-5d01-4b3e-81c8-bb967bc074e1>;
@@ -31713,7 +31713,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:12f19406-3933-4271-88fe-dbafe60e2ac8>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -31811,7 +31811,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "1500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "16"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:05cb343b-f9ae-43d2-831e-f5d00c08af16>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -32016,7 +32016,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.3551"^^xsd:float;
             cim:ACLineSegment.x        "0.5373"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:c1a75785-debe-400a-ba0a-3570facf8e48>;
@@ -32125,7 +32125,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:49d0ceb1-fb33-454e-9e9a-8e6f72f3883e>;
@@ -32362,7 +32362,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:3373d572-bb39-4dfa-8497-472c9274cdcf>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -32937,7 +32937,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "fc4d076c-3e12-4c05-ad72-42b090d114a0";
             cim:IdentifiedObject.name     "HÄLLAN_G4_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:25945b5c-9820-48e5-b4c6-4688ab34e6d7> .
     
     <urn:uuid:34775141-64db-4357-9095-7f3c32d2ec47>
@@ -33033,7 +33033,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:1d6c2973-0d05-4554-9ba2-33a60a0a19a9>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -33310,7 +33310,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "320"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "37.5"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:bc8821e9-864f-4873-af45-df20af46088e>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -33518,7 +33518,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:ef81bc62-1eba-48b0-acd3-4f2d7d8dae77>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -34011,7 +34011,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "ecf191a7-b93d-4619-ad24-52a8369be577";
             cim:IdentifiedObject.name     "MÅNSVIK_11_ST31";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:b2e2e6a6-9e94-406a-bd5b-9bbe3a23c35a> .
     
     <urn:uuid:d05304c5-aace-4f2a-8da4-3260645afb8b>
@@ -34354,7 +34354,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "60.1425"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:9d5e67dd-f6c9-4a11-8c27-3d08c25c3032>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -34671,7 +34671,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "90"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:09a14ca7-b62e-43d0-878f-2540731e553f>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -34987,7 +34987,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "8"^^xsd:float;
             cim:ACLineSegment.x        "72"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e0985c75-3035-4172-9155-b9622cecf818>;
@@ -35388,7 +35388,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "fde246b9-5515-487e-ae4a-152132b1abb2";
             cim:IdentifiedObject.name     "DALBO_4_FT41";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:21c71808-547d-4548-b473-85a9806f1bea> .
     
     <urn:uuid:d127624f-3940-bb6f-ec0b-99c26a539d86>
@@ -35405,7 +35405,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "320"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "4"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:56cb5c7b-8685-4204-b978-18a809b8c4dc>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -35522,7 +35522,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "120"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:091014d9-184b-4ae5-881a-decb12a59351>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -35624,7 +35624,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "80"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:ccaa413d-a610-4c9a-89e4-3e025b273dc8>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -36103,7 +36103,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "10"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:TransformerEnd.Terminal     <urn:uuid:97e1e9f0-cea6-46a0-b194-d4a66568b7b6>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -36575,7 +36575,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "1d45923a-5286-447f-a173-4bc88b6f3fbc";
             cim:IdentifiedObject.name     "SYDKÖPING_1_FT50";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:97a2eca6-bf41-447c-8786-ca82736395d9> .
     
     <urn:uuid:3be96909-2339-4817-a2e6-c98d5495dab5>
@@ -37097,7 +37097,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e";
             cim:IdentifiedObject.name     "KABOLST_P11_ST34";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:3b3fb73c-f916-4145-b659-2da245f0463a> .
     
     <urn:uuid:bbf96e5e-a6ff-4f0c-acbe-c47510279eba>
@@ -37723,7 +37723,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:ae5ebe6f-ac9f-40e6-a4c7-cbe86f7f7124>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -37926,7 +37926,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "2b3dfc6e-b9db-4c2f-8075-e4b7c0c3080c";
             cim:IdentifiedObject.name     "ATOMSBORG_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:27a0569f-7c2f-4833-bd35-17574b68246e> .
     
     <urn:uuid:e94edd29-cb3e-482a-a74b-02cd589fe7ac>
@@ -38712,7 +38712,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.83437"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:703db687-38a6-4253-b04a-5b31c477f08e>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -38796,7 +38796,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "320"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:e6ab5d10-e87c-4b58-a851-ba8cf1e5dc32>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -38963,7 +38963,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:d4a12294-a41e-4ed9-88e6-5e24eae2037b>;
@@ -39466,7 +39466,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "90"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:b40d19fb-c741-4661-b594-ef9ce569d117>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -39956,7 +39956,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "8dc4bc0e-0d26-441d-93fb-c640526fb258";
             cim:IdentifiedObject.name     "KVÄLLSGÅ_11_ST22";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:d46131aa-07f1-45da-be0d-68133adbdeea> .
     
     <urn:uuid:91d1c77a-8629-4357-ba05-09b7def2578e>
@@ -40403,7 +40403,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "34.2857"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:0bca2f55-7f25-49c4-8221-d0ab3005d6da>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -40428,7 +40428,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c21b8ade-8404-45cf-8e52-6920bd0f85fc";
             cim:IdentifiedObject.name     "STENFORSE_2_CT31";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:VoltageLevel.Substation   <urn:uuid:23007e2f-ff5a-44d2-9648-de278923942e> .
     
     <urn:uuid:6c06f609-2735-6659-fe62-eb70bdfa5238>
@@ -40608,7 +40608,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "cd63ee3d-7629-47fa-8e0f-ebd9b7de106e";
             cim:IdentifiedObject.name     "LILLBORG_11_ST24";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:084f3223-e06e-4923-83b6-a9a74ea21f10> .
     
     <urn:uuid:05ee769e-abe0-4de5-7bff-9590b8d90734>
@@ -40673,7 +40673,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.05445"^^xsd:float;
             cim:ACLineSegment.x        "0.2057"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e6b53c8d-12d8-49b9-9202-8fe1f057aa6d>;
@@ -40823,7 +40823,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "a7f5e1c1-d18a-473d-905f-cb13d4711d89";
             cim:IdentifiedObject.name     "NORRSELE_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:7c56f1c0-7323-45ec-afad-3a9bb3476270> .
     
     <urn:uuid:ab8b1dee-3018-491c-b9cc-473620f43099>
@@ -40980,7 +40980,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.22968"^^xsd:float;
             cim:ACLineSegment.x        "3.90497"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:35254854-8813-45e9-9989-13dc9b22deb9>;
@@ -41189,7 +41189,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:90bb8d7b-270f-4da1-a9eb-dd53c3fdf43d>;
@@ -41261,7 +41261,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "10"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:8f96f230-2866-4a90-85bf-4085ec250755>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -41464,7 +41464,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.3551"^^xsd:float;
             cim:ACLineSegment.x        "0.5373"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:cb7f9bf6-8291-4766-ac2a-05bde6fbf5bb>;
@@ -41521,7 +41521,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "4.8"^^xsd:float;
             cim:ACLineSegment.x        "48"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:c088308d-bce2-40af-95fc-d1a947f23019>;
@@ -41572,7 +41572,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "ed287439-8118-42e4-ac38-4a582f64f9a1";
             cim:IdentifiedObject.name     "BITTERB_P11_ST12";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:0cacc20e-aee8-43d5-b837-3fc03e85f499> .
     
     <urn:uuid:baf2cec8-dbe8-36ba-c78e-2e182a39b3b1>
@@ -41917,7 +41917,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.6"^^xsd:float;
             cim:ACLineSegment.x        "24"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:71dc5fff-838f-4982-921d-a6c3a256f472>;
@@ -42090,7 +42090,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "53.3333"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:28d5b143-c7ab-4cec-8e26-927614a3b463>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -42538,7 +42538,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e832c92c-7b49-47c9-8ddc-c0718272bf9c>;
@@ -42746,7 +42746,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:46f50bf7-4f81-efb5-1b8e-667cad94dfd4>
             rdf:type                   cim:EquivalentInjection;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0>;
             cim:EquivalentInjection.regulationCapability
@@ -42948,7 +42948,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "b56e0cd2-cb58-4d1d-8e6f-fba527f33fdb";
             cim:IdentifiedObject.name     "HÄSTSJÖ_11_RT132";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:61467669-cca4-40b5-98d7-6e5d15b5fbec> .
     
     <urn:uuid:cd0cf316-2399-4993-a46d-b7d6c5aa2f97>
@@ -43336,7 +43336,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "691f4e54-ee0f-4302-8504-f54c943e814d";
             cim:IdentifiedObject.name     "TORNÅ_4_CT32";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:92cf8eb6-8f46-4dbc-a83d-9f882547d36b> .
     
     <urn:uuid:64c2250e-987a-4e50-b171-9645823e3e5e>
@@ -43434,7 +43434,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.6"^^xsd:float;
             cim:ACLineSegment.x        "12.8"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4e146ade-9310-4818-a301-50f419ff5e34>;
@@ -43445,7 +43445,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "f41af37d-1fcc-4d2c-abc6-acfc2ad02457";
             cim:IdentifiedObject.name     "STORTRÄSK_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:ab05c6bb-2b8e-43f1-b04c-c96b4237bc95> .
     
     <urn:uuid:6a7ce9d4-7e73-485c-8aaa-7bb5a16bc1e6>
@@ -43472,7 +43472,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "15c457f1-e9c1-4997-9fc1-6d9e56024df2";
             cim:IdentifiedObject.name     "HÄSTSJÖ_1_RT132";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:61467669-cca4-40b5-98d7-6e5d15b5fbec> .
     
     <urn:uuid:09b8e545-f25e-43e0-b01a-d40f92338154>
@@ -43902,7 +43902,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.22968"^^xsd:float;
             cim:ACLineSegment.x        "3.90497"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:40234320-1071-4945-9e72-e75a09bf1d39>;
@@ -44305,7 +44305,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:8bddd868-8494-4d47-a091-f599a43158f0>;
@@ -44346,7 +44346,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.10316"^^xsd:float;
             cim:ACLineSegment.x        "10.5122"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:53ba0471-0328-482b-986b-a987c0f3132a>;
@@ -44588,7 +44588,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "80"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:0006811f-1505-4595-91c8-87848839bd74>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -44931,7 +44931,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "16"^^xsd:float;
             cim:ACLineSegment.x        "160"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:bf72c08f-ca8a-4dd6-98c4-395e2a92f534>;
@@ -44962,7 +44962,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "32"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:90dd0484-6f93-443a-949b-6fc6f8c4f21c>;
@@ -45205,7 +45205,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "4.8"^^xsd:float;
             cim:ACLineSegment.x        "48"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:88c87801-8ebb-4e87-80c4-4501e868bfbc>;
@@ -45667,7 +45667,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "3cbe822c-292d-4e10-87d8-9924adf7df55";
             cim:IdentifiedObject.name     "VATTENDR_1_AT111";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:c887b647-a157-467e-843f-3d33f2a543f0> .
     
     <urn:uuid:96bf9c2f-a25f-4a18-9587-dcdd6ce1ce01>
@@ -45783,7 +45783,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:95c873cb-bc6d-4a05-8e6a-bb361c2dcb61>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -46228,7 +46228,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:895fe122-1e54-40c5-bc88-71e3938f93d0>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -46827,7 +46827,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:fb2b26fd-b31e-459d-866c-156a8115901d>;
@@ -46887,7 +46887,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "4.8"^^xsd:float;
             cim:ACLineSegment.x        "48"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:46130072-6168-42a9-98c9-88d98f9c2a88>;
@@ -47359,7 +47359,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "13.6687"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:85468589-adc2-46c0-a1fb-a4fab869728f>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -47976,7 +47976,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:b4922fd6-9214-45e7-9b59-5f37bf6f24f8>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -48557,7 +48557,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "3.90536"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:895f0fed-44d1-4be2-b1f9-c54f9e9ddc37>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -48703,7 +48703,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "160"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "142.965"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:9502d1e5-2804-47bf-b3f7-62b378ccde57>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -48992,7 +48992,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.10316"^^xsd:float;
             cim:ACLineSegment.x        "10.5122"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:bfc571b6-7dd7-491e-8b0e-2f381eff5fc1>;
@@ -49049,7 +49049,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "df857ed5-4456-4af5-b180-6de923e5b00f";
             cim:IdentifiedObject.name     "UPPHA_P11_ST10";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:9102f082-9ddd-4ad4-9228-4da09ade88b0> .
     
     <urn:uuid:33396253-5dd8-42fb-aaaf-0fc16919c139>
@@ -49325,7 +49325,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "3de7ff3a-9e57-4f63-ae19-e890a16d141b";
             cim:IdentifiedObject.name     "NJAGGO_4_CT21";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:896f3f0a-04aa-4e70-a610-d2f5ff00bf8c> .
     
     <urn:uuid:2460a321-c918-4118-bce9-13cf626af7e5>
@@ -49557,7 +49557,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:391aa915-3a77-427e-9f0e-0adb99b9418d>;
@@ -49672,7 +49672,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.034"^^xsd:float;
             cim:ACLineSegment.x        "0.4"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "1"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ba130a7b-fb46-4c73-a6cf-ec41812a14c0>;
@@ -49723,7 +49723,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "44fe583a-0d20-40fd-a5be-2901ab012e0a";
             cim:IdentifiedObject.name     "HEMMARYD_11_ST19";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:e3094e7c-a712-4985-9ac7-18c58e7670a1> .
     
     <urn:uuid:b0bf180c-f92b-433e-8273-62dcbd01ec97>
@@ -49767,7 +49767,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "3.2"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:af54ae4f-9daa-492b-b706-0be826710d33>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -49938,7 +49938,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "33fd5b67-4812-45a6-8fc6-59e694cc702a";
             cim:IdentifiedObject.name     "HAMMARVATT_G_ST3";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:VoltageLevel.Substation   <urn:uuid:090b0ce5-64cc-4cd5-a0b6-e81bb3ba6ba5> .
     
     <urn:uuid:037e753c-7f69-4e2f-bede-8e645fbfe041>
@@ -50523,7 +50523,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "750"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:2c5d0e6e-c382-41c9-9e49-6dce136511c2>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -50744,7 +50744,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "e7203547-5923-40e1-b6bd-c480b38d1490";
             cim:IdentifiedObject.name     "ASAGÅRD_P11_ST18";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:89b3fc1c-fe2d-4f60-a64f-37a2c79b8750> .
     
     <urn:uuid:7f8ec637-86fe-d105-42a8-fb923fd96409>
@@ -50761,7 +50761,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:398228f9-6b4b-4b20-8ecc-ddd6abbfe848>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -50808,7 +50808,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "b56c87cd-496b-4830-9037-b0e1a396652f";
             cim:IdentifiedObject.name     "STUPET_4_CT12";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:5b7d9de5-4b04-4aa5-a668-7c34970db355> .
     
     <urn:uuid:ffc9955b-bb91-46f1-86a5-be73ba5bd3a4>
@@ -51857,7 +51857,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "50"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.25"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:TransformerEnd.Terminal     <urn:uuid:7727101c-624a-40b5-8916-77969fa7da56>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -51895,7 +51895,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "2.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:2d0850f2-1385-4a43-9df5-d0d061d848af>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -51963,7 +51963,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:e8835e11-2013-431f-9376-987cadc7a625>;
@@ -52142,7 +52142,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "750"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "32"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:058a4482-6a47-4a3a-81fa-2aebe09f085a>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -52187,7 +52187,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "e3d6577f-4db0-4939-aec9-7168cb89a502";
             cim:IdentifiedObject.name     "SYDBÄCK_4_FT63";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:af20666a-d0bf-4b10-ba7f-749d12a365ff> .
     
     <urn:uuid:08a55cdf-3beb-4efc-8780-6f71b1c051b2>
@@ -52249,7 +52249,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:5c48abf2-1404-4293-8a74-faf074f00b7d>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -52597,7 +52597,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:b2df5562-b084-4e41-97cb-8edb3b56c2b8>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -52720,7 +52720,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "73aa8d29-03a0-44fc-9d7d-ee222ea80f68";
             cim:IdentifiedObject.name     "KUBBON_11_ST14";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:925baaf0-de0b-4528-821a-08490054ec7f> .
     
     <urn:uuid:d33795e8-be24-8fac-b6bb-90055c20312a>
@@ -53737,7 +53737,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "08f02d38-7bf1-439e-8feb-a85a8037b6ff";
             cim:IdentifiedObject.name     "BLOCKET_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:3cfb1471-bebc-42a0-88e0-cfe20067c2da> .
     
     <urn:uuid:603834a6-146f-d20b-60f1-8e37438ba555>
@@ -54427,7 +54427,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "007dedc8-ce4f-4f2c-b424-bc7b8fe1da30";
             cim:IdentifiedObject.name     "JAURAS_4_CT71";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:eb3b03b0-d562-47d9-ad7a-90a433ddc0ac> .
     
     <urn:uuid:1ff8db09-135b-4795-9121-07081d689464>
@@ -54752,7 +54752,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "6.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:82f0930f-e8c5-412d-a82d-ab1ca790477f>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -54926,7 +54926,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:462cfc08-cfef-4f6c-9e90-663ebbcc76bc>;
@@ -55023,7 +55023,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "1500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:4b677c1d-43c3-4522-97db-c959d3a6b5a0>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -55257,7 +55257,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "16"^^xsd:float;
             cim:ACLineSegment.x        "106.72"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:970ba5f7-656d-4a91-88ad-b61608857a79>;
@@ -55295,7 +55295,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "350"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "220"^^xsd:float;
             cim:PowerTransformerEnd.x       "20.7429"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TransformerEnd.Terminal     <urn:uuid:e7df6b9a-a265-4cd8-a321-4330963dce26>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -55408,7 +55408,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "3de0f9f8-a18d-4b2c-b861-c2c1331cc71b";
             cim:IdentifiedObject.name     "JAURAS_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:eb3b03b0-d562-47d9-ad7a-90a433ddc0ac> .
     
     <urn:uuid:bb3e8b61-d84f-4e44-8031-0854e8cb883a>
@@ -55504,7 +55504,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "8.44911"^^xsd:float;
             cim:ACLineSegment.x        "50.7001"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:751e7004-9dda-4f23-b16e-aee6c4b62941>;
@@ -55825,7 +55825,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.94334"^^xsd:float;
             cim:ACLineSegment.x        "18.923"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:8f8ed7dc-012f-4edc-9b9f-c26e7471da3a>;
@@ -56144,7 +56144,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "9512b02d-9d17-4af3-8ced-f13d94186c2b";
             cim:IdentifiedObject.name     "NYSTAD_5_RT133";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:434653b6-d399-418b-aa9e-8869ae4c6a1c> .
     
     <urn:uuid:65ae4bd8-f115-40ff-95c3-6a763825ecd4>
@@ -56215,7 +56215,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "fd4e8daa-7b82-49ad-9e7f-b3da8b0e9d58";
             cim:IdentifiedObject.name     "ANNORLUN_11_ST29";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:8d2f5d14-da3f-41be-9500-7c2f68e4d859> .
     
     <urn:uuid:29561191-03db-4286-a009-0fd35f4e9479>
@@ -56569,7 +56569,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "9.6"^^xsd:float;
             cim:ACLineSegment.x        "96"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:9c763114-4fc7-4460-a5c0-ccd87c11e4cc>;
@@ -56723,7 +56723,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "250"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:bfc551c5-1736-402a-9770-a7dc68dee124>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -56741,7 +56741,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "7b29b41f-a3e7-426c-aa38-06e9253b50ff";
             cim:IdentifiedObject.name     "VÄSTERDA_P5_ST56";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:fbf8550d-9447-46a8-b9d8-c960983075ae> .
     
     <urn:uuid:b9e59760-592f-4834-91d3-41580a675d25>
@@ -56809,7 +56809,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "60.1425"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:404e9fc7-6d2a-401f-b5c4-04fed760f0b1>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -57522,7 +57522,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:b41a4c97-2f7e-4aae-b626-0156f13b2700>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -57773,7 +57773,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "20"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:TransformerEnd.Terminal     <urn:uuid:e19e1f5b-3408-4eba-8804-72fdfdd0362b>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -57933,7 +57933,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "32"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:674e275e-b9aa-4965-a148-89c0a6050f61>;
@@ -58023,7 +58023,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.10316"^^xsd:float;
             cim:ACLineSegment.x        "14.7167"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:ea51e176-9327-405f-8ed5-c5c00ab37886>;
@@ -58870,7 +58870,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "300"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:e3244a1a-30e4-4c8f-a16e-bc8cf7d70ca1>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -59280,7 +59280,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.5351"^^xsd:float;
             cim:ACLineSegment.x        "20.2808"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:72617dff-0a85-44c8-b864-0823765e3291>;
@@ -59328,7 +59328,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:77a22396-bec1-448a-9c13-40156754a598>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -59830,7 +59830,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "1303c35a-11c7-43cb-8906-24654c204ab9";
             cim:IdentifiedObject.name     "YTTERFOR_5_RT131";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:01021d8d-7e36-4c1a-bcd3-8555179699b8> .
     
     <urn:uuid:1225af82-04b9-0a43-9b5e-70d2859d25bf>
@@ -60542,7 +60542,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "226.534"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TransformerEnd.Terminal     <urn:uuid:b2dbc2ad-833a-448d-b8c3-b576183b85f4>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -60877,7 +60877,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "d5c5954a-cf35-434a-bf34-08132592eef9";
             cim:IdentifiedObject.name     "KÄRNAN_G_FT44";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:5ad52fa6-29ea-57c1-d7c0-c286b152994b>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:4ace87c9-16c7-4097-914f-d4551d7d8cd5>;
             cim:VoltageLevel.Substation   <urn:uuid:c56052d6-6cf4-4880-aaca-53f680a6a28f> .
     
     <urn:uuid:9f29b7b9-776f-470e-a609-0d9dbc9d5599>
@@ -61925,7 +61925,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "3ce6ce82-fc23-4f0e-917a-05cff79840d0";
             cim:IdentifiedObject.name     "OLMÅFALLET_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:2719f11d-8c8b-4e0f-8f35-7d362a3279f8> .
     
     <urn:uuid:c025f1b6-083d-4351-b0d7-64560ef78c4b>
@@ -62007,7 +62007,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "4.89143"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:70601300-499d-4e7c-8488-7a6abc65bb82>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -62856,7 +62856,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4cfadb98-4269-4c34-a3eb-b26fc1c38b1b>;
@@ -63330,7 +63330,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "10"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "11"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TransformerEnd.Terminal     <urn:uuid:9e0704f9-e3bd-46e9-b792-88c5dae6d262>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -63355,7 +63355,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "400"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "136.445"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:24d60b9a-f9bb-4479-8923-afacee1e847d>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -63585,7 +63585,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "11"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:TransformerEnd.Terminal     <urn:uuid:ad93480f-c24e-46dc-98a1-0be19af8d52e>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -63725,7 +63725,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "700"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "34.2857"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:5b73e2c7-0092-42b2-8ffb-960e700e90b8>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -64017,7 +64017,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "9.6"^^xsd:float;
             cim:ACLineSegment.x        "133.28"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:aa3f0804-560a-4205-8430-1905fb46e7be>;
@@ -64323,7 +64323,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.6"^^xsd:float;
             cim:ACLineSegment.x        "5"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:35cf638d-9a9d-4ae5-ae90-2f01ef898cb6>;
+                    <urn:uuid:b88e6bde11264fea83355102cd4f182c>;
             cim:Conductor.length       "100"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:54a2e470-ef70-443f-ae81-bcf2d117caa3>;
@@ -64515,7 +64515,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.14278"^^xsd:float;
             cim:ACLineSegment.x        "0.53845"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:910c5c51-9e3c-405e-b457-d8a8126ba233>;
@@ -64678,7 +64678,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "885b9cc7-e3d8-4868-8b4c-a6975d63649c";
             cim:IdentifiedObject.name     "MELLBRO_5_ST6";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:9c18dfa4-7d26-45a0-acb7-1c62fc3be5b3> .
     
     <urn:uuid:61607291-b3a0-2f93-4cad-bd185ee1a9ac>
@@ -64823,7 +64823,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4f5e7034-312e-4846-b5c3-85ccd4ba691b>;
@@ -64894,7 +64894,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "24"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:4e10a7e2-ab9d-43e6-a1b1-77af2bfad76e>;
@@ -65482,7 +65482,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:bda9af0f-6cbb-467a-aecb-2111477a826c>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -65516,7 +65516,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.68946"^^xsd:float;
             cim:ACLineSegment.x        "10.1404"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:615eeefb-219a-410a-8a62-4405ea04ab7d>;
@@ -65527,7 +65527,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "482fd241-efde-4b10-9a19-e6ae0c1b2c37";
             cim:IdentifiedObject.name     "SAMMALUND_11_ST7";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:bb22f816-0ffa-47ff-8b92-38026fd7701f> .
     
     <urn:uuid:b71a0a08-93d9-4ae1-b930-02a45b35d374>
@@ -65769,7 +65769,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.3551"^^xsd:float;
             cim:ACLineSegment.x        "0.5373"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:c463adbb-f278-464e-ab8e-fd74feff3c3f>;
@@ -66250,7 +66250,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "750"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "32"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:c9b33ae9-efdf-4a8c-9283-262fdaf5c660>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -66796,7 +66796,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "30"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "60.1425"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:83006b0d-7b1c-4991-ba6f-572d5dba6a22>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -66879,7 +66879,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "5b56e969-b4e9-44b3-8512-fbfb0dbdb601";
             cim:IdentifiedObject.name     "VÄSTBORG_11_ST5";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:83f755ac-12c6-4a5f-86e5-000a56a468ec> .
     
     <urn:uuid:c67036c9-b1dc-4047-8449-fdd8adb8a7dc>
@@ -67677,7 +67677,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "9.6"^^xsd:float;
             cim:ACLineSegment.x        "128"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:35df9a0a-cbe9-4b0b-a2e9-5151ce829644>;
@@ -68297,7 +68297,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "3.2"^^xsd:float;
             cim:ACLineSegment.x        "32"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:cf3719bb-b0d8-40b7-ae33-70ffd1bc8a1f>;
@@ -68395,7 +68395,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "eaa25262-839d-4abf-ad2c-62e2e252bfee";
             cim:IdentifiedObject.name     "NORRÅS_4_FT42";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:f181518f-6e7b-4942-8b86-32a5d5c1564e> .
     
     <urn:uuid:e1899294-a4bf-4582-8f5a-e59dc15ffd79>
@@ -68679,7 +68679,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "2eb7e9fd-b643-435d-81d4-bf0e553538c3";
             cim:IdentifiedObject.name     "OLMÅFALL_1_AT121";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:2719f11d-8c8b-4e0f-8f35-7d362a3279f8> .
     
     <urn:uuid:e58b2617-98f2-4a1b-bde4-662ad6cfa249>
@@ -68915,7 +68915,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "4d89ff1b-ab26-4b34-a4a2-7b998e709b28";
             cim:IdentifiedObject.name     "STENFORSE_G_CT31";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:23007e2f-ff5a-44d2-9648-de278923942e> .
     
     <urn:uuid:cb30c8d3-c1c9-4247-8679-7708e7bc778a>
@@ -69271,7 +69271,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "2.5351"^^xsd:float;
             cim:ACLineSegment.x        "20.2808"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:aaf63004-8c8b-4c23-bff9-f382d587e0f0>;
@@ -69510,7 +69510,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.68946"^^xsd:float;
             cim:ACLineSegment.x        "13.5193"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+                    <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:7c0279b5-c3cd-4a3c-8a93-0ea64b148794>;
@@ -69882,7 +69882,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "b5ba054c-f8d4-434b-a2b2-24555417e0ef";
             cim:IdentifiedObject.name     "STORFORS_1_AT131";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:VoltageLevel.Substation   <urn:uuid:1b8936e8-00e9-468e-8638-0b1e5b931fa5> .
     
     <urn:uuid:ed8476b0-7778-0932-6331-c3b2f055e3a2>
@@ -69945,7 +69945,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "de40b9b9-c35d-454b-8e3d-d72eb380ff4b";
             cim:IdentifiedObject.name     "HÄLLAN_4_CT72";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:25945b5c-9820-48e5-b4c6-4688ab34e6d7> .
     
     <urn:uuid:0efaa7d7-8876-4ca3-8d84-d9e741b84f98>
@@ -70043,7 +70043,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:1c22af8a-c9b4-4105-87f8-da12e944c463>;
@@ -70116,7 +70116,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "40333bc5-7223-47c4-9ab1-c299b68f3608";
             cim:IdentifiedObject.name     "UPPMARK_4_FT43";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:22e8a59a-016e-4714-be8e-9837a2e856d8> .
     
     <urn:uuid:ce71a367-7314-42a9-8bfc-f5db28dd1ff2>
@@ -70383,7 +70383,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:e8cef25f-c0e1-4e8a-a55b-60a7cad81b20>
             rdf:type                   cim:EquivalentInjection;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:35cf638d-9a9d-4ae5-ae90-2f01ef898cb6>;
+                    <urn:uuid:b88e6bde11264fea83355102cd4f182c>;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:77ca5612-67a1-4a52-a180-86560777ab4a>;
             cim:EquivalentInjection.regulationCapability
@@ -70768,7 +70768,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "415d60ab-bcab-4b83-a415-721545370220";
             cim:IdentifiedObject.name     "STORÅN_G_ST4";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:VoltageLevel.Substation   <urn:uuid:7a2ecd68-9507-46c4-b76c-fdbb8046c1e4> .
     
     <urn:uuid:978e4300-3a39-4a04-b9b4-ee8bb45bf7a7>
@@ -70905,7 +70905,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:bfe2d3b9-21c4-44fd-b86f-a0bb381afafb>
             rdf:type                   cim:EquivalentInjection;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:78525c97-a5b6-4cbb-8028-1236ca2f4a37>;
             cim:EquivalentInjection.regulationCapability
@@ -71608,7 +71608,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "1e19c684-6c9c-41a8-93ef-873e18ebba71";
             cim:IdentifiedObject.name     "KÄRNAN_4_FT44";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:c56052d6-6cf4-4880-aaca-53f680a6a28f> .
     
     <urn:uuid:b00b810f-4fec-4cf5-b7b7-6a570fd20c65>
@@ -71868,7 +71868,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.3551"^^xsd:float;
             cim:ACLineSegment.x        "0.5373"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:bc709ae4-f10c-4f63-8c17-a46b245079e7>;
@@ -72070,7 +72070,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "500"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "48"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:ed42696c-b2fc-49b6-95bf-7561d656e91a>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -72967,7 +72967,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "600"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "2.66667"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:f59ff3f8-4a24-4f9e-883c-382707c4f188>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -73125,7 +73125,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "f825d10b-a202-44e8-85d1-e4f78dc3dcf7";
             cim:IdentifiedObject.name     "AGGAN_G_CT11";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:ef2904b4-5f04-472b-9d1f-3011a18621dc> .
     
     <urn:uuid:f1ec0b55-96fb-e058-0ccb-892e448b4e3e>
@@ -73321,7 +73321,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "400"^^xsd:float;
             cim:PowerTransformerEnd.x       "120"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TransformerEnd.Terminal     <urn:uuid:2c549253-4fba-4a85-86da-d47ce7ed8d57>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -73395,7 +73395,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "90"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "134.244"^^xsd:float;
             cim:PowerTransformerEnd.x       "18.7717"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:5c7d0e18-5ccc-4225-99d4-88f12d59a412>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -73666,7 +73666,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.02904"^^xsd:float;
             cim:ACLineSegment.x        "0.097405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:0a0d704c-50e8-4499-9cee-35c4fcf2f260>;
@@ -73979,7 +73979,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "200"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "135"^^xsd:float;
             cim:PowerTransformerEnd.x       "13.6687"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:9890dee4-2395-9dde-fde9-7089b80923da>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:eb0254c2727143979b93e4d1bb1d59d8>;
             cim:TransformerEnd.Terminal     <urn:uuid:dde072ef-514f-40c9-9cac-245d765d8f7b>;
             cim:TransformerEnd.endNumber    1 .
     
@@ -74091,7 +74091,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "04bc67f0-fc8e-4c6a-a63a-56ccc4595875";
             cim:IdentifiedObject.name     "YTTERFORSEN_G1_SWY";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:VoltageLevel.Substation   <urn:uuid:01021d8d-7e36-4c1a-bcd3-8555179699b8> .
     
     <urn:uuid:e39f3fa8-87a0-4bec-ac57-a97342e642d6>
@@ -74144,7 +74144,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "6.4"^^xsd:float;
             cim:ACLineSegment.x        "64"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:48098558-ea00-454d-8485-4f1586bd1e2b>;
@@ -74401,7 +74401,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "4.8"^^xsd:float;
             cim:ACLineSegment.x        "48"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:98288844-5f4e-4152-9891-f0ff04486b33>;
@@ -74497,7 +74497,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "bc92b1da-3878-46fc-ad98-51ceb5d59a4e";
             cim:IdentifiedObject.name     "HEDHABORG_11_ST8";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:5954967b-fe78-4c92-acad-ffdb5ea365d8> .
     
     <urn:uuid:61a96e47-1a12-4dc0-b1ca-8c5c789aee5c>
@@ -74514,7 +74514,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "c4f7bafb-f7c7-4404-b7c6-7632d1b1e534";
             cim:IdentifiedObject.name     "KALLBO_P11_ST11";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:VoltageLevel.Substation   <urn:uuid:d9d7e8c4-6dbb-4f4b-8aeb-1a67ec44f5fe> .
     
     <urn:uuid:25697a74-3ade-4b1c-9a35-f31cac539407>
@@ -74684,7 +74684,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "100"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "10"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:bfebf309-31ec-6347-b252-1761b35a5dc0>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:45b9413e-a116-4952-8cf8-aeb4b2e53348>;
             cim:TransformerEnd.Terminal     <urn:uuid:bcab6539-a446-44b4-b60c-27bafeeea8eb>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -75218,7 +75218,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "9695abb1-3f41-4f62-982f-57de584e5897";
             cim:IdentifiedObject.name     "ATOMSBORG_4_FT61";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:27a0569f-7c2f-4833-bd35-17574b68246e> .
     
     <urn:uuid:53ae372d-d748-95d8-3b9c-f327929b4b4c>
@@ -75297,7 +75297,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "8bb9206e-ba47-4ce1-9d10-8a1c8913f2ff";
             cim:IdentifiedObject.name     "ERIKSHAMN_4_FT47";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:559b1d7b-721a-4195-953c-dc793939aaf6> .
     
     <urn:uuid:0abccbab-466d-4ea2-bdc2-b61004c3dc89>
@@ -75334,7 +75334,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:PowerTransformerEnd.ratedS  "350"^^xsd:float;
             cim:PowerTransformerEnd.ratedU  "17"^^xsd:float;
             cim:PowerTransformerEnd.x       "0"^^xsd:float;
-            cim:TransformerEnd.BaseVoltage  <urn:uuid:08a35d61-b276-247a-1f63-1bbfabcdb4a8>;
+            cim:TransformerEnd.BaseVoltage  <urn:uuid:55ecbc58-19e7-41ba-84e3-094b57b66fc3>;
             cim:TransformerEnd.Terminal     <urn:uuid:b6dae7e2-678f-4878-be13-a3b1d0c3be33>;
             cim:TransformerEnd.endNumber    2 .
     
@@ -75804,7 +75804,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "567b4585-e951-4540-9512-22a05e88ea77";
             cim:IdentifiedObject.name     "STORÅN_5_ST4";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:VoltageLevel.Substation   <urn:uuid:7a2ecd68-9507-46c4-b76c-fdbb8046c1e4> .
     
     <urn:uuid:1cb6312c-4462-3557-3fb6-d1901a2f599f>
@@ -76519,7 +76519,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "1.22968"^^xsd:float;
             cim:ACLineSegment.x        "3.90497"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:48b1ff5c-a806-a525-91f9-c7284c2441b1>;
+                    <urn:uuid:ea1227e9-1547-ed65-cd87-ed85a8674758>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:a51c8f2a-7456-429c-ae13-bc54d97e04b7>;
@@ -76533,7 +76533,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "8"^^xsd:float;
             cim:ACLineSegment.x        "80"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:cccc7d1b-c2bc-4e20-a825-1dfaf354dc40>;
@@ -76592,7 +76592,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             rdf:type                      cim:VoltageLevel;
             cim:IdentifiedObject.mRID     "5f349efd-156f-4431-a1b6-fb6e17ad5148";
             cim:IdentifiedObject.name     "STENFORSE_4_CT31";
-            cim:VoltageLevel.BaseVoltage  <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+            cim:VoltageLevel.BaseVoltage  <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:VoltageLevel.Substation   <urn:uuid:23007e2f-ff5a-44d2-9648-de278923942e> .
     
     <urn:uuid:b8b92a6a-0990-4d56-85eb-8fa7c5bb5cf2>
@@ -76777,7 +76777,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
     <urn:uuid:6538ee49-99fd-4150-80a1-ba7dca295214>
             rdf:type                   cim:EquivalentInjection;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:54a2e470-ef70-443f-ae81-bcf2d117caa3>;
             cim:EquivalentInjection.regulationCapability
@@ -76870,7 +76870,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:ACLineSegment.r        "0.2904"^^xsd:float;
             cim:ACLineSegment.x        "0.97405"^^xsd:float;
             cim:ConductingEquipment.BaseVoltage
-                    <urn:uuid:4e4ee30c-99eb-427c-d658-50a770c2b346>;
+                    <urn:uuid:c8f7a2b8-a325-461f-a6d4-e74a1476ba2a>;
             cim:Conductor.length       "0.01"^^xsd:float;
             cim:Equipment.EquipmentContainer
                     <urn:uuid:2ddae08b-e801-42cd-bef8-5fad347d5fad>;

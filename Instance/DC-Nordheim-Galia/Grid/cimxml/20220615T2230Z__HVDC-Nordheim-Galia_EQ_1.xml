@@ -83,7 +83,7 @@
     <cim:ACLineSegment.gch>1.1e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>30</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>10</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
     <cim:IdentifiedObject.mRID>36806868-226e-4416-99ac-489fb1523bca</cim:IdentifiedObject.mRID>
@@ -508,7 +508,7 @@
     <cim:IdentifiedObject.name>EI NH-GA HVDC side</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_b24417f8-c669-44e5-6525-17fce5cd57d1">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>b24417f8-c669-44e5-6525-17fce5cd57d1</cim:IdentifiedObject.mRID>
@@ -735,7 +735,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>150</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ff755c5-dd8d-b345-1221-44482d996bb3"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_e50ca4bd591d4c30bd6eca3635f70516"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bb580ab8-eb07-4e59-8932-8a078288e409"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -750,7 +750,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>150</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ff755c5-dd8d-b345-1221-44482d996bb3"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_e50ca4bd591d4c30bd6eca3635f70516"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_cdb39691-018d-3e5e-1592-28761b4138cb"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -765,7 +765,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>150</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ff755c5-dd8d-b345-1221-44482d996bb3"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_e50ca4bd591d4c30bd6eca3635f70516"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_83274019-cf88-d03e-c291-efc418632b61"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -780,7 +780,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>150</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_5ff755c5-dd8d-b345-1221-44482d996bb3"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_e50ca4bd591d4c30bd6eca3635f70516"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e929a537-59db-0a68-fed5-cf14830b6cb4"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -795,7 +795,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>12.9062</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_458009ac-cb20-90bf-8a6a-cec8a53241b7"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -810,7 +810,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>12.9062</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e00f8ed5-1aa8-65ed-1f5d-c4b310349438"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -825,7 +825,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>12.9062</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_5dfef055-80c1-721a-667e-506a89bee690"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -840,7 +840,7 @@
     <cim:PowerTransformerEnd.ratedS>450</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>12.9062</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_ba5b81c8-d9da-4698-3aba-fc5f15d7ba4f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1009,13 +1009,13 @@
   <cim:VoltageLevel rdf:ID="_d487ff06-4419-477b-a85a-b55c34598b1b">
     <cim:IdentifiedObject.mRID>d487ff06-4419-477b-a85a-b55c34598b1b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VL 150 kV</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_5ff755c5-dd8d-b345-1221-44482d996bb3"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_e50ca4bd591d4c30bd6eca3635f70516"/>
     <cim:VoltageLevel.Substation rdf:resource="#_9cc142f1-ee51-4b0e-9e50-c9e124527813"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_512ac1ce-7df4-4caf-937c-5bb9380140e9">
     <cim:IdentifiedObject.mRID>512ac1ce-7df4-4caf-937c-5bb9380140e9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>VL 220 kV</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:VoltageLevel.Substation rdf:resource="#_9cc142f1-ee51-4b0e-9e50-c9e124527813"/>
   </cim:VoltageLevel>
   <cim:VoltageLimit rdf:ID="_bf5508a7-e1dc-a620-c75c-a5d69e82fd0a">

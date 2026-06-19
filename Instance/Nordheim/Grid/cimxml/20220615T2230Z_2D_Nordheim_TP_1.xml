@@ -28,7 +28,7 @@
   <cim:TopologicalNode rdf:ID="_34334895-232c-75cb-9a58-36c799a1a485">
     <cim:IdentifiedObject.mRID>34334895-232c-75cb-9a58-36c799a1a485</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BP HVDC GA-NH NH side</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_e61f8ecf-8129-4702-a3a2-826bdf5ad13d"/>
   </cim:TopologicalNode>
 </rdf:RDF>

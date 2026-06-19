@@ -21,7 +21,7 @@
     <cim:ACLineSegment.gch>2.42e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.2</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>66</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>22</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bd25e87a-c626-4dd7-a846-7fba517fbb8f"/>
     <cim:IdentifiedObject.description>10T-AT-DE-00009W</cim:IdentifiedObject.description>
@@ -35,7 +35,7 @@
     <cim:ACLineSegment.gch>4e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>2.32</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>20.24</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>40</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_54a2e470-ef70-443f-ae81-bcf2d117caa2"/>
     <cim:IdentifiedObject.description>tie line BO-GA</cim:IdentifiedObject.description>
@@ -48,7 +48,7 @@
     <cim:ACLineSegment.gch>5.5e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>5</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>150</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>50</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_dbd82264-a684-4b87-946d-a5a02714daa9"/>
     <cim:IdentifiedObject.mRID>8d5bb92f-4938-4027-9322-f1b502b28fbe</cim:IdentifiedObject.mRID>
@@ -59,7 +59,7 @@
     <cim:ACLineSegment.gch>5.5e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>5</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>150</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>50</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
     <cim:IdentifiedObject.mRID>1ea986bc-7cb9-4efb-b524-69c5dc1372bc</cim:IdentifiedObject.mRID>
@@ -70,7 +70,7 @@
     <cim:ACLineSegment.gch>3e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>1.02</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>12</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>30</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e454ebf1-94fd-4513-89e4-23239bdca8eb"/>
     <cim:IdentifiedObject.description>10T-AT-DE-000118</cim:IdentifiedObject.description>
@@ -84,7 +84,7 @@
     <cim:ACLineSegment.gch>3.5e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>0.42</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>6.3</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Conductor.length>35</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_eac31e3d-fdf5-4656-b10e-66481bfcfec5"/>
     <cim:IdentifiedObject.description>10T-AT-DE-000118</cim:IdentifiedObject.description>
@@ -98,7 +98,7 @@
     <cim:ACLineSegment.gch>2.3e-5</cim:ACLineSegment.gch>
     <cim:ACLineSegment.r>5.06</cim:ACLineSegment.r>
     <cim:ACLineSegment.x>69</cim:ACLineSegment.x>
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Conductor.length>23</cim:Conductor.length>
     <cim:Equipment.EquipmentContainer rdf:resource="#_a581a1d6-dbfe-40b7-9405-bd6303376efc"/>
     <cim:IdentifiedObject.description>10T-AT-DE-00009W</cim:IdentifiedObject.description>
@@ -603,7 +603,7 @@
     <cim:OperationalLimit.OperationalLimitType rdf:resource="#_5db9415e-894c-9d71-61d3-04c3c740a79d"/>
   </cim:CurrentLimit>
   <cim:EquivalentInjection rdf:ID="_820d95d7-26d4-4311-8b1f-026f8605b86d">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_a581a1d6-dbfe-40b7-9405-bd6303376efc"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.description>Inj_GA_BO1</cim:IdentifiedObject.description>
@@ -612,14 +612,14 @@
     <eu:IdentifiedObject.shortName>Inj_GA_BO1</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_2aa11f1c-5971-f620-4fce-bd66d2f92e6c">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_dbd82264-a684-4b87-946d-a5a02714daa9"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>2aa11f1c-5971-f620-4fce-bd66d2f92e6c</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BoundaryInjectionEq</cim:IdentifiedObject.name>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_b0442899-8dbe-48c1-a1fa-adb2a5929273">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_eac31e3d-fdf5-4656-b10e-66481bfcfec5"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.description>Inj_GA_BO5</cim:IdentifiedObject.description>
@@ -628,7 +628,7 @@
     <eu:IdentifiedObject.shortName>Inj_GA_BO5</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_12baa3f3-23b1-44e0-956f-d331e1527f37">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_bd25e87a-c626-4dd7-a846-7fba517fbb8f"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.description>Inj_GA_BO2</cim:IdentifiedObject.description>
@@ -637,7 +637,7 @@
     <eu:IdentifiedObject.shortName>Inj_GA_BO2</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_cab82e1c-1435-447b-bba0-74b592539eac">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_54a2e470-ef70-443f-ae81-bcf2d117caa2"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.description>Inj_GA_BO3</cim:IdentifiedObject.description>
@@ -646,7 +646,7 @@
     <eu:IdentifiedObject.shortName>Inj_GA_BO3</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_83bea592-913e-4473-8d17-969968ff83a2">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_e454ebf1-94fd-4513-89e4-23239bdca8eb"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.description>Inj_GA_BO4</cim:IdentifiedObject.description>
@@ -655,7 +655,7 @@
     <eu:IdentifiedObject.shortName>Inj_GA_BO4</eu:IdentifiedObject.shortName>
   </cim:EquivalentInjection>
   <cim:EquivalentInjection rdf:ID="_d9c3a8ae-95bb-2d51-e365-0841add2a15c">
-    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:ConductingEquipment.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:Equipment.EquipmentContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
     <cim:EquivalentInjection.regulationCapability>false</cim:EquivalentInjection.regulationCapability>
     <cim:IdentifiedObject.mRID>d9c3a8ae-95bb-2d51-e365-0841add2a15c</cim:IdentifiedObject.mRID>
@@ -1275,7 +1275,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>400</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>27.9674</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_e3e0c496-5837-4f0f-a596-cc421940f73f"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1290,7 +1290,7 @@
     <cim:PowerTransformerEnd.ratedS>1260</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>15.75</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_f61a400c-1523-9ab0-b15a-aeb120740bae"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c1d5bff18f8011e08e4d00247eb1f55e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_da232169-1c36-495a-8af6-a0d7d2b39f52"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1305,7 +1305,7 @@
     <cim:PowerTransformerEnd.ratedS>1260</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>15.75</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_f61a400c-1523-9ab0-b15a-aeb120740bae"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_c1d5bff18f8011e08e4d00247eb1f55e"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_4f1c405f-07c9-4fb0-b64e-551896a29aa8"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1320,7 +1320,7 @@
     <cim:PowerTransformerEnd.ratedS>320</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>0</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_baa7aef1-afcd-4981-97c0-ccec7b5ad4e0"/>
     <cim:TransformerEnd.endNumber>2</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1335,7 +1335,7 @@
     <cim:PowerTransformerEnd.ratedS>1260</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>5.37738</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_bd61b1f9-474d-424e-9709-42f75337c477"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -1350,7 +1350,7 @@
     <cim:PowerTransformerEnd.ratedS>1260</cim:PowerTransformerEnd.ratedS>
     <cim:PowerTransformerEnd.ratedU>220</cim:PowerTransformerEnd.ratedU>
     <cim:PowerTransformerEnd.x>5.37733</cim:PowerTransformerEnd.x>
-    <cim:TransformerEnd.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TransformerEnd.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TransformerEnd.Terminal rdf:resource="#_1128e664-0653-448a-9068-e37f1a097c05"/>
     <cim:TransformerEnd.endNumber>1</cim:TransformerEnd.endNumber>
   </cim:PowerTransformerEnd>
@@ -2267,19 +2267,19 @@
   <cim:VoltageLevel rdf:ID="_d77b61ef-61aa-4b22-95f6-b56ca080788d">
     <cim:IdentifiedObject.mRID>d77b61ef-61aa-4b22-95f6-b56ca080788d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>220.0</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c49942d6-8b01-4b01-b5e8-f1180f84906c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_8d8a82ba-b5b0-4e94-861a-192af055f2b8">
     <cim:IdentifiedObject.mRID>8d8a82ba-b5b0-4e94-861a-192af055f2b8</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>15.8</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_f61a400c-1523-9ab0-b15a-aeb120740bae"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_c1d5bff18f8011e08e4d00247eb1f55e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c49942d6-8b01-4b01-b5e8-f1180f84906c"/>
   </cim:VoltageLevel>
   <cim:VoltageLevel rdf:ID="_b7998ae6-0cc6-4dfe-8fec-0b549b07b6c3">
     <cim:IdentifiedObject.mRID>b7998ae6-0cc6-4dfe-8fec-0b549b07b6c3</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>400.0</cim:IdentifiedObject.name>
-    <cim:VoltageLevel.BaseVoltage rdf:resource="#_597e44dc-2a6e-4c62-82f3-f82cc46e0e14"/>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c49942d6-8b01-4b01-b5e8-f1180f84906c"/>
   </cim:VoltageLevel>
   <cim:VoltageLimit rdf:ID="_7116f3ac-7270-b5e7-2a5f-1699a5a8c642">

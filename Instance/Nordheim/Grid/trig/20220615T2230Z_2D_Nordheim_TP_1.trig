@@ -23,7 +23,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "34334895-232c-75cb-9a58-36c799a1a485";
             cim:IdentifiedObject.name  "BP HVDC GA-NH NH side";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e61f8ecf-8129-4702-a3a2-826bdf5ad13d> .
     

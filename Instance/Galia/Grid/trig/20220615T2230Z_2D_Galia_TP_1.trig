@@ -65,7 +65,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7c9c425e-5a8f-ca3c-6c8c-96c992a4815f";
             cim:IdentifiedObject.name  "BP_GA-NH1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:82abfaf2-36df-44ac-b4e5-e40a535affa4> .
     
@@ -87,7 +87,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ab6ca587-d6af-d983-40ff-5b54afc6280e";
             cim:IdentifiedObject.name  "GA-_Busbar_1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:b7998ae6-0cc6-4dfe-8fec-0b549b07b6c3> .
     
@@ -117,7 +117,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f63e117f-d243-78f0-8d22-071f43c33790";
             cim:IdentifiedObject.name  "BP_GA-BO4";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e454ebf1-94fd-4513-89e4-23239bdca8eb> .
     
@@ -178,7 +178,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7f61f6a1-6be7-869f-5236-b08f78e8b669";
             cim:IdentifiedObject.name  "N1230822396";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d77b61ef-61aa-4b22-95f6-b56ca080788d> .
     
@@ -250,7 +250,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "82a2fa09-4ed1-f4c8-9872-0542ebf922f9";
             cim:IdentifiedObject.name  "BP_GA-BO2";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:bd25e87a-c626-4dd7-a846-7fba517fbb8f> .
     
@@ -263,7 +263,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "b4c57b86-875d-da4a-d6d1-1b30101eaaab";
             cim:IdentifiedObject.name  "BP_GA-BH1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:dbd82264-a684-4b87-946d-a5a02714daa9> .
     
@@ -289,7 +289,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f78b88e2-5a99-9353-eb29-16de9f9a7570";
             cim:IdentifiedObject.name  "GA-Busbar_2";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d77b61ef-61aa-4b22-95f6-b56ca080788d> .
     
@@ -308,7 +308,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f93b9c2d-7015-29c1-3390-6541665dcaa7";
             cim:IdentifiedObject.name  "GA-Busbar_3";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:f61a400c-1523-9ab0-b15a-aeb120740bae>;
+                    <urn:uuid:c1d5bff18f8011e08e4d00247eb1f55e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8d8a82ba-b5b0-4e94-861a-192af055f2b8> .
     
@@ -405,7 +405,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "c0d1ac25-5282-d415-a817-2d5af1b0aaeb";
             cim:IdentifiedObject.name  "GA-Busbar_5";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:f61a400c-1523-9ab0-b15a-aeb120740bae>;
+                    <urn:uuid:c1d5bff18f8011e08e4d00247eb1f55e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:8d8a82ba-b5b0-4e94-861a-192af055f2b8> .
     
@@ -440,7 +440,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "23c97ccf-d87c-4903-ffa6-bc3bbbfe5fe4";
             cim:IdentifiedObject.name  "BP_GA-BO1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:a581a1d6-dbfe-40b7-9405-bd6303376efc> .
     
@@ -461,7 +461,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ae180293-c3f5-9a2f-eb7d-99692604da25";
             cim:IdentifiedObject.name  "BP_GA-BO5";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:eac31e3d-fdf5-4656-b10e-66481bfcfec5> .
     
@@ -508,7 +508,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "eba87398-75d8-2b81-9100-4af72f728037";
             cim:IdentifiedObject.name  "BP_GA-BO3";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:597e44dc-2a6e-4c62-82f3-f82cc46e0e14>;
+                    <urn:uuid:65dd04e792584b3b912374e35dec032e>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:54a2e470-ef70-443f-ae81-bcf2d117caa2> .
     

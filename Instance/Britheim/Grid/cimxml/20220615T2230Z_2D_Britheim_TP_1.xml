@@ -144,37 +144,37 @@
   <cim:TopologicalNode rdf:ID="_06972def-239c-97c3-1dfe-d8b394a3084a">
     <cim:IdentifiedObject.mRID>06972def-239c-97c3-1dfe-d8b394a3084a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TAC B</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_2f42290332354b55b66aa149044ffdb2"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_100482f8-7d76-4682-a4b3-40795bf55656"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_232c1486-9c30-f45b-399c-2c3fe489670b">
     <cim:IdentifiedObject.mRID>232c1486-9c30-f45b-399c-2c3fe489670b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Terminal_GA-BH_A220</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2a1a7497-5dbe-4f36-8779-db1b1a4c37e2"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_f2e0b01a-112b-51ff-fc9e-27551521d5ab">
     <cim:IdentifiedObject.mRID>f2e0b01a-112b-51ff-fc9e-27551521d5ab</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TAC A</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7885fdc-2ac1-0ad1-8aa5-32174aa7d3ac"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_2f42290332354b55b66aa149044ffdb2"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_100482f8-7d76-4682-a4b3-40795bf55656"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_344411c7-d5e4-59bc-419b-b4e1ab483a2e">
     <cim:IdentifiedObject.mRID>344411c7-d5e4-59bc-419b-b4e1ab483a2e</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TerminalBH1</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_3f5f9f0a-351f-ddbc-fbc9-8ecb130812f8"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_b4c57b86-875d-da4a-d6d1-1b30101eaaab">
     <cim:IdentifiedObject.mRID>b4c57b86-875d-da4a-d6d1-1b30101eaaab</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BP_GA-BH1</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_dbd82264-a684-4b87-946d-a5a02714daa9"/>
   </cim:TopologicalNode>
   <cim:TopologicalNode rdf:ID="_c3d081d4-3414-a753-24d6-4e93d0f01d89">
     <cim:IdentifiedObject.mRID>c3d081d4-3414-a753-24d6-4e93d0f01d89</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Terminal_BH-GA_B220</cim:IdentifiedObject.name>
-    <cim:TopologicalNode.BaseVoltage rdf:resource="#_a7f1d8de-d658-428a-821b-3a5ae5965fd1"/>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_2a1a7497-5dbe-4f36-8779-db1b1a4c37e2"/>
   </cim:TopologicalNode>
 </rdf:RDF>

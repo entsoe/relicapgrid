@@ -41,7 +41,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "297b3420-914e-4e65-d423-60dcbf6302da";
             cim:IdentifiedObject.name  "TerminalGA-NH_A220";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:512ac1ce-7df4-4caf-937c-5bb9380140e9> .
     
@@ -54,7 +54,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "f8d940dd-81a9-ba4f-b198-50a03be3b862";
             cim:IdentifiedObject.name  "TAC Bp";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ff755c5-dd8d-b345-1221-44482d996bb3>;
+                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
@@ -101,7 +101,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "34334895-232c-75cb-9a58-36c799a1a485";
             cim:IdentifiedObject.name  "BP HVDC GA-NH NH side";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:e61f8ecf-8129-4702-a3a2-826bdf5ad13d> .
     
@@ -114,7 +114,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "7c9c425e-5a8f-ca3c-6c8c-96c992a4815f";
             cim:IdentifiedObject.name  "BP_GA-NH1";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:82abfaf2-36df-44ac-b4e5-e40a535affa4> .
     
@@ -131,7 +131,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "4b3668ba-5ea4-8f11-c783-9db2ed8b04f2";
             cim:IdentifiedObject.name  "TAC Ap";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ff755c5-dd8d-b345-1221-44482d996bb3>;
+                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
@@ -185,7 +185,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "2a8adbaf-63a7-e6ff-17e7-3bf58a5f7f9c";
             cim:IdentifiedObject.name  "Terminal B_220";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:a7f1d8de-d658-428a-821b-3a5ae5965fd1>;
+                    <urn:uuid:7891a026ba2c42098556665efd13ba94>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:512ac1ce-7df4-4caf-937c-5bb9380140e9> .
     
@@ -240,7 +240,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "fc1470ef-3707-7fc5-4e29-1c037a1c2a51";
             cim:IdentifiedObject.name  "TAC Am";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ff755c5-dd8d-b345-1221-44482d996bb3>;
+                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
@@ -382,7 +382,7 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "a30ec2da-0349-7b55-c130-a0519ded3066";
             cim:IdentifiedObject.name  "TAC Bm";
             cim:TopologicalNode.BaseVoltage
-                    <urn:uuid:5ff755c5-dd8d-b345-1221-44482d996bb3>;
+                    <urn:uuid:e50ca4bd591d4c30bd6eca3635f70516>;
             cim:TopologicalNode.ConnectivityNodeContainer
                     <urn:uuid:d487ff06-4419-477b-a85a-b55c34598b1b> .
     
