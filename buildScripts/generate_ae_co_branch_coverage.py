@@ -133,6 +133,12 @@ def analyze_grid(grid: str) -> dict:
             continue
         ends_by_transformer[t_id].append({"ratedU": float(rated_u), "terminal_id": terminal_id})
 
+    # A transformer end is "radial" if the only other equipment on its connectivity
+    # node is a single device of one of these types -- i.e. the transformer's sole
+    # purpose is feeding that device (a generator step-up unit or an HVDC converter
+    # transformer), not connecting to another substation/branch.
+    RADIAL_DEVICE_TYPES = {"SynchronousMachine", "VsConverter", "CsConverter"}
+
     qualifying_pt = []
     gsu_excluded = []
     for t_id, ends in ends_by_transformer.items():
@@ -141,18 +147,21 @@ def analyze_grid(grid: str) -> dict:
             continue
         name = get_literal(transformers[t_id].inner, "IdentifiedObject.name") if t_id in transformers else t_id
 
-        is_gsu = False
+        radial_reason = None
         if len(ends) == 2:
-            lv_end = min(ends, key=lambda e: e["ratedU"])
-            _, node = terminal_info.get(lv_end["terminal_id"], (None, None))
-            if node:
+            for end in ends:
+                _, node = terminal_info.get(end["terminal_id"], (None, None))
+                if not node:
+                    continue
                 others = node_to_equipment.get(node, set()) - {t_id}
                 other_types = {type_map.get(o) for o in others}
-                if others and other_types == {"SynchronousMachine"}:
-                    is_gsu = True
+                if others and other_types <= RADIAL_DEVICE_TYPES and len(other_types) == 1:
+                    radial_reason = next(iter(other_types))
+                    break
 
         entry = {"id": t_id, "name": name, "type": "PowerTransformer", "kv": max_kv, "windings": len(ends)}
-        if is_gsu:
+        if radial_reason:
+            entry["radial_reason"] = radial_reason
             gsu_excluded.append(entry)
         else:
             qualifying_pt.append(entry)
@@ -297,17 +306,25 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--grid", required=True, help="Grid name, e.g. Belgovia")
     parser.add_argument("--write", action="store_true", help="Write changes to AE/CO xml files (default: dry-run report only)")
+    parser.add_argument("--operator", help="AssessedSystemOperator/EquipmentOperator UUID (no dashes-prefix) to use "
+                                            "when the grid's AE/CO files have no existing entries to infer it from")
+    parser.add_argument("--region", help="ScannedForRegion UUID to use when the grid's AE file has no existing "
+                                          "entries to infer it from")
     args = parser.parse_args()
 
     result = analyze_grid(args.grid)
+    if args.operator:
+        result["ae_operator"] = result["co_operator"] = args.operator
+    if args.region:
+        result["ae_region"] = args.region
 
     print(f"=== {result['grid']} ===")
     print(f"EQ file: {result['eq_path'].relative_to(REPO_ROOT)}")
     print(f"Qualifying branches (>= {MIN_VOLTAGE_KV:.0f} kV, GSU excluded): {len(result['qualifying_branches'])}")
     if result["gsu_excluded"]:
-        print(f"GSU transformers excluded: {len(result['gsu_excluded'])}")
+        print(f"Radial (GSU/converter) transformers excluded: {len(result['gsu_excluded'])}")
         for g in result["gsu_excluded"]:
-            print(f"  - {g['name']} ({g['kv']:.0f} kV)")
+            print(f"  - {g['name']} ({g['kv']:.0f} kV) -- radial to {g['radial_reason']}")
     print()
     print(f"Missing AE entries: {len(result['missing_ae'])} (next name: AE{result['next_ae_num']})")
     for b in result["missing_ae"]:
