@@ -43,6 +43,6 @@
     <prov:specializationOf rdf:resource="https://energy.referencedata.eu/Activity/IGM-FAP"/>
     <prov:wasAssociatedWith rdf:resource="https://energy.referencedata.eu/CGM/SoftwareAgent/3f4ed5cb-b627-4922-b9ea-19ba419a1c7a"/> <!--Point the software used-->
     <prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
-    <prov:wasInfluencedBy rdf:resource="urn:uuid:4129d214-f57e-4a2b-b14c-c5ef458b6703"/> <!--Point to SAR-->
+    <prov:wasInfluencedBy rdf:resource="urn:uuid:b59f6b96-1333-44fd-b9cc-23419db61281"/> <!--Point to SAR-->
   </prov:Activity>
 </rdf:RDF>
