@@ -153,4 +153,124 @@
     <nc:AssessedElementWithRemedialAction.normalEnabled>true</nc:AssessedElementWithRemedialAction.normalEnabled>
   </nc:AssessedElementWithRemedialAction>
 
+  <nc:AssessedElement rdf:ID="_1a58035e-05d7-4610-8d1e-39af9fca901a">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ffbabc27-1ccd-4fdc-b037-e341706c8d29"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch BO-Line_6 (ACLineSegment, 225 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1a58035e-05d7-4610-8d1e-39af9fca901a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE5_BO_Line_6</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_3e08a602-4057-46a9-b9a6-ea5027b75afd">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_a708c3bc-465d-4fe7-b6ef-6fa6408a62b0"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch BO-TR2_1 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3e08a602-4057-46a9-b9a6-ea5027b75afd</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE6_BO_TR2_1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_42ac3a49-492c-43e4-82ef-379507e8e682">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b94318f6-6d24-4f56-96b9-df2531ad6543"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch BO-TR2_2 (PowerTransformer, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>42ac3a49-492c-43e4-82ef-379507e8e682</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE7_BO_TR2_2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_9b3a806d-2540-4ed8-82e0-527a53f1240e">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_e482b89a-fa84-4ea9-8e70-a83d44790957"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch BO-TR2_3 (PowerTransformer, 110 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9b3a806d-2540-4ed8-82e0-527a53f1240e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE8_BO_TR2_3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_24907d40-933b-4617-86ea-290ee7457d2c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_a16b4a6c-70b1-4abf-9a9d-bd0fa47f9fe4"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_GA_BO1 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>24907d40-933b-4617-86ea-290ee7457d2c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE9_TieLine_GA_BO1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_99668340-8e00-4e53-b318-f53fc03fba1e">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_17086487-56ba-4979-b8de-064025a6b4da"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_GA_BO2 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>99668340-8e00-4e53-b318-f53fc03fba1e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE10_TieLine_GA_BO2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_97854b34-ef92-403d-8fa9-63016ef925fc">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ed0c5d75-4a54-43c8-b782-b20d7431630b"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_GA_BO3 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>97854b34-ef92-403d-8fa9-63016ef925fc</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE11_TieLine_GA_BO3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ec564d97-06df-499e-836e-9181daca3a45">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_78736387-5f60-4832-b3fe-d50daf81b0a6"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_GA_BO4 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ec564d97-06df-499e-836e-9181daca3a45</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE12_TieLine_GA_BO4</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_f9808076-6475-4b52-b861-05a9b350bd06">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b18cd1aa-7808-49b9-a7cf-605eaf07b006"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_GA_BO5 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f9808076-6475-4b52-b861-05a9b350bd06</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE13_TieLine_GA_BO5</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_90dfd192-263d-46f5-9da1-d891d47aa2bc">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_2d6d13d9-fb6e-4da2-8ddf-31ae98dcff8f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD_BO1 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>90dfd192-263d-46f5-9da1-d891d47aa2bc</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE14_TieLine_SD_BO1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_372ea9b3-dbac-40fe-b93c-83ca773d7752">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_7e253493-0bb4-4306-95b3-374075834b98"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD_BO2 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>372ea9b3-dbac-40fe-b93c-83ca773d7752</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE15_TieLine_SD_BO2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_6cfbe6d3-d841-4f84-bbd5-6f53e94a2913">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_a9dba80c-9dfb-4ebf-b383-446ddc2c4adf"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_d9622e7f-5bf0-4e7e-b766-b8596c6fe4ae"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD_BO3 (ACLineSegment, 225 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6cfbe6d3-d841-4f84-bbd5-6f53e94a2913</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE16_TieLine_SD_BO3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
 </rdf:RDF>
