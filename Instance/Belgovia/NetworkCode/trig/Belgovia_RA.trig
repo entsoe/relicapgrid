@@ -155,6 +155,21 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
                     true;
             nc:TapPositionAction.TapChanger
                     <urn:uuid:23c255c0-09e8-d446-2526-920905420c17> .
+
+    <urn:uuid:14d59f97-7c9b-4921-a3b1-5883def956fb>
+            rdf:type                   nc:TapPositionAction;
+            cim:IdentifiedObject.description
+                    "tap position action on this transformer : Transformer ID: _84ed55f4-61f5-4d9d-8755-bba7b877a246";
+            cim:IdentifiedObject.mRID  "14d59f97-7c9b-4921-a3b1-5883def956fb";
+            cim:IdentifiedObject.name  "TapRA2";
+            nc:GridStateAlteration.GridStateAlterationRemedialAction
+                    <urn:uuid:70b696ac-c38f-4528-8d65-ba707c0b72e1>;
+            nc:GridStateAlteration.PropertyReference
+                    <https://energy.referencedata.eu/PropertyReference/TapChanger.step>;
+            nc:GridStateAlteration.normalEnabled
+                    true;
+            nc:TapPositionAction.TapChanger
+                    <urn:uuid:23c255c0-09e8-d446-2526-920905420c17> .
     
     <urn:uuid:bcc5cc7d-1c60-4014-9c5f-fb16af94bba8>
             rdf:type                        nc:StaticPropertyRange;

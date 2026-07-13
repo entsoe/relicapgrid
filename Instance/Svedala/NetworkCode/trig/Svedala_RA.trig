@@ -393,6 +393,16 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.mRID  "ed90cae2-cc84-4c37-a6b7-80cb9fe5c464";
             cim:IdentifiedObject.name  "Gate 1";
             nc:Gate.kind               nc:GateLogicKind.and .
+
+    <urn:uuid:7b09ac5a-abeb-4d70-87a9-423f0d8cbabc>
+            rdf:type                       nc:PinContingency;
+            cim:IdentifiedObject.mRID      "7b09ac5a-abeb-4d70-87a9-423f0d8cbabc";
+            cim:IdentifiedObject.name      "Contingency occurred";
+            nc:GateInputPin.Gate           <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>;
+            nc:GateInputPin.absoluteValue  false;
+            nc:GateInputPin.duration       "P0Y0M0DT0H0M0S"^^xsd:duration;
+            nc:GateInputPin.negate         false;
+            nc:PinContingency.Contingency  <urn:uuid:e05bbe20-9d4a-40da-9777-8424d216785d> .
     
     <urn:uuid:fe13b0ad-0f87-45d8-a96f-93fdfc33c50b>
             rdf:type                   nc:TopologyAction;
@@ -526,6 +536,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             nc:RemedialActionScheme.GateArmed
                     <urn:uuid:ed90cae2-cc84-4c37-a6b7-80cb9fe5c464>;
             nc:RemedialActionScheme.kind  nc:RemedialActionSchemeKind.sips;
+            nc:RemedialActionScheme.SchemeRemedialAction
+                    <urn:uuid:31d41e36-11c8-417b-bafb-c410d4391898>;
             nc:RemedialActionScheme.normalArmed
                     true .
     
@@ -1059,6 +1071,8 @@ PREFIX xsd:      <http://www.w3.org/2001/XMLSchema#>
             cim:IdentifiedObject.name  "TA2";
             nc:GridStateAlteration.GridStateAlterationCollection
                     <urn:uuid:8739648b-662d-46c1-9f51-2965398e6ded>;
+            nc:GridStateAlteration.GridStateAlterationRemedialAction
+                    <urn:uuid:347f4f7e-a2b6-4880-846a-8bd1effb00d5>;
             nc:GridStateAlteration.PropertyReference
                     <https://energy.referencedata.eu/PropertyReference/Switch.open>;
             nc:GridStateAlteration.normalEnabled

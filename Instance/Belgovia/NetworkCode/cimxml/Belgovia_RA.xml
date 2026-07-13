@@ -138,6 +138,15 @@
     <cim:IdentifiedObject.name>TapRA2</cim:IdentifiedObject.name>
     <nc:TapPositionAction.TapChanger rdf:resource="#_23c255c0-09e8-d446-2526-920905420c17"/>
   </nc:TapPositionAction>
+  <nc:TapPositionAction rdf:ID="_14d59f97-7c9b-4921-a3b1-5883def956fb">
+    <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_70b696ac-c38f-4528-8d65-ba707c0b72e1"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+    <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
+    <cim:IdentifiedObject.description>tap position action on this transformer : Transformer ID: _84ed55f4-61f5-4d9d-8755-bba7b877a246</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>14d59f97-7c9b-4921-a3b1-5883def956fb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TapRA2</cim:IdentifiedObject.name>
+    <nc:TapPositionAction.TapChanger rdf:resource="#_23c255c0-09e8-d446-2526-920905420c17"/>
+  </nc:TapPositionAction>
   <!-- SIPS_UC_2 Run-back function on HVDC link  -->
   <nc:RemedialActionScheme rdf:ID="_3ecde63d-c87f-4947-a1f2-3622dc2092ba">
     <cim:IdentifiedObject.description>SIPS_UC_2 Run-back function on HVDC link. LOGIC: IF line BO-Line_2 or line BO-Line_6 trips AND power flow on HVDC TieLine_GA_BO2 is higher than 20 MW THEN decrease power flow on HVDC to 10 MW</cim:IdentifiedObject.description>

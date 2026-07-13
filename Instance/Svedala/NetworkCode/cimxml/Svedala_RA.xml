@@ -430,6 +430,7 @@
   </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_55a11475-e39f-4541-accc-d979376bcda3">
     <nc:GridStateAlteration.GridStateAlterationCollection rdf:resource="#_8739648b-662d-46c1-9f51-2965398e6ded"/>
+    <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_347f4f7e-a2b6-4880-846a-8bd1effb00d5"/>
     <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/Switch.open"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>description</cim:IdentifiedObject.description>
