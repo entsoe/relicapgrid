@@ -26,10 +26,18 @@ Please, refer to the [LICENSE](https://github.com/entsoe/relicapgrid/blob/cgmes-
 ### Accreditations
 List of the people and organisations contributing to this repository.
 
+- [@HarisVranaj](https://github.com/HarisVranaj) - ENTSO-E
+- [@Haigutus](https://github.com/Haigutus) - Gridraven
+- [@sam-phillipson1](https://github.com/sam-phillipson1) - Siemens A.G.
+- [@Hakr-DNV](https://github.com/Hakr-DNV) - DNV
+- [StephanLupp](https://github.com/StephanLupp) - DNV
+- [@fengtu2024](https://github.com/fengtu2024) - PowerInfo
+- [@SanPen](https://github.com/SanPen) - eRoots
 - [@tviegut](https://github.com/viegut) - AspenTech
 - [@fmalicevicdigsilent](https://github.com/fmalicevicdigsilent) - DIgSILENT
 - [@LarsTruelsenEnerginet](https://github.com/LarsTruelsenEnerginet) and [@Holdersen](https://github.com/Holdersen) - Energinet
-- [@griddigit-ci](https://github.com/griddigit-ci), [@Decodre](https://github.com/Decodre), [@benceszirbik](https://github.com/benceszirbik), [@benedekfodor](https://github.com/benedekfodor) - gridDigIt
+- [@VladimirAlexiev](https://github.com/VladimirAlexiev) - Graphwise (Ontotext)
+- [@griddigit-ci](https://github.com/griddigit-ci), [@Decodre](https://github.com/Decodre), [@benceszirbik](https://github.com/benceszirbik), [@benedekfodor](https://github.com/benedekfodor) [@MateZsebehazi](https://github.com/MateZsebehazi) - gridDigIt
 - [@jakubscg](https://github.com/jakubscg) - PSE
 - [@pweaver-rte](https://github.com/pweaver-rte) - RTE
 - [@sindrevh](https://github.com/sindrevh) - Siemens A.G.
@@ -124,7 +132,7 @@ This section provides definitions for the technical abbreviations used throughou
 
 #### Organizations & Standards
 * **ENTSO-E**: European Network of Transmission System Operators for Electricity
-* **ICTC**: Inter-TSO Cooperation Committee (ENTSO-E Steering Group)
+* **ICTC**: Information and Communication Technologies Committee (ICTC) is a specialized committee within ENTSO-E
 * **CIM**: Common Information Model (IEC 61970/61968 standards)
 * **CGMES**: Common Grid Model Exchange Standard
 * **RCP DES**: Regional Coordination Processes Data Exchange Specification
