@@ -8,3 +8,6 @@
 /.idea
 *.iml
 validation_report/
+
+__pycache__/
+*.pyc

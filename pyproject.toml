@@ -30,6 +30,8 @@ dependencies = [
     "triplets",
     "pytest",
     "tabulate>=0.10.0",
+    "rdflib>=7.0.0",
+    "pyshacl",
 ]
 
 [project.urls]
