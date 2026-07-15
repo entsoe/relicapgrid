@@ -1,0 +1,101 @@
+name: Generate Manifests
+
+on:
+  push:
+    paths:
+      - "Instance/**"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    name: Discover Changed Models
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    outputs:
+      matrix: ${{ steps.discover.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v3
+        with:
+          enable-cache: true
+
+      - name: Discover model folders to regenerate
+        id: discover
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MATRIX=$(uv run python buildScripts/find_manifest_targets.py --full)
+          else
+            MATRIX=$(uv run python buildScripts/find_manifest_targets.py \
+              --before "${{ github.event.before }}" --after "${{ github.sha }}")
+          fi
+          echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
+          echo "Model folders to regenerate: $MATRIX"
+
+  generate:
+    name: Generate Manifest
+    needs: discover
+    if: needs.discover.outputs.matrix != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        include: ${{ fromJson(needs.discover.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Download CimPal CLI
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download --repo griddigit/CimPal --pattern 'CimPal-CLI*.jar' --dir tools --clobber
+
+      - name: Generate manifest for ${{ matrix.model_dir }}
+        run: java -jar tools/CimPal-CLI.jar --dir "${{ matrix.model_dir }}" --output "${{ matrix.manifest_path }}"
+
+      - name: Upload manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: manifest-${{ strategy.job-index }}
+          path: ${{ matrix.manifest_path }}
+
+  commit:
+    name: Commit Updated Manifests
+    needs: [discover, generate]
+    if: needs.discover.outputs.matrix != '[]'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: manifest-*
+          path: .
+          merge-multiple: true
+
+      - name: Commit regenerated manifests
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Instance
+          if git diff --cached --quiet; then
+            echo "No manifest changes to commit"
+          else
+            git commit -m "Regenerate manifest.ttl for changed models"
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push origin HEAD:"${{ github.ref_name }}"
+          fi
