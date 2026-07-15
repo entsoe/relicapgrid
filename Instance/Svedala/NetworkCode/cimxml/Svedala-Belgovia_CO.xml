@@ -5,7 +5,6 @@
     xmlns:nc="https://cim4.eu/ns/nc#"
     xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
       xmlns:adms="http://www.w3.org/ns/adms#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" >
   <dcat:Dataset rdf:about="urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a">
@@ -24,13 +23,14 @@
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:requires rdf:resource="urn:uuid:886d71fa-6ca7-4be9-a55d-04c3c49c987c"/>
     <dcat:startDate>2025-05-20T18:00:00Z</dcat:startDate>
-    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/Test/Party/Svedala"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
     <dcat:version>1.0.0</dcat:version>
     <dcterms:title>202505_TSO-Svedala_HV-Belgovia_IGMx-CO</dcterms:title>
-    <adms:versionNotes>Inital version.</adms:versionNotes>
+    <adms:versionNotes xml:lang="en">Inital version.</adms:versionNotes>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/IGMx-CO"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/HV-Belgovia"/>
     <dcterms:issued>2025-05-20T18:00:00Z</dcterms:issued>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
   </dcat:Dataset>
   <cim:ContingencyEquipment rdf:ID="_a851b256-fe75-4dd7-a3f5-899cd1b2e2a7">
     <cim:ContingencyElement.Contingency rdf:resource="#_ee6365ea-2277-422a-a70b-182280debf27"/>
