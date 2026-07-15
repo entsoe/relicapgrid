@@ -6,7 +6,6 @@
     xmlns:adms="http://www.w3.org/ns/adms#"
     xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:dcatcim="https://cim4.eu/ns/dcatcim#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:7508c65c-0ffe-4036-8152-3dea83062287">
       <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
@@ -31,6 +30,7 @@
     <adms:versionNotes xml:lang="en">Common data for OPC that includes NameType, NamingAuthority and ObjectType.</adms:versionNotes>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/activity/CD"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/NineRealms-Transmission"/>
+      <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
   </dcat:Dataset>
 
   <cim:NameType rdf:ID="_e26959c9-19b3-417a-9263-dd87e970fbd4">

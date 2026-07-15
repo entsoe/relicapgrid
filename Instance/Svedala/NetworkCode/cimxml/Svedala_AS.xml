@@ -6,7 +6,6 @@
     xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:dcat-cim="https://cim4.eu/ns/dcat-cim#"
-    xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:dcterms="http://purl.org/dc/terms/" > 
   <dcat:Dataset rdf:about="urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354">
@@ -15,13 +14,13 @@
     <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
-    <dcterms:description>This is the example for availability schedule dataset for Svedala part of ReliCapGrid</dcterms:description>
+    <dcterms:description xml:lang="en">This is the example for availability schedule dataset for Svedala part of ReliCapGrid</dcterms:description>
     <dcterms:identifier>dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354</dcterms:identifier> 
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Svedala-AS"/>
     <dcterms:issued>2024-12-03T10:00:00Z</dcterms:issued>
     <dcat:keyword>AS</dcat:keyword>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Svedala"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
     <dcterms:requires rdf:resource="urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202"/>
@@ -29,9 +28,10 @@
     <dcat:startDate>2024-12-03T10:00:00Z</dcat:startDate>
     <dcterms:title>20241203_Svedala_AS_1.0.0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>
-    <adms:versionNotes>This is an example of Availability schedule dataset for SvK.</adms:versionNotes>
+    <adms:versionNotes xml:lang="en">This is an example of Availability schedule dataset for SvK.</adms:versionNotes>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/OPC-AS"/>
     <prov:generatedAtTime>2024-12-03T10:00:00Z</prov:generatedAtTime>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
   </dcat:Dataset>
   <nc:AvailabilityEquipment rdf:ID="_cbe49fbe-64dd-48e0-8e9b-bbc468265abc">
     <nc:AvailabilityEquipment.Equipment rdf:resource="#_536f4b84-db4c-4545-96e9-bb5a87f65d13"/>

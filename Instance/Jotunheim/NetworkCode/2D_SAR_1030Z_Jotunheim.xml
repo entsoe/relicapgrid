@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF
+    xmlns:adms="http://www.w3.org/ns/adms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:time="http://www.w3.org/2006/time#"
-    xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
     xmlns:nc="https://cim4.eu/ns/nc#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:dcat="http://www.w3.org/ns/dcat#"
     xmlns:cim="http://iec.ch/TC57/CIM100#"
-    xmlns:dcterms="http://purl.org/dc/terms/#" > 
+    xmlns:dcterms="http://purl.org/dc/terms/" > 
   <dcat:Dataset rdf:about="urn:uuid:b59f6b96-1333-44fd-b9cc-23419db61281">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/SecurityAnalysisResult/2.5"/>
@@ -20,7 +20,7 @@
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Jotunheim-SAR"/>
     <dcat:keyword>SAR</dcat:keyword>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Jotunheim"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/RCC-Jotunheim"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
     <dcterms:requires rdf:resource="urn:uuid:b2d1215a-a124-4b6e-9df5-85ecdce9793b"/>
@@ -28,6 +28,8 @@
     <dcterms:title>20220615_Jotunheim_SAR_1.0.0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-SAR"/>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+    <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
   </dcat:Dataset>
  
   <nc:ContingencyPowerFlowResult rdf:ID="_ea1eebe0-7e5e-46c1-8cf6-af110484adf3">

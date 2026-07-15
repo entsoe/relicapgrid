@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rdf:RDF xmlns:cim="https://cim.ucaiug.io/ns#"
-    xmlns:dcat="http://www.w3.org/ns/dcat#"
-    xmlns:dcatcim="https://cim4.eu/ns/dcatcim#" 
+    xmlns:dcat="http://www.w3.org/ns/dcat#" 
     xmlns:dcterms="http://purl.org/dc/terms/" 
  	xmlns:eu="https://cim.ucaiug.io/ns/eu#"
     xmlns:nc="https://cim4.eu/ns/nc#"
@@ -29,10 +28,11 @@
   <dcterms:rights>Copyright</dcterms:rights>
   <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>  
   <dcterms:title>20250214__Svedala_IGM-FAP_PV_v3-0-0-beta-1</dcterms:title>
-  <dcterms:type rdf:resource="https://energy.referencedata.eu/type/Activity"/>
+  <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
   	<prov:generatedAtTime>2025-02-14T11:00:00Z</prov:generatedAtTime>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/PV"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System"/>
+  <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
 </dcat:Dataset>
 
 
