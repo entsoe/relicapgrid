@@ -119,3 +119,37 @@ def test_publisher_naming_detected():
     xml = _CLEAN_HEADER.replace("test/party/TSO-Belgovia", "test/party/Belgovia")
     rules = [v.rule_id for v in _validate(xml)]
     assert "publisher-naming" in rules
+
+
+# --------------------------------------------------------------- fixer tests
+from dataset_header.fixer import fix_text  # noqa: E402
+
+
+def test_fixer_is_idempotent_on_clean_header():
+    new, applied = fix_text(_CLEAN_HEADER)
+    assert applied == []
+    assert new == _CLEAN_HEADER
+
+
+def test_fixer_removes_eumd_declaration_and_usage():
+    dirty = _CLEAN_HEADER.replace(
+        "<rdf:RDF ",
+        '<rdf:RDF xmlns:eumd="https://cim4.eu/ns/Metadata-European#" ',
+    ).replace(
+        "  </dcat:Dataset>",
+        "    <eumd:applicationSoftware>X</eumd:applicationSoftware>\n  </dcat:Dataset>",
+    )
+    new, applied = fix_text(dirty)
+    assert "eumd" not in new
+    Graph().parse(data=new, format="xml")  # still well-formed
+
+
+def test_fixer_forces_value_and_normalizes_publisher():
+    dirty = (_CLEAN_HEADER
+             .replace("type/CIM-PowerSystemModel", "type/Activity")
+             .replace("test/party/TSO-Belgovia", "test/party/Belgovia"))
+    new, _ = fix_text(dirty)
+    assert "type/CIM-PowerSystemModel" in new
+    assert "test/party/TSO-Belgovia" in new
+    tier_a_fixable = [v for v in _validate(new) if v.tier == "A" and v.fixable]
+    assert tier_a_fixable == [], "\n".join(str(v) for v in tier_a_fixable)
