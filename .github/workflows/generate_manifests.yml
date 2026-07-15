@@ -62,18 +62,22 @@ jobs:
         run: gh release download --repo griddigit/CimPal --pattern 'CimPal-CLI*.jar' --dir tools --clobber
 
       - name: Generate manifest for ${{ matrix.model_dir }}
-        run: java -jar tools/CimPal-CLI.jar --dir "${{ matrix.model_dir }}" --output "${{ matrix.manifest_path }}"
+        run: |
+          mkdir -p "staging/$(dirname "${{ matrix.manifest_path }}")"
+          java -jar tools/CimPal-CLI.jar --dir "${{ matrix.model_dir }}" --output "staging/${{ matrix.manifest_path }}"
 
       - name: Upload manifest
         uses: actions/upload-artifact@v4
         with:
           name: manifest-${{ strategy.job-index }}
-          path: ${{ matrix.manifest_path }}
+          path: staging
 
   commit:
     name: Commit Updated Manifests
     needs: [discover, generate]
-    if: needs.discover.outputs.matrix != '[]'
+    # always() so one failed model folder in the matrix doesn't skip committing
+    # the manifests that DID regenerate successfully for every other folder.
+    if: always() && needs.discover.outputs.matrix != '[]'
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     steps:
@@ -86,6 +90,7 @@ jobs:
           pattern: manifest-*
           path: .
           merge-multiple: true
+          if-no-files-found: ignore
 
       - name: Commit regenerated manifests
         run: |
@@ -99,3 +104,9 @@ jobs:
             git pull --rebase origin "${{ github.ref_name }}"
             git push origin HEAD:"${{ github.ref_name }}"
           fi
+
+      - name: Fail if any model folder didn't generate
+        if: needs.generate.result == 'failure'
+        run: |
+          echo "::error::One or more model folders failed to generate a manifest - see the 'generate' job for details. Manifests that DID succeed have still been committed above."
+          exit 1
