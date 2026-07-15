@@ -1,0 +1,139 @@
+# ReliCapGrid — Claude Code Guide
+
+## Project Overview
+
+ReliCapGrid is a **synthetic grid model** for ENTSO-E Regional Coordination Processes data exchange use cases, using CGMES 3.0 and Network Code Profiles (NCP) 2.4. It is **not a real grid** — all TSO names, IDs, and values are fictitious.
+
+The project is licensed under **CC-BY-SA-4.0**. It belongs to ENTSO-E and is developed collaboratively by multiple TSOs, RCCs, and software vendors.
+
+Main branch: `cgmes-3.0_ncp-2.4_tc-1.1`
+
+---
+
+## Repository Structure
+
+```
+Instance/
+  <TSO>/
+    Grid/
+      cimxml/          # PRIMARY — edit only these XML files (EQ, SSH, TP, SV)
+      trig/            # DERIVED — do not edit
+      manifest.ttl     # do not edit manually
+    NetworkCode/
+      cimxml/          # PRIMARY — edit only these XML files (AE, CO, ER, RA, RAS, SIS, SSI, OR, IAM)
+      trig/            # DERIVED — do not edit
+      manifest.ttl
+  boundaryData/Grid/cimxml/    # Per-border boundary files
+  commonData/Grid/cimxml/      # Shared grid common data
+  commonData/NetworkCode/cimxml/
+  Jotunheim/Grid/cimxml/       # RCC CGM files (SSH, TP, SV)
+  referenceData/
+
+buildScripts/
+  create_cgm_zip.py    # Assembles CGM import zip packages
+  validate_relicap.py  # Runs dangling-reference validation, writes CSV reports
+
+tests/
+  test_validation.py   # pytest suite: dangling refs, duplicate IDs, UUID format
+
+docs/
+  HeaderExample.xml          # Reference for dcat:Dataset header structure
+  DifferenceSetHeaderExample.xml
+TestUseCases/                # Use-case documentation (Markdown)
+semantic-tools/              # Scripts to convert CIMXML → TriG for graph DBs
+```
+
+### Fictitious TSOs in NineRealms
+
+| TSO | Notes |
+|-----|-------|
+| Espheim | Based on SmallGrid |
+| Svedala | Based on Svenska Kraftnät's Svedala |
+| Belgovia | Based on MicroGrid |
+| Galia | Based on MicroGrid |
+| Nordheim | Single node |
+| Britheim | HVDC internal (VSC) |
+| Portheim | Boundary substation nodes |
+| DC-Espheim-Svedala | HVDC IGM (LCC) |
+| DC-Nordheim-Galia | HVDC IGM (VSC Bipole) |
+| Jotunheim | RCC (SecurityCoordinator / CCC role) |
+
+---
+
+## Key Concepts
+
+- **Only edit files in `cimxml/` folders.** TriG (`.trig`), Turtle (`.ttl`), and other serializations are derived from CIMXML — never edit them directly.
+- **All IDs must be valid UUIDs** — use `urn:uuid:<uuid>` format. Never invent non-UUID identifiers.
+- **dcat:Dataset headers** follow the pattern in [docs/HeaderExample.xml](docs/HeaderExample.xml). Use it as the reference when creating or editing NCP file headers.
+- **Model.Supersedes dangling references are expected** — the test suite explicitly ignores them. Do not add them to other ignore lists without good reason.
+- **NCP profile abbreviations**: AE = AssessedElement, CO = Contingency, ER = EquipmentReliability, RA = RemedialAction, RAS = RemedialActionSchedule, SIS = StateInstructionSchedule, SSI = SteadyStateInstruction, OR = OutageRegion, IAM = ImpactAssessmentMatrix.
+
+---
+
+## Development Workflow
+
+### Running Tests
+
+```bash
+# Requires Python >=3.12 and uv
+uv run pytest
+```
+
+Tests check:
+1. No dangling RDF references (except `Model.Supersedes`)
+2. No duplicate `rdf:type` IDs within the same file
+3. All IDs in the `ID` column are valid UUIDs
+
+### Building a CGM Package
+
+```bash
+# Grid only
+python buildScripts/create_cgm_zip.py
+
+# Grid + Network Code Profiles
+python buildScripts/create_cgm_zip.py --ncp
+
+# Specific TSOs
+python buildScripts/create_cgm_zip.py --tsos Espheim Svedala --ncp
+
+# List discovered TSOs
+python buildScripts/create_cgm_zip.py --list-tsos
+```
+
+### Running Validation (full report)
+
+```bash
+python buildScripts/validate_relicap.py
+# Reports written to validation_report/
+```
+
+---
+
+## Git & Contribution Rules
+
+- **Commits must be signed off** with `git commit -s` (Developer Certificate of Origin).
+- **All commits must be GPG-signed** — do not skip signing.
+- PRs require at least one reviewer who is not the author.
+- Branch naming: feature branches off `cgmes-3.0_ncp-2.4_tc-1.1`; release tags use `vX.Y.Z`.
+- Documentation uses **British English**.
+- Report bugs via GitHub Issues; include export logs when applicable.
+
+---
+
+## XML Editing Practices
+
+- Always keep XML namespace declarations consistent with existing files (`cim:`, `nc:`, `dcat:`, `dcterms:`, `rdf:`, etc.).
+- Timestamps use ISO 8601 UTC format: `2024-04-10T06:00:00Z`.
+- `dcterms:identifier` must match the UUID in the `rdf:about` attribute of the `dcat:Dataset`.
+- Use `dcterms:requires` (not `dcterms:references`) to express mandatory dependencies between datasets.
+- `prov:wasGeneratedBy` and `prov:generatedAtTime` are deprecated at dataset level — they belong in the manifest.
+
+---
+
+## What NOT to Do
+
+- Do not edit `.trig`, `.ttl`, or any non-XML serialization files — they are derived from CIMXML and not maintained by hand.
+- Do not commit real grid data, real EIC codes, or real network topology.
+- Do not change `CGM_package_NCP.zip` manually — it is generated by `create_cgm_zip.py`.
+- Do not add error-ignoring entries to the dangling-reference filter list without team consensus.
+- Do not push directly to the main branch — always use a PR.
