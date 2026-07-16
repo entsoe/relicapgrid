@@ -13,12 +13,12 @@
 # Party Scheme / Reference Dataset
 #################################################################
 
-<https://energy.referencedata.eu/test/PartyScheme/NCP/1.0>
+<https://energy.referencedata.eu/test/PartyScheme/1.0>
     a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Party Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized Party identities that may be used as the object of dcterms:publisher and provcim:modelAuthority."@en ;
 	dcterms:description "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en ;
-    dcterms:title "Test-PartyScheme-NCP-1.0" ;
+    dcterms:title "Test-PartyScheme_RD" ;
 	dcterms:identifier "b77fe0ff-9907-4943-90a7-6e35a178a8ab" ;
     dcterms:publisher <https://www.entsoe.eu/> ;
     dcterms:rights "Copyright" ;
@@ -30,17 +30,17 @@
     dcat:isVersionOf <https://energy.referencedata.eu/test/PartyScheme> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
-	dcterms:hasPart <https://energy.referencedata.eu/test/PartyScheme/NCP/1.0#collection_ncp_party> .
+	dcterms:hasPart <https://energy.referencedata.eu/test/PartyScheme/1.0#collection_party> .
 
 
 #################################################################
 # Collection of Party
 #################################################################
 
-<https://energy.referencedata.eu/test/PartyScheme/NCP/1.0#collection_ncp_party>
+<https://energy.referencedata.eu/test/PartyScheme/1.0#collection_party>
     a prov:Collection ;
     dcterms:identifier "a4dbeec3-f598-4a47-a3e1-df76eb1bfbb9" ;
-    skos:prefLabel "Collection of recognized parties for NCP and ReliCapGrid."@en ;
+    skos:prefLabel "Collection of recognized parties for ReliCapGrid."@en ;
     prov:hadMember         
 		<https://energy.referencedata.eu/test/party/TSO-Svedala> ,
         <https://energy.referencedata.eu/test/party/TSO-Galia> .

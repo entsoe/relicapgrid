@@ -11,10 +11,10 @@
 # Confidentiality / Access Rights Reference Dataset
 #################################################################
 
-<https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>
+<https://energy.referencedata.eu/ConfidentialityScheme/1.0>
     a dcat:Dataset ;
     dcterms:identifier "b2348853-06c1-401e-b845-193ffa948919" ;
-	dcterms:title "ConfidentialityScheme_NCP_v1.0" ;
+	dcterms:title "ConfidentialityScheme_RD" ;
     skos:prefLabel "Energy Reference Data Confidentiality Scheme"@en ;
     dcterms:description "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en ;
     dcterms:publisher <https://www.entsoe.eu/> ;
@@ -27,14 +27,14 @@
     dcat:isVersionOf <https://energy.referencedata.eu/Confidentiality/> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
-    dcterms:hasPart <https://energy.referencedata.eu/Confidentiality/NCP/1.0#collection_confidentiality> .
+    dcterms:hasPart <https://energy.referencedata.eu/Confidentiality/1.0#collection_confidentiality> .
 
 
 #################################################################
 # Collection of confidentiality / access-right statements
 #################################################################
 
-<https://energy.referencedata.eu/Confidentiality/NCP/1.0#collection_confidentiality>
+<https://energy.referencedata.eu/Confidentiality/1.0#collection_confidentiality>
     a prov:Collection ;
     dcterms:identifier "d0cc62d9-800b-4ba5-b8cb-a95d5c4e0dae" ;
     skos:prefLabel "Collection of confidentiality and access-right statements"@en ;

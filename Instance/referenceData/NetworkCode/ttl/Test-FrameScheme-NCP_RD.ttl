@@ -14,12 +14,12 @@
 # Frame Scheme / Reference Dataset
 #################################################################
 
-<https://energy.referencedata.eu/FrameScheme/NCP/1.0>
+<https://energy.referencedata.eu/FrameScheme/1.0>
     a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Frame Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized frame ...dcterms:spatial."@en ;
 	dcterms:description "Reference dataset containing recognized frame identities for use area of responsebility."@en ;
-    dcterms:title "Test-FrameScheme-NCP_RD_v1.0" ;
+    dcterms:title "Test-FrameScheme_RD" ;
 	dcterms:identifier "50cc303c-df37-4b86-80a6-f6d312268661" ;
     dcterms:publisher <https://www.entsoe.eu/> ;
     dcterms:rights "Copyright" ;
@@ -31,17 +31,17 @@
     dcat:isVersionOf <https://energy.referencedata.eu/FrameScheme> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
-	dcterms:hasPart <https://energy.referencedata.eu/test/FrameScheme/NCP/1.0#collection_ncp_frame> .
+	dcterms:hasPart <https://energy.referencedata.eu/test/FrameScheme/1.0#collection_frame> .
 
 
 #################################################################
 # Collection of Frames
 #################################################################
 
-<https://energy.referencedata.eu/test/FrameScheme/NCP/1.0#collection_ncp_frame>
+<https://energy.referencedata.eu/test/FrameScheme/1.0#collection_frame>
     a prov:Collection ;
     dcterms:identifier "b0c0950a-2dcf-44f6-8a82-d47305b9987e" ;
-    skos:prefLabel "Collection of recognized frames identities for NCP."@en ;
+    skos:prefLabel "Collection of recognized frames identities for ReliCapGrid."@en ;
     prov:hadMember         
 		<https://energy.referencedata.eu/test/frame/Svedala-Transmission> ,
         <https://energy.referencedata.eu/test/frame/Galia-Transmission> ,

@@ -10,11 +10,11 @@
 # License Scheme / Reference Dataset
 #################################################################
 
-<https://energy.referencedata.eu/LicenseScheme/NCP/1.0>
+<https://energy.referencedata.eu/LicenseScheme/1.0>
     a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data License Scheme"@en ;
     skos:definition "Controlled vocabulary and reference dataset describing dataset license conditions for energy and power system data. The scheme is intended to support consistent tagging of datasets and to help software tools, data catalogues, and language models understand permitted reuse conditions."@en ;
-    dcterms:title "LicenseScheme-NCP-1.0" ;
+    dcterms:title "LicenseScheme_RD" ;
 	dcterms:identifier "e64345cc-016b-4cc2-a5d1-8beabf97beab" ;
     dcterms:description "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en ;
     dcterms:publisher <https://www.entsoe.eu/> ;
@@ -27,17 +27,17 @@
     dcat:isVersionOf <https://energy.referencedata.eu/LicenseScheme> ;
     dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
     dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
-	dcterms:hasPart <https://energy.referencedata.eu/LicenseScheme/NCP/1.0#collection_ncp_license> .
+	dcterms:hasPart <https://energy.referencedata.eu/LicenseScheme/1.0#collection_license> .
 
 
 #################################################################
 # Collection of License
 #################################################################
 
-<https://energy.referencedata.eu/LicenseScheme/NCP/1.0#collection_ncp_license>
+<https://energy.referencedata.eu/LicenseScheme/1.0#collection_license>
     a prov:Collection ;
     dcterms:identifier "df7fa2ef-72f8-4c18-b946-e729e5259630" ;
-    skos:prefLabel "Collection of License Supported by NCP"@en ;
+    skos:prefLabel "Collection of License Supported by CGMES and NCP"@en ;
     prov:hadMember         
 		<https://energy.referencedata.eu/License/OpenCommercial> ,
         <https://energy.referencedata.eu/License/OpenNonCommercial> ,
