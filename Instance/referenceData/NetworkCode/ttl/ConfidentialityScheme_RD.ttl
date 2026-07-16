@@ -194,7 +194,7 @@
     dcterms:identifier "4cd9b326-1275-4da7-9724-28c5e1deeb87" ;
     skos:prefLabel "OPDE Confidential"@en ;
     skos:notation "OPDE_CONFIDENTIAL" ;
-    skos:definition "Dataset contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
+    skos:definition "Operational Planning Data Environment (OPDE) Confidential contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
 	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 	
@@ -207,7 +207,7 @@
     dcterms:identifier "ec8c443e-edab-4256-80b2-4a7824f754ab" ;
     skos:prefLabel "OPDE Secret"@en ;
     skos:notation "OPDE_SECRET" ;
-    skos:definition "Dataset contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
+    skos:definition "Operational Planning Data Environment (OPDE) Secrete contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
 	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
 	skos:broader <https://energy.referencedata.eu/Confidentiality/OPDEConfidential> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
