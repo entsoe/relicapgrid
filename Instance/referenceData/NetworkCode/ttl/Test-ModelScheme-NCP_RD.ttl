@@ -40,14 +40,14 @@
     dcterms:identifier "3c0d7db0-6380-4ce8-ac1f-39bb5687311c" ;
     skos:prefLabel "Collection of recognized models for ReliCapGrid."@en ;
     prov:hadMember         
-		<https://energy.referencedata.eu/test/model/TSO-Svedala_EQ> ,
+		<https://energy.referencedata.eu/test/model/TSO-Svedala_SD-EQ> ,
         <https://energy.referencedata.eu/test/model/TSO-Galia_ER> .
 
 #################################################################
 # List of Model
 #################################################################
 
-<https://energy.referencedata.eu/test/model/TSO-Svedala_IGM-EQ>
+<https://energy.referencedata.eu/test/model/TSO-Svedala_SD-EQ>
     a provcim:Model ;
     skos:prefLabel "TSO-Svedala IGM-EQ Model of Svedala-Transmission."@en ;
 	dcterms:identifier "bbee31bf-dfb6-456a-9b5e-4d1ff0713000" ;

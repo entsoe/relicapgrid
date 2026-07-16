@@ -40,37 +40,41 @@
     dcterms:identifier "209d3b30-a355-4e1e-a831-c11c3eb514d7" ;
     skos:prefLabel "Collection of recognized activities identities for CGMES and NCP."@en ;
     prov:hadMember         
-		<https://energy.referencedata.eu/activity/IGM-EQ> ,
-        <https://energy.referencedata.eu/activity/IGM-ER> ,
-		<https://energy.referencedata.eu/activity/IGM-EQ-VF> ,
-		<https://energy.referencedata.eu/activity/IGM-RASR> .
+		<https://energy.referencedata.eu/activity/SD-EQ> ,
+        <https://energy.referencedata.eu/activity/SD-ER> ,
+		<https://energy.referencedata.eu/activity/VF-EQ> ,
+		<https://energy.referencedata.eu/activity/REQ-RAS> .
 
 #################################################################
 # List of Activity
 #################################################################
 
-<https://energy.referencedata.eu/activity/IGM-EQ>
+<https://energy.referencedata.eu/activity/SD-EQ>
     a provcim:Modeling ;
-    skos:prefLabel "IGM-EQ"@en ;
+    skos:prefLabel "StructuralData-EquipmentCore"@en ;
+    skos:notation "SD-EQ" ;
 	dcterms:identifier "fc47623a-ddc3-4dec-80cc-bef95f5044a4" ;
-	dcterms:description "Recognized modeling activity identity for creating the structural data describing the Individual Grid Model (IGM) Equipment (EQ) model."@en .
+	dcterms:description "Structural data complying to Core Equipment (EQ) profile."@en .
 
 
-<https://energy.referencedata.eu/activity/IGM-ER>
+<https://energy.referencedata.eu/activity/SD-ER>
     a provcim:Modeling ;
-    skos:prefLabel "IGM-ER"@en ;
+    skos:prefLabel "StructuralData-EquipmentReliability"@en ;
+    skos:notation "SD-ER" ;
 	dcterms:identifier "fdae0538-35d9-4ff7-9f4d-da46fc035d7a" ;
-	dcterms:description "Recognized modeling activity identity for creating the structural data describing the Individual Grid Model (IGM) Equipment Reliability (ER) model."@en .
+	dcterms:description "Structural data complying to Equipment Reliability (ER) profile."@en .
 
-<https://energy.referencedata.eu/activity/IGM-EQ-VF>
-    a provcim:Verification ;
-    skos:prefLabel "IGM-EQ-VF"@en ;
-	dcterms:identifier "441835fe-8a39-4d0e-b6c0-935266138da9" ;
-	dcterms:description "Recognized verification activity identity for verifying the structural data describing the Individual Grid Model (IGM) Equipment (EQ) model."@en .
-	
-<https://energy.referencedata.eu/activity/IGM-RASR>
+<https://energy.referencedata.eu/activity/VF-EQ>
     a provcim:Assessment ;
-    skos:prefLabel "IGM-RASR"@en ;
+    skos:prefLabel "Validation-EquipmentCore"@en ;
+    skos:notation "VF-EQ" ;
+	dcterms:identifier "441835fe-8a39-4d0e-b6c0-935266138da9" ;
+	dcterms:description "Validation results for Core Equipment (EQ)."@en .
+	
+<https://energy.referencedata.eu/activity/REQ-RAS>
+    a provcim:Transaction ;
+    skos:prefLabel "Request-RemedialActionSchedule"@en ;
+    skos:notation "REQ-RAS" ;
 	dcterms:identifier "cd6012ae-9ca8-41e0-8d07-1cda33326871" ;
-	dcterms:description "Recognized assessment activity identity for assessing the Remedial Action Schedule (RAS) on the structural Remedial Action (RA) model for an Individual Grid Model (IGM)."@en .
+	dcterms:description "Formal request complying to Remedial Action Schedule (RAS)"@en .
 	
