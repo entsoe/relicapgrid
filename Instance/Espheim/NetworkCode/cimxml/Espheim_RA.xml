@@ -37,14 +37,12 @@
   <nc:ContingencyWithRemedialAction rdf:ID="_d49b72bc-7677-4e4c-949a-0b4c40a8c62b">
     <nc:ContingencyWithRemedialAction.Contingency rdf:resource="#_13334fdf-9cc2-4341-adb6-1281269040b4"/>
     <nc:ContingencyWithRemedialAction.RemedialAction rdf:resource="#_c8bf6b19-1c3b-4ce6-a15c-99995a3c88ce"/>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
     <nc:ContingencyWithRemedialAction.combinationConstraintKind rdf:resource="https://cim4.eu/ns/nc#ElementCombinationConstraintKind.included"/>
     <nc:ContingencyWithRemedialAction.mRID>d49b72bc-7677-4e4c-949a-0b4c40a8c62b</nc:ContingencyWithRemedialAction.mRID>
   </nc:ContingencyWithRemedialAction>
   <nc:ContingencyWithRemedialAction rdf:ID="_5d648c67-696d-49c1-9f55-6122e63d4f23">
     <nc:ContingencyWithRemedialAction.Contingency rdf:resource="#_96c96ad8-844c-4f3b-8b38-c886ba2c0214"/>
     <nc:ContingencyWithRemedialAction.RemedialAction rdf:resource="#_d856a2a2-3de4-4a7b-aea4-d363c13d9014"/>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
     <nc:ContingencyWithRemedialAction.combinationConstraintKind rdf:resource="https://cim4.eu/ns/nc#ElementCombinationConstraintKind.included"/>
     <nc:ContingencyWithRemedialAction.mRID>5d648c67-696d-49c1-9f55-6122e63d4f23</nc:ContingencyWithRemedialAction.mRID>
   </nc:ContingencyWithRemedialAction>
@@ -57,7 +55,6 @@
   <nc:ContingencyWithRemedialAction rdf:ID="_aafe86ab-9807-42c3-8965-d5a5b66c1d5e">
     <nc:ContingencyWithRemedialAction.Contingency rdf:resource="#_ce19dd34-429e-4b72-8813-7615cc57b4a4"/>
     <nc:ContingencyWithRemedialAction.RemedialAction rdf:resource="#_2e4f4212-7b30-4316-9fce-ca618f2a8a05"/>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
     <nc:ContingencyWithRemedialAction.combinationConstraintKind rdf:resource="https://cim4.eu/ns/nc#ElementCombinationConstraintKind.included"/>
     <nc:ContingencyWithRemedialAction.mRID>aafe86ab-9807-42c3-8965-d5a5b66c1d5e</nc:ContingencyWithRemedialAction.mRID>
   </nc:ContingencyWithRemedialAction>
@@ -195,7 +192,6 @@
     <cim:IdentifiedObject.description>Curative RA: TopologyAction (transformer trip)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>dc8f7d4a-9b37-4143-ab12-cc4e554460ce</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RA21</cim:IdentifiedObject.name>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
     <nc:TopologyAction.Switch rdf:resource="#_65b97d2e-d749-41df-aa8f-0be4629d5e0e"/>
   </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_99e03961-06a8-485e-8c6e-fd833835c00a">
