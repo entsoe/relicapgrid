@@ -12,7 +12,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/ActivityScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Activity Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized activity identities that may be used as the object of prov:wasGeneratedBy."@en ;
 	dcterms:description "Reference dataset containing recognized activity identities for use in provenance references."@en ;

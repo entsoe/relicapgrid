@@ -14,7 +14,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/test/PartyScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Party Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized Party identities that may be used as the object of dcterms:publisher and provcim:modelAuthority."@en ;
 	dcterms:description "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en ;

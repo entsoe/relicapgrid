@@ -12,7 +12,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     dcterms:identifier "b2348853-06c1-401e-b845-193ffa948919" ;
 	dcterms:title "ConfidentialityScheme_NCP_v1.0" ;
     skos:prefLabel "Energy Reference Data Confidentiality Scheme"@en ;

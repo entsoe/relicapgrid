@@ -12,7 +12,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/test/ModelScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Model Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized abstract CIM model identities that may be used as the object of dcat:isVersionOf for versioned datasets."@en ;
 	dcterms:description "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en ;

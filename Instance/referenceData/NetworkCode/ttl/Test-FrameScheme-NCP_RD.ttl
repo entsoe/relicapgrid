@@ -15,7 +15,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/FrameScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data Frame Scheme"@en ;
 	skos:definition "Reference dataset and concept scheme listing recognized frame ...dcterms:spatial."@en ;
 	dcterms:description "Reference dataset containing recognized frame identities for use area of responsebility."@en ;

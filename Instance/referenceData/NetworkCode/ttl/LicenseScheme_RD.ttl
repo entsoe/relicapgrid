@@ -11,7 +11,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/LicenseScheme/NCP/1.0>
-    a skos:ConceptScheme , dcat:Dataset ;
+    a dcat:Dataset ;
     skos:prefLabel "Energy Reference Data License Scheme"@en ;
     skos:definition "Controlled vocabulary and reference dataset describing dataset license conditions for energy and power system data. The scheme is intended to support consistent tagging of datasets and to help software tools, data catalogues, and language models understand permitted reuse conditions."@en ;
     dcterms:title "LicenseScheme-NCP-1.0" ;

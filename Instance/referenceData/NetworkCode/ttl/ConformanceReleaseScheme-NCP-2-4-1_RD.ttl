@@ -13,7 +13,7 @@
 #################################################################
 
 <https://energy.referencedata.eu/ConformanceReleaseScheme/NCP/2.4>
-    a skos:ConceptScheme, dcat:Dataset ;
+    a dcat:Dataset ;
     dcterms:identifier "4d19c86f-884e-4e94-b8b5-386655d2fcb2" ;
     prov:generatedAtTime "2026-03-18T10:00:00Z"^^xsd:dateTime ;
 	dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
