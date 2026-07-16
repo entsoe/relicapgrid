@@ -111,8 +111,7 @@
     skos:prefLabel "Sensitive"@en ;
     skos:notation "SENSITIVE" ;
     skos:definition "Dataset contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
-    skos:exactMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> ;
-    owl:sameAs <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
+    skos:exactMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 
 #################################################################
 # Sensitive infrastructure data
