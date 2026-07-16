@@ -6,24 +6,15 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:cef75152-9833-4a36-bf42-57e735b470b6>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description    "BD test data.";
-        dcat:accessURL         <file:cimxml/Grid_CommonData_CGM-CD.xml>;
-        dcat:isDistributionOf  <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:6b9e5a7a-bc51-4e40-b9e5-d1cc7fd14f58>
+<urn:uuid:d988ee53-7487-4ac5-a1da-778d303fb08d>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   ""@en;
-        dcterms:identifier    "b9e5a7a-bc51-4e40-b9e5-d1cc7fd14f58";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:identifier    "d988ee53-7487-4ac5-a1da-778d303fb08d";
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://ninerealms.nr/CommonData>;
         dcterms:rights        "Copyright";
@@ -34,13 +25,23 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcat:dataset          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
         dcat:version          "1" .
 
+<urn:uuid:2947001d-3e58-410c-956e-dedbb9b199f3>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description    "BD test data.";
+        dcat:accessURL         <file:Instance/commonData/Grid/cimxml/Grid_CommonData_CGM-CD.xml>;
+        dcat:isDistributionOf  <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
 <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   "BD test data.";
         dcterms:identifier    "b65ada7-39ca-42b8-a278-39c457ed82c3";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://ninerealms.nr/CommonData>;
         dcterms:rights        "Copyright";
@@ -48,7 +49,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Grid_CommonData_CGM-CD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:cef75152-9833-4a36-bf42-57e735b470b6>;
+        dcat:distribution     <urn:uuid:2947001d-3e58-410c-956e-dedbb9b199f3>;
         dcat:keyword          "EQ";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .

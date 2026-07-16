@@ -6,23 +6,7 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-<urn:uuid:1ab186ab-34e9-4e8b-ae65-677063c5c1e6>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "ab186ab-34e9-4e8b-ae65-677063c5c1e6";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> , "2025-02-07T19:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://belgovia.bo/CGMES>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:f2d3f250-f39f-4545-86fe-d3bdbe1dea0b> , <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a> , <urn:uuid:8632eceb-c510-40bb-ab2c-542733b9fb58> , <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>;
-        dcat:version          "1" .
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a>
         rdf:type              dcat:Dataset;
@@ -30,7 +14,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   "The equipment dataset of Belgovia, which is part of the ReliCapGrid.";
         dcterms:identifier    "c8a8ad-08d5-4b59-8417-db80e273bd1a";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://belgovia.bo/CGMES>;
         dcterms:requires      <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3> , <urn:uuid:7e5e27b6-cb5a-4168-88bf-f395a19cbec1> , <urn:uuid:d11b06e3-b709-4d45-9b49-188b2089be16>;
@@ -39,10 +23,20 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z__Belgovia_EQ_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:0bbf502c-7e2d-4ce0-9d79-ae209890329b>;
+        dcat:distribution     <urn:uuid:84220dbd-d3e7-4ae4-9626-62b1dac2133c>;
         dcat:keyword          "EQ";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
+
+<urn:uuid:37376f5f-26aa-420c-933e-35323110a65e>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:description    "The steady-state hypothesis dataset for Belgovia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:Instance/Belgovia/Grid/cimxml/20220615T2230Z_2D_Belgovia_SSH_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <urn:uuid:f2d3f250-f39f-4545-86fe-d3bdbe1dea0b>
         rdf:type              dcat:Dataset;
@@ -50,7 +44,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description   "The topology dataset for Belgovia, which is part of the ReliCapGrid.";
         dcterms:identifier    "f2d3f250-f39f-4545-86fe-d3bdbe1dea0b";
-        dcterms:issued        "2025-02-07T19:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-07T19:27:57Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://belgovia.bo/CGMES>;
         dcterms:requires      <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>;
@@ -59,9 +53,26 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Belgovia_TP_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:2309c3e3-3962-49d6-b6d6-7e72ddf76d69>;
+        dcat:distribution     <urn:uuid:44360bf7-9ce9-4478-b352-4c37079235bf>;
         dcat:keyword          "TP";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
+        dcat:version          "1" .
+
+<urn:uuid:a90f77ce-38cc-4131-aaaf-9b037cddd7a3>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "a90f77ce-38cc-4131-aaaf-9b037cddd7a3";
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime , "2025-02-07T19:27:57Z"^^xsd:dateTime;
+        dcterms:license       <http://example.org/license>;
+        dcterms:publisher     <http://belgovia.bo/CGMES>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a> , <urn:uuid:8632eceb-c510-40bb-ab2c-542733b9fb58> , <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665> , <urn:uuid:f2d3f250-f39f-4545-86fe-d3bdbe1dea0b>;
         dcat:version          "1" .
 
 <urn:uuid:8632eceb-c510-40bb-ab2c-542733b9fb58>
@@ -70,7 +81,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
         dcterms:description   "The state variables dataset for Belgovia, which is part of the ReliCapGrid.";
         dcterms:identifier    "eceb-c510-40bb-ab2c-542733b9fb58";
-        dcterms:issued        "2025-02-07T19:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-07T19:27:57Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://belgovia.bo/CGMES>;
         dcterms:requires      <urn:uuid:f2d3f250-f39f-4545-86fe-d3bdbe1dea0b>;
@@ -79,10 +90,20 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Belgovia_SV_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:488f6e9c-39ef-451a-aa8b-3d79ef8914de>;
+        dcat:distribution     <urn:uuid:e7c8eba1-18cb-4e3c-b27b-b1aa157a2773>;
         dcat:keyword          "SV";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
+
+<urn:uuid:e7c8eba1-18cb-4e3c-b27b-b1aa157a2773>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
+        dcterms:description    "The state variables dataset for Belgovia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:Instance/Belgovia/Grid/cimxml/20220615T2230Z_2D_Belgovia_SV_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:8632eceb-c510-40bb-ab2c-542733b9fb58>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-07T19:27:57Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>
         rdf:type              dcat:Dataset;
@@ -90,7 +111,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
         dcterms:description   "The steady-state hypothesis dataset for Belgovia, which is part of the ReliCapGrid.";
         dcterms:identifier    "fe534bf5-0160-43eb-9b1a-da77b7818665";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://belgovia.bo/CGMES>;
         dcterms:requires      <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a>;
@@ -99,47 +120,27 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Belgovia_SSH_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:587af83c-39df-4c5d-afcb-bbb6cc61e640>;
+        dcat:distribution     <urn:uuid:37376f5f-26aa-420c-933e-35323110a65e>;
         dcat:keyword          "SSH";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:0bbf502c-7e2d-4ce0-9d79-ae209890329b>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description    "The equipment dataset of Belgovia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:cimxml/20220615T2230Z__Belgovia_EQ_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:488f6e9c-39ef-451a-aa8b-3d79ef8914de>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
-        dcterms:description    "The state variables dataset for Belgovia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_Belgovia_SV_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:8632eceb-c510-40bb-ab2c-542733b9fb58>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-07T19:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:587af83c-39df-4c5d-afcb-bbb6cc61e640>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description    "The steady-state hypothesis dataset for Belgovia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_Belgovia_SSH_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:fe534bf5-0160-43eb-9b1a-da77b7818665>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:2309c3e3-3962-49d6-b6d6-7e72ddf76d69>
+<urn:uuid:44360bf7-9ce9-4478-b352-4c37079235bf>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description    "The topology dataset for Belgovia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_Belgovia_TP_1.xml>;
+        dcat:accessURL         <file:Instance/Belgovia/Grid/cimxml/20220615T2230Z_2D_Belgovia_TP_1.xml>;
         dcat:isDistributionOf  <urn:uuid:f2d3f250-f39f-4545-86fe-d3bdbe1dea0b>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-07T19:27:57Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2025-02-07T19:27:57Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:84220dbd-d3e7-4ae4-9626-62b1dac2133c>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description    "The equipment dataset of Belgovia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:Instance/Belgovia/Grid/cimxml/20220615T2230Z__Belgovia_EQ_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:15c8a8ad-08d5-4b59-8417-db80e273bd1a>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .

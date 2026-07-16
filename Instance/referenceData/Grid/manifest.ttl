@@ -6,23 +6,15 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:85cd1c7f-534d-4232-bbd1-99d03436ef4b>
-        rdf:type               dcat:Distribution;
-        dcterms:description    "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
-        dcat:accessURL         <file:cimxml/LicenseScheme_RD.xml>;
-        dcat:isDistributionOf  <https://energy.referencedata.eu/LicenseScheme/NCP/1.0>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:b281160d-5629-4273-824a-e348ad3172f4>
+<urn:uuid:4c7187cb-2a37-4827-8de3-4908209d4c93>
         rdf:type               dcat:Distribution;
         dcterms:description    "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en;
-        dcat:accessURL         <file:cimxml/ConfidentialityScheme_RD.xml>;
+        dcat:accessURL         <file:Instance/referenceData/Grid/cimxml/ConfidentialityScheme_RD.xml>;
         dcat:isDistributionOf  <https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>
@@ -30,7 +22,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en;
         dcterms:identifier    "b2348853-06c1-401e-b845-193ffa948919";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -38,7 +30,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "ConfidentialityScheme_NCP_v1.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:b281160d-5629-4273-824a-e348ad3172f4>;
+        dcat:distribution     <urn:uuid:4c7187cb-2a37-4827-8de3-4908209d4c93>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Confidentiality/>;
         dcat:version          "1.0.0" .
 
@@ -47,7 +39,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
         dcterms:identifier    "e64345cc-016b-4cc2-a5d1-8beabf97beab";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
@@ -55,17 +47,26 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "LicenseScheme-NCP-1.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:85cd1c7f-534d-4232-bbd1-99d03436ef4b>;
+        dcat:distribution     <urn:uuid:5b368565-c8cb-4616-9fec-dab56f27772b>;
         dcat:isVersionOf      <https://energy.referencedata.eu/LicenseScheme>;
         dcat:version          "1.0.0" .
 
-<urn:uuid:65377a48-606f-4ecd-bb2f-52f327014d36>
+<urn:uuid:5b368565-c8cb-4616-9fec-dab56f27772b>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
+        dcat:accessURL         <file:Instance/referenceData/Grid/cimxml/LicenseScheme_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/LicenseScheme/NCP/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:241719b2-2133-4652-b4ac-430fc5ee90a9>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <urn:placeholder:conformsTo>;
         dcterms:description   ""@en;
-        dcterms:identifier    "a48-606f-4ecd-bb2f-52f327014d36";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:identifier    "b2-2133-4652-b4ac-430fc5ee90a9";
+        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";

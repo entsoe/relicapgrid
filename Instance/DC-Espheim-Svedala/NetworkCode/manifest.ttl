@@ -6,50 +6,83 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
-
-<urn:uuid:50dd9185-fbae-4d42-8340-2e6532a4ab18>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialAction/2.4> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "dd9185-fbae-4d42-8340-2e6532a4ab18";
-        dcterms:issued        "2025-06-19T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <https://ap.cim4.eu/RemedialAction/2.4>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
-        dcat:version          "1" .
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialAction/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description   "Svedala - HVDC - Espheim  - NC profile";
+        dcterms:description   "Svedala - HVDC - Espheim  - NC profile"@en;
         dcterms:identifier    "c1413a88-1f17-4b9e-9afe-cd089605c671";
-        dcterms:issued        "2025-06-19T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
-        dcterms:license       <http://example.org/license>;
+        dcterms:issued        "2025-06-19T14:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://ap.cim4.eu/RemedialAction/2.4>;
         dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
+        dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "Svedala-Espheim-RA";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:44a92dbc-beea-4a5a-9d3d-56651a086245>;
+        dcat:distribution     <urn:uuid:645759e8-fc92-48ee-af96-d48f91496448>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-Espheim-RA>;
         dcat:keyword          "RA";
-        dcat:startDate        "2025-06-19T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2025-06-19T14:00:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:44a92dbc-beea-4a5a-9d3d-56651a086245>
+<urn:uuid:e180231c-e5d4-435c-9d00-a085a0f3d8ef>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialAction/2.4>;
-        dcterms:description    "Svedala - HVDC - Espheim  - NC profile";
-        dcat:accessURL         <file:NetworkCode/Svedala-Espheim_RA.xml>;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/Contingency/2.3>;
+        dcterms:description    "This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/DC-Espheim-Svedala/NetworkCode/cimxml/DC-Espheim-Svedala_CO.xml>;
+        dcat:isDistributionOf  <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-05-25T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-CO> .
+
+<urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <https://ap.cim4.eu/Contingency/2.3> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:description   "This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid."@en;
+        dcterms:identifier    "d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812";
+        dcterms:issued        "2022-06-15T22:30:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/test/party/DC-Espheim-Svedala>;
+        dcterms:requires      <urn:uuid:105893e4-668b-4b00-a351-0e436b53cbc9>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System>;
+        dcterms:title         "20220615_DC-Espheim-Svedala_CO_1.0.0";
+        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+        dcat:distribution     <urn:uuid:e180231c-e5d4-435c-9d00-a085a0f3d8ef>;
+        dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
+        dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/DC-Espheim-Svedala-CO>;
+        dcat:keyword          "CO";
+        dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
+        dcat:version          "1.0.0" .
+
+<urn:uuid:645759e8-fc92-48ee-af96-d48f91496448>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "Svedala - HVDC - Espheim  - NC profile"@en;
+        dcat:accessURL         <file:Instance/DC-Espheim-Svedala/NetworkCode/cimxml/DC-Espheim-Svedala_RA.xml>;
         dcat:isDistributionOf  <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-06-19T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2025-06-19T14:00:00Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    "\"https://energy.referencedata.eu/Activity/CGM-RA" .
+
+<urn:uuid:27af584d-3fd0-484c-973c-5b56341d861c>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.4> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/Contingency/2.3>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "af584d-3fd0-484c-973c-5b56341d861c";
+        dcterms:issued        "2022-06-15T22:30:00Z"^^xsd:dateTime , "2025-06-19T14:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/test/party/DC-Espheim-Svedala> , <https://ap.cim4.eu/RemedialAction/2.4>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System> , <https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812> , <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
+        dcat:version          "1" , "1.0.0" .

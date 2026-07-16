@@ -6,6 +6,7 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
 <urn:uuid:76bea528-aec5-4235-8f96-19e155278d63>
         rdf:type              dcat:Dataset;
@@ -13,7 +14,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
         dcterms:description   "This is a text model for boundary.";
         dcterms:identifier    "bea528-aec5-4235-8f96-19e155278d63";
-        dcterms:issued        "2026-04-07T12:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-04-07T12:58:24Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://portheim.ph>;
         dcterms:requires      <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>;
@@ -22,9 +23,9 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20241223T0642Z_2D_Portheim_SSH_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:424899ff-d9ce-4ee4-a832-255cec5f395c>;
+        dcat:distribution     <urn:uuid:ecc694b1-3176-4202-81a6-df5ead17aa8d>;
         dcat:keyword          "SSH";
-        dcat:startDate        "2024-12-23T06:42:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2024-12-23T06:42:14Z"^^xsd:dateTime;
         dcat:version          "1" .
 
 <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>
@@ -33,7 +34,7 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   "This is a text model for boundary.";
         dcterms:identifier    "c5d6483-ac4b-43df-8f42-67989468382f";
-        dcterms:issued        "2026-04-07T12:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:issued        "2026-04-07T12:58:24Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://portheim.ph>;
         dcterms:requires      <urn:uuid:18883bbd-c850-48eb-8eb9-b6018decdb63>;
@@ -42,38 +43,18 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20241223T0642Z_2D_Portheim_EQ_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:956862f6-b567-4e26-8e92-76a32fe8749d>;
+        dcat:distribution     <urn:uuid:4bcf1918-208e-40c4-8779-983d470f3ebd>;
         dcat:keyword          "EQ";
-        dcat:startDate        "2024-12-23T06:42:14Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2024-12-23T06:42:14Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:424899ff-d9ce-4ee4-a832-255cec5f395c>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description    "This is a text model for boundary.";
-        dcat:accessURL         <file:cimxml/20241223T0642Z_2D_Portheim_SSH_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:76bea528-aec5-4235-8f96-19e155278d63>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-04-07T12:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:956862f6-b567-4e26-8e92-76a32fe8749d>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description    "This is a text model for boundary.";
-        dcat:accessURL         <file:cimxml/20241223T0642Z_2D_Portheim_EQ_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-04-07T12:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:3bf114b7-9d5a-4b29-a4e0-388e63802a52>
+<urn:uuid:b792c0c0-cd80-46fd-aa8b-9269972bcf34>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
         dcterms:description   ""@en;
-        dcterms:identifier    "bf114b7-9d5a-4b29-a4e0-388e63802a52";
-        dcterms:issued        "2026-04-07T12:58:24Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:identifier    "b792c0c0-cd80-46fd-aa8b-9269972bcf34";
+        dcterms:issued        "2026-04-07T12:58:24Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://portheim.ph>;
         dcterms:rights        "Copyright";
@@ -81,5 +62,25 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Manifest";
         adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f> , <urn:uuid:76bea528-aec5-4235-8f96-19e155278d63>;
+        dcat:dataset          <urn:uuid:76bea528-aec5-4235-8f96-19e155278d63> , <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>;
         dcat:version          "1" .
+
+<urn:uuid:4bcf1918-208e-40c4-8779-983d470f3ebd>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description    "This is a text model for boundary.";
+        dcat:accessURL         <file:Instance/Portheim/Grid/cimxml/20241223T0642Z_2D_Portheim_EQ_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-04-07T12:58:24Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:ecc694b1-3176-4202-81a6-df5ead17aa8d>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:description    "This is a text model for boundary.";
+        dcat:accessURL         <file:Instance/Portheim/Grid/cimxml/20241223T0642Z_2D_Portheim_SSH_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:76bea528-aec5-4235-8f96-19e155278d63>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-04-07T12:58:24Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .

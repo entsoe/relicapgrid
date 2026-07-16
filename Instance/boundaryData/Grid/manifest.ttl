@@ -6,42 +6,43 @@ PREFIX eu:      <https://cim.ucaiug.io/ns/eu#>
 PREFIX nc:      <https://cim4.eu/ns/nc#>
 PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:f681d25a-7f88-4abb-beef-98ca67a0017d>
+<urn:uuid:9e5f46aa-6ffe-48f8-b1fe-264e717ae07e>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Galia-Britheim.xml>;
-        dcat:isDistributionOf  <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76>;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Galia-Belgovia.xml>;
+        dcat:isDistributionOf  <urn:uuid:e71699f7-e467-4200-accd-8c408a597576>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:53:10Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-20T15:52:36Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
 
-<urn:uuid:902debb7-d542-4855-8b46-9d58897c82a5>
+<urn:uuid:54dfe133-6fcd-423a-9cfc-e9be620a1445>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description   ""@en;
-        dcterms:identifier    "debb7-d542-4855-8b46-9d58897c82a5";
-        dcterms:issued        "2026-06-03T11:22:35.567219600Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcterms:identifier    "dfe133-6fcd-423a-9cfc-e9be620a1445";
+        dcterms:issued        "2026-07-16T08:21:27.171180915Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://energy.referencedata.eu/test/party/RCC-Jotunheim>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
-        dcterms:spatial       <https://energy.referencedata.eu/test/frame/Galia-Nordheim-Transmission> , <https://energy.referencedata.eu/test/frame/Galia-Britheim-Transmission> , <https://energy.referencedata.eu/test/frame/Espheim-Portheim-Transmission> , <https://energy.referencedata.eu/test/frame/Svedala-Espheim-Transmission> , <https://energy.referencedata.eu/test/frame/Svedala-Belgovia-Transmission> , <https://energy.referencedata.eu/test/frame/Galia-Belgovia-Transmission>;
+        dcterms:spatial       <https://energy.referencedata.eu/test/frame/Svedala-Belgovia-Transmission> , <https://energy.referencedata.eu/test/frame/Svedala-Espheim-Transmission> , <https://energy.referencedata.eu/test/frame/Galia-Belgovia-Transmission> , <https://energy.referencedata.eu/test/frame/Galia-Nordheim-Transmission> , <https://energy.referencedata.eu/test/frame/Galia-Britheim-Transmission> , <https://energy.referencedata.eu/test/frame/Espheim-Portheim-Transmission>;
         dcterms:title         "Manifest";
         adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76> , <urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5> , <urn:uuid:9549e003-2e1c-45a2-b9e1-ab38e5959f83> , <urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf> , <urn:uuid:e71699f7-e467-4200-accd-8c408a597576> , <urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab>;
+        dcat:dataset          <urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab> , <urn:uuid:9549e003-2e1c-45a2-b9e1-ab38e5959f83> , <urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf> , <urn:uuid:e71699f7-e467-4200-accd-8c408a597576> , <urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5> , <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76>;
         dcat:version          "1" .
 
-<urn:uuid:f9a14ac0-6c6e-45da-917e-34ff0891c624>
+<urn:uuid:905a1953-b94e-4017-bde2-4d77051572f5>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Galia-Belgovia.xml>;
-        dcat:isDistributionOf  <urn:uuid:e71699f7-e467-4200-accd-8c408a597576>;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Galia-Nordheim.xml>;
+        dcat:isDistributionOf  <urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:52:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-20T15:53:36Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
 
 <urn:uuid:e71699f7-e467-4200-accd-8c408a597576>
@@ -58,20 +59,20 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Galia-Belgovia-Transmission>;
         dcterms:title         "Boundary_Border-Galia-Belgovia";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:f9a14ac0-6c6e-45da-917e-34ff0891c624>;
+        dcat:distribution     <urn:uuid:9e5f46aa-6ffe-48f8-b1fe-264e717ae07e>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Belgovia_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:72419188-103c-42d4-beef-19a20115e3e8>
+<urn:uuid:4073c6a0-bce2-49e0-b096-dfa29613b58b>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Svedala-Belgovia.xml>;
-        dcat:isDistributionOf  <urn:uuid:9549e003-2e1c-45a2-b9e1-ab38e5959f83>;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Espheim-Portheim.xml>;
+        dcat:isDistributionOf  <urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:54:09Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-20T15:51:39Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
 
 <urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab>
@@ -88,11 +89,21 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Galia-Nordheim-Transmission>;
         dcterms:title         "Boundary_Border-Galia-Nordheim";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:8d9db3d7-e4de-4627-b7c7-31cd59072172>;
+        dcat:distribution     <urn:uuid:905a1953-b94e-4017-bde2-4d77051572f5>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Nordheim_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
+
+<urn:uuid:3e4a4e15-2f57-46bf-85cf-15da94bd9f6c>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Galia-Britheim.xml>;
+        dcat:isDistributionOf  <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-03-20T15:53:10Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
 
 <urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5>
         rdf:type              dcat:Dataset;
@@ -108,30 +119,20 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Svedala-Espheim-Transmission>;
         dcterms:title         "Boundary_Border-Svedala-Espheim";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:4a4f7461-6a57-4358-a21c-18e29699541e>;
+        dcat:distribution     <urn:uuid:473bd54f-3c88-4442-b816-f9eef1b006eb>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Svedala-TSO-Espheim_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:4a4f7461-6a57-4358-a21c-18e29699541e>
+<urn:uuid:473bd54f-3c88-4442-b816-f9eef1b006eb>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Svedala-Espheim.xml>;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Svedala-Espheim.xml>;
         dcat:isDistributionOf  <urn:uuid:329b3bf7-7c62-4cc0-8e05-c91eb571d1b5>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:54:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
-
-<urn:uuid:8d9db3d7-e4de-4627-b7c7-31cd59072172>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Galia-Nordheim.xml>;
-        dcat:isDistributionOf  <urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:53:36Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-20T15:54:36Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
 
 <urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf>
@@ -148,10 +149,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Espheim-Portheim-Transmission>;
         dcterms:title         "Boundary_Border-Espheim-Portheim";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:c7cc71d7-d728-469f-bc7f-239f340aad2c>;
+        dcat:distribution     <urn:uuid:4073c6a0-bce2-49e0-b096-dfa29613b58b>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Espheim-TSO-Portheim_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
 <urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76>
@@ -168,10 +169,10 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Galia-Britheim-Transmission>;
         dcterms:title         "Boundary_Border-Galia-Britheim";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:f681d25a-7f88-4abb-beef-98ca67a0017d>;
+        dcat:distribution     <urn:uuid:3e4a4e15-2f57-46bf-85cf-15da94bd9f6c>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Galia-TSO-Britheim_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
 <urn:uuid:9549e003-2e1c-45a2-b9e1-ab38e5959f83>
@@ -188,18 +189,18 @@ PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/Svedala-Belgovia-Transmission>;
         dcterms:title         "Boundary_Border-Svedala-Belgovia";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:72419188-103c-42d4-beef-19a20115e3e8>;
+        dcat:distribution     <urn:uuid:9b2182a5-ff17-49a5-98f3-aee7129823ab>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/TSO-Svedala-TSO-Belgovia_BD>;
         dcat:keyword          "BD";
-        dcat:startDate        "2022-06-16T23:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+        dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:c7cc71d7-d728-469f-bc7f-239f340aad2c>
+<urn:uuid:9b2182a5-ff17-49a5-98f3-aee7129823ab>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "The equipment dataset of the boundary that is used in the ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/Boundary_Border-Espheim-Portheim.xml>;
-        dcat:isDistributionOf  <urn:uuid:1098ae28-1133-4536-a3dc-e8f62bfe5fcf>;
+        dcat:accessURL         <file:Instance/boundaryData/Grid/cimxml/Boundary_Border-Svedala-Belgovia.xml>;
+        dcat:isDistributionOf  <urn:uuid:9549e003-2e1c-45a2-b9e1-ab38e5959f83>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-20T15:51:39Z"^^<http://www.w3.org/2001/XMLSchema#dateTimeStamp>;
+        prov:generatedAtTime   "2026-03-20T15:54:09Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/BD> .
