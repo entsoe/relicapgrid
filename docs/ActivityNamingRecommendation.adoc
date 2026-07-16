@@ -90,7 +90,7 @@ The activity types are grouped into three families:
 * *Evaluation* — describe a judgement or conformance result about content
   (`AS`, `VF`);
 * *Exchange / lifecycle* — describe a transactional or dissemination act; the
-  payload may itself have been produced by an origin/production activity in a
+  payload may itself have been produced by a modeling activity in a
   preceding, chained activity (`REQ`, `RES`, `PUB`).
 
 `prov:wasGeneratedBy` shall reference the activity that *immediately* generated
