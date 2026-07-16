@@ -47,7 +47,7 @@
 #################################################################
 
 <https://cim4.eu/ns/nc/2.4>
-    a adms:SemanticAsset, dcterms:Standard ;
+    a adms:Asset, dcterms:Standard ;
     dcterms:identifier "a5a86407-14ff-462c-a98a-f0f0d4b9eaa9" ;
     dcat:isVersionOf <https://cim4.eu/ns/nc> ;
     dcat:version "2.4.1" ;
