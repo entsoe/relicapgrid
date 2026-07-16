@@ -128,7 +128,6 @@
         <https://lovdata.no/dokument/NL/lov/2018-06-01-24> ,   # Security Act
         <http://data.europa.eu/eli/dir/2022/2555/oj> ,         # NIS2
         <http://data.europa.eu/eli/dir/2022/2557/oj> ;         # CER	
-    dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 
@@ -150,7 +149,6 @@
 		<https://lovdata.no/dokument/SF/forskrift/2012-12-07-1157> , 
         <https://lovdata.no/dokument/NL/lov/2018-06-01-24> ,   # Security Act
         <http://data.europa.eu/eli/dir/2022/2555/oj> ;         # NIS2	
-    dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/SensitiveInfrastructure> ;
     skos:broader <https://energy.referencedata.eu/Confidentiality/SensitiveInfrastructure> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 
@@ -169,7 +167,7 @@
     dcat:applicableLegislation 
         <http://data.europa.eu/eli/reg/2011/1227/oj> ,   # REMIT
         <http://data.europa.eu/eli/reg/2013/543/oj> ;    # Transparency Regulation
-	dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
+	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 
 #################################################################
@@ -184,7 +182,7 @@
     skos:definition "Dataset contains personal data, including special categories of personal data, and shall be processed in accordance with Regulation (EU) 2016/679 (GDPR), including strict controls on access, processing, disclosure, and retention."@en ;
     skos:scopeNote "Includes special categories of personal data as defined in Article 9 of Regulation (EU) 2016/679 (GDPR)."@en ;
     dcat:applicableLegislation <http://data.europa.eu/eli/reg/2016/679/oj> ;
-	dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
+	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 
 #################################################################
@@ -197,7 +195,7 @@
     skos:prefLabel "OPDE Confidential"@en ;
     skos:notation "OPDE_CONFIDENTIAL" ;
     skos:definition "Dataset contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
-	dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
+	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
 	
 #################################################################
@@ -210,6 +208,6 @@
     skos:prefLabel "OPDE Secret"@en ;
     skos:notation "OPDE_SECRET" ;
     skos:definition "Dataset contains sensitive information and shall be protected against unauthorised access, disclosure, or redistribution."@en ;
-	dcterms:isPartOf <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
+	skos:broader <https://energy.referencedata.eu/Confidentiality/Sensitive> ;
 	skos:broader <https://energy.referencedata.eu/Confidentiality/OPDEConfidential> ;
     skos:broadMatch <http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC> .
