@@ -15,11 +15,11 @@
 <https://energy.referencedata.eu/ConformanceReleaseScheme/NCP/2.4>
     a dcat:Dataset ;
     dcterms:identifier "4d19c86f-884e-4e94-b8b5-386655d2fcb2" ;
-    prov:generatedAtTime "2026-03-18T10:00:00Z"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-07-16T00:00:00Z"^^xsd:dateTime ;
 	dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
 	dcat:isVersionOf <https://energy.referencedata.eu/ConformanceReleaseScheme/NCP> ;
 	dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
-	dcterms:issued "2026-03-18T10:00:00Z"^^xsd:dateTime ;
+	dcterms:issued "2026-07-16T00:00:00Z"^^xsd:dateTime ;
 	dcterms:publisher <https://www.entsoe.eu/> ;
 	dcterms:rights "Copyright" ;
 	dcterms:rightsHolder "ENTSO-E" ;

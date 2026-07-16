@@ -21,8 +21,8 @@
     dcterms:publisher <https://www.entsoe.eu/> ;
     dcterms:rights "Copyright" ;
     dcterms:rightsHolder "ENTSO-E" ;
-    dcterms:issued "2026-03-22T00:00:00Z"^^xsd:dateTime ;
-    prov:generatedAtTime "2026-03-22T00:00:00Z"^^xsd:dateTime ;
+    dcterms:issued "2026-07-16T00:00:00Z"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-07-16T00:00:00Z"^^xsd:dateTime ;
     dcat:version "1.0.0" ;
     adms:versionNotes "Initial version of the Energy Reference Data Model Scheme for ReliCapGrid."@en ;
     dcat:isVersionOf <https://energy.referencedata.eu/test/ModelScheme> ;
