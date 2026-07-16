@@ -85,11 +85,11 @@ Tool implementations may present the full activity definition or description to 
 
 The activity types are grouped into three families:
 
-* *Origin / production* — describe how the entity's content was produced
+* *Modeling* — describe how the entity's content was produced
   (`SR`, `MA`, `AD`, `SD`, `FC`, `AC`);
-* *Evaluation* — describe a judgement or conformance result about content
+* *Assessment* — describe a judgement or conformance result about content
   (`AS`, `VF`);
-* *Exchange / lifecycle* — describe a transactional or dissemination act; the
+* *Transaction* — describe a transactional or dissemination act; the
   payload may itself have been produced by a modeling activity in a
   preceding, chained activity (`REQ`, `RES`, `PUB`).
 
@@ -558,10 +558,10 @@ The following rules apply:
 | Activity Identifier | Meaning
 
 | `SR-EQ`
-| Structural data complying to Core Equipment (EQ) profile.
+| Structural model data complying to Core Equipment (EQ) profile.
 
 | `SR-EQ-CGM`
-| Structural data complying to Core Equipment (EQ) profile for Common Grid Model (CGM) process.
+| Structural model data complying to Core Equipment (EQ) profile for Common Grid Model (CGM) process.
 
 | `AD-SSH-CGM-1D-R1`
 | Assumed operating conditions complying to Steady-State Hypothesis for Common Grid Model (CGM) process at Day-ahead (1D), first run (R1).
