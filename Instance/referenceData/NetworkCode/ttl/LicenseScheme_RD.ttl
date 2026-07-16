@@ -51,33 +51,33 @@
 #################################################################
 
 <https://energy.referencedata.eu/License/OpenCommercial>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Open - Commercial Use Allowed"@en ;
     skos:notation "OPEN-COMMERCIAL" ;
     skos:definition "Dataset may be published, copied, used, transformed, and incorporated into other datasets, including for commercial purposes."@en ;
     skos:scopeNote "This concept is intended for datasets that are openly reusable, including in commercial products and services. Attribution obligations may still apply through the underlying legal license."@en ;
     dcterms:source <https://creativecommons.org/licenses/by/4.0/> ;
-    owl:sameAs <https://creativecommons.org/licenses/by/4.0/> .
+    skos:exactMatch <https://creativecommons.org/licenses/by/4.0/> .
 
 #################################################################
 # 2. Open, but non-commercial only
 #################################################################
 
 <https://energy.referencedata.eu/License/OpenNonCommercial>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Open - Non-Commercial Use Only"@en ;
     skos:notation "OPEN-NONCOMMERCIAL" ;
     skos:definition "Dataset may be published, copied, used, transformed, and incorporated into other datasets for non-commercial purposes only."@en ;
     skos:scopeNote "This concept is intended for datasets that are openly reusable except for commercial use. It may be suitable where broad academic, regulatory, or public-interest reuse is allowed, but commercial exploitation is not permitted."@en ;
     dcterms:source <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    owl:sameAs <https://creativecommons.org/licenses/by-nc/4.0/> .
+    skos:exactMatch <https://creativecommons.org/licenses/by-nc/4.0/> .
 
 #################################################################
 # 3. Not public, but derivation is allowed and derived dataset may be published
 #################################################################
 
 <https://energy.referencedata.eu/License/RestrictedDerivationAllowed>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Restricted - Derivation Allowed"@en ;
     skos:notation "RESTRICTED-DERIVATION" ;
     skos:definition "Original dataset is not public and may not be published or redistributed. The dataset may be used as input to create derived datasets, and such derived datasets may be published if permitted by the applicable terms."@en ;
@@ -88,20 +88,20 @@
 #################################################################
 
 <https://energy.referencedata.eu/License/RestrictedDerivationShareAlike>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Restricted - Derivation Share Alike"@en ;
     skos:notation "RESTRICTED-DERIVATION-SA" ;
     skos:definition "Dataset may only be used to derive another dataset. Any derived dataset shall remain subject to the same or equivalent restrictions as the original dataset."@en ;
     skos:scopeNote "This concept captures a restrictive share-alike pattern for derived datasets. The closest well-known public analogue is ODbL, but this concept is stricter and is normally governed by bespoke contractual terms."@en ;
     dcterms:source <https://opendatacommons.org/licenses/odbl/> ;
-    owl:sameAs <https://opendatacommons.org/licenses/odbl/> .
+    skos:exactMatch <https://opendatacommons.org/licenses/odbl/> .
 
 #################################################################
 # 5. Informational use only
 #################################################################
 
 <https://energy.referencedata.eu/License/InformationalUseOnly>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Informational Use Only"@en ;
     skos:notation "INFO-ONLY" ;
     skos:definition "Dataset may only be accessed and used for information, reference, or viewing purposes. Redistribution, modification, extraction into other datasets, and creation of derived datasets are not permitted unless explicitly stated otherwise."@en ;
@@ -112,14 +112,14 @@
 #################################################################
 
 <https://energy.referencedata.eu/License/PublicDomain>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Public Domain (No Restrictions)"@en ;
     skos:definition "Dataset is dedicated to the public domain and may be used without any restrictions, including without attribution."@en ;
     skos:exactMatch <https://opendatacommons.org/licenses/pddl/1-0/> ;
     dcterms:source <https://opendatacommons.org/licenses/pddl/1-0/> .
 
 <https://energy.referencedata.eu/License/ShareAlikeOpen>
-    a dcterms:LicenseDocument ;
+    a dcterms:RightsStatement ;
     skos:prefLabel "Open - Share Alike"@en ;
     skos:definition "Dataset may be used and redistributed, including commercially, but derivative works must be licensed under the same terms."@en ;
     skos:exactMatch <https://creativecommons.org/licenses/by-sa/4.0/> ;
