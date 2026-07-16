@@ -55957,7 +55957,7 @@
 		<cim:OperationalLimit.OperationalLimitType rdf:resource="#_784a84a0-0d21-4d8c-bc63-94f7312a1eb2"/>
 	</cim:ActivePowerLimit>
 	<cim:OperationalLimitType rdf:ID="_784a84a0-0d21-4d8c-bc63-94f7312a1eb2">
-		<cim:OperationalLimitType.direction rdf:resource="https://cim.ucaiug.io/ns#OperationalLimitDirectionKind.high"/>
+		<cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.high"/>
 		<cim:IdentifiedObject.name>PTC_limit_import</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>784a84a0-0d21-4d8c-bc63-94f7312a1eb2</cim:IdentifiedObject.mRID>
     <cim:OperationalLimitType.isInfiniteDuration>false</cim:OperationalLimitType.isInfiniteDuration>
@@ -55965,7 +55965,7 @@
     <cim:OperationalLimitType.acceptableDuration>900</cim:OperationalLimitType.acceptableDuration>
 	</cim:OperationalLimitType>
 	<cim:OperationalLimitType rdf:ID="_98cf1d8f-f84f-4d77-9616-43aa5a21c82c">
-		<cim:OperationalLimitType.direction rdf:resource="https://cim.ucaiug.io/ns#OperationalLimitDirectionKind.low"/>
+		<cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.low"/>
 		<cim:IdentifiedObject.name>PTC_limit_export</cim:IdentifiedObject.name>
 		<cim:IdentifiedObject.mRID>98cf1d8f-f84f-4d77-9616-43aa5a21c82c</cim:IdentifiedObject.mRID>
     <cim:OperationalLimitType.isInfiniteDuration>false</cim:OperationalLimitType.isInfiniteDuration>

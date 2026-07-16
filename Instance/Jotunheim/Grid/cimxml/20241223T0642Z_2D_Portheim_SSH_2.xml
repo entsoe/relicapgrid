@@ -30,6 +30,9 @@
     <cim:IdentifiedObject.mRID>25948857-f3d9-92cd-37cf-d10315c92c63</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
+  <cim:Equipment rdf:about="_d139e10d-1ae3-4142-a07c-325b24bd34c3">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:Equipment>
   <cim:Terminal rdf:about="#_e548bc25-07c1-39de-13aa-86b54e432c0e">
     <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
   </cim:Terminal>

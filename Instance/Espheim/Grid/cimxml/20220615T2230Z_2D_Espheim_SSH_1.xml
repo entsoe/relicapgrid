@@ -21159,4 +21159,7 @@
   <cim:VoltageLimit rdf:about="#_1cb91fbf-8b61-c2e4-98e9-b3ae0197ea98">
     <cim:VoltageLimit.value>420</cim:VoltageLimit.value>
   </cim:VoltageLimit>
+  <cim:Terminal rdf:about="#_a414d08b-918b-41ac-a242-82a2915ab810">
+    <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
+  </cim:Terminal>
 </rdf:RDF>

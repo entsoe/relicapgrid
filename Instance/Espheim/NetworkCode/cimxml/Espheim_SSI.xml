@@ -40,6 +40,6 @@
   </nc:TopologyAction>
   <nc:EquivalentGeneratingUnit rdf:about="#_0b23d814-7559-4edf-8c55-40af585209e6">
     <nc:GeneratingUnit.isRamping>false</nc:GeneratingUnit.isRamping>
-    <nc:Equipment.inService>true</nc:Equipment.inService>
+    <cim:Equipment.inService>true</cim:Equipment.inService>
   </nc:EquivalentGeneratingUnit>
 </rdf:RDF>

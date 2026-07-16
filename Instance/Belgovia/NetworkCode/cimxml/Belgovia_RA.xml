@@ -112,7 +112,6 @@
     <cim:IdentifiedObject.mRID>7be59519-0083-4845-a587-cb391ed16a1d</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Rotatig Mach 2</cim:IdentifiedObject.name>
     <nc:RotatingMachineAction.RotatingMachine rdf:resource="#_550ebe0d-f2b2-48c1-991f-cebea43a21aa"/>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:RotatingMachineAction>
   <nc:RotatingMachineAction rdf:ID="_a38d4a85-e221-43ec-b7bb-122f7c95f06e">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_d874f8e3-7272-44b8-95ba-18f10449f036"/>
@@ -129,7 +128,6 @@
     <cim:IdentifiedObject.mRID>ddb3c55f-b2ec-414e-baa3-592829e2edb2</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Shunt action 1</cim:IdentifiedObject.name>
     <nc:ShuntCompensatorModification.ShuntCompensator rdf:resource="#_002b0a40-3957-46db-b84a-30420083558f"/>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:ShuntCompensatorModification>
   <nc:TapPositionAction rdf:ID="_bf7f0ef4-dad3-4322-b2be-5ace59837e60">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_5e5ff13e-2043-4468-9351-01920d3d9504"/>

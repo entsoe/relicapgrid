@@ -39,7 +39,7 @@
     <nc:ContingencyWithRemedialAction.RemedialAction rdf:resource="#_f4d57bc2-1cef-46ab-ae13-3ad864813d9c"/>
     <nc:ContingencyWithRemedialAction.combinationConstraintKind rdf:resource="https://cim4.eu/ns/nc#ElementCombinationConstraintKind.included"/>
     <nc:ContingencyWithRemedialAction.mRID>e3512f27-7c5e-4121-adf8-e943872d8fa5</nc:ContingencyWithRemedialAction.mRID>
-    <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
+    <nc:ContingencyWithRemedialAction.normalEnabled>true</nc:ContingencyWithRemedialAction.normalEnabled>
   </nc:ContingencyWithRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_f4d57bc2-1cef-46ab-ae13-3ad864813d9c">
     <cim:IdentifiedObject.description>Curative RA: LoadAction (15 percent load shed - Scaling factor to 0.7)</cim:IdentifiedObject.description>
