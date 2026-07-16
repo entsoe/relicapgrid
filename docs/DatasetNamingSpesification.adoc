@@ -1,0 +1,137 @@
+== File Naming Recommendation
+
+=== Scope and Intent
+
+This recommendation applies specifically to the use of test datasets within the ReliCapGrid context.
+
+It is important to clarify that *CGMES/NCP does not impose any normative requirement on dataset or file naming*. File naming is only a recommendation intended to improve usability, readability, and uniqueness.
+
+The objective of this recommendation is to provide a naming convention for both the dataset naming (`dcterms:title`) and the corresponding file name that:
+
+* provides a high probability of uniqueness;
+* improves human readability;
+* makes datasets easier to identify and interpret by AI-assisted tooling;
+* enables efficient organisation and comparison of datasets used in test scenarios.
+
+Specific business processes (for example CGM, TYNDP, or other operational exchanges) may define their own naming requirements. Such requirements are outside the scope of the CGMES/NCP profile specifications themselves.
+
+The fundamental design principle of the dataset exchange framework remains unchanged: implementations shall rely on dataset metadata rather than file names for operational processing logic.
+
+=== Background from the Metadata Specification
+
+The document _Metadata for Dataset and Distribution Specification_, version 2.4 (2024-10-16), states:
+
+____
+The core idea of having manifest dataset and DCAT is to avoid implementation to rely on naming standards. There shall be no information derived from the file name by the tools handling the profiles.
+
+However, for human readability, the following file naming convention is recommended:
+
+`dcat:startDate_dcterms:publisher_prov:wasGeneratedBy[_dcat:version]`
+____
+
+The corresponding metadata elements are:
+
+* `dcat:startDate` — Date and time for which the dataset is valid (`YYYYMMDDThhmm`).
++
+Examples:
+** `20180118T0930Z`
+** `20180118` (for daily datasets)
+
+* `dcterms:publisher` — The party publishing or sending the dataset. The last path segment of the URI is used.
++
+Examples:
+** `TSO-Belgovia`
+** `RCC-Jotunheim`
+
+* `prov:wasGeneratedBy` — Identifies the generating activity or process.
++
+This may include information such as:
+** business process
+** timeframe
+** coordination run
+** profile keyword
+
+* `dcat:version` — Optional dataset version following Semantic Versioning 2.0.
++
+Example:
+** `1.2.3` represented in title and filenames as `1-2-3`
+
+=== For next version of Metadata Specification
+
+For the next version of Metadata Specification we have added [dcterms:spatial] to address external contingencies and to distinguish if we are addressing the IGM or the CGM dataset.
+
+To support this use case, the following naming recommendation will be added:
+
+`[dcat:startDate_]dcterms:publisher_[dcterms:spatial_]prov:wasGeneratedBy[_dcat:version]`
+
+Where:
+
+* `dcat:startDate` — optional validity date/time;
+* `dcterms:publisher` — mandatory, dataset publisher;
+* `dcterms:spatial` — optional, neighbouring Frame or spatial reference;
+* `prov:wasGeneratedBy` — mandatory, generating activity or process;
+* `dcat:version` — optional, dataset version.
+
+Additional guidance:
+
+* `dcterms:spatial` shall only be included when the referenced Frame lies outside the authority or responsibility of the publishing party.
+* The same naming convention should be used consistently for both `dcterms:title` and the corresponding physical file name.
+* The recommendation aims to create naming identification that are meaningful for both humans and AI-based tools, while remaining independent of machine processing semantics.
+
+=== Base Dataset Handling
+
+ReliCapGrid distinguishes between:
+
+* *Base datasets* — reusable source datasets used as the starting point for one or more test scenarios;
+* *Derived test datasets* — datasets created for a specific test case with explicit validity.
+
+For *derived test datasets*, inclusion of `dcat:startDate` is recommended to support uniqueness and traceability.
+
+For *base datasets*, inclusion of `dcat:startDate` is intentionally omitted unless required for uniqueness.
+
+This allows:
+
+* stable filenames over time;
+* easier comparison of file content in Git and other version control systems;
+* avoidance of unnecessary renaming when only the dataset validity period changes;
+* cleaner management of reusable reference datasets.
+
+This means that a change to `dcat:startDate` alone does not require renaming the corresponding base dataset file.
+
+=== Important Implementation Principle
+
+Even with this recommendation, tooling shall *never* derive operational semantics from the file name.
+
+All required information shall be available in the dataset metadata (for example via DCAT and PROV properties).
+
+The filename exists purely as a human- and AI-friendly identifier.
+
+To support this principle, `dcterms:title` should contain the full filename representation so that tools may generate appropriate filenames directly from metadata, without requiring prior knowledge of the naming convention.
+
+=== Examples
+
+Derived test dataset:
+
+[source,xml]
+----
+<dcterms:title>20260717_TSO-Svedala_Belgovia-Transmission_SD-CO</dcterms:title>
+----
+
+Interpretation:
+
+* `20260717` → start time for the validity period
+* `TSO-Svedala` → publisher
+* `Belgovia-Transmission` → neighbouring Frame
+* `SD-CO` → Structural model data complying to Contingency (CO) profile.
+* Version is 1.0.0 as it is missing from the file name
+
+Base dataset:
+
+[source,xml]
+----
+<dcterms:title>TSO-Svedala_Belgovia-Transmission_SD-CO</dcterms:title>
+----
+
+This base dataset may be reused with different validity periods without requiring file renaming.
+
+NOTE: This naming convention is a recommendation intended to improve readability, uniqueness, and usability. It is not a conformance requirement under CGMES/NCP.
