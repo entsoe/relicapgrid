@@ -20098,7 +20098,7 @@
   <cim:RegulatingControl rdf:about="#_9014f953-fdec-1ddf-8a22-63ab7f23c1ed">
     <cim:RegulatingControl.discrete>false</cim:RegulatingControl.discrete>
     <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
-    <cim:RegulatingControl.targetValue>231</cim:RegulatingControl.targetValue>
+    <cim:RegulatingControl.targetValue>220</cim:RegulatingControl.targetValue>
     <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.k" />
   </cim:RegulatingControl>
   <cim:LinearShuntCompensator rdf:about="#_0449e9d5-c766-11e1-8775-005056c00008">
