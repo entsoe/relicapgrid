@@ -98,7 +98,7 @@
 			[-4.0, 48.8],
 			[-5.1, 48.6]
 		  ]]
-		}"""
+		}"""^^geo:geoJSONLiteral;
 	] .
 
 <https://energy.referencedata.eu/test/frame/Espheim-Portheim-Transmission>
