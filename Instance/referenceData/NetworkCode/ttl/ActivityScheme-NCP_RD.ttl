@@ -40,8 +40,8 @@
     dcterms:identifier "209d3b30-a355-4e1e-a831-c11c3eb514d7" ;
     skos:prefLabel "Collection of recognized activities identities for CGMES and NCP."@en ;
     prov:hadMember         
-		<https://energy.referencedata.eu/activity/SD-EQ> ,
-        <https://energy.referencedata.eu/activity/SD-ER> ,
+		<https://energy.referencedata.eu/activity/SR-EQ> ,
+        <https://energy.referencedata.eu/activity/SR-ER> ,
 		<https://energy.referencedata.eu/activity/VF-EQ> ,
 		<https://energy.referencedata.eu/activity/REQ-RAS> .
 
@@ -49,9 +49,9 @@
 # List of Activity
 #################################################################
 
-<https://energy.referencedata.eu/activity/SD-EQ>
+<https://energy.referencedata.eu/activity/SR-EQ>
     a provcim:Modeling ;
-    skos:prefLabel "StructuralData-EquipmentCore"@en ;
+    skos:prefLabel "StructuralRepresentation-EquipmentCore"@en ;
     skos:notation "SD-EQ" ;
 	dcterms:identifier "fc47623a-ddc3-4dec-80cc-bef95f5044a4" ;
 	dcterms:description "Structural data complying to Core Equipment (EQ) profile."@en .
@@ -59,17 +59,17 @@
 
 <https://energy.referencedata.eu/activity/SD-ER>
     a provcim:Modeling ;
-    skos:prefLabel "StructuralData-EquipmentReliability"@en ;
+    skos:prefLabel "StructuralRepresentation-EquipmentReliability"@en ;
     skos:notation "SD-ER" ;
 	dcterms:identifier "fdae0538-35d9-4ff7-9f4d-da46fc035d7a" ;
 	dcterms:description "Structural data complying to Equipment Reliability (ER) profile."@en .
 
 <https://energy.referencedata.eu/activity/VF-EQ>
     a provcim:Assessment ;
-    skos:prefLabel "Validation-EquipmentCore"@en ;
+    skos:prefLabel "Verification-EquipmentCore"@en ;
     skos:notation "VF-EQ" ;
 	dcterms:identifier "441835fe-8a39-4d0e-b6c0-935266138da9" ;
-	dcterms:description "Validation results for Core Equipment (EQ)."@en .
+	dcterms:description "Verification results for Core Equipment (EQ)."@en .
 	
 <https://energy.referencedata.eu/activity/REQ-RAS>
     a provcim:Transaction ;
