@@ -52,7 +52,7 @@
 <https://energy.referencedata.eu/activity/SR-EQ>
     a provcim:Modeling ;
     skos:prefLabel "StructuralRepresentation-EquipmentCore"@en ;
-    skos:notation "SD-EQ" ;
+    skos:notation "SR-EQ" ;
 	dcterms:identifier "fc47623a-ddc3-4dec-80cc-bef95f5044a4" ;
 	dcterms:description "Structural data complying to Core Equipment (EQ) profile."@en .
 
