@@ -62,7 +62,7 @@
     skos:prefLabel "StructuralRepresentation-EquipmentReliability"@en ;
     skos:notation "SR-ER" ;
 	dcterms:identifier "fdae0538-35d9-4ff7-9f4d-da46fc035d7a" ;
-	dcterms:description "Structural data complying to Equipment Reliability (ER) profile."@en .
+	dcterms:description "Structural representation complying to Equipment Reliability (ER) profile."@en .
 
 <https://energy.referencedata.eu/activity/VF-EQ>
     a provcim:Assessment ;
