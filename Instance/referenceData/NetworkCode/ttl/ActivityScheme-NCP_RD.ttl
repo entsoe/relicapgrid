@@ -60,7 +60,7 @@
 <https://energy.referencedata.eu/activity/SD-ER>
     a provcim:Modeling ;
     skos:prefLabel "StructuralRepresentation-EquipmentReliability"@en ;
-    skos:notation "SD-ER" ;
+    skos:notation "SR-ER" ;
 	dcterms:identifier "fdae0538-35d9-4ff7-9f4d-da46fc035d7a" ;
 	dcterms:description "Structural data complying to Equipment Reliability (ER) profile."@en .
 
