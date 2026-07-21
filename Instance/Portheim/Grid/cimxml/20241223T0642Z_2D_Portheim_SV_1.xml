@@ -1015,7 +1015,7 @@
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
   <cim:SvStatus rdf:ID="_7f2f6c84-71b7-485d-adb6-30b2a9f84339">
-    <cim:SvStatus.ConductingEquipment rdf:resource="#_89d956f7-2489-7f59-4ba5-babf802b828b" />
+    <cim:SvStatus.ConductingEquipment rdf:resource="#_d139e10d-1ae3-4142-a07c-325b24bd34c3" />
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
   <cim:SvStatus rdf:ID="_8d6ede76-d9b6-4542-b523-439efce9a6b4">
