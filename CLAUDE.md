@@ -68,6 +68,22 @@ semantic-tools/              # Scripts to convert CIMXML → TriG for graph DBs
 - **Model.Supersedes dangling references are expected** — the test suite explicitly ignores them. Do not add them to other ignore lists without good reason.
 - **NCP profile abbreviations**: AE = AssessedElement, CO = Contingency, ER = EquipmentReliability, RA = RemedialAction, RAS = RemedialActionSchedule, SIS = StateInstructionSchedule, SSI = SteadyStateInstruction, OR = OutageRegion, IAM = ImpactAssessmentMatrix.
 
+### Metadata header type
+
+The header type follows the **standard the file conforms to**, not the folder it sits in:
+
+| Standard | Header | Files |
+|---|---|---|
+| CGMES 3.0 | `md:FullModel` | IGM `EQ`, `SSH`, `TP`, `SV`; `commonData/Grid/cimxml/Grid_CommonData_CGM-CD.xml` |
+| NCP | `dcat:Dataset` | Per-TSO `NetworkCode/cimxml/`; `commonData/NetworkCode/cimxml/` |
+| Boundary | branch-dependent | `md:FullModel` on `cgmes-3.0_ncp-2.4_tc-1.1`; `dcat:Dataset` from `cgmes-3.0_ncp-2.5_tc-2.0` onwards |
+
+`Grid_CommonData_CGM-CD.xml` keeps `md:FullModel` because it is a Grid file, not
+an NCP one. This is intentional — do not convert it.
+
+For the structure of a `dcat:Dataset` header, see
+[docs/HeaderExample.xml](docs/HeaderExample.xml).
+
 ---
 
 ## Development Workflow
