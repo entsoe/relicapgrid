@@ -5,10 +5,10 @@
     xmlns:md="http://iec.ch/TC57/61970-552/ModelDescription/1#"
     xmlns:cim="http://iec.ch/TC57/CIM100#" > 
   <md:FullModel rdf:about="urn:uuid:b89a6150-43bd-442c-8c58-9efd3d537d11">
-    <md:Model.DependentOn rdf:resource="urn:uuid:5f8c11a8-c61c-42c9-925d-8cdbc0146c1a"/>
-    <md:Model.DependentOn rdf:resource="urn:uuid:7205352b-3af5-4bb1-a008-aba810e8a35d"/>
+    <md:Model.DependentOn rdf:resource="urn:uuid:d921d79d-19ce-4dbb-ba26-8febc6e842ab"/>
+    <md:Model.DependentOn rdf:resource="urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76"/>
     <md:Model.DependentOn rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
-    <md:Model.DependentOn rdf:resource="urn:uuid:7e5e27b6-cb5a-4168-88bf-f395a19cbec1"/>
+    <md:Model.DependentOn rdf:resource="urn:uuid:e71699f7-e467-4200-accd-8c408a597576"/>
     <md:Model.created>2025-02-06T14:18:22Z</md:Model.created>
     <md:Model.description>The equipment dataset for Galia, which is part of the ReliCapGrid.</md:Model.description>
     <md:Model.modelingAuthoritySet>http://galia.ga/CGMES</md:Model.modelingAuthoritySet>
