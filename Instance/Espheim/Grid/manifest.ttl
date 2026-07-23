@@ -8,6 +8,16 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
+<urn:uuid:c8c04d29-5c9d-4b71-ad6d-a51d347019ea>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
+        dcterms:description    "The state variables dataset for Espeheim, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:Instance/Espheim/Grid/cimxml/20220615T2230Z_2D_Espheim_SV_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:82f11493-0ad0-447c-bc05-66e0529db971>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-08T19:39:48Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
 <urn:uuid:33e0fdb1-f02d-4a5c-a599-850f549df998>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
@@ -23,7 +33,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Espheim_TP_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:d4ca54fb-53c8-4a07-8ca9-6a510a3b9942>;
+        dcat:distribution     <urn:uuid:8770ed79-e8be-4014-b42f-5d1870f9f981>;
         dcat:keyword          "TP";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
@@ -43,38 +53,18 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z__Espheim_EQ_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:89e4da65-540c-45cf-8c50-879b23fa0f24>;
+        dcat:distribution     <urn:uuid:d5a71ba4-8c7d-4629-8b4b-b2c393ba6c33>;
         dcat:keyword          "EQ";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:53b19676-c8a8-44e1-a8f0-192c2e11ebbc>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
-        dcterms:description    "The state variables dataset for Espeheim, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/Espheim/Grid/cimxml/20220615T2230Z_2D_Espheim_SV_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:82f11493-0ad0-447c-bc05-66e0529db971>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-08T19:39:48Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:91f211e6-d5b3-49af-9508-81117433bfcc>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description    "The steady-state hypothesis dataset for Espheim, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/Espheim/Grid/cimxml/20220615T2230Z_2D_Espheim_SSH_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:17a58fba-a783-427f-99f5-e464a80c3ec3>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:d6dca697-4045-4a63-addc-c4012dcc0e38>
+<urn:uuid:9ee25cbe-8ba1-47c0-9a3d-8e22707abb1f>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description   ""@en;
-        dcterms:identifier    "d6dca697-4045-4a63-addc-c4012dcc0e38";
-        dcterms:issued        "2025-02-08T19:39:48Z"^^xsd:dateTime , "2025-02-06T14:18:22Z"^^xsd:dateTime;
+        dcterms:identifier    "ee25cbe-8ba1-47c0-9a3d-8e22707abb1f";
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime , "2025-02-08T19:39:48Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://espheim.eh/CGMES>;
         dcterms:rights        "Copyright";
@@ -82,7 +72,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Manifest";
         adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:e3beb946-afc6-4304-9660-517d5115cbb0> , <urn:uuid:17a58fba-a783-427f-99f5-e464a80c3ec3> , <urn:uuid:82f11493-0ad0-447c-bc05-66e0529db971> , <urn:uuid:33e0fdb1-f02d-4a5c-a599-850f549df998>;
+        dcat:dataset          <urn:uuid:17a58fba-a783-427f-99f5-e464a80c3ec3> , <urn:uuid:82f11493-0ad0-447c-bc05-66e0529db971> , <urn:uuid:e3beb946-afc6-4304-9660-517d5115cbb0> , <urn:uuid:33e0fdb1-f02d-4a5c-a599-850f549df998>;
         dcat:version          "1" .
 
 <urn:uuid:82f11493-0ad0-447c-bc05-66e0529db971>
@@ -100,17 +90,27 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Espheim_SV_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:53b19676-c8a8-44e1-a8f0-192c2e11ebbc>;
+        dcat:distribution     <urn:uuid:c8c04d29-5c9d-4b71-ad6d-a51d347019ea>;
         dcat:keyword          "SV";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:89e4da65-540c-45cf-8c50-879b23fa0f24>
+<urn:uuid:d5a71ba4-8c7d-4629-8b4b-b2c393ba6c33>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description    "The equipment dataset for Espheim, which is part of the ReliCapGrid.";
         dcat:accessURL         <file:Instance/Espheim/Grid/cimxml/20220615T2230Z__Espheim_EQ_1.xml>;
         dcat:isDistributionOf  <urn:uuid:e3beb946-afc6-4304-9660-517d5115cbb0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:4bdebac7-89cf-4534-9f1c-83139a961c48>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:description    "The steady-state hypothesis dataset for Espheim, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:Instance/Espheim/Grid/cimxml/20220615T2230Z_2D_Espheim_SSH_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:17a58fba-a783-427f-99f5-e464a80c3ec3>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
         prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
@@ -130,12 +130,12 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Espheim_SSH_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:91f211e6-d5b3-49af-9508-81117433bfcc>;
+        dcat:distribution     <urn:uuid:4bdebac7-89cf-4534-9f1c-83139a961c48>;
         dcat:keyword          "SSH";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:d4ca54fb-53c8-4a07-8ca9-6a510a3b9942>
+<urn:uuid:8770ed79-e8be-4014-b42f-5d1870f9f981>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description    "The topology dataset for Espheim, which is part of the ReliCapGrid.";
