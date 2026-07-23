@@ -114,4 +114,68 @@
     <eu:IdentifiedObject.shortName>BP_EH-PH1</eu:IdentifiedObject.shortName>
     <cim:Line.Region rdf:resource="#_fbcc6679-6da5-4cfd-b50c-8ce23f450c78"/>
   </cim:Line>
+  <!-- AC Substation Boundary -->
+  <cim:ConnectivityNode rdf:ID="_ceafce7b-5485-4cb8-9e06-c85ba137ffa9">
+    <cim:ConnectivityNode.ConnectivityNodeContainer rdf:resource="#_0c4f41f8-9797-44eb-bdbe-1a28efa083b9"/>
+    <cim:IdentifiedObject.mRID>ceafce7b-5485-4cb8-9e06-c85ba137ffa9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP Portheim-Espheim</cim:IdentifiedObject.name>
+    <eu:IdentifiedObject.shortName>BP_PH-EH</eu:IdentifiedObject.shortName>
+    <cim:IdentifiedObject.description>Portheim-Espheim Connectivity Node in the Boundary Substation</cim:IdentifiedObject.description>
+  </cim:ConnectivityNode>
+  <nc:BoundaryPoint rdf:ID="_3f5af4d3-5943-dfd0-1c61-de4f3fd11070">
+    <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>
+    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_ceafce7b-5485-4cb8-9e06-c85ba137ffa9"/>
+    <cim:IdentifiedObject.description>Boundary point 4 in a Substation between Portheim and Espheim (400kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3f5af4d3-5943-dfd0-1c61-de4f3fd11070</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP Portheim-Espheim</cim:IdentifiedObject.name>
+    <eu:IdentifiedObject.shortName>BP_PH-EH</eu:IdentifiedObject.shortName>
+  </nc:BoundaryPoint>
+  <cim:VoltageLevel rdf:ID="_0c4f41f8-9797-44eb-bdbe-1a28efa083b9">
+    <cim:IdentifiedObject.description>Portheim-Espheim Voltage Level 400kV in the Boundary Substation, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0c4f41f8-9797-44eb-bdbe-1a28efa083b9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Portheim-Espheim Voltage Level 400kV</cim:IdentifiedObject.name>
+    <eu:IdentifiedObject.shortName>PH-EH-400kV</eu:IdentifiedObject.shortName>
+    <cim:VoltageLevel.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
+    <cim:VoltageLevel.Substation rdf:resource="#_42b7f03a-db7a-415a-9e15-25f634f5ea9c"/>
+  </cim:VoltageLevel>
+  <cim:Substation rdf:ID="_42b7f03a-db7a-415a-9e15-25f634f5ea9c">
+    <cim:IdentifiedObject.mRID>42b7f03a-db7a-415a-9e15-25f634f5ea9c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Substation Portheim-Espheim</cim:IdentifiedObject.name>
+    <eu:IdentifiedObject.shortName>Subst-PH-EH</eu:IdentifiedObject.shortName>
+    <cim:IdentifiedObject.description>AC Substation Boundary for Portheim-Espheim, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
+    <cim:Substation.Region rdf:resource="#_f69de45f-9681-4147-9d1f-9e0336fc8635"/>
+  </cim:Substation>
+  <cim:BusbarSection rdf:ID="_00c7faff-a1ed-4b64-bbf8-527d4efefb76">
+    <cim:Equipment.EquipmentContainer rdf:resource="#_0c4f41f8-9797-44eb-bdbe-1a28efa083b9"/>
+    <cim:IdentifiedObject.mRID>00c7faff-a1ed-4b64-bbf8-527d4efefb76</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Busbar Section BP-PH-EH</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Busbar Section for the Boundary Point Portheim-Espheim</cim:IdentifiedObject.description>
+  </cim:BusbarSection>
+  <cim:Terminal rdf:ID="_a414d08b-918b-41ac-a242-82a2915ab810">
+    <cim:ACDCTerminal.sequenceNumber>1</cim:ACDCTerminal.sequenceNumber>
+    <cim:IdentifiedObject.mRID>a414d08b-918b-41ac-a242-82a2915ab810</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Terminal_BP-PH-EH busbar</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Terminal of busbar section BP-PH-EH connecting it to ConnectivityNode</cim:IdentifiedObject.description>
+    <cim:Terminal.ConductingEquipment rdf:resource="#_00c7faff-a1ed-4b64-bbf8-527d4efefb76"/>
+    <cim:Terminal.ConnectivityNode rdf:resource="#_ceafce7b-5485-4cb8-9e06-c85ba137ffa9"/>
+  </cim:Terminal>
+  <cim:VoltageLimit rdf:ID="_1cb91fbf-8b61-c2e4-98e9-b3ae0197ea98">
+    <cim:IdentifiedObject.mRID>1cb91fbf-8b61-c2e4-98e9-b3ae0197ea98</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>high limit for BP Portheim-Espheim</cim:IdentifiedObject.name>
+    <cim:OperationalLimit.OperationalLimitSet rdf:resource="#_15403b4d-9f81-b474-49c1-94c37ff5b597"/>
+    <cim:OperationalLimit.OperationalLimitType rdf:resource="#_3192156f-1201-4607-be08-83213d4317b2"/>
+    <cim:VoltageLimit.normalValue>420</cim:VoltageLimit.normalValue>
+  </cim:VoltageLimit>
+  <cim:OperationalLimitSet rdf:ID="_15403b4d-9f81-b474-49c1-94c37ff5b597">
+    <cim:IdentifiedObject.mRID>15403b4d-9f81-b474-49c1-94c37ff5b597</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Voltage limits for BP Portheim-Espheim</cim:IdentifiedObject.name>
+    <cim:OperationalLimitSet.Terminal rdf:resource="#_a414d08b-918b-41ac-a242-82a2915ab810"/>
+  </cim:OperationalLimitSet>
+  <cim:OperationalLimitType rdf:ID="_3192156f-1201-4607-be08-83213d4317b2">
+    <cim:IdentifiedObject.mRID>3192156f-1201-4607-be08-83213d4317b2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>highVoltage</cim:IdentifiedObject.name>
+    <cim:OperationalLimitType.direction rdf:resource="http://iec.ch/TC57/CIM100#OperationalLimitDirectionKind.high"/>
+    <cim:OperationalLimitType.isInfiniteDuration>true</cim:OperationalLimitType.isInfiniteDuration>
+    <eu:OperationalLimitType.kind rdf:resource="http://iec.ch/TC57/CIM100-European#LimitKind.highVoltage"/>
+  </cim:OperationalLimitType>
 </rdf:RDF>
