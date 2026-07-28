@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:c023d925-14d9-42b4-9e45-bd6654030434">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/SteadyStateInstruction/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
+    <dcterms:description xml:lang="en">This is the Steady State Instruction dataset for Britheim part of ReliCapGrid.</dcterms:description>
+    <dcat:endDate>2022-06-16T00:30:00Z</dcat:endDate>
+    <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
+    <dcterms:identifier>c023d925-14d9-42b4-9e45-bd6654030434</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Britheim-SSI"/>
+    <dcat:keyword>SSI</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
+    <dcterms:requires rdf:resource="urn:uuid:d4c765ef-6a3d-469e-99c2-ed9eec42000c"/>
+    <dcat:startDate>2022-06-15T23:30:00Z</dcat:startDate>
+    <dcterms:title>20220615_Britheim_SSI_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-SSI"/>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Britheim-Power-Transmission-System"/>
+    <dcterms:issued>2022-06-15T23:30:00Z</dcterms:issued>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+    <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
+  </dcat:Dataset>
+  
+
+
+  <nc:ActivePowerControlFunction rdf:about="#_d300753f-b1c5-4a7e-9950-74a336e9230a">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:ActivePowerControlFunction.targetValue>-100.02</nc:ActivePowerControlFunction.targetValue>
+  </nc:ActivePowerControlFunction>
+  <nc:VoltageControlFunction rdf:about="#_a8fd4382-9548-4ffc-84dd-2849f4df35e0">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:ActivePowerControlFunction.targetValue>300</nc:ActivePowerControlFunction.targetValue>
+  </nc:VoltageControlFunction>
+  <nc:ReactivePowerControlFunction rdf:about="#_8da9c17d-e286-441b-80d1-abd039777dda">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:ActivePowerControlFunction.targetValue>-19.8468</nc:ActivePowerControlFunction.targetValue>
+  </nc:ReactivePowerControlFunction>
+  <nc:DCVoltageControlFunction rdf:about="#_73280b37-3ebd-4711-af42-fd6a9e3979c9">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:ActivePowerControlFunction.targetValue>150</nc:ActivePowerControlFunction.targetValue>
+  </nc:DCVoltageControlFunction>
+</rdf:RDF>
