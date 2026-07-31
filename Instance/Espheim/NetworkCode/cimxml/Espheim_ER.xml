@@ -44,4 +44,35 @@
   <cim:ExternalNetworkInjection rdf:about="#_6843c26a-5265-4cc7-b88b-6346257770bd">
     <nc:ExternalNetworkInjection.EquivalentGeneratingUnit rdf:resource="#_0b23d814-7559-4edf-8c55-40af585209e6"/>
   </cim:ExternalNetworkInjection>
+
+  <nc:ActivePowerControlFunction rdf:ID="_8d9df89c-b2c4-425f-8f79-eb1f669cac36">
+    <cim:IdentifiedObject.mRID>8d9df89c-b2c4-425f-8f79-eb1f669cac36</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift active-power control</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Active-power control of PhaseTapChangerLinear Aac (8cad6c61); flow measured at its OWN transformer terminal 147eb269 => LOCAL. Actuator is the discrete phase-tap step.</cim:IdentifiedObject.description>
+    <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+    <nc:ControlFunctionBlock.isDiscrete>true</nc:ControlFunctionBlock.isDiscrete>
+    <nc:ControlFunctionBlock.targetDeadband>500</nc:ControlFunctionBlock.targetDeadband>
+    <nc:FunctionBlock.AutomationFunction rdf:resource="#_34d704f9-fc52-4006-9380-e5055e402409"/>
+  </nc:ActivePowerControlFunction>
+  <nc:PinTerminal rdf:ID="_93f3cf43-21ec-4eba-8cb0-bd09a7c17783">
+    <cim:IdentifiedObject.mRID>93f3cf43-21ec-4eba-8cb0-bd09a7c17783</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac measured P (local)</cim:IdentifiedObject.name>
+    <nc:FunctionInputVariable.Function rdf:resource="#_8d9df89c-b2c4-425f-8f79-eb1f669cac36"/>
+    <nc:PinTerminal.Terminal rdf:resource="#_147eb269-c3af-51ee-4aa2-771733789022"/>
+    <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/>
+  </nc:PinTerminal>
+  <nc:FunctionOutputVariable rdf:ID="_6d4de59a-337e-49bf-b4f9-98db2ea39226">
+    <cim:IdentifiedObject.mRID>6d4de59a-337e-49bf-b4f9-98db2ea39226</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-tap step</cim:IdentifiedObject.name>
+    <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_8d9df89c-b2c4-425f-8f79-eb1f669cac36"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+  </nc:FunctionOutputVariable>
+  <nc:TapChangerController rdf:ID="_34d704f9-fc52-4006-9380-e5055e402409">
+    <cim:IdentifiedObject.mRID>34d704f9-fc52-4006-9380-e5055e402409</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-tap step</cim:IdentifiedObject.name>
+    <nc:AutomationFunction.normalEnabled>true</nc:AutomationFunction.normalEnabled>
+  </nc:TapChangerController>
+  <cim:PhaseTapChangerLinear rdf:about="#_8cad6c61-99cb-9833-f9e8-76ec9c88e74d">
+    <nc:TapChanger.TapChangerController rdf:resource="#_34d704f9-fc52-4006-9380-e5055e402409"/>
+  </cim:PhaseTapChangerLinear>
 </rdf:RDF>

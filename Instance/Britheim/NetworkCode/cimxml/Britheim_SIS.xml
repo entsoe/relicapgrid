@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:9a4cecdb-3b9a-4307-adb6-7b1fca337457">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/StateInstructionSchedule/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
+    <dcterms:description xml:lang="en">This is the State Instruction Schedule dataset for Britheim part of ReliCapGrid.</dcterms:description>
+    <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
+    <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
+    <dcterms:identifier>9a4cecdb-3b9a-4307-adb6-7b1fca337457</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Britheim-SIS"/>
+    <dcat:keyword>SIS</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+      <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>	
+    <dcterms:requires rdf:resource="urn:uuid:d4c765ef-6a3d-469e-99c2-ed9eec42000c"/>
+    <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
+      <dcterms:title>20220615_Britheim_SIS_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-SIS"/>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Britheim-Power-Transmission-System"/>
+    <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+    <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
+  </dcat:Dataset>
+    
+
+  <nc:GenericEnablingSchedule rdf:ID="_e0695fc7-aa9b-4850-a890-34b4d9e47f45">
+    <cim:IdentifiedObject.mRID>e0695fc7-aa9b-4850-a890-34b4d9e47f45</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_d300753f-b1c5-4a7e-9950-74a336e9230a"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_da4b788a-4284-4208-87a2-263e048c8885">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_e0695fc7-aa9b-4850-a890-34b4d9e47f45"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_5109edbe-c998-46f0-80cc-72d4d513c12c">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_e0695fc7-aa9b-4850-a890-34b4d9e47f45"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+
+  <nc:GenericEnablingSchedule rdf:ID="_445709fe-ee57-4f19-ad2c-bd68d30d4735">
+    <cim:IdentifiedObject.mRID>445709fe-ee57-4f19-ad2c-bd68d30d4735</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_a8fd4382-9548-4ffc-84dd-2849f4df35e0"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_2b0e6689-0185-44e6-9ed7-0391eb0da976">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_445709fe-ee57-4f19-ad2c-bd68d30d4735"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_4038aea7-75db-4d3c-bf69-4f494826c12b">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_445709fe-ee57-4f19-ad2c-bd68d30d4735"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+
+  <nc:GenericEnablingSchedule rdf:ID="_8cc13ca5-3522-462f-8b1c-c9331551aac4">
+    <cim:IdentifiedObject.mRID>8cc13ca5-3522-462f-8b1c-c9331551aac4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_ef9eee8a-2a09-466c-9afe-a8ec690be1b1">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_8cc13ca5-3522-462f-8b1c-c9331551aac4"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_a211d414-eba8-4acb-8b67-8874ebed91cd">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_8cc13ca5-3522-462f-8b1c-c9331551aac4"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+
+  <nc:GenericEnablingSchedule rdf:ID="_2dfab46f-2b4f-456e-8563-fe2e58d49540">
+    <cim:IdentifiedObject.mRID>2dfab46f-2b4f-456e-8563-fe2e58d49540</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_73280b37-3ebd-4711-af42-fd6a9e3979c9"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_99f069cc-2727-40e5-8255-accefe959b45">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_2dfab46f-2b4f-456e-8563-fe2e58d49540"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_a5b5123f-d0e5-4488-87ff-4d954e3b8ca9">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_2dfab46f-2b4f-456e-8563-fe2e58d49540"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+</rdf:RDF>

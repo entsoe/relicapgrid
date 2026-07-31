@@ -39,5 +39,13 @@
   <nc:TopologyAction rdf:about="#_55961174-efb4-44be-8832-b0fb107de235">
     <nc:GridStateAlteration.enabled>false</nc:GridStateAlteration.enabled>
   </nc:TopologyAction>
- 
+  <nc:VoltageControlFunction rdf:about="#_96abc1bd-df1e-46d5-a41e-6795cd7900fc">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:VoltageControlFunction.targetValue>18.7</nc:VoltageControlFunction.targetValue>
+  </nc:VoltageControlFunction>
+
+  <nc:VoltageControlFunction rdf:about="#_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:VoltageControlFunction.targetValue>11</nc:VoltageControlFunction.targetValue>
+  </nc:VoltageControlFunction>
 </rdf:RDF>

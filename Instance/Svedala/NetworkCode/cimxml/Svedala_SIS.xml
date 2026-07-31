@@ -50,5 +50,38 @@
     <nc:GridStateAlterationTimePoint.atTime>2023-06-15T21:30:00Z</nc:GridStateAlterationTimePoint.atTime>
     <nc:GridStateAlterationTimePoint.enabled>false</nc:GridStateAlterationTimePoint.enabled>
   </nc:GridStateAlterationTimePoint>
- 
+
+  <nc:GenericEnablingSchedule rdf:ID="_b65e978c-d6ee-4ecd-a911-dd6b657b9265">
+    <cim:IdentifiedObject.mRID>b65e978c-d6ee-4ecd-a911-dd6b657b9265</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>NORRSELE_G2 V-control enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_96abc1bd-df1e-46d5-a41e-6795cd7900fc"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_d9f41c88-dd31-4c99-aefa-7da90aa0ed21">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_b65e978c-d6ee-4ecd-a911-dd6b657b9265"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_459781ae-5181-4b3c-a733-7de6a16563b7">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_b65e978c-d6ee-4ecd-a911-dd6b657b9265"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+
+  <nc:GenericEnablingSchedule rdf:ID="_8ca65736-5629-4746-a629-1371153d2767">
+    <cim:IdentifiedObject.mRID>8ca65736-5629-4746-a629-1371153d2767</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>XT201-T1 tap enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_b6183924-1402-4d7e-94b4-675bc679e183">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_8ca65736-5629-4746-a629-1371153d2767"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_2a7b898f-dac7-4178-b511-8bf9f4b43dc4">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_8ca65736-5629-4746-a629-1371153d2767"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>false</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
 </rdf:RDF>
