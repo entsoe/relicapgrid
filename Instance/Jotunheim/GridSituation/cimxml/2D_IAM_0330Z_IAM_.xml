@@ -5,7 +5,6 @@
     xmlns:nc="https://cim4.eu/ns/nc#"
     xmlns:cim="https://cim.ucaiug.io/ns#"
     xmlns:prov="http://www.w3.org/ns/prov#"
-    xmlns:eumd="https://cim4.eu/ns/Metadata-European#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
   <dcat:Dataset rdf:about="urn:uuid:a9c27d9c-42bb-46bd-8c69-99a246f3389a">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
