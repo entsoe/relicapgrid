@@ -101,15 +101,15 @@
     <nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
     <nc:FunctionBlock.AutomationFunction rdf:resource="#_bff12795-0fae-415f-8222-645b0f6f4937"/>
   </nc:ReactivePowerControlFunction>
-  <nc:PinTerminal rdf:ID="_74c6896e-499c-4216-8ccc-9f8fc076ea74">
-    <cim:IdentifiedObject.mRID>74c6896e-499c-4216-8ccc-9f8fc076ea74</cim:IdentifiedObject.mRID>
+  <nc:PinTerminal rdf:ID="_76bf23e5-f16a-4870-8910-4a62e767b83a">
+    <cim:IdentifiedObject.mRID>76bf23e5-f16a-4870-8910-4a62e767b83a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter measured Q at PCC (remote)</cim:IdentifiedObject.name>
     <nc:FunctionInputVariable.Function rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
     <nc:PinTerminal.Terminal rdf:resource="#_8f821de9-50a4-cdf6-7171-e5c21f20836f"/>
     <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.reactivePower"/>
   </nc:PinTerminal>
-  <nc:FunctionOutputVariable rdf:ID="_49ad1c29-0df7-41d0-ad1a-e718a3f643c7">
-    <cim:IdentifiedObject.mRID>49ad1c29-0df7-41d0-ad1a-e718a3f643c7</cim:IdentifiedObject.mRID>
+  <nc:FunctionOutputVariable rdf:ID="_754ccef5-6dcf-4462-957a-4b534707b03a">
+    <cim:IdentifiedObject.mRID>754ccef5-6dcf-4462-957a-4b534707b03a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter reactive-power output</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
     <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.q"/>
