@@ -262,7 +262,7 @@
     <cim:IdentifiedObject.name>DCBranch1</cim:IdentifiedObject.name>
   </cim:DCLine>
   <cim:DCLineSegment rdf:ID="_cff312c8-7b7d-4058-bf79-2e100407d86c">
-    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>300</cim:DCConductingEquipment.ratedUdc>
     <cim:DCLineSegment.capacitance>0</cim:DCLineSegment.capacitance>
     <cim:DCLineSegment.inductance>0.05</cim:DCLineSegment.inductance>
     <cim:DCLineSegment.length>200</cim:DCLineSegment.length>
@@ -272,7 +272,7 @@
     <cim:IdentifiedObject.name>DCLine1</cim:IdentifiedObject.name>
   </cim:DCLineSegment>
   <cim:DCLineSegment rdf:ID="_fd89eb49-e2bf-4acb-8580-49da92a99c21">
-    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>300</cim:DCConductingEquipment.ratedUdc>
     <cim:DCLineSegment.capacitance>0</cim:DCLineSegment.capacitance>
     <cim:DCLineSegment.inductance>0.05</cim:DCLineSegment.inductance>
     <cim:DCLineSegment.length>200</cim:DCLineSegment.length>
