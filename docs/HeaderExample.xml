@@ -26,7 +26,7 @@
 		<dcterms:identifier>6b7387f2-c7f9-11ed-afa1-0242ac120002</dcterms:identifier>
 		<dcterms:issued>2024-04-10T10:00:00Z</dcterms:issued>
 		<dcat:inSeries rdf:resource="urn:uuid:3242e483-9884-438f-85bb-29aac6b00e52"/>
-		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/Statnett-RA"/>
+		<dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Model/TSO-Statnett_SR-RA"/>
 		<dcat:keyword>RA</dcat:keyword>
 		<dcat:keyword>RemedialAction</dcat:keyword>
 		<dcat:temporalResolution>PT15M</dcat:temporalResolution>
@@ -38,19 +38,17 @@
 		<dcat:previousVersion rdf:resource="urn:uuid:536f9bf1-3f8f-a546-87e3-7af2272f29b7"/>
 		<dcat:nextVersion rdf:resource="urn:uuid:3e9cfdd3-3e69-4be9-a12d-f0b89aae72e1"/>
 		<dcterms:publisher rdf:resource="https://energy.referencedata.eu/EIC/10X1001A1001A38Y"/>
-		<!-- We have replaced the use of dcterms:references with dcterms:requires - to make it clear for the validation engine that the instance that is required. 
-		dcterms:references can still be used. -->
-		<dcterms:references rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
-		<dcterms:references rdf:resource="urn:uuid:a532e6ae-75d5-4216-9404-aab9e5e37242"/>
+		<!-- We have replaced the use of dcterms:references with dcterms:requires - to make it clear for the validation engine that the instance that is required. -->
 		<dcterms:requires rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
 		<dcterms:requires rdf:resource="urn:uuid:778913bf-6ee2-4554-8542-0002e954918c"/>
 		<dcterms:replaces rdf:resource="urn:uuid:0ef20711-9a91-47ce-9e51-7dc503e960dc"/>
 		<dcterms:replaces rdf:resource="urn:uuid:5abf0a0c-c043-4644-bf5f-830b4a0baffb"/>
 		<dcterms:rights>Copyright</dcterms:rights>
 		<dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
-		<dcterms:spatial rdf:resource="https://energy.referencedata.eu/Frame/NO-Power-Transmission-System"/>
+		<dcterms:spatial rdf:resource="https://energy.referencedata.eu/Frame/NO-Transmission"/>
 		<dcat:startDate>2024-04-10T05:00:00Z</dcat:startDate>
-		<dcterms:title>20240410_NO_CGM-RA</dcterms:title>
+		<!-- Note that there shouldn't be the version suffix in the title when it's the default 1.0.0, otherwise include it at the end -->
+		<dcterms:title>202404101000_TSO-NO_SR-RA</dcterms:title>
 		<!-- Follow the example of DCAT to refere to a contolled vocabulary -->
 		<dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
 		<dcat:version>1.0.0</dcat:version>
