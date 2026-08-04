@@ -94,7 +94,7 @@
     <nc:GridStateAlterationRemedialAction.isActivationRestricted>false</nc:GridStateAlterationRemedialAction.isActivationRestricted>
   </nc:GridStateAlterationRemedialAction>
   <nc:GridStateAlterationRemedialAction rdf:ID="_70b696ac-c38f-4528-8d65-ba707c0b72e1">
-    <cim:IdentifiedObject.mRID>37997e71-cb7d-4a8c-baa6-2a1594956da9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.mRID>70b696ac-c38f-4528-8d65-ba707c0b72e1</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TapRA2</cim:IdentifiedObject.name>
     <cim:IdentifiedObject.description>Curative RA: TapPositionAction on normal trafo (MV Tap to 33) TapChangerID : _fe25f43a-7341-446e-a71a-8ab7119ba806</cim:IdentifiedObject.description>
     <nc:RemedialAction.normalAvailable>true</nc:RemedialAction.normalAvailable>
