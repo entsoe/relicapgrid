@@ -31661,7 +31661,7 @@
     <cim:RotatingMachine.ratedPowerFactor>0.8</cim:RotatingMachine.ratedPowerFactor>
     <cim:RotatingMachine.ratedS>50</cim:RotatingMachine.ratedS>
     <cim:RotatingMachine.ratedU>132</cim:RotatingMachine.ratedU>
-    <cim:SynchronousMachine.maxQ>45</cim:SynchronousMachine.maxQ>
+    <cim:SynchronousMachine.maxQ>46</cim:SynchronousMachine.maxQ>
     <cim:SynchronousMachine.minQ>-15</cim:SynchronousMachine.minQ>
     <cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
     <cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/CIM100#SynchronousMachineKind.generatorOrCondenser"/>
@@ -31742,7 +31742,7 @@
     <cim:RotatingMachine.ratedS>300</cim:RotatingMachine.ratedS>
     <cim:RotatingMachine.ratedU>132</cim:RotatingMachine.ratedU>
     <cim:SynchronousMachine.maxQ>255</cim:SynchronousMachine.maxQ>
-    <cim:SynchronousMachine.minQ>-90</cim:SynchronousMachine.minQ>
+    <cim:SynchronousMachine.minQ>-91</cim:SynchronousMachine.minQ>
     <cim:SynchronousMachine.qPercent>100</cim:SynchronousMachine.qPercent>
     <cim:SynchronousMachine.type rdf:resource="http://iec.ch/TC57/CIM100#SynchronousMachineKind.generator"/>
   </cim:SynchronousMachine>

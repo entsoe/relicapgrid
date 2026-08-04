@@ -664,7 +664,7 @@
   <cim:GeneratingUnit rdf:ID="_2a2d438f-41b3-a9ea-f897-20ae9f28fbec">
     <cim:Equipment.EquipmentContainer rdf:resource="#_c49942d6-8b01-4b01-b5e8-f1180f84906c"/>
     <cim:GeneratingUnit.maxOperatingP>1000</cim:GeneratingUnit.maxOperatingP>
-    <cim:GeneratingUnit.minOperatingP>300</cim:GeneratingUnit.minOperatingP>
+    <cim:GeneratingUnit.minOperatingP>200</cim:GeneratingUnit.minOperatingP>
     <cim:IdentifiedObject.description>Machine</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>2a2d438f-41b3-a9ea-f897-20ae9f28fbec</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Gen-12923</cim:IdentifiedObject.name>
