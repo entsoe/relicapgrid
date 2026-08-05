@@ -145,6 +145,12 @@
     <cim:IdentifiedObject.description>AC Substation Boundary for Portheim-Espheim, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
     <cim:Substation.Region rdf:resource="#_f69de45f-9681-4147-9d1f-9e0336fc8635"/>
   </cim:Substation>
+  <cim:SubGeographicalRegion rdf:ID="_f69de45f-9681-4147-9d1f-9e0336fc8635">
+    <cim:IdentifiedObject.mRID>f69de45f-9681-4147-9d1f-9e0336fc8635</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Portheim-TSO</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Portheim-TSO subgeographical region for the Portheim-Espheim Boundary Substation, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
+    <cim:SubGeographicalRegion.Region rdf:resource="#_24823ed9-4605-4e20-bb9e-48dcf487d544"/>
+  </cim:SubGeographicalRegion>
   <cim:BusbarSection rdf:ID="_00c7faff-a1ed-4b64-bbf8-527d4efefb76">
     <cim:Equipment.EquipmentContainer rdf:resource="#_0c4f41f8-9797-44eb-bdbe-1a28efa083b9"/>
     <cim:IdentifiedObject.mRID>00c7faff-a1ed-4b64-bbf8-527d4efefb76</cim:IdentifiedObject.mRID>

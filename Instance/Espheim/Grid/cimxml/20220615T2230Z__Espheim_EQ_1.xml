@@ -56063,6 +56063,12 @@
     <cim:IdentifiedObject.description>AC Substation Boundary for Portheim-Espheim, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
     <cim:Substation.Region rdf:resource="#_f69de45f-9681-4147-9d1f-9e0336fc8635" />
   </cim:Substation>
+  <cim:SubGeographicalRegion rdf:ID="_f69de45f-9681-4147-9d1f-9e0336fc8635">
+    <cim:IdentifiedObject.mRID>f69de45f-9681-4147-9d1f-9e0336fc8635</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Portheim-TSO</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Portheim-TSO subgeographical region for the Portheim-Espheim Boundary Substation, this instance appears in two EQ files and in the Boundary.</cim:IdentifiedObject.description>
+    <cim:SubGeographicalRegion.Region rdf:resource="#_24823ed9-4605-4e20-bb9e-48dcf487d544" />
+  </cim:SubGeographicalRegion>
   <cim:LoadResponseCharacteristic rdf:ID="_6994435b-9f22-ab76-134a-c07ab832dc73">
     <cim:IdentifiedObject.mRID>6994435b-9f22-ab76-134a-c07ab832dc73</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Lod-1</cim:IdentifiedObject.name>
