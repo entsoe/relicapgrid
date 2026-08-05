@@ -65,7 +65,7 @@
     <cim:IdentifiedObject.mRID>6d4de59a-337e-49bf-b4f9-98db2ea39226</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Aac phase-tap step</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_8d9df89c-b2c4-425f-8f79-eb1f669cac36"/>
-    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#TapChanger.step"/>
   </nc:FunctionOutputVariable>
   <nc:TapChangerController rdf:ID="_34d704f9-fc52-4006-9380-e5055e402409">
     <cim:IdentifiedObject.mRID>34d704f9-fc52-4006-9380-e5055e402409</cim:IdentifiedObject.mRID>

@@ -48,8 +48,16 @@ if not dangling.empty:
     # Add file data
     dangling = dangling.merge(filename_mapping, left_on='INSTANCE_ID_FROM', right_on='INSTANCE_ID', how='left').drop(columns=['INSTANCE_ID'])
 
-    # Filter out valid missing references
-    dangling = dangling[dangling['KEY_FROM'] != 'Model.Supersedes']
+    # Filter out valid missing references. PropertyReference associations target
+    # external CIM/nc ontology properties (issue #358), which resolve outside the
+    # instance data and are not dangling references.
+    to_ignore = [
+        'Model.Supersedes',
+        'GridStateAlteration.PropertyReference',
+        'StaticPropertyRange.PropertyReference',
+        'FunctionOutputVariable.PropertyReference',
+    ]
+    dangling = dangling[~dangling['KEY_FROM'].isin(to_ignore)]
 
     # Details
     dangling[['ID_FROM', 'KEY_FROM', 'VALUE_FROM', 'Filename']].to_csv(REPORT_DIR / "dangling_references_detailed.csv", index=False)

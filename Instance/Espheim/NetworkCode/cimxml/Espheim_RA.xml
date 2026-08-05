@@ -142,7 +142,7 @@
   </nc:GridStateAlterationRemedialAction>
   <nc:RegulatingControlAction rdf:ID="_12b9a70c-9e72-4ec5-af01-d32d440c2aa3">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_c9c76af9-c11e-49ad-854c-760292b59a6e"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/RegulatingControl.targetValue"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#RegulatingControl.targetValue"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Preventive RA: RegulatingControlAction on a PST, tap=2</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>12b9a70c-9e72-4ec5-af01-d32d440c2aa3</cim:IdentifiedObject.mRID>
@@ -151,7 +151,7 @@
   </nc:RegulatingControlAction>
   <nc:TapPositionAction rdf:ID="_dbad8bad-94a9-428a-a8d6-ef6f48490e6d">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_2e4f4212-7b30-4316-9fce-ca618f2a8a05"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#TapChanger.step"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Curative RA: TapPositionAction (Tap position = 1)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>dbad8bad-94a9-428a-a8d6-ef6f48490e6d</cim:IdentifiedObject.mRID>
@@ -160,7 +160,7 @@
   </nc:TapPositionAction>
   <nc:TapPositionAction rdf:ID="_9a7f821b-8eb8-4c0a-a67e-25e4d5aeaa8d">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_5898c268-9b32-4ab5-9cfc-64546135a337"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#TapChanger.step"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>This is an example of tap position action</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>9a7f821b-8eb8-4c0a-a67e-25e4d5aeaa8d</cim:IdentifiedObject.mRID>
@@ -169,7 +169,7 @@
   </nc:TapPositionAction>
   <nc:TopologyAction rdf:ID="_b66ddbf5-1314-444e-91bc-26c09bc9c656">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_c8bf6b19-1c3b-4ce6-a15c-99995a3c88ce"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/Switch.open"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Curative RA: TopologyAction (generator trip)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>b66ddbf5-1314-444e-91bc-26c09bc9c656</cim:IdentifiedObject.mRID>
@@ -178,7 +178,7 @@
   </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_4d3757fd-b40a-4d7b-be47-6553935234ff">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_d856a2a2-3de4-4a7b-aea4-d363c13d9014"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/Switch.open"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Curative RA: TopologyAction (generator trip)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4d3757fd-b40a-4d7b-be47-6553935234ff</cim:IdentifiedObject.mRID>
@@ -187,7 +187,7 @@
   </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_dc8f7d4a-9b37-4143-ab12-cc4e554460ce">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_fb487cc2-0f7b-4958-8f66-1d3fabf7840d"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/Switch.open"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Curative RA: TopologyAction (transformer trip)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>dc8f7d4a-9b37-4143-ab12-cc4e554460ce</cim:IdentifiedObject.mRID>
@@ -196,7 +196,7 @@
   </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_99e03961-06a8-485e-8c6e-fd833835c00a">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_1fd630a9-b9d8-414b-ac84-b47a093af936"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/Switch.open"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.description>Curative RA: TopologyAction (wind generator trip)</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>99e03961-06a8-485e-8c6e-fd833835c00a</cim:IdentifiedObject.mRID>

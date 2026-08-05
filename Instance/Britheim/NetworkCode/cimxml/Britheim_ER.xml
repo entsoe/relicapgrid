@@ -60,7 +60,7 @@
     <cim:IdentifiedObject.mRID>49ad1c29-0df7-41d0-ad1a-e718a3f643c7</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter active-power output</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_d300753f-b1c5-4a7e-9950-74a336e9230a"/>
-    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.p"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.p"/>
   </nc:FunctionOutputVariable>
 
   <nc:VoltageControlFunction rdf:ID="_a8fd4382-9548-4ffc-84dd-2849f4df35e0">
@@ -81,7 +81,7 @@
     <cim:IdentifiedObject.mRID>438eacaf-a62b-43cc-9339-e2d00d20d0a7</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter reactive-power output</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_a8fd4382-9548-4ffc-84dd-2849f4df35e0"/>
-    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.q"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.q"/>
   </nc:FunctionOutputVariable>
 
 
@@ -112,7 +112,7 @@
     <cim:IdentifiedObject.mRID>754ccef5-6dcf-4462-957a-4b534707b03a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter reactive-power output</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
-    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.q"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.q"/>
   </nc:FunctionOutputVariable>
 
   <nc:DCVoltageControlFunction rdf:ID="_73280b37-3ebd-4711-af42-fd6a9e3979c9">
@@ -133,6 +133,6 @@
     <cim:IdentifiedObject.mRID>a12ecb98-4178-462f-8cc5-6121084a314f</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Converter DC voltage output</cim:IdentifiedObject.name>
     <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_73280b37-3ebd-4711-af42-fd6a9e3979c9"/>
-    <nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.udc"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.udc"/>
   </nc:FunctionOutputVariable>
 </rdf:RDF>

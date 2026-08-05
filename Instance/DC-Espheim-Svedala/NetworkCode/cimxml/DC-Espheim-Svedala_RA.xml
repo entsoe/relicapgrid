@@ -196,7 +196,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.up" />
     <nc:RangeConstraint.normalValue>250</nc:RangeConstraint.normalValue>
     <nc:RangeConstraint.valueKind rdf:resource="https://cim4.eu/ns/nc#ValueOffsetKind.absolute" />
-    <nc:StaticPropertyRange.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:StaticPropertyRange.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
   </nc:StaticPropertyRange>
   <nc:StaticPropertyRange rdf:ID="_f70729cc-9ae8-4e24-b7ed-5ef3c316f362">
     <cim:IdentifiedObject.mRID>f70729cc-9ae8-4e24-b7ed-5ef3c316f362</cim:IdentifiedObject.mRID>
@@ -204,12 +204,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down" />
     <nc:RangeConstraint.normalValue>-250</nc:RangeConstraint.normalValue>
     <nc:RangeConstraint.valueKind rdf:resource="https://cim4.eu/ns/nc#ValueOffsetKind.absolute" />
-    <nc:StaticPropertyRange.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:StaticPropertyRange.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
   </nc:StaticPropertyRange>
   <nc:ACDCConverterAction rdf:ID="_3fa0a033-610d-4c0c-ba12-36a6482f5b08">
       <nc:ACDCConverterAction.ACDCConverter rdf:resource="#_038ce404-30dc-4289-b9db-7076cb870b8e" />
       <nc:GridStateAlteration.GridStateAlterationCollection rdf:resource="#_4eb0a454-4796-4598-a0af-788cb478d415" />
-      <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+      <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
       <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
       <cim:IdentifiedObject.mRID>3fa0a033-610d-4c0c-ba12-36a6482f5b08</cim:IdentifiedObject.mRID>
       <cim:IdentifiedObject.name>RegHvdcAbsolute_038ce404-30dc-4289-b9db-7076cb870b8e-</cim:IdentifiedObject.name>
@@ -217,7 +217,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <nc:ACDCConverterAction rdf:ID="_26bed5db-d6bd-44e5-ab95-082453bd0cfa">
     <nc:ACDCConverterAction.ACDCConverter rdf:resource="#_038ce404-30dc-4289-b9db-7076cb870b8e" />
     <nc:GridStateAlteration.GridStateAlterationCollection rdf:resource="#_df90ad87-bf20-45e5-a75d-a5df84384e0e" />
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.mRID>26bed5db-d6bd-44e5-ab95-082453bd0cfa</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RegHvdcAbsolute_038ce404-30dc-4289-b9db-7076cb870b8e-</cim:IdentifiedObject.name>
@@ -228,7 +228,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.up" />
     <nc:RangeConstraint.normalValue>250</nc:RangeConstraint.normalValue>
     <nc:RangeConstraint.valueKind rdf:resource="https://cim4.eu/ns/nc#ValueOffsetKind.absolute" />
-    <nc:StaticPropertyRange.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:StaticPropertyRange.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
   </nc:StaticPropertyRange>
   <nc:StaticPropertyRange rdf:ID="_fffdf252-9de2-414f-a991-1cd0d2307796">
     <cim:IdentifiedObject.mRID>fffdf252-9de2-414f-a991-1cd0d2307796</cim:IdentifiedObject.mRID>
@@ -236,12 +236,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <nc:RangeConstraint.direction rdf:resource="https://cim4.eu/ns/nc#RelativeDirectionKind.down" />
     <nc:RangeConstraint.normalValue>-250</nc:RangeConstraint.normalValue>
     <nc:RangeConstraint.valueKind rdf:resource="https://cim4.eu/ns/nc#ValueOffsetKind.absolute" />
-    <nc:StaticPropertyRange.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:StaticPropertyRange.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
   </nc:StaticPropertyRange>
   <nc:ACDCConverterAction rdf:ID="_55d1fcd7-fd50-49b4-a960-05c6a585138a">
     <nc:ACDCConverterAction.ACDCConverter rdf:resource="#_e468e6ca-8776-4c22-8f9b-390df610c2fd" />
     <nc:GridStateAlteration.GridStateAlterationCollection rdf:resource="#_df90ad87-bf20-45e5-a75d-a5df84384e0e" />
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.mRID>55d1fcd7-fd50-49b4-a960-05c6a585138a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RegHvdcAbsolute_e468e6ca-8776-4c22-8f9b-390df610c2fd-</cim:IdentifiedObject.name>
@@ -249,7 +249,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <nc:ACDCConverterAction rdf:ID="_4285c664-8cb0-4013-826f-347c64ed554b">
     <nc:ACDCConverterAction.ACDCConverter rdf:resource="#_e468e6ca-8776-4c22-8f9b-390df610c2fd" />
     <nc:GridStateAlteration.GridStateAlterationCollection rdf:resource="#_df90ad87-bf20-45e5-a75d-a5df84384e0e" />
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/ACDCConverter.targetPpcc" />
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetPpcc" />
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <cim:IdentifiedObject.mRID>4285c664-8cb0-4013-826f-347c64ed554b</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>RegHvdcAbsolute_e468e6ca-8776-4c22-8f9b-390df610c2fd-</cim:IdentifiedObject.name>
