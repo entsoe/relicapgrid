@@ -23,12 +23,12 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Jotunheim_TP_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:2cd58fb8-78d3-42f9-a0c3-197fbdb375fb>;
+        dcat:distribution     <urn:uuid:5185e576-2d9e-4e47-bbe7-b409970f5378>;
         dcat:keyword          "TP";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:10a6c8e7-89aa-4a11-af59-3035eb53bcf6>
+<urn:uuid:3ebbad88-8391-482a-b862-ba5eccfe0ecc>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
         dcterms:description    "The state variables dataset for ReliCapGrid, updated by Jotunheim.";
@@ -38,27 +38,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         prov:generatedAtTime   "2025-02-08T21:20:31Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
-<urn:uuid:7aeb7915-d4c6-4b43-80e9-386556516d9b>
-        rdf:type              dcat:Dataset;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description   "The steady-state hypothesis dataset for Portheim, updated by Jotunheim.";
-        dcterms:identifier    "aeb7915-d4c6-4b43-80e9-386556516d9b";
-        dcterms:issued        "2026-04-29T00:00:00Z"^^xsd:dateTime;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://portheim.ph/CGMES>;
-        dcterms:requires      <urn:uuid:6c5d6483-ac4b-43df-8f42-67989468382f>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "20241223T0642Z_2D_Portheim_SSH_2";
-        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:8f2cc25a-5422-4cd6-9c6e-8f972118db44>;
-        dcat:keyword          "SSH";
-        dcat:startDate        "2024-12-23T06:42:14Z"^^xsd:dateTime;
-        dcat:version          "2" .
-
-<urn:uuid:2cd58fb8-78d3-42f9-a0c3-197fbdb375fb>
+<urn:uuid:5185e576-2d9e-4e47-bbe7-b409970f5378>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description    "The topology dataset for ReliCapGrid, updated by Jotunheim.";
@@ -68,22 +48,22 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         prov:generatedAtTime   "2025-02-08T21:20:31Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
-<urn:uuid:f9cd9b7b-a295-4232-be69-c8a15e88672b>
+<urn:uuid:f29f089a-02c5-4a26-87e5-8e35860fae0e>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
         dcterms:description   ""@en;
-        dcterms:identifier    "f9cd9b7b-a295-4232-be69-c8a15e88672b";
-        dcterms:issued        "2026-04-29T00:00:00Z"^^xsd:dateTime , "2025-02-08T21:20:31Z"^^xsd:dateTime;
+        dcterms:identifier    "f29f089a-02c5-4a26-87e5-8e35860fae0e";
+        dcterms:issued        "2025-02-08T21:20:31Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://portheim.ph/CGMES> , <http://jotunheim.jh/CGMES>;
+        dcterms:publisher     <http://jotunheim.jh/CGMES>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Manifest";
         adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:24346635-b1c1-4a05-8779-a16d6a8c305b> , <urn:uuid:caa8f19b-7502-4046-befd-815242483fee> , <urn:uuid:7aeb7915-d4c6-4b43-80e9-386556516d9b>;
-        dcat:version          "1" , "2" .
+        dcat:dataset          <urn:uuid:caa8f19b-7502-4046-befd-815242483fee> , <urn:uuid:24346635-b1c1-4a05-8779-a16d6a8c305b>;
+        dcat:version          "1" .
 
 <urn:uuid:24346635-b1c1-4a05-8779-a16d6a8c305b>
         rdf:type              dcat:Dataset;
@@ -100,17 +80,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_Jotunheim_SV_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:10a6c8e7-89aa-4a11-af59-3035eb53bcf6>;
+        dcat:distribution     <urn:uuid:3ebbad88-8391-482a-b862-ba5eccfe0ecc>;
         dcat:keyword          "SV";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
-
-<urn:uuid:8f2cc25a-5422-4cd6-9c6e-8f972118db44>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description    "The steady-state hypothesis dataset for Portheim, updated by Jotunheim.";
-        dcat:accessURL         <file:Instance/Jotunheim/Grid/cimxml/20241223T0642Z_2D_Portheim_SSH_2.xml>;
-        dcat:isDistributionOf  <urn:uuid:7aeb7915-d4c6-4b43-80e9-386556516d9b>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-04-29T00:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
