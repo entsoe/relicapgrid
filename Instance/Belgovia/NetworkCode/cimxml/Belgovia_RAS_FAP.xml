@@ -51,13 +51,6 @@
     <nc:EventTimePoint.atTime>2024-11-20T02:30:00Z</nc:EventTimePoint.atTime>
     <nc:EventTimePoint.isActive>false</nc:EventTimePoint.isActive>
   </nc:EventTimePoint>
-  
-  <nc:RemedialActionScheduleResponse rdf:ID="_c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee">
-    <nc:RemedialActionScheduleResponse.mRID>c11ac0dd-2e7d-4320-9abb-b98bfc88f4ee</nc:RemedialActionScheduleResponse.mRID>
-    <nc:RemedialActionScheduleResponse.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleResponseKind.accepted"/>
-    <nc:RemedialActionScheduleResponse.RemedialActionSchedule rdf:resource="#_17527637-6099-4ee6-8b21-fea8dfec4c75"/>	
-    <nc:RemedialActionScheduleResponse.RespondingEntity rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>	
-  </nc:RemedialActionScheduleResponse>
 
   <nc:RemedialActionScheduleDependency rdf:ID="_51592d48-9943-4e13-9ce3-51b79db43109">
     <nc:RemedialActionScheduleDependency.mRID>51592d48-9943-4e13-9ce3-51b79db43109</nc:RemedialActionScheduleDependency.mRID>

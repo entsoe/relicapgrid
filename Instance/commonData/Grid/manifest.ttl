@@ -8,12 +8,12 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:d988ee53-7487-4ac5-a1da-778d303fb08d>
+<urn:uuid:affd4ff4-d83f-40c2-974a-b52b17526ab8>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   ""@en;
-        dcterms:identifier    "d988ee53-7487-4ac5-a1da-778d303fb08d";
+        dcterms:identifier    "affd4ff4-d83f-40c2-974a-b52b17526ab8";
         dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://ninerealms.nr/CommonData>;
@@ -25,7 +25,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcat:dataset          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
         dcat:version          "1" .
 
-<urn:uuid:2947001d-3e58-410c-956e-dedbb9b199f3>
+<urn:uuid:310d2d8d-af25-476e-9e08-d9a32e0ddcde>
         rdf:type               dcat:Distribution;
         dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description    "BD test data.";
@@ -49,7 +49,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Grid_CommonData_CGM-CD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:2947001d-3e58-410c-956e-dedbb9b199f3>;
+        dcat:distribution     <urn:uuid:310d2d8d-af25-476e-9e08-d9a32e0ddcde>;
         dcat:keyword          "EQ";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .

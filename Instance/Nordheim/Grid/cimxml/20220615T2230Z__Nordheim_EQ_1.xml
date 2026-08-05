@@ -86,6 +86,7 @@
   <cim:SubGeographicalRegion rdf:ID="_77467625-a8fe-8792-7cf2-06c5dfd5fba9">
     <cim:IdentifiedObject.mRID>77467625-a8fe-8792-7cf2-06c5dfd5fba9</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Nordheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Nordheim subgeographical region for the Galia-Nordheim Boundary Substation (HVDV Station), this instance appears in the EQ file and in the Boundary.</cim:IdentifiedObject.description>
     <cim:SubGeographicalRegion.Region rdf:resource="#_9356077b-f716-0d6c-0cac-32c074bd8fa3"/>
   </cim:SubGeographicalRegion>
   <cim:SubLoadArea rdf:ID="_1fe61449-3e7e-86b7-75f6-bffdf57ccea3">
