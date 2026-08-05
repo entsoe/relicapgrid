@@ -38,7 +38,9 @@
 		<dcat:previousVersion rdf:resource="urn:uuid:536f9bf1-3f8f-a546-87e3-7af2272f29b7"/>
 		<dcat:nextVersion rdf:resource="urn:uuid:3e9cfdd3-3e69-4be9-a12d-f0b89aae72e1"/>
 		<dcterms:publisher rdf:resource="https://energy.referencedata.eu/EIC/10X1001A1001A38Y"/>
-		<!-- We have replaced the use of dcterms:references with dcterms:requires - to make it clear for the validation engine that the instance that is required. -->
+		<!-- dcterms:references is used when the refered dataset is needed for avoiding any danglign references where as dcterms:requires is providing necessary dataset references that are required for the dataset validation, e.g. SSH must include the EQ to fully validate the dataset.  -->
+		<dcterms:references rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
+		<dcterms:references rdf:resource="urn:uuid:a532e6ae-75d5-4216-9404-aab9e5e37242"/>
 		<dcterms:requires rdf:resource="urn:uuid:99ae9f41-0a91-4d21-a483-7398c160da96"/>
 		<dcterms:requires rdf:resource="urn:uuid:778913bf-6ee2-4554-8542-0002e954918c"/>
 		<dcterms:replaces rdf:resource="urn:uuid:0ef20711-9a91-47ce-9e51-7dc503e960dc"/>
