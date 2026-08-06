@@ -53,7 +53,7 @@
   </nc:GridStateAlterationRemedialAction>
   <nc:LoadAction rdf:ID="_7bbb3343-e48b-42dd-9ca5-6ff8945ca5b0">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_f4d57bc2-1cef-46ab-ae13-3ad864813d9c"/>
-    <nc:GridStateAlteration.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/EnergyConsumer.p"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#EnergyConsumer.p"/>
     <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
     <nc:GridStateAlteration.timePerStage>PT1S</nc:GridStateAlteration.timePerStage>
     <cim:IdentifiedObject.description>Curative RA: LoadAction (30 percent load shed)</cim:IdentifiedObject.description>

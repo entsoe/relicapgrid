@@ -94,7 +94,7 @@
 		<cim:IdentifiedObject.mRID>eae4806a-9cc6-41a1-a22c-e2df5c3b18a3</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>NORRSELE_G2 Q output</cim:IdentifiedObject.name>
 		<nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_96abc1bd-df1e-46d5-a41e-6795cd7900fc"/>
-		<nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/RotatingMachine.q"/>
+		<nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#RotatingMachine.q"/>
 	</nc:FunctionOutputVariable>
 	<nc:RotatingMachineController rdf:ID="_963a48e2-0d4b-4bf9-af74-30c00ec1a790">
 		<cim:IdentifiedObject.mRID>963a48e2-0d4b-4bf9-af74-30c00ec1a790</cim:IdentifiedObject.mRID>
@@ -126,7 +126,7 @@
 		<cim:IdentifiedObject.mRID>9e9adeb5-113c-414d-8aaf-8b27c5d24249</cim:IdentifiedObject.mRID>
 		<cim:IdentifiedObject.name>XT201-T1 tap step</cim:IdentifiedObject.name>
 		<nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80"/>
-		<nc:FunctionOutputVariable.PropertyReference rdf:resource="https://energy.referencedata.eu/PropertyReference/TapChanger.step"/>
+		<nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#TapChanger.step"/>
 	</nc:FunctionOutputVariable>
 	<nc:TapChangerController rdf:ID="_9ca43877-e992-4369-8ec2-6ec9cf0d1cbb">
 		<cim:IdentifiedObject.mRID>9ca43877-e992-4369-8ec2-6ec9cf0d1cbb</cim:IdentifiedObject.mRID>
