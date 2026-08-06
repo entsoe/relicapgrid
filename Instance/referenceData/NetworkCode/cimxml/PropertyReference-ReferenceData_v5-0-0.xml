@@ -292,6 +292,9 @@
     <prov:hadMember rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#Switch.open"/>
     <prov:hadMember rdf:resource="http://iec.ch/TC57/CIM100#VsConverter.pPccControl"/>
     <prov:hadMember rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.targetUdc"/>
+    <prov:hadMember rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.udc"/>
+    <prov:hadMember rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ACDCConverter.udc"/>
+    <prov:hadMember rdf:resource="https://cim.ucaiug.io/ns#ACDCConverter.udc"/>
     <prov:hadMember rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#ExternalNetworkInjection.referencePriority"/>
     <prov:hadMember rdf:resource="https://cim4.eu/ns/nc#Contingency.probability"/>
     <prov:hadMember rdf:resource="http://iec.ch/TC57/CIM100#RegulatingControl.maxAllowedTargetValue"/>
