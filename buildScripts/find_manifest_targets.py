@@ -11,6 +11,7 @@ to its parent. Folders listed in SPECIAL_CASES hold model XML directly
 Usage:
     python buildScripts/find_manifest_targets.py --full
     python buildScripts/find_manifest_targets.py --before <sha> --after <sha>
+    python buildScripts/find_manifest_targets.py --changed-files <file>
 """
 
 import argparse
@@ -53,18 +54,32 @@ def model_dir_for_changed_file(changed_path: str) -> str | None:
     return None
 
 
+def model_dirs_for(changed_paths: list[str]) -> set[str]:
+    dirs: set[str] = set()
+    for changed in changed_paths:
+        model_dir = model_dir_for_changed_file(changed.strip())
+        if model_dir:
+            dirs.add(model_dir)
+    return dirs
+
+
 def discover_changed(before: str, after: str) -> set[str]:
     diff = subprocess.run(
         ["git", "diff", "--name-only", before, after],
         capture_output=True, text=True, check=True,
     ).stdout.splitlines()
+    return model_dirs_for(diff)
 
-    dirs: set[str] = set()
-    for changed in diff:
-        model_dir = model_dir_for_changed_file(changed)
-        if model_dir:
-            dirs.add(model_dir)
-    return dirs
+
+def discover_from_file(path: str) -> set[str]:
+    """Model folders for a pre-computed list of changed paths, one per line.
+
+    Used by CI after a PR merge: the GitHub API knows exactly which files the
+    PR touched, which a diff of two SHAs cannot tell us reliably once the PR
+    has been squashed or rebased onto the base branch.
+    """
+    text = sys.stdin.read() if path == "-" else Path(path).read_text(encoding="utf-8")
+    return model_dirs_for(text.splitlines())
 
 
 def main() -> None:
@@ -72,10 +87,15 @@ def main() -> None:
     parser.add_argument("--full", action="store_true", help="Discover every model folder, ignoring git diff")
     parser.add_argument("--before", help="Git revision before the push")
     parser.add_argument("--after", help="Git revision after the push")
+    parser.add_argument("--changed-files", help="File with one changed path per line ('-' for stdin)")
     args = parser.parse_args()
 
     is_new_branch = bool(args.before) and set(args.before) == {"0"}
-    if args.full or not args.before or is_new_branch:
+    if args.full:
+        model_dirs = discover_all()
+    elif args.changed_files:
+        model_dirs = discover_from_file(args.changed_files)
+    elif not args.before or is_new_branch:
         model_dirs = discover_all()
     else:
         model_dirs = discover_changed(args.before, args.after)

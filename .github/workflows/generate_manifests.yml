@@ -1,22 +1,52 @@
 name: Generate Manifests
 
 on:
+  # Manifests cannot be pushed to the default branch directly, so regeneration
+  # runs once a PR has been merged into it and delivers the result as its own PR.
+  pull_request:
+    types: [closed]
   workflow_dispatch:
 
 permissions:
   contents: write
+  pull-requests: write
+
+# One run per triggering PR: a re-run supersedes the previous attempt on the
+# same auto/manifests-pr-<N> branch instead of racing it.
+concurrency:
+  group: generate-manifests-${{ github.event.pull_request.number || github.run_id }}
 
 jobs:
   discover:
     name: Discover Changed Models
+    # Merged PRs into the current default branch only. auto/manifests-* branches
+    # are excluded so merging a manifest PR cannot trigger another round.
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.merged == true &&
+       github.event.pull_request.base.ref == github.event.repository.default_branch &&
+       !startsWith(github.event.pull_request.head.ref, 'auto/manifests-'))
     runs-on: ubuntu-24.04
     timeout-minutes: 5
     outputs:
       matrix: ${{ steps.discover.outputs.matrix }}
+      base_branch: ${{ steps.context.outputs.base_branch }}
+      work_branch: ${{ steps.context.outputs.work_branch }}
     steps:
       - uses: actions/checkout@v5
         with:
-          fetch-depth: 0
+          ref: ${{ github.event_name == 'pull_request' && github.event.repository.default_branch || github.ref }}
+
+      - name: Resolve target and working branch
+        id: context
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "base_branch=${{ github.event.repository.default_branch }}" >> "$GITHUB_OUTPUT"
+            echo "work_branch=auto/manifests-pr-${{ github.event.pull_request.number }}" >> "$GITHUB_OUTPUT"
+          else
+            echo "base_branch=${{ github.ref_name }}" >> "$GITHUB_OUTPUT"
+            echo "work_branch=auto/manifests-manual-${{ github.run_id }}" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
@@ -25,12 +55,18 @@ jobs:
 
       - name: Discover model folders to regenerate
         id: discover
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             MATRIX=$(uv run python buildScripts/find_manifest_targets.py --full)
           else
+            # Ask the API which files the PR touched rather than diffing SHAs:
+            # this stays correct for merge, squash and rebase merges alike.
+            gh api "repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/files" \
+              --paginate --jq '.[].filename' > "$RUNNER_TEMP/pr-files.txt"
             MATRIX=$(uv run python buildScripts/find_manifest_targets.py \
-              --before "${{ github.event.before }}" --after "${{ github.sha }}")
+              --changed-files "$RUNNER_TEMP/pr-files.txt")
           fi
           echo "matrix=$MATRIX" >> "$GITHUB_OUTPUT"
           echo "Model folders to regenerate: $MATRIX"
@@ -46,7 +82,11 @@ jobs:
       matrix:
         include: ${{ fromJson(needs.discover.outputs.matrix) }}
     steps:
+      # Generate from the current base-branch tree, not from the merged PR's
+      # commit, so a manifest reflects the state the branch is actually in.
       - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.discover.outputs.base_branch }}
 
       - uses: actions/setup-java@v5
         with:
@@ -69,41 +109,104 @@ jobs:
           name: manifest-${{ strategy.job-index }}
           path: staging
 
-  commit:
-    name: Commit Updated Manifests
+  open_pull_request:
+    name: Open Manifest Pull Request
     needs: [discover, generate]
-    # always() so one failed model folder in the matrix doesn't skip committing
-    # the manifests that DID regenerate successfully for every other folder.
-    if: always() && needs.discover.outputs.matrix != '[]'
+    # always() so one failed model folder in the matrix doesn't hold back the
+    # manifests that DID regenerate successfully for every other folder.
+    if: always() && needs.discover.result == 'success' && needs.discover.outputs.matrix != '[]'
     runs-on: ubuntu-24.04
     timeout-minutes: 5
+    env:
+      BASE_BRANCH: ${{ needs.discover.outputs.base_branch }}
+      WORK_BRANCH: ${{ needs.discover.outputs.work_branch }}
     steps:
       - uses: actions/checkout@v5
         with:
-          ref: ${{ github.ref_name }}
+          ref: ${{ needs.discover.outputs.base_branch }}
 
       - uses: actions/download-artifact@v4
         with:
           pattern: manifest-*
           path: .
           merge-multiple: true
-          if-no-files-found: ignore
 
-      - name: Commit regenerated manifests
+      - name: Commit regenerated manifests to a working branch
+        id: commit
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Instance
           if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "No manifest changes to commit"
-          else
-            git commit -m "Regenerate manifest.ttl for changed models"
-            git pull --rebase origin "${{ github.ref_name }}"
-            git push origin HEAD:"${{ github.ref_name }}"
+            exit 0
           fi
+          git diff --cached --name-only > "$RUNNER_TEMP/changed-manifests.txt"
+          git checkout -b "$WORK_BRANCH"
+          git commit -s -m "Regenerate manifest.ttl for changed models"
+          # Force-push: the branch is owned by this workflow and keyed to the
+          # triggering PR, so a re-run should replace its previous attempt.
+          git push --force origin "HEAD:refs/heads/$WORK_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the pull request
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          SOURCE_PR: ${{ github.event.pull_request.number }}
+          SOURCE_HEAD: ${{ github.event.pull_request.head.ref }}
+          GENERATE_RESULT: ${{ needs.generate.result }}
+        run: |
+          BODY="$RUNNER_TEMP/pr-body.md"
+          {
+            if [ -n "$SOURCE_PR" ]; then
+              echo "Automated manifest regeneration after merging #$SOURCE_PR (\`$SOURCE_HEAD\`)."
+            else
+              echo "Automated manifest regeneration (manual run, all model folders)."
+            fi
+            echo
+            echo "Generated with the CimPal CLI from the current \`$BASE_BRANCH\` tree."
+            echo
+            echo "Updated manifests:"
+            sed 's|^|- `|; s|$|`|' "$RUNNER_TEMP/changed-manifests.txt"
+            echo
+            if [ "$GENERATE_RESULT" = "failure" ]; then
+              echo "> [!WARNING]"
+              echo "> At least one model folder failed to generate — see the run log."
+              echo "> Only the manifests listed above are included here."
+              echo
+            fi
+            echo "No reviewer is assigned. One approval is still required before this can be"
+            echo "merged; anyone with write access can give it (the author is"
+            echo "\`github-actions[bot]\`, so approving this is not a self-approval)."
+            echo
+            echo "[Workflow run]($RUN_URL)"
+          } > "$BODY"
+
+          if [ -n "$SOURCE_PR" ]; then
+            TITLE="Regenerate manifests for #$SOURCE_PR"
+          else
+            TITLE="Regenerate all manifests"
+          fi
+
+          EXISTING=$(gh pr list --head "$WORK_BRANCH" --base "$BASE_BRANCH" \
+            --state open --json number --jq '.[0].number // empty')
+          if [ -n "$EXISTING" ]; then
+            # The force-push above already updated the diff; refresh the description.
+            gh pr edit "$EXISTING" --title "$TITLE" --body-file "$BODY"
+            gh pr comment "$EXISTING" --body "Manifests regenerated again — see [run]($RUN_URL)."
+            PR_URL=$(gh pr view "$EXISTING" --json url --jq .url)
+          else
+            PR_URL=$(gh pr create --base "$BASE_BRANCH" --head "$WORK_BRANCH" \
+              --title "$TITLE" --body-file "$BODY")
+          fi
+          echo "Manifest pull request: $PR_URL"
+          echo "Manifest pull request: $PR_URL — needs one approval before it can be merged." >> "$GITHUB_STEP_SUMMARY"
 
       - name: Fail if any model folder didn't generate
         if: needs.generate.result == 'failure'
         run: |
-          echo "::error::One or more model folders failed to generate a manifest - see the 'generate' job for details. Manifests that DID succeed have still been committed above."
+          echo "::error::One or more model folders failed to generate a manifest - see the 'generate' job for details. Any manifest that DID regenerate is in the pull request opened by the step above."
           exit 1
