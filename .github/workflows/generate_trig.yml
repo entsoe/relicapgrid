@@ -1,0 +1,112 @@
+name: Generate Trig
+
+on:
+  # Manual only for now. The trig pipeline is a full repo-wide regeneration
+  # (see Instance/Makefile), so there's no "changed files" trigger yet -
+  # wire up an automatic trigger once we know when this should run.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+# One run at a time: a re-run should supersede the previous attempt rather
+# than racing it on the same auto/trig-regen-* branch.
+concurrency:
+  group: generate-trig
+
+jobs:
+  generate:
+    name: Regenerate Trig Files
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: "25"
+
+      - name: Install build dependencies
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends libuuid-perl
+
+      - name: Install Apache Jena
+        env:
+          JENA_VERSION: "5.2.0"
+        run: |
+          curl -sSL -o "$RUNNER_TEMP/jena.tar.gz" \
+            "https://archive.apache.org/dist/jena/binaries/apache-jena-${JENA_VERSION}.tar.gz"
+          tar -xzf "$RUNNER_TEMP/jena.tar.gz" -C "$RUNNER_TEMP"
+          echo "JENA_HOME=$RUNNER_TEMP/apache-jena-${JENA_VERSION}" >> "$GITHUB_ENV"
+          # Instance/Makefile's own "validate" target calls bare "riot" (no
+          # extension), so Jena's real bin/ needs to be on PATH too.
+          echo "$RUNNER_TEMP/apache-jena-${JENA_VERSION}/bin" >> "$GITHUB_PATH"
+
+          # semantic-tools/cim-trig.pl and the rest of the Makefile were
+          # authored on Windows/Cygwin and shell out to "riot.bat"/
+          # "update.bat" instead. Shim those exact names on Linux (dots in
+          # filenames are unremarkable here) so the vendored tooling runs
+          # unmodified.
+          mkdir -p "$RUNNER_TEMP/jena-shim"
+          for name in riot update; do
+            printf '#!/bin/sh\nexec "$JENA_HOME/bin/%s" "$@"\n' "$name" \
+              > "$RUNNER_TEMP/jena-shim/$name.bat"
+            chmod +x "$RUNNER_TEMP/jena-shim/$name.bat"
+          done
+          echo "$RUNNER_TEMP/jena-shim" >> "$GITHUB_PATH"
+
+      - name: Regenerate trig files
+        working-directory: Instance
+        run: make trig
+
+      - name: Validate regenerated files
+        working-directory: Instance
+        run: make validate
+
+      - name: Commit regenerated trig files to a working branch
+        id: commit
+        env:
+          WORK_BRANCH: auto/trig-regen-${{ github.run_id }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Instance
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No trig changes to commit"
+            exit 0
+          fi
+          git diff --cached --name-only > "$RUNNER_TEMP/changed-trig.txt"
+          git checkout -b "$WORK_BRANCH"
+          git commit -s -m "Regenerate trig files"
+          git push --force origin "HEAD:refs/heads/$WORK_BRANCH"
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Open or update the pull request
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          BASE_BRANCH: ${{ github.ref_name }}
+          WORK_BRANCH: auto/trig-regen-${{ github.run_id }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          BODY="$RUNNER_TEMP/pr-body.md"
+          {
+            echo "Automated trig regeneration (manual run) from the current \`$BASE_BRANCH\` tree."
+            echo
+            echo "Generated via \`Instance/Makefile\` (fix-namespaces.pl -> cim-urn-uuid.pl -> cim-trig.pl -> Jena \`update\`)."
+            echo
+            echo "Updated files:"
+            sed 's|^|- `|; s|$|`|' "$RUNNER_TEMP/changed-trig.txt"
+            echo
+            echo "No reviewer is assigned. One approval is still required before this can be"
+            echo "merged; anyone with write access can give it (the author is"
+            echo "\`github-actions[bot]\`, so approving this is not a self-approval)."
+            echo
+            echo "[Workflow run]($RUN_URL)"
+          } > "$BODY"
+
+          PR_URL=$(gh pr create --base "$BASE_BRANCH" --head "$WORK_BRANCH" \
+            --title "Regenerate trig files" --body-file "$BODY")
+          echo "Trig regeneration pull request: $PR_URL" >> "$GITHUB_STEP_SUMMARY"
