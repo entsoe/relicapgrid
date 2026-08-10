@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xml:base="https://energy.referencedata.eu" > 
+  <dcat:Dataset rdf:about="https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid/NCP/1.0">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <skos:definition xml:lang="en">Reference dataset listing recognized Party identities that shall be used as the object of dcterms:publisher and provcim:modelAuthority.</skos:definition>
+    <dcterms:description xml:lang="en">Reference dataset containing recognized party identities for use in publisher, authority, and provenance references.</dcterms:description>
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-08T00:00:00Z</prov:generatedAtTime>
+    <dcterms:hasPart rdf:resource="https://energy.referencedata.eu/test/PartyScheme/NCP/1.0#collection_ncp_party"/>
+    <dcterms:identifier>b77fe0ff-9907-4943-90a7-6e35a178a8ab</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-08T00:00:00Z</dcterms:issued>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <skos:prefLabel xml:lang="en">Energy Reference Data Party Collection ReliCapGrid</skos:prefLabel>
+    <dcterms:publisher rdf:resource="https://www.entsoe.eu/"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:title>Test-Party-Collection-ReliCapGrid_RD</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <adms:versionNotes xml:lang="en">Initial version of the Energy Reference Data Party Collection for ReliCapGrid.</adms:versionNotes>
+  </dcat:Dataset>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Galia">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Galia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2ec42376-eee2-4ab9-b79a-165e1df2a185</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Galia</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Galia.</dcterms:description>
+    <dcterms:identifier>2ec42376-eee2-4ab9-b79a-165e1df2a185</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Galia</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Svedala">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Svedala</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b9fbb881-573b-4e98-9b7b-31f00a45ebe0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Svedala</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Svedala.</dcterms:description>
+    <dcterms:identifier>b9fbb881-573b-4e98-9b7b-31f00a45ebe0</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Svedala</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Belgovia">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Belgovia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>361023fe-e4cb-4606-8060-c25344a0b527</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Belgovia</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Belgovia.</dcterms:description>
+    <dcterms:identifier>361023fe-e4cb-4606-8060-c25344a0b527</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Belgovia</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Britheim">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Britheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6ec5a811-870d-4d0c-bc3c-a30bf2e90c36</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Britheim</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Britheim.</dcterms:description>
+    <dcterms:identifier>6ec5a811-870d-4d0c-bc3c-a30bf2e90c36</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Britheim</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Espheim">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Espheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d4e1aead-56f8-4075-bad2-1bd62d591905</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Espheim</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Espheim.</dcterms:description>
+    <dcterms:identifier>d4e1aead-56f8-4075-bad2-1bd62d591905</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Espheim</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Nordheim">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Nordheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>50f47f00-bb5f-48bb-b73e-3e8ed008c0d6</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Nordheim</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Nordheim.</dcterms:description>
+    <dcterms:identifier>50f47f00-bb5f-48bb-b73e-3e8ed008c0d6</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Nordheim</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/TSO-Portheim">
+    <cim:IdentifiedObject.description>Transmission System Operator (TSO) post and function performed by Portheim</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>476ea5f3-6315-4738-bbbc-c3a652c568d2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>TSO-Portheim</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party acting as the transmission system operator for Portheim.</dcterms:description>
+    <dcterms:identifier>476ea5f3-6315-4738-bbbc-c3a652c568d2</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">TSO-Portheim</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#TransmissionSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala">
+    <cim:IdentifiedObject.description>Joint operating entity post and function performed for the DC-Espheim-Svedala HVDC interconnector between Espheim and Svedala</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>73ed2666-3e8d-48bf-8d90-bbaf1110e705</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>DCSO-Espheim-Svedala</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party representing the post of operating the joint entity for the DC-Espheim-Svedala HVDC interconnector,</dcterms:description>
+    <dcterms:identifier>73ed2666-3e8d-48bf-8d90-bbaf1110e705</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">DCSO-Espheim-Svedala</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#DirectCurrentSystemOperator"/>
+  </prov:Agent>
+  <prov:Agent rdf:about="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia">
+    <cim:IdentifiedObject.description>Joint operating entity post and function performed for the DC-Nordheim-Galia HVDC interconnector between Nordheim and Galia</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a1211023-b0a3-4d43-8876-183e6a5ea46a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>DCSO-Nordheim-Galia</cim:IdentifiedObject.name>
+    <dcterms:description xml:lang="en">Recognized party representing the post of operating the joint entity for the DC-Nordheim-Galia HVDC interconnector,</dcterms:description>
+    <dcterms:identifier>a1211023-b0a3-4d43-8876-183e6a5ea46a</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">DCSO-Nordheim-Galia</skos:prefLabel>
+    <rdf:type rdf:resource="https://cim4.eu/ns/nc#DirectCurrentSystemOperator"/>
+  </prov:Agent>
+  <prov:Collection rdf:about="https://energy.referencedata.eu/test/PartyScheme/NCP/1.0#collection_ncp_party">
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <dcterms:identifier>a4dbeec3-f598-4a47-a3e1-df76eb1bfbb9</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Collection of recognized parties for NCP and ReliCapGrid.</skos:prefLabel>
+  </prov:Collection>
+</rdf:RDF>

@@ -20,7 +20,7 @@
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/DC-Espheim-Svedala-CO"/>
     <dcat:keyword>CO</dcat:keyword>
     <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
-    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/DC-Espheim-Svedala"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:requires rdf:resource="urn:uuid:105893e4-668b-4b00-a351-0e436b53cbc9"/>

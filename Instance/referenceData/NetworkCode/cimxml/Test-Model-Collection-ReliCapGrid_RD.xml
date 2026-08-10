@@ -1,0 +1,1137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+    xmlns:provcim="https://cim4.eu/ns/provcim#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+  xml:base="https://energy.referencedata.eu" > 
+  <dcat:Dataset rdf:about="https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid/NCP/1.0">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <skos:definition xml:lang="en">Reference dataset listing recognized abstract CIM model identities that may be used as the object of dcat:isVersionOf for versioned datasets.</skos:definition>
+    <dcterms:description xml:lang="en">Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing.</dcterms:description>
+    <prov:generatedAtTime rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-08T00:00:00Z</prov:generatedAtTime>
+    <dcterms:hasPart rdf:resource="https://energy.referencedata.eu/test/ModelScheme/NCP/1.0#collection_ncp_model"/>
+    <dcterms:identifier>f4f9cafc-d146-4275-92b5-6d04f9b26b56</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-08-08T00:00:00Z</dcterms:issued>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <skos:prefLabel xml:lang="en">Energy Reference Data Model Collection of ReliCapGrid</skos:prefLabel>
+    <dcterms:publisher rdf:resource="https://www.entsoe.eu/"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:title>Test-Model-Collection-ReliCapGrid_RD</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <adms:versionNotes xml:lang="en">Initial version of the Energy Reference Data Model Collection for ReliCapGrid.</adms:versionNotes>
+  </dcat:Dataset>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Svedala Structural model data complying to Core Equipment (EQ) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>bbee31bf-dfb6-456a-9b5e-4d1ff0713000</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Core Equipment (EQ) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>b37826b4-f806-4220-a4a4-bfe3f32c059a</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Svedala Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>2d446669-324a-411f-969a-057242be4d93</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Steady-State Hypothesis (SSH) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>980c474f-2c4c-4741-9cbe-716dd246e1af</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Svedala Analytical results complying to Topology (TP) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>ae8a3f3c-99ad-4692-a4b0-a72128823598</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Topology (TP) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>79747597-bc7c-4e74-8ba2-b57af56dcfa5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Svedala Analytical results complying to State Variables (SV) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>cd74e338-68ae-4db7-bc2d-be4876d97f02</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for State Variables (SV) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>59e813e8-da11-437f-bd96-0557f90e64cc</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SR-AE">
+    <dcterms:description xml:lang="en">TSO-Svedala Structural model data complying to Assessed Element (AE) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>cb2897cc-effb-4f8f-8f74-1a466b77da65</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_StructuralRepresentation-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-AE">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Assessed Element (AE) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>a0cfb8b0-74cf-4d89-8c8d-4b2f6f528fc1</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SD-AS">
+    <dcterms:description xml:lang="en">TSO-Svedala Planned schedule data complying to Availability Schedule (AS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>bec8c379-ed7f-4201-939f-16bc4b9dbdb8</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_ScheduleDefinition-AvailabilitySchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-AS">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Availability Schedule (AS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>1ce1f5ab-615a-48f9-a352-5aadfd95700e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-AvailabilitySchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SR-CO">
+    <dcterms:description xml:lang="en">TSO-Svedala Structural model data complying to Contingency (CO) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>dee8f207-94b7-4aad-aaa2-9dd2ab8f1e1e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-CO">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Contingency (CO) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>588d3452-79d1-4d4d-8083-b1ed7795369b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SR-ER">
+    <dcterms:description xml:lang="en">TSO-Svedala Structural model data complying to Equipment Reliability (ER) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>1be3524c-ab2c-4997-bdfc-d1fc2f804985</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_StructuralRepresentation-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-ER">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Equipment Reliability (ER) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>5f1ecd14-735a-4186-9dba-ce3d422e6a68</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SR-RA">
+    <dcterms:description xml:lang="en">TSO-Svedala Structural model data complying to Remedial Action (RA) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>27712657-f01d-43b8-a820-121075b54c71</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_StructuralRepresentation-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-RA">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Remedial Action (RA) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>c836ec81-0556-4847-b9bb-62515191a65a</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SD-RAS">
+    <dcterms:description xml:lang="en">TSO-Svedala Planned schedule data complying to Remedial Action Schedule (RAS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>4aee7003-ee0f-4c71-9d8b-6f8bd27e5db7</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_ScheduleDefinition-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-RAS">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Remedial Action Schedule (RAS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>c82f2b35-87b7-4eaf-af0f-7a4f6a23e88b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_SD-SIS">
+    <dcterms:description xml:lang="en">TSO-Svedala Planned schedule data complying to State Instruction Schedule (SIS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>126d26b4-19d0-4090-b20f-ee89f87ff9b7</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_ScheduleDefinition-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-SIS">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for State Instruction Schedule (SIS) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>0cf4e34c-ffe3-4caa-b60b-1685e1ffb88b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_AD-SSI">
+    <dcterms:description xml:lang="en">TSO-Svedala Assumed operating conditions complying to Steady State Instruction (SSI) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>42c1f4c3-c0b1-4ac4-9a85-70f51efb232f</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_AssumptionDefinition-SteadyStateInstruction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Svedala_VF-SSI">
+    <dcterms:description xml:lang="en">TSO-Svedala Verification results for Steady State Instruction (SSI) for the Frame Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>92a00774-3606-4f37-944e-d783fdd93385</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Svedala"/>
+    <skos:prefLabel xml:lang="en">Svedala_Verification-SteadyStateInstruction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Galia Structural model data complying to Core Equipment (EQ) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>9bd00d16-e9c7-489d-adaf-aaf49b86a04a</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Core Equipment (EQ) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>e8a87d1f-2343-4c3b-988e-48e597215ead</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Galia Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>9db94464-5b71-4f83-8345-e83f3d604761</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Steady-State Hypothesis (SSH) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>15650079-2ec2-4b3a-a3b8-b259e60552f5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Galia Analytical results complying to Topology (TP) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>7ceb5095-bf58-4e6c-805a-eb0229c7126e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Topology (TP) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>30042761-c05c-470c-b826-0d98eef7ec02</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Galia Analytical results complying to State Variables (SV) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>a64d9f09-b6af-4ffc-bdf9-c09f40f68536</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for State Variables (SV) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>774534a6-c9fc-420d-bb35-a3470d5a5d44</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SR-AE">
+    <dcterms:description xml:lang="en">TSO-Galia Structural model data complying to Assessed Element (AE) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>5197dd8c-858e-48ab-bca9-107bfa187249</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_StructuralRepresentation-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-AE">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Assessed Element (AE) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>8f01a53e-2c4b-454d-9753-0d198840a85a</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SR-CO">
+    <dcterms:description xml:lang="en">TSO-Galia Structural model data complying to Contingency (CO) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>a07a59c9-226b-431f-a6ea-bddfd433754f</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-CO">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Contingency (CO) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>0133499f-f184-4a1a-bbbc-e24c4f36262d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SR-ER">
+    <dcterms:description xml:lang="en">TSO-Galia Structural model data complying to Equipment Reliability (ER) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>1bb76e95-a59d-4aa6-9399-5ad4a763db87</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_StructuralRepresentation-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-ER">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Equipment Reliability (ER) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>0318e6b4-f559-4b99-b11f-0b7776f079de</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SR-RA">
+    <dcterms:description xml:lang="en">TSO-Galia Structural model data complying to Remedial Action (RA) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>b5858d4c-9057-4f1b-8072-fe5945339906</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_StructuralRepresentation-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-RA">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Remedial Action (RA) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>595285a5-6d7a-4801-a54b-d62513bf5d49</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_SD-RAS">
+    <dcterms:description xml:lang="en">TSO-Galia Planned schedule data complying to Remedial Action Schedule (RAS) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>bede7cc3-6a9f-4cab-aac9-4fdcad698de1</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_ScheduleDefinition-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Galia_VF-RAS">
+    <dcterms:description xml:lang="en">TSO-Galia Verification results for Remedial Action Schedule (RAS) for the Frame Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>b6793345-0972-4c8f-a640-a8b4aae8334b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Galia"/>
+    <skos:prefLabel xml:lang="en">Galia_Verification-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Belgovia Structural model data complying to Core Equipment (EQ) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>89c6f81e-2f84-43ae-a375-71cc5c5887d5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Core Equipment (EQ) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>4873203f-70f3-4b4c-9aa9-882f53c154b5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Belgovia Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>13d64825-6a97-4377-9a9e-b953935cc57d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Steady-State Hypothesis (SSH) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>c8845bf1-1cc0-49ed-9d69-b2c9784ce67c</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Belgovia Analytical results complying to Topology (TP) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>f40f7849-59c6-41fb-9c3d-4591042706b5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Topology (TP) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>76e9fe9b-9517-4e40-8002-97e863c53c63</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Belgovia Analytical results complying to State Variables (SV) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>87321442-0943-4e5b-b2c4-8bad5f86b9c4</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for State Variables (SV) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>8357c181-5d60-482b-b743-c9a655df18fa</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SR-AE">
+    <dcterms:description xml:lang="en">TSO-Belgovia Structural model data complying to Assessed Element (AE) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>fc4ec3a9-75de-422b-ac79-99e5ca123c7d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_StructuralRepresentation-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-AE">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Assessed Element (AE) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>e1f775ed-f85e-4211-91df-a56ae13acbd4</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SR-CO">
+    <dcterms:description xml:lang="en">TSO-Belgovia Structural model data complying to Contingency (CO) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>b3f7d0b7-ce2c-4a44-baf4-2cb7c8b0cab8</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-CO">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Contingency (CO) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>cff53fd0-0d39-4b38-8e4c-381a156dec2f</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SR-ER">
+    <dcterms:description xml:lang="en">TSO-Belgovia Structural model data complying to Equipment Reliability (ER) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>23dc6c8b-7a57-4d47-b9a6-1eb33091d180</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_StructuralRepresentation-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-ER">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Equipment Reliability (ER) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>6995111f-42c0-4e6a-9745-a6e5095c5f6e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SD-PS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Planned schedule data complying to Power Schedule (PS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>4dae7d53-2769-45a3-8162-2f3ad6f5d1a7</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_ScheduleDefinition-PowerSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-PS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Power Schedule (PS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>da78d362-3aa3-40d5-bb06-1089f4db3c56</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-PowerSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SR-RA">
+    <dcterms:description xml:lang="en">TSO-Belgovia Structural model data complying to Remedial Action (RA) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>1f330021-560f-45f4-83a0-dbdb3f8aa302</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_StructuralRepresentation-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-RA">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Remedial Action (RA) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>7d79cfa6-348e-4757-b69a-24e61650ede4</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SD-RAS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Planned schedule data complying to Remedial Action Schedule (RAS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>96d9d42a-a8ae-4785-8145-a40dba3da9ca</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_ScheduleDefinition-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-RAS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Remedial Action Schedule (RAS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>124a5af6-51ec-4b9c-99a7-1d0cd140304b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SD-SHS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Planned schedule data complying to Steady State Hypothesis Schedule (SHS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>4096d81c-b85a-4ba5-a740-c8fb53c05239</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_ScheduleDefinition-SteadyStateHypothesisSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-SHS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for Steady State Hypothesis Schedule (SHS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>2c561130-ace5-4c6d-bb9f-45adf4dca0ed</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-SteadyStateHypothesisSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_SD-SIS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Planned schedule data complying to State Instruction Schedule (SIS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>d735db33-8506-4fdf-98d1-c00a50241629</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_ScheduleDefinition-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Belgovia_VF-SIS">
+    <dcterms:description xml:lang="en">TSO-Belgovia Verification results for State Instruction Schedule (SIS) for the Frame Belgovia-Transmission.</dcterms:description>
+    <dcterms:identifier>d70f17f9-4249-4aed-b2e5-e1f45c8f2bd4</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Belgovia"/>
+    <skos:prefLabel xml:lang="en">Belgovia_Verification-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Belgovia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Britheim Structural model data complying to Core Equipment (EQ) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>722e9ba0-9242-4877-b8ed-af1cd3599def</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for Core Equipment (EQ) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>373a6939-a402-4efa-87b5-f830244688c2</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Britheim Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>23c2a676-06b3-4de3-ab94-50d0a0df5c95</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for Steady-State Hypothesis (SSH) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>36bf2bee-a63c-4037-94ce-75c4dbf5cbd5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Britheim Analytical results complying to Topology (TP) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>b5f12a86-aabc-451b-acec-9b77e0fcc739</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for Topology (TP) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>180e2512-2cc3-4879-a0f3-055ef5a09882</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Britheim Analytical results complying to State Variables (SV) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>97c49d12-5c62-4471-b893-654a4d7ddd6e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for State Variables (SV) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>026fb83d-cd84-40f4-a6ed-98a1a1d75ee8</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_SR-AE">
+    <dcterms:description xml:lang="en">TSO-Britheim Structural model data complying to Assessed Element (AE) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>67ec06db-78df-44c9-830c-c92e9eb13261</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_StructuralRepresentation-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-AE">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for Assessed Element (AE) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>c6c96e40-79c8-4e84-93fe-61032186b012</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_SR-CO">
+    <dcterms:description xml:lang="en">TSO-Britheim Structural model data complying to Contingency (CO) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>5eff32ee-fb32-4324-b552-5c750e49053b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Britheim_VF-CO">
+    <dcterms:description xml:lang="en">TSO-Britheim Verification results for Contingency (CO) for the Frame Britheim-Transmission.</dcterms:description>
+    <dcterms:identifier>5f4de1a3-46cd-4993-87a4-f44a6cd1960b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <skos:prefLabel xml:lang="en">Britheim_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Britheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Core Equipment (EQ) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>54f992c3-3bc2-4571-8095-a8a0cb1e61bf</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Core Equipment (EQ) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>80482cab-146e-46ac-9fc4-fbf5cc929fe7</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Espheim Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>d6bc21fd-9dba-4f9b-b9eb-0b24a203b138</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Steady-State Hypothesis (SSH) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>9b061b19-4c18-4e7e-b235-aa2dbb4cd50c</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Espheim Analytical results complying to Topology (TP) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>5de84ebe-768d-473f-9763-3df3ac47d10e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Topology (TP) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>f1a7921c-ff76-4a1a-b582-fdb750d7820e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Espheim Analytical results complying to State Variables (SV) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>2d9dd970-0a28-4e82-973d-2f0940634ede</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for State Variables (SV) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>52be156d-5cfb-43bd-b99b-30a62e5289c9</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-AE">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Assessed Element (AE) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>7968a49d-247a-4c5e-919c-535fd48c4897</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-AE">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Assessed Element (AE) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>3d654ba0-1a97-4c4f-b2dd-4c6b8909e5f3</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-AssessedElement.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-CO">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Contingency (CO) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>dc04c663-4068-4da6-92f9-facfe2d718ef</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-CO">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Contingency (CO) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>9330589b-9ba1-4b34-931b-5eca4dfc4fe5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-ER">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Equipment Reliability (ER) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>e369bdc3-da5a-439a-ba5f-787bb071435b</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-ER">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Equipment Reliability (ER) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>574f1d3a-48ba-489e-9a61-0d0d7ffe35dc</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-EquipmentReliability.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-OR">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Object Registry (OR) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>a863971c-02bb-450f-9704-3405766f03a9</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-ObjectRegistry.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-OR">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Object Registry (OR) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>80c9dbf2-b60a-49ef-a627-5c9a38f579c0</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-ObjectRegistry.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SR-RA">
+    <dcterms:description xml:lang="en">TSO-Espheim Structural model data complying to Remedial Action (RA) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>e0cae1fd-7734-4347-9121-d76ca51b18a5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_StructuralRepresentation-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-RA">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Remedial Action (RA) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>8365b64f-26ea-45d0-bad8-4ce24beef1bb</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SD-RAS">
+    <dcterms:description xml:lang="en">TSO-Espheim Planned schedule data complying to Remedial Action Schedule (RAS) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>d9a8fc93-234e-4251-a0c7-807e12b3ac13</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_ScheduleDefinition-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-RAS">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Remedial Action Schedule (RAS) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>62b5ff46-1f88-4708-abdd-b15eca1b9e18</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-RemedialActionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_SD-SIS">
+    <dcterms:description xml:lang="en">TSO-Espheim Planned schedule data complying to State Instruction Schedule (SIS) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>67366754-44d3-45ac-b42a-ad19a39c8094</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_ScheduleDefinition-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-SIS">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for State Instruction Schedule (SIS) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>25657736-10c9-4b24-a92d-3135d1df0b31</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-StateInstructionSchedule.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_AD-SSI">
+    <dcterms:description xml:lang="en">TSO-Espheim Assumed operating conditions complying to Steady State Instruction (SSI) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>ececb987-b16d-4508-9871-690248237522</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_AssumptionDefinition-SteadyStateInstruction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Espheim_VF-SSI">
+    <dcterms:description xml:lang="en">TSO-Espheim Verification results for Steady State Instruction (SSI) for the Frame Espheim-Transmission.</dcterms:description>
+    <dcterms:identifier>ea7c893f-2cb7-421c-8c33-5b3c4d8b5056</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Espheim"/>
+    <skos:prefLabel xml:lang="en">Espheim_Verification-SteadyStateInstruction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Espheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Nordheim Structural model data complying to Core Equipment (EQ) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>88bd12dc-5a4c-44a1-8b1c-06fcbbfee67c</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Nordheim Verification results for Core Equipment (EQ) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>3fbb4305-3baf-4cfe-9c52-2fb9c858c554</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Nordheim Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>e165362d-4c85-441e-af31-3d503e1e1c42</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Nordheim Verification results for Steady-State Hypothesis (SSH) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>c49a71b8-86dd-4d1d-b107-51fbb9de8746</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Nordheim Analytical results complying to Topology (TP) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>ce5a8194-3512-43ce-a76e-de68fc238f3c</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Nordheim Verification results for Topology (TP) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>6b3cb45c-d3a4-4e24-bd24-769342c29252</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Nordheim Analytical results complying to State Variables (SV) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>28fa8eac-1001-4f85-80a6-b93f5dd6cf5d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Nordheim_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Nordheim Verification results for State Variables (SV) for the Frame Nordheim-Transmission.</dcterms:description>
+    <dcterms:identifier>014cc93d-f64d-4da6-87b5-6ce9e61baa0e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Nordheim"/>
+    <skos:prefLabel xml:lang="en">Nordheim_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Nordheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_SR-EQ">
+    <dcterms:description xml:lang="en">TSO-Portheim Structural model data complying to Core Equipment (EQ) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>66a7eab1-37a9-4520-abae-5652a2f9acd1</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_VF-EQ">
+    <dcterms:description xml:lang="en">TSO-Portheim Verification results for Core Equipment (EQ) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>16c55d73-2825-4b85-a296-c99f156ee39e</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_AD-SSH">
+    <dcterms:description xml:lang="en">TSO-Portheim Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>c5baec64-cd96-43c7-9f3f-d15c97deaeaf</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_VF-SSH">
+    <dcterms:description xml:lang="en">TSO-Portheim Verification results for Steady-State Hypothesis (SSH) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>646fcdae-f700-47b4-99ab-711e6ee3aefa</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_AC-TP">
+    <dcterms:description xml:lang="en">TSO-Portheim Analytical results complying to Topology (TP) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>c9f3f532-25e4-4a89-bbf4-15dacab20eb9</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_VF-TP">
+    <dcterms:description xml:lang="en">TSO-Portheim Verification results for Topology (TP) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>872b5d96-826c-402c-88d9-ca2ba20e0a2d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_AC-SV">
+    <dcterms:description xml:lang="en">TSO-Portheim Analytical results complying to State Variables (SV) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>562d79ce-95b1-409f-964f-71d9bdfa75b5</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/Portheim_VF-SV">
+    <dcterms:description xml:lang="en">TSO-Portheim Verification results for State Variables (SV) for the Frame Portheim-Transmission.</dcterms:description>
+    <dcterms:identifier>fd21bf3a-8f94-459d-b6b2-a8aa04369db9</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/TSO-Portheim"/>
+    <skos:prefLabel xml:lang="en">Portheim_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/Portheim-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-EQ">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Structural model data complying to Core Equipment (EQ) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>b71357c9-46ce-4b19-a527-9e47e94081fd</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-EQ">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for Core Equipment (EQ) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>60ff9e63-d3fd-4843-8506-6d1e815d66a3</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AD-SSH">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>6c065883-5604-48ee-a915-000a5492ad38</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-SSH">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for Steady-State Hypothesis (SSH) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>7665baa5-fa69-4ed4-a66a-3396191c30b9</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AC-TP">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Analytical results complying to Topology (TP) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>db8ff34d-7f85-4ed5-aa83-a839b5c40b82</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-TP">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for Topology (TP) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>a9186ee3-04e5-47df-89a3-1c7f1f3ec4ff</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AC-SV">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Analytical results complying to State Variables (SV) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>1dfd5870-d7f6-4478-bc70-4d497ea0a9b4</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-SV">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for State Variables (SV) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>5b659a04-cfea-4583-a9ad-bd093c5ed05d</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-CO">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Structural model data complying to Contingency (CO) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>832d7cb4-cb47-45bf-a4f5-4e48f9e41d13</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_StructuralRepresentation-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-CO">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for Contingency (CO) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>91c534f6-e5fc-4494-90ba-b5a2ce545e46</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-Contingency.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-RA">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Structural model data complying to Remedial Action (RA) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>82990679-1a11-4443-bcbb-002766a37112</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_StructuralRepresentation-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-RA">
+    <dcterms:description xml:lang="en">DC-Espheim-Svedala Verification results for Remedial Action (RA) for the Frame DC-Espheim-Svedala-Transmission.</dcterms:description>
+    <dcterms:identifier>003f6a11-99e9-4d39-b808-081820384faf</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
+    <skos:prefLabel xml:lang="en">DC-Espheim-Svedala_Verification-RemedialAction.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Espheim-Svedala-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_SR-EQ">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Structural model data complying to Core Equipment (EQ) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>8bcb3092-84b1-41b1-b546-b8bb44335401</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_StructuralRepresentation-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-EQ">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Verification results for Core Equipment (EQ) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>8c11dd0b-a70f-4fe7-975a-6fb717fa46ab</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_Verification-EquipmentCore.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AD-SSH">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Assumed operating conditions complying to Steady-State Hypothesis (SSH) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>8b5f93dd-f118-4c31-a1ec-60a183ca927f</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_AssumptionDefinition-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-SSH">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Verification results for Steady-State Hypothesis (SSH) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>f8f0579a-2d2f-4fac-9f3b-34178ec3f848</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_Verification-SteadyStateHypothesis.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AC-TP">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Analytical results complying to Topology (TP) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>fbb58ae8-2d67-42ce-b4bd-c45a8eee8bcb</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_AnalyticalComputation-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-TP">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Verification results for Topology (TP) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>d08915fd-9e0c-4f77-8c60-bba284688cd6</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_Verification-Topology.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AC-SV">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Analytical results complying to State Variables (SV) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>9efa4eb4-be75-4473-b192-fe027c8d99b1</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_AnalyticalComputation-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <provcim:Model rdf:about="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-SV">
+    <dcterms:description xml:lang="en">DC-Nordheim-Galia Verification results for State Variables (SV) for the Frame DC-Nordheim-Galia-Transmission.</dcterms:description>
+    <dcterms:identifier>7691299a-7412-4c1c-9cc7-b1fff8dd5283</dcterms:identifier>
+    <provcim:modelAuthority rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia"/>
+    <skos:prefLabel xml:lang="en">DC-Nordheim-Galia_Verification-StateVariables.</skos:prefLabel>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/DC-Nordheim-Galia-Transmission"/>
+  </provcim:Model>
+  <prov:Collection rdf:about="https://energy.referencedata.eu/test/ModelScheme/NCP/1.0#collection_ncp_model">
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SR-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SD-AS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-AS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SR-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SR-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SD-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_SD-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_AD-SSI"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Svedala_VF-SSI"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SR-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SR-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SR-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_SD-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Galia_VF-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SR-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SR-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SD-PS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-PS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SR-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SD-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SD-SHS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-SHS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_SD-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Belgovia_VF-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_SR-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Britheim_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-AE"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-ER"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-OR"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-OR"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SR-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SD-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-RAS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_SD-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-SIS"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_AD-SSI"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Espheim_VF-SSI"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Nordheim_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/Portheim_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-CO"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_SR-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Espheim-Svedala_VF-RA"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_SR-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-EQ"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AD-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-SSH"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AC-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-TP"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_AC-SV"/>
+    <prov:hadMember rdf:resource="https://energy.referencedata.eu/test/model/DC-Nordheim-Galia_VF-SV"/>
+    <dcterms:identifier>3c0d7db0-6380-4ce8-ac1f-39bb5687311c</dcterms:identifier>
+    <skos:prefLabel xml:lang="en">Collection of recognized models for NCP and ReliCapGrid.</skos:prefLabel>
+  </prov:Collection>
+</rdf:RDF>
