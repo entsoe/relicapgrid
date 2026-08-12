@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:adms="http://www.w3.org/ns/adms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" > 
+  <dcat:Dataset rdf:about="urn:uuid:d4c765ef-6a3d-469e-99c2-ed9eec42000c">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/EquipmentReliability/2.4"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
+    <dcterms:description xml:lang="en">This is the equipment reliability dataset for Britheim part of ReliCapGrid.</dcterms:description>
+    <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
+    <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
+    <dcterms:identifier>d4c765ef-6a3d-469e-99c2-ed9eec42000c</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Britheim-ER"/>
+    <dcat:keyword>ER</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/TSO-Britheim"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:requires rdf:resource="urn:uuid:33bd4875-01b7-4442-a5a2-dc04419143bf"/>
+    <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
+    <dcterms:title>20220615_Britheim_ER_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-ER"/>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Britheim-Power-Transmission-System"/>
+    <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
+    <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
+    <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
+  </dcat:Dataset>
+
+  <nc:ACDCConverterController rdf:ID="_36d3de6a-32e0-41e8-9496-369e17851f31">
+    <cim:IdentifiedObject.mRID>36d3de6a-32e0-41e8-9496-369e17851f31</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Britheim PWM converter control</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Groups the simultaneous control loops of VsConverter 20bf21f9-b198-49b2-8505-fc4651431667.</cim:IdentifiedObject.description>
+    <nc:ACDCConverterController.ACDCConverter rdf:resource="#_20bf21f9-b198-49b2-8505-fc4651431667"/>
+    <nc:AutomationFunction.normalEnabled>true</nc:AutomationFunction.normalEnabled>
+  </nc:ACDCConverterController>
+
+  <nc:ActivePowerControlFunction rdf:ID="_d300753f-b1c5-4a7e-9950-74a336e9230a">
+    <cim:IdentifiedObject.mRID>d300753f-b1c5-4a7e-9950-74a336e9230a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PWM converter P(PCC) control</cim:IdentifiedObject.name>
+    <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+    <nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
+    <nc:FunctionBlock.AutomationFunction rdf:resource="#_36d3de6a-32e0-41e8-9496-369e17851f31"/>
+  </nc:ActivePowerControlFunction>
+  <nc:PinTerminal rdf:ID="_74c6896e-499c-4216-8ccc-9f8fc076ea74">
+    <cim:IdentifiedObject.mRID>74c6896e-499c-4216-8ccc-9f8fc076ea74</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter measured P at PCC (remote)</cim:IdentifiedObject.name>
+    <nc:FunctionInputVariable.Function rdf:resource="#_d300753f-b1c5-4a7e-9950-74a336e9230a"/>
+    <nc:PinTerminal.Terminal rdf:resource="#_58da9eda-58b1-ef40-3030-6c94534d80d5"/>
+    <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.activePower"/>
+  </nc:PinTerminal>
+  <nc:FunctionOutputVariable rdf:ID="_49ad1c29-0df7-41d0-ad1a-e718a3f643c7">
+    <cim:IdentifiedObject.mRID>49ad1c29-0df7-41d0-ad1a-e718a3f643c7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter active-power output</cim:IdentifiedObject.name>
+    <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_d300753f-b1c5-4a7e-9950-74a336e9230a"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.p"/>
+  </nc:FunctionOutputVariable>
+
+  <nc:VoltageControlFunction rdf:ID="_a8fd4382-9548-4ffc-84dd-2849f4df35e0">
+    <cim:IdentifiedObject.mRID>a8fd4382-9548-4ffc-84dd-2849f4df35e0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PWM converter U(PCC) control</cim:IdentifiedObject.name>
+    <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+    <nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
+    <nc:FunctionBlock.AutomationFunction rdf:resource="#_36d3de6a-32e0-41e8-9496-369e17851f31"/>
+  </nc:VoltageControlFunction>
+  <nc:PinTerminal rdf:ID="_90a2aa34-a7ed-4026-bae7-6f4cd13ae35e">
+    <cim:IdentifiedObject.mRID>90a2aa34-a7ed-4026-bae7-6f4cd13ae35e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter measured U at PCC (remote)</cim:IdentifiedObject.name>
+    <nc:FunctionInputVariable.Function rdf:resource="#_a8fd4382-9548-4ffc-84dd-2849f4df35e0"/>
+    <nc:PinTerminal.Terminal rdf:resource="#_58da9eda-58b1-ef40-3030-6c94534d80d5"/>
+    <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltageMagnitude"/>
+  </nc:PinTerminal>
+  <nc:FunctionOutputVariable rdf:ID="_438eacaf-a62b-43cc-9339-e2d00d20d0a7">
+    <cim:IdentifiedObject.mRID>438eacaf-a62b-43cc-9339-e2d00d20d0a7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter reactive-power output</cim:IdentifiedObject.name>
+    <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_a8fd4382-9548-4ffc-84dd-2849f4df35e0"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.q"/>
+  </nc:FunctionOutputVariable>
+
+
+  <nc:ACDCConverterController rdf:ID="_bff12795-0fae-415f-8222-645b0f6f4937">
+    <cim:IdentifiedObject.mRID>bff12795-0fae-415f-8222-645b0f6f4937</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Britheim PWM converter control</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Groups the simultaneous control loops of VsConverter 305637bc-66b8-482c-858a-04f4b6ebc662.</cim:IdentifiedObject.description>
+    <nc:ACDCConverterController.ACDCConverter rdf:resource="#_305637bc-66b8-482c-858a-04f4b6ebc662"/>
+    <nc:AutomationFunction.normalEnabled>true</nc:AutomationFunction.normalEnabled>
+  </nc:ACDCConverterController>
+
+
+  <nc:ReactivePowerControlFunction rdf:ID="_8da9c17d-e286-441b-80d1-abd039777dda">
+    <cim:IdentifiedObject.mRID>8da9c17d-e286-441b-80d1-abd039777dda</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PWM converter Q(PCC) control</cim:IdentifiedObject.name>
+    <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+    <nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
+    <nc:FunctionBlock.AutomationFunction rdf:resource="#_bff12795-0fae-415f-8222-645b0f6f4937"/>
+  </nc:ReactivePowerControlFunction>
+  <nc:PinTerminal rdf:ID="_76bf23e5-f16a-4870-8910-4a62e767b83a">
+    <cim:IdentifiedObject.mRID>76bf23e5-f16a-4870-8910-4a62e767b83a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter measured Q at PCC (remote)</cim:IdentifiedObject.name>
+    <nc:FunctionInputVariable.Function rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
+    <nc:PinTerminal.Terminal rdf:resource="#_8f821de9-50a4-cdf6-7171-e5c21f20836f"/>
+    <nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.reactivePower"/>
+  </nc:PinTerminal>
+  <nc:FunctionOutputVariable rdf:ID="_754ccef5-6dcf-4462-957a-4b534707b03a">
+    <cim:IdentifiedObject.mRID>754ccef5-6dcf-4462-957a-4b534707b03a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter reactive-power output</cim:IdentifiedObject.name>
+    <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_8da9c17d-e286-441b-80d1-abd039777dda"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.q"/>
+  </nc:FunctionOutputVariable>
+
+  <nc:DCVoltageControlFunction rdf:ID="_73280b37-3ebd-4711-af42-fd6a9e3979c9">
+    <cim:IdentifiedObject.mRID>73280b37-3ebd-4711-af42-fd6a9e3979c9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>PWM converter Udc control</cim:IdentifiedObject.name>
+    <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+    <nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
+    <nc:FunctionBlock.AutomationFunction rdf:resource="#_bff12795-0fae-415f-8222-645b0f6f4937"/>
+  </nc:DCVoltageControlFunction>
+  <nc:PinDCTerminal rdf:ID="_8fba85cd-935c-4b5a-ab39-037aa86e7736">
+    <cim:IdentifiedObject.mRID>8fba85cd-935c-4b5a-ab39-037aa86e7736</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter measured Udc</cim:IdentifiedObject.name>
+    <nc:FunctionInputVariable.Function rdf:resource="#_73280b37-3ebd-4711-af42-fd6a9e3979c9"/>
+    <nc:PinDCTerminal.DCTerminal rdf:resource="#_6c00266d-c911-e111-fd3f-db984969578c"/>
+    <nc:PinDCTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinDCTerminalKind.voltage"/>
+  </nc:PinDCTerminal>
+  <nc:FunctionOutputVariable rdf:ID="_a12ecb98-4178-462f-8cc5-6121084a314f">
+    <cim:IdentifiedObject.mRID>a12ecb98-4178-462f-8cc5-6121084a314f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Converter DC voltage output</cim:IdentifiedObject.name>
+    <nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_73280b37-3ebd-4711-af42-fd6a9e3979c9"/>
+    <nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#ACDCConverter.udc"/>
+  </nc:FunctionOutputVariable>
+</rdf:RDF>

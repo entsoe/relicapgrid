@@ -8,6 +8,16 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
+<urn:uuid:6919236e-4247-4cf1-9efd-b6928d4cb484>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/EquipmentReliability/2.4> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "This is the equipment reliability dataset for Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_ER.xml>;
+        dcat:isDistributionOf  <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-ER> .
+
 <urn:uuid:ba3dc01a-fa68-4886-b053-2737e1276d27>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
@@ -23,7 +33,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_SSI_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:50a0db19-07a0-464e-98ef-632638db6776>;
+        dcat:distribution     <urn:uuid:e2eddb85-769b-463d-b52c-319431b33889>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-SSI>;
         dcat:keyword          "SSI";
@@ -45,22 +55,22 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_CO_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:517847f0-4a46-4deb-8008-fbb2d6e8ab20>;
+        dcat:distribution     <urn:uuid:b780fa92-5856-49f1-809b-698ee5db2c4d>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-CO>;
         dcat:keyword          "CO";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
 
-<urn:uuid:c8205ba6-0a2d-4e29-b372-04d40d82bab2>
+<urn:uuid:e2eddb85-769b-463d-b52c-319431b33889>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
-        dcterms:description    "This is an example of remedial action schedule profile that Svedala proposes for the FAP process."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_FAP_RAS_simple.xml>;
-        dcat:isDistributionOf  <urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5>;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/SteadyStateInstruction/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
+        dcterms:description    "This is the steady state instruction dataset for Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_SSI.xml>;
+        dcat:isDistributionOf  <urn:uuid:ba3dc01a-fa68-4886-b053-2737e1276d27>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
         prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RAS-FAP> .
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-SSI> .
 
 <urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5>
         rdf:type              dcat:Dataset;
@@ -77,32 +87,12 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20250615_Svedala_IGM-FAP_RAS_v3-0-0-beta-1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:c8205ba6-0a2d-4e29-b372-04d40d82bab2>;
+        dcat:distribution     <urn:uuid:4bab9b68-c07a-40e3-b4f9-3636830fa0a5>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS-FAP>;
         dcat:keyword          "FAP";
         dcat:startDate        "2025-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "3.0.0-beta-1" .
-
-<urn:uuid:9e07cd7a-ec6f-4777-8f36-a9dff721de01>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/EquipmentReliability/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description    "This is the equipment reliability dataset for Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_ER.xml>;
-        dcat:isDistributionOf  <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-ER> .
-
-<urn:uuid:9a9e1126-255e-4a8e-aa6f-c11ba34695d3>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/Contingency/2.3> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
-        dcterms:description    "This is an example of Svedala's exporting contingency dataset (i.e. defining external contingencies) of the neighbour Belgovia."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala-Belgovia_CO.xml>;
-        dcat:isDistributionOf  <urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-05-15T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/IGMx-CO> .
 
 <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>
         rdf:type              dcat:Dataset;
@@ -119,21 +109,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20241203_Svedala_AS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:9cb723f3-067d-404b-9a63-f583ff406dbe>;
+        dcat:distribution     <urn:uuid:616fcd6b-bef0-4b73-8ef5-1f11083543f4>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-AS>;
         dcat:keyword          "AS";
         dcat:startDate        "2024-12-03T10:00:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
-
-<urn:uuid:3c404f7d-309f-45ba-81b4-b2ac08709199>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/Provenance/1.0> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
-        dcterms:description    "Provenance (PV) dataset for FAP [prototype under discussion]."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_FAP_PV.xml>;
-        dcat:isDistributionOf  <urn:uuid:501e6690-60d1-4023-ab35-fe41b7310e03>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-14T11:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/PV> .
 
 <urn:uuid:2426ac74-18f0-441c-9814-3f06655302e6>
         rdf:type              dcat:Dataset;
@@ -150,12 +130,29 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_SIS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:0b096f9e-aa17-44c1-8a8e-cd004e917d0a>;
+        dcat:distribution     <urn:uuid:f49ad709-8b06-48ff-b43b-7fbf36d897b9>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-SIS>;
         dcat:keyword          "SIS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
+
+<urn:uuid:9f640621-10f5-42ed-b719-65138291c4f0>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <https://ap.cim4.eu/SteadyStateInstruction/2.4> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <https://ap.cim4.eu/Provenance/1.0> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://ap.cim4.eu/EquipmentReliability/2.4> , <https://ap.cim4.eu/AssessedElement/2.4> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/Contingency/2.3>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "f640621-10f5-42ed-b719-65138291c4f0";
+        dcterms:issued        "2024-12-03T10:00:00Z"^^xsd:dateTime , "2025-06-15T22:30:00Z"^^xsd:dateTime , "2025-05-20T18:00:00Z"^^xsd:dateTime , "2022-06-15T22:30:00Z"^^xsd:dateTime , "2025-02-14T12:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/test/party/TSO-Svedala> , <https://energy.referencedata.eu/test/party/RCC-Jotunheim>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/HV-Belgovia> , <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System> , <https://energy.referencedata.eu/Frame/Svedala-Power-Transmission-System>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:baf8c34a-4944-4309-8d9f-8f39c3e4bac1> , <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507> , <urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5> , <urn:uuid:67b33697-15a1-4752-aeee-fb9b488defc4> , <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354> , <urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a> , <urn:uuid:501e6690-60d1-4023-ab35-fe41b7310e03> , <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202> , <urn:uuid:ba3dc01a-fa68-4886-b053-2737e1276d27> , <urn:uuid:e6b94ef6-e043-4d29-a258-1718d6d2f507> , <urn:uuid:2426ac74-18f0-441c-9814-3f06655302e6> , <urn:uuid:adaaff90-c3bd-463b-a405-b84d7389b351> , <urn:uuid:126cd132-af5b-420c-9998-a646e338997e>;
+        dcat:version          "1.0.0" , "3.0.0-beta-1" .
 
 <urn:uuid:67b33697-15a1-4752-aeee-fb9b488defc4>
         rdf:type              dcat:Dataset;
@@ -172,16 +169,36 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:8f2fc62f-0583-47d2-902f-5b211bb23b9b>;
+        dcat:distribution     <urn:uuid:017d9ecc-3e01-492b-8107-7bc2cac4eb8d>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
 
-<urn:uuid:28f150a0-0f03-4c9a-ba4a-e7ab5faed330>
+<urn:uuid:3cbc417f-953f-4041-9db2-8598cb1d39df>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/AssessedElement/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:conformsTo     <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/Provenance/1.0> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
+        dcterms:description    "Provenance (PV) dataset for FAP [prototype under discussion]."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_FAP_PV.xml>;
+        dcat:isDistributionOf  <urn:uuid:501e6690-60d1-4023-ab35-fe41b7310e03>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-14T11:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/PV> .
+
+<urn:uuid:616fcd6b-bef0-4b73-8ef5-1f11083543f4>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "This is the example for availability schedule dataset for Svedala part of ReliCapGrid"@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_AS.xml>;
+        dcat:isDistributionOf  <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2024-12-03T10:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/OPC-AS> .
+
+<urn:uuid:47cc8930-7fb3-4a92-8faa-5b609a2c6102>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/AssessedElement/2.4>;
         dcterms:description    "This is assessed element dataset for Svedala part of ReliCapGrid."@en;
         dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_AE.xml>;
         dcat:isDistributionOf  <urn:uuid:126cd132-af5b-420c-9998-a646e338997e>;
@@ -189,9 +206,39 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-AE> .
 
-<urn:uuid:0b096f9e-aa17-44c1-8a8e-cd004e917d0a>
+<urn:uuid:4bab9b68-c07a-40e3-b4f9-3636830fa0a5>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:conformsTo     <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "This is an example of remedial action schedule profile that Svedala proposes for the FAP process."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_FAP_RAS_simple.xml>;
+        dcat:isDistributionOf  <urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RAS-FAP> .
+
+<urn:uuid:017d9ecc-3e01-492b-8107-7bc2cac4eb8d>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:description    "This is the remedial action schedule dataset for Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RAS_Jotunheim_agreed.xml>;
+        dcat:isDistributionOf  <urn:uuid:67b33697-15a1-4752-aeee-fb9b488defc4>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RAS> .
+
+<urn:uuid:b780fa92-5856-49f1-809b-698ee5db2c4d>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/Contingency/2.3>;
+        dcterms:description    "This is the contingency dataset for Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_CO.xml>;
+        dcat:isDistributionOf  <urn:uuid:e6b94ef6-e043-4d29-a258-1718d6d2f507>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-CO> .
+
+<urn:uuid:f49ad709-8b06-48ff-b43b-7fbf36d897b9>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <https://cim4.eu/ns/nc/2.4#>;
         dcterms:description    "This is the state instruction schedule dataset for Svedala part of ReliCapGrid."@en;
         dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_SIS.xml>;
         dcat:isDistributionOf  <urn:uuid:2426ac74-18f0-441c-9814-3f06655302e6>;
@@ -214,11 +261,31 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/HV-Belgovia>;
         dcterms:title         "202505_TSO-Svedala_HV-Belgovia_IGMx-CO";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:9a9e1126-255e-4a8e-aa6f-c11ba34695d3>;
+        dcat:distribution     <urn:uuid:33b020a6-ea1a-4462-b7f7-e37e794ad0d6>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-HV-Belgovia_CO>;
         dcat:keyword          "CO";
         dcat:startDate        "2025-05-20T18:00:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
+
+<urn:uuid:3c14a7f4-1c3c-4128-9a75-4355b512eb28>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "This is an example of remedial action schedule profile dataset proposed by a TSO."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RAS_acceptance_proposal.xml>;
+        dcat:isDistributionOf  <urn:uuid:adaaff90-c3bd-463b-a405-b84d7389b351>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Action/CGM-RAS> .
+
+<urn:uuid:33b020a6-ea1a-4462-b7f7-e37e794ad0d6>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/Contingency/2.3> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:description    "This is an example of Svedala's exporting contingency dataset (i.e. defining external contingencies) of the neighbour Belgovia."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala-Belgovia_CO.xml>;
+        dcat:isDistributionOf  <urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-05-15T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/IGMx-CO> .
 
 <urn:uuid:baf8c34a-4944-4309-8d9f-8f39c3e4bac1>
         rdf:type              dcat:Dataset;
@@ -235,29 +302,12 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:6f0e0ada-25b4-4f73-99a8-b13ed3eac3d4>;
+        dcat:distribution     <urn:uuid:3576c145-bc9c-4d4a-bbb6-e5bcb29c6507>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
-
-<urn:uuid:29e78908-e222-40f8-a602-124e6df5838d>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <https://ap.cim4.eu/AssessedElement/2.4> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/Provenance/1.0> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <https://ap.cim4.eu/EquipmentReliability/2.4> , <https://ap.cim4.eu/SteadyStateInstruction/2.4> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <https://ap.cim4.eu/Contingency/2.3> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "e78908-e222-40f8-a602-124e6df5838d";
-        dcterms:issued        "2025-06-15T22:30:00Z"^^xsd:dateTime , "2025-05-20T18:00:00Z"^^xsd:dateTime , "2024-12-03T10:00:00Z"^^xsd:dateTime , "2025-02-14T12:00:00Z"^^xsd:dateTime , "2022-06-15T22:30:00Z"^^xsd:dateTime;
-        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
-        dcterms:publisher     <https://energy.referencedata.eu/test/party/TSO-Svedala> , <https://energy.referencedata.eu/test/party/RCC-Jotunheim>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "ENTSO-E";
-        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System> , <https://energy.referencedata.eu/Test/Frame/HV-Belgovia> , <https://energy.referencedata.eu/Frame/Svedala-Power-Transmission-System>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:aa129d49-f7af-4b87-942d-aa1e8e4e14a5> , <urn:uuid:ba3dc01a-fa68-4886-b053-2737e1276d27> , <urn:uuid:67b33697-15a1-4752-aeee-fb9b488defc4> , <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507> , <urn:uuid:e6b94ef6-e043-4d29-a258-1718d6d2f507> , <urn:uuid:126cd132-af5b-420c-9998-a646e338997e> , <urn:uuid:2426ac74-18f0-441c-9814-3f06655302e6> , <urn:uuid:de29a7aa-989c-4c0c-9cea-807b38fd533a> , <urn:uuid:baf8c34a-4944-4309-8d9f-8f39c3e4bac1> , <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202> , <urn:uuid:adaaff90-c3bd-463b-a405-b84d7389b351> , <urn:uuid:501e6690-60d1-4023-ab35-fe41b7310e03> , <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>;
-        dcat:version          "3.0.0-beta-1" , "1.0.0" .
 
 <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507>
         rdf:type              dcat:Dataset;
@@ -274,12 +324,22 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_RA_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:992683ce-bdc0-4a56-9a83-ae0784b9294f>;
+        dcat:distribution     <urn:uuid:eb11470d-906c-42a8-b15d-78ec0b822c6c>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-RA>;
         dcat:keyword          "RA";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
+
+<urn:uuid:eb11470d-906c-42a8-b15d-78ec0b822c6c>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://ap.cim4.eu/RemedialAction/2.4> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description    "This is the remedial action dataset for Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RA.xml>;
+        dcat:isDistributionOf  <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RA> .
 
 <urn:uuid:e54a29a9-de39-4ac0-b7c2-8dc935657202>
         rdf:type              dcat:Dataset;
@@ -296,7 +356,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_ER_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:9e07cd7a-ec6f-4777-8f36-a9dff721de01>;
+        dcat:distribution     <urn:uuid:6919236e-4247-4cf1-9efd-b6928d4cb484>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-ER>;
         dcat:keyword          "ER";
@@ -318,7 +378,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_AE_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:28f150a0-0f03-4c9a-ba4a-e7ab5faed330>;
+        dcat:distribution     <urn:uuid:47cc8930-7fb3-4a92-8faa-5b609a2c6102>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-AE>;
         dcat:keyword          "AE";
@@ -339,65 +399,15 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20250214__Svedala_IGM-FAP_PV_v3-0-0-beta-1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:3c404f7d-309f-45ba-81b4-b2ac08709199>;
+        dcat:distribution     <urn:uuid:3cbc417f-953f-4041-9db2-8598cb1d39df>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/TSO-Svedala-FAP-PV>;
         dcat:keyword          "Provenance" , "PV";
         dcat:startDate        "2024-12-31T23:00:00Z"^^xsd:dateTime;
         dcat:version          "3.0.0-beta-1" .
 
-<urn:uuid:8f2fc62f-0583-47d2-902f-5b211bb23b9b>
+<urn:uuid:3576c145-bc9c-4d4a-bbb6-e5bcb29c6507>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
-        dcterms:description    "This is the remedial action schedule dataset for Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RAS_Jotunheim_agreed.xml>;
-        dcat:isDistributionOf  <urn:uuid:67b33697-15a1-4752-aeee-fb9b488defc4>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RAS> .
-
-<urn:uuid:f10143de-89d6-4c73-bc21-d391b999c044>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#>;
-        dcterms:description    "This is an example of remedial action schedule profile dataset proposed by a TSO."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RAS_acceptance_proposal.xml>;
-        dcat:isDistributionOf  <urn:uuid:adaaff90-c3bd-463b-a405-b84d7389b351>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Action/CGM-RAS> .
-
-<urn:uuid:50a0db19-07a0-464e-98ef-632638db6776>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/SteadyStateInstruction/2.4>;
-        dcterms:description    "This is the steady state instruction dataset for Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_SSI.xml>;
-        dcat:isDistributionOf  <urn:uuid:ba3dc01a-fa68-4886-b053-2737e1276d27>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-SSI> .
-
-<urn:uuid:9cb723f3-067d-404b-9a63-f583ff406dbe>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
-        dcterms:description    "This is the example for availability schedule dataset for Svedala part of ReliCapGrid"@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_AS.xml>;
-        dcat:isDistributionOf  <urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2024-12-03T10:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/OPC-AS> .
-
-<urn:uuid:517847f0-4a46-4deb-8008-fbb2d6e8ab20>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/Contingency/2.3> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
-        dcterms:description    "This is the contingency dataset for Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_CO.xml>;
-        dcat:isDistributionOf  <urn:uuid:e6b94ef6-e043-4d29-a258-1718d6d2f507>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-CO> .
-
-<urn:uuid:6f0e0ada-25b4-4f73-99a8-b13ed3eac3d4>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/RemedialActionSchedule/2.4>;
         dcterms:description    "This is the remedial action schedule dataset for Svedala part of ReliCapGrid."@en;
         dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RAS_Jotunheim_proposed.xml>;
         dcat:isDistributionOf  <urn:uuid:baf8c34a-4944-4309-8d9f-8f39c3e4bac1>;
@@ -420,19 +430,9 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_Svedala_RAS_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:f10143de-89d6-4c73-bc21-d391b999c044>;
+        dcat:distribution     <urn:uuid:3c14a7f4-1c3c-4128-9a75-4355b512eb28>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-RAS>;
         dcat:keyword          "RAS";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
-
-<urn:uuid:992683ce-bdc0-4a56-9a83-ae0784b9294f>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://cim4.eu/ns/nc/2.4#>;
-        dcterms:description    "This is the remedial action dataset for Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:Instance/Svedala/NetworkCode/cimxml/Svedala_RA.xml>;
-        dcat:isDistributionOf  <urn:uuid:f7b94ef6-e043-4d2a-a359-2718e6e20507>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2022-06-10T07:06:25Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RA> .

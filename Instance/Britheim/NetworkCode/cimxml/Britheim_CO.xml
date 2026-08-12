@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:nc="https://cim4.eu/ns/nc#"
+    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#" >
+  <dcat:Dataset rdf:about="urn:uuid:7f3d50ef-9075-4143-b225-e57cd60df603">
+    <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
+    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
+    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
+    <dcterms:description xml:lang="en">This is the contingency dataset for Britheim part of ReliCapGrid.</dcterms:description>
+    <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
+    <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>
+    <dcterms:identifier>7f3d50ef-9075-4143-b225-e57cd60df603</dcterms:identifier>
+    <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/Test/Model/Britheim-CO"/>
+    <dcat:keyword>CO</dcat:keyword>
+    <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Britheim"/>
+    <dcterms:rights>Copyright</dcterms:rights>
+    <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
+    <dcterms:title>20220615_Britheim_CO_1.0.0</dcterms:title>
+    <dcat:version>1.0.0</dcat:version>
+    <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-CO"/>
+    <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Britheim-Power-Transmission-System"/>
+    <dcterms:issued>2022-06-15T22:30:00Z</dcterms:issued>
+  </dcat:Dataset>
+  <cim:ContingencyEquipment rdf:ID="_f0fd459b-e477-44d3-9ed7-6398ff63f037">
+    <cim:ContingencyElement.Contingency rdf:resource="#_fb3a0672-5519-4a19-a10e-3989cc00af7c"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_4f596733-a6a7-4c69-b9b7-86e51e4c4ba2"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch ACLineBH1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f0fd459b-e477-44d3-9ed7-6398ff63f037</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE1_ACLineBH1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_fb3a0672-5519-4a19-a10e-3989cc00af7c">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_37136f0f-5ab2-40ab-a823-d8a5d47a4847"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch ACLineBH1 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>fb3a0672-5519-4a19-a10e-3989cc00af7c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO1_ACLineBH1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_c1ba4068-edb4-469f-a7cd-039a78225d6e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_adba192b-f4ea-4c57-b390-59b3c5abaf9c"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_ac8bce1d-a786-46ce-bbff-72ae5261ca87"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_HVDC_GA_BH-GA_1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c1ba4068-edb4-469f-a7cd-039a78225d6e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE2_TieLine_HVDC_GA_BH_GA_1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_adba192b-f4ea-4c57-b390-59b3c5abaf9c">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_37136f0f-5ab2-40ab-a823-d8a5d47a4847"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_HVDC_GA_BH-GA_1 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>adba192b-f4ea-4c57-b390-59b3c5abaf9c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO2_TieLine_HVDC_GA_BH_GA_1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+</rdf:RDF>

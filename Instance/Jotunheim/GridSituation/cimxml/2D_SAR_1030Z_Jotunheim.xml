@@ -2,7 +2,6 @@
 <rdf:RDF
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:time="http://www.w3.org/2006/time#"
-    xmlns:eumd="http://entsoe.eu/ns/Metadata-European#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
     xmlns:nc="https://cim4.eu/ns/nc#"
     xmlns:prov="http://www.w3.org/ns/prov#"

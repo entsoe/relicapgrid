@@ -42,4 +42,8 @@
     <nc:GeneratingUnit.isRamping>false</nc:GeneratingUnit.isRamping>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </nc:EquivalentGeneratingUnit>
+  <nc:ActivePowerControlFunction rdf:about="#_8d9df89c-b2c4-425f-8f79-eb1f669cac36">
+    <nc:FunctionBlock.enabled>true</nc:FunctionBlock.enabled>
+    <nc:ActivePowerControlFunction.targetValue>250</nc:ActivePowerControlFunction.targetValue>
+  </nc:ActivePowerControlFunction>
 </rdf:RDF>

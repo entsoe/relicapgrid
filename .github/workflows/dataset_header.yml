@@ -1,0 +1,140 @@
+name: Dataset Header
+
+# Manually-triggered validator / auto-fixer for the DCAT dataset headers.
+# Drives buildScripts/validate_dataset_header.py and fix_dataset_header.py.
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "validate (report only) or fix (apply Tier-A fixes and open a PR)"
+        type: choice
+        options: [validate, fix]
+        default: validate
+      scope:
+        description: "Which headers to process"
+        type: choice
+        options: [networkcode, all]
+        default: networkcode
+      strict:
+        description: "validate mode only: fail the run if any Tier-A violation remains"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  dataset-header:
+    name: ${{ inputs.mode }} (${{ inputs.scope }})
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: ${{ github.ref_name }}
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          enable-cache: true
+
+      # ----------------------------------------------------------- validate
+      - name: Validate headers
+        if: inputs.mode == 'validate'
+        shell: bash
+        run: |
+          set -eo pipefail
+          uv run python buildScripts/validate_dataset_header.py \
+            --scope "${{ inputs.scope }}" --details \
+            --json validation_report/dataset_header.json | tee report.txt
+          {
+            echo '## Dataset-header validation (`${{ inputs.scope }}`)'
+            echo
+            echo '```'
+            cat report.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload JSON report
+        if: always() && inputs.mode == 'validate'
+        uses: actions/upload-artifact@v7
+        with:
+          name: dataset-header-report
+          path: validation_report/dataset_header.json
+          if-no-files-found: warn
+          retention-days: 7
+
+      - name: Enforce strict gate
+        if: inputs.mode == 'validate' && inputs.strict
+        shell: bash
+        run: |
+          set -eo pipefail
+          count=$(jq '[.violations[] | select(.tier=="A")] | length' \
+            validation_report/dataset_header.json)
+          echo "Tier-A violations: $count"
+          if [ "$count" -gt 0 ]; then
+            echo "::error::$count Tier-A dataset-header violation(s) found (strict mode)."
+            exit 1
+          fi
+
+      # ---------------------------------------------------------------- fix
+      - name: Apply Tier-A fixes
+        if: inputs.mode == 'fix'
+        shell: bash
+        run: |
+          set -eo pipefail
+          uv run python buildScripts/fix_dataset_header.py \
+            --scope "${{ inputs.scope }}" --apply | tee fix.txt
+
+      - name: Re-validate after fix
+        if: inputs.mode == 'fix'
+        shell: bash
+        run: |
+          set -eo pipefail
+          uv run python buildScripts/validate_dataset_header.py \
+            --scope "${{ inputs.scope }}" --details | tee residual.txt
+          {
+            echo '## Residual violations after auto-fix (`${{ inputs.scope }}`)'
+            echo
+            echo '```'
+            cat residual.txt
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit fixes and open PR
+        if: inputs.mode == 'fix'
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -eo pipefail
+          if git diff --quiet -- Instance; then
+            echo "No header changes to commit." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          BRANCH="header-fix/${{ github.run_id }}"
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add Instance
+          git commit -m "Auto-fix Tier-A dataset-header violations (scope: ${{ inputs.scope }})"
+          git push origin "$BRANCH"
+          {
+            echo "# Auto-fixed Tier-A dataset headers"
+            echo
+            echo "Scope: \`${{ inputs.scope }}\` · triggered from \`${{ github.ref_name }}\` · run ${{ github.run_id }}"
+            echo
+            echo '## Applied fixes'
+            echo '```'
+            cat fix.txt
+            echo '```'
+            echo '## Residual (validator, post-fix)'
+            echo '```'
+            cat residual.txt
+            echo '```'
+          } > pr_body.md
+          URL=$(gh pr create --base "${{ github.ref_name }}" --head "$BRANCH" \
+            --title "Auto-fix Tier-A dataset headers (${{ inputs.scope }})" \
+            --body-file pr_body.md)
+          echo "Opened PR: $URL" | tee -a "$GITHUB_STEP_SUMMARY"

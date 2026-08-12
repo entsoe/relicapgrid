@@ -6,7 +6,7 @@
     xmlns:cim="http://iec.ch/TC57/CIM100#" > 
   <md:FullModel rdf:about="urn:uuid:33bd4875-01b7-4442-a5a2-dc04419143bf">
     <md:Model.DependentOn rdf:resource="urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3"/>
-    <md:Model.DependentOn rdf:resource="urn:uuid:7205352b-3af5-4bb1-a008-aba810e8a35d"/>
+    <md:Model.DependentOn rdf:resource="urn:uuid:e93aa4de-4f3a-401e-991e-8b6c47d05b76"/>
     <md:Model.created>2025-02-06T14:18:22Z</md:Model.created>
     <md:Model.description>The equipment dataset for Britheim, which is part of the ReliCapGrid.</md:Model.description>
     <md:Model.modelingAuthoritySet>http://britheim.bh/CGMES</md:Model.modelingAuthoritySet>
@@ -262,7 +262,7 @@
     <cim:IdentifiedObject.name>DCBranch1</cim:IdentifiedObject.name>
   </cim:DCLine>
   <cim:DCLineSegment rdf:ID="_cff312c8-7b7d-4058-bf79-2e100407d86c">
-    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>300</cim:DCConductingEquipment.ratedUdc>
     <cim:DCLineSegment.capacitance>0</cim:DCLineSegment.capacitance>
     <cim:DCLineSegment.inductance>0.05</cim:DCLineSegment.inductance>
     <cim:DCLineSegment.length>200</cim:DCLineSegment.length>
@@ -272,7 +272,7 @@
     <cim:IdentifiedObject.name>DCLine1</cim:IdentifiedObject.name>
   </cim:DCLineSegment>
   <cim:DCLineSegment rdf:ID="_fd89eb49-e2bf-4acb-8580-49da92a99c21">
-    <cim:DCConductingEquipment.ratedUdc>150</cim:DCConductingEquipment.ratedUdc>
+    <cim:DCConductingEquipment.ratedUdc>300</cim:DCConductingEquipment.ratedUdc>
     <cim:DCLineSegment.capacitance>0</cim:DCLineSegment.capacitance>
     <cim:DCLineSegment.inductance>0.05</cim:DCLineSegment.inductance>
     <cim:DCLineSegment.length>200</cim:DCLineSegment.length>

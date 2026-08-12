@@ -1,0 +1,712 @@
+@base   <https://cim.ucaiug.io/ns> .
+@prefix adms:    <http://www.w3.org/ns/adms#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix provcim: <https://cim4.eu/ns/provcim#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<https://energy.referencedata.eu/activity/VF-ER>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for EquipmentReliability (ER)."@en;
+        dcterms:identifier   "f9be9ef7-a8e0-4d87-9239-831d564bc941";
+        skos:notation        "VF-ER";
+        skos:prefLabel       "Verification-EquipmentReliability"@en .
+
+<https://energy.referencedata.eu/activity/VF-MCE>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for MarketCongestionEntities (MCE)."@en;
+        dcterms:identifier   "de05a6e1-5fcf-4c72-92e6-475b82783c71";
+        skos:notation        "VF-MCE";
+        skos:prefLabel       "Verification-MarketCongestionEntities"@en .
+
+<https://energy.referencedata.eu/activity/PUB-GD>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to GridDisturbance (GD)."@en;
+        dcterms:identifier   "4210e39e-25b0-425a-99d3-26914417cb05";
+        skos:notation        "PUB-GD";
+        skos:prefLabel       "Publication-GridDisturbance"@en .
+
+<https://energy.referencedata.eu/activity/SR-DY>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to Dynamics (DY) profile."@en;
+        dcterms:identifier   "04bc264b-1b95-4c5b-a3f8-dabaddd50967";
+        skos:notation        "SR-DY";
+        skos:prefLabel       "StructuralRepresentation-Dynamics"@en .
+
+<https://energy.referencedata.eu/activity/AD-DMP>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Assumption definition complying to Detailed Model Parameterisation (DMP) profile."@en;
+        dcterms:identifier   "a9d0ce04-2479-4081-94b0-bc288601048e";
+        skos:notation        "AD-DMP";
+        skos:prefLabel       "AssumptionDefinition-Detailed Model Parameterisation"@en .
+
+<https://energy.referencedata.eu/activity/VF-ACK>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Acknowledgement (ACK)."@en;
+        dcterms:identifier   "2557eb91-c16c-4e7a-b44b-ee26b6dc0708";
+        skos:notation        "VF-ACK";
+        skos:prefLabel       "Verification-Acknowledgement"@en .
+
+<https://energy.referencedata.eu/activity/SR-ER>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to EquipmentReliability (ER) profile."@en;
+        dcterms:identifier   "26d1bdaf-3d81-423e-8f01-90103612b417";
+        skos:notation        "SR-ER";
+        skos:prefLabel       "StructuralRepresentation-EquipmentReliability"@en .
+
+<https://energy.referencedata.eu/activity/VF-EQBD>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for EquipmentBoundary (EQBD)."@en;
+        dcterms:identifier   "3a7cebbf-0a0e-4f39-a7ff-827e5be5d7c7";
+        skos:notation        "VF-EQBD";
+        skos:prefLabel       "Verification-EquipmentBoundary"@en .
+
+<https://energy.referencedata.eu/activity/SD-PS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to PowerSchedule (PS) profile."@en;
+        dcterms:identifier   "5310570f-9e1e-4808-9e1e-7072b7368f93";
+        skos:notation        "SD-PS";
+        skos:prefLabel       "ScheduleDefinition-PowerSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-RAS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for RemedialActionSchedule (RAS)."@en;
+        dcterms:identifier   "acf73b67-2c82-4075-b984-8b4977d70ed5";
+        skos:notation        "VF-RAS";
+        skos:prefLabel       "Verification-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/AC-SSH>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to SteadyStateHypothesis (SSH) profile."@en;
+        dcterms:identifier   "e89cd874-c9b8-48f5-906c-4329c907b34a";
+        skos:notation        "AC-SSH";
+        skos:prefLabel       "AnalyticalComputation-SteadyStateHypothesis"@en .
+
+<https://energy.referencedata.eu/activity/VF-DMP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Detailed Model Parameterisation (DMP)."@en;
+        dcterms:identifier   "6f2e4dac-08e5-4b7f-955b-c3e9a2f80da1";
+        skos:notation        "VF-DMP";
+        skos:prefLabel       "Verification-Detailed Model Parameterisation"@en .
+
+<https://energy.referencedata.eu/activity/VF-GD>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for GridDisturbance (GD)."@en;
+        dcterms:identifier   "9c626aba-2f45-4524-bf29-27c917c5099f";
+        skos:notation        "VF-GD";
+        skos:prefLabel       "Verification-GridDisturbance"@en .
+
+<https://energy.referencedata.eu/activity/VF-TPBD>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for TopologyBoundary (TPBD)."@en;
+        dcterms:identifier   "21f0edf9-7969-4373-8e12-d700384b672d";
+        skos:notation        "VF-TPBD";
+        skos:prefLabel       "Verification-TopologyBoundary"@en .
+
+<https://energy.referencedata.eu/activity/REQ-RAS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Formal request complying to Remedial Action Schedule (RAS)"@en;
+        dcterms:identifier   "cd6012ae-9ca8-41e0-8d07-1cda33326871";
+        skos:notation        "REQ-RAS";
+        skos:prefLabel       "Request-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-MCS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for MarketCongestionSchedule (MCS)."@en;
+        dcterms:identifier   "545d9645-c36f-4522-ad5b-84af164fbd78";
+        skos:notation        "VF-MCS";
+        skos:prefLabel       "Verification-MarketCongestionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/AD-SSH>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Assumption definition complying to SteadyStateHypothesis (SSH) profile."@en;
+        dcterms:identifier   "edcd982f-495c-46b8-9b08-8155ffbc9a74";
+        skos:notation        "AD-SSH";
+        skos:prefLabel       "AssumptionDefinition-SteadyStateHypothesis"@en .
+
+<https://energy.referencedata.eu/activity/AC-MA>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to MonitoringArea (MA) profile."@en;
+        dcterms:identifier   "89891fc4-1a25-480f-a4e8-971957ec707f";
+        skos:notation        "AC-MA";
+        skos:prefLabel       "AnalyticalComputation-MonitoringArea"@en .
+
+<https://energy.referencedata.eu/activity/AC-SR>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to Simulation Results (SR) profile."@en;
+        dcterms:identifier   "153ce424-8294-46c7-bc12-daa36614ff4f";
+        skos:notation        "AC-SR";
+        skos:prefLabel       "AnalyticalComputation-Simulation Results"@en .
+
+<https://energy.referencedata.eu/activity/VF-SP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Spatial (SP)."@en;
+        dcterms:identifier   "e5cc0856-0800-465b-b83f-1f1bfe4268e3";
+        skos:notation        "VF-SP";
+        skos:prefLabel       "Verification-Spatial"@en .
+
+<https://energy.referencedata.eu/activity/AD-MCI>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Assumption definition complying to MarketCongestionInstruction (MCI) profile."@en;
+        dcterms:identifier   "e2f18b95-ff0b-4683-825e-b316cb5c6b5f";
+        skos:notation        "AD-MCI";
+        skos:prefLabel       "AssumptionDefinition-MarketCongestionInstruction"@en .
+
+<https://energy.referencedata.eu/activity/AC-TP>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to Topology (TP) profile."@en;
+        dcterms:identifier   "29a1e009-cc7d-45ce-8d98-6c56f5c79ad3";
+        skos:notation        "AC-TP";
+        skos:prefLabel       "AnalyticalComputation-Topology"@en .
+
+<https://energy.referencedata.eu/activity/VF-SSH>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for SteadyStateHypothesis (SSH)."@en;
+        dcterms:identifier   "415e58b7-5010-4224-bda9-706413ff64ce";
+        skos:notation        "VF-SSH";
+        skos:prefLabel       "Verification-SteadyStateHypothesis"@en .
+
+<https://energy.referencedata.eu/activity/VF-DL>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for DiagramLayout (DL)."@en;
+        dcterms:identifier   "0292eada-2133-4afc-93c8-3ebf8f7b35f4";
+        skos:notation        "VF-DL";
+        skos:prefLabel       "Verification-DiagramLayout"@en .
+
+<https://energy.referencedata.eu/activity/VF-PE>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for ProtectionEquipment (PE)."@en;
+        dcterms:identifier   "164995b1-5a54-4336-8222-f811016db7a4";
+        skos:notation        "VF-PE";
+        skos:prefLabel       "Verification-ProtectionEquipment"@en .
+
+<https://energy.referencedata.eu/activity/SR-MCE>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to MarketCongestionEntities (MCE) profile."@en;
+        dcterms:identifier   "808f0950-d690-401e-bad4-c9e75fc09dd9";
+        skos:notation        "SR-MCE";
+        skos:prefLabel       "StructuralRepresentation-MarketCongestionEntities"@en .
+
+<https://energy.referencedata.eu/activity/VF-RA>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for RemedialAction (RA)."@en;
+        dcterms:identifier   "d664540d-c75a-40df-9bb3-2c7a8cc773d5";
+        skos:notation        "VF-RA";
+        skos:prefLabel       "Verification-RemedialAction"@en .
+
+<https://energy.referencedata.eu/activity/PUB-MA>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to MonitoringArea (MA)."@en;
+        dcterms:identifier   "bffc3eb1-8631-498c-9487-5dcdbf57c98b";
+        skos:notation        "PUB-MA";
+        skos:prefLabel       "Publication-MonitoringArea"@en .
+
+<https://energy.referencedata.eu/activity/PUB-IAM>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to ImpactAssessmentMatrix (IAM)."@en;
+        dcterms:identifier   "6aee35c0-8d3c-48e6-b278-97cab5e35aa5";
+        skos:notation        "PUB-IAM";
+        skos:prefLabel       "Publication-ImpactAssessmentMatrix"@en .
+
+<https://energy.referencedata.eu/activity/PUB-SR>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to Simulation Results (SR)."@en;
+        dcterms:identifier   "3622202d-83fa-46f4-a39d-2fc264f50a27";
+        skos:notation        "PUB-SR";
+        skos:prefLabel       "Publication-Simulation Results"@en .
+
+<https://energy.referencedata.eu/activity/AS-SAR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Recognized assessment activity identity for assessing the SecurityAnalysisResults (SAR)."@en;
+        dcterms:identifier   "c8891baa-f684-4979-b8cb-63caad80a009";
+        skos:notation        "AS-SAR";
+        skos:prefLabel       "Assessment-SecurityAnalysisResults"@en .
+
+<https://energy.referencedata.eu/activity/VF-MCI>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for MarketCongestionInstruction (MCI)."@en;
+        dcterms:identifier   "51b4e6d1-c7b6-4e22-bd86-b3f63268c763";
+        skos:notation        "VF-MCI";
+        skos:prefLabel       "Verification-MarketCongestionInstruction"@en .
+
+<https://energy.referencedata.eu/activity/AC-SM>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to SensitivityMatrix (SM) profile."@en;
+        dcterms:identifier   "3a2f5ec8-2959-400c-8148-da11accb208a";
+        skos:notation        "AC-SM";
+        skos:prefLabel       "AnalyticalComputation-SensitivityMatrix"@en .
+
+<https://energy.referencedata.eu/activity/AC-IAM>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to ImpactAssessmentMatrix (IAM) profile."@en;
+        dcterms:identifier   "7320c336-ef3b-407a-ac9b-6e5a1a64cc32";
+        skos:notation        "AC-IAM";
+        skos:prefLabel       "AnalyticalComputation-ImpactAssessmentMatrix"@en .
+
+<https://energy.referencedata.eu/activity/VF-MF>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Manifest (MF)."@en;
+        dcterms:identifier   "95c6e31a-c627-4768-832e-8a73dab21773";
+        skos:notation        "VF-MF";
+        skos:prefLabel       "Verification-Manifest"@en .
+
+<https://energy.referencedata.eu/activity/VF-GPC>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for GridPowerCapacity (GPC)."@en;
+        dcterms:identifier   "6e607b9d-7d6d-4e92-a9aa-8817cc2c5780";
+        skos:notation        "VF-GPC";
+        skos:prefLabel       "Verification-GridPowerCapacity"@en .
+
+<https://energy.referencedata.eu/activity/SR-DL>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to DiagramLayout (DL) profile."@en;
+        dcterms:identifier   "c3864f6d-030e-4252-a778-86a99520af7f";
+        skos:notation        "SR-DL";
+        skos:prefLabel       "StructuralRepresentation-DiagramLayout"@en .
+
+<https://energy.referencedata.eu/activity/RES-RAS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Formal response complying to RemedialActionSchedule (RAS)."@en;
+        dcterms:identifier   "013ddc2f-db58-4c4d-a758-62e578297620";
+        skos:notation        "RES-RAS";
+        skos:prefLabel       "Response-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/PUB-SM>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to SensitivityMatrix (SM)."@en;
+        dcterms:identifier   "51f06006-8b2d-4d7d-a8ff-d38bbdb2d372";
+        skos:notation        "PUB-SM";
+        skos:prefLabel       "Publication-SensitivityMatrix"@en .
+
+<https://energy.referencedata.eu/activity/VF-EQ>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Core Equipment (EQ)."@en;
+        dcterms:identifier   "441835fe-8a39-4d0e-b6c0-935266138da9";
+        skos:notation        "VF-EQ";
+        skos:prefLabel       "Verification-EquipmentCore"@en .
+
+<https://energy.referencedata.eu/activity/SR-RA>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to RemedialAction (RA) profile."@en;
+        dcterms:identifier   "da563a46-8f5d-4ca3-a9ed-6b6eda93968d";
+        skos:notation        "SR-RA";
+        skos:prefLabel       "StructuralRepresentation-RemedialAction"@en .
+
+<https://energy.referencedata.eu/activity/VF-MA>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for MonitoringArea (MA)."@en;
+        dcterms:identifier   "d7f5faf4-e885-4244-8e90-a4b7a1554432";
+        skos:notation        "VF-MA";
+        skos:prefLabel       "Verification-MonitoringArea"@en .
+
+<https://energy.referencedata.eu/activity/VF-SR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Simulation Results (SR)."@en;
+        dcterms:identifier   "f520b72e-4634-49ea-be0a-f5941bf3dae5";
+        skos:notation        "VF-SR";
+        skos:prefLabel       "Verification-Simulation Results"@en .
+
+<https://energy.referencedata.eu/activity/VF-TP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Topology (TP)."@en;
+        dcterms:identifier   "a2d056f1-3a49-4cf0-ac45-4c7810c3c6c2";
+        skos:notation        "VF-TP";
+        skos:prefLabel       "Verification-Topology"@en .
+
+<https://energy.referencedata.eu/activity/AS-RAS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Recognized assessment activity identity for assessing the Remedial Action Schedule (RAS)."@en;
+        dcterms:identifier   "cd6012ae-9ca8-41e0-8d07-1cda33326871";
+        skos:notation        "AS-RAS";
+        skos:prefLabel       "Assessment-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-CP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for ChangeProject (CP)."@en;
+        dcterms:identifier   "7f30f37c-0845-44fb-b71a-79041fb1c487";
+        skos:notation        "VF-CP";
+        skos:prefLabel       "Verification-ChangeProject"@en .
+
+<https://energy.referencedata.eu/activity/SD-AS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to AvailabilitySchedule (AS) profile."@en;
+        dcterms:identifier   "d9613484-bb96-40b3-8477-c3822f91843e";
+        skos:notation        "SD-AS";
+        skos:prefLabel       "ScheduleDefinition-AvailabilitySchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-GCS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for GridPowerCapacitySchedule (GCS)."@en;
+        dcterms:identifier   "de00bb05-fd25-431c-b9c3-723e73812e01";
+        skos:notation        "VF-GCS";
+        skos:prefLabel       "Verification-GridPowerCapacitySchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-DMC>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Detailed Model Configuration (DMC)."@en;
+        dcterms:identifier   "bdeebda1-87b9-4d8a-a703-77084ab68b19";
+        skos:notation        "VF-DMC";
+        skos:prefLabel       "Verification-Detailed Model Configuration"@en .
+
+<https://energy.referencedata.eu/activity/SR-EQ>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to Core Equipment (EQ) profile."@en;
+        dcterms:identifier   "fc47623a-ddc3-4dec-80cc-bef95f5044a4";
+        skos:notation        "SR-EQ";
+        skos:prefLabel       "StructuralRepresentation-EquipmentCore"@en .
+
+<https://energy.referencedata.eu/activity/VF-PS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for PowerSchedule (PS)."@en;
+        dcterms:identifier   "1cc3dcc9-cfce-4cac-b38c-2e423fb94140";
+        skos:notation        "VF-PS";
+        skos:prefLabel       "Verification-PowerSchedule"@en .
+
+<https://energy.referencedata.eu/activity/SR-EQBD>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to EquipmentBoundary (EQBD) profile."@en;
+        dcterms:identifier   "e0a04325-63b8-4fff-8ba9-cbc69562550e";
+        skos:notation        "SR-EQBD";
+        skos:prefLabel       "StructuralRepresentation-EquipmentBoundary"@en .
+
+<https://energy.referencedata.eu/activity/VF-IAM>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for ImpactAssessmentMatrix (IAM)."@en;
+        dcterms:identifier   "ba45a7c2-49fb-4fc7-a861-510a704feb0f";
+        skos:notation        "VF-IAM";
+        skos:prefLabel       "Verification-ImpactAssessmentMatrix"@en .
+
+<https://energy.referencedata.eu/activity/VF-SM>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for SensitivityMatrix (SM)."@en;
+        dcterms:identifier   "808564d1-8f55-46cf-947b-cf10b3fd7bc2";
+        skos:notation        "VF-SM";
+        skos:prefLabel       "Verification-SensitivityMatrix"@en .
+
+<https://energy.referencedata.eu/activity/SR-MA>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to MonitoringArea (MA) profile."@en;
+        dcterms:identifier   "cbb86dd6-fa20-49bb-aacd-eea2fb4d65e3";
+        skos:notation        "SR-MA";
+        skos:prefLabel       "StructuralRepresentation-MonitoringArea"@en .
+
+<https://energy.referencedata.eu/activity/SD-SHS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to SteadyStateHypothesisSchedule (SHS) profile."@en;
+        dcterms:identifier   "62b9f879-0c5f-49b9-b5b7-d94202b3506d";
+        skos:notation        "SD-SHS";
+        skos:prefLabel       "ScheduleDefinition-SteadyStateHypothesisSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-OP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for EquipmentOperation (OP)."@en;
+        dcterms:identifier   "acea7dd3-1202-4a6e-a926-9b838797ef38";
+        skos:notation        "VF-OP";
+        skos:prefLabel       "Verification-EquipmentOperation"@en .
+
+<https://energy.referencedata.eu/activity/SR-TPBD>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to Topology Boundary (TPBD) profile."@en;
+        dcterms:identifier   "aa585ff7-fc14-4a43-8f7d-a0dcc26f2867";
+        skos:notation        "SR-TPBD";
+        skos:prefLabel       "StructuralRepresentation-TopologyBoundary"@en .
+
+<https://energy.referencedata.eu/activity/REQ-AS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Formal request complying to AvailabilitySchedule (AS)."@en;
+        dcterms:identifier   "b5f9ac8f-8081-4b27-8c0a-5656c03d075b";
+        skos:notation        "REQ-AS";
+        skos:prefLabel       "Request-AvailabilitySchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-PSP>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for PowerSystemProject (PSP)."@en;
+        dcterms:identifier   "47fa8c6f-8819-489b-8b8e-10696503ea98";
+        skos:notation        "VF-PSP";
+        skos:prefLabel       "Verification-PowerSystemProject"@en .
+
+<https://energy.referencedata.eu/activity/PUB-OR>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to ObjectRegistry (OR)."@en;
+        dcterms:identifier   "52a0dd3d-021c-4a6e-bfc0-af44458e4208";
+        skos:notation        "PUB-OR";
+        skos:prefLabel       "Publication-ObjectRegistry"@en .
+
+<https://energy.referencedata.eu/activity/AC-SV>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to StateVariables (SV) profile."@en;
+        dcterms:identifier   "9794fd8b-d574-4303-8123-4e1834392c2d";
+        skos:notation        "AC-SV";
+        skos:prefLabel       "AnalyticalComputation-StateVariables"@en .
+
+<https://energy.referencedata.eu/activity/VF-SC>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for EquipmentShortCircuit (SC)."@en;
+        dcterms:identifier   "4bbefb52-5883-4173-95cb-5ea91530e85c";
+        skos:notation        "VF-SC";
+        skos:prefLabel       "Verification-EquipmentShortCircuit"@en .
+
+<https://energy.referencedata.eu/activity/VF-AE>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for AssessedElement (AE)."@en;
+        dcterms:identifier   "e69e3af0-1a7a-4dc1-a7e6-c2ab52a5858e";
+        skos:notation        "VF-AE";
+        skos:prefLabel       "Verification-AssessedElement"@en .
+
+<https://energy.referencedata.eu/activity/SR-OP>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to EquipmentOperation (OP) profile."@en;
+        dcterms:identifier   "35b1d328-b0cb-4579-a63e-7b44aed0a90c";
+        skos:notation        "SR-OP";
+        skos:prefLabel       "StructuralRepresentation-EquipmentOperation"@en .
+
+<https://energy.referencedata.eu/activity/RES-AS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Formal response complying to AvailabilitySchedule (AS)."@en;
+        dcterms:identifier   "6c1cc461-9420-4d36-9ee3-36a40ccfdedf";
+        skos:notation        "RES-AS";
+        skos:prefLabel       "Response-AvailabilitySchedule"@en .
+
+<https://energy.referencedata.eu/ActivityScheme/NCP/1.0#collection_ncp_activity>
+        rdf:type            prov:Collection;
+        dcterms:identifier  "209d3b30-a355-4e1e-a831-c11c3eb514d7";
+        skos:prefLabel      "Collection of recognized activities identities for NCP."@en;
+        prov:hadMember      <https://energy.referencedata.eu/activity/SD-PS> , <https://energy.referencedata.eu/activity/SR-DY> , <https://energy.referencedata.eu/activity/AD-SET> , <https://energy.referencedata.eu/activity/VF-SC> , <https://energy.referencedata.eu/activity/SD-SIS> , <https://energy.referencedata.eu/activity/VF-GPC> , <https://energy.referencedata.eu/activity/VF-OP> , <https://energy.referencedata.eu/activity/SR-EQBD> , <https://energy.referencedata.eu/activity/VF-SSI> , <https://energy.referencedata.eu/activity/VF-MCE> , <https://energy.referencedata.eu/activity/SR-EQ> , <https://energy.referencedata.eu/activity/AC-SR> , <https://energy.referencedata.eu/activity/AD-DMP> , <https://energy.referencedata.eu/activity/PUB-IAM> , <https://energy.referencedata.eu/activity/AC-TP> , <https://energy.referencedata.eu/activity/VF-TP> , <https://energy.referencedata.eu/activity/VF-GD> , <https://energy.referencedata.eu/activity/AC-IAM> , <https://energy.referencedata.eu/activity/VF-AE> , <https://energy.referencedata.eu/activity/VF-VR> , <https://energy.referencedata.eu/activity/VF-MA> , <https://energy.referencedata.eu/activity/SR-OR> , <https://energy.referencedata.eu/activity/VF-PS> , <https://energy.referencedata.eu/activity/SR-DL> , <https://energy.referencedata.eu/activity/VF-EQBD> , <https://energy.referencedata.eu/activity/SR-RA> , <https://energy.referencedata.eu/activity/VF-SSH> , <https://energy.referencedata.eu/activity/PUB-SAR> , <https://energy.referencedata.eu/activity/AC-SAR> , <https://energy.referencedata.eu/activity/SD-RAS> , <https://energy.referencedata.eu/activity/SR-GL> , <https://energy.referencedata.eu/activity/VF-ER> , <https://energy.referencedata.eu/activity/VF-SM> , <https://energy.referencedata.eu/activity/VF-TPBD> , <https://energy.referencedata.eu/activity/VF-MCI> , <https://energy.referencedata.eu/activity/AC-SSI> , <https://energy.referencedata.eu/activity/RES-AS> , <https://energy.referencedata.eu/activity/AC-SV> , <https://energy.referencedata.eu/activity/VF-MF> , <https://energy.referencedata.eu/activity/VF-SAR> , <https://energy.referencedata.eu/activity/VF-RAS> , <https://energy.referencedata.eu/activity/VF-PR> , <https://energy.referencedata.eu/activity/SR-CO> , <https://energy.referencedata.eu/activity/VF-SIS> , <https://energy.referencedata.eu/activity/VF-PSP> , <https://energy.referencedata.eu/activity/PUB-OR> , <https://energy.referencedata.eu/activity/AC-MA> , <https://energy.referencedata.eu/activity/VF-DY> , <https://energy.referencedata.eu/activity/VF-SET> , <https://energy.referencedata.eu/activity/VF-SR> , <https://energy.referencedata.eu/activity/REQ-RAS> , <https://energy.referencedata.eu/activity/PUB-AS> , <https://energy.referencedata.eu/activity/VF-EQ> , <https://energy.referencedata.eu/activity/SD-AS> , <https://energy.referencedata.eu/activity/AC-SSH> , <https://energy.referencedata.eu/activity/VF-DMP> , <https://energy.referencedata.eu/activity/SR-OP> , <https://energy.referencedata.eu/activity/SR-SC> , <https://energy.referencedata.eu/activity/VF-ACK> , <https://energy.referencedata.eu/activity/VF-PE> , <https://energy.referencedata.eu/activity/SR-PSP> , <https://energy.referencedata.eu/activity/AD-SSI> , <https://energy.referencedata.eu/activity/AS-SAR> , <https://energy.referencedata.eu/activity/VF-MCS> , <https://energy.referencedata.eu/activity/PUB-SM> , <https://energy.referencedata.eu/activity/SR-DMC> , <https://energy.referencedata.eu/activity/VF-GCS> , <https://energy.referencedata.eu/activity/VF-RA> , <https://energy.referencedata.eu/activity/VF-CP> , <https://energy.referencedata.eu/activity/VF-DL> , <https://energy.referencedata.eu/activity/SR-AE> , <https://energy.referencedata.eu/activity/PUB-RAS> , <https://energy.referencedata.eu/activity/VF-OR> , <https://energy.referencedata.eu/activity/VF-SHS> , <https://energy.referencedata.eu/activity/SD-SHS> , <https://energy.referencedata.eu/activity/SR-MA> , <https://energy.referencedata.eu/activity/VF-AS> , <https://energy.referencedata.eu/activity/VF-GL> , <https://energy.referencedata.eu/activity/SD-MCS> , <https://energy.referencedata.eu/activity/AD-SSH> , <https://energy.referencedata.eu/activity/PUB-SR> , <https://energy.referencedata.eu/activity/VF-DMC> , <https://energy.referencedata.eu/activity/REQ-AS> , <https://energy.referencedata.eu/activity/VF-SV> , <https://energy.referencedata.eu/activity/AS-SR> , <https://energy.referencedata.eu/activity/PUB-GD> , <https://energy.referencedata.eu/activity/VF-SP> , <https://energy.referencedata.eu/activity/RES-RAS> , <https://energy.referencedata.eu/activity/VF-CO> , <https://energy.referencedata.eu/activity/AD-MCI> , <https://energy.referencedata.eu/activity/AS-RAS> , <https://energy.referencedata.eu/activity/SR-ER> , <https://energy.referencedata.eu/activity/VF-IAM> , <https://energy.referencedata.eu/activity/SR-TPBD> , <https://energy.referencedata.eu/activity/SR-MCE> , <https://energy.referencedata.eu/activity/PUB-MA> , <https://energy.referencedata.eu/activity/AC-SM> .
+
+<https://energy.referencedata.eu/activity/AC-SSI>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to SteadyStateInstruction (SSI) profile."@en;
+        dcterms:identifier   "77410d62-124d-4f1c-88e2-b3b36213ed6c";
+        skos:notation        "AC-SSI";
+        skos:prefLabel       "AnalyticalComputation-SteadyStateInstruction"@en .
+
+<https://energy.referencedata.eu/activity/SD-SIS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to StateInstructionSchedule (SIS) profile."@en;
+        dcterms:identifier   "b9c031f5-2ca0-4886-9872-e3d2efca2d36";
+        skos:notation        "SD-SIS";
+        skos:prefLabel       "ScheduleDefinition-StateInstructionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/PUB-AS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to AvailabilitySchedule (AS)."@en;
+        dcterms:identifier   "cac3405a-ce19-43cc-a755-3339048b52ab";
+        skos:notation        "PUB-AS";
+        skos:prefLabel       "Publication-AvailabilitySchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-OR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for ObjectRegistry (OR)."@en;
+        dcterms:identifier   "94a0268b-5c03-4834-98b5-6c400157420d";
+        skos:notation        "VF-OR";
+        skos:prefLabel       "Verification-ObjectRegistry"@en .
+
+<https://energy.referencedata.eu/activity/SR-SC>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to EquipmentShortCircuit (SC) profile."@en;
+        dcterms:identifier   "36b9f516-a58f-4016-8918-5b6dcaaecc9e";
+        skos:notation        "SR-SC";
+        skos:prefLabel       "StructuralRepresentation-EquipmentShortCircuit"@en .
+
+<https://energy.referencedata.eu/activity/SR-AE>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to AssessedElement (AE) profile."@en;
+        dcterms:identifier   "a5fa7e0f-1a84-4693-8f5c-2e57e30d7e44";
+        skos:notation        "SR-AE";
+        skos:prefLabel       "StructuralRepresentation-AssessedElement"@en .
+
+<https://energy.referencedata.eu/activity/PUB-SAR>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to SecurityAnalysisResults (SAR)."@en;
+        dcterms:identifier   "8b4c38ea-0a99-4dca-b4af-7f79f235bfd1";
+        skos:notation        "PUB-SAR";
+        skos:prefLabel       "Publication-SecurityAnalysisResults"@en .
+
+<https://energy.referencedata.eu/activity/VF-SHS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for SteadyStateHypothesisSchedule (SHS)."@en;
+        dcterms:identifier   "d8a40446-ba35-4b15-9886-4a14fe934a13";
+        skos:notation        "VF-SHS";
+        skos:prefLabel       "Verification-SteadyStateHypothesisSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-SV>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for StateVariables (SV)."@en;
+        dcterms:identifier   "4cfa4af9-4d16-43c8-ad0b-dfb79a3265ca";
+        skos:notation        "VF-SV";
+        skos:prefLabel       "Verification-StateVariables"@en .
+
+<https://energy.referencedata.eu/activity/AD-SET>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Assumption definition complying to Simulation Settings (SET) profile."@en;
+        dcterms:identifier   "f9f738b8-77f8-4320-97a1-58c7ff52ef1e";
+        skos:notation        "AD-SET";
+        skos:prefLabel       "AssumptionDefinition-Simulation Settings"@en .
+
+<https://energy.referencedata.eu/Activity-Collection/1.0>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:description   "Reference dataset containing recognized activity identities for use in provenance references."@en;
+        dcterms:hasPart       <https://energy.referencedata.eu/ActivityScheme/NCP/1.0#collection_ncp_activity>;
+        dcterms:identifier    "afab3d78-d706-466e-931a-db0bf847b904";
+        dcterms:issued        "2026-08-08T00:00:00Z";
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.entsoe.eu/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:title         "Activity-Collection_RD";
+        skos:definition       "Reference dataset listing recognized activity identities that should be used as the object of prov:wasGeneratedBy."@en;
+        skos:prefLabel        "Energy Reference Data Activity Collection"@en;
+        adms:versionNotes     "Initial version of the Energy Reference Data Activity Collection generated as part of ReliCapGrid test dataset."@en;
+        dcat:isVersionOf      <https://energy.referencedata.eu/Activity-Collection>;
+        dcat:version          "1.0.0";
+        prov:generatedAtTime  "2026-08-08T00:00:00Z" .
+
+<https://energy.referencedata.eu/activity/AD-SSI>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Assumption definition complying to SteadyStateInstruction (SSI) profile."@en;
+        dcterms:identifier   "399b624e-20f3-496d-97c9-3f29d542cf8a";
+        skos:notation        "AD-SSI";
+        skos:prefLabel       "AssumptionDefinition-SteadyStateInstruction"@en .
+
+<https://energy.referencedata.eu/activity/AC-SAR>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Analytical computation complying to SecurityAnalysisResults (SAR) profile."@en;
+        dcterms:identifier   "6446a768-ed79-4966-bbbc-38a9802e2a10";
+        skos:notation        "AC-SAR";
+        skos:prefLabel       "AnalyticalComputation-SecurityAnalysisResults"@en .
+
+<https://energy.referencedata.eu/activity/SR-DMC>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to Detailed Model Configuration (DMC) profile."@en;
+        dcterms:identifier   "adc0e7ac-4fc3-432e-bdae-795b2d41b1cf";
+        skos:notation        "SR-DMC";
+        skos:prefLabel       "StructuralRepresentation-Detailed Model Configuration"@en .
+
+<https://energy.referencedata.eu/activity/VF-GL>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for GeographicalLocation (GL)."@en;
+        dcterms:identifier   "2aaff4d4-219d-4050-a071-8c5ad8d11fa8";
+        skos:notation        "VF-GL";
+        skos:prefLabel       "Verification-GeographicalLocation"@en .
+
+<https://energy.referencedata.eu/activity/SR-OR>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to ObjectRegistry (OR) profile."@en;
+        dcterms:identifier   "59864569-ba96-4f31-b222-a33ac297bc70";
+        skos:notation        "SR-OR";
+        skos:prefLabel       "StructuralRepresentation-ObjectRegistry"@en .
+
+<https://energy.referencedata.eu/activity/AS-SR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Recognized assessment activity identity for assessing the Simulation Results (SR)."@en;
+        dcterms:identifier   "c641056f-691e-4abf-a6d5-749b2234bb43";
+        skos:notation        "AS-SR";
+        skos:prefLabel       "Assessment-Simulation Results"@en .
+
+<https://energy.referencedata.eu/activity/VF-SET>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Simulation Settings (SET)."@en;
+        dcterms:identifier   "96dab0ee-6a6f-4d6f-81f3-7527cbedfbaa";
+        skos:notation        "VF-SET";
+        skos:prefLabel       "Verification-Simulation Settings"@en .
+
+<https://energy.referencedata.eu/activity/VF-SSI>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for SteadyStateInstruction (SSI)."@en;
+        dcterms:identifier   "5586287a-1199-4ab7-8384-b900fa9d5160";
+        skos:notation        "VF-SSI";
+        skos:prefLabel       "Verification-SteadyStateInstruction"@en .
+
+<https://energy.referencedata.eu/activity/VF-AS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for AvailabilitySchedule (AS)."@en;
+        dcterms:identifier   "40df8eb6-ab53-4d0b-81a2-d0aa9d9a02c3";
+        skos:notation        "VF-AS";
+        skos:prefLabel       "Verification-AvailabilitySchedule"@en .
+
+<https://energy.referencedata.eu/activity/SD-RAS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to RemedialActionSchedule (RAS) profile."@en;
+        dcterms:identifier   "59664c83-f813-4df8-88c7-9724c171949e";
+        skos:notation        "SD-RAS";
+        skos:prefLabel       "ScheduleDefinition-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-CO>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Contingency (CO)."@en;
+        dcterms:identifier   "327f9998-24ad-4ebd-a52f-4998204601fc";
+        skos:notation        "VF-CO";
+        skos:prefLabel       "Verification-Contingency"@en .
+
+<https://energy.referencedata.eu/activity/PUB-RAS>
+        rdf:type             provcim:Transaction;
+        dcterms:description  "Publication complying to RemedialActionSchedule (RAS)."@en;
+        dcterms:identifier   "fdbe781a-7831-478a-a4e4-b5df9c564738";
+        skos:notation        "PUB-RAS";
+        skos:prefLabel       "Publication-RemedialActionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-DY>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Dynamics (DY)."@en;
+        dcterms:identifier   "662bae0d-c528-4b82-9925-cbf4ec2bf6e9";
+        skos:notation        "VF-DY";
+        skos:prefLabel       "Verification-Dynamics"@en .
+
+<https://energy.referencedata.eu/activity/SR-GL>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to GeographicalLocation (GL) profile."@en;
+        dcterms:identifier   "5dc4f41f-cc51-431f-8abd-0c282b556fc2";
+        skos:notation        "SR-GL";
+        skos:prefLabel       "StructuralRepresentation-GeographicalLocation"@en .
+
+<https://energy.referencedata.eu/activity/VF-PR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for Provenance (PR)."@en;
+        dcterms:identifier   "da1fdf48-ea37-424f-b8f5-bd5c92e790f3";
+        skos:notation        "VF-PR";
+        skos:prefLabel       "Verification-Provenance"@en .
+
+<https://energy.referencedata.eu/activity/SR-PSP>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to PowerSystemProject (PSP) profile."@en;
+        dcterms:identifier   "b9aa50bd-5d6e-4e50-86e7-8b025b2af8f4";
+        skos:notation        "SR-PSP";
+        skos:prefLabel       "StructuralRepresentation-PowerSystemProject"@en .
+
+<https://energy.referencedata.eu/activity/SD-MCS>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Schedule definition complying to MarketCongestionSchedule (MCS) profile."@en;
+        dcterms:identifier   "21879b7a-80b7-4ef1-9ca1-bfdf90ca4825";
+        skos:notation        "SD-MCS";
+        skos:prefLabel       "ScheduleDefinition-MarketCongestionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-SIS>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for StateInstructionSchedule (SIS)."@en;
+        dcterms:identifier   "60bf6f74-80e5-423a-809a-a21f81a77a5e";
+        skos:notation        "VF-SIS";
+        skos:prefLabel       "Verification-StateInstructionSchedule"@en .
+
+<https://energy.referencedata.eu/activity/VF-SAR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for SecurityAnalysisResults (SAR)."@en;
+        dcterms:identifier   "3b167649-ab7f-41a7-8e47-8e4c0a3f1196";
+        skos:notation        "VF-SAR";
+        skos:prefLabel       "Verification-SecurityAnalysisResults"@en .
+
+<https://energy.referencedata.eu/activity/VF-VR>
+        rdf:type             provcim:Assessment;
+        dcterms:description  "Verification results for VerificationReport (VR)."@en;
+        dcterms:identifier   "02c9b6a0-a6ae-4540-b75a-64bf5f4015a4";
+        skos:notation        "VF-VR";
+        skos:prefLabel       "Verification-VerificationReport"@en .
+
+<https://energy.referencedata.eu/activity/SR-CO>
+        rdf:type             provcim:Modeling;
+        dcterms:description  "Structural representation complying to Contingency (CO) profile."@en;
+        dcterms:identifier   "a3d03b9d-9ec3-479d-8760-cdaaffe8194a";
+        skos:notation        "SR-CO";
+        skos:prefLabel       "StructuralRepresentation-Contingency"@en .

@@ -11044,7 +11044,7 @@
   </cim:SynchronousMachine>
   <cim:TapChangerControl rdf:about="#_1d33cf36-ca7c-d357-b61e-aed6e67aab69">
     <cim:RegulatingControl.discrete>true</cim:RegulatingControl.discrete>
-    <cim:RegulatingControl.enabled>true</cim:RegulatingControl.enabled>
+    <cim:RegulatingControl.enabled>false</cim:RegulatingControl.enabled>
     <cim:RegulatingControl.targetDeadband>500</cim:RegulatingControl.targetDeadband>
     <cim:RegulatingControl.targetValue>250</cim:RegulatingControl.targetValue>
     <cim:RegulatingControl.targetValueUnitMultiplier rdf:resource="http://iec.ch/TC57/CIM100#UnitMultiplier.M"/>

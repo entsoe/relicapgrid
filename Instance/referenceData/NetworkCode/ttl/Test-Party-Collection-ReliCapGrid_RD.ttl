@@ -1,0 +1,147 @@
+@prefix adms:   <http://www.w3.org/ns/adms#> .
+@prefix dcat:     <http://www.w3.org/ns/dcat#> .
+@prefix dcterms:  <http://purl.org/dc/terms/> .
+@prefix prov:     <http://www.w3.org/ns/prov#> .
+@prefix provcim:  <https://cim4.eu/ns/provcim#> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd:      <http://www.w3.org/2001/XMLSchema#> .
+@prefix nc:		<https://cim4.eu/ns/nc#> .
+@prefix cim:	<https://cim.ucaiug.io/ns#> .
+
+
+#################################################################
+# Party Collection for ReliCapGrid / Reference Dataset
+#################################################################
+
+<https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid/1.0>
+    a dcat:Dataset ;
+    skos:prefLabel "Energy Reference Data Party Collection ReliCapGrid"@en ;
+	skos:definition "Reference dataset listing recognized Party identities that shall be used as the object of dcterms:publisher and provcim:modelAuthority."@en ;
+	dcterms:description "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en ;
+    dcterms:title "Test-Party-Collection-ReliCapGrid_RD" ;
+	dcterms:identifier "b77fe0ff-9907-4943-90a7-6e35a178a8ab" ;
+    dcterms:publisher <https://www.entsoe.eu/> ;
+    dcterms:rights "Copyright" ;
+    dcterms:rightsHolder "ENTSO-E" ;
+    dcterms:issued "2026-08-08T00:00:00Z"^^xsd:dateTime ;
+    prov:generatedAtTime "2026-08-08T00:00:00Z"^^xsd:dateTime ;
+    dcat:version "1.0.0" ;
+    adms:versionNotes "Initial version of the Energy Reference Data Party Collection for ReliCapGrid."@en ;
+    dcat:isVersionOf <https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid> ;
+    dcterms:license <https://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:accessRights <https://energy.referencedata.eu/Confidentiality/Public> ;
+	dcterms:hasPart <https://energy.referencedata.eu/test/PartyScheme/1.0#collection_party> .
+
+
+#################################################################
+# Collection of Party
+#################################################################
+
+<https://energy.referencedata.eu/test/PartyScheme/1.0#collection_party>
+    a prov:Collection ;
+    dcterms:identifier "a4dbeec3-f598-4a47-a3e1-df76eb1bfbb9" ;
+    skos:prefLabel "Collection of recognized parties for ReliCapGrid."@en ;
+    prov:hadMember
+		<https://energy.referencedata.eu/test/party/TSO-Svedala> ,
+        <https://energy.referencedata.eu/test/party/TSO-Galia> ,
+		<https://energy.referencedata.eu/test/party/TSO-Belgovia> ,
+		<https://energy.referencedata.eu/test/party/TSO-Britheim> ,
+		<https://energy.referencedata.eu/test/party/TSO-Espheim> ,
+		<https://energy.referencedata.eu/test/party/TSO-Nordheim> ,
+		<https://energy.referencedata.eu/test/party/TSO-Portheim> ,
+		<https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala> ,
+		<https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia> .
+
+#################################################################
+# List of Party
+#################################################################
+
+<https://energy.referencedata.eu/test/party/TSO-Svedala>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Svedala"@en ;
+	dcterms:identifier "b9fbb881-573b-4e98-9b7b-31f00a45ebe0" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Svedala."@en ;
+	cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Svedala" ;
+    cim:IdentifiedObject.mRID "b9fbb881-573b-4e98-9b7b-31f00a45ebe0" ;
+    cim:IdentifiedObject.name "TSO-Svedala" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Galia>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Galia"@en ;
+	dcterms:identifier "2ec42376-eee2-4ab9-b79a-165e1df2a185" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Galia."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Galia" ;
+    cim:IdentifiedObject.mRID "2ec42376-eee2-4ab9-b79a-165e1df2a185" ;
+    cim:IdentifiedObject.name "TSO-Galia" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Belgovia>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Belgovia"@en ;
+	dcterms:identifier "361023fe-e4cb-4606-8060-c25344a0b527" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Belgovia."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Belgovia" ;
+    cim:IdentifiedObject.mRID "361023fe-e4cb-4606-8060-c25344a0b527" ;
+    cim:IdentifiedObject.name "TSO-Belgovia" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Britheim>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Britheim"@en ;
+	dcterms:identifier "6ec5a811-870d-4d0c-bc3c-a30bf2e90c36" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Britheim."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Britheim" ;
+    cim:IdentifiedObject.mRID "6ec5a811-870d-4d0c-bc3c-a30bf2e90c36" ;
+    cim:IdentifiedObject.name "TSO-Britheim" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Espheim>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Espheim"@en ;
+	dcterms:identifier "d4e1aead-56f8-4075-bad2-1bd62d591905" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Espheim."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Espheim" ;
+    cim:IdentifiedObject.mRID "d4e1aead-56f8-4075-bad2-1bd62d591905" ;
+    cim:IdentifiedObject.name "TSO-Espheim" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Nordheim>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Nordheim"@en ;
+	dcterms:identifier "50f47f00-bb5f-48bb-b73e-3e8ed008c0d6" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Nordheim."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Nordheim" ;
+    cim:IdentifiedObject.mRID "50f47f00-bb5f-48bb-b73e-3e8ed008c0d6" ;
+    cim:IdentifiedObject.name "TSO-Nordheim" .
+
+
+<https://energy.referencedata.eu/test/party/TSO-Portheim>
+    a prov:Agent , nc:TransmissionSystemOperator ;
+    skos:prefLabel "TSO-Portheim"@en ;
+	dcterms:identifier "476ea5f3-6315-4738-bbbc-c3a652c568d2" ;
+	dcterms:description "Recognized party acting as the transmission system operator for Portheim."@en ;
+    cim:IdentifiedObject.description "Transmission System Operator (TSO) post and function performed by Portheim" ;
+    cim:IdentifiedObject.mRID "476ea5f3-6315-4738-bbbc-c3a652c568d2" ;
+    cim:IdentifiedObject.name "TSO-Portheim" .
+
+
+<https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala>
+    a prov:Agent, nc:DirectCurrentSystemOperator ;
+    skos:prefLabel "DCSO-Espheim-Svedala"@en ;
+	dcterms:identifier "73ed2666-3e8d-48bf-8d90-bbaf1110e705" ;
+	dcterms:description "Recognized party representing the post of operating the joint entity for the DC-Espheim-Svedala HVDC interconnector,"@en ;
+    cim:IdentifiedObject.description "Joint operating entity post and function performed for the DC-Espheim-Svedala HVDC interconnector between Espheim and Svedala" ;
+    cim:IdentifiedObject.mRID "73ed2666-3e8d-48bf-8d90-bbaf1110e705" ;
+    cim:IdentifiedObject.name "DCSO-Espheim-Svedala" .
+
+
+<https://energy.referencedata.eu/test/party/DCSO-Nordheim-Galia>
+    a prov:Agent, nc:DirectCurrentSystemOperator ;
+    skos:prefLabel "DCSO-Nordheim-Galia"@en ;
+	dcterms:identifier "a1211023-b0a3-4d43-8876-183e6a5ea46a" ;
+	dcterms:description "Recognized party representing the post of operating the joint entity for the DC-Nordheim-Galia HVDC interconnector,"@en ;
+    cim:IdentifiedObject.description "Joint operating entity post and function performed for the DC-Nordheim-Galia HVDC interconnector between Nordheim and Galia" ;
+    cim:IdentifiedObject.mRID "a1211023-b0a3-4d43-8876-183e6a5ea46a" ;
+    cim:IdentifiedObject.name "DCSO-Nordheim-Galia" .
+

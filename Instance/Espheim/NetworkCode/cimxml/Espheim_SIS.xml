@@ -58,4 +58,20 @@
     <nc:GridStateAlterationTimePoint.GridStateAlterationSchedule rdf:resource="#_f5205bd4-637a-4eb7-b0d8-e03638bc570b"/>
   </nc:GridStateAlterationTimePoint>
 
+  <nc:GenericEnablingSchedule rdf:ID="_16e01e5d-ac5f-40bf-b60b-f06d5bec5986">
+    <cim:IdentifiedObject.mRID>16e01e5d-ac5f-40bf-b60b-f06d5bec5986</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Aac phase-shift enable schedule</cim:IdentifiedObject.name>
+    <nc:GenericEnablingSchedule.FunctionBlock rdf:resource="#_8d9df89c-b2c4-425f-8f79-eb1f669cac36"/>
+    <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
+  </nc:GenericEnablingSchedule>
+  <nc:EnablingTimePoint rdf:ID="_755135cf-b114-4540-9607-54ef62994111">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_16e01e5d-ac5f-40bf-b60b-f06d5bec5986"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T22:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
+  <nc:EnablingTimePoint rdf:ID="_f1c361f4-83b1-46e6-96e8-47052b8c41f8">
+    <nc:EnablingTimePoint.GenericEnablingSchedule rdf:resource="#_16e01e5d-ac5f-40bf-b60b-f06d5bec5986"/>
+    <nc:EnablingTimePoint.atTime>2022-06-15T23:30:00Z</nc:EnablingTimePoint.atTime>
+    <nc:EnablingTimePoint.enabled>true</nc:EnablingTimePoint.enabled>
+  </nc:EnablingTimePoint>
 </rdf:RDF>

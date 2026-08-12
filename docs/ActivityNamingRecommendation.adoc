@@ -103,7 +103,7 @@ computation that produced its content is a separate, preceding activity.
 
 | StructuralRepresentation
 | SR
-| Authoring or update of structural / master (network model) data reflecting the modelled capabilities of the power system — including functional changes, asset replacement, or remodelling for better representation. May include aggregated or reduced-equivalent representations that are treated as stable for the validity period.
+| Authoring of structural data, e.g. network data as master data, reflecting the modelled capabilities of the power system — including functional changes, asset replacement, or remodelling for better representation. May include aggregated or reduced-equivalent representations that are treated as stable for the validity period.
 | Structural model data complying to <profile title> [for <process description>] [valid at <time horizon description>] [run <run description>]
 
 | MeasurementAcquisition
@@ -113,7 +113,7 @@ computation that produced its content is a separate, preceding activity.
 
 | AssumptionDefinition
 | AD
-| Definition of assumed (hypothetical) operating conditions used as input to studies, simulations, planning, or coordination — e.g. switching states, injections, availability assumptions, scenario preparation. Does not represent committed operation.
+| Definition of assumed (hypothetical) operating conditions used as input to studies, simulations, planning, or coordination — e.g. switching states, injections, availability assumptions, scenario preparation. Does not necessarily represent committed operation.
 | Assumed operating conditions complying to <profile title> [for <process description>] [at <time horizon description>] [run <run description>]
 
 | ScheduleDefinition
@@ -123,7 +123,7 @@ computation that produced its content is a separate, preceding activity.
 
 | Forecast
 | FC
-| Generation of predictive or probabilistic estimates of future conditions (e.g. load, generation, adequacy) derived from forecasting models. _(Optional — omit if forecasts are treated as AnalyticalComputation.)_
+| Generation of predictive or probabilistic estimates of future conditions (e.g. load, generation, adequacy) derived from forecasting models.
 | Forecast data complying to <profile title> [for <process description>] [at <time horizon description>] [run <run description>]
 
 | AnalyticalComputation
@@ -138,8 +138,8 @@ computation that produced its content is a separate, preceding activity.
 
 | Verification
 | VF
-| Generation of conformance / validation results checking a dataset against profile specifications, schema constraints, business rules, or semantic-consistency requirements. Concerns data conformance, not operational acceptability.
-| Validation results for <profile title> [for <process description>] [at <time horizon description>]
+| Generation of verification results from checking a dataset against compliance, e.g. profile specifications, schema constraints, business rules, or semantic-consistency requirements. Concerns data conformance, not operational acceptability.
+| Verification results for <profile title> [for <process description>] [at <time horizon description>]
 
 | Request
 | REQ
@@ -168,27 +168,27 @@ Examples include:
 |===
 | Title | Keyword | Version
 
-| Core Equipment Vocabulary
+| Core Equipment
 | EQ
 | 3.0.0
 
-| Operation Vocabulary
+| Operation Equipment
 | OP
 | 3.0.0
 
-| Short Circuit Vocabulary
+| Short-Circuit Equipment
 | SC
 | 3.0.0
 
-| Steady State Hypothesis Vocabulary
+| Steady-State Hypothesis
 | SSH
 | 3.0.0
 
-| Topology Vocabulary
+| Topology
 | TP
 | 3.0.0
 
-| State Variables Vocabulary
+| State Variables
 | SV
 | 3.0.0
 
@@ -563,6 +563,9 @@ The following rules apply:
 | `SR-EQ-CGM`
 | Structural model data complying to Core Equipment (EQ) profile for Common Grid Model (CGM) process.
 
+| `SR-EQ-CGM-1Y`
+| Structural model data complying to Core Equipment (EQ) profile for Common Grid Model (CGM) process valid for one year-ahead.
+
 | `AD-SSH-CGM-1D-R1`
 | Assumed operating conditions complying to Steady-State Hypothesis for Common Grid Model (CGM) process at Day-ahead (1D), first run (R1).
 
@@ -573,7 +576,7 @@ The following rules apply:
 | Planned schedule data complying to Remedial Action Schedule (RAS) for Outage Planning Coordination (OPC) at one week-ahead.
 
 | `VF-EQ`
-| Validation results for Core Equipment (EQ). 
+| Verification results for Core Equipment (EQ). 
 
 | `REQ-RAS`
 | Formal request complying to Remedial Action Schedule (RAS).

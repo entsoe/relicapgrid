@@ -184,4 +184,774 @@
     <nc:AssessedElementWithContingency.normalEnabled>true</nc:AssessedElementWithContingency.normalEnabled>
   </nc:AssessedElementWithContingency>
   
+  <nc:AssessedElement rdf:ID="_2c2087f6-37a2-4a37-9e0c-10e3d14d4f31">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_9e29b829-b840-4d5d-ad7b-4721c59a58e2"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL1 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2c2087f6-37a2-4a37-9e0c-10e3d14d4f31</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE12_AL1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_86b85b40-246a-426a-86b4-2fce7c257585">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b267ac72-2096-431f-882a-8139bc5c4615"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL10 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>86b85b40-246a-426a-86b4-2fce7c257585</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE13_AL10</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_0822ca0b-4c88-45f7-b785-9ea27dfa32d0">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_d78418ce-7741-48a3-9301-18661647c908"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL2 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0822ca0b-4c88-45f7-b785-9ea27dfa32d0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE14_AL2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_731c272c-7e7c-4b50-875c-f7cab3fef2c4">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_f2df8633-f95a-410c-bc0f-2a1abaf92880"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL3 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>731c272c-7e7c-4b50-875c-f7cab3fef2c4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE15_AL3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_7cb8b9ad-d464-4961-bb87-bfd20bcbaa91">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_877b0778-89f2-4a78-89f0-6391553b97d9"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL4 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>7cb8b9ad-d464-4961-bb87-bfd20bcbaa91</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE16_AL4</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_5052b185-a273-4984-886a-1d44700c60b8">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_68576ea0-50b7-4484-997c-e18bc4feee91"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL5 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5052b185-a273-4984-886a-1d44700c60b8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE17_AL5</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_4ad15b2c-2ca5-455c-bef2-6dda1898faa9">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_a41edad5-0610-4ac5-bcfc-d46bea6f9d4e"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL6 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4ad15b2c-2ca5-455c-bef2-6dda1898faa9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE18_AL6</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_8099dd5a-fe17-4b6e-988d-f50a63f0e5a4">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_dec54c37-c666-4193-8ffe-a9754d0e2753"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL7 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8099dd5a-fe17-4b6e-988d-f50a63f0e5a4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE19_AL7</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_119d3a4e-0deb-4340-9286-90cf16b9228b">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_eec142b7-df7b-4276-87d7-613662be7dd1"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL8 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>119d3a4e-0deb-4340-9286-90cf16b9228b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE20_AL8</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_47532c97-cfb3-433b-bc9b-a95282a98e19">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_f044d5f4-5fba-4eb4-be7b-a7625fda85e4"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch AL9 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>47532c97-cfb3-433b-bc9b-a95282a98e19</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE21_AL9</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_01614d04-2ff2-46b6-a452-0bc8cf14c5d8">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_e02e1166-1c43-4a4d-8c5a-82298ee0c8f5"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL1 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>01614d04-2ff2-46b6-a452-0bc8cf14c5d8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE22_CL1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_99cb2173-25ae-420e-8313-3bd6836cbffc">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_31e184a9-e736-41d8-8c64-d1c230021303"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL10 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>99cb2173-25ae-420e-8313-3bd6836cbffc</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE23_CL10</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_25871be7-fa38-4868-a2a3-37dd7424d724">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_846117e4-d436-4b37-a4b3-6a8d6eaae2bc"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL11 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>25871be7-fa38-4868-a2a3-37dd7424d724</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE24_CL11</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2ddc72dd-9797-4077-b0c8-b06acefb98e5">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_d5c0d6d6-b846-4406-9739-066ee473d945"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL12 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2ddc72dd-9797-4077-b0c8-b06acefb98e5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE25_CL12</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_478ddeac-f78e-4f85-be38-440b57f3912c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_26f7a4d5-60b8-4864-bb5e-311f20242300"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL13 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>478ddeac-f78e-4f85-be38-440b57f3912c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE26_CL13</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_114b2f47-fad5-4711-a5a5-8ca74dc2b680">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_8455f014-d0a0-4712-ad70-8275de3b2ee8"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL14 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>114b2f47-fad5-4711-a5a5-8ca74dc2b680</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE27_CL14</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_4854d1e2-7385-46a2-aa27-6226169c940c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b7ebe594-e470-4a2f-9cbe-c83e4dbb9379"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL16 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4854d1e2-7385-46a2-aa27-6226169c940c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE28_CL16</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_262c7ee6-5bd2-4d64-b431-294c4e157059">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_20119a6d-5ad3-4d08-aed7-79b476537602"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL17 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>262c7ee6-5bd2-4d64-b431-294c4e157059</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE29_CL17</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_413a77d3-dbe8-47d5-b95a-a86c6e0b4dd9">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ef11fdd0-7dc8-4df7-a635-251ff310d171"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL2 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>413a77d3-dbe8-47d5-b95a-a86c6e0b4dd9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE30_CL2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_3ab0d9c2-372b-497a-b99a-19d30d53f6c3">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ff8f255b-7395-4cfc-a258-141c2e520b64"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3ab0d9c2-372b-497a-b99a-19d30d53f6c3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE31_CL3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_fb810036-a082-4688-8299-bc41e85cf57d">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_2fee64cd-e920-4858-a96f-0bf81be36124"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL4 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>fb810036-a082-4688-8299-bc41e85cf57d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE32_CL4</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_b0b23459-6937-434f-bb91-c7d109cd3e06">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_c30585bb-fe3f-404f-91c6-c5cb91948418"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL6 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b0b23459-6937-434f-bb91-c7d109cd3e06</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE33_CL6</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_f11eeadb-b381-4e7d-b5b6-185cd8b648fd">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b676e63f-e89a-4bd7-b786-95fe458298eb"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL7 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f11eeadb-b381-4e7d-b5b6-185cd8b648fd</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE34_CL7</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_c29016b6-9e0a-4d75-bb1d-9a585a3767e1">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_385facd6-d38a-4778-a93c-7b32b071b5ee"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL8 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c29016b6-9e0a-4d75-bb1d-9a585a3767e1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE35_CL8</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_158f57b4-4f63-4b8c-bc69-f4962b2320ba">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_f91005a2-26f6-4478-9454-adc4bb014a01"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CL9 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>158f57b4-4f63-4b8c-bc69-f4962b2320ba</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE36_CL9</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_441bace6-3ba3-4aba-9c61-8eb8d7c77872">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_9004a717-5381-4004-8927-cb7aa1e3fcf7"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT112_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>441bace6-3ba3-4aba-9c61-8eb8d7c77872</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE37_CT112_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_e01ade74-232d-412b-8d53-ad538e675269">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ebfab4de-74dd-40fe-af26-9590801b9e1d"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT11_T1 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e01ade74-232d-412b-8d53-ad538e675269</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE38_CT11_T1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_257fbe37-c4e4-45fd-ac9a-a203d797a86b">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_361d9fd3-5c8b-40ef-8ef4-3ba3c47410ea"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT11_T2 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>257fbe37-c4e4-45fd-ac9a-a203d797a86b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE39_CT11_T2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_1620c704-4c40-4ec5-a40f-dad375a91b29">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_be58e1c7-485f-4e1e-bcad-8109f11269ad"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT11_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1620c704-4c40-4ec5-a40f-dad375a91b29</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE40_CT11_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_e6e3e4ee-0f7d-4e23-b27e-63079d17ae63">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_9f967761-fe1d-454d-ad69-9b7c5abc010a"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT22_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e6e3e4ee-0f7d-4e23-b27e-63079d17ae63</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE41_CT22_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_99e82132-1b09-4495-b494-f54de1c376c1">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_8dc3146e-0b53-4a70-8368-72129e794e2f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT31_T1 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>99e82132-1b09-4495-b494-f54de1c376c1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE42_CT31_T1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_f250057e-07ac-47a7-ad36-5a9b7811502c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_cd6b9797-ab35-48a4-94cd-038484fee143"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch CT31_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f250057e-07ac-47a7-ad36-5a9b7811502c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE43_CT31_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2a4815cf-74d8-4416-96e2-44edc50441b1">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_498410ba-8b68-4418-91ae-e0848698bf06"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL1 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2a4815cf-74d8-4416-96e2-44edc50441b1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE44_FL1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_9e3f57d0-a7fe-4319-808d-608539783009">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_628cee38-ba9c-4fdd-915d-1dd7857a8f66"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL10 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9e3f57d0-a7fe-4319-808d-608539783009</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE45_FL10</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ccc95e99-61aa-45b2-8a67-b23c13b3ca06">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_48485857-d388-4d24-8e5c-02a68ec905e9"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL12 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ccc95e99-61aa-45b2-8a67-b23c13b3ca06</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE46_FL12</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ba8de750-b077-4eec-aff0-d38fd30da3f3">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_77672b4f-7be7-4b8a-bef2-8ff06908ae96"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL13 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ba8de750-b077-4eec-aff0-d38fd30da3f3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE47_FL13</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_600fd54e-b494-4da5-83ab-aef6e1322deb">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_e4a69d52-39eb-4add-988c-cc864e50e5ff"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL14 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>600fd54e-b494-4da5-83ab-aef6e1322deb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE48_FL14</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ab35939d-162d-4ab4-9fd6-4e21677507b5">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b6750099-1ff2-4dc9-98de-041392bb1287"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL15 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ab35939d-162d-4ab4-9fd6-4e21677507b5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE49_FL15</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2b9fcb39-8303-42b9-9b5f-89369d50cada">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_91ac9bdf-784d-405b-8b51-e5cb76cf8745"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL16 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2b9fcb39-8303-42b9-9b5f-89369d50cada</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE50_FL16</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2a62c42b-8f6c-47c6-96f1-8ac4c6138f0d">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_4a4edd66-b2d4-4ebd-82fa-b42cdad91f3f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2a62c42b-8f6c-47c6-96f1-8ac4c6138f0d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE51_FL3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_55cb703d-aa28-41e4-8338-8104cfe51204">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_5da94c86-8568-4013-88a1-55551e425a1e"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL4 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>55cb703d-aa28-41e4-8338-8104cfe51204</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE52_FL4</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_7e544da7-f584-402f-99a3-ee3385d8008e">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_3ef4b5d3-e80b-4626-b1ce-be0f8d8139fa"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL5 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>7e544da7-f584-402f-99a3-ee3385d8008e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE53_FL5</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_a76e3a01-b308-4107-97f6-e61b6f58da56">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_7f2ab29f-606d-42c7-af86-9d659b650c0a"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL6 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a76e3a01-b308-4107-97f6-e61b6f58da56</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE54_FL6</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_9c02d6d9-9fe2-45dd-b388-16e065dddbdb">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_7ee13d9a-ada9-4272-b3e8-c4a8c57d3dc4"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL7 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9c02d6d9-9fe2-45dd-b388-16e065dddbdb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE55_FL7</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_c818f3d0-811c-4f8f-8631-5eb8f206512c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_52a29d0b-d382-4a5e-ba4e-84d8fa606246"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL8 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c818f3d0-811c-4f8f-8631-5eb8f206512c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE56_FL8</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_6c89c4a1-96d2-4cae-8e84-6ffe785cced4">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_f6bc0b3b-7e66-428f-bffd-dc09f3ae3c65"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FL9 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6c89c4a1-96d2-4cae-8e84-6ffe785cced4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE57_FL9</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_7ce7e6b8-c621-4d6a-9bf1-23f6e2e3727d">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_fe82151b-75c9-467a-98ee-377d5407e696"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT42_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>7ce7e6b8-c621-4d6a-9bf1-23f6e2e3727d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE58_FT42_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_0657a1bc-1fc5-499d-862d-fb4342b91d75">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_cef99b4a-2f58-471e-bb46-a5bd364a39e7"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT42_T402 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0657a1bc-1fc5-499d-862d-fb4342b91d75</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE59_FT42_T402</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_c1b9d3c1-dbf7-43a5-a137-f6ac6fa45f5e">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_eaa322fa-4103-4566-ab44-7af721220c5f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT44_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c1b9d3c1-dbf7-43a5-a137-f6ac6fa45f5e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE60_FT44_T11</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_3d749317-3fb6-4e6c-96d3-20294ff17006">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_452ad737-7105-4620-9871-7326e5fc9f32"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT44_T12 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3d749317-3fb6-4e6c-96d3-20294ff17006</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE61_FT44_T12</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_433fc023-1d6e-4a08-8907-7cd9be4487c9">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_e951026f-1382-4305-8628-7cad2e237add"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT44_T13 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>433fc023-1d6e-4a08-8907-7cd9be4487c9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE62_FT44_T13</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_84dd9a2c-54b8-4842-8f35-99ea54b79a8c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_37b823e4-ffde-4e4b-a334-8db84362b454"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT47_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>84dd9a2c-54b8-4842-8f35-99ea54b79a8c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE63_FT47_T11</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_eab0d93d-8b10-4ec2-b685-95cbd966406b">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_8a33cec2-49b6-44df-8286-10a92377c58e"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT47_T21 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>eab0d93d-8b10-4ec2-b685-95cbd966406b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE64_FT47_T21</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_1de13643-dd51-45f9-b819-776e27363305">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_bd49bfa4-a01c-43be-82fb-f2119d1b42de"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT50_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1de13643-dd51-45f9-b819-776e27363305</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE65_FT50_T401</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_9146d3a1-ce92-47c3-843a-a022bba46c6a">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_4bc00412-7da5-42d2-b3b9-758bc15942a6"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT50_T402 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9146d3a1-ce92-47c3-843a-a022bba46c6a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE66_FT50_T402</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_3cdf370c-cded-4871-bd33-7132a8167982">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_4cc583ea-c923-4fe2-89e3-b7b271ef00dc"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT63_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3cdf370c-cded-4871-bd33-7132a8167982</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE67_FT63_T11</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_eaf3844b-fa60-4c5a-8e92-dfbde9ffd59b">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_02eaabb7-5736-43aa-9b32-d45565e2e141"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch FT63_T12 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>eaf3844b-fa60-4c5a-8e92-dfbde9ffd59b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE68_FT63_T12</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_5912a223-3f13-4131-99b9-6cf5ba1fa448">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_08464663-7dbf-4195-9754-a6ff63c421d6"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL1 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5912a223-3f13-4131-99b9-6cf5ba1fa448</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE69_RL1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ebf1e041-dec2-44ca-a7e9-e2480005281d">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_fb096d3d-b18c-475a-bc2f-29344c55715f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL2 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ebf1e041-dec2-44ca-a7e9-e2480005281d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE70_RL2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_8d8416ae-0f17-4005-983d-7541853f888a">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_45d46be7-6419-4054-817b-f0423329b51b"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL3 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8d8416ae-0f17-4005-983d-7541853f888a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE71_RL3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ea33b13d-451e-4303-85ef-c79a9acf17d8">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_d3ee04cf-e36c-48fd-8048-e40a963625b2"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL4 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ea33b13d-451e-4303-85ef-c79a9acf17d8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE72_RL4</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_dbb36828-2b56-43e1-b4dc-93e920d6e8e2">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_75ed9ad2-4ff8-4a41-b664-f4064378c1cb"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL5 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>dbb36828-2b56-43e1-b4dc-93e920d6e8e2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE73_RL5</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_ea221064-4e7d-4878-ab29-f1c7c8c1b833">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_c6278b38-b777-4ad9-b395-50c4009afdff"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL6 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ea221064-4e7d-4878-ab29-f1c7c8c1b833</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE74_RL6</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_f524cdeb-7349-480d-955c-59ba5852b84d">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_268d6965-c800-4aa8-8b54-bd80a7c21058"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL7 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f524cdeb-7349-480d-955c-59ba5852b84d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE75_RL7</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_c4d0774a-3618-4bde-b2a1-88cd01efdfa0">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b2a3ba57-d592-4bc9-b4cb-8a78cf8a0bb6"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL8 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c4d0774a-3618-4bde-b2a1-88cd01efdfa0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE76_RL8</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_b3183d65-e0bd-4619-bc6b-572d1c68c993">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b2dc8985-174a-4e4e-970c-65ee87af809d"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch RL9 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b3183d65-e0bd-4619-bc6b-572d1c68c993</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE77_RL9</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_a98f5b56-dbc3-41fd-9ac3-d9a639ff977c">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_8510880c-0d91-44ed-897e-f95877ba489f"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch T1 (PowerTransformer, 134 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a98f5b56-dbc3-41fd-9ac3-d9a639ff977c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE78_T1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_138e008f-c50d-4bb0-97f9-001f695d70c2">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_2dc656d8-797f-4f27-a55e-6e0d3627e39e"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch T11 (PowerTransformer, 134 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>138e008f-c50d-4bb0-97f9-001f695d70c2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE79_T11</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2a54f5d5-dada-4a46-934c-a9cf2949ca60">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_632d9eaa-06f7-4b7b-8f8f-ae248941efe2"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD-EH1 (ACLineSegment, 225 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2a54f5d5-dada-4a46-934c-a9cf2949ca60</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE80_TieLine_SD_EH1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_1d120cc8-65fc-4b8c-8d60-941a0a6d1ded">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_891e77ff-39c6-4648-8eda-d81f730271f9"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD-EH2 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1d120cc8-65fc-4b8c-8d60-941a0a6d1ded</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE81_TieLine_SD_EH2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_8f606fe9-97e4-4efe-a6c1-82cf450dd879">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_4c390dab-3499-4a9f-9cee-5877081479ab"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD-EH3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8f606fe9-97e4-4efe-a6c1-82cf450dd879</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE82_TieLine_SD_EH3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_e2efa46e-a19c-4d34-b0f9-dca5e5278f95">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_7b858bec-17c8-4cab-bfcb-6bbd645af2db"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD-HVDC_SD_EH_1 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e2efa46e-a19c-4d34-b0f9-dca5e5278f95</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE83_TieLine_SD_HVDC_SD_EH_1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_4df833ff-a115-4862-808a-a068ae2e9758">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_ce3112ee-bb8d-48b3-a1b0-689cf7585fd6"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD_BO2 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4df833ff-a115-4862-808a-a068ae2e9758</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE84_TieLine_SD_BO2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_73778262-8584-473f-8521-803e164082b2">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_536f4b84-db4c-4545-96e9-bb5a87f65d13"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch TieLine_SD_BO3 (ACLineSegment, 225 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>73778262-8584-473f-8521-803e164082b2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE85_TieLine_SD_BO3</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_2e03e6ad-10b4-4914-ac80-de894dfc1aed">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_b722780e-0064-4cf9-a8d1-6c33c29f3acb"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch XT191-T1 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>2e03e6ad-10b4-4914-ac80-de894dfc1aed</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE86_XT191_T1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_4be2ce7c-fd04-4ad5-b5eb-b5f540ddc321">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_9ccfb87e-688a-41f5-b49b-5a847d2f7f35"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch XT201-T1 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4be2ce7c-fd04-4ad5-b5eb-b5f540ddc321</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE87_XT201_T1</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
+  <nc:AssessedElement rdf:ID="_87da9b6a-1816-40fa-8162-1a0084365ec7">
+    <nc:AssessedElement.AssessedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:AssessedElement.ConductingEquipment rdf:resource="#_f3006553-de90-49f1-909b-016c0bdbf47d"/>
+    <nc:AssessedElement.ScannedForRegion rdf:resource="#_56d81c91-4fb8-47a2-9d7c-baa13dedd605"/>
+    <nc:AssessedElement.inBaseCase>true</nc:AssessedElement.inBaseCase>
+    <cim:IdentifiedObject.description>Assessed element for branch XT201-T2 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>87da9b6a-1816-40fa-8162-1a0084365ec7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>AE88_XT201_T2</cim:IdentifiedObject.name>
+    <nc:AssessedElement.normalEnabled>true</nc:AssessedElement.normalEnabled>
+  </nc:AssessedElement>
 </rdf:RDF>

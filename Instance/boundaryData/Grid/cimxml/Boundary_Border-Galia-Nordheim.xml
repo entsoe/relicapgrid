@@ -90,4 +90,10 @@
     <cim:VoltageLevel.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:VoltageLevel.Substation rdf:resource="#_c39c3eb8-9cce-4778-9069-6952a117ba2b"/>
   </cim:VoltageLevel>
+  <cim:SubGeographicalRegion rdf:ID="_77467625-a8fe-8792-7cf2-06c5dfd5fba9">
+    <cim:IdentifiedObject.mRID>77467625-a8fe-8792-7cf2-06c5dfd5fba9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Nordheim</cim:IdentifiedObject.name>
+    <cim:IdentifiedObject.description>Nordheim subgeographical region for the Galia-Nordheim Boundary Substation (HVDV Station), this instance appears in the EQ file and in the Boundary.</cim:IdentifiedObject.description>
+    <cim:SubGeographicalRegion.Region rdf:resource="#_9356077b-f716-0d6c-0cac-32c074bd8fa3"/>
+  </cim:SubGeographicalRegion>
 </rdf:RDF>

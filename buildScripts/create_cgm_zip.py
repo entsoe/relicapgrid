@@ -4,7 +4,8 @@ Create a zip package for CGM (Common Grid Model) import from the ReliCapGrid rep
 CGM package contents (per README):
   Grid:
     - EQ profile from each TSO's Instance/<TSO>/Grid/cimxml/ folder
-    - All files from Instance/Jotunheim/Grid/cimxml/ (SSH, TP, SV)
+    - All files from Instance/Jotunheim/Grid/cimxml/ (TP, SV)
+    - RCC-updated per-IGM SSH files from Instance/Jotunheim/ChangeSet/cimxml/
     - All boundary files from Instance/boundaryData/Grid/cimxml/
     - Instance/commonData/Grid/cimxml/Grid_CommonData_CGM-CD.xml
   Network Code Profiles (optional, --ncp flag):
@@ -53,6 +54,17 @@ def collect_cgm_files(instance_dir: Path, tsos: list[str], include_ncp: bool) ->
         missing.append(f"Jotunheim Grid cimxml dir not found: {jotunheim_dir}")
     else:
         for f in sorted(jotunheim_dir.glob("*.xml")):
+            entries.append((f, f.name))
+
+    # SSH files from Jotunheim/ChangeSet/cimxml (RCC-updated per-IGM SSH for the CGM)
+    changeset_dir = instance_dir / "Jotunheim" / "ChangeSet" / "cimxml"
+    if not changeset_dir.exists():
+        missing.append(f"Jotunheim ChangeSet cimxml dir not found: {changeset_dir}")
+    else:
+        ssh_files = sorted(changeset_dir.glob("*_SSH_*.xml"))
+        if not ssh_files:
+            missing.append(f"No SSH files found in: {changeset_dir}")
+        for f in ssh_files:
             entries.append((f, f.name))
 
     # All boundary files

@@ -216,4 +216,1174 @@
   <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
 </nc:OutOfRangeContingency>
 
+  <cim:ContingencyEquipment rdf:ID="_b11bc306-5e84-44c2-910d-8eb17eaf8cc5">
+    <cim:ContingencyElement.Contingency rdf:resource="#_4dbea73c-32a5-4099-bab5-9b522ddd6a3d"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_9e29b829-b840-4d5d-ad7b-4721c59a58e2"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b11bc306-5e84-44c2-910d-8eb17eaf8cc5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE3_AL1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_4dbea73c-32a5-4099-bab5-9b522ddd6a3d">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL1 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4dbea73c-32a5-4099-bab5-9b522ddd6a3d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO6_AL1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_77e1ce8f-df8a-40de-be0e-61dfd019d766">
+    <cim:ContingencyElement.Contingency rdf:resource="#_f5b3f79e-9bbd-45f4-aa76-c74328e1a4cf"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b267ac72-2096-431f-882a-8139bc5c4615"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL10</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>77e1ce8f-df8a-40de-be0e-61dfd019d766</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE4_AL10</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_f5b3f79e-9bbd-45f4-aa76-c74328e1a4cf">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL10 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f5b3f79e-9bbd-45f4-aa76-c74328e1a4cf</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO7_AL10</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_e4f45ffa-ede8-4285-adf8-2ea2c88a4039">
+    <cim:ContingencyElement.Contingency rdf:resource="#_a592313d-5872-43bd-85db-cd52cc926689"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_d78418ce-7741-48a3-9301-18661647c908"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e4f45ffa-ede8-4285-adf8-2ea2c88a4039</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE5_AL2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_a592313d-5872-43bd-85db-cd52cc926689">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL2 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a592313d-5872-43bd-85db-cd52cc926689</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO8_AL2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_4f5c289a-4157-4eb7-a1a2-51f6817e3112">
+    <cim:ContingencyElement.Contingency rdf:resource="#_79b5932b-dc14-47ba-9f70-3962e46ed974"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_f2df8633-f95a-410c-bc0f-2a1abaf92880"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL3</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4f5c289a-4157-4eb7-a1a2-51f6817e3112</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE6_AL3</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_79b5932b-dc14-47ba-9f70-3962e46ed974">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL3 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>79b5932b-dc14-47ba-9f70-3962e46ed974</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO9_AL3</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_87dbee0b-fffc-4919-aeff-524c3399e9d5">
+    <cim:ContingencyElement.Contingency rdf:resource="#_95de3038-5ee2-40bd-95e5-d69ca3302c12"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_877b0778-89f2-4a78-89f0-6391553b97d9"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL4</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>87dbee0b-fffc-4919-aeff-524c3399e9d5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE7_AL4</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_95de3038-5ee2-40bd-95e5-d69ca3302c12">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL4 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>95de3038-5ee2-40bd-95e5-d69ca3302c12</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO10_AL4</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_712f05cc-6b35-4145-a955-a2ab6aba47d9">
+    <cim:ContingencyElement.Contingency rdf:resource="#_c4e2e37f-cb2b-4bed-9795-7282124fa349"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_68576ea0-50b7-4484-997c-e18bc4feee91"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL5</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>712f05cc-6b35-4145-a955-a2ab6aba47d9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE8_AL5</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_c4e2e37f-cb2b-4bed-9795-7282124fa349">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL5 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c4e2e37f-cb2b-4bed-9795-7282124fa349</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO11_AL5</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_d5368545-78b0-47f1-b8d8-0585565fadbb">
+    <cim:ContingencyElement.Contingency rdf:resource="#_c0dae82f-568b-444f-9330-f614e69677fa"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_a41edad5-0610-4ac5-bcfc-d46bea6f9d4e"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL6</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d5368545-78b0-47f1-b8d8-0585565fadbb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE9_AL6</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_c0dae82f-568b-444f-9330-f614e69677fa">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL6 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c0dae82f-568b-444f-9330-f614e69677fa</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO12_AL6</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_d2db908e-17c3-4087-9f8c-83d4ddab318e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_83a46439-895c-4193-94cb-f527630828bb"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_dec54c37-c666-4193-8ffe-a9754d0e2753"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL7</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d2db908e-17c3-4087-9f8c-83d4ddab318e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE10_AL7</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_83a46439-895c-4193-94cb-f527630828bb">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL7 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>83a46439-895c-4193-94cb-f527630828bb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO13_AL7</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_262deb80-3e9c-407b-8b58-02d949ed4d64">
+    <cim:ContingencyElement.Contingency rdf:resource="#_a5a25182-122d-469a-af3c-7f71a70c0f2e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_eec142b7-df7b-4276-87d7-613662be7dd1"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL8</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>262deb80-3e9c-407b-8b58-02d949ed4d64</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE11_AL8</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_a5a25182-122d-469a-af3c-7f71a70c0f2e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL8 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a5a25182-122d-469a-af3c-7f71a70c0f2e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO14_AL8</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_69888d72-1012-44fb-bf0d-b4ecd893a4e9">
+    <cim:ContingencyElement.Contingency rdf:resource="#_67ef5cbf-b815-4d69-85e7-bdc6a1f5f0f9"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_f044d5f4-5fba-4eb4-be7b-a7625fda85e4"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch AL9</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>69888d72-1012-44fb-bf0d-b4ecd893a4e9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE12_AL9</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_67ef5cbf-b815-4d69-85e7-bdc6a1f5f0f9">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch AL9 (ACLineSegment, 220 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>67ef5cbf-b815-4d69-85e7-bdc6a1f5f0f9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO15_AL9</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_3fd7702e-bf1e-4479-aee2-e86c93951583">
+    <cim:ContingencyElement.Contingency rdf:resource="#_dbdd344d-d9c7-485e-a878-6df82beb8277"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_31e184a9-e736-41d8-8c64-d1c230021303"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL10</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3fd7702e-bf1e-4479-aee2-e86c93951583</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE13_CL10</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_dbdd344d-d9c7-485e-a878-6df82beb8277">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL10 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>dbdd344d-d9c7-485e-a878-6df82beb8277</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO16_CL10</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_b5924c5a-dc8f-40cc-900e-a6082a023636">
+    <cim:ContingencyElement.Contingency rdf:resource="#_49eec72d-b74b-4679-b80e-f0f929277c45"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_846117e4-d436-4b37-a4b3-6a8d6eaae2bc"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b5924c5a-dc8f-40cc-900e-a6082a023636</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE14_CL11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_49eec72d-b74b-4679-b80e-f0f929277c45">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL11 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>49eec72d-b74b-4679-b80e-f0f929277c45</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO17_CL11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_9812b2dd-d010-463c-bda8-cdc1e4157a7e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_99f5f4e3-709a-4207-a665-1dc69e97ccff"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_d5c0d6d6-b846-4406-9739-066ee473d945"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL12</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9812b2dd-d010-463c-bda8-cdc1e4157a7e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE15_CL12</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_99f5f4e3-709a-4207-a665-1dc69e97ccff">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL12 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>99f5f4e3-709a-4207-a665-1dc69e97ccff</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO18_CL12</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f57f8ff1-db92-49b6-86ef-c222a9e7d790">
+    <cim:ContingencyElement.Contingency rdf:resource="#_0474bce7-79e4-400f-a983-5b39658001da"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_26f7a4d5-60b8-4864-bb5e-311f20242300"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL13</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f57f8ff1-db92-49b6-86ef-c222a9e7d790</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE16_CL13</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_0474bce7-79e4-400f-a983-5b39658001da">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL13 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0474bce7-79e4-400f-a983-5b39658001da</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO19_CL13</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_077288b5-68d3-433b-8da2-e157b973925f">
+    <cim:ContingencyElement.Contingency rdf:resource="#_375cc301-27e0-4a39-b69f-97f644baa13d"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_8455f014-d0a0-4712-ad70-8275de3b2ee8"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL14</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>077288b5-68d3-433b-8da2-e157b973925f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE17_CL14</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_375cc301-27e0-4a39-b69f-97f644baa13d">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL14 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>375cc301-27e0-4a39-b69f-97f644baa13d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO20_CL14</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_19b26e88-58da-44eb-b3f4-ff5f5fc7171b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_470e1061-70c9-4513-a4bc-368b8f568b8a"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_c77668c9-6993-4391-8c03-29fc802ad605"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL15</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>19b26e88-58da-44eb-b3f4-ff5f5fc7171b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE18_CL15</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_470e1061-70c9-4513-a4bc-368b8f568b8a">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL15 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>470e1061-70c9-4513-a4bc-368b8f568b8a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO21_CL15</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_dc1e9730-2484-42ab-9012-4acfbfb8add3">
+    <cim:ContingencyElement.Contingency rdf:resource="#_76e736c8-a02d-43bd-8dd0-4770239e3c04"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b7ebe594-e470-4a2f-9cbe-c83e4dbb9379"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL16</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>dc1e9730-2484-42ab-9012-4acfbfb8add3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE19_CL16</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_76e736c8-a02d-43bd-8dd0-4770239e3c04">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL16 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>76e736c8-a02d-43bd-8dd0-4770239e3c04</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO22_CL16</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_3e43d17e-4bf5-4f78-9ec3-f32209e22db2">
+    <cim:ContingencyElement.Contingency rdf:resource="#_c0b3d635-3f93-44d9-b451-911ef680ca47"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_20119a6d-5ad3-4d08-aed7-79b476537602"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL17</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3e43d17e-4bf5-4f78-9ec3-f32209e22db2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE20_CL17</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_c0b3d635-3f93-44d9-b451-911ef680ca47">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL17 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c0b3d635-3f93-44d9-b451-911ef680ca47</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO23_CL17</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_ca0c5fc4-d06a-4d2e-84a8-6292bab3bc2c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_1e36b132-55f2-4a87-95d4-38e2676c5f32"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_ef11fdd0-7dc8-4df7-a635-251ff310d171"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ca0c5fc4-d06a-4d2e-84a8-6292bab3bc2c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE21_CL2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_1e36b132-55f2-4a87-95d4-38e2676c5f32">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL2 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1e36b132-55f2-4a87-95d4-38e2676c5f32</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO24_CL2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_c64aa998-5e6c-4f70-8060-1ea43324090f">
+    <cim:ContingencyElement.Contingency rdf:resource="#_e43c94b3-ae89-41ea-b9a1-3e5cbadae993"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_ff8f255b-7395-4cfc-a258-141c2e520b64"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL3</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c64aa998-5e6c-4f70-8060-1ea43324090f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE22_CL3</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_e43c94b3-ae89-41ea-b9a1-3e5cbadae993">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e43c94b3-ae89-41ea-b9a1-3e5cbadae993</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO25_CL3</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_89ec4b1d-247a-48ca-9a7f-63dcebd48615">
+    <cim:ContingencyElement.Contingency rdf:resource="#_43bcc906-a3f6-455d-aa29-1e6e4dc8fd23"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_2fee64cd-e920-4858-a96f-0bf81be36124"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL4</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>89ec4b1d-247a-48ca-9a7f-63dcebd48615</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE23_CL4</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_43bcc906-a3f6-455d-aa29-1e6e4dc8fd23">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL4 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>43bcc906-a3f6-455d-aa29-1e6e4dc8fd23</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO26_CL4</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_5d19c6bd-1e0a-465a-b4d1-093c81ac6760">
+    <cim:ContingencyElement.Contingency rdf:resource="#_a7ff18d2-a307-4dea-ba33-7a821824ee2f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_134e7e0a-4c7e-4faf-923f-6c15e53792d3"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL5</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5d19c6bd-1e0a-465a-b4d1-093c81ac6760</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE24_CL5</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_a7ff18d2-a307-4dea-ba33-7a821824ee2f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL5 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a7ff18d2-a307-4dea-ba33-7a821824ee2f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO27_CL5</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_9bc6072b-3d9b-45e8-860d-a4d9c087728e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_de6429ee-d6dd-452d-87b0-7e80678a2052"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_c30585bb-fe3f-404f-91c6-c5cb91948418"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL6</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9bc6072b-3d9b-45e8-860d-a4d9c087728e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE25_CL6</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_de6429ee-d6dd-452d-87b0-7e80678a2052">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL6 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>de6429ee-d6dd-452d-87b0-7e80678a2052</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO28_CL6</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_09e33653-2b37-4704-942d-b04712250909">
+    <cim:ContingencyElement.Contingency rdf:resource="#_117e4072-bc0a-4bf6-8208-5744c49daaee"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_385facd6-d38a-4778-a93c-7b32b071b5ee"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL8</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>09e33653-2b37-4704-942d-b04712250909</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE26_CL8</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_117e4072-bc0a-4bf6-8208-5744c49daaee">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL8 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>117e4072-bc0a-4bf6-8208-5744c49daaee</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO29_CL8</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_5b756d45-1158-4240-b1a7-138a69aa192b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_4cdd8def-d679-4f38-be82-0c795867ad91"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_f91005a2-26f6-4478-9454-adc4bb014a01"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CL9</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5b756d45-1158-4240-b1a7-138a69aa192b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE27_CL9</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_4cdd8def-d679-4f38-be82-0c795867ad91">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CL9 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4cdd8def-d679-4f38-be82-0c795867ad91</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO30_CL9</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_54491f04-e35b-45c3-ba9c-e843f996c675">
+    <cim:ContingencyElement.Contingency rdf:resource="#_82a4c44a-f811-4caa-97af-231f8e3115aa"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_9004a717-5381-4004-8927-cb7aa1e3fcf7"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT112_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>54491f04-e35b-45c3-ba9c-e843f996c675</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE28_CT112_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_82a4c44a-f811-4caa-97af-231f8e3115aa">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT112_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>82a4c44a-f811-4caa-97af-231f8e3115aa</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO31_CT112_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_c7d86e5f-26dc-40cb-ad8f-0c522543c58e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_5b754bdf-63bd-4cf1-8a1a-3aed72c5a25c"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_ebfab4de-74dd-40fe-af26-9590801b9e1d"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT11_T1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c7d86e5f-26dc-40cb-ad8f-0c522543c58e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE29_CT11_T1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_5b754bdf-63bd-4cf1-8a1a-3aed72c5a25c">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT11_T1 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5b754bdf-63bd-4cf1-8a1a-3aed72c5a25c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO32_CT11_T1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_c62c4439-6f77-481a-aa10-0f3c80ac7584">
+    <cim:ContingencyElement.Contingency rdf:resource="#_4672eb9a-188c-427d-8ac2-e75b9b659d9f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_361d9fd3-5c8b-40ef-8ef4-3ba3c47410ea"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT11_T2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c62c4439-6f77-481a-aa10-0f3c80ac7584</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE30_CT11_T2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_4672eb9a-188c-427d-8ac2-e75b9b659d9f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT11_T2 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>4672eb9a-188c-427d-8ac2-e75b9b659d9f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO33_CT11_T2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_b1d819a2-5e20-4ccc-8a52-0f2d66a3b8d1">
+    <cim:ContingencyElement.Contingency rdf:resource="#_8aadce66-db5b-4048-9f7a-eb3a0abf5e5f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_be58e1c7-485f-4e1e-bcad-8109f11269ad"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT11_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b1d819a2-5e20-4ccc-8a52-0f2d66a3b8d1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE31_CT11_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_8aadce66-db5b-4048-9f7a-eb3a0abf5e5f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT11_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8aadce66-db5b-4048-9f7a-eb3a0abf5e5f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO34_CT11_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_adac20ff-7db8-452c-b0ec-eaa75d97557b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_9a4114c8-a1de-4279-ad23-a5d821913e66"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_9f967761-fe1d-454d-ad69-9b7c5abc010a"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT22_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>adac20ff-7db8-452c-b0ec-eaa75d97557b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE32_CT22_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_9a4114c8-a1de-4279-ad23-a5d821913e66">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT22_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9a4114c8-a1de-4279-ad23-a5d821913e66</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO35_CT22_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_01048168-342c-455c-8ef9-222c466640d5">
+    <cim:ContingencyElement.Contingency rdf:resource="#_5b4c22ad-66f8-414f-9ce9-edacf9a04842"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_8dc3146e-0b53-4a70-8368-72129e794e2f"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT31_T1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>01048168-342c-455c-8ef9-222c466640d5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE33_CT31_T1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_5b4c22ad-66f8-414f-9ce9-edacf9a04842">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT31_T1 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5b4c22ad-66f8-414f-9ce9-edacf9a04842</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO36_CT31_T1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_3a21d631-7c83-4397-a37c-7da0d725d71f">
+    <cim:ContingencyElement.Contingency rdf:resource="#_67925c1e-331b-4012-8bbf-1fc4f032230e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_cd6b9797-ab35-48a4-94cd-038484fee143"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch CT31_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3a21d631-7c83-4397-a37c-7da0d725d71f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE34_CT31_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_67925c1e-331b-4012-8bbf-1fc4f032230e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch CT31_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>67925c1e-331b-4012-8bbf-1fc4f032230e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO37_CT31_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_331aae8b-dbd2-4f16-853a-93c5c2df9c0d">
+    <cim:ContingencyElement.Contingency rdf:resource="#_f2ab8d62-d75a-4842-8be9-8f4a7850dcf5"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_498410ba-8b68-4418-91ae-e0848698bf06"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>331aae8b-dbd2-4f16-853a-93c5c2df9c0d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE35_FL1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_f2ab8d62-d75a-4842-8be9-8f4a7850dcf5">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL1 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f2ab8d62-d75a-4842-8be9-8f4a7850dcf5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO38_FL1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_20f40954-f16f-41c6-b8d0-cba7e025ad57">
+    <cim:ContingencyElement.Contingency rdf:resource="#_3b0df32f-06de-422a-80fe-ddad740f7faa"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_628cee38-ba9c-4fdd-915d-1dd7857a8f66"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL10</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>20f40954-f16f-41c6-b8d0-cba7e025ad57</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE36_FL10</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_3b0df32f-06de-422a-80fe-ddad740f7faa">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL10 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3b0df32f-06de-422a-80fe-ddad740f7faa</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO39_FL10</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_df05f2ab-c6dc-426f-9aae-8b13d21cc4ad">
+    <cim:ContingencyElement.Contingency rdf:resource="#_5c4296ee-d6b1-4a60-986c-1e24fc7d320a"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_c1324554-fa88-4259-9782-b3aaf0cb97d2"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>df05f2ab-c6dc-426f-9aae-8b13d21cc4ad</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE37_FL11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_5c4296ee-d6b1-4a60-986c-1e24fc7d320a">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL11 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5c4296ee-d6b1-4a60-986c-1e24fc7d320a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO40_FL11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_59e94e43-c0b5-41e5-98bc-7b8402fffc9c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_44ba240a-0a51-4216-99de-cb6a77fc83d3"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_48485857-d388-4d24-8e5c-02a68ec905e9"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL12</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>59e94e43-c0b5-41e5-98bc-7b8402fffc9c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE38_FL12</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_44ba240a-0a51-4216-99de-cb6a77fc83d3">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL12 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>44ba240a-0a51-4216-99de-cb6a77fc83d3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO41_FL12</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f30f5e32-3971-4983-98a2-453c8a469732">
+    <cim:ContingencyElement.Contingency rdf:resource="#_8b61bbbe-dc19-4186-90a7-1b4fa820c5a1"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_77672b4f-7be7-4b8a-bef2-8ff06908ae96"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL13</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f30f5e32-3971-4983-98a2-453c8a469732</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE39_FL13</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_8b61bbbe-dc19-4186-90a7-1b4fa820c5a1">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL13 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8b61bbbe-dc19-4186-90a7-1b4fa820c5a1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO42_FL13</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_5ef5e8d7-5fb4-4ca5-98f1-2796f8dfaff3">
+    <cim:ContingencyElement.Contingency rdf:resource="#_d57e80fe-7ff0-4de5-91b8-10b66c2ae72b"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_e4a69d52-39eb-4add-988c-cc864e50e5ff"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL14</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>5ef5e8d7-5fb4-4ca5-98f1-2796f8dfaff3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE40_FL14</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_d57e80fe-7ff0-4de5-91b8-10b66c2ae72b">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL14 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d57e80fe-7ff0-4de5-91b8-10b66c2ae72b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO43_FL14</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_67b09be9-5675-4bde-be83-c0b44da48db6">
+    <cim:ContingencyElement.Contingency rdf:resource="#_99a650d0-5d2b-4579-9eb7-27f542d9ae3e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b6750099-1ff2-4dc9-98de-041392bb1287"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL15</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>67b09be9-5675-4bde-be83-c0b44da48db6</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE41_FL15</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_99a650d0-5d2b-4579-9eb7-27f542d9ae3e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL15 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>99a650d0-5d2b-4579-9eb7-27f542d9ae3e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO44_FL15</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_c7c267f3-a826-417a-87f7-e68f1ead20a4">
+    <cim:ContingencyElement.Contingency rdf:resource="#_0b3e67df-5413-47dd-8e46-e16e218ade0b"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_91ac9bdf-784d-405b-8b51-e5cb76cf8745"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL16</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c7c267f3-a826-417a-87f7-e68f1ead20a4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE42_FL16</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_0b3e67df-5413-47dd-8e46-e16e218ade0b">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL16 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0b3e67df-5413-47dd-8e46-e16e218ade0b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO45_FL16</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_ae7fbfc3-a4df-4aad-b242-bb662a1a223a">
+    <cim:ContingencyElement.Contingency rdf:resource="#_44b95bab-5708-49f8-beb6-0e6c62ee897b"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_4a4edd66-b2d4-4ebd-82fa-b42cdad91f3f"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL3</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ae7fbfc3-a4df-4aad-b242-bb662a1a223a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE43_FL3</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_44b95bab-5708-49f8-beb6-0e6c62ee897b">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>44b95bab-5708-49f8-beb6-0e6c62ee897b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO46_FL3</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f341562f-97fb-4ef7-9dd4-0ab4a581d31b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_79782d5d-e36e-4c02-8241-e6159d53c47a"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_5da94c86-8568-4013-88a1-55551e425a1e"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL4</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f341562f-97fb-4ef7-9dd4-0ab4a581d31b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE44_FL4</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_79782d5d-e36e-4c02-8241-e6159d53c47a">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL4 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>79782d5d-e36e-4c02-8241-e6159d53c47a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO47_FL4</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f799f37a-4485-406a-a165-32660a98c916">
+    <cim:ContingencyElement.Contingency rdf:resource="#_134cb5e0-e6f7-46db-9f23-8ce1737f578f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_3ef4b5d3-e80b-4626-b1ce-be0f8d8139fa"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL5</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f799f37a-4485-406a-a165-32660a98c916</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE45_FL5</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_134cb5e0-e6f7-46db-9f23-8ce1737f578f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL5 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>134cb5e0-e6f7-46db-9f23-8ce1737f578f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO48_FL5</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_d66e206a-84ef-4b73-b063-e6fb055834fa">
+    <cim:ContingencyElement.Contingency rdf:resource="#_1bcefafb-bbe5-4bdc-9b86-189734d36e94"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_7f2ab29f-606d-42c7-af86-9d659b650c0a"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL6</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d66e206a-84ef-4b73-b063-e6fb055834fa</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE46_FL6</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_1bcefafb-bbe5-4bdc-9b86-189734d36e94">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL6 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1bcefafb-bbe5-4bdc-9b86-189734d36e94</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO49_FL6</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_223e22bc-14a9-4f21-a71a-386c6cb0536c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_af0306a2-e37b-45e6-b426-4a9916fd3296"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_7ee13d9a-ada9-4272-b3e8-c4a8c57d3dc4"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL7</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>223e22bc-14a9-4f21-a71a-386c6cb0536c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE47_FL7</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_af0306a2-e37b-45e6-b426-4a9916fd3296">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL7 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>af0306a2-e37b-45e6-b426-4a9916fd3296</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO50_FL7</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_658ff290-6630-4596-9cd0-d0122e087d46">
+    <cim:ContingencyElement.Contingency rdf:resource="#_06e073bb-53c2-4bcd-b45a-6dcdeb4cdb7f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_52a29d0b-d382-4a5e-ba4e-84d8fa606246"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL8</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>658ff290-6630-4596-9cd0-d0122e087d46</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE48_FL8</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_06e073bb-53c2-4bcd-b45a-6dcdeb4cdb7f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL8 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>06e073bb-53c2-4bcd-b45a-6dcdeb4cdb7f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO51_FL8</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_865f47be-3431-493a-a12d-1b47e40fa598">
+    <cim:ContingencyElement.Contingency rdf:resource="#_daa1e91d-37b3-41fd-9eaf-38d7ef7df89c"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_f6bc0b3b-7e66-428f-bffd-dc09f3ae3c65"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FL9</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>865f47be-3431-493a-a12d-1b47e40fa598</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE49_FL9</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_daa1e91d-37b3-41fd-9eaf-38d7ef7df89c">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FL9 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>daa1e91d-37b3-41fd-9eaf-38d7ef7df89c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO52_FL9</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f33a02e5-dcc9-48f7-91dd-a2c9ca7d3113">
+    <cim:ContingencyElement.Contingency rdf:resource="#_adb6c13c-fde4-4ccf-bbc5-9bc479a180fb"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_fe82151b-75c9-467a-98ee-377d5407e696"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT42_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f33a02e5-dcc9-48f7-91dd-a2c9ca7d3113</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE50_FT42_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_adb6c13c-fde4-4ccf-bbc5-9bc479a180fb">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT42_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>adb6c13c-fde4-4ccf-bbc5-9bc479a180fb</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO53_FT42_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_e7a5b0c7-5221-4c51-b54c-8809e91034ef">
+    <cim:ContingencyElement.Contingency rdf:resource="#_9b630621-36d9-4063-a2d6-5a568a17e0ee"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_cef99b4a-2f58-471e-bb46-a5bd364a39e7"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT42_T402</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e7a5b0c7-5221-4c51-b54c-8809e91034ef</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE51_FT42_T402</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_9b630621-36d9-4063-a2d6-5a568a17e0ee">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT42_T402 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9b630621-36d9-4063-a2d6-5a568a17e0ee</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO54_FT42_T402</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f3f07ebf-cfa0-4945-9458-705e4e120bb9">
+    <cim:ContingencyElement.Contingency rdf:resource="#_dfe77fa7-ce35-4601-ba21-825f955523be"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_eaa322fa-4103-4566-ab44-7af721220c5f"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT44_T11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f3f07ebf-cfa0-4945-9458-705e4e120bb9</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE52_FT44_T11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_dfe77fa7-ce35-4601-ba21-825f955523be">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT44_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>dfe77fa7-ce35-4601-ba21-825f955523be</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO55_FT44_T11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_b701a9a8-5715-4379-8343-b268c205134c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_8041aff0-621e-4283-8d96-16941db6e307"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_452ad737-7105-4620-9871-7326e5fc9f32"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT44_T12</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b701a9a8-5715-4379-8343-b268c205134c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE53_FT44_T12</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_8041aff0-621e-4283-8d96-16941db6e307">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT44_T12 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8041aff0-621e-4283-8d96-16941db6e307</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO56_FT44_T12</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_0f70269e-5434-4434-b50c-0f7cc73ee797">
+    <cim:ContingencyElement.Contingency rdf:resource="#_c41230b1-0fb7-40a5-9435-dc5ac0dfdfd1"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_e951026f-1382-4305-8628-7cad2e237add"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT44_T13</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0f70269e-5434-4434-b50c-0f7cc73ee797</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE54_FT44_T13</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_c41230b1-0fb7-40a5-9435-dc5ac0dfdfd1">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT44_T13 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c41230b1-0fb7-40a5-9435-dc5ac0dfdfd1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO57_FT44_T13</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_6421d62e-3d5f-4968-a76d-550d132ee71c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_e79759ef-393a-4f1d-a0b8-7f45337a4818"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_37b823e4-ffde-4e4b-a334-8db84362b454"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT47_T11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6421d62e-3d5f-4968-a76d-550d132ee71c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE55_FT47_T11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_e79759ef-393a-4f1d-a0b8-7f45337a4818">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT47_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e79759ef-393a-4f1d-a0b8-7f45337a4818</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO58_FT47_T11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_a3a1a1cc-b580-4417-99e7-dfb14a62293e">
+    <cim:ContingencyElement.Contingency rdf:resource="#_8ec4d57e-dfdb-4eac-8fe9-7b7a3f66dc45"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_8a33cec2-49b6-44df-8286-10a92377c58e"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT47_T21</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a3a1a1cc-b580-4417-99e7-dfb14a62293e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE56_FT47_T21</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_8ec4d57e-dfdb-4eac-8fe9-7b7a3f66dc45">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT47_T21 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8ec4d57e-dfdb-4eac-8fe9-7b7a3f66dc45</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO59_FT47_T21</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_1158c80e-f1e6-4e6d-8f37-062bd91f1c12">
+    <cim:ContingencyElement.Contingency rdf:resource="#_e6b85381-f166-4d37-8c51-36805a721ae3"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_bd49bfa4-a01c-43be-82fb-f2119d1b42de"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT50_T401</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1158c80e-f1e6-4e6d-8f37-062bd91f1c12</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE57_FT50_T401</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_e6b85381-f166-4d37-8c51-36805a721ae3">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT50_T401 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e6b85381-f166-4d37-8c51-36805a721ae3</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO60_FT50_T401</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_349cf971-82ce-4e90-9564-09e565ec98aa">
+    <cim:ContingencyElement.Contingency rdf:resource="#_882576d5-087e-4d4b-a8a7-23f5fdb450d7"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_4bc00412-7da5-42d2-b3b9-758bc15942a6"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT50_T402</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>349cf971-82ce-4e90-9564-09e565ec98aa</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE58_FT50_T402</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_882576d5-087e-4d4b-a8a7-23f5fdb450d7">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT50_T402 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>882576d5-087e-4d4b-a8a7-23f5fdb450d7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO61_FT50_T402</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_aa02a228-205c-4465-9f45-f8341ec19e80">
+    <cim:ContingencyElement.Contingency rdf:resource="#_18ca4930-5a44-4ed6-ad08-b8b42a0c290d"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_4cc583ea-c923-4fe2-89e3-b7b271ef00dc"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT63_T11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>aa02a228-205c-4465-9f45-f8341ec19e80</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE59_FT63_T11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_18ca4930-5a44-4ed6-ad08-b8b42a0c290d">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT63_T11 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>18ca4930-5a44-4ed6-ad08-b8b42a0c290d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO62_FT63_T11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_a498ac17-1c85-44a6-94bf-4b9e63af4d3b">
+    <cim:ContingencyElement.Contingency rdf:resource="#_d5cbf492-578e-415f-be21-ab736921df33"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_02eaabb7-5736-43aa-9b32-d45565e2e141"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch FT63_T12</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>a498ac17-1c85-44a6-94bf-4b9e63af4d3b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE60_FT63_T12</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_d5cbf492-578e-415f-be21-ab736921df33">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch FT63_T12 (PowerTransformer, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>d5cbf492-578e-415f-be21-ab736921df33</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO63_FT63_T12</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_66252269-625d-4888-9f03-b4eccde50e6c">
+    <cim:ContingencyElement.Contingency rdf:resource="#_ec525db3-1b9e-4862-85ba-db48c7971dc4"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_08464663-7dbf-4195-9754-a6ff63c421d6"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>66252269-625d-4888-9f03-b4eccde50e6c</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE61_RL1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_ec525db3-1b9e-4862-85ba-db48c7971dc4">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL1 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ec525db3-1b9e-4862-85ba-db48c7971dc4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO64_RL1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_435f429f-4ee3-48b2-b1ea-ad865a22a7c7">
+    <cim:ContingencyElement.Contingency rdf:resource="#_f0cb5c3a-5d8e-4f4d-80d6-20b700dadc4b"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_fb096d3d-b18c-475a-bc2f-29344c55715f"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>435f429f-4ee3-48b2-b1ea-ad865a22a7c7</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE62_RL2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_f0cb5c3a-5d8e-4f4d-80d6-20b700dadc4b">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL2 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f0cb5c3a-5d8e-4f4d-80d6-20b700dadc4b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO65_RL2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_57d73707-9f6d-4b0c-bbfd-02dd6111e237">
+    <cim:ContingencyElement.Contingency rdf:resource="#_ac63eb4c-426a-472c-89db-4ba6c0bd8d3f"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_45d46be7-6419-4054-817b-f0423329b51b"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL3</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>57d73707-9f6d-4b0c-bbfd-02dd6111e237</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE63_RL3</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_ac63eb4c-426a-472c-89db-4ba6c0bd8d3f">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL3 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ac63eb4c-426a-472c-89db-4ba6c0bd8d3f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO66_RL3</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_6cafa24d-f9f0-456b-9420-c031724b2400">
+    <cim:ContingencyElement.Contingency rdf:resource="#_c796d6af-6f18-4182-9bf0-fb76bae87efe"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_d3ee04cf-e36c-48fd-8048-e40a963625b2"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL4</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6cafa24d-f9f0-456b-9420-c031724b2400</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE64_RL4</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_c796d6af-6f18-4182-9bf0-fb76bae87efe">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL4 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>c796d6af-6f18-4182-9bf0-fb76bae87efe</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO67_RL4</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_0b7cf619-361e-4af5-a3ad-f2f0bdc077af">
+    <cim:ContingencyElement.Contingency rdf:resource="#_87adbff6-9f86-4f6e-9814-d0791f3ed369"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_75ed9ad2-4ff8-4a41-b664-f4064378c1cb"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL5</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0b7cf619-361e-4af5-a3ad-f2f0bdc077af</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE65_RL5</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_87adbff6-9f86-4f6e-9814-d0791f3ed369">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL5 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>87adbff6-9f86-4f6e-9814-d0791f3ed369</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO68_RL5</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_6937e503-7dbe-4574-94f8-8711a2a24812">
+    <cim:ContingencyElement.Contingency rdf:resource="#_1f95e50a-bd1a-41d0-9565-a8e784a2631b"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_c6278b38-b777-4ad9-b395-50c4009afdff"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL6</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>6937e503-7dbe-4574-94f8-8711a2a24812</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE66_RL6</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_1f95e50a-bd1a-41d0-9565-a8e784a2631b">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL6 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>1f95e50a-bd1a-41d0-9565-a8e784a2631b</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO69_RL6</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_49e61e5e-0132-4a6b-bdf3-7ebe33f1dbe8">
+    <cim:ContingencyElement.Contingency rdf:resource="#_97ac2f6d-45c8-454a-8b28-4aa1d4dd7c8e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_268d6965-c800-4aa8-8b54-bd80a7c21058"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL7</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>49e61e5e-0132-4a6b-bdf3-7ebe33f1dbe8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE67_RL7</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_97ac2f6d-45c8-454a-8b28-4aa1d4dd7c8e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL7 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>97ac2f6d-45c8-454a-8b28-4aa1d4dd7c8e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO70_RL7</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_418af673-fa4b-4b1b-a64d-152b2ee30e10">
+    <cim:ContingencyElement.Contingency rdf:resource="#_08016407-9e4b-4ce0-a95d-c00dcb50c78e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b2a3ba57-d592-4bc9-b4cb-8a78cf8a0bb6"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL8</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>418af673-fa4b-4b1b-a64d-152b2ee30e10</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE68_RL8</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_08016407-9e4b-4ce0-a95d-c00dcb50c78e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL8 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>08016407-9e4b-4ce0-a95d-c00dcb50c78e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO71_RL8</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_266c971d-122c-461a-900b-ce7af4ebc098">
+    <cim:ContingencyElement.Contingency rdf:resource="#_93a1d8db-1a27-4650-a2f9-d7e3f6719f47"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b2dc8985-174a-4e4e-970c-65ee87af809d"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch RL9</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>266c971d-122c-461a-900b-ce7af4ebc098</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE69_RL9</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_93a1d8db-1a27-4650-a2f9-d7e3f6719f47">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch RL9 (ACLineSegment, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>93a1d8db-1a27-4650-a2f9-d7e3f6719f47</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO72_RL9</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_b9516ab5-4e98-45c1-b145-c00974984baf">
+    <cim:ContingencyElement.Contingency rdf:resource="#_815cf9fa-a2d5-4587-bfe4-d5df90957399"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_8510880c-0d91-44ed-897e-f95877ba489f"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch T1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b9516ab5-4e98-45c1-b145-c00974984baf</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE70_T1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_815cf9fa-a2d5-4587-bfe4-d5df90957399">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch T1 (PowerTransformer, 134 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>815cf9fa-a2d5-4587-bfe4-d5df90957399</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO73_T1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_531bf8c0-3937-4aa1-8948-8c0acefffe24">
+    <cim:ContingencyElement.Contingency rdf:resource="#_b3195e02-edbb-4a90-9d70-184173fd25d8"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_2dc656d8-797f-4f27-a55e-6e0d3627e39e"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch T11</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>531bf8c0-3937-4aa1-8948-8c0acefffe24</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE71_T11</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_b3195e02-edbb-4a90-9d70-184173fd25d8">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch T11 (PowerTransformer, 134 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b3195e02-edbb-4a90-9d70-184173fd25d8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO74_T11</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_66129897-930c-460a-a9ee-d54e9b429c99">
+    <cim:ContingencyElement.Contingency rdf:resource="#_ff997c3c-92e1-4327-8f16-74e38fd91bc2"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_20f3f6ca-906f-4c6c-bc12-89ffff80b03b"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD-BO1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>66129897-930c-460a-a9ee-d54e9b429c99</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE72_TieLine_SD_BO1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_ff997c3c-92e1-4327-8f16-74e38fd91bc2">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD-BO1 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ff997c3c-92e1-4327-8f16-74e38fd91bc2</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO75_TieLine_SD_BO1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_15dc9c65-0444-4d16-8f58-a7dac9601c64">
+    <cim:ContingencyElement.Contingency rdf:resource="#_fd10c10a-bd39-48af-b4e2-02fd4951a439"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_632d9eaa-06f7-4b7b-8f8f-ae248941efe2"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD-EH1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>15dc9c65-0444-4d16-8f58-a7dac9601c64</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE73_TieLine_SD_EH1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_fd10c10a-bd39-48af-b4e2-02fd4951a439">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD-EH1 (ACLineSegment, 225 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>fd10c10a-bd39-48af-b4e2-02fd4951a439</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO76_TieLine_SD_EH1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_b44ed169-6c30-4327-bdb8-e86c267d9d6f">
+    <cim:ContingencyElement.Contingency rdf:resource="#_15fb0cf4-c422-40bb-9503-976ed233f245"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_891e77ff-39c6-4648-8eda-d81f730271f9"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD-EH2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>b44ed169-6c30-4327-bdb8-e86c267d9d6f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE74_TieLine_SD_EH2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_15fb0cf4-c422-40bb-9503-976ed233f245">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD-EH2 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>15fb0cf4-c422-40bb-9503-976ed233f245</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO77_TieLine_SD_EH2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_8115c565-be6c-42bd-82f9-7464b7de7229">
+    <cim:ContingencyElement.Contingency rdf:resource="#_9875f5ce-19e6-4511-8844-147ec802ede0"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_4c390dab-3499-4a9f-9cee-5877081479ab"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD-EH3</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8115c565-be6c-42bd-82f9-7464b7de7229</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE75_TieLine_SD_EH3</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_9875f5ce-19e6-4511-8844-147ec802ede0">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD-EH3 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>9875f5ce-19e6-4511-8844-147ec802ede0</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO78_TieLine_SD_EH3</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_e90ccd85-fac8-4cc9-b742-19edb681ed7d">
+    <cim:ContingencyElement.Contingency rdf:resource="#_3df3186c-fc73-4ba5-b3ea-bf66fe509f81"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_7b858bec-17c8-4cab-bfcb-6bbd645af2db"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD-HVDC_SD_EH_1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>e90ccd85-fac8-4cc9-b742-19edb681ed7d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE76_TieLine_SD_HVDC_SD_EH_1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_3df3186c-fc73-4ba5-b3ea-bf66fe509f81">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD-HVDC_SD_EH_1 (ACLineSegment, 400 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3df3186c-fc73-4ba5-b3ea-bf66fe509f81</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO79_TieLine_SD_HVDC_SD_EH_1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_42969844-f329-4422-9c2c-c84a159b6c54">
+    <cim:ContingencyElement.Contingency rdf:resource="#_0946dd68-3533-4085-bcc7-f7b32f1537c1"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_ce3112ee-bb8d-48b3-a1b0-689cf7585fd6"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch TieLine_SD_BO2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>42969844-f329-4422-9c2c-c84a159b6c54</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE77_TieLine_SD_BO2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_0946dd68-3533-4085-bcc7-f7b32f1537c1">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch TieLine_SD_BO2 (ACLineSegment, 380 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>0946dd68-3533-4085-bcc7-f7b32f1537c1</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO80_TieLine_SD_BO2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_ddef3448-49e4-46ac-b1b9-887989d1559d">
+    <cim:ContingencyElement.Contingency rdf:resource="#_968ae675-2990-4256-ad9a-0638c74f18c4"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_b722780e-0064-4cf9-a8d1-6c33c29f3acb"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch XT191-T1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>ddef3448-49e4-46ac-b1b9-887989d1559d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE78_XT191_T1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_968ae675-2990-4256-ad9a-0638c74f18c4">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch XT191-T1 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>968ae675-2990-4256-ad9a-0638c74f18c4</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO81_XT191_T1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_f3990c8c-2257-4055-9991-0361d7bca979">
+    <cim:ContingencyElement.Contingency rdf:resource="#_620c3026-be9c-47de-85cc-caa04258e59a"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_9ccfb87e-688a-41f5-b49b-5a847d2f7f35"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch XT201-T1</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>f3990c8c-2257-4055-9991-0361d7bca979</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE79_XT201_T1</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_620c3026-be9c-47de-85cc-caa04258e59a">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch XT201-T1 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>620c3026-be9c-47de-85cc-caa04258e59a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO82_XT201_T1</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
+  <cim:ContingencyEquipment rdf:ID="_8483f745-04dc-4a47-a546-67ba9c7341a5">
+    <cim:ContingencyElement.Contingency rdf:resource="#_3d0ee3f6-fc8f-4594-b32a-2e848e3c1b3e"/>
+    <cim:ContingencyEquipment.Equipment rdf:resource="#_f3006553-de90-49f1-909b-016c0bdbf47d"/>
+    <cim:ContingencyEquipment.contingentStatus rdf:resource="https://cim.ucaiug.io/ns#ContingencyEquipmentStatusKind.outOfService"/>
+    <cim:IdentifiedObject.description>The equipment for this contingency; loss of branch XT201-T2</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>8483f745-04dc-4a47-a546-67ba9c7341a5</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CE80_XT201_T2</cim:IdentifiedObject.name>
+  </cim:ContingencyEquipment>
+  <nc:OrdinaryContingency rdf:ID="_3d0ee3f6-fc8f-4594-b32a-2e848e3c1b3e">
+    <nc:Contingency.EquipmentOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
+    <nc:Contingency.normalMustStudy>true</nc:Contingency.normalMustStudy>
+    <cim:IdentifiedObject.description>This is an ordinary contingency; loss of branch XT201-T2 (PowerTransformer, 135 kV).</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>3d0ee3f6-fc8f-4594-b32a-2e848e3c1b3e</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>CO83_XT201_T2</cim:IdentifiedObject.name>
+  </nc:OrdinaryContingency>
 </rdf:RDF>

@@ -74,7 +74,67 @@
 	<cim:OperationalLimitSet rdf:about="#_89de3c44-8a85-3cb9-6d7c-af2339a5a047">
 		<nc:OperationalLimitSet.PowerTransferCorridor rdf:resource="#_1ad441fe-e557-4e7b-8286-91bd8029c3ff"/>
 	</cim:OperationalLimitSet>
-	
 
+	<nc:VoltageControlFunction rdf:ID="_96abc1bd-df1e-46d5-a41e-6795cd7900fc">
+		<cim:IdentifiedObject.mRID>96abc1bd-df1e-46d5-a41e-6795cd7900fc</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>NORRSELE_G2 voltage control</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>AVR of SynchronousMachine NORRSELE_G2</cim:IdentifiedObject.description>
+		<nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+		<nc:ControlFunctionBlock.isDiscrete>false</nc:ControlFunctionBlock.isDiscrete>
+		<nc:FunctionBlock.AutomationFunction rdf:resource="#_963a48e2-0d4b-4bf9-af74-30c00ec1a790"/>
+	</nc:VoltageControlFunction>
+	<nc:PinTerminal rdf:ID="_c74a40d1-d790-4877-80e8-260f7790a559">
+		<cim:IdentifiedObject.mRID>c74a40d1-d790-4877-80e8-260f7790a559</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>NORRSELE_G2 measured V (remote)</cim:IdentifiedObject.name>
+		<nc:FunctionInputVariable.Function rdf:resource="#_96abc1bd-df1e-46d5-a41e-6795cd7900fc"/>
+		<nc:PinTerminal.Terminal rdf:resource="#_63fb9360-5fd6-44ea-9df0-1043ad79118a"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltageMagnitude"/>
+	</nc:PinTerminal>
+	<nc:FunctionOutputVariable rdf:ID="_eae4806a-9cc6-41a1-a22c-e2df5c3b18a3">
+		<cim:IdentifiedObject.mRID>eae4806a-9cc6-41a1-a22c-e2df5c3b18a3</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>NORRSELE_G2 Q output</cim:IdentifiedObject.name>
+		<nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_96abc1bd-df1e-46d5-a41e-6795cd7900fc"/>
+		<nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#RotatingMachine.q"/>
+	</nc:FunctionOutputVariable>
+	<nc:RotatingMachineController rdf:ID="_963a48e2-0d4b-4bf9-af74-30c00ec1a790">
+		<cim:IdentifiedObject.mRID>963a48e2-0d4b-4bf9-af74-30c00ec1a790</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>NORRSELE_G2 AVR</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>AVR of SynchronousMachine NORRSELE_G2</cim:IdentifiedObject.description>
+		<nc:AutomationFunction.normalEnabled>true</nc:AutomationFunction.normalEnabled>
+	</nc:RotatingMachineController>
+	<cim:SynchronousMachine rdf:about="#_1092d095-f5a4-4e36-a31b-8bd15851165f">
+		<nc:RegulatingCondEq.EquipmentController rdf:resource="#_963a48e2-0d4b-4bf9-af74-30c00ec1a790"/>
+	</cim:SynchronousMachine>
+
+	<nc:VoltageControlFunction rdf:ID="_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80">
+		<cim:IdentifiedObject.mRID>d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>XT201-T1 tap voltage control</cim:IdentifiedObject.name>
+		<cim:IdentifiedObject.description>Voltage control of RatioTapChanger XT201-T1 (920f9cbd), regulated at REMOTE terminal 29ab23bd; actuator is the discrete tap step.</cim:IdentifiedObject.description>
+		<nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
+		<nc:ControlFunctionBlock.isDiscrete>true</nc:ControlFunctionBlock.isDiscrete>
+		<nc:ControlFunctionBlock.targetDeadband>0.275</nc:ControlFunctionBlock.targetDeadband>
+		<nc:FunctionBlock.AutomationFunction rdf:resource="#_9ca43877-e992-4369-8ec2-6ec9cf0d1cbb"/>
+	</nc:VoltageControlFunction>
+	<nc:PinTerminal rdf:ID="_3d160f98-185e-4804-977d-4d26502a39c8">
+		<cim:IdentifiedObject.mRID>3d160f98-185e-4804-977d-4d26502a39c8</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>XT201-T1 measured V (remote)</cim:IdentifiedObject.name>
+		<nc:FunctionInputVariable.Function rdf:resource="#_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80"/>
+		<nc:PinTerminal.Terminal rdf:resource="#_29ab23bd-642d-4171-bc7d-a2a8299a207e"/>
+		<nc:PinTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinTerminalKind.voltageMagnitude"/>
+	</nc:PinTerminal>
+	<nc:FunctionOutputVariable rdf:ID="_9e9adeb5-113c-414d-8aaf-8b27c5d24249">
+		<cim:IdentifiedObject.mRID>9e9adeb5-113c-414d-8aaf-8b27c5d24249</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>XT201-T1 tap step</cim:IdentifiedObject.name>
+		<nc:FunctionOutputVariable.FunctionBlock rdf:resource="#_d5e9e69d-8c0c-45fe-b925-ed2dcd16fb80"/>
+		<nc:FunctionOutputVariable.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#TapChanger.step"/>
+	</nc:FunctionOutputVariable>
+	<nc:TapChangerController rdf:ID="_9ca43877-e992-4369-8ec2-6ec9cf0d1cbb">
+		<cim:IdentifiedObject.mRID>9ca43877-e992-4369-8ec2-6ec9cf0d1cbb</cim:IdentifiedObject.mRID>
+		<cim:IdentifiedObject.name>XT201-T1 tap step</cim:IdentifiedObject.name>
+		<nc:AutomationFunction.normalEnabled>true</nc:AutomationFunction.normalEnabled>
+	</nc:TapChangerController>
+	<cim:RatioTapChanger rdf:about="#_920f9cbd-0f0e-bf5d-083e-dbf16aad8b0f">
+		<nc:TapChanger.TapChangerController rdf:resource="#_9ca43877-e992-4369-8ec2-6ec9cf0d1cbb"/>
+	</cim:RatioTapChanger>
 
 </rdf:RDF>
