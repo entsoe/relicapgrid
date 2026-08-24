@@ -124,6 +124,17 @@ Repo `relicapgrid` is used to load this data and experiment with it
 - I also loaded the ontologies from [Sveino/Inst4CIM-KG/rdfs-improved/CGMES-NC-ttl.zip](https://github.com/Sveino/Inst4CIM-KG/raw/refs/heads/develop/rdfs-improved/CGMES-NC-ttl.zip) (472k)
 > Imported successfully in 1s. Added 65849 statements
 
+## Conversion and Loading to GraphDB using Docker
+
+To create image with dependencies and scripts:
+> docker build -t semantic-tools-image .
+
+To use Docker semantic-tools-image guest shell:
+> docker run -it semantic-tools-image bash
+
+To run data coversion and uploading to cim.ontotext.com/graphdb/ repository:
+>./refresh-data.sh
+
 Now let's try some queries.
 
 ## Data Validation with SPARQL
