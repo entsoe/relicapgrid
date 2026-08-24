@@ -1,0 +1,332 @@
+@base   <https://cim.ucaiug.io/ns> .
+@prefix adms:    <http://www.w3.org/ns/adms#> .
+@prefix dcat:    <http://www.w3.org/ns/dcat#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix prof:    <http://www.w3.org/ns/dx/prof/> .
+@prefix prov:    <http://www.w3.org/ns/prov#> .
+@prefix provcim: <https://cim4.eu/ns/provcim#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos:    <http://www.w3.org/2004/02/skos/core#> .
+
+<http://iec.ch/TC57/ns/CIM/EquipmentBoundary-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Equipment Boundary (EQBD) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "c651d71d-6d11-4ac3-87d4-bc4489118f5c";
+        skos:prefLabel       '"Equipment Boundary (EQBD) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://cim4.eu/ns/nc/2.5>
+        rdf:type             dcterms:Standard , adms:SemanticAsset;
+        dcterms:description  '"Network Code vocabulary developed by ENTSO-E to extend the IEC Common Information Model (CIM) and Common Grid Model Exchange Standard (CGMES) to address EU Network Code regulation."@en';
+        dcterms:identifier   "3a3b2848-572b-45e3-b567-b4aef7c89da4";
+        skos:prefLabel       '"CIM4EU Network Code vocabulary 2.5.0"@en';
+        dcat:isVersionOf     <https://cim4.eu/ns/nc>;
+        dcat:version         "2.5.0" .
+
+<https://ap.cim4.eu/SteadyStateInstruction/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Steady State Instruction (SSI) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "45c085b8-5b83-43b6-9ad8-85d9caba8bb4";
+        skos:prefLabel       '"Steady State Instruction (SSI) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://ap.cim4.eu/SensitivityMatrix/2.3>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Sensitivity Matrix (SM) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "8d67e498-9a42-453e-bbb1-dccd8554eabb";
+        skos:prefLabel       '"Sensitivity Matrix (SM) Application Profile 2.3"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://cim4.eu/ns/cgmes/3.0>
+        rdf:type             dcterms:Standard , adms:SemanticAsset;
+        dcterms:description  '"Common Grid Model Exchange Standard vocabulary based on the IEC Common Information Model (CIM)."@en';
+        dcterms:identifier   "3988d718-fa27-4834-9644-bd9e5c01069d";
+        skos:prefLabel       '"CIM4EU CGMES vocabulary 3.0.0"@en';
+        dcat:isVersionOf     <http://iec.ch/TC57/CIM100>;
+        dcat:version         "3.0.0" .
+
+<https://ap.cim4.eu/ImpactAssessmentMatrix/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Impact Assessment matrix (IAM) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "ed3fe9f6-1e1a-402a-a51d-5ede6a4f42c5";
+        skos:prefLabel       '"Impact Assessment matrix (IAM) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Geographical Location (GL) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "9c39d5ca-111c-4fdf-811d-77a07e3b8fce";
+        skos:prefLabel       '"Geographical Location (GL) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://energy.referencedata.eu/ConformTo-Collection/NCP/2.5>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:description   '"ConformTo Collection that identifies the vocabulary version and profiles that are part of the release, in addition to identifying profile conformance to a previous vocabulary version."@en';
+        dcterms:hasPart       <https://energy.referencedata.eu/NCP/2.5#collection_ncp_2_5_release>;
+        dcterms:identifier    "5e1aee78-7829-4252-a58e-3c095a330261";
+        dcterms:issued        "2026-08-12T10:00:00Z";
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.entsoe.eu/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:title         "ConformTo-Collection-NCP-2-5_RD";
+        skos:prefLabel        '"Network Code Profile 2.5 ConformTo Collection"@en';
+        adms:versionNotes     '"Inital version of this reference data"@en';
+        dcat:isVersionOf      <https://energy.referencedata.eu/ConformTo-Collection/NCP>;
+        dcat:version          "1.0.0";
+        prov:generatedAtTime  "2026-08-12T10:00:00Z" .
+
+<https://energy.referencedata.eu/NCP/2.5#collection_ncp_2_5_release>
+        rdf:type            prov:Collection;
+        dcterms:identifier  "087af3e6-f30e-45bc-ad4a-5c53d321716a";
+        skos:prefLabel      '"Namespace and profile supported by NCP 2.5"@en';
+        prov:hadMember      <https://ap.cim4.eu/DatasetMetadata/3.0> , <https://cim4.eu/ns/nc/2.5> , <https://ap.cim4.eu/AssessedElement/2.4> , <https://ap.cim4.eu/PowerSchedule/2.5> , <https://ap.cim4.eu/SensitivityMatrix/2.3> , <https://ap.cim4.eu/SteadyStateHypothesisSchedule/1.1> , <https://ap.cim4.eu/EquipmentReliability/2.5> , <https://ap.cim4.eu/ImpactAssessmentMatrix/2.4> , <https://ap.cim4.eu/RemedialAction/2.5> , <https://ap.cim4.eu/AvailabilitySchedule/2.4> , <https://ap.cim4.eu/SecurityAnalysisResult/2.5> , <https://ap.cim4.eu/Contingency/2.3> , <https://ap.cim4.eu/GridDisturbance/1.1> , <https://ap.cim4.eu/StateInstructionSchedule/2.5> , <https://ap.cim4.eu/ObjectRegistry/3.0> , <https://ap.cim4.eu/PowerSystemProject/2.3> , <https://ap.cim4.eu/SteadyStateInstruction/2.5> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <https://ap.cim4.eu/MonitoringArea/2.3> .
+
+<https://ap.cim4.eu/Contingency/2.3>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Contingency (CO) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "51c5cdce-912c-41be-9aa9-578a152ddc89";
+        skos:prefLabel       '"Contingency (CO) Application Profile 2.3"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/ObjectRegistry/2.2>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Object Registry (OR) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "442bd59a-ff8c-46df-b1fe-b65e4c2ce435";
+        skos:prefLabel       '"Object Registry (OR) Application Profile 2.2"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"State Variables (SV) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "1aab9552-4f50-4fce-997d-cc7505206761";
+        skos:prefLabel       '"State Variables (SV) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/AvailabilitySchedule/2.3>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Availability Schedule (AS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "a4807e38-8e80-4681-b57c-8f861918ea9a";
+        skos:prefLabel       '"Availability Schedule (AS) Application Profile 2.3"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/StateInstructionSchedule/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"State Instruction Schedule (SIS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "11a0cfd3-6b2c-4566-8557-a11ee6412a68";
+        skos:prefLabel       '"State Instruction Schedule (SIS) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/61970-552/ModelDescription/1>
+        rdf:type             prof:Profile;
+        dcterms:description  '"File Header (FH) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "34e165a5-ff1c-4bb8-9607-813a22077fc1";
+        skos:prefLabel       '"File Header (FH) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/PowerSchedule/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Power Schedule (PS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "65654a2b-6b21-4b00-b299-2393630ff293";
+        skos:prefLabel       '"Power Schedule (PS) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Short Circuit (SC) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "99a006a8-065c-403a-a5e8-478518882507";
+        skos:prefLabel       '"Short Circuit (SC) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/EquipmentReliability/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Equipment Reliability (ER) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "86464d4b-f90d-4dc4-bfcf-9425a199f505";
+        skos:prefLabel       '"Equipment Reliability (ER) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://ap.cim4.eu/RemedialAction/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Remedial Action (RA) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "dea53891-6fc6-4abb-bf98-fc927a859a26";
+        skos:prefLabel       '"Remedial Action (RA) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/RemedialActionSchedule/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Remedial Action Schedule (RAS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "582ef478-a25f-4e90-9ab4-8db1d13fc509";
+        skos:prefLabel       '"Remedial Action Schedule (RAS) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Core Equipment (EQ) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "b30f9e9a-7305-454b-a509-d28e5651d662";
+        skos:prefLabel       '"Core Equipment (EQ) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/AssessedElement/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Assessed Element (AE) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "abda8121-7278-473a-bd5c-14f5849ef25d";
+        skos:prefLabel       '"Assessed Element (AE) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/GridDisturbance/1.1>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Grid Disturbance (GD) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "e5c004b7-3cd5-424b-8793-a0658d3d62fc";
+        skos:prefLabel       '"Grid Disturbance (GD) Application Profile 1.1"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://cim4.eu/ns/nc/2.4>
+        rdf:type             dcterms:Standard , adms:SemanticAsset;
+        dcterms:description  '"Network Code vocabulary developed by ENTSO-E to extend the IEC Common Information Model (CIM) and Common Grid Model Exchange Standard (CGMES) to address EU Network Code regulation."@en';
+        dcterms:identifier   "a5a86407-14ff-462c-a98a-f0f0d4b9eaa9";
+        skos:prefLabel       '"CIM4EU Network Code vocabulary 2.4.1"@en';
+        dcat:isVersionOf     <https://cim4.eu/ns/nc>;
+        dcat:version         "2.4.1" .
+
+<https://energy.referencedata.eu/NCP/2.4#collection_ncp_2_4_release>
+        rdf:type            prov:Collection;
+        dcterms:identifier  "77802eb8-a069-490e-98be-54032ca9cc8e";
+        skos:prefLabel      '"Namespace and profile supported by NCP 2.4.1"@en';
+        prov:hadMember      <https://ap.cim4.eu/ObjectRegistry/2.2> , <https://ap.cim4.eu/MonitoringArea/2.3> , <https://cim4.eu/ns/nc/2.4> , <https://ap.cim4.eu/SteadyStateInstruction/2.4> , <https://ap.cim4.eu/Contingency/2.3> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <https://ap.cim4.eu/AssessedElement/2.4> , <https://ap.cim4.eu/PowerSystemProject/2.3> , <https://ap.cim4.eu/ImpactAssessmentMatrix/2.4> , <https://ap.cim4.eu/SteadyStateHypothesisSchedule/1.1> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <https://ap.cim4.eu/PowerSchedule/2.4> , <https://ap.cim4.eu/EquipmentReliability/2.4> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://ap.cim4.eu/SecurityAnalysisResult/2.5> , <https://ap.cim4.eu/SensitivityMatrix/2.3> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> .
+
+<https://ap.cim4.eu/SteadyStateInstruction/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Steady State instruction (SSI) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "77ea4261-d765-4d52-92e4-af6724786d2b";
+        skos:prefLabel       '"Steady State instruction (SSI) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Topology (TP) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "ed27df78-26d3-460c-a5e8-3a1bc432bc8c";
+        skos:prefLabel       '"Topology (TP) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Steady State Hypothesis (SSH) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "8faa57aa-fc7b-4970-8ab0-ec77ecbb3430";
+        skos:prefLabel       '"Steady State Hypothesis (SSH) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/MonitoringArea/2.3>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Monitoring Area (MA) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "c4ed1859-ebeb-4a37-a67a-b5f761f428b8";
+        skos:prefLabel       '"Monitoring Area (MA) Application Profile 2.3"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/ObjectRegistry/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Object Registry (OR) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "d0e8d9a9-9b6e-418d-896d-f647a7301d56";
+        skos:prefLabel       '"Object Registry (OR) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://energy.referencedata.eu/CGMES/3.0#collection_3_0_0_release>
+        rdf:type            prov:Collection;
+        dcterms:identifier  "b6d9eed4-9e01-4bfd-99d7-7109e521c8c4";
+        prov:hadMember      <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0> , <https://cim4.eu/ns/cgmes/3.0> , <http://iec.ch/TC57/61970-552/ModelDescription/1> , <http://iec.ch/TC57/ns/CIM/Dynamics-EU/1.0> , <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Operation-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/EquipmentBoundary-EU/3.0> , <http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0> .
+
+<https://ap.cim4.eu/SecurityAnalysisResult/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Security Analysis Result (SAR) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "71c7ee56-c315-47ec-8557-6af0649b3068";
+        skos:prefLabel       '"Security Analysis Result (SAR) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/DatasetMetadata/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Dataset Metadata (DM) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "84aed8b3-54f1-4fdf-9577-097f04e620ef";
+        skos:prefLabel       '"Dataset Metadata (DM) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://ap.cim4.eu/PowerSystemProject/2.3>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Power Syatem Project (PSP) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "92ab9b4c-927a-4049-bcdb-8185e8efba12";
+        skos:prefLabel       '"Power Syatem Project (PSP) Application Profile 2.3"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/Operation-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Operation (OP) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "59b998f8-de06-4b51-bba5-663e7ea5e6a6";
+        skos:prefLabel       '"Operation (OP) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<http://iec.ch/TC57/ns/CIM/Dynamics-EU/1.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Dynamics (DY) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "f16c8167-ad8a-4886-9a86-76d89fcbdb64";
+        skos:prefLabel       '"Dynamics (DY) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/PowerSchedule/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Power Schedule (PS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "df458386-c7a4-4225-9b4e-25fde7617b87";
+        skos:prefLabel       '"Power Schedule (PS) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Diagram Layout (DL) application profile that is part of the CGMES profile set."@en';
+        dcterms:identifier   "5c35281c-faaa-4b32-b513-bda9e5b393a4";
+        skos:prefLabel       '"Diagram Layout (DL) Application Profile 3.0"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/EquipmentReliability/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Equipment Reliability (ER) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "aa05839c-f3a5-49ce-a7c6-4273d57b81d1";
+        skos:prefLabel       '"Equipment Reliability (ER) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://energy.referencedata.eu/CGMES/3.0#support_CIM17-2_of_CGMES_3_0>
+        rdf:type               provcim:SupportedProfileCollection;
+        skos:prefLabel         '"Profiles in the CGMES 3.0.0 release that are supported by vocabulary CGMES 3.0"@en';
+        prov:hadMember         <http://iec.ch/TC57/ns/CIM/Dynamics-EU/1.0> , <http://iec.ch/TC57/ns/CIM/EquipmentBoundary-EU/3.0> , <http://iec.ch/TC57/ns/CIM/ShortCircuit-EU/3.0> , <http://iec.ch/TC57/ns/CIM/DiagramLayout-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/GeographicalLocation-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/Operation-EU/3.0> , <http://iec.ch/TC57/61970-552/ModelDescription/1>;
+        provcim:forVocabulary  <https://cim4.eu/ns/cgmes/3.0> .
+
+<https://ap.cim4.eu/AvailabilitySchedule/2.4>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Availability Schedule (AS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "222209f0-78d1-44f3-bbba-8f616346bf26";
+        skos:prefLabel       '"Availability Schedule (AS) Application Profile 2.4"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://energy.referencedata.eu/NCP/2.4#support_NC_2_4_of_NCP_2_4_1>
+        rdf:type               provcim:SupportedProfileCollection;
+        skos:prefLabel         '"Profiles in the NCP 2.4.1 release that are supported by vocabulary nc 2.4"@en';
+        prov:hadMember         <https://ap.cim4.eu/EquipmentReliability/2.4> , <https://ap.cim4.eu/SensitivityMatrix/2.3> , <https://ap.cim4.eu/RemedialActionSchedule/2.4> , <https://ap.cim4.eu/PowerSystemProject/2.3> , <https://ap.cim4.eu/AssessedElement/2.4> , <https://ap.cim4.eu/SteadyStateInstruction/2.4> , <https://ap.cim4.eu/PowerSchedule/2.4> , <https://ap.cim4.eu/Contingency/2.3> , <https://ap.cim4.eu/StateInstructionSchedule/2.4> , <https://ap.cim4.eu/MonitoringArea/2.3> , <https://ap.cim4.eu/ImpactAssessmentMatrix/2.4> , <https://ap.cim4.eu/SteadyStateHypothesisSchedule/1.1> , <https://ap.cim4.eu/RemedialAction/2.4> , <https://ap.cim4.eu/SecurityAnalysisResult/2.5> , <https://ap.cim4.eu/AvailabilitySchedule/2.3> , <https://ap.cim4.eu/ObjectRegistry/2.2>;
+        provcim:forVocabulary  <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/SteadyStateHypothesisSchedule/1.1>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Steady State Hypothesis Schedule (SHS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "7b7c3d46-881e-4239-9332-e11501d54aac";
+        skos:prefLabel       '"Steady State Hypothesis Schedule (SHS) Application Profile 1.1"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.4> .
+
+<https://ap.cim4.eu/StateInstructionSchedule/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"State Instruction Schedule (SIS) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "631c47da-6dfd-498a-9068-4ab6c981a5b4";
+        skos:prefLabel       '"State Instruction Schedule (SIS) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
+
+<https://ap.cim4.eu/RemedialAction/2.5>
+        rdf:type             prof:Profile;
+        dcterms:description  '"Remedial Action (RA) application profile that is part of the Network Code Profile (NCP) to address EU Network Code regulation."@en';
+        dcterms:identifier   "82218a22-952c-4dbb-8fc0-7ceb7a986744";
+        skos:prefLabel       '"Remedial Action (RA) Application Profile 2.5"@en';
+        prof:isProfileOf     <https://cim4.eu/ns/nc/2.5> .
