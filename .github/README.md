@@ -11,17 +11,17 @@ The aim is to demonstrate practical TSO and RCC data exchange use cases for the 
 
 The Regional Coordination Processes Data Exchange Specification (RCP DES) complements the test model as this is the document describing use cases and general guidance on the use of Network Code Profiles. Find this data exchange specification and more on the [ENTSO-E's CGMES Library](https://www.entsoe.eu/data/cim/cim-for-grid-models-exchange).
 
-ENTSO-E continuously collaborates with an ecosystem of TSOs, RCCs, regional projects and relevant industry software vendors. One of the outputs of this collaboration is the ReliCapGrid test model. Readers can consult the Accreditations section down below to see the list of people and organisations collaborating under the [CC-BY-SA-4.0 open-source License](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/LICENSE.md).
+ENTSO-E continuously collaborates with an ecosystem of TSOs, RCCs, regional projects and relevant industry software vendors. One of the outputs of this collaboration is the ReliCapGrid test model. Readers can consult the Accreditations section down below to see the list of people and organisations collaborating under the [CC-BY-SA-4.0 open-source License](../LICENSE.md).
 
 The following chapters describe the model content, which will be continuously improved in subsequent releases.
 
 ### How to provide feedback
 When importing any data contained in the repository, you might find some bugs or issues to report. Please, open a GitHub issue and include your export log when applicable.
 
-Do not forget to read the [CONTRIBUTING](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/.github/CONTRIBUTING.adoc) file.
+Do not forget to read the [CONTRIBUTING](../.github/CONTRIBUTING.adoc) file.
 
 ### License
-Please, refer to the [LICENSE](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/LICENSE.md) for more information on the open-source license collaboration framework of the repository.
+Please, refer to the [LICENSE](../LICENSE.md) for more information on the open-source license collaboration framework of the repository.
 
 ### Accreditations
 List of the people and organisations contributing to this repository.
@@ -37,7 +37,7 @@ List of the people and organisations contributing to this repository.
 - [@fmalicevicdigsilent](https://github.com/fmalicevicdigsilent) - DIgSILENT
 - [@LarsTruelsenEnerginet](https://github.com/LarsTruelsenEnerginet) and [@Holdersen](https://github.com/Holdersen) - Energinet
 - [@VladimirAlexiev](https://github.com/VladimirAlexiev) - Graphwise (Ontotext)
-- [@griddigit-ci](https://github.com/griddigit-ci), [@Decodre](https://github.com/Decodre), [@benceszirbik](https://github.com/benceszirbik), [@benedekfodor](https://github.com/benedekfodor) [@MateZsebehazi](https://github.com/MateZsebehazi) - gridDigIt
+- [@griddigit-ci](https://github.com/griddigit-ci), [@benceszirbik](https://github.com/benceszirbik), [@benedekfodor](https://github.com/benedekfodor), [@MateZsebehazi](https://github.com/MateZsebehazi) - gridDigIt
 - [@jakubscg](https://github.com/jakubscg) - PSE
 - [@pweaver-rte](https://github.com/pweaver-rte) - RTE
 - [@sindrevh](https://github.com/sindrevh) - Siemens A.G.
@@ -54,7 +54,7 @@ It must be mentioned that the synthetic grid model *Svedala* is based on [Svensk
 
 ### How to Assemble File Packages for Import
 
-Each TSO's grid model files are organized under [Instance/*TSO*/Grid](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance) folders, serialized in multiple forms, with **CIMXML** being the primary serialization under active development. Similarly, the test Network Code Profiles instance datasets can be found under [Instance/*TSO*/NetworkCode](https://github.com/entsoe/relicapgrid/tree/cgmes-3.0_ncp-2.4_tc-1.1/Instance).
+Each TSO's grid model files are organized under [Instance/*TSO*/Grid](../Instance) folders, serialized in multiple forms, with **CIMXML** being the primary serialization under active development. Similarly, the test Network Code Profiles instance datasets can be found under [Instance/*TSO*/NetworkCode](../Instance).
 The following guidance describes which files to combine when creating import packages for your tooling.
 
 **Individual Grid Model import with individual boundary files - IGM**
@@ -112,9 +112,9 @@ The *Nine Realms* region that ReliCapGrid represents also happens to be a capaci
 
 The *SecurityCoordinator* and *CoordinatedCapacityCalculator* roles are represented by *Jotunheim*, which is analogous to a Regional Coordination Centre (RCC) in the real world.
 
-This information and more (e.g., BiddingZoneBorder) is again represented in the *Common Data* dataset that the Network Code Profiles instances use. A [synthetic common data dataset for the Network Code Profiles](https://github.com/entsoe/relicapgrid/blob/archive-main-do-not-use/Instance/commonData/NetworkCode/cimxml/NineRealms_CGM-CD.xml) has been created and follows the roles defined in the PowerSystemOrganizationRole diagram of the EquipmentReliability profile (refer to Figure 2).
+This information and more (e.g., BiddingZoneBorder) is again represented in the *Common Data* dataset that the Network Code Profiles instances use. A [synthetic common data dataset for the Network Code Profiles](../Instance/commonData/NetworkCode/cimxml/Org-NineRealms_CD.xml) has been created and follows the roles defined in the PowerSystemOrganizationRole diagram of the EquipmentReliability profile (refer to Figure 2).
 
-![Figure 2: roles defined in the PowerSystemOrganizationRole diagram of the EquipmentReliability profile](https://github.com/entsoe/relicapgrid/blob/cgmes-3.0_ncp-2.4_tc-1.1/.github/Media/PowerSystemOrganizationRole.png)
+![Figure 2: roles defined in the PowerSystemOrganizationRole diagram of the EquipmentReliability profile](../.github/Media/PowerSystemOrganizationRole.png)
 
 
 ### Currently demonstrated Network Code Profiles instances
