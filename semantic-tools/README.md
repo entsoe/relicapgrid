@@ -127,6 +127,9 @@ Repo `relicapgrid` is used to load this data and experiment with it
 ## Conversion and Loading to GraphDB using Docker
 
 To create image with dependencies and scripts:
+
+Edit refresh-data.sh and add values for GDBUSER and GDBPASS variables at the very top of the file and run:
+
 > docker build -t semantic-tools-image .
 
 To use Docker semantic-tools-image guest shell:
