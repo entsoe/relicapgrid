@@ -66,6 +66,14 @@ def main(argv: list[str] | None = None) -> int:
 
     print(summarize(violations, n_files, headers))
     print(f"Reference schemes loaded: {schemes.summary()}")
+    missing = schemes.missing_schemes()
+    if missing:
+        print(
+            "WARNING: no reference-data file matched these scheme globs, so "
+            "their Tier-B checks were skipped (the counts below understate "
+            "the findings):")
+        for key, glob in sorted(missing.items()):
+            print(f"  - {key}: {glob}")
     print()
     print(by_rule_table(violations))
     if args.details:
