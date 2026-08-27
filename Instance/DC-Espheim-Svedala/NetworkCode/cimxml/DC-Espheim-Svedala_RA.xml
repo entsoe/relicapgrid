@@ -17,7 +17,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">Svedala - HVDC - Espheim  - NC profile</dcterms:description>
     <prov:generatedAtTime>2025-06-19T14:00:00Z</prov:generatedAtTime>
-    <dcterms:publisher rdf:resource="https://ap.cim4.eu/RemedialAction/2.4"/>
+    <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala"/>
     <prov:references rdf:resource="urn:uuid:105893e4-668b-4b00-a351-0e436b53cbc9"/>
     <dcat:startDate>2025-06-19T14:00:00Z</dcat:startDate>
     <dcat:keyword>RA</dcat:keyword>
