@@ -53541,10 +53541,6 @@
     <cim:SvStatus.ConductingEquipment rdf:resource="#_6d0a58f9-90a0-f68d-77e3-ac497f5b1faa" />
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
-  <cim:SvStatus rdf:ID="_28b4ee96-916a-420e-9c74-1adc86dbaaf6">
-    <cim:SvStatus.ConductingEquipment rdf:resource="#_050bd9ce-ce4b-980c-8f8b-dc476f0a9d0a" />
-    <cim:SvStatus.inService>true</cim:SvStatus.inService>
-  </cim:SvStatus>
   <cim:SvStatus rdf:ID="_2c98b2b8-c75f-4f86-8945-4623db8580e5">
     <cim:SvStatus.ConductingEquipment rdf:resource="#_ffff9490-6b6b-42fa-a14c-8480749f794c" />
     <cim:SvStatus.inService>true</cim:SvStatus.inService>

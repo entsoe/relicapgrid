@@ -20215,10 +20215,6 @@
     <cim:SvStatus.ConductingEquipment rdf:resource="#_046c17d9-c766-11e1-8775-005056c00008"/>
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
-  <cim:SvStatus rdf:ID="_2f5360ab-d393-4570-9c6b-38e3435a37bd">
-    <cim:SvStatus.ConductingEquipment rdf:resource="#_050bd9ce-ce4b-980c-8f8b-dc476f0a9d0a"/>
-    <cim:SvStatus.inService>true</cim:SvStatus.inService>
-  </cim:SvStatus>
   <cim:SvStatus rdf:ID="_21080c81-9044-4c55-bcda-0523da94635b">
     <cim:SvStatus.ConductingEquipment rdf:resource="#_442857e8-5639-4d93-9938-2b36992ff3a7"/>
     <cim:SvStatus.inService>true</cim:SvStatus.inService>

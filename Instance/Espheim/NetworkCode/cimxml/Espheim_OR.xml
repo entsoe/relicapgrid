@@ -34,21 +34,16 @@
     <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
   </dcat:Dataset>
 
-  <cim:IdentifiedObject rdf:about="#_0b23d814-7559-4edf-8c55-40af585209e6">
-    <nc:IdentifiedObject.ObjectType rdf:resource="#_3dacaa80-ee35-458c-bccd-7b6530a292c9"/>
-    <cim:IdentifiedObject.mRID>_0b23d814-7559-4edf-8c55-40af585209e6</cim:IdentifiedObject.mRID>
-    <cim:IdentifiedObject.name>EquivalentGeneratingUnit</cim:IdentifiedObject.name>
-  </cim:IdentifiedObject>
-  <cim:Name rdf:ID="_04fc9afe-07cd-40ba-a670-661d8a7b5c21">
-    <nc:Name.NameType rdf:resource="#_e26959c9-19b3-417a-9263-dd87e970fbd4"/>
-    <nc:Name.UniqueIdentifiedObject rdf:resource="#_0b23d814-7559-4edf-8c55-40af585209e6"/>
-    <nc:Name.mRID>04fc9afe-07cd-40ba-a670-661d8a7b5c21</nc:Name.mRID>
-    <cim:Name.name>27V-EGD-DSO----R</cim:Name.name>
-  </cim:Name>
-  <cim:Name rdf:ID="_ff970cac-0b4d-4f55-b2b0-13bbbda3a669">
-    <nc:Name.NameType rdf:resource="#_7073634a-393e-443c-9d96-f181f861ae4a"/>
-    <nc:Name.UniqueIdentifiedObject rdf:resource="#_0b23d814-7559-4edf-8c55-40af585209e6"/>
-    <nc:Name.mRID>ff970cac-0b4d-4f55-b2b0-13bbbda3a669</nc:Name.mRID>
-    <cim:Name.name>External Network Injection 1</cim:Name.name>
-  </cim:Name>
+  <nc:Designation rdf:ID="_04fc9afe-07cd-40ba-a670-661d8a7b5c21">
+    <nc:Identity.identifier rdf:resource="#_04fc9afe-07cd-40ba-a670-661d8a7b5c21"/>
+    <nc:Designation.IdentifiedObject rdf:resource="#_0b23d814-7559-4edf-8c55-40af585209e6"/>
+    <nc:Designation.DesignationType rdf:resource="#_e26959c9-19b3-417a-9263-dd87e970fbd4"/>
+    <nc:Designation.value>27V-EGD-DSO----R</nc:Designation.value>
+  </nc:Designation>
+  <nc:Designation rdf:ID="_ff970cac-0b4d-4f55-b2b0-13bbbda3a669">
+    <nc:Identity.identifier rdf:resource="#_ff970cac-0b4d-4f55-b2b0-13bbbda3a669"/>
+    <nc:Designation.IdentifiedObject rdf:resource="#_0b23d814-7559-4edf-8c55-40af585209e6"/>
+    <nc:Designation.DesignationType rdf:resource="#_7073634a-393e-443c-9d96-f181f861ae4a"/>
+    <nc:Designation.value>External Network Injection 1</nc:Designation.value>
+  </nc:Designation>
 </rdf:RDF>

@@ -51,7 +51,7 @@
     <cim:IdentifiedObject.description>Active-power control of PhaseTapChangerLinear Aac (8cad6c61); flow measured at its OWN transformer terminal 147eb269 => LOCAL. Actuator is the discrete phase-tap step.</cim:IdentifiedObject.description>
     <nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
     <nc:ControlFunctionBlock.isDiscrete>true</nc:ControlFunctionBlock.isDiscrete>
-    <nc:ControlFunctionBlock.targetDeadband>500</nc:ControlFunctionBlock.targetDeadband>
+    <nc:ControlFunctionBlock.targetValueDeadband>200</nc:ControlFunctionBlock.targetValueDeadband>
     <nc:FunctionBlock.AutomationFunction rdf:resource="#_34d704f9-fc52-4006-9380-e5055e402409"/>
   </nc:ActivePowerControlFunction>
   <nc:PinTerminal rdf:ID="_93f3cf43-21ec-4eba-8cb0-bd09a7c17783">

@@ -112,7 +112,7 @@
 		<cim:IdentifiedObject.description>Voltage control of RatioTapChanger XT201-T1 (920f9cbd), regulated at REMOTE terminal 29ab23bd; actuator is the discrete tap step.</cim:IdentifiedObject.description>
 		<nc:FunctionBlock.normalEnabled>true</nc:FunctionBlock.normalEnabled>
 		<nc:ControlFunctionBlock.isDiscrete>true</nc:ControlFunctionBlock.isDiscrete>
-		<nc:ControlFunctionBlock.targetDeadband>0.275</nc:ControlFunctionBlock.targetDeadband>
+		<nc:ControlFunctionBlock.targetValueDeadband>2.5</nc:ControlFunctionBlock.targetValueDeadband>
 		<nc:FunctionBlock.AutomationFunction rdf:resource="#_9ca43877-e992-4369-8ec2-6ec9cf0d1cbb"/>
 	</nc:VoltageControlFunction>
 	<nc:PinTerminal rdf:ID="_3d160f98-185e-4804-977d-4d26502a39c8">

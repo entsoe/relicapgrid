@@ -13,7 +13,7 @@
     <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
-    <dcterms:description xml:lang="en">Common data for OPC that includes NameType, NamingAuthority and ObjectType.</dcterms:description>
+    <dcterms:description xml:lang="en">Common data for OPC that includes DesignationType and DesignationAuthority.</dcterms:description>
     <prov:generatedAtTime>2026-05-05T10:00:00Z</prov:generatedAtTime>
     <dcterms:identifier>7508c65c-0ffe-4036-8152-3dea83062287</dcterms:identifier>
     <dcat:isVersionOf rdf:resource="https://energy.referencedata.eu/test/model/Org-NineRealms_CD"/>
@@ -27,39 +27,35 @@
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
     <dcterms:title>20260505_Org-NineRealms_CD_OR_v1-0-0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>
-    <adms:versionNotes xml:lang="en">Common data for OPC that includes NameType, NamingAuthority and ObjectType.</adms:versionNotes>
+    <adms:versionNotes xml:lang="en">Common data for OPC that includes DesignationType and DesignationAuthority.</adms:versionNotes>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/activity/CD"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/test/frame/NineRealms-Transmission"/>
       <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
   </dcat:Dataset>
 
-  <cim:NameType rdf:ID="_e26959c9-19b3-417a-9263-dd87e970fbd4">
-    <nc:NameType.NamingAuthority rdf:resource="#_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e"/>
-    <cim:NameType.description>Codes issued by NineRealms.</cim:NameType.description>
-    <nc:NameType.mRID>e26959c9-19b3-417a-9263-dd87e970fbd4</nc:NameType.mRID>
-    <cim:NameType.name>NineRealms Code</cim:NameType.name>
-  </cim:NameType>
-  <cim:NameType rdf:ID="_7073634a-393e-443c-9d96-f181f861ae4a">
-    <nc:NameType.NamingAuthority rdf:resource="#_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34"/>
-    <cim:NameType.description>Long Name from Element List.</cim:NameType.description>
-    <nc:NameType.mRID>7073634a-393e-443c-9d96-f181f861ae4a</nc:NameType.mRID>
-    <cim:NameType.name>Long Name</cim:NameType.name>
-  </cim:NameType>
+  <nc:DesignationType rdf:ID="_e26959c9-19b3-417a-9263-dd87e970fbd4">
+    <nc:Identity.identifier rdf:resource="#_e26959c9-19b3-417a-9263-dd87e970fbd4"/>
+    <nc:DesignationType.DesignationAuthority rdf:resource="#_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e"/>
+    <nc:DesignationType.description>Codes issued by NineRealms.</nc:DesignationType.description>
+    <nc:DesignationType.name>NineRealms Code</nc:DesignationType.name>
+  </nc:DesignationType>
+  <nc:DesignationType rdf:ID="_7073634a-393e-443c-9d96-f181f861ae4a">
+    <nc:Identity.identifier rdf:resource="#_7073634a-393e-443c-9d96-f181f861ae4a"/>
+    <nc:DesignationType.DesignationAuthority rdf:resource="#_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34"/>
+    <nc:DesignationType.description>Long Name from Element List.</nc:DesignationType.description>
+    <nc:DesignationType.name>Long Name</nc:DesignationType.name>
+  </nc:DesignationType>
 
-  <nc:NamingAuthority rdf:ID="_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34">
-    <nc:NamingAuthority.description>This is the authority for Element ID.</nc:NamingAuthority.description>
-    <nc:NamingAuthority.mRID>ae7f97f4-dc2d-4960-b61b-b75ac9dafb34</nc:NamingAuthority.mRID>
-    <nc:NamingAuthority.name>NineRealms</nc:NamingAuthority.name>
-  </nc:NamingAuthority>
-  <nc:NamingAuthority rdf:ID="_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e">
-    <nc:NamingAuthority.description>The authority that issues NineRealms Codes.</nc:NamingAuthority.description>
-    <nc:NamingAuthority.mRID>2fdd0646-4b9c-484b-b7cd-24d497fdfa8e</nc:NamingAuthority.mRID>
-    <nc:NamingAuthority.name>Jotunheim</nc:NamingAuthority.name>
-  </nc:NamingAuthority>
-
-  <nc:ObjectType rdf:ID="_3dacaa80-ee35-458c-bccd-7b6530a292c9">
-    <nc:ObjectType.type>DSO_Injection</nc:ObjectType.type>
-  </nc:ObjectType>
+  <nc:DesignationAuthority rdf:ID="_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34">
+    <nc:Identity.identifier rdf:resource="#_ae7f97f4-dc2d-4960-b61b-b75ac9dafb34"/>
+    <nc:DesignationAuthority.description>This is the authority for Element ID.</nc:DesignationAuthority.description>
+    <nc:DesignationAuthority.name>NineRealms</nc:DesignationAuthority.name>
+  </nc:DesignationAuthority>
+  <nc:DesignationAuthority rdf:ID="_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e">
+    <nc:Identity.identifier rdf:resource="#_2fdd0646-4b9c-484b-b7cd-24d497fdfa8e"/>
+    <nc:DesignationAuthority.description>The authority that issues NineRealms Codes.</nc:DesignationAuthority.description>
+    <nc:DesignationAuthority.name>Jotunheim</nc:DesignationAuthority.name>
+  </nc:DesignationAuthority>
 
 
 </rdf:RDF>
