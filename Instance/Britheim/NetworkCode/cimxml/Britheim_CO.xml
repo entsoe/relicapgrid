@@ -22,6 +22,7 @@
     <dcterms:publisher rdf:resource="https://energy.referencedata.eu/test/party/Britheim"/>
     <dcterms:rights>Copyright</dcterms:rights>
     <dcterms:rightsHolder>ENTSO-E</dcterms:rightsHolder>
+    <dcterms:requires rdf:resource="urn:uuid:d4c765ef-6a3d-469e-99c2-ed9eec42000c"/>
     <dcat:startDate>2022-06-15T22:30:00Z</dcat:startDate>
     <dcterms:title>20220615_Britheim_CO_1.0.0</dcterms:title>
     <dcat:version>1.0.0</dcat:version>

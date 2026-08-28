@@ -87,14 +87,14 @@
     <cim:IdentifiedObject.name>PSKS1</cim:IdentifiedObject.name>
   </nc:PowerShiftKeyStrategy>
 
-  <nc:AreaDispatchableUnit rdf:ID="_4a053fac-126a-4a13-8a74-781c11517fae">
-    <nc:AreaDispatchableUnit.GeneratingUnit rdf:resource="#_413bbc8a-683c-7e07-4fb9-aa6ec83278e0"/>
-    <nc:AreaDispatchableUnit.normalEnabled>true</nc:AreaDispatchableUnit.normalEnabled>
-    <nc:AreaDispatchableUnit.SchedulingArea rdf:resource="#_297f533e-77a7-42d9-a683-32babcf6c82f"/>
+  <nc:AreaReserveResource rdf:ID="_4a053fac-126a-4a13-8a74-781c11517fae">
+    <nc:AreaReserveResource.GeneratingUnit rdf:resource="#_413bbc8a-683c-7e07-4fb9-aa6ec83278e0"/>
+    <nc:AreaReserveResource.normalEnabled>true</nc:AreaReserveResource.normalEnabled>
+    <nc:AreaReserveResource.SchedulingArea rdf:resource="#_297f533e-77a7-42d9-a683-32babcf6c82f"/>
     <cim:IdentifiedObject.description>Area Dispatchable Unit 1</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>4a053fac-126a-4a13-8a74-781c11517fae</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>ADU 1</cim:IdentifiedObject.name>
-  </nc:AreaDispatchableUnit>
+  </nc:AreaReserveResource>
   <!-- 7.1.10.2. Voltage Angle Limit -->
   <nc:VoltageAngleLimit rdf:ID="_bf17bcf4-fee4-4108-a22f-2ead83edb55c">
     <cim:IdentifiedObject.mRID>bf17bcf4-fee4-4108-a22f-2ead83edb55c</cim:IdentifiedObject.mRID>

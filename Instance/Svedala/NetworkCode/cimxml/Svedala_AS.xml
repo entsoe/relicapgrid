@@ -53,7 +53,7 @@
   <!-- Event Schedule example  -->
   <nc:EventSchedule rdf:ID="_7acbe49b-be64-4dd8-a02e-87778468d55a">
     <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
-    <nc:BaseTimeSeries.kind rdf:resource="https://cim4.eu/ns/nc#BaseTimeSeriesKind.schedule"/>
+    <nc:BaseTimeSeries.timeSeriesKind rdf:resource="https://cim4.eu/ns/nc#BaseTimeSeriesKind.schedule"/>
     <cim:IdentifiedObject.description>event schedule example</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7acbe49b-be64-4dd8-a02e-87778468d55a</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>event </cim:IdentifiedObject.name>
@@ -117,7 +117,7 @@
   </nc:AvailabilitySchedule>
     <nc:EventSchedule rdf:ID="_7591824a-2694-4dbc-b9ec-c1613ff81814">
     <nc:BaseTimeSeries.interpolationKind rdf:resource="https://cim4.eu/ns/nc#TimeSeriesInterpolationKind.previous"/>
-    <nc:BaseTimeSeries.kind rdf:resource="https://cim4.eu/ns/nc#BaseTimeSeriesKind.schedule"/>
+    <nc:BaseTimeSeries.timeSeriesKind rdf:resource="https://cim4.eu/ns/nc#BaseTimeSeriesKind.schedule"/>
     <cim:IdentifiedObject.description>event schedule example</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>7591824a-2694-4dbc-b9ec-c1613ff81814</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>event </cim:IdentifiedObject.name>
