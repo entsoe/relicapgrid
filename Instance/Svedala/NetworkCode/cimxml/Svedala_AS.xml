@@ -10,7 +10,7 @@
     xmlns:dcterms="http://purl.org/dc/terms/" > 
   <dcat:Dataset rdf:about="urn:uuid:dc9fc9d1-bb73-4b36-a5a6-7fbb9ed5b354">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
-    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/AvailabilitySchedule/2.3"/>
+    <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/AvailabilitySchedule/2.4"/>
     <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
     <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
