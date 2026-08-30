@@ -8,8 +8,20 @@
 /.idea
 *.iml
 validation_report/
+.shacl_cache/
 
 # Python bytecode cache #
 ############
 tests\__pycache__
 *.pyc
+
+# APL checkouts for SHACL validation #
+############
+.apl-main/
+.apl-ncp24/
+
+# generated validation reports (CI run artifacts) #
+############
+reports/*.sarif
+reports/*-shacl-report.*
+reports/summary.md
