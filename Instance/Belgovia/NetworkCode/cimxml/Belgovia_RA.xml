@@ -225,7 +225,7 @@
     <cim:IdentifiedObject.mRID>0578c33a-f74a-44c4-99fb-74fa6f4d6e58</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>One of the lines tripped</cim:IdentifiedObject.name>
     <nc:PinGate.GateOutput rdf:resource="#_b73c5258-2fb6-4e8a-8b0a-61d84a52ee27" />
-    <nc:PinGate.normalEnabled>true</nc:PinGate.normalEnabled>
+    <nc:GateInputPin.normalEnabled>true</nc:GateInputPin.normalEnabled>
     <!-- Added attribute, which says this pin is controllable for if it should be a possible input or not. False means that it is not possible that this input activates the SIPS in default settings (but could be possible if we change current settings in attribute "enabled" SSI profile). -->
   </nc:PinGate>
     <!-- in case of export on TieLine_GA_BO2 decrease the power to 10 MW--> 

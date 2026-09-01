@@ -3,7 +3,7 @@
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:nc="https://cim4.eu/ns/nc#"
-    xmlns:cim="https://cim.ucaiug.io/ns#"
+    xmlns:cim="http://iec.ch/TC57/CIM100#"
     xmlns:eu="http://iec.ch/TC57/CIM100-European#"
     xmlns:prov="http://www.w3.org/ns/prov#"
     xmlns:dcat="http://www.w3.org/ns/dcat#" > 
