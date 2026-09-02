@@ -750,4 +750,7 @@
   <cim:Terminal rdf:about="#_a414d08b-918b-41ac-a242-82a2915ab810">
     <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
   </cim:Terminal>
+  <cim:BusbarSection rdf:about="#_00c7faff-a1ed-4b64-bbf8-527d4efefb76">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:BusbarSection>
 </rdf:RDF>
