@@ -33,6 +33,7 @@
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/PV"/>
     <dcterms:spatial rdf:resource="https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System"/>
   <dcterms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+  <dcterms:requires  rdf:resource="urn:uuid:b59f6b96-1333-44fd-b9cc-23419db61281"/>  <!--Point to SAR-->
 </dcat:Dataset>
 
 

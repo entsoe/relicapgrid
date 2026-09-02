@@ -35,6 +35,8 @@
     <dcterms:issued>2025-06-15T22:30:00Z</dcterms:issued>
     <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
     <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
+    <dcterms:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/daily"/>
+    <dcat:temporalResolution rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT1H</dcat:temporalResolution>
   </dcat:Dataset>
 
    <nc:RemedialActionSchedule rdf:ID="_24fb6a23-3bb3-4e27-9488-597957c10bdc">

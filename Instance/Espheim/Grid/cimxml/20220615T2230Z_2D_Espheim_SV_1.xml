@@ -28001,4 +28001,64 @@
     <cim:TopologicalIsland.TopologicalNodes rdf:resource="#_2a52e763-a5a6-8991-0784-f45404ea7c65"/>
     <cim:TopologicalIsland.TopologicalNodes rdf:resource="#_885ae276-e8bb-deb6-3113-fb3782c0e439"/>
   </cim:TopologicalIsland>
+  <cim:SvSwitch rdf:ID="_7a2627c5-cb67-444d-8682-2e75039fd68e">
+    <cim:SvSwitch.Switch rdf:resource="#_389f64cd-db57-4e4b-ad05-33fa7fac4db2"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_ae462e67-7efd-4a99-a925-72d4ba5971ed">
+    <cim:SvSwitch.Switch rdf:resource="#_1b4e33f8-959c-47da-b19a-f71a0f9f9b03"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_6658db99-ec71-4b3b-b979-8ab5d1f2aedd">
+    <cim:SvSwitch.Switch rdf:resource="#_f18bc2b1-b591-4125-be5d-bccc573aea87"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_a3a7cfe8-ed95-475b-ad89-ed5f351be571">
+    <cim:SvSwitch.Switch rdf:resource="#_a097a1fa-e454-4152-ae05-b6f2c16701da"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_bc083d93-d0a6-42ae-b8ed-e0f00213acb1">
+    <cim:SvSwitch.Switch rdf:resource="#_a37f594e-e546-4a10-b375-6a705112b937"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_bea59c3d-123f-44fa-868d-6ef4f35a146a">
+    <cim:SvSwitch.Switch rdf:resource="#_35ffa96f-ccce-4835-904c-38b6bda760d1"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_0ec050de-9c6e-4689-a215-4a489c7c82b1">
+    <cim:SvSwitch.Switch rdf:resource="#_86978cfb-8057-4578-a419-d4efe70609a1"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_f70a02de-b215-4cf5-ad87-f2294d14b53d">
+    <cim:SvSwitch.Switch rdf:resource="#_f6315393-17f7-406c-bb16-e77372f85ff9"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_a5ad30f6-3306-46de-95e3-2507ea16ecc0">
+    <cim:SvSwitch.Switch rdf:resource="#_aa72cb02-267d-403f-a667-f317f5e76413"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_c1b048ff-3e4c-4ca2-bd18-40a76b0571fe">
+    <cim:SvSwitch.Switch rdf:resource="#_c5eee612-6eaa-439c-b68e-a150f178298c"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_aa8d6ec7-1c91-4a0f-83f3-b1c2d7f1cbe5">
+    <cim:SvSwitch.Switch rdf:resource="#_5cc1ca38-7fd4-4a4e-aa29-54650ef13d5b"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_6a69d33d-2fbb-4492-94da-bfc01e68e33c">
+    <cim:SvSwitch.Switch rdf:resource="#_6a714a8d-54a8-4653-9daf-982af14eae88"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_45436b6d-1629-4aa0-b77b-8a181fbcacb5">
+    <cim:SvSwitch.Switch rdf:resource="#_ff1db38c-8fbc-4b1d-a5ff-46cd02a2df74"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_47699903-ac47-43e6-95f3-703dbf8090cb">
+    <cim:SvSwitch.Switch rdf:resource="#_caaaec78-564f-4cf6-82f7-f1153418d795"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
+  <cim:SvSwitch rdf:ID="_91be9b0e-77d9-4ec4-9589-4ee39d52fc7d">
+    <cim:SvSwitch.Switch rdf:resource="#_8211fc3c-0f49-49b7-a20f-d5c9ec874f0c"/>
+    <cim:SvSwitch.open>false</cim:SvSwitch.open>
+  </cim:SvSwitch>
 </rdf:RDF>

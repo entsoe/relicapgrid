@@ -791,4 +791,7 @@
     <cim:TapChanger.controlEnabled>false</cim:TapChanger.controlEnabled>
     <cim:TapChanger.step>10</cim:TapChanger.step>
   </cim:PhaseTapChangerAsymmetrical>
+  <cim:EquivalentInjection rdf:about="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c">
+    <cim:Equipment.inService>true</cim:Equipment.inService>
+  </cim:EquivalentInjection>
 </rdf:RDF>

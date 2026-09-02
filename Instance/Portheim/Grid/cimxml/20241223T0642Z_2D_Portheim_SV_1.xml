@@ -1082,6 +1082,10 @@
     <cim:SvStatus.ConductingEquipment rdf:resource="#_5e1ef82e-ac7b-4568-a60a-c6120e0d3741" />
     <cim:SvStatus.inService>true</cim:SvStatus.inService>
   </cim:SvStatus>
+   <cim:SvStatus rdf:ID="_161728ac-6f50-4780-87ba-fd1c3af0e433">
+    <cim:SvStatus.ConductingEquipment rdf:resource="#_00c7faff-a1ed-4b64-bbf8-527d4efefb76" />
+    <cim:SvStatus.inService>true</cim:SvStatus.inService>
+  </cim:SvStatus>
   <cim:SvTapStep rdf:ID="_90a8dbff-8818-4a9b-82b0-2b0b1a61a7d0">
     <cim:SvTapStep.TapChanger rdf:resource="#_0cfc8edc-7de6-236d-83cd-d1ede6b717d8" />
     <cim:SvTapStep.position>0</cim:SvTapStep.position>
