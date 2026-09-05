@@ -361,6 +361,24 @@
     <cim:IdentifiedObject.name>TA1</cim:IdentifiedObject.name>
     <nc:TopologyAction.Switch rdf:resource="#_902046a4-40e9-421d-9ef1-9adab0d9d41d"/>
   </nc:TopologyAction>
+  <nc:TopologyAction rdf:ID="_65ade64a-32cb-4e0b-93c6-bc6239293763">
+    <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_347f4f7e-a2b6-4880-846a-8bd1effb00d5"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
+    <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
+    <cim:IdentifiedObject.description>Isolates transformer RUTHUVUD_G1_TRAFO (_2ab1b800-0c93-4517-86b5-8fd6a3a24ee7) by opening bus selector FT62_G1-A-F1.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>65ade64a-32cb-4e0b-93c6-bc6239293763</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>RUTHUVUD_G1_TRAFO FT62_G1-A-F1 OPEN</cim:IdentifiedObject.name>
+    <nc:TopologyAction.Switch rdf:resource="#_39428c75-098b-4366-861d-2df2a857a805"/>
+  </nc:TopologyAction>
+  <nc:TopologyAction rdf:ID="_298d76d3-7a8c-4948-888e-31a684c7dc7d">
+    <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_347f4f7e-a2b6-4880-846a-8bd1effb00d5"/>
+    <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
+    <nc:GridStateAlteration.normalEnabled>true</nc:GridStateAlteration.normalEnabled>
+    <cim:IdentifiedObject.description>Isolates transformer RUTHUVUD_G1_TRAFO (_2ab1b800-0c93-4517-86b5-8fd6a3a24ee7) by opening bus selector FT62_G1-B-F1.</cim:IdentifiedObject.description>
+    <cim:IdentifiedObject.mRID>298d76d3-7a8c-4948-888e-31a684c7dc7d</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>RUTHUVUD_G1_TRAFO FT62_G1-B-F1 OPEN</cim:IdentifiedObject.name>
+    <nc:TopologyAction.Switch rdf:resource="#_902046a4-40e9-421d-9ef1-9adab0d9d41d"/>
+  </nc:TopologyAction>
   <nc:TopologyAction rdf:ID="_1dd4c309-ed8b-4bb6-a26d-4888b8e1f009">
     <nc:GridStateAlteration.GridStateAlterationRemedialAction rdf:resource="#_b2555ccc-6562-4887-8abc-19a6e51cfe36"/>
     <nc:GridStateAlteration.PropertyReference rdf:resource="http://iec.ch/TC57/CIM100#Switch.open"/>
