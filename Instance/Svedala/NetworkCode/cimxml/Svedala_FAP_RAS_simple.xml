@@ -66,7 +66,6 @@
 
   <nc:RemedialActionScheduleDependency rdf:ID="_51592d48-9943-4e13-9ce3-51b79db43109">
     <nc:RemedialActionScheduleDependency.mRID>51592d48-9943-4e13-9ce3-51b79db43109</nc:RemedialActionScheduleDependency.mRID>
-    <nc:RemedialActionScheduleDependency.kind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleDependencyKind.none"/>
     <nc:RemedialActionScheduleDependency.ProposedRemedialActionSchedule rdf:resource="#_24fb6a23-3bb3-4e27-9488-597957c10bdc"/>	
     <nc:RemedialActionScheduleDependency.ReplacedRemedialActionSchedule rdf:resource="#_17527637-6099-4ee6-8b21-fea8dfec4c75"/>	
   </nc:RemedialActionScheduleDependency>  
