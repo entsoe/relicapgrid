@@ -792,5 +792,7 @@
   </cim:PhaseTapChangerAsymmetrical>
   <cim:EquivalentInjection rdf:about="#_7c43d75f-f169-4525-9a55-ef54c6f95f3c">
     <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:EquivalentInjection.p>0</cim:EquivalentInjection.p>
+    <cim:EquivalentInjection.q>0</cim:EquivalentInjection.q>
   </cim:EquivalentInjection>
 </rdf:RDF>
