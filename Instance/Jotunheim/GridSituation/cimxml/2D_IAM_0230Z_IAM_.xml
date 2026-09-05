@@ -30,10 +30,10 @@
     <cim:IdentifiedObject.mRID>5ffb7f6a-e9ea-4b3f-bc32-8f787bc177ad</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>IAM_0230</cim:IdentifiedObject.name>
   </nc:ConnectingImpactAssessmentMatrix>
-  <nc:RemedialActionOutcomeValue rdf:ID="_e8c39ec9-4666-4731-9c00-5674c1e945b4">
+  <nc:RemedialActionOutcomeValue rdf:ID="_28022ed0-220d-4f6b-b272-017cd2e84afe">
     <nc:OutcomeValue.ImpactAssessmentMatrix rdf:resource="#_5ffb7f6a-e9ea-4b3f-bc32-8f787bc177ad"/>
     <nc:OutcomeValue.ImpactedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
-    <nc:OutcomeValue.mRID>e8c39ec9-4666-4731-9c00-5674c1e945b4</nc:OutcomeValue.mRID>
+    <nc:OutcomeValue.mRID>28022ed0-220d-4f6b-b272-017cd2e84afe</nc:OutcomeValue.mRID>
     <nc:OutcomeValue.outcome rdf:resource="https://cim4.eu/ns/nc#OutcomeImpactAssessmentKind.true"/>
     <nc:RemedialActionOutcomeValue.RemedialAction rdf:resource="#_68255abc-9164-4e9a-89ae-d8c44cf3b2b3"/>
   </nc:RemedialActionOutcomeValue>
