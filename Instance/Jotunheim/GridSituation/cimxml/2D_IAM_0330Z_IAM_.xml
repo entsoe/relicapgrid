@@ -25,11 +25,11 @@
     <dcat:version>1.0.0</dcat:version>
     <prov:wasGeneratedBy rdf:resource="https://energy.referencedata.eu/Activity/CGM-IAM"/>
   </dcat:Dataset>
-  <nc:CalculationBasedImpactAssessmentMatrix rdf:ID="_e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c">
+  <nc:ConnectingImpactAssessmentMatrix rdf:ID="_e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c">
     <cim:IdentifiedObject.description>Impact Assessment Matrix sample</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>IAM_0330</cim:IdentifiedObject.name>
-  </nc:CalculationBasedImpactAssessmentMatrix>
+  </nc:ConnectingImpactAssessmentMatrix>
   <nc:RemedialActionOutcomeValue rdf:ID="_84a859c7-733b-4e2a-8a27-b765a91be1f3">
     <nc:OutcomeValue.ImpactAssessmentMatrix rdf:resource="#_e89dc7b3-3be2-4a1a-87f7-a9e91be1f38c"/>
     <nc:OutcomeValue.ImpactedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>

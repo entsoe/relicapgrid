@@ -27,11 +27,11 @@
     <dcterms:type rdf:resource="https://energy.referencedata.eu/type/CIM-PowerSystemModel"/>
     <adms:versionNotes xml:lang="en">Initial version.</adms:versionNotes>
   </dcat:Dataset>
-  <nc:CalculationBasedImpactAssessmentMatrix rdf:ID="_d3b375a5-c7ac-4be4-abbe-64dd89f2e877">
+  <nc:ConnectingImpactAssessmentMatrix rdf:ID="_d3b375a5-c7ac-4be4-abbe-64dd89f2e877">
     <cim:IdentifiedObject.description>Impact Assessment Matrix sample</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>d3b375a5-c7ac-4be4-abbe-64dd89f2e877</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>IAM_0930</cim:IdentifiedObject.name>
-  </nc:CalculationBasedImpactAssessmentMatrix>
+  </nc:ConnectingImpactAssessmentMatrix>
   <nc:RemedialActionOutcomeValue rdf:ID="_829f3fec-2183-4687-a017-7a2b5945bda4">
     <nc:OutcomeValue.ImpactAssessmentMatrix rdf:resource="#_d3b375a5-c7ac-4be4-abbe-64dd89f2e877"/>
     <nc:OutcomeValue.ImpactedSystemOperator rdf:resource="#_b9fbb881-573b-4e98-9b7b-31f00a45ebe0"/>
