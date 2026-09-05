@@ -20586,9 +20586,12 @@
   </cim:RegulatingControl>
   <cim:LinearShuntCompensator rdf:about="#_9a1b18ca-c6b1-4b1a-b03c-d85c96fe6447">
     <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:RegulatingCondEq.controlEnabled>false</cim:RegulatingCondEq.controlEnabled>
+    <cim:ShuntCompensator.sections>1</cim:ShuntCompensator.sections>
   </cim:LinearShuntCompensator>
   <cim:GeneratingUnit rdf:about="#_fb847d00-7b51-9705-74f2-15261d45b37f">
     <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:GeneratingUnit.normalPF>100</cim:GeneratingUnit.normalPF>
   </cim:GeneratingUnit>
   <cim:Disconnector rdf:about="#_1b4e33f8-959c-47da-b19a-f71a0f9f9b03">
     <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -20597,6 +20600,11 @@
 </cim:Disconnector>
   <cim:SynchronousMachine rdf:about="#_419a8edf-36f1-4af7-9a76-ec197f5712fd">
     <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:RegulatingCondEq.controlEnabled>true</cim:RegulatingCondEq.controlEnabled>
+    <cim:RotatingMachine.p>-5</cim:RotatingMachine.p>
+    <cim:RotatingMachine.q>0</cim:RotatingMachine.q>
+    <cim:SynchronousMachine.operatingMode rdf:resource="http://iec.ch/TC57/CIM100#SynchronousMachineOperatingMode.generator" />
+    <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
   </cim:SynchronousMachine>
   <cim:Breaker rdf:about="#_86978cfb-8057-4578-a419-d4efe70609a1">
     <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -20610,6 +20618,8 @@
 </cim:Breaker>
   <cim:EquivalentInjection rdf:about="#_5c3c6f3f-dd78-4282-a50f-b8a0842b21f3">
     <cim:Equipment.inService>true</cim:Equipment.inService>
+    <cim:EquivalentInjection.p>9.99999</cim:EquivalentInjection.p>
+    <cim:EquivalentInjection.q>21.4291</cim:EquivalentInjection.q>
   </cim:EquivalentInjection>
   <cim:Disconnector rdf:about="#_5cc1ca38-7fd4-4a4e-aa29-54650ef13d5b">
     <cim:Equipment.inService>true</cim:Equipment.inService>
@@ -20648,6 +20658,8 @@
     <cim:Switch.open>false</cim:Switch.open>
 </cim:Disconnector>
   <cim:ConformLoad rdf:about="#_09a25351-f649-4a92-810d-3f740534c637">
+    <cim:EnergyConsumer.p>2</cim:EnergyConsumer.p>
+    <cim:EnergyConsumer.q>1</cim:EnergyConsumer.q>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:ConformLoad>
   <cim:Disconnector rdf:about="#_8211fc3c-0f49-49b7-a20f-d5c9ec874f0c">
