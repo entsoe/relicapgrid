@@ -938,7 +938,7 @@
   </cim:GeneratingUnit>
   <cim:GeneratingUnit rdf:ID="_413bbc8a-683c-7e07-4fb9-aa6ec83278e0">
     <cim:Equipment.EquipmentContainer rdf:resource="#_37e14a0f-5e34-4647-a062-8bfd9305fa9d"/>
-    <cim:GeneratingUnit.maxOperatingP>200</cim:GeneratingUnit.maxOperatingP>
+    <cim:GeneratingUnit.maxOperatingP>500</cim:GeneratingUnit.maxOperatingP>
     <cim:GeneratingUnit.minOperatingP>-100</cim:GeneratingUnit.minOperatingP>
     <cim:IdentifiedObject.description>Machine</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>413bbc8a-683c-7e07-4fb9-aa6ec83278e0</cim:IdentifiedObject.mRID>
