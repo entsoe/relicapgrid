@@ -33,6 +33,8 @@
     <cim:IdentifiedObject.mRID>ea1eebe0-7e5e-46c1-8cf6-af110484adf3</cim:IdentifiedObject.mRID>
     <nc:ContingencyPowerFlowResult.Contingency rdf:resource="#_7e31c67d-67ba-4592-8ac1-9e806d697c8e"/>
     <nc:PowerFlowResult.isViolation>true</nc:PowerFlowResult.isViolation>
+    <nc:PowerFlowResult.absoluteValue>1673.4026</nc:PowerFlowResult.absoluteValue>
+    <nc:PowerFlowResult.value>1.0632</nc:PowerFlowResult.value>
     <nc:PowerFlowResult.valueA>1673.4026</nc:PowerFlowResult.valueA>
     <nc:PowerFlowResult.ACDCTerminal rdf:resource="#_3b3075b8-e0e5-66e9-447e-d7e11f76788f"/>
     <nc:PowerFlowResult.atTime>2023-03-28T07:30:00Z</nc:PowerFlowResult.atTime>
