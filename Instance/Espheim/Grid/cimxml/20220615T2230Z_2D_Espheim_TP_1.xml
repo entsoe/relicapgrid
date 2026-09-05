@@ -14975,4 +14975,16 @@
   <cim:ConnectivityNode rdf:about="#_ceafce7b-5485-4cb8-9e06-c85ba137ffa9">
     <cim:ConnectivityNode.TopologicalNode rdf:resource="#_41eb633f-b5c4-1471-78fd-005ebb9653c0"/>
   </cim:ConnectivityNode>
+  <cim:ConnectivityNode rdf:about="#_2448c545-4643-4c74-a53b-f6f3fe4b056c">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_6e4a91c2-f830-4b9d-8e57-3d12a7b0c5f8"/>
+  </cim:ConnectivityNode>
+  <cim:Terminal rdf:about="#_ac7eddfd-4b3d-0966-5803-fbd3bf3e9b2a">
+    <cim:Terminal.TopologicalNode rdf:resource="#_6e4a91c2-f830-4b9d-8e57-3d12a7b0c5f8"/>
+  </cim:Terminal>
+  <cim:TopologicalNode rdf:ID="_6e4a91c2-f830-4b9d-8e57-3d12a7b0c5f8">
+    <cim:IdentifiedObject.mRID>6e4a91c2-f830-4b9d-8e57-3d12a7b0c5f8</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>Espheim BB10.5</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_862a4658-6b03-4550-9de2-b5c413912b75"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_b7630cf0-3bd1-4813-8be3-404a1c4cfc7a"/>
+  </cim:TopologicalNode>
 </rdf:RDF>
