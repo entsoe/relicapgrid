@@ -544,4 +544,31 @@
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_862a4658-6b03-4550-9de2-b5c413912b75" />
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_3615f98b-c1c3-4d47-82ae-0edfc22b4680" />
   </cim:TopologicalNode>
+  <cim:TopologicalNode rdf:ID="_42a0ae28-88d9-bf2f-18a0-8047dbb1cd71">
+    <cim:IdentifiedObject.mRID>42a0ae28-88d9-bf2f-18a0-8047dbb1cd71</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP_EH-PT3</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_dc31ca8a-6261-4eaa-b8b4-11ec57e9cc28"/>
+  </cim:TopologicalNode>
+  <cim:ConnectivityNode rdf:about="#_9e6fb634-977c-4640-938c-b1178aa2aa21">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_42a0ae28-88d9-bf2f-18a0-8047dbb1cd71"/>
+  </cim:ConnectivityNode>
+  <cim:TopologicalNode rdf:ID="_4c9375ed-5c9b-ac34-e2a7-dcc4f260b414">
+    <cim:IdentifiedObject.mRID>4c9375ed-5c9b-ac34-e2a7-dcc4f260b414</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP_EH-PT1</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_4bd4054c530445289e31df0770d1c939"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_0b5bf2ef-a008-4b9a-9fe9-3c528c8bec50"/>
+  </cim:TopologicalNode>
+  <cim:ConnectivityNode rdf:about="#_8a5a6e86-55e4-476b-a3bd-7832e6168569">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_4c9375ed-5c9b-ac34-e2a7-dcc4f260b414"/>
+  </cim:ConnectivityNode>
+  <cim:TopologicalNode rdf:ID="_7f51715f-665f-5358-2736-cc9364b49e0a">
+    <cim:IdentifiedObject.mRID>7f51715f-665f-5358-2736-cc9364b49e0a</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP_EH-PT2</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_4bd4054c530445289e31df0770d1c939"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_eb3018f0-767e-4829-9a50-1a12f9505849"/>
+  </cim:TopologicalNode>
+  <cim:ConnectivityNode rdf:about="#_bf0b3138-b656-482b-8874-f0a4fa314579">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_7f51715f-665f-5358-2736-cc9364b49e0a"/>
+  </cim:ConnectivityNode>
 </rdf:RDF>

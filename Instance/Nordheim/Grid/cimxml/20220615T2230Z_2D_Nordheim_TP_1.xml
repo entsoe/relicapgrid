@@ -31,4 +31,13 @@
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_e61f8ecf-8129-4702-a3a2-826bdf5ad13d"/>
   </cim:TopologicalNode>
+  <cim:TopologicalNode rdf:ID="_7c9c425e-5a8f-ca3c-6c8c-96c992a4815f">
+    <cim:IdentifiedObject.mRID>7c9c425e-5a8f-ca3c-6c8c-96c992a4815f</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP_GA-NH1</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_7891a026ba2c42098556665efd13ba94"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_82abfaf2-36df-44ac-b4e5-e40a535affa4"/>
+  </cim:TopologicalNode>
+  <cim:ConnectivityNode rdf:about="#_d9574184-b375-45f6-8fcc-20ec0470bf93">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_7c9c425e-5a8f-ca3c-6c8c-96c992a4815f"/>
+  </cim:ConnectivityNode>
 </rdf:RDF>

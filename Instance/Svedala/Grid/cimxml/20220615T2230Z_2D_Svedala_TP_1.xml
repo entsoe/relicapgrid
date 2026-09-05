@@ -15619,4 +15619,13 @@
     <cim:TopologicalNode.BaseVoltage rdf:resource="#_c8f7a2b8-a325-461f-a6d4-e74a1476ba2a"/>
     <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_e3ff7a4a-f483-47fb-8b8e-cdba0c267e3e"/>
   </cim:TopologicalNode>
+  <cim:TopologicalNode rdf:ID="_1e6e5fcc-d3a9-e0ee-dbd1-a49a2a76d6ef">
+    <cim:IdentifiedObject.mRID>1e6e5fcc-d3a9-e0ee-dbd1-a49a2a76d6ef</cim:IdentifiedObject.mRID>
+    <cim:IdentifiedObject.name>BP_EH-SD_DC1</cim:IdentifiedObject.name>
+    <cim:TopologicalNode.BaseVoltage rdf:resource="#_65dd04e792584b3b912374e35dec032e"/>
+    <cim:TopologicalNode.ConnectivityNodeContainer rdf:resource="#_c06d67a0-4984-4661-846c-f42a9b29c049"/>
+  </cim:TopologicalNode>
+  <cim:ConnectivityNode rdf:about="#_0a31ada8-2dfc-41c5-a07f-6c2151cea34d">
+    <cim:ConnectivityNode.TopologicalNode rdf:resource="#_1e6e5fcc-d3a9-e0ee-dbd1-a49a2a76d6ef"/>
+  </cim:ConnectivityNode>
 </rdf:RDF>
