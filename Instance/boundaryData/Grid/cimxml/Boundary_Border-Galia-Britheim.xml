@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_e364f3e7-a2a8-3561-5540-6e74801a20ff">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f9ff9a61-68ab-9b05-b850-45e03e7c7483"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_4905819a-7927-4112-8e3b-4e8178b7daa5"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_4905819a-7927-4112-8e3b-4e8178b7daa5"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim6</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Londgard1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Britheim (substation name) (220kV).</cim:IdentifiedObject.description>

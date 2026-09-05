@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_f3954bf0-0bf9-54ff-eb28-b1559373568d">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f87b8a28-2ad3-b214-ce6c-9961504be42f"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_183d126d-2522-4ff2-a8cd-c5016cf09c1b"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_183d126d-2522-4ff2-a8cd-c5016cf09c1b"/>
     <nc:BoundaryPoint.partyOneResourceName>Parila2</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Barigar2</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 2 between Svedala (substation name) and Espheim (substation name) (400kV).</cim:IdentifiedObject.description>
@@ -38,7 +38,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_afa96836-2de5-e633-1c07-491489b89b52">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f87b8a28-2ad3-b214-ce6c-9961504be42f"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_49831d24-33e9-4233-8424-3f88186a924e"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_49831d24-33e9-4233-8424-3f88186a924e"/>
     <nc:BoundaryPoint.partyOneResourceName>Parila1</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Barigar1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Svedala (substation name) and Espheim (substation name) (220kV).</cim:IdentifiedObject.description>
@@ -48,7 +48,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_d4ac0227-f443-a68f-fadd-09dfc0bcd7a1">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f87b8a28-2ad3-b214-ce6c-9961504be42f"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_89caa531-9769-4e1c-9d37-0af93bfada13"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_89caa531-9769-4e1c-9d37-0af93bfada13"/>
     <nc:BoundaryPoint.partyOneResourceName>Parila4</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Barigar1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>BP_SD-EH_DC1</cim:IdentifiedObject.description>
@@ -59,7 +59,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_983cb0bc-264d-a9a1-c642-960cd4a767de">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_f87b8a28-2ad3-b214-ce6c-9961504be42f"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_8dd436f0-f8a2-405b-a991-1a2479077ef5"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_8dd436f0-f8a2-405b-a991-1a2479077ef5"/>
     <nc:BoundaryPoint.partyOneResourceName>Parila3</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Barigar3</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 3 between Svedala (substation name) and Espheim (substation name) (400kV).</cim:IdentifiedObject.description>
@@ -69,7 +69,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_32ce7243-65f1-7183-1eab-9a0db513868a">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_74b087c0-533c-dba6-a039-17891ffd50dd"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_0a31ada8-2dfc-41c5-a07f-6c2151cea34d"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_0a31ada8-2dfc-41c5-a07f-6c2151cea34d"/>
     <nc:BoundaryPoint.partyOneResourceName>Madgar4</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Leyva1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>BP_EH-SD_DC1</cim:IdentifiedObject.description>

@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_a7745865-bc9e-4352-98fc-98c7f44669a4">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_19b9d35f-e1f0-88f0-47a0-b45792961d66"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_892ef502-162b-469f-b93f-266aae828227"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_892ef502-162b-469f-b93f-266aae828227"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim7</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Oldissa1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>BP_GA-NH2</cim:IdentifiedObject.description>
@@ -39,7 +39,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_f55e441a-6fef-2657-4229-355ca95df87e">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_19b9d35f-e1f0-88f0-47a0-b45792961d66"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_d9574184-b375-45f6-8fcc-20ec0470bf93"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_d9574184-b375-45f6-8fcc-20ec0470bf93"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim7</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Oldissa1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Nordheim (substation name) (220kV).</cim:IdentifiedObject.description>

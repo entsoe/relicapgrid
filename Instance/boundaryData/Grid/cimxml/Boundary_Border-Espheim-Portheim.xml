@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_7ab6767d-9ca1-9972-8c25-13c831c95b93">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_9e6fb634-977c-4640-938c-b1178aa2aa21"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_9e6fb634-977c-4640-938c-b1178aa2aa21"/>
     <nc:BoundaryPoint.partyOneResourceName>Madgar3</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Lysaborg3</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 3 between Espheim (substation name) and Portheim (substation name) (220kV).</cim:IdentifiedObject.description>
@@ -38,7 +38,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_ffec3556-5e03-35a3-80a7-4f22b598a2f5">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_bf0b3138-b656-482b-8874-f0a4fa314579"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_bf0b3138-b656-482b-8874-f0a4fa314579"/>
     <nc:BoundaryPoint.partyOneResourceName>Madgar2</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Lysaborg2</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 2 between Espheim (substation name) and Portheim (substation name) (132kV).</cim:IdentifiedObject.description>
@@ -49,7 +49,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_a9bb608d-7e93-cd9c-03bb-77c175befc39">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_8a5a6e86-55e4-476b-a3bd-7832e6168569"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_8a5a6e86-55e4-476b-a3bd-7832e6168569"/>
     <nc:BoundaryPoint.partyOneResourceName>Madgar1</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Lysaborg1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Espheim (substation name) and Portheim (substation name) (132kV).</cim:IdentifiedObject.description>
@@ -124,7 +124,7 @@
   </cim:ConnectivityNode>
   <nc:BoundaryPoint rdf:ID="_3f5af4d3-5943-dfd0-1c61-de4f3fd11070">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_268b60d8-8135-3cb8-d248-569c7c205b23"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_ceafce7b-5485-4cb8-9e06-c85ba137ffa9"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_ceafce7b-5485-4cb8-9e06-c85ba137ffa9"/>
     <cim:IdentifiedObject.description>Boundary point 4 in a Substation between Portheim and Espheim (400kV).</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>3f5af4d3-5943-dfd0-1c61-de4f3fd11070</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>BP Portheim-Espheim</cim:IdentifiedObject.name>

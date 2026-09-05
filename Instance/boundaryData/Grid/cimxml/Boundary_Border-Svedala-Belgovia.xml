@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_082e267e-53e4-cb00-c6ed-be67d80701c1">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_d8c7b6f1-b6e3-bb83-defa-686810369dd0"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_f738d362-c11c-4ca2-82da-a4fa115b3392"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_f738d362-c11c-4ca2-82da-a4fa115b3392"/>
     <nc:BoundaryPoint.partyOneResourceName>Bouchala</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Mastania</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Svedala (substation name) and Belgovia (substation name) (380kV).</cim:IdentifiedObject.description>
@@ -39,7 +39,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_fd0e36b7-817f-4547-9e0f-a07011aecd48">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_d8c7b6f1-b6e3-bb83-defa-686810369dd0"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_b6978550-cb6e-11e1-bcee-406c8f32ef58"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_b6978550-cb6e-11e1-bcee-406c8f32ef58"/>
     <nc:BoundaryPoint.partyOneResourceName>Bouchala2</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Mastania2</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 2 between Svedala (substation name) and Belgovia (substation name) (380kV).</cim:IdentifiedObject.description>
@@ -49,7 +49,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_c65325ed-92a7-384a-834b-99c1ceea32ef">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_d8c7b6f1-b6e3-bb83-defa-686810369dd0"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_b66f15c0-cb6e-11e1-bcee-406c8f32ef58"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_b66f15c0-cb6e-11e1-bcee-406c8f32ef58"/>
     <nc:BoundaryPoint.partyOneResourceName>Bouchala3</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Mastania3</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 3 between Svedala (substation name) and Belgovia (substation name) (225kV).</cim:IdentifiedObject.description>

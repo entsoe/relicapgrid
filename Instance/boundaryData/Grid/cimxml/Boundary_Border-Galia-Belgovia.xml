@@ -28,7 +28,7 @@
   </dcat:Dataset>
   <nc:BoundaryPoint rdf:ID="_af1d901f-98de-574f-abc3-6c3025e7a685">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_b67c8340-cb6e-11e1-bcee-406c8f32ef58"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_b67c8340-cb6e-11e1-bcee-406c8f32ef58"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim2</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Brussia2</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 2 between Galia (substation name) and Belgovia (substation name) (220kV).</cim:IdentifiedObject.description>
@@ -38,7 +38,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_8fe8c999-a939-5d43-b857-02dd312f2dea">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_b675a570-cb6e-11e1-bcee-406c8f32ef58"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_b675a570-cb6e-11e1-bcee-406c8f32ef58"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim5</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Brussia5</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 5 between Galia (substation name) and Belgovia (substation name) (380kV).</cim:IdentifiedObject.description>
@@ -48,7 +48,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_7976cd48-d51c-8e4b-9595-56299cb5b4f8">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_b67cf870-cb6e-11e1-bcee-406c8f32ef58"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_b67cf870-cb6e-11e1-bcee-406c8f32ef58"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim3</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Brussia3</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 3 between Galia (substation name) and Belgovia (substation name) (380kV).</cim:IdentifiedObject.description>
@@ -58,7 +58,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_f079f04c-604b-e408-5c3a-e93025400df9">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_1a14d3b4-b7b5-4b73-9467-04cad5fb6557"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_1a14d3b4-b7b5-4b73-9467-04cad5fb6557"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim4</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Brussia4</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 4 between Galia (substation name) and Belgovia (substation name) (380kV).</cim:IdentifiedObject.description>
@@ -68,7 +68,7 @@
   </nc:BoundaryPoint>
   <nc:BoundaryPoint rdf:ID="_a3e1a51f-cc76-155c-543f-ea7cb0c6db20">
     <nc:BoundaryPoint.BoundaryPointBorder rdf:resource="#_31a638a8-a342-a582-556a-2d0897daf9c9"/>
-    <cim:BoundaryPoint.ConnectivityNode rdf:resource="#_cfb37abe-3dde-4bd3-84a6-b2d8d0df6203"/>
+    <nc:CommonResponsibilityPoint.ConnectivityNode rdf:resource="#_cfb37abe-3dde-4bd3-84a6-b2d8d0df6203"/>
     <nc:BoundaryPoint.partyOneResourceName>Alfheim1</nc:BoundaryPoint.partyOneResourceName>
     <nc:BoundaryPoint.partyTwoResourceName>Brussia1</nc:BoundaryPoint.partyTwoResourceName>
     <cim:IdentifiedObject.description>Boundary point 1 between Galia (substation name) and Belgovia (substation name) (220kV).</cim:IdentifiedObject.description>
