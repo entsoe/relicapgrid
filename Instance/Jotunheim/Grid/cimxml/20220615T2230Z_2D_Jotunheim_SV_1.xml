@@ -56605,6 +56605,11 @@
     <cim:SvPowerFlow.p>-1</cim:SvPowerFlow.p>
     <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
   </cim:SvPowerFlow>
+  <cim:SvPowerFlow rdf:ID="_0faf4ff6-0f7d-4a9c-997a-a28f329d20d1">
+    <cim:SvPowerFlow.Terminal rdf:resource="#_515bd41d-c5bc-4d0c-bf0f-449875c7bd9b"/>
+    <cim:SvPowerFlow.p>0</cim:SvPowerFlow.p>
+    <cim:SvPowerFlow.q>0</cim:SvPowerFlow.q>
+  </cim:SvPowerFlow>
   <cim:SvSwitch rdf:ID="_5802188e-5241-49f9-8944-d7234f926515">
     <cim:SvSwitch.Switch rdf:resource="#_35ffa96f-ccce-4835-904c-38b6bda760d1"/>
     <cim:SvSwitch.open>false</cim:SvSwitch.open>
