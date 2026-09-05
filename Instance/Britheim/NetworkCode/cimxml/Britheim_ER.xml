@@ -128,6 +128,7 @@
     <nc:FunctionInputVariable.Function rdf:resource="#_73280b37-3ebd-4711-af42-fd6a9e3979c9"/>
     <nc:PinDCTerminal.DCTerminal rdf:resource="#_6c00266d-c911-e111-fd3f-db984969578c"/>
     <nc:PinDCTerminal.kind rdf:resource="https://cim4.eu/ns/nc#PinDCTerminalKind.voltage"/>
+    <nc:GateInputPin.logicKind rdf:resource="https://cim4.eu/ns/nc#LogicalOperatorsKind.greaterThan"/>
   </nc:PinDCTerminal>
   <nc:FunctionOutputVariable rdf:ID="_a12ecb98-4178-462f-8cc5-6121084a314f">
     <cim:IdentifiedObject.mRID>a12ecb98-4178-462f-8cc5-6121084a314f</cim:IdentifiedObject.mRID>
