@@ -166,6 +166,7 @@
   <cim:IdentifiedObject.name>PSKD Option 4</cim:IdentifiedObject.name>
 </nc:PowerShiftKeyDistribution>
 <nc:PowerShiftKeySchedule rdf:ID="_853f94cd-a6d6-4edd-bc83-4a2bf937590d">
+  <nc:PowerShiftKeySchedule.GeneratingUnit rdf:resource="#_bc700a2d-afc8-fcac-5cad-f781bdbca395"/>
   <cim:IdentifiedObject.description>Power Shift Key Schedule Option 4</cim:IdentifiedObject.description>
   <cim:IdentifiedObject.mRID>853f94cd-a6d6-4edd-bc83-4a2bf937590d</cim:IdentifiedObject.mRID>
   <cim:IdentifiedObject.name>PSKS Option 4</cim:IdentifiedObject.name>
