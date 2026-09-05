@@ -203,6 +203,7 @@
   <nc:RemedialActionSchedule rdf:ID="_279bfb00-1b2a-4592-af3a-dba9403d1abd">
     <cim:IdentifiedObject.mRID>279bfb00-1b2a-4592-af3a-dba9403d1abd</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NCP386</cim:IdentifiedObject.name>
+    <nc:RemedialActionSchedule.ProposingEntity rdf:resource="#_5f5820d9-3e05-473e-94c8-3c767be03e1a"/>
     <nc:RemedialActionSchedule.RemedialAction rdf:resource="#_fa3e3533-345a-4ef1-a46d-3ab6d251924a"/>
     <nc:RemedialActionSchedule.statusKind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleStatusKind.proposed"/>
   </nc:RemedialActionSchedule>
@@ -246,6 +247,7 @@
   <nc:RemedialActionSchedule rdf:ID="_87e90c47-43d8-4e5c-b2ad-5c67d3a74842">
     <cim:IdentifiedObject.mRID>87e90c47-43d8-4e5c-b2ad-5c67d3a74842</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>NCP386</cim:IdentifiedObject.name>
+    <nc:RemedialActionSchedule.ProposingEntity rdf:resource="#_5f5820d9-3e05-473e-94c8-3c767be03e1a"/>
     <nc:RemedialActionSchedule.RemedialAction rdf:resource="#_7e422768-207d-455f-976e-0b1cb2338509"/>
     <nc:RemedialActionSchedule.statusKind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleStatusKind.proposed"/>
   </nc:RemedialActionSchedule>
@@ -269,6 +271,7 @@
   <nc:RemedialActionSchedule rdf:ID="_17527637-6099-4ee6-8b21-fea8dfec4c75">
     <cim:IdentifiedObject.mRID>17527637-6099-4ee6-8b21-fea8dfec4c75</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TP RA One Switch</cim:IdentifiedObject.name>
+    <nc:RemedialActionSchedule.ProposingEntity rdf:resource="#_5f5820d9-3e05-473e-94c8-3c767be03e1a"/>
     <nc:RemedialActionSchedule.RemedialAction rdf:resource="#_6d2c8901-d068-4d22-8ce9-7379644b4f17"/>
     <nc:RemedialActionSchedule.statusKind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleStatusKind.proposed"/>
   </nc:RemedialActionSchedule>

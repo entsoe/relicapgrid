@@ -38,6 +38,7 @@
    <nc:RemedialActionSchedule rdf:ID="_51361821-0a40-4e5a-a49d-29c266ea2ecc">
     <cim:IdentifiedObject.mRID>51361821-0a40-4e5a-a49d-29c266ea2ecc</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>TP RA One Switch</cim:IdentifiedObject.name>
+    <nc:RemedialActionSchedule.ProposingEntity rdf:resource="#_5f5820d9-3e05-473e-94c8-3c767be03e1a"/>
     <nc:RemedialActionSchedule.RemedialAction rdf:resource="#_6d2c8901-d068-4d22-8ce9-7379644b4f17"/>
     <nc:RemedialActionSchedule.statusKind rdf:resource="https://cim4.eu/ns/nc#RemedialActionScheduleStatusKind.ordered"/>
   </nc:RemedialActionSchedule>
