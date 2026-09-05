@@ -832,7 +832,7 @@
   </cim:CurrentLimit>
   <cim:CurveData rdf:ID="_e71e46f7-1f7e-5f92-5151-d3597712c4cd">
     <cim:CurveData.Curve rdf:resource="#_e48eb83c-3578-72d0-f9ea-0f501cb73012"/>
-    <cim:CurveData.xvalue>200</cim:CurveData.xvalue>
+    <cim:CurveData.xvalue>500</cim:CurveData.xvalue>
     <cim:CurveData.y1value>-200</cim:CurveData.y1value>
     <cim:CurveData.y2value>200</cim:CurveData.y2value>
   </cim:CurveData>
@@ -1563,7 +1563,7 @@
     <cim:RegulatingCondEq.RegulatingControl rdf:resource="#_b16ec4ed-5f9d-843d-4194-82b0769cdb27"/>
     <cim:RotatingMachine.GeneratingUnit rdf:resource="#_413bbc8a-683c-7e07-4fb9-aa6ec83278e0"/>
     <cim:RotatingMachine.ratedPowerFactor>0.85</cim:RotatingMachine.ratedPowerFactor>
-    <cim:RotatingMachine.ratedS>300</cim:RotatingMachine.ratedS>
+    <cim:RotatingMachine.ratedS>700</cim:RotatingMachine.ratedS>
     <cim:RotatingMachine.ratedU>10.5</cim:RotatingMachine.ratedU>
     <cim:SynchronousMachine.InitialReactiveCapabilityCurve rdf:resource="#_e48eb83c-3578-72d0-f9ea-0f501cb73012"/>
     <cim:SynchronousMachine.maxQ>300</cim:SynchronousMachine.maxQ>
