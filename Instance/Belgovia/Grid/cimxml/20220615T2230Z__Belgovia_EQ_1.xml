@@ -844,7 +844,7 @@
   </cim:CurveData>
   <cim:CurveData rdf:ID="_13c1230d-d7ab-8277-1f99-1b6f63b22198">
     <cim:CurveData.Curve rdf:resource="#_e48eb83c-3578-72d0-f9ea-0f501cb73012"/>
-    <cim:CurveData.xvalue>-100</cim:CurveData.xvalue>
+    <cim:CurveData.xvalue>-500</cim:CurveData.xvalue>
     <cim:CurveData.y1value>-200</cim:CurveData.y1value>
     <cim:CurveData.y2value>200</cim:CurveData.y2value>
   </cim:CurveData>
@@ -939,7 +939,7 @@
   <cim:GeneratingUnit rdf:ID="_413bbc8a-683c-7e07-4fb9-aa6ec83278e0">
     <cim:Equipment.EquipmentContainer rdf:resource="#_37e14a0f-5e34-4647-a062-8bfd9305fa9d"/>
     <cim:GeneratingUnit.maxOperatingP>500</cim:GeneratingUnit.maxOperatingP>
-    <cim:GeneratingUnit.minOperatingP>-100</cim:GeneratingUnit.minOperatingP>
+    <cim:GeneratingUnit.minOperatingP>-500</cim:GeneratingUnit.minOperatingP>
     <cim:IdentifiedObject.description>Machine</cim:IdentifiedObject.description>
     <cim:IdentifiedObject.mRID>413bbc8a-683c-7e07-4fb9-aa6ec83278e0</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>Gen-1229753060</cim:IdentifiedObject.name>
