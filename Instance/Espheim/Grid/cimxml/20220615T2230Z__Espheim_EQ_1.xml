@@ -26773,7 +26773,7 @@
     <cim:ExternalNetworkInjection.governorSCD>0</cim:ExternalNetworkInjection.governorSCD>
     <cim:ExternalNetworkInjection.maxP>100000</cim:ExternalNetworkInjection.maxP>
     <cim:ExternalNetworkInjection.maxQ>9999</cim:ExternalNetworkInjection.maxQ>
-    <cim:ExternalNetworkInjection.minP>1</cim:ExternalNetworkInjection.minP>
+    <cim:ExternalNetworkInjection.minP>-100000</cim:ExternalNetworkInjection.minP>
     <cim:ExternalNetworkInjection.minQ>-9999</cim:ExternalNetworkInjection.minQ>
     <cim:IdentifiedObject.mRID>e349f93c-3685-4ea9-a791-a8c1ed359737</cim:IdentifiedObject.mRID>
     <cim:IdentifiedObject.name>External Network Injection 1</cim:IdentifiedObject.name>
