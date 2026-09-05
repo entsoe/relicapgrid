@@ -565,7 +565,6 @@
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_b94318f6-6d24-4f56-96b9-df2531ad6543">
-    <cim:IdentifiedObject.mRID>b94318f6-6d24-4f56-96b9-df2531ad6543</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:RegulatingControl rdf:about="#_b16ec4ed-5f9d-843d-4194-82b0769cdb27">

@@ -104,39 +104,30 @@
     <cim:ACDCTerminal.connected>true</cim:ACDCTerminal.connected>
   </cim:DCTerminal>
   <cim:Equipment rdf:about="#_042e8644-494d-b5a7-1a96-124d42e23131">
-    <cim:IdentifiedObject.mRID>042e8644-494d-b5a7-1a96-124d42e23131</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4711e896-d85e-451b-b834-0cfe14564c01">
-    <cim:IdentifiedObject.mRID>4711e896-d85e-451b-b834-0cfe14564c01</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_81a60401-9391-40e1-9e23-0aa0aff91184">
-    <cim:IdentifiedObject.mRID>81a60401-9391-40e1-9e23-0aa0aff91184</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_3ae3a841-fbb4-469e-8d72-9b69c942f197">
-    <cim:IdentifiedObject.mRID>3ae3a841-fbb4-469e-8d72-9b69c942f197</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_cba14822-1c7f-27e1-dd40-dcd789f9c782">
-    <cim:IdentifiedObject.mRID>cba14822-1c7f-27e1-dd40-dcd789f9c782</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_8343e5c5-b77a-4c4e-b074-1cb3777a2f2d">
-    <cim:IdentifiedObject.mRID>8343e5c5-b77a-4c4e-b074-1cb3777a2f2d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d024cfa1-f2ba-4ab6-b493-d720199b3111">
-    <cim:IdentifiedObject.mRID>d024cfa1-f2ba-4ab6-b493-d720199b3111</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_e4e4e131-5922-404f-9d3d-90a800008cb4">
-    <cim:IdentifiedObject.mRID>e4e4e131-5922-404f-9d3d-90a800008cb4</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_be09fc02-de3f-49e4-aa84-94803bcc5d76">
-    <cim:IdentifiedObject.mRID>be09fc02-de3f-49e4-aa84-94803bcc5d76</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:EquivalentInjection rdf:about="#_e710a2e3-a70f-4261-508f-a4d925d1deb9">

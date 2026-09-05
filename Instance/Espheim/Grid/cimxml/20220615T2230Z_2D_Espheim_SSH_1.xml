@@ -9289,1304 +9289,979 @@
     <cim:Switch.open>false</cim:Switch.open>
   </cim:Disconnector>
   <cim:Equipment rdf:about="#_60065483-50a7-47cc-e443-3242e9f08832">
-    <cim:IdentifiedObject.mRID>60065483-50a7-47cc-e443-3242e9f08832</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ae92c70b-cc0e-2b01-fd8a-bcb025a0f362">
-    <cim:IdentifiedObject.mRID>ae92c70b-cc0e-2b01-fd8a-bcb025a0f362</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9362460b-6b97-d0f1-052e-cd8cdc36e287">
-    <cim:IdentifiedObject.mRID>9362460b-6b97-d0f1-052e-cd8cdc36e287</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_726ba168-56d0-f8c6-0d2d-c9373bd50028">
-    <cim:IdentifiedObject.mRID>726ba168-56d0-f8c6-0d2d-c9373bd50028</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045b7604-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045b7604-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045f94b8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045f94b8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_636ecd33-de59-a351-c571-583bc666b887">
-    <cim:IdentifiedObject.mRID>636ecd33-de59-a351-c571-583bc666b887</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04784cd4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04784cd4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04549836-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04549836-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_53a60fbe-8e3e-92ef-c873-8b7d62451d49">
-    <cim:IdentifiedObject.mRID>53a60fbe-8e3e-92ef-c873-8b7d62451d49</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046e3ab2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046e3ab2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_71df2be5-eec7-4dc8-a657-58bb343ab56d">
-    <cim:IdentifiedObject.mRID>71df2be5-eec7-4dc8-a657-58bb343ab56d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_7eef5f32-8fab-b389-4fca-5cf87727ed8c">
-    <cim:IdentifiedObject.mRID>7eef5f32-8fab-b389-4fca-5cf87727ed8c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047343c2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047343c2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0447c6f1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0447c6f1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
 
   <cim:Equipment rdf:about="#_04653a02-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04653a02-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_5fd4450c-bed2-4611-1086-aaf5507429c6">
-    <cim:IdentifiedObject.mRID>5fd4450c-bed2-4611-1086-aaf5507429c6</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_31ba9b26-39ec-a841-b158-099da34151c0">
-    <cim:IdentifiedObject.mRID>31ba9b26-39ec-a841-b158-099da34151c0</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04778984-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04778984-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_3b0c53b2-c791-4992-8574-7680e5784f67">
-    <cim:IdentifiedObject.mRID>3b0c53b2-c791-4992-8574-7680e5784f67</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048915b9-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048915b9-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_edf1af97-de49-45bb-a7ef-31f96d486712">
-    <cim:IdentifiedObject.mRID>edf1af97-de49-45bb-a7ef-31f96d486712</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_8eccc6a2-f824-d451-5835-9f67aa5b7f7c">
-    <cim:IdentifiedObject.mRID>8eccc6a2-f824-d451-5835-9f67aa5b7f7c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1ab9f58c-e610-978b-9b4a-9b2378593e30">
-    <cim:IdentifiedObject.mRID>1ab9f58c-e610-978b-9b4a-9b2378593e30</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c3954-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c3954-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_fa023e22-e0db-fa95-525f-bcd24d67474d">
-    <cim:IdentifiedObject.mRID>fa023e22-e0db-fa95-525f-bcd24d67474d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_e2683a9c-4d53-23ff-824d-7b33123315ec">
-    <cim:IdentifiedObject.mRID>e2683a9c-4d53-23ff-824d-7b33123315ec</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0488c796-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0488c796-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046931a5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046931a5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_92b1e504-01f8-10be-fcde-0e4af373b7ec">
-    <cim:IdentifiedObject.mRID>92b1e504-01f8-10be-fcde-0e4af373b7ec</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046efe04-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046efe04-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045ed169-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045ed169-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0470d2c9-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0470d2c9-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04535fb7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04535fb7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047ba839-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047ba839-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048b1189-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048b1189-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9a8f71da-bb87-defe-d1a1-c4306f16c1f6">
-    <cim:IdentifiedObject.mRID>9a8f71da-bb87-defe-d1a1-c4306f16c1f6</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4eb19c35-7c25-a866-cd53-b6b5c986d69e">
-    <cim:IdentifiedObject.mRID>4eb19c35-7c25-a866-cd53-b6b5c986d69e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048a2725-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048a2725-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044f6815-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044f6815-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_092e5fa8-4c1f-4f2c-866d-8635cabd01e1">
-    <cim:IdentifiedObject.mRID>092e5fa8-4c1f-4f2c-866d-8635cabd01e1</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048c4a00-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048c4a00-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0474a358-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0474a358-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04814d85-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04814d85-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_e3606b3d-6819-47f3-bfb9-a0b02a1d773c">
-    <cim:IdentifiedObject.mRID>e3606b3d-6819-47f3-bfb9-a0b02a1d773c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044fdd41-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044fdd41-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_dc77736b-ee29-709c-8d8b-260b0594965d">
-    <cim:IdentifiedObject.mRID>dc77736b-ee29-709c-8d8b-260b0594965d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045cae83-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045cae83-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d31cc5af-f1d1-1270-9777-1f425933741f">
-    <cim:IdentifiedObject.mRID>d31cc5af-f1d1-1270-9777-1f425933741f</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04513cd6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04513cd6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046b2d77-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046b2d77-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045cfca6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045cfca6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04627ae6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04627ae6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0456e226-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0456e226-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04631724-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04631724-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_fff494c0-2f2e-88ea-6ac6-15045924c63e">
-    <cim:IdentifiedObject.mRID>fff494c0-2f2e-88ea-6ac6-15045924c63e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046e61c8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046e61c8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04854529-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04854529-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1d5097e8-e12d-d4c1-ea8d-977908895fb8">
-    <cim:IdentifiedObject.mRID>1d5097e8-e12d-d4c1-ea8d-977908895fb8</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_29959d45-d28c-fcc5-4549-678d3013de31">
-    <cim:IdentifiedObject.mRID>29959d45-d28c-fcc5-4549-678d3013de31</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_7aa9a319-dcb7-b398-f012-8249ccc1fff2">
-    <cim:IdentifiedObject.mRID>7aa9a319-dcb7-b398-f012-8249ccc1fff2</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0488c79b-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0488c79b-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a6123783-1d4c-4742-1fdc-602bc0742134">
-    <cim:IdentifiedObject.mRID>a6123783-1d4c-4742-1fdc-602bc0742134</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0470d2c4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0470d2c4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04566cf8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04566cf8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d1aee203-87a0-667f-863e-15fd07d71046">
-    <cim:IdentifiedObject.mRID>d1aee203-87a0-667f-863e-15fd07d71046</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044c81e3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044c81e3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046c17d9-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046c17d9-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_8b1941ec-6614-5883-b068-9bac35664fad">
-    <cim:IdentifiedObject.mRID>8b1941ec-6614-5883-b068-9bac35664fad</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a1777fbd-4200-fc1b-aa30-0ec4bbe19351">
-    <cim:IdentifiedObject.mRID>a1777fbd-4200-fc1b-aa30-0ec4bbe19351</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1cdc5b65-aae3-22cd-1925-b5afae6932d7">
-    <cim:IdentifiedObject.mRID>1cdc5b65-aae3-22cd-1925-b5afae6932d7</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_204c648e-e25d-6b63-6a77-67ba4ef486e3">
-    <cim:IdentifiedObject.mRID>204c648e-e25d-6b63-6a77-67ba4ef486e3</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a04e4e41-c0b4-496e-9ef3-390ea089411f">
-    <cim:IdentifiedObject.mRID>a04e4e41-c0b4-496e-9ef3-390ea089411f</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_703f5b86-b6c6-4c47-8f6b-55d7d93838c9">
-    <cim:IdentifiedObject.mRID>703f5b86-b6c6-4c47-8f6b-55d7d93838c9</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0483be84-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0483be84-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9fb12218-368e-f738-b5ae-9e580452ee62">
-    <cim:IdentifiedObject.mRID>9fb12218-368e-f738-b5ae-9e580452ee62</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_b82e7ba6-e9fa-9a63-3427-87b576e021d9">
-    <cim:IdentifiedObject.mRID>b82e7ba6-e9fa-9a63-3427-87b576e021d9</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0484a8e1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0484a8e1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04640183-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04640183-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0484a8e4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0484a8e4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0458b6e8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0458b6e8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046958b6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046958b6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044bbe91-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044bbe91-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>false</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0482fb33-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0482fb33-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04614263-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04614263-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_eabd5fdc-ae12-c165-fc81-ce4fee68f9e1">
-    <cim:IdentifiedObject.mRID>eabd5fdc-ae12-c165-fc81-ce4fee68f9e1</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0463da77-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0463da77-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0467d215-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0467d215-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0476c63a-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0476c63a-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04518af7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04518af7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045e3525-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045e3525-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045a8ba1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045a8ba1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_09b0102d-660e-2c73-8a04-57bbda568b5d">
-    <cim:IdentifiedObject.mRID>09b0102d-660e-2c73-8a04-57bbda568b5d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_83689ff7-619f-91f9-82c3-009f2174be8a">
-    <cim:IdentifiedObject.mRID>83689ff7-619f-91f9-82c3-009f2174be8a</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044e56a2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044e56a2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04720b41-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04720b41-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_454f3aa4-963c-584f-c8f1-a52b65b0a682">
-    <cim:IdentifiedObject.mRID>454f3aa4-963c-584f-c8f1-a52b65b0a682</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_13e00d4a-ed58-2e80-97c4-1f8d9c64eff0">
-    <cim:IdentifiedObject.mRID>13e00d4a-ed58-2e80-97c4-1f8d9c64eff0</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04885268-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04885268-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6d0a58f9-90a0-f68d-77e3-ac497f5b1faa">
-    <cim:IdentifiedObject.mRID>6d0a58f9-90a0-f68d-77e3-ac497f5b1faa</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047b3301-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047b3301-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0474f177-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0474f177-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048a4e33-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048a4e33-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044ef2e7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044ef2e7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4d863f98-d4be-d669-02b5-49d19c299cd5">
-    <cim:IdentifiedObject.mRID>4d863f98-d4be-d669-02b5-49d19c299cd5</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6b180f61-9b0c-4b66-927c-61199470d3b5">
-    <cim:IdentifiedObject.mRID>6b180f61-9b0c-4b66-927c-61199470d3b5</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>false</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0468e382-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0468e382-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045868c5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045868c5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_b76ca7ee-8faf-a131-56ff-5170a3d5f334">
-    <cim:IdentifiedObject.mRID>b76ca7ee-8faf-a131-56ff-5170a3d5f334</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048963d9-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048963d9-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044ef2e1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044ef2e1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_2dcdd195-4893-42e0-b4d7-36d7e32e669a">
-    <cim:IdentifiedObject.mRID>2dcdd195-4893-42e0-b4d7-36d7e32e669a</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0478e912-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0478e912-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045ed162-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045ed162-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0451b208-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0451b208-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046d294b-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046d294b-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_2beac377-315b-9328-db59-dc23e220bfa6">
-    <cim:IdentifiedObject.mRID>2beac377-315b-9328-db59-dc23e220bfa6</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1b1a8d3f-daab-14e6-8846-6a5176ecdd29">
-    <cim:IdentifiedObject.mRID>1b1a8d3f-daab-14e6-8846-6a5176ecdd29</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_87210051-a0e2-a303-02ec-bd6d73327e44">
-    <cim:IdentifiedObject.mRID>87210051-a0e2-a303-02ec-bd6d73327e44</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ad06f129-aaee-d6c1-3683-12f038b23efe">
-    <cim:IdentifiedObject.mRID>ad06f129-aaee-d6c1-3683-12f038b23efe</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d64b1436-2099-97eb-5373-90ae8f164d90">
-    <cim:IdentifiedObject.mRID>d64b1436-2099-97eb-5373-90ae8f164d90</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_f224884f-0756-9d63-2111-7841db89301e">
-    <cim:IdentifiedObject.mRID>f224884f-0756-9d63-2111-7841db89301e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04524e47-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04524e47-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c1248-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c1248-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046f4c26-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046f4c26-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04642896-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04642896-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_f76bfdb0-016f-ee9f-4e22-b4f8e6084558">
-    <cim:IdentifiedObject.mRID>f76bfdb0-016f-ee9f-4e22-b4f8e6084558</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044c5ad6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044c5ad6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047f78c2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047f78c2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c7ae1901-ee18-a541-902a-a3a5e6b445be">
-    <cim:IdentifiedObject.mRID>c7ae1901-ee18-a541-902a-a3a5e6b445be</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047d55e4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047d55e4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045338a1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045338a1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0484f709-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0484f709-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0481c2b1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0481c2b1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04483c2a-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04483c2a-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1c95cf63-8412-355e-15a7-2bb5cce568bf">
-    <cim:IdentifiedObject.mRID>1c95cf63-8412-355e-15a7-2bb5cce568bf</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4440f199-bf6c-7bb6-c8d8-1452a646aae1">
-    <cim:IdentifiedObject.mRID>4440f199-bf6c-7bb6-c8d8-1452a646aae1</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046a6a27-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046a6a27-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04595326-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04595326-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046931a3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046931a3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_086b7bfe-aebc-3028-185b-3c50f5811239">
-    <cim:IdentifiedObject.mRID>086b7bfe-aebc-3028-185b-3c50f5811239</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a100288a-4aea-c917-55d5-0557b4858854">
-    <cim:IdentifiedObject.mRID>a100288a-4aea-c917-55d5-0557b4858854</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04553477-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04553477-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c627d348-7165-c491-a00c-575c77208f63">
-    <cim:IdentifiedObject.mRID>c627d348-7165-c491-a00c-575c77208f63</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_b85e5fb8-7e2b-4264-a059-edab9a838116">
-    <cim:IdentifiedObject.mRID>b85e5fb8-7e2b-4264-a059-edab9a838116</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048719e5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048719e5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0452c375-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0452c375-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_11a909f8-85da-2619-017b-d9e297bea29f">
-    <cim:IdentifiedObject.mRID>11a909f8-85da-2619-017b-d9e297bea29f</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_732049e9-a1e6-9cf2-bb5b-8401f6e16127">
-    <cim:IdentifiedObject.mRID>732049e9-a1e6-9cf2-bb5b-8401f6e16127</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c3958-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c3958-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c0d7c685-bfa3-e81f-d274-9adde85207ff">
-    <cim:IdentifiedObject.mRID>c0d7c685-bfa3-e81f-d274-9adde85207ff</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ff087bf9-4fe9-958e-0f3c-0185c5eb6c3e">
-    <cim:IdentifiedObject.mRID>ff087bf9-4fe9-958e-0f3c-0185c5eb6c3e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c924070c-e1b1-a2ee-2ffb-f7e2a5e2150b">
-    <cim:IdentifiedObject.mRID>c924070c-e1b1-a2ee-2ffb-f7e2a5e2150b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04658820-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04658820-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c61d4a4f-f1f8-bfe2-db81-1febb7782fba">
-    <cim:IdentifiedObject.mRID>c61d4a4f-f1f8-bfe2-db81-1febb7782fba</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0473e004-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0473e004-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a1c1648d-c4c9-4b3d-1ecc-2f4280954e39">
-    <cim:IdentifiedObject.mRID>a1c1648d-c4c9-4b3d-1ecc-2f4280954e39</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_e54dfbb9-cb6b-1d03-d0e0-0c14f3d18e28">
-    <cim:IdentifiedObject.mRID>e54dfbb9-cb6b-1d03-d0e0-0c14f3d18e28</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_8b837a08-3dd9-afc5-f453-a1cb9659d6ea">
-    <cim:IdentifiedObject.mRID>8b837a08-3dd9-afc5-f453-a1cb9659d6ea</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04486330-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04486330-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_338888e2-f686-fcbb-8cfa-30a2cafe7688">
-    <cim:IdentifiedObject.mRID>338888e2-f686-fcbb-8cfa-30a2cafe7688</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_51d3c330-01ab-4119-8a47-44b1e679126c">
-    <cim:IdentifiedObject.mRID>51d3c330-01ab-4119-8a47-44b1e679126c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>false</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04845ac7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04845ac7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_80740fd1-f989-1f41-ee37-3894a99d3c01">
-    <cim:IdentifiedObject.mRID>80740fd1-f989-1f41-ee37-3894a99d3c01</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4fd60b1f-812f-37c8-3f80-6c35e68eddad">
-    <cim:IdentifiedObject.mRID>4fd60b1f-812f-37c8-3f80-6c35e68eddad</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048963d8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048963d8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046a4318-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046a4318-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045e3524-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045e3524-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_138d257f-2dcb-cc1c-2300-a90af3b71d3d">
-    <cim:IdentifiedObject.mRID>138d257f-2dcb-cc1c-2300-a90af3b71d3d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044cd003-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044cd003-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_54abbfe0-826a-a21a-38ab-f80cfba44042">
-    <cim:IdentifiedObject.mRID>54abbfe0-826a-a21a-38ab-f80cfba44042</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044b7078-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044b7078-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04784cd5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04784cd5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0485ba57-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0485ba57-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_b991ac24-e9d4-4b1f-4c6d-ae7dca70750b">
-    <cim:IdentifiedObject.mRID>b991ac24-e9d4-4b1f-4c6d-ae7dca70750b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0450eeb5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0450eeb5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04690a93-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04690a93-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047eb573-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047eb573-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04575750-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04575750-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04547127-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04547127-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_bb8787ff-96b9-4618-85d5-d1bcad51337f">
-    <cim:IdentifiedObject.mRID>bb8787ff-96b9-4618-85d5-d1bcad51337f</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_cbb88dac-dba2-f825-78e5-959c2a38c798">
-    <cim:IdentifiedObject.mRID>cbb88dac-dba2-f825-78e5-959c2a38c798</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045a3d89-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045a3d89-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a751ce98-0d31-dde0-9949-6446a6eb23ce">
-    <cim:IdentifiedObject.mRID>a751ce98-0d31-dde0-9949-6446a6eb23ce</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048481d0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048481d0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044c81e1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044c81e1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0452273a-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0452273a-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048badc5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048badc5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04862f83-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04862f83-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04898ae4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04898ae4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a0b57ffb-da58-4fb1-5e31-0d55f592298c">
-    <cim:IdentifiedObject.mRID>a0b57ffb-da58-4fb1-5e31-0d55f592298c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04682038-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04682038-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04817498-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04817498-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0cf56088-d8f6-f6b5-ed7d-6ba479971a8b">
-    <cim:IdentifiedObject.mRID>0cf56088-d8f6-f6b5-ed7d-6ba479971a8b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0478c207-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0478c207-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_efe1140c-a14a-b075-a3c8-1e1f72e0e80c">
-    <cim:IdentifiedObject.mRID>efe1140c-a14a-b075-a3c8-1e1f72e0e80c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044b9789-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044b9789-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_2c9a0753-421a-489b-9761-9452f60b3157">
-    <cim:IdentifiedObject.mRID>2c9a0753-421a-489b-9761-9452f60b3157</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04653a08-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04653a08-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a0ea5eb5-615c-c157-a809-f05f7556b073">
-    <cim:IdentifiedObject.mRID>a0ea5eb5-615c-c157-a809-f05f7556b073</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_675ec4d1-c545-9d13-1162-ab2471907170">
-    <cim:IdentifiedObject.mRID>675ec4d1-c545-9d13-1162-ab2471907170</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c1243-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c1243-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_365a802b-d347-889e-0ce4-2b413b5683c3">
-    <cim:IdentifiedObject.mRID>365a802b-d347-889e-0ce4-2b413b5683c3</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c69cdc31-de1f-85fa-5d58-0326f7effb4d">
-    <cim:IdentifiedObject.mRID>c69cdc31-de1f-85fa-5d58-0326f7effb4d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1f12b410-6f8d-3d82-c2ff-35340c63a38d">
-    <cim:IdentifiedObject.mRID>1f12b410-6f8d-3d82-c2ff-35340c63a38d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_fb05d6f0-c01a-97a1-e322-728c1413bf58">
-    <cim:IdentifiedObject.mRID>fb05d6f0-c01a-97a1-e322-728c1413bf58</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047b8128-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047b8128-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044a5f09-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044a5f09-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_e3d8af07-301b-16af-bbad-c3b1108985e2">
-    <cim:IdentifiedObject.mRID>e3d8af07-301b-16af-bbad-c3b1108985e2</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_8a8741f4-af67-c5a1-c96e-f66dde20d0ac">
-    <cim:IdentifiedObject.mRID>8a8741f4-af67-c5a1-c96e-f66dde20d0ac</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04649dc2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04649dc2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04488a45-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04488a45-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9a6244f0-6479-f48b-f4a3-574da23d82bb">
-    <cim:IdentifiedObject.mRID>9a6244f0-6479-f48b-f4a3-574da23d82bb</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_7f04708c-d4c0-ddcc-c6f5-9ca142bc6f81">
-    <cim:IdentifiedObject.mRID>7f04708c-d4c0-ddcc-c6f5-9ca142bc6f81</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d41c6a47-5642-4b9d-ada8-f8607c96c04b">
-    <cim:IdentifiedObject.mRID>d41c6a47-5642-4b9d-ada8-f8607c96c04b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_52413b96-d5ff-4b8b-b483-6b6b3afa5a79">
-    <cim:IdentifiedObject.mRID>52413b96-d5ff-4b8b-b483-6b6b3afa5a79</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044f4109-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044f4109-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6b5eccda-e6fc-3335-3b72-14b31306fb87">
-    <cim:IdentifiedObject.mRID>6b5eccda-e6fc-3335-3b72-14b31306fb87</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044cd007-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044cd007-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0ac0a6da-ad57-8bab-338b-6294136bb020">
-    <cim:IdentifiedObject.mRID>0ac0a6da-ad57-8bab-338b-6294136bb020</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ef487323-aba5-8f66-4de2-ae78f555b860">
-    <cim:IdentifiedObject.mRID>ef487323-aba5-8f66-4de2-ae78f555b860</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_fc49e6f4-e4cd-12f9-92bb-605623b58c61">
-    <cim:IdentifiedObject.mRID>fc49e6f4-e4cd-12f9-92bb-605623b58c61</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1680270e-bda6-0413-98d8-834d8340d792">
-    <cim:IdentifiedObject.mRID>1680270e-bda6-0413-98d8-834d8340d792</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_dd4a040c-c853-3f4e-8c2c-22a8ac7f86e2">
-    <cim:IdentifiedObject.mRID>dd4a040c-c853-3f4e-8c2c-22a8ac7f86e2</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_312501a3-bf44-ce03-d5d3-88760c4afe0e">
-    <cim:IdentifiedObject.mRID>312501a3-bf44-ce03-d5d3-88760c4afe0e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04520028-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04520028-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c17a4df4-38b3-1c3d-e88e-62758ab40875">
-    <cim:IdentifiedObject.mRID>c17a4df4-38b3-1c3d-e88e-62758ab40875</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044f8f22-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044f8f22-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0483e594-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0483e594-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_75f891a1-43b3-ff77-9ab5-c08788a0d167">
-    <cim:IdentifiedObject.mRID>75f891a1-43b3-ff77-9ab5-c08788a0d167</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044c5ada-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044c5ada-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046783f3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046783f3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_818d336a-2782-a87e-7468-5ea3e2a5297e">
-    <cim:IdentifiedObject.mRID>818d336a-2782-a87e-7468-5ea3e2a5297e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0488eea6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0488eea6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6172ca63-e673-0fc9-3e5f-1461348b584e">
-    <cim:IdentifiedObject.mRID>6172ca63-e673-0fc9-3e5f-1461348b584e</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0474a356-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0474a356-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04791021-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04791021-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0487b623-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0487b623-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0457a574-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0457a574-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047d07c0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047d07c0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046009e6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046009e6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ec9b5df8-4c02-4aa0-beef-423c87ad3416">
-    <cim:IdentifiedObject.mRID>ec9b5df8-4c02-4aa0-beef-423c87ad3416</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>false</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04499bb6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04499bb6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046735d0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046735d0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9cca5701-d0a7-439d-a1f1-430a3d75405b">
-    <cim:IdentifiedObject.mRID>9cca5701-d0a7-439d-a1f1-430a3d75405b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04893cc4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04893cc4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048a7540-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048a7540-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0480b14b-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0480b14b-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04569409-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04569409-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04607f15-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04607f15-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9a94b0ed-f9a6-459f-85fe-55aec4234367">
-    <cim:IdentifiedObject.mRID>9a94b0ed-f9a6-459f-85fe-55aec4234367</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>false</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c8776-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c8776-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04592c16-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04592c16-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046735d5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046735d5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0453fbf0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0453fbf0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d98a5b89-1e60-0451-1da8-4e7c1b1f4cea">
-    <cim:IdentifiedObject.mRID>d98a5b89-1e60-0451-1da8-4e7c1b1f4cea</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_88f000b9-cc0d-4349-b816-7b3d3de20308">
-    <cim:IdentifiedObject.mRID>88f000b9-cc0d-4349-b816-7b3d3de20308</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_ca71770a-3514-2934-6005-4f96c405267b">
-    <cim:IdentifiedObject.mRID>ca71770a-3514-2934-6005-4f96c405267b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4ad4f4e9-7e29-0364-7a03-d23c960605e9">
-    <cim:IdentifiedObject.mRID>4ad4f4e9-7e29-0364-7a03-d23c960605e9</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04581aa5-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04581aa5-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0bbb9a15-4e9d-3742-57fb-66554548441c">
-    <cim:IdentifiedObject.mRID>0bbb9a15-4e9d-3742-57fb-66554548441c</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d370cf45-8a96-8a28-0f70-11cc43d6ab83">
-    <cim:IdentifiedObject.mRID>d370cf45-8a96-8a28-0f70-11cc43d6ab83</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047ae4ea-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047ae4ea-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_4b2b3dc5-b871-7dc5-7a7c-f65a47cd21ef">
-    <cim:IdentifiedObject.mRID>4b2b3dc5-b871-7dc5-7a7c-f65a47cd21ef</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_def2020c-e062-118b-246d-b7ae08fcacc5">
-    <cim:IdentifiedObject.mRID>def2020c-e062-118b-246d-b7ae08fcacc5</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045338a8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045338a8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_aa5a151a-abbd-f84a-d4f1-6af7ef8d001d">
-    <cim:IdentifiedObject.mRID>aa5a151a-abbd-f84a-d4f1-6af7ef8d001d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04765108-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04765108-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044cd006-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044cd006-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047a6fb7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047a6fb7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_7c623775-3c7b-9165-7c05-fe35e539e524">
-    <cim:IdentifiedObject.mRID>7c623775-3c7b-9165-7c05-fe35e539e524</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_f09ec171-8c4d-3e9b-80ed-ebca64313e3d">
-    <cim:IdentifiedObject.mRID>f09ec171-8c4d-3e9b-80ed-ebca64313e3d</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047d55e3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047d55e3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_d7dcd5fc-3726-5286-ae1c-ce6ae6092ce3">
-    <cim:IdentifiedObject.mRID>d7dcd5fc-3726-5286-ae1c-ce6ae6092ce3</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04670ec6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04670ec6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_38ddc7f3-a5e2-0a40-d0d2-345085cad050">
-    <cim:IdentifiedObject.mRID>38ddc7f3-a5e2-0a40-d0d2-345085cad050</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_43d3f8c6-6f27-76ad-f216-7cfe5135c45f">
-    <cim:IdentifiedObject.mRID>43d3f8c6-6f27-76ad-f216-7cfe5135c45f</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044a37f2-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044a37f2-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04689568-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04689568-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045e5c32-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045e5c32-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04529c61-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04529c61-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_bfdd5fa0-0011-040d-9091-c1a5ec1f1532">
-    <cim:IdentifiedObject.mRID>bfdd5fa0-0011-040d-9091-c1a5ec1f1532</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045fbbc3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045fbbc3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_3726e0ce-af19-7c67-98f3-79b57edb2871">
-    <cim:IdentifiedObject.mRID>3726e0ce-af19-7c67-98f3-79b57edb2871</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0487b624-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0487b624-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_7ed75489-e859-4097-b005-b94106a3ffc2">
-    <cim:IdentifiedObject.mRID>7ed75489-e859-4097-b005-b94106a3ffc2</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04747c40-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04747c40-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044a10e4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044a10e4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0463da71-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0463da71-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_09e1e751-f96e-aefb-0601-c8f4d8845e41">
-    <cim:IdentifiedObject.mRID>09e1e751-f96e-aefb-0601-c8f4d8845e41</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0479ac60-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0479ac60-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_9598f36a-dcfd-107b-2be4-cd89adc40ba3">
-    <cim:IdentifiedObject.mRID>9598f36a-dcfd-107b-2be4-cd89adc40ba3</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048ac367-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048ac367-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c76c78f0-4b66-d849-3bc3-2ecc14543d16">
-    <cim:IdentifiedObject.mRID>c76c78f0-4b66-d849-3bc3-2ecc14543d16</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0472a780-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0472a780-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045c1249-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045c1249-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0475dbd8-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0475dbd8-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_a52c6ca2-b171-de5f-8cec-92b11b3faa99">
-    <cim:IdentifiedObject.mRID>a52c6ca2-b171-de5f-8cec-92b11b3faa99</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0458ddf0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0458ddf0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_3d457e41-5b76-bf4a-6540-f585d30cf111">
-    <cim:IdentifiedObject.mRID>3d457e41-5b76-bf4a-6540-f585d30cf111</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046f9a43-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046f9a43-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1c52703c-bd5a-3fab-a484-6f8cdb54f4bc">
-    <cim:IdentifiedObject.mRID>1c52703c-bd5a-3fab-a484-6f8cdb54f4bc</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04839779-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04839779-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0460cd36-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0460cd36-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_044c5ad7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>044c5ad7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_04513cd7-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>04513cd7-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0478e913-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0478e913-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6e5413f9-feb9-b090-6206-551979ccbedc">
-    <cim:IdentifiedObject.mRID>6e5413f9-feb9-b090-6206-551979ccbedc</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_048badc1-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>048badc1-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0482fb31-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0482fb31-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_c4f31ead-a16a-abec-045e-c66b53d8dc7a">
-    <cim:IdentifiedObject.mRID>c4f31ead-a16a-abec-045e-c66b53d8dc7a</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_3d1690f3-5ed0-4b74-88c0-dc04c651a5ac">
-    <cim:IdentifiedObject.mRID>3d1690f3-5ed0-4b74-88c0-dc04c651a5ac</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046f9a4b-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046f9a4b-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_51230299-aac5-6089-c838-c65a45770518">
-    <cim:IdentifiedObject.mRID>51230299-aac5-6089-c838-c65a45770518</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047120e9-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047120e9-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046dc589-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046dc589-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047566a0-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047566a0-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046009e3-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046009e3-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_047b0bf6-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>047b0bf6-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_1f116ad9-10a0-06cc-9258-3620f151d320">
-    <cim:IdentifiedObject.mRID>1f116ad9-10a0-06cc-9258-3620f151d320</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_0462c907-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>0462c907-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046b7b92-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046b7b92-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_6dbe5760-eb4c-4d0d-bcff-fba0f26f5cff">
-    <cim:IdentifiedObject.mRID>6dbe5760-eb4c-4d0d-bcff-fba0f26f5cff</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_045d71d4-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>045d71d4-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:about="#_046c8d04-c766-11e1-8775-005056c00008">
-    <cim:IdentifiedObject.mRID>046c8d04-c766-11e1-8775-005056c00008</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:EquivalentInjection rdf:about="#_a898c0e0-ad26-4998-947b-0dcd85c1a9be">
@@ -21117,11 +20792,9 @@
     <cim:SynchronousMachine.referencePriority>0</cim:SynchronousMachine.referencePriority>
   </cim:SynchronousMachine>
   <cim:Equipment rdf:ID="_4b62e70e-41fd-3615-d8b0-36d0adf2e35b">
-    <cim:IdentifiedObject.mRID>4b62e70e-41fd-3615-d8b0-36d0adf2e35b</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:Equipment rdf:ID="_9c97f017-0cae-4011-ad66-2637cb96b8b6">
-    <cim:IdentifiedObject.mRID>9c97f017-0cae-4011-ad66-2637cb96b8b6</cim:IdentifiedObject.mRID>
     <cim:Equipment.inService>true</cim:Equipment.inService>
   </cim:Equipment>
   <cim:RegulatingControl rdf:about="#_17d0a4c9-7451-b629-9ac5-6de970664c23">
