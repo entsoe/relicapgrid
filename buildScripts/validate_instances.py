@@ -70,7 +70,7 @@ VERSION_CHAIN_GLOB = "Instance/*/NetworkCode/cimxml/Dataset_version_dependency/*
 # profile. In CGMES 3.0 the boundary is a small EQ dataset (EQBD was folded
 # into EQ), so the header should declare conformsTo CoreEquipment-EU/3.0 (it is
 # in the repo's own ConformTo-Collection). Until the data is fixed upstream the
-# EQ profile is assumed here; remove once the headers declare it.
+# EQ profile is assumed here; remove once the headers declare it (#395).
 BOUNDARY_PROFILE_FIX = ("Instance/boundaryData/", "http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0")
 
 # per-dataset semantics — evaluated per instance file, never on the union:
