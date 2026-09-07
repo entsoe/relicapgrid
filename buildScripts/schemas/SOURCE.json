@@ -1,0 +1,8 @@
+{
+    "repo": "https://github.com/entsoe/application-profiles-library.git",
+    "ref": "main",
+    "path": "NCP/RDFS",
+    "commit": "d8b2d21c4f326f57e31d8538c3957de5e6bfa028",
+    "fetched": "2026-09-04",
+    "generator": "triplets feat/ncp-2.5-dev-schemas@3a4c23f (PR Haigutus/triplets#115) \u2014 cim_rdfs_to_json.py; vendored until triplets 0.3 ships ENTSOE_NC_2_5_dev_552_ED1"
+}

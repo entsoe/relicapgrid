@@ -30,8 +30,11 @@ Instance/
   referenceData/
 
 buildScripts/
-  create_cgm_zip.py    # Assembles CGM import zip packages
-  validate_relicap.py  # Runs dangling-reference validation, writes CSV reports
+  create_cgm_zip.py       # Assembles CGM import zip packages
+  validate_relicap.py     # Dangling-reference / duplicate-ID / UUID checks, writes CSV reports
+  prof_map.py             # DX-PROF descriptors -> SHACL shape paths (used by validate_instances)
+  validate_instances.py   # SHACL + schema validation of all instance files (PROF-driven, CI)
+  schemas/                # vendored NCP 2.5-dev export schema (triplets format; SOURCE.json = provenance)
 
 tests/
   test_validation.py   # pytest suite: dangling refs, duplicate IDs, UUID format
@@ -125,7 +128,32 @@ regenerates the manifests of the model folders that PR touched and opens its own
 so approve it yourself or ask a maintainer. Manual full regeneration is still available via
 the workflow's `Run workflow` button, which opens `auto/manifests-manual-<run-id>`.
 
-### Running Validation (full report)
+### Running Validation
+
+SHACL + schema conformance of every instance file (what CI runs, see
+`.github/workflows/shacl_validation.yml`; needs one application-profiles-library
+checkout of `main`, which carries CGMES 3.0 and NCP 2.5):
+
+```bash
+git clone --depth 1 https://github.com/entsoe/application-profiles-library .apl-main
+uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.5=.apl-main
+# SARIF + sh:ValidationReports + summary.md written to reports/
+```
+
+Policies encoded in `validate_instances.py` (each documented at its constant):
+- Boundary datasets declare no application profile → validated as CGMES
+  `CoreEquipment-EU/3.0` (`BOUNDARY_PROFILE_FIX`, hardcoded until the headers declare it).
+- `Instance/Jotunheim/GridSituation/cimxml/` duplicates `Instance/Jotunheim/NetworkCode/`
+  (same dataset UUIDs) and is skipped; `Dataset_version_dependency/` files are validated
+  alone, never in a union frame.
+- NC shape sets come from the PROF `role/validation` aggregates (`owl:imports` resolved in
+  the checkout; APL `sh:deactivated` honoured by dropping those shapes' findings — triplets
+  0.2.0 does not do it at compile). The closure-scoped comparison run (`closure-ncp-2.5.sarif`,
+  summary diff) is informational until adopted; `--no-closure` skips it.
+- The NCP 2.5-dev export schema is vendored in `buildScripts/schemas/` until a triplets
+  release ships it; regenerate from the APL `NCP/RDFS` with triplets' `cim_rdfs_to_json.py`.
+
+Dangling-reference / duplicate-ID / UUID checks (separate, tabular):
 
 ```bash
 python buildScripts/validate_relicap.py
