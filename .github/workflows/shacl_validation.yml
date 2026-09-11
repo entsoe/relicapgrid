@@ -1,0 +1,81 @@
+name: SHACL validation (PROF-driven)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - Instance/**
+      - buildScripts/validate_instances.py
+      - buildScripts/prof_map.py
+      - .github/workflows/shacl_validation.yml
+      - pyproject.toml
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  shacl-validation:
+    name: Validate all instances via PROF-mapped SHACL
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Checkout application profiles library (CGMES 3.0, main)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/application-profiles-library
+          ref: main
+          path: .apl-main
+
+      - name: Checkout application profiles library (NCP 2.4)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/application-profiles-library
+          ref: ncp-v2-4-2
+          path: .apl-ncp24
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Validate instances, export SARIF + SHACL reports
+        run: uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.4=.apl-ncp24
+
+      # one upload per SARIF run — code scanning does not combine
+      # multiple runs uploaded under the same category
+      - name: Upload CGMES 3.0 SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/shacl-cgmes-3.0.sarif
+          category: shacl-cgmes-3.0
+
+      - name: Upload NCP 2.4 SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/shacl-ncp-2.4.sarif
+          category: shacl-ncp-2.4
+
+      - name: Upload CGMES 3.0 schema-conformance SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/schema-cgmes-3.0.sarif
+          category: schema-cgmes-3.0
+
+      - name: Upload NCP 2.4 schema-conformance SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/schema-ncp-2.4.sarif
+          category: schema-ncp-2.4
+
+      - name: Upload SARIF + full SHACL reports as run artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shacl-reports
+          path: |
+            reports/shacl-*.sarif
+            reports/schema-*.sarif
+            reports/*-shacl-report.*
+            reports/summary.md
+
+      - name: Run summary with link to code scanning results
+        run: cat reports/summary.md >> "$GITHUB_STEP_SUMMARY"

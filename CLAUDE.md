@@ -30,8 +30,10 @@ Instance/
   referenceData/
 
 buildScripts/
-  create_cgm_zip.py    # Assembles CGM import zip packages
-  validate_relicap.py  # Runs dangling-reference validation, writes CSV reports
+  create_cgm_zip.py       # Assembles CGM import zip packages
+  validate_relicap.py     # Dangling-reference / duplicate-ID / UUID checks, writes CSV reports
+  prof_map.py             # DX-PROF descriptors -> SHACL shape paths (used by validate_instances)
+  validate_instances.py   # SHACL + schema validation of all instance files (PROF-driven, CI)
 
 tests/
   test_validation.py   # pytest suite: dangling refs, duplicate IDs, UUID format
@@ -125,7 +127,18 @@ regenerates the manifests of the model folders that PR touched and opens its own
 so approve it yourself or ask a maintainer. Manual full regeneration is still available via
 the workflow's `Run workflow` button, which opens `auto/manifests-manual-<run-id>`.
 
-### Running Validation (full report)
+### Running Validation
+
+SHACL + schema conformance of every instance file (what CI runs, see
+`.github/workflows/shacl_validation.yml`; needs two application-profiles-library
+checkouts):
+
+```bash
+uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.4=.apl-ncp24
+# SARIF + sh:ValidationReports + summary.md written to reports/
+```
+
+Dangling-reference / duplicate-ID / UUID checks (separate, tabular):
 
 ```bash
 python buildScripts/validate_relicap.py
