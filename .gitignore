@@ -11,3 +11,12 @@ validation_report/
 
 __pycache__/
 *.pyc
+
+# APL checkout + caches for SHACL validation #
+############
+.apl-main/
+.shacl_cache/
+
+# generated validation reports (CI run artifacts) #
+############
+reports/

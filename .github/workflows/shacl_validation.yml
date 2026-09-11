@@ -1,0 +1,76 @@
+name: SHACL validation (PROF-driven)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - Instance/**
+      - buildScripts/validate_instances.py
+      - buildScripts/prof_map.py
+      - .github/workflows/shacl_validation.yml
+      - pyproject.toml
+
+permissions:
+  contents: read
+  security-events: write
+
+jobs:
+  shacl-validation:
+    name: Validate all instances via PROF-mapped SHACL
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      # main carries both CGMES 3.0 and NCP 2.5 (PROF + SHACL)
+      - name: Checkout application profiles library (main)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/application-profiles-library
+          ref: main
+          path: .apl-main
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v6
+
+      - name: Validate instances, export SARIF + SHACL reports
+        run: uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.5=.apl-main
+
+      # one upload per SARIF run — code scanning does not combine
+      # multiple runs uploaded under the same category
+      - name: Upload CGMES 3.0 SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/shacl-cgmes-3.0.sarif
+          category: shacl-cgmes-3.0
+
+      - name: Upload NCP 2.5 SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/shacl-ncp-2.5.sarif
+          category: shacl-ncp-2.5
+
+      - name: Upload CGMES 3.0 schema-conformance SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/schema-cgmes-3.0.sarif
+          category: schema-cgmes-3.0
+
+      - name: Upload NCP 2.5 schema-conformance SARIF to code scanning
+        uses: github/codeql-action/upload-sarif@v4
+        with:
+          sarif_file: reports/schema-ncp-2.5.sarif
+          category: schema-ncp-2.5
+
+      - name: Upload SARIF + full SHACL reports as run artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shacl-reports
+          path: |
+            reports/shacl-*.sarif
+            reports/schema-*.sarif
+            reports/closure-*.sarif
+            reports/*-shacl-report.*
+            reports/summary.md
+
+      - name: Run summary with link to code scanning results
+        run: cat reports/summary.md >> "$GITHUB_STEP_SUMMARY"
