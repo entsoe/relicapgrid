@@ -131,12 +131,14 @@ the workflow's `Run workflow` button, which opens `auto/manifests-manual-<run-id
 ### Running Validation
 
 SHACL + schema conformance of every instance file (what CI runs, see
-`.github/workflows/shacl_validation.yml`; needs one application-profiles-library
-checkout of `main`, which carries CGMES 3.0 and NCP 2.5):
+`.github/workflows/shacl_validation.yml`; needs checkouts of `entsoe/CGMES-AP` for CGMES 3.0
+and `entsoe/NC-AP` for NCP 2.5 — the application-profiles-library only links them as
+submodules, with an extra folder level, so it cannot be used directly):
 
 ```bash
-git clone --depth 1 https://github.com/entsoe/application-profiles-library .apl-main
-uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.5=.apl-main
+git clone --depth 1 https://github.com/entsoe/CGMES-AP .apl-cgmes
+git clone --depth 1 https://github.com/entsoe/NC-AP .apl-ncp
+uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
 # SARIF + sh:ValidationReports + summary.md written to reports/
 ```
 

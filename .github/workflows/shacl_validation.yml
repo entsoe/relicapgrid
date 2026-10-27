@@ -21,19 +21,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # main carries both CGMES 3.0 and NCP 2.5 (PROF + SHACL)
-      - name: Checkout application profiles library (main)
+      # application-profiles-library only links CGMES/ and NCP/ as submodules
+      # since 2026-10-15; check out the two AP repos (PROF + SHACL) directly
+      - name: Checkout CGMES application profiles (CGMES 3.0)
         uses: actions/checkout@v4
         with:
-          repository: entsoe/application-profiles-library
-          ref: main
-          path: .apl-main
+          repository: entsoe/CGMES-AP
+          path: .apl-cgmes
+
+      - name: Checkout NC application profiles (NCP 2.5)
+        uses: actions/checkout@v4
+        with:
+          repository: entsoe/NC-AP
+          path: .apl-ncp
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6
 
       - name: Validate instances, export SARIF + SHACL reports
-        run: uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.5=.apl-main
+        run: uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
 
       # one upload per SARIF run — code scanning does not combine
       # multiple runs uploaded under the same category
