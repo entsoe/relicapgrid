@@ -101,7 +101,7 @@ jobs:
       - name: Generate manifest for ${{ matrix.model_dir }}
         run: |
           mkdir -p "staging/$(dirname "${{ matrix.manifest_path }}")"
-          java -jar tools/CimPal-CLI.jar --dir "${{ matrix.model_dir }}" --output "staging/${{ matrix.manifest_path }}"
+          java -jar tools/CimPal-CLI.jar manifest --dir "${{ matrix.model_dir }}" --output "staging/${{ matrix.manifest_path }}"
 
       - name: Upload manifest
         uses: actions/upload-artifact@v4
