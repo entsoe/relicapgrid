@@ -8,14 +8,14 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:ea5f181b-960c-4c81-940a-b2da2147f7e3>
+<urn:uuid:c7ddd578-96e1-482e-8ceb-d54352984280>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
-        dcterms:description    "The steady-state hypothesis dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/DC-Nordheim-Galia/Grid/cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_SSH_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:05861a09-75d6-487d-bad3-9a94f312b9a5>;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
+        dcterms:description    "The topology dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_TP_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:1ab737dc-05d1-4a7f-a5a9-51552cef33ba>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:generatedAtTime   "2025-02-08T12:21:20Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <urn:uuid:2462bab2-542f-4197-ac3b-ac92063a8cf4>
@@ -23,7 +23,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
         dcterms:description   "The state variables dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcterms:identifier    "bab2-542f-4197-ac3b-ac92063a8cf4";
+        dcterms:identifier    "2462bab2-542f-4197-ac3b-ac92063a8cf4";
         dcterms:issued        "2025-02-08T12:21:20Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
@@ -33,7 +33,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_HVDC-Nordheim-Galia_SV_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:96fb1549-67bf-44c1-a4ca-af4816cd2bc1>;
+        dcat:distribution     <urn:uuid:a0eab5c5-2fcb-49ed-a940-ac03ec8ceb21>;
         dcat:keyword          "SV";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
@@ -43,7 +43,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
         dcterms:description   "The steady-state hypothesis dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcterms:identifier    "a09-75d6-487d-bad3-9a94f312b9a5";
+        dcterms:identifier    "05861a09-75d6-487d-bad3-9a94f312b9a5";
         dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
@@ -53,37 +53,54 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_HVDC-Nordheim-Galia_SSH_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:ea5f181b-960c-4c81-940a-b2da2147f7e3>;
+        dcat:distribution     <urn:uuid:d3885825-2a69-484f-a131-1415c68088be>;
         dcat:keyword          "SSH";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:e4b545da-2bd9-4d9e-8208-25d2aea9668a>
+<urn:uuid:d3885825-2a69-484f-a131-1415c68088be>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
-        dcterms:description    "The topology dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/DC-Nordheim-Galia/Grid/cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_TP_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:1ab737dc-05d1-4a7f-a5a9-51552cef33ba>;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:description    "The steady-state hypothesis dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_SSH_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:05861a09-75d6-487d-bad3-9a94f312b9a5>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:a0eab5c5-2fcb-49ed-a940-ac03ec8ceb21>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
+        dcterms:description    "The state variables dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_SV_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:2462bab2-542f-4197-ac3b-ac92063a8cf4>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
         prov:generatedAtTime   "2025-02-08T12:21:20Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
-<urn:uuid:ae1da8da-1fd2-49b5-b5dd-487afbc20f26>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description    "The equipment dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/DC-Nordheim-Galia/Grid/cimxml/20220615T2230Z__HVDC-Nordheim-Galia_EQ_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+<urn:uuid:8380e1d4-c801-418b-bf90-992c1a949d2b>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "8380e1d4-c801-418b-bf90-992c1a949d2b";
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime , "2025-02-08T12:21:20Z"^^xsd:dateTime;
+        dcterms:license       <http://example.org/license>;
+        dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:05861a09-75d6-487d-bad3-9a94f312b9a5> , <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a> , <urn:uuid:1ab737dc-05d1-4a7f-a5a9-51552cef33ba> , <urn:uuid:2462bab2-542f-4197-ac3b-ac92063a8cf4>;
+        dcat:version          "1" .
 
 <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
         dcterms:description   "The equipment dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcterms:identifier    "d819-3f09-4062-aa13-82d4be4e2f4a";
+        dcterms:identifier    "9212d819-3f09-4062-aa13-82d4be4e2f4a";
         dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
@@ -93,36 +110,19 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z__HVDC-Nordheim-Galia_EQ_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:ae1da8da-1fd2-49b5-b5dd-487afbc20f26>;
+        dcat:distribution     <urn:uuid:07c056b6-8389-4dc2-ac67-6dc4acde4231>;
         dcat:keyword          "EQ";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:f1009069-c91e-4063-a9c6-4ac13da0e50c>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0> , <http://iec.ch/TC57/ns/CIM/SteadyStateHypothesis-EU/3.0> , <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0> , <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "f1009069-c91e-4063-a9c6-4ac13da0e50c";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime , "2025-02-08T12:21:20Z"^^xsd:dateTime;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:2462bab2-542f-4197-ac3b-ac92063a8cf4> , <urn:uuid:1ab737dc-05d1-4a7f-a5a9-51552cef33ba> , <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a> , <urn:uuid:05861a09-75d6-487d-bad3-9a94f312b9a5>;
-        dcat:version          "1" .
-
-<urn:uuid:96fb1549-67bf-44c1-a4ca-af4816cd2bc1>
+<urn:uuid:07c056b6-8389-4dc2-ac67-6dc4acde4231>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/StateVariables-EU/3.0>;
-        dcterms:description    "The state variables dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcat:accessURL         <file:Instance/DC-Nordheim-Galia/Grid/cimxml/20220615T2230Z_2D_HVDC-Nordheim-Galia_SV_1.xml>;
-        dcat:isDistributionOf  <urn:uuid:2462bab2-542f-4197-ac3b-ac92063a8cf4>;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description    "The equipment dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
+        dcat:accessURL         <file:cimxml/20220615T2230Z__HVDC-Nordheim-Galia_EQ_1.xml>;
+        dcat:isDistributionOf  <urn:uuid:9212d819-3f09-4062-aa13-82d4be4e2f4a>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-08T12:21:20Z"^^xsd:dateTimeStamp;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <urn:uuid:1ab737dc-05d1-4a7f-a5a9-51552cef33ba>
@@ -130,7 +130,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/Topology-EU/3.0>;
         dcterms:description   "The topology dataset for Nordheim-Galia, which is part of the ReliCapGrid.";
-        dcterms:identifier    "ab737dc-05d1-4a7f-a5a9-51552cef33ba";
+        dcterms:identifier    "1ab737dc-05d1-4a7f-a5a9-51552cef33ba";
         dcterms:issued        "2025-02-08T12:21:20Z"^^xsd:dateTime;
         dcterms:license       <http://example.org/license>;
         dcterms:publisher     <http://nordheim-galia.ng/CGMES>;
@@ -140,7 +140,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "20220615T2230Z_2D_HVDC-Nordheim-Galia_TP_1";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:e4b545da-2bd9-4d9e-8208-25d2aea9668a>;
+        dcat:distribution     <urn:uuid:c7ddd578-96e1-482e-8ceb-d54352984280>;
         dcat:keyword          "TP";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .

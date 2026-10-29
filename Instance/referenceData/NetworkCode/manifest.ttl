@@ -8,200 +8,230 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:5a9ba108-1e5d-40ec-9855-2fde293f9441>
+<urn:uuid:47a8e8f2-f158-47b9-afa2-361fd4b392dd>
         rdf:type               dcat:Distribution;
-        dcterms:description    "Reference dataset containing recognized activity identities for use in provenance references."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/ActivityScheme-NCP_RD.xml>;
-        dcat:isDistributionOf  <https://energy.referencedata.eu/ActivityScheme/NCP/1.0>;
+        dcterms:description    "Reference dataset containing recognized frame identities for use area of responsebility."@en;
+        dcat:accessURL         <file:cimxml/Test-Frame-Collection-ReliCapGrid_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/Frame-Collection-ReliCapGrid/NCP/1.0>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:generatedAtTime   "2026-08-08T00:00:00Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
-<urn:uuid:ad964184-be3e-4d18-a9a5-3da3edef913f>
-        rdf:type               dcat:Distribution;
-        dcterms:description    "Provenance (PV) included in CGM Activity."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/Activity_CGM-PV.xml>;
-        dcat:isDistributionOf  <urn:uuid:91180da8-5f53-46fe-8f81-681707451b38>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-05-20T09:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-PV> .
-
-<https://energy.referencedata.eu/ActivityScheme/NCP/1.0>
+<https://energy.referencedata.eu/Frame-Collection-ReliCapGrid/NCP/1.0>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:description   "Reference dataset containing recognized activity identities for use in provenance references."@en;
-        dcterms:identifier    "afab3d78-d706-466e-931a-db0bf847b904";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
+        dcterms:description   "Reference dataset containing recognized frame identities for use area of responsebility."@en;
+        dcterms:identifier    "50cc303c-df37-4b86-80a6-f6d312268661";
+        dcterms:issued        "2026-08-08T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "ActivityScheme-NCP-1.0";
+        dcterms:title         "Test-Frame-Collection-ReliCapGrid_RD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:5a9ba108-1e5d-40ec-9855-2fde293f9441>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/ActivityScheme>;
+        dcat:distribution     <urn:uuid:47a8e8f2-f158-47b9-afa2-361fd4b392dd>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/Frame-Collection-ReliCapGrid>;
         dcat:version          "1.0.0" .
 
-<urn:uuid:3ec7567a-f2ff-4cd8-8fd1-1fb4e98d0330>
+<urn:uuid:57c4f7f6-0210-4702-af99-a4728b4dfc4a>
         rdf:type               dcat:Distribution;
-        dcterms:description    "All model that is defined in the ReliCapGrid test cases."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/Model_CGM-MO.xml>;
-        dcat:isDistributionOf  <urn:uuid:e0c4eb98-fac8-4c16-8c66-67b15653ba09>;
+        dcterms:conformsTo     <https://cim.ucaiug.io/ns/17.2> , <http://iec.ch/TC57/CIM100> , <https://cim4.eu/ns/nc/2.4>;
+        dcterms:description    "Reference data for the property reference."@en;
+        dcat:accessURL         <file:cimxml/PropertyReference-ReferenceData.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/PropertyReference/NCP/5.1.0>;
         dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-05-20T09:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-MO> .
+        prov:generatedAtTime   "2026-08-09T10:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
-<https://energy.referencedata.eu/test/ModelScheme/NCP/1.0>
+<urn:uuid:3908c57b-119f-4838-a359-3a03d0a323ff>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en;
+        dcat:accessURL         <file:cimxml/Test-Party-Collection-ReliCapGrid_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid/NCP/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-08-08T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<https://energy.referencedata.eu/ConformTo-Collection/NCP/2.5>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:description   "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en;
-        dcterms:identifier    "f4f9cafc-d146-4275-92b5-6d04f9b26b56";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
+        dcterms:description   "\"ConformTo Collection that identifies the vocabulary version and profiles that are part of the release, in addition to identifying profile conformance to a previous vocabulary version.\"@en";
+        dcterms:identifier    "5e1aee78-7829-4252-a58e-3c095a330261";
+        dcterms:issued        "2026-08-12T10:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Test-ModelScheme-NCP-1.0";
+        dcterms:title         "ConformTo-Collection-NCP-2-5_RD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:c937ef16-d252-479e-8c69-6eaf7579290b>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/test/ModelScheme>;
+        dcat:distribution     <urn:uuid:e4781eda-f689-4284-9fd4-ac491c42b8b7>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/ConformTo-Collection/NCP>;
         dcat:version          "1.0.0" .
 
-<urn:uuid:91180da8-5f53-46fe-8f81-681707451b38>
-        rdf:type              dcat:Dataset;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:description   "Provenance (PV) included in CGM Activity."@en;
-        dcterms:identifier    "91180da8-5f53-46fe-8f81-681707451b38";
-        dcterms:issued        "2025-02-14T12:00:00Z"^^xsd:dateTime;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <https://energy.referencedata.eu/test/party/NineRealms>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "ENTSO-E";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "20250214_Provenance_Activity_CGM-PV_v1-0-0-alpha-1";
-        dcterms:type          <https://energy.referencedata.eu/type/ReferenceData>;
-        dcat:distribution     <urn:uuid:ad964184-be3e-4d18-a9a5-3da3edef913f>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/Activity/CGM-PV>;
-        dcat:keyword          "PV" , "Provenance";
-        dcat:startDate        "2025-05-14T23:00:00Z"^^xsd:dateTime;
-        dcat:version          "1.0.0-alpha-1" .
-
-<urn:uuid:a2067833-61da-44b0-b979-ac8863a91a96>
+<urn:uuid:a1f058b2-1d71-477d-a26a-fe499495ec04>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <urn:placeholder:conformsTo>;
+        dcterms:conformsTo    <https://cim.ucaiug.io/ns/17.2> , <https://cim4.eu/ns/nc/2.4> , <http://iec.ch/TC57/CIM100>;
         dcterms:description   ""@en;
-        dcterms:identifier    "a2067833-61da-44b0-b979-ac8863a91a96";
-        dcterms:issued        "2025-02-14T12:00:00Z"^^xsd:dateTime , "2026-03-22T00:00:00Z"^^xsd:dateTime;
-        dcterms:license       <https://creativecommons.org/licenses/by/4.0/> , <http://example.org/license>;
-        dcterms:publisher     <https://energy.referencedata.eu/test/party/NineRealms> , <http://example.org/publisher> , <https://www.entsoe.eu/>;
+        dcterms:identifier    "a1f058b2-1d71-477d-a26a-fe499495ec04";
+        dcterms:issued        "2026-08-08T00:00:00Z"^^xsd:dateTime , "2026-03-22T00:00:00Z"^^xsd:dateTime , "2026-08-09T10:00:00Z"^^xsd:dateTime , "2026-08-12T10:00:00Z"^^xsd:dateTime , "2026-08-12T00:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/ENTSO-E> , <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Manifest";
         adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:91180da8-5f53-46fe-8f81-681707451b38> , <urn:uuid:e0c4eb98-fac8-4c16-8c66-67b15653ba09> , <https://energy.referencedata.eu/FrameScheme/NCP/1.0> , <https://energy.referencedata.eu/test/PartyScheme/NCP/1.0> , <https://energy.referencedata.eu/test/ModelScheme/NCP/1.0> , <urn:uuid:ee21f782-89bb-4ea8-ad41-f27db71e1320> , <https://energy.referencedata.eu/ActivityScheme/NCP/1.0>;
-        dcat:version          "1.0.0-alpha-1" , "1.0.0" .
+        dcat:dataset          <https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0> , <https://energy.referencedata.eu/PropertyReference/NCP/5.1.0> , <https://energy.referencedata.eu/LicenseScheme/NCP/1.0> , <https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid/NCP/1.0> , <https://energy.referencedata.eu/Frame-Collection-ReliCapGrid/NCP/1.0> , <https://energy.referencedata.eu/Activity-Collection/1.0> , <https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid/NCP/1.0> , <https://energy.referencedata.eu/ConformTo-Collection/NCP/2.5>;
+        dcat:version          "1.0.0" , "5.1.0" .
 
-<https://energy.referencedata.eu/FrameScheme/NCP/1.0>
+<https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid/NCP/1.0>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:description   "Reference dataset containing recognized frame identities for use area of responsebility."@en;
-        dcterms:identifier    "50cc303c-df37-4b86-80a6-f6d312268661";
+        dcterms:description   "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en;
+        dcterms:identifier    "f4f9cafc-d146-4275-92b5-6d04f9b26b56";
+        dcterms:issued        "2026-08-08T00:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.entsoe.eu/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "Test-Model-Collection-ReliCapGrid_RD";
+        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+        dcat:distribution     <urn:uuid:e1d8147d-ed6c-4f42-a46f-e80096ae820c>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid>;
+        dcat:version          "1.0.0" .
+
+<urn:uuid:9725368c-1978-4bb7-9270-3143b332f178>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en;
+        dcat:accessURL         <file:cimxml/ConfidentialityScheme_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:e1d8147d-ed6c-4f42-a46f-e80096ae820c>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en;
+        dcat:accessURL         <file:cimxml/Test-Model-Collection-ReliCapGrid_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/test/Model-Collection-ReliCapGrid/NCP/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-08-08T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:e4781eda-f689-4284-9fd4-ac491c42b8b7>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "\"ConformTo Collection that identifies the vocabulary version and profiles that are part of the release, in addition to identifying profile conformance to a previous vocabulary version.\"@en";
+        dcat:accessURL         <file:cimxml/ConformTo-Collection-NCP-2-5_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/ConformTo-Collection/NCP/2.5>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-08-12T10:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<urn:uuid:c467a411-01c3-4f71-bcd6-85c5bad58c59>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "\"Reference dataset containing recognized activity identities for use in provenance references.\"@en";
+        dcat:accessURL         <file:cimxml/Activity-Collection_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/Activity-Collection/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-08-12T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<https://energy.referencedata.eu/ConfidentialityScheme/NCP/1.0>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:description   "Reference dataset containing confidentiality and access-right statements for energy and power system datasets. The dataset is intended for use with dcterms:accessRights and aligns where possible with the Publications Office of the European Union access-right authority table."@en;
+        dcterms:identifier    "b2348853-06c1-401e-b845-193ffa948919";
         dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Test-FrameScheme-NCP_RD_v1.0";
+        dcterms:title         "ConfidentialityScheme_NCP_v1.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:9c8b1065-53b0-44ec-8afd-30859f1acc5b>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/FrameScheme>;
+        dcat:distribution     <urn:uuid:9725368c-1978-4bb7-9270-3143b332f178>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/Confidentiality/>;
         dcat:version          "1.0.0" .
 
-<https://energy.referencedata.eu/test/PartyScheme/NCP/1.0>
+<https://energy.referencedata.eu/LicenseScheme/NCP/1.0>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:description   "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
+        dcterms:identifier    "e64345cc-016b-4cc2-a5d1-8beabf97beab";
+        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.entsoe.eu/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "LicenseScheme-NCP-1.0";
+        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+        dcat:distribution     <urn:uuid:87a4feb3-1be2-4ad2-9f08-9b35f0b32f69>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/LicenseScheme>;
+        dcat:version          "1.0.0" .
+
+<https://energy.referencedata.eu/Activity-Collection/1.0>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:description   "\"Reference dataset containing recognized activity identities for use in provenance references.\"@en";
+        dcterms:identifier    "afab3d78-d706-466e-931a-db0bf847b904";
+        dcterms:issued        "2026-08-12T00:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://www.entsoe.eu/>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "Activity-Collection_RD";
+        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+        dcat:distribution     <urn:uuid:c467a411-01c3-4f71-bcd6-85c5bad58c59>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/Activity-Collection>;
+        dcat:version          "1.0.0" .
+
+<https://energy.referencedata.eu/PropertyReference/NCP/5.1.0>
+        rdf:type              dcat:Dataset;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/CIM100> , <https://cim.ucaiug.io/ns/17.2> , <https://cim4.eu/ns/nc/2.4>;
+        dcterms:description   "Reference data for the property reference."@en;
+        dcterms:identifier    "7b14312c-e3cb-482d-81c8-3da0c5ee965c";
+        dcterms:issued        "2026-08-09T10:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/ENTSO-E>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "PropertyReference-NCP-5-1-0_RD";
+        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
+        dcat:distribution     <urn:uuid:57c4f7f6-0210-4702-af99-a4728b4dfc4a>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/PropertyReference/NCP>;
+        dcat:startDate        "2026-08-09T10:00:00Z"^^xsd:dateTime;
+        dcat:version          "5.1.0" .
+
+<urn:uuid:87a4feb3-1be2-4ad2-9f08-9b35f0b32f69>
+        rdf:type               dcat:Distribution;
+        dcterms:description    "Reference dataset containing license concepts for use with dcterms:license on datasets and distributions. The scheme distinguishes between fully open, non-commercial, restricted derivation, restricted share-alike derivation, and informational-use-only license patterns."@en;
+        dcat:accessURL         <file:cimxml/LicenseScheme_RD.xml>;
+        dcat:isDistributionOf  <https://energy.referencedata.eu/LicenseScheme/NCP/1.0>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+
+<https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid/NCP/1.0>
         rdf:type              dcat:Dataset;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
         dcterms:description   "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en;
         dcterms:identifier    "b77fe0ff-9907-4943-90a7-6e35a178a8ab";
-        dcterms:issued        "2026-03-22T00:00:00Z"^^xsd:dateTime;
+        dcterms:issued        "2026-08-08T00:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://www.entsoe.eu/>;
         dcterms:rights        "Copyright";
         dcterms:rightsHolder  "ENTSO-E";
         dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Test-PartyScheme-NCP-1.0";
+        dcterms:title         "Test-Party-Collection-ReliCapGrid_RD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:dc0bc01f-d354-4287-ad29-19101b05a724>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/test/PartyScheme>;
+        dcat:distribution     <urn:uuid:3908c57b-119f-4838-a359-3a03d0a323ff>;
+        dcat:isVersionOf      <https://energy.referencedata.eu/test/Party-Collection-ReliCapGrid>;
         dcat:version          "1.0.0" .
-
-<urn:uuid:dc0bc01f-d354-4287-ad29-19101b05a724>
-        rdf:type               dcat:Distribution;
-        dcterms:description    "Reference dataset containing recognized party identities for use in publisher, authority, and provenance references."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/Test-PartyScheme-NCP_RD.xml>;
-        dcat:isDistributionOf  <https://energy.referencedata.eu/test/PartyScheme/NCP/1.0>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:c937ef16-d252-479e-8c69-6eaf7579290b>
-        rdf:type               dcat:Distribution;
-        dcterms:description    "Reference dataset containing recognized abstract CIM model identities for use in dataset versioning, provenance, and cataloguing."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/Test-ModelScheme-NCP_RD.xml>;
-        dcat:isDistributionOf  <https://energy.referencedata.eu/test/ModelScheme/NCP/1.0>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:e0c4eb98-fac8-4c16-8c66-67b15653ba09>
-        rdf:type              dcat:Dataset;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:description   "All model that is defined in the ReliCapGrid test cases."@en;
-        dcterms:identifier    "e0c4eb98-fac8-4c16-8c66-67b15653ba09";
-        dcterms:issued        "2025-02-14T12:00:00Z"^^xsd:dateTime;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <https://energy.referencedata.eu/test/party/NineRealms>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "ENTSO-E";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "20250214_Model_CGM-MO_v1-0-0-alpha-1";
-        dcterms:type          <https://energy.referencedata.eu/type/ReferenceData>;
-        dcat:distribution     <urn:uuid:3ec7567a-f2ff-4cd8-8fd1-1fb4e98d0330>;
-        dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model>;
-        dcat:keyword          "MO" , "Model";
-        dcat:startDate        "2025-05-14T23:00:00Z"^^xsd:dateTime;
-        dcat:version          "1.0.0-alpha-1" .
-
-<urn:uuid:ee21f782-89bb-4ea8-ad41-f27db71e1320>
-        rdf:type              dcat:Dataset;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:identifier    "ee21f782-89bb-4ea8-ad41-f27db71e1320";
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://example.org/publisher>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "ConformanceReleaseScheme-NCP-2-4-1_RD";
-        dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:66540a7a-1aad-432a-b28d-57f28e2df7d9> .
-
-<urn:uuid:9c8b1065-53b0-44ec-8afd-30859f1acc5b>
-        rdf:type               dcat:Distribution;
-        dcterms:description    "Reference dataset containing recognized frame identities for use area of responsebility."@en;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/Test-FrameScheme-NCP_RD.xml>;
-        dcat:isDistributionOf  <https://energy.referencedata.eu/FrameScheme/NCP/1.0>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-03-22T00:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
-
-<urn:uuid:66540a7a-1aad-432a-b28d-57f28e2df7d9>
-        rdf:type               dcat:Distribution;
-        dcat:accessURL         <file:Instance/referenceData/NetworkCode/cimxml/ConformanceReleaseScheme-NCP-2-4-1_RD.xml>;
-        dcat:isDistributionOf  <urn:uuid:ee21f782-89bb-4ea8-ad41-f27db71e1320>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-07-16T08:21:22.904259135Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
