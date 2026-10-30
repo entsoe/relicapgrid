@@ -8,22 +8,15 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:e217eab3-6391-4c42-aed4-d58f91bc30fc>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "e217eab3-6391-4c42-aed4-d58f91bc30fc";
-        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
-        dcterms:license       <http://example.org/license>;
-        dcterms:publisher     <http://ninerealms.nr/CommonData>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
-        dcterms:spatial       <urn:placeholder:spatial>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
-        dcat:version          "1" .
+<urn:uuid:839b6877-3e71-4e6f-bf6c-6240993a942e>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description    "BD test data.";
+        dcat:accessURL         <file:cimxml/Grid_CommonData_CGM-CD.xml>;
+        dcat:isDistributionOf  <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
 
 <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>
         rdf:type              dcat:Dataset;
@@ -39,17 +32,24 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <urn:placeholder:spatial>;
         dcterms:title         "Grid_CommonData_CGM-CD";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:1e180f62-787c-43cf-8112-2e1f9f53199b>;
+        dcat:distribution     <urn:uuid:839b6877-3e71-4e6f-bf6c-6240993a942e>;
         dcat:keyword          "EQ";
         dcat:startDate        "2022-06-16T23:30:00Z"^^xsd:dateTime;
         dcat:version          "1" .
 
-<urn:uuid:1e180f62-787c-43cf-8112-2e1f9f53199b>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
-        dcterms:description    "BD test data.";
-        dcat:accessURL         <file:cimxml/Grid_CommonData_CGM-CD.xml>;
-        dcat:isDistributionOf  <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-02-06T14:18:22Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Test/Action/PlaceholderGeneration> .
+<urn:uuid:858c0d75-571a-4b71-9ce1-8b5198ecb049>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <http://iec.ch/TC57/ns/CIM/CoreEquipment-EU/3.0>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "858c0d75-571a-4b71-9ce1-8b5198ecb049";
+        dcterms:issued        "2025-02-06T14:18:22Z"^^xsd:dateTime;
+        dcterms:license       <http://example.org/license>;
+        dcterms:publisher     <http://ninerealms.nr/CommonData>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "PLACEHOLDER_RIGHTS_HOLDER";
+        dcterms:spatial       <urn:placeholder:spatial>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:1b65ada7-39ca-42b8-a278-39c457ed82c3>;
+        dcat:version          "1" .
