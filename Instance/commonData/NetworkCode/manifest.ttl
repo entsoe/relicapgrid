@@ -22,7 +22,7 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/NineRealms-Transmission>;
         dcterms:title         "20260331_Org-NineRealms_CD_v2-1-0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:209eb3a7-6dfd-48e9-86d4-52eb2cbc5bff>;
+        dcat:distribution     <urn:uuid:0544a156-62cc-4e3c-aed1-7752a4d3071b>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/Org-NineRealms_CD>;
         dcat:keyword          "CommonData" , "CD";
         dcat:startDate        "2026-03-31T10:00:00Z"^^xsd:dateTime;
@@ -42,14 +42,14 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/test/frame/NineRealms-Transmission>;
         dcterms:title         "20260505_Org-NineRealms_CD_OR_v1-0-0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:02fd809f-4d90-42e7-b02a-384ac444b067>;
+        dcat:distribution     <urn:uuid:ff236a81-1caf-4ef5-a25d-ff2d87cc8947>;
         dcat:isVersionOf      <https://energy.referencedata.eu/test/model/Org-NineRealms_CD>;
         dcat:keyword          "CommonData" , "CD" , "OR";
         dcat:version          "1.0.0" .
 
-<urn:uuid:209eb3a7-6dfd-48e9-86d4-52eb2cbc5bff>
+<urn:uuid:0544a156-62cc-4e3c-aed1-7752a4d3071b>
         rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/CIM100#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/EquipmentReliability/2.5> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/EquipmentReliability/2.5> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description    "Common data the NineRealms responsibility are as part of the ReliCapGrid ENTSO-E test model."@en;
         dcat:accessURL         <file:cimxml/Org-NineRealms_CD.xml>;
         dcat:isDistributionOf  <urn:uuid:2667b32c-d94c-4198-96a2-e9f288cc8e3d>;
@@ -57,13 +57,23 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         prov:generatedAtTime   "2026-03-31T10:00:00Z"^^xsd:dateTimeStamp;
         prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/CD> .
 
-<urn:uuid:9f9d3ae1-7c3a-4607-9ae7-8d99bc86dc76>
+<urn:uuid:ff236a81-1caf-4ef5-a25d-ff2d87cc8947>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/ObjectRegistry/3.0>;
+        dcterms:description    "Common data for OPC that includes DesignationType and DesignationAuthority."@en;
+        dcat:accessURL         <file:cimxml/Org-NineRealms_CD_OR.xml>;
+        dcat:isDistributionOf  <urn:uuid:7508c65c-0ffe-4036-8152-3dea83062287>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-05-05T10:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/CD> .
+
+<urn:uuid:e74b25d3-ce28-4647-9774-8dd42bf2711c>
         rdf:type              dcat:Catalog;
         dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/ObjectRegistry/3.0> , <https://ap.cim4.eu/EquipmentReliability/2.5> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:conformsTo    <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://cim4.eu/ns/nc/2.4#> , <https://ap.cim4.eu/EquipmentReliability/2.5> , <https://ap.cim4.eu/ObjectRegistry/3.0> , <http://iec.ch/TC57/CIM100#>;
         dcterms:description   ""@en;
-        dcterms:identifier    "9f9d3ae1-7c3a-4607-9ae7-8d99bc86dc76";
-        dcterms:issued        "2026-03-18T10:00:00Z"^^xsd:dateTime , "2026-05-05T10:00:00Z"^^xsd:dateTime;
+        dcterms:identifier    "e74b25d3-ce28-4647-9774-8dd42bf2711c";
+        dcterms:issued        "2026-05-05T10:00:00Z"^^xsd:dateTime , "2026-03-18T10:00:00Z"^^xsd:dateTime;
         dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
         dcterms:publisher     <https://energy.referencedata.eu/test/party/Org-NineRealms>;
         dcterms:rights        "Copyright";
@@ -73,13 +83,3 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         adms:versionNotes     "Placeholder version notes."@en;
         dcat:dataset          <urn:uuid:2667b32c-d94c-4198-96a2-e9f288cc8e3d> , <urn:uuid:7508c65c-0ffe-4036-8152-3dea83062287>;
         dcat:version          "1.0.0" , "2.1.0" .
-
-<urn:uuid:02fd809f-4d90-42e7-b02a-384ac444b067>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/ObjectRegistry/3.0> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
-        dcterms:description    "Common data for OPC that includes DesignationType and DesignationAuthority."@en;
-        dcat:accessURL         <file:cimxml/Org-NineRealms_CD_OR.xml>;
-        dcat:isDistributionOf  <urn:uuid:7508c65c-0ffe-4036-8152-3dea83062287>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-05-05T10:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/activity/CD> .
