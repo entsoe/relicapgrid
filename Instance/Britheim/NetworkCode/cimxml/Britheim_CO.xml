@@ -9,9 +9,6 @@
   <dcat:Dataset rdf:about="urn:uuid:7f3d50ef-9075-4143-b225-e57cd60df603">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
-    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
-    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
-    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">This is the contingency dataset for Britheim part of ReliCapGrid.</dcterms:description>
     <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
     <prov:generatedAtTime>2022-06-10T07:06:25Z</prov:generatedAtTime>

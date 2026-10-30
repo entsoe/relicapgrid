@@ -10,9 +10,6 @@
   <dcat:Dataset rdf:about="urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812">
     <dcterms:accessRights rdf:resource="https://energy.referencedata.eu/Confidentiality/Public"/>
     <dcterms:conformsTo rdf:resource="https://ap.cim4.eu/Contingency/2.3"/>
-    <dcterms:conformsTo rdf:resource="https://cim4.eu/ns/nc/2.4#"/>
-    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/CIM100#"/>
-    <dcterms:conformsTo rdf:resource="http://iec.ch/TC57/2013/CIM-schema-cim16#"/>
     <dcterms:description xml:lang="en">This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid.</dcterms:description>
     <dcat:endDate>2023-06-15T22:30:00Z</dcat:endDate>
     <prov:generatedAtTime>2026-05-25T00:00:00Z</prov:generatedAtTime>
