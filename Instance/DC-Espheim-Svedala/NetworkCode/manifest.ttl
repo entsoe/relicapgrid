@@ -8,25 +8,22 @@ PREFIX prov:    <http://www.w3.org/ns/prov#>
 PREFIX rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 
-<urn:uuid:d1b9228a-d651-4d2b-a3e7-393fec4842d6>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <https://ap.cim4.eu/Contingency/2.3> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#>;
-        dcterms:description    "This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid."@en;
-        dcat:accessURL         <file:cimxml/DC-Espheim-Svedala_CO.xml>;
-        dcat:isDistributionOf  <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2026-05-25T00:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-CO> .
-
-<urn:uuid:94f5a2ca-253f-4e00-bf8a-e14d04b95afa>
-        rdf:type               dcat:Distribution;
-        dcterms:conformsTo     <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.5>;
-        dcterms:description    "Svedala - HVDC - Espheim  - NC profile"@en;
-        dcat:accessURL         <file:cimxml/DC-Espheim-Svedala_RA.xml>;
-        dcat:isDistributionOf  <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
-        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
-        prov:generatedAtTime   "2025-06-19T14:00:00Z"^^xsd:dateTimeStamp;
-        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RA> .
+<urn:uuid:5c5c2ec0-804c-4a98-8ba1-0a63d42c2008>
+        rdf:type              dcat:Catalog;
+        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
+        dcterms:conformsTo    <https://ap.cim4.eu/Contingency/2.3> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/RemedialAction/2.5> , <http://iec.ch/TC57/CIM100#> , <https://cim4.eu/ns/nc/2.4#>;
+        dcterms:description   ""@en;
+        dcterms:identifier    "5c5c2ec0-804c-4a98-8ba1-0a63d42c2008";
+        dcterms:issued        "2022-06-15T22:30:00Z"^^xsd:dateTime , "2025-06-19T14:00:00Z"^^xsd:dateTime;
+        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
+        dcterms:publisher     <https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala>;
+        dcterms:rights        "Copyright";
+        dcterms:rightsHolder  "ENTSO-E";
+        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System> , <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
+        dcterms:title         "Manifest";
+        adms:versionNotes     "Placeholder version notes."@en;
+        dcat:dataset          <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812> , <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
+        dcat:version          "1.0.0" , "1" .
 
 <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>
         rdf:type              dcat:Dataset;
@@ -43,28 +40,11 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System>;
         dcterms:title         "Svedala-Espheim-RA";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:94f5a2ca-253f-4e00-bf8a-e14d04b95afa>;
+        dcat:distribution     <urn:uuid:aa99deb5-f10a-462a-9906-c7ab1cfc5bcd>;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/Svedala-Espheim-RA>;
         dcat:keyword          "RA";
         dcat:startDate        "2025-06-19T14:00:00Z"^^xsd:dateTime;
         dcat:version          "1" .
-
-<urn:uuid:a6f88fa7-b5a4-4209-915d-3c9eaffa43f1>
-        rdf:type              dcat:Catalog;
-        dcterms:accessRights  <https://energy.referencedata.eu/Confidentiality/Public>;
-        dcterms:conformsTo    <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/Contingency/2.3> , <https://ap.cim4.eu/RemedialAction/2.5>;
-        dcterms:description   ""@en;
-        dcterms:identifier    "a6f88fa7-b5a4-4209-915d-3c9eaffa43f1";
-        dcterms:issued        "2025-06-19T14:00:00Z"^^xsd:dateTime , "2022-06-15T22:30:00Z"^^xsd:dateTime;
-        dcterms:license       <https://creativecommons.org/licenses/by/4.0/>;
-        dcterms:publisher     <https://energy.referencedata.eu/test/party/DCSO-Espheim-Svedala>;
-        dcterms:rights        "Copyright";
-        dcterms:rightsHolder  "ENTSO-E";
-        dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/Svedala-Power-Transmission-System> , <https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System>;
-        dcterms:title         "Manifest";
-        adms:versionNotes     "Placeholder version notes."@en;
-        dcat:dataset          <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812> , <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
-        dcat:version          "1" , "1.0.0" .
 
 <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812>
         rdf:type              dcat:Dataset;
@@ -81,9 +61,29 @@ PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
         dcterms:spatial       <https://energy.referencedata.eu/Test/Frame/DC-Espheim-Svedala-Power-Transmission-System>;
         dcterms:title         "20220615_DC-Espheim-Svedala_CO_1.0.0";
         dcterms:type          <https://energy.referencedata.eu/type/CIM-PowerSystemModel>;
-        dcat:distribution     <urn:uuid:d1b9228a-d651-4d2b-a3e7-393fec4842d6>;
+        dcat:distribution     <urn:uuid:2a7c814c-96fe-4fd3-bea9-240f834492d5>;
         dcat:endDate          "2023-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:isVersionOf      <https://energy.referencedata.eu/Test/Model/DC-Espheim-Svedala-CO>;
         dcat:keyword          "CO";
         dcat:startDate        "2022-06-15T22:30:00Z"^^xsd:dateTime;
         dcat:version          "1.0.0" .
+
+<urn:uuid:2a7c814c-96fe-4fd3-bea9-240f834492d5>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <http://iec.ch/TC57/2013/CIM-schema-cim16#> , <https://ap.cim4.eu/Contingency/2.3> , <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#>;
+        dcterms:description    "This is the contingency dataset for DC-Espheim-Svedala part of ReliCapGrid."@en;
+        dcat:accessURL         <file:cimxml/DC-Espheim-Svedala_CO.xml>;
+        dcat:isDistributionOf  <urn:uuid:d4b7c91a-3f8e-4c65-b2a1-7e9f035d4812>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2026-05-25T00:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-CO> .
+
+<urn:uuid:aa99deb5-f10a-462a-9906-c7ab1cfc5bcd>
+        rdf:type               dcat:Distribution;
+        dcterms:conformsTo     <https://cim4.eu/ns/nc/2.4#> , <http://iec.ch/TC57/CIM100#> , <https://ap.cim4.eu/RemedialAction/2.5> , <http://iec.ch/TC57/2013/CIM-schema-cim16#>;
+        dcterms:description    "Svedala - HVDC - Espheim  - NC profile"@en;
+        dcat:accessURL         <file:cimxml/DC-Espheim-Svedala_RA.xml>;
+        dcat:isDistributionOf  <urn:uuid:c1413a88-1f17-4b9e-9afe-cd089605c671>;
+        dcat:mediaType         <http://www.iana.org/assignments/media-types/application/rdf+xml>;
+        prov:generatedAtTime   "2025-06-19T14:00:00Z"^^xsd:dateTimeStamp;
+        prov:wasGeneratedBy    <https://energy.referencedata.eu/Activity/CGM-RA> .
