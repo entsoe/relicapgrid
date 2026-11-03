@@ -15,7 +15,7 @@ per-rule diff lands in summary.md; the type-split result is what code scanning
 gets until the closure variant is adopted.
 
 Run:
-    uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-main --apl ncp-2.5=.apl-main
+    uv run buildScripts/validate_instances.py --apl cgmes-3.0=.apl-cgmes --apl ncp-2.5=.apl-ncp
 """
 import argparse
 import json
@@ -40,12 +40,13 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 REPORTS = REPO_ROOT / "reports"
 LEVEL_ICONS = {"error": "🔴", "warning": "🟠", "note": "🔵"}
 
-# One APL checkout (main) carries both CGMES 3.0 and NCP 2.5 PROF + SHACL.
+# PROF + SHACL come from the AP repos the APL links as submodules: entsoe/CGMES-AP
+# (CGMES 3.0) and entsoe/NC-AP (NCP 2.5), each checked out on its own.
 # The NCP 2.5-dev export schema is vendored (buildScripts/schemas/, provenance
 # in SOURCE.json) until a triplets release ships it.
 RELEASES = {
-    "cgmes-3.0": {"apl": ".apl-main", "kind": "cgmes", "rdf_map": schemas.ENTSOE_CGMES_3_0_0_552_ED1},
-    "ncp-2.5": {"apl": ".apl-main", "kind": "nc",
+    "cgmes-3.0": {"apl": ".apl-cgmes", "kind": "cgmes", "rdf_map": schemas.ENTSOE_CGMES_3_0_0_552_ED1},
+    "ncp-2.5": {"apl": ".apl-ncp", "kind": "nc",
                 "rdf_map": str(REPO_ROOT / "buildScripts/schemas/ENTSOE_NC_2.5-dev_552_ED1.json")},
 }
 
@@ -480,7 +481,7 @@ def main():
     os.chdir(REPO_ROOT)  # relative source paths => repo-relative SARIF artifact URIs
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--apl", action="append", default=[], metavar="RELEASE=PATH",
-                        help="APL checkout per release, e.g. cgmes-3.0=.apl-main (repeatable)")
+                        help="APL checkout per release, e.g. cgmes-3.0=.apl-cgmes (repeatable)")
     parser.add_argument("--only", choices=sorted(RELEASES), help="run a single release")
     parser.add_argument("--no-closure", action="store_true", help="skip the dependency-closure comparison run")
     args = parser.parse_args()
